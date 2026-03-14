@@ -3,14 +3,6 @@ import "@/styles/globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
-import { Inter, Noto_Sans_SC } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const notoSansSC = Noto_Sans_SC({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-noto-sans-sc",
-});
 
 export const metadata: Metadata = {
   title: {
@@ -36,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${notoSansSC.variable} font-sans antialiased min-h-screen flex flex-col`}
+        className="font-sans antialiased min-h-screen flex flex-col"
       >
         <ThemeProvider
           attribute="class"
