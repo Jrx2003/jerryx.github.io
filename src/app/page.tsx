@@ -12,21 +12,18 @@ import {
   Layers,
   Zap,
   Github,
+  ChevronDown,
+  Music,
+  Gamepad2,
+  Trophy,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { ParticleBackground, FloatingOrbs } from "@/components/home/ParticleBackground";
+import { Typewriter } from "@/components/home/Typewriter";
 
-const fadeIn = {
-  initial: { opacity: 0, y: 20 },
+const fadeInUp = {
+  initial: { opacity: 0, y: 30 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.5 },
+  transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
 };
 
 const staggerContainer = {
@@ -43,28 +40,28 @@ const quickLinks = [
     title: "项目",
     description: "探索我的技术项目与实习经历",
     href: "/projects/",
-    color: "text-blue-500",
+    gradient: "from-blue-500 to-cyan-500",
   },
   {
     icon: BookOpen,
     title: "知识库",
     description: "技术笔记与学习心得",
     href: "/kb/",
-    color: "text-green-500",
+    gradient: "from-emerald-500 to-teal-500",
   },
   {
     icon: Coffee,
     title: "博客",
     description: "生活随笔与兴趣爱好",
     href: "/blog/",
-    color: "text-amber-500",
+    gradient: "from-amber-500 to-orange-500",
   },
   {
     icon: Sparkles,
     title: "关于我",
     description: "了解更多关于我的故事",
     href: "/about/",
-    color: "text-purple-500",
+    gradient: "from-purple-500 to-pink-500",
   },
 ];
 
@@ -81,273 +78,372 @@ const techStack = [
   "Kubernetes",
 ];
 
-const featuredContent = [
+const interests = [
   {
-    title: "AICAD 项目",
-    category: "项目",
-    description: "基于大语言模型的 CAD Agent 系统开发",
-    date: "2026-03",
+    icon: Music,
+    title: "音乐剧",
+    description: "享受现场演出的独特魅力",
+    color: "text-pink-400",
+    bgGradient: "from-pink-500/20 to-rose-500/20",
   },
   {
-    title: "CAD Agent 技术详解",
-    category: "技术",
-    description: "深入解析 CAD Agent 的架构设计与实现",
-    date: "2026-03",
+    icon: Trophy,
+    title: "F1 赛车",
+    description: "速度与策略的完美结合",
+    color: "text-red-400",
+    bgGradient: "from-red-500/20 to-orange-500/20",
+  },
+  {
+    icon: Gamepad2,
+    title: "杀戮尖塔",
+    description: "Roguelike 卡牌游戏",
+    color: "text-purple-400",
+    bgGradient: "from-purple-500/20 to-indigo-500/20",
+  },
+];
+
+const featuredProjects = [
+  {
+    title: "AICAD",
+    description: "基于大语言模型的 CAD Agent 系统开发",
+    tags: ["Python", "LangChain", "FastAPI", "CAD"],
+    gradient: "from-purple-500 to-pink-500",
+  },
+  {
+    title: "Git Safety Agent",
+    description: "智能 Git 操作安全检查工具",
+    tags: ["TypeScript", "Node.js", "Git"],
+    gradient: "from-blue-500 to-cyan-500",
   },
 ];
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 md:py-32">
-        <div className="container px-4 md:px-6">
+    <div className="relative min-h-screen">
+      {/* Background Effects */}
+      <ParticleBackground />
+      <FloatingOrbs />
+
+      {/* Gradient Background */}
+      <div className="fixed inset-0 gradient-bg -z-10" />
+      <div className="fixed inset-0 grid-pattern -z-10" />
+
+      {/* Content */}
+      <div className="relative z-10">
+        {/* Hero Section */}
+        <section className="min-h-screen flex flex-col items-center justify-center px-4 pt-20">
           <motion.div
             initial="initial"
             animate="animate"
             variants={staggerContainer}
-            className="flex flex-col items-center text-center"
+            className="max-w-4xl mx-auto text-center"
           >
-            <motion.div variants={fadeIn} className="space-y-2">
-              <Badge variant="secondary" className="mb-4">
-                👋 欢迎访问我的个人网站
-              </Badge>
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tighter">
-                Jerry Xu
-                <span className="text-muted-foreground"> / </span>
-                徐劼瑞
-              </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground max-w-[700px] mx-auto">
-                上海交通大学本科生 · AICAD远程实习生
-                <br />
-                <span className="text-lg">
-                  专注于 CAD Agent 系统开发
-                </span>
-              </p>
+            {/* Badge */}
+            <motion.div variants={fadeInUp} className="mb-8">
+              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm font-medium">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                欢迎访问我的个人网站
+              </span>
             </motion.div>
 
-            <motion.div
-              variants={fadeIn}
-              className="flex flex-wrap justify-center gap-2 mt-8"
+            {/* Name */}
+            <motion.h1
+              variants={fadeInUp}
+              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
             >
-              {techStack.map((tech) => (
-                <Badge key={tech} variant="outline" className="px-3 py-1">
+              <span className="gradient-text">Jerry Xu</span>
+            </motion.h1>
+
+            {/* Subtitle with Typewriter */}
+            <motion.div variants={fadeInUp} className="text-xl sm:text-2xl md:text-3xl text-muted-foreground mb-8">
+              <Typewriter
+                texts={[
+                  "上海交通大学本科生",
+                  "港中文硕士预录取",
+                  "AICAD 远程实习生",
+                  "CAD Agent 开发者",
+                  "音乐剧爱好者",
+                  "F1 赛车迷",
+                ]}
+                className="text-foreground/80"
+                delay={2500}
+              />
+            </motion.div>
+
+            {/* Description */}
+            <motion.p
+              variants={fadeInUp}
+              className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
+            >
+              专注于 AI Agent 系统开发，致力于用技术创造价值。
+              <br className="hidden sm:block" />
+              在代码与生活之间寻找平衡，做一个有趣的技术人。
+            </motion.p>
+
+            {/* Tech Stack */}
+            <motion.div variants={fadeInUp} className="flex flex-wrap justify-center gap-2 mb-12">
+              {techStack.map((tech, index) => (
+                <motion.span
+                  key={tech}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.5 + index * 0.05 }}
+                  className="px-3 py-1 rounded-full text-xs font-medium glass hover:bg-white/10 transition-colors cursor-default"
+                >
                   {tech}
-                </Badge>
+                </motion.span>
               ))}
             </motion.div>
 
-            <motion.div
-              variants={fadeIn}
-              className="flex flex-col sm:flex-row gap-4 mt-10"
-            >
+            {/* CTA Buttons */}
+            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/projects/">
-                <Button size="lg" className="gap-2">
-                  查看项目
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 transition-shadow"
+                >
+                  <span className="flex items-center gap-2">
+                    查看项目
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </motion.button>
               </Link>
               <Link href="/about/">
-                <Button size="lg" variant="outline">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="px-8 py-4 rounded-full glass font-semibold hover:bg-white/10 transition-colors"
+                >
                   了解更多
-                </Button>
+                </motion.button>
               </Link>
             </motion.div>
           </motion.div>
-        </div>
-      </section>
 
-      {/* Quick Links Section */}
-      <section className="py-16 bg-muted/50">
-        <div className="container px-4 md:px-6">
+          {/* Scroll Indicator */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-12"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
+            className="absolute bottom-10 left-1/2 -translate-x-1/2"
           >
-            <h2 className="text-3xl font-bold mb-4">快速导航</h2>
-            <p className="text-muted-foreground">
-              探索我的技术世界与生活点滴
-            </p>
+            <motion.div
+              animate={{ y: [0, 8, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity }}
+              className="flex flex-col items-center gap-2 text-muted-foreground"
+            >
+              <span className="text-xs uppercase tracking-widest">滚动探索</span>
+              <ChevronDown className="w-5 h-5" />
+            </motion.div>
           </motion.div>
+        </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {quickLinks.map((link, index) => (
-              <motion.div
-                key={link.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
-                <Link href={link.href}>
-                  <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group">
-                    <CardHeader>
-                      <div
-                        className={`w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}
-                      >
-                        <link.icon className={`h-6 w-6 ${link.color}`} />
+        {/* Quick Links Section */}
+        <section className="py-32 px-4">
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">快速导航</h2>
+              <p className="text-muted-foreground text-lg">
+                探索我的技术世界与生活点滴
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {quickLinks.map((link, index) => (
+                <motion.div
+                  key={link.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <Link href={link.href}>
+                    <motion.div
+                      whileHover={{ y: -8 }}
+                      className="group relative h-full glass rounded-2xl p-6 hover:bg-white/5 transition-colors cursor-pointer overflow-hidden"
+                    >
+                      {/* Gradient Border Effect */}
+                      <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br ${link.gradient} opacity-5`} />
+
+                      <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${link.gradient} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
+                        <link.icon className="w-6 h-6 text-white" />
                       </div>
-                      <CardTitle>{link.title}</CardTitle>
-                      <CardDescription>{link.description}</CardDescription>
-                    </CardHeader>
-                  </Card>
-                </Link>
-              </motion.div>
-            ))}
+                      <h3 className="text-xl font-semibold mb-2">{link.title}</h3>
+                      <p className="text-sm text-muted-foreground">{link.description}</p>
+
+                      <div className="absolute bottom-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <ArrowRight className="w-5 h-5 text-muted-foreground" />
+                      </div>
+                    </motion.div>
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Featured Content Section */}
-      <section className="py-16">
-        <div className="container px-4 md:px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold mb-4">精选内容</h2>
-            <p className="text-muted-foreground">
-              最近的技术文章与项目更新
-            </p>
-          </motion.div>
+        {/* Featured Projects Section */}
+        <section className="py-32 px-4 relative">
+          {/* Background gradient */}
+          <div className="absolute inset-0 bg-gradient-to-b from-purple-500/5 via-transparent to-transparent pointer-events-none" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {featuredContent.map((item, index) => (
-              <motion.div
-                key={item.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
-                <Card>
-                  <CardHeader>
-                    <div className="flex items-center justify-between mb-2">
-                      <Badge variant="secondary">{item.category}</Badge>
-                      <span className="text-sm text-muted-foreground">
-                        {item.date}
-                      </span>
+          <div className="max-w-6xl mx-auto relative">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">精选项目</h2>
+              <p className="text-muted-foreground text-lg">
+                最近的技术探索与实践经验
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {featuredProjects.map((project, index) => (
+                <motion.div
+                  key={project.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <Link href="/projects/">
+                    <motion.div
+                      whileHover={{ y: -4 }}
+                      className="group relative glass rounded-2xl p-8 hover:bg-white/5 transition-all cursor-pointer overflow-hidden h-full"
+                    >
+                      {/* Gradient glow on hover */}
+                      <div className={`absolute -top-20 -right-20 w-40 h-40 bg-gradient-to-br ${project.gradient} opacity-0 group-hover:opacity-20 blur-3xl transition-opacity`} />
+
+                      <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r ${project.gradient} text-white mb-4`}>
+                        <Cpu className="w-3 h-3" />
+                        Featured
+                      </div>
+
+                      <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
+                      <p className="text-muted-foreground mb-6">{project.description}</p>
+
+                      <div className="flex flex-wrap gap-2">
+                        {project.tags.map((tag) => (
+                          <span
+                            key={tag}
+                            className="px-2 py-1 rounded-md text-xs glass"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </motion.div>
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="text-center mt-10"
+            >
+              <Link href="/projects/">
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  className="px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors text-sm font-medium"
+                >
+                  查看全部项目 →
+                </motion.button>
+              </Link>
+            </motion.div>
+          </div>
+        </section>
+
+        {/* Interests Section */}
+        <section className="py-32 px-4">
+          <div className="max-w-6xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">生活与兴趣</h2>
+              <p className="text-muted-foreground text-lg">
+                代码之外，我也是个有趣的人
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {interests.map((interest, index) => (
+                <motion.div
+                  key={interest.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <motion.div
+                    whileHover={{ y: -4 }}
+                    className="glass rounded-2xl p-6 text-center h-full hover:bg-white/5 transition-colors"
+                  >
+                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${interest.bgGradient} flex items-center justify-center mx-auto mb-4`}>
+                      <interest.icon className={`w-8 h-8 ${interest.color}`} />
                     </div>
-                    <CardTitle className="text-xl">{item.title}</CardTitle>
-                    <CardDescription>{item.description}</CardDescription>
-                  </CardHeader>
-                </Card>
-              </motion.div>
-            ))}
+                    <h3 className="text-xl font-semibold mb-2">{interest.title}</h3>
+                    <p className="text-sm text-muted-foreground">{interest.description}</p>
+                  </motion.div>
+                </motion.div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Interests Section */}
-      <section className="py-16 bg-muted/50">
-        <div className="container px-4 md:px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-bold mb-4">生活与兴趣</h2>
-            <p className="text-muted-foreground">
-              代码之外，我也是个有趣的人
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        {/* GitHub CTA */}
+        <section className="py-32 px-4 relative">
+          <div className="max-w-4xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
+              className="glass rounded-3xl p-12 text-center relative overflow-hidden"
             >
-              <Card className="text-center h-full">
-                <CardHeader>
-                  <div className="w-12 h-12 rounded-full bg-pink-100 dark:bg-pink-900/30 flex items-center justify-center mx-auto mb-4">
-                    <Sparkles className="h-6 w-6 text-pink-500" />
-                  </div>
-                  <CardTitle>音乐剧</CardTitle>
-                  <CardDescription>
-                    热爱音乐剧，享受现场演出的魅力
-                  </CardDescription>
-                </CardHeader>
-              </Card>
-            </motion.div>
+              {/* Background decoration */}
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-pink-500/10" />
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-32 bg-purple-500/20 blur-3xl" />
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-            >
-              <Card className="text-center h-full">
-                <CardHeader>
-                  <div className="w-12 h-12 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center mx-auto mb-4">
-                    <Zap className="h-6 w-6 text-red-500" />
-                  </div>
-                  <CardTitle>F1 赛车</CardTitle>
-                  <CardDescription>
-                    速度与激情的完美结合
-                  </CardDescription>
-                </CardHeader>
-              </Card>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <Card className="text-center h-full">
-                <CardHeader>
-                  <div className="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mx-auto mb-4">
-                    <Layers className="h-6 w-6 text-purple-500" />
-                  </div>
-                  <CardTitle>杀戮尖塔</CardTitle>
-                  <CardDescription>
-                    Roguelike 卡牌游戏的忠实玩家
-                  </CardDescription>
-                </CardHeader>
-              </Card>
+              <div className="relative">
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center mx-auto mb-6 shadow-xl">
+                  <Github className="w-8 h-8 text-white" />
+                </div>
+                <h2 className="text-3xl font-bold mb-4">更多内容在 GitHub</h2>
+                <p className="text-muted-foreground mb-8 max-w-md mx-auto">
+                  查看我的开源项目、代码贡献和技术探索
+                </p>
+                <a
+                  href="https://github.com/Jrx2003"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="px-8 py-4 rounded-full bg-white text-gray-900 font-semibold hover:bg-gray-100 transition-colors"
+                  >
+                    访问 GitHub
+                  </motion.button>
+                </a>
+              </div>
             </motion.div>
           </div>
-        </div>
-      </section>
-
-      {/* GitHub CTA */}
-      <section className="py-20">
-        <div className="container px-4 md:px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-center"
-          >
-            <h2 className="text-3xl font-bold mb-4">更多内容</h2>
-            <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-              在 GitHub 上查看我的开源项目和代码贡献
-            </p>
-            <a
-              href="https://github.com/Jrx2003"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button size="lg" variant="outline" className="gap-2">
-                <Github className="h-5 w-5" />
-                访问 GitHub
-              </Button>
-            </a>
-          </motion.div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }
