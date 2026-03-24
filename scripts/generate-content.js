@@ -58,13 +58,24 @@ const KB_CATEGORIES = [
 ];
 
 function slugify(str) {
-  // Create URL-friendly slug from Chinese filename
-  // Use original filename without extension, replacing spaces with dashes
-  // Keep original case and Chinese characters
-  return str
-    .replace(/\.md$/, '')
-    .trim()
-    .replace(/\s+/g, '-');
+  // Create URL-friendly slug - use numeric ID based on filename hash
+  // This avoids issues with Chinese characters in URLs
+  const cleanName = str.replace(/\.md$/, '').trim();
+  // Create a simple hash from the filename
+  let hash = 0;
+  for (let i = 0; i < cleanName.length; i++) {
+    const char = cleanName.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash;
+  }
+  // Convert to positive base36 string
+  const id = Math.abs(hash).toString(36).substring(0, 8);
+  // Extract first part of English words if any
+  const englishPart = cleanName.match(/^[A-Za-z]+/);
+  if (englishPart) {
+    return `${englishPart[0].toLowerCase()}-${id}`;
+  }
+  return `doc-${id}`;
 }
 
 function convertWikiLinks(content, categoryId) {

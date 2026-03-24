@@ -1,0 +1,820 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","llm-9wye2p","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","llm-9wye2p","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"llm-9wye2p\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","llm-9wye2p","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T2628,# LLM 高频面试题
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 全阶段
+> **预计阅读时间**: 60 分钟
+
+---
+
+## 一、基础概念题
+
+### Transformer 相关
+
+**Q1: Transformer 相比 RNN 的核心优势？**
+
+**答案要点**:
+1. **并行化**: RNN 必须按时间步迭代，Transformer 可同时处理所有位置
+2. **长距离依赖**: Attention 直接连接任意两个位置，不受序列长度影响
+3. **可解释性**: 注意力权重展示模型关注重点
+4. **梯度流动**: 残差连接 + LayerNorm 缓解梯度消失
+
+**Q2: Self-Attention 的时间复杂度？**
+
+**答案**:
+- 序列长度 n，模型维度 d
+- Attention: O(n² × d) - 序列间两两交互
+- FFN: O(n × d²) - 逐位置变换
+- 通常 n < d，所以 Attention 是瓶颈
+
+**Q3: 为什么需要 Multi-Head Attention？**
+
+**答案**:
+1. 不同头学习不同的注意力模式
+2. 有的头关注语法，有的关注语义
+3. 增加模型表达能力
+4. 类似 CNN 的多通道
+
+**Q4: LayerNorm 的位置 (Pre vs Post)？**
+
+**答案**:
+| 类型 | 公式 | 效果 |
+|------|------|------|
+| Post-LN | x + Sublayer(LN(x)) | 原始 Transformer，训练不稳定 |
+| Pre-LN | LN(x + Sublayer(x)) | 现代常用，训练更稳定 |
+
+现代模型 (GPT-3, LLaMA) 都用 Pre-LN
+
+---
+
+## 二、预训练技术题
+
+### GPT/BERT
+
+**Q5: GPT 和 BERT 的核心区别？**
+
+**答案**:
+| 维度 | GPT | BERT |
+|------|-----|------|
+| 架构 | Decoder-only | Encoder-only |
+| 注意力 | 因果掩码 (单向) | 双向 |
+| 预训练任务 | 语言模型 (CLM) | MLM + NSP |
+| 适用任务 | 生成 | 理解 |
+
+**Q6: 什么是涌现能力 (Emergent Ability)？**
+
+**答案**:
+- 模型规模超过阈值后突然出现的能力
+- 小规模时完全不具备，超过阈值后稳定出现
+- 例子: 算术、代码、复杂推理
+- GPT-3 175B 是典型例子
+
+**Q7: 预训练数据如何清洗？**
+
+**答案要点**:
+1. **去重**: 精确/模糊去重
+2. **过滤**: 低质量内容、NSFW、PII
+3. **语言检测**: 保留目标语言
+4. **长度过滤**: 去除过短/过长文本
+5. **质量打分**: 使用分类器评估质量
+
+---
+
+## 三、对齐技术题
+
+### RLHF / DPO
+
+**Q8: RLHF 的三个阶段？**
+
+**答案**:
+1. **SFT**: 指令微调，学习任务格式
+2. **RM 训练**: 人类偏好数据训练奖励模型
+3. **PPO**: 使用 RM 奖励优化策略
+
+**Q9: RLHF 中为什么需要 Reference Model？**
+
+**答案**:
+1. 计算 KL 散度约束
+2. 防止模型过度偏离 SFT 模型
+3. 避免奖励黑客 (Reward Hacking)
+4. 保持生成质量稳定性
+
+**Q10: DPO 相比 RLHF 的优势？**
+
+**答案**:
+| 维度 | RLHF | DPO |
+|------|------|-----|
+| 奖励模型 | 需要 | 不需要 |
+| 训练稳定性 | 一般 | 好 |
+| 实现复杂度 | 高 | 低 |
+| 训练效率 | 低 | 高 |
+
+DPO 直接优化策略，跳过奖励模型训练
+
+**Q11: 什么情况下 DPO 比 RLHF 差？**
+
+**答案**:
+- 偏好数据噪声大时
+- 需要细粒度过程监督时
+- 多轮对话优化时
+
+---
+
+## 四、推理优化题
+
+### KV Cache / 量化
+
+**Q12: KV Cache 为什么能加速生成？**
+
+**答案**:
+1. 避免重复计算之前 token 的 KV
+2. 复杂度从 O(n²) 降到 O(n) 每步
+3. 内存局部性好，缓存命中率高
+
+**Q13: GQA 是什么？相比 MHA 的优势？**
+
+**答案**:
+- **MHA**: 每头独立 KV (8 heads = 8 套 KV)
+- **GQA**: 多查询头共享 KV (8 heads = 2 套 KV)
+- **优势**: 减少 KV Cache 显存，几乎不损失效果
+
+**Q14: INT8 量化的两种方法？**
+
+**答案**:
+1. **PTQ (Post-Training Quantization)**: 训练后直接量化
+2. **QAT (Quantization-Aware Training)**: 训练时模拟量化
+
+**Q15: 为什么量化能加速推理？**
+
+**答案**:
+1. 减少显存占用，可批处理更多样本
+2. 硬件支持 INT8/FP8 矩阵乘法 (更快)
+3. 减少数据传输
+
+---
+
+## 五、长上下文题
+
+### 位置编码 / 外推
+
+**Q16: 绝对位置编码 vs 相对位置编码？**
+
+**答案**:
+| 类型 | 代表 | 特点 |
+|------|------|------|
+| 绝对 | Sinusoidal, Learned | 每个位置独立编码 |
+| 相对 | RoPE, ALiBi | 编码相对距离 |
+
+RoPE 兼具绝对和相对优点
+
+**Q17: RoPE 位置编码的优势？**
+
+**答案**:
+1. 通过旋转矩阵编码相对位置
+2. 外推性好 (可扩展到更长序列)
+3. 注意力得分可分解为相对位置的函数
+4. 现代 LLM 主流选择
+
+**Q18: 如何处理超出训练长度的序列？**
+
+**答案**:
+1. **NTK-aware 外推**: 频率缩放
+2. **YaRN**: 组合策略 + 温度缩放
+3. **位置插值**: 压缩位置到训练长度
+4. **滑动窗口**: 只关注局部上下文
+
+---
+
+## 六、前沿技术题
+
+### MoE / o1
+
+**Q19: MoE 的核心思想？负载均衡如何实现？**
+
+**答案**:
+- **核心**: 多个专家，只激活部分
+- **负载均衡**: 辅助损失函数，鼓励均匀分配
+- **辅助损失**: 基于专家使用频率的 KL 散度
+
+**Q20: o1 类模型与传统 LLM 的核心区别？**
+
+**答案**:
+1. **思考方式**: o1 深度推理，传统快速直觉
+2. **训练**: o1 使用过程奖励模型 (PRM)
+3. **推理**: o1 投入更多计算时间
+4. **适用**: o1 适合复杂推理任务
+
+**Q21: 什么是 Test-Time Scaling？**
+
+**答案**:
+- 在推理时投入更多计算资源
+- 方法: 多次采样、自我验证、逐步检查
+- 与训练时扩展开销不同
+
+---
+
+## 七、系统设计题
+
+### 工程实践
+
+**Q22: 如何设计一个 LLM 推理服务？**
+
+**答案要点**:
+```
+架构:
+1. 负载均衡 (nginx/ALB)
+2. 推理服务器 (vLLM/TGI)
+   - 连续批处理
+   - PagedAttention
+   - 量化支持
+3. 缓存层 (Redis)
+4. 模型存储 (S3/共享存储)
+
+优化:
+- 动态批处理
+- KV Cache 复用
+- 模型量化
+- 多卡并行
+```
+
+**Q23: 大模型部署的显存计算？**
+
+**答案**:
+```
+7B 模型 FP16:
+- 模型权重: 14 GB
+- KV Cache (4K): 2 GB
+- 激活值: 1 GB
+- 合计: ~17 GB
+
+优化后 (INT4 + GQA):
+- 模型权重: 4 GB
+- KV Cache: 0.5 GB
+- 可在单卡 24GB 运行
+```
+
+**Q24: 如何处理 LLM 的幻觉问题？**
+
+**答案**:
+1. **数据**: 高质量训练数据
+2. **对齐**: RLHF 减少幻觉
+3. **检索**: RAG 提供事实依据
+4. **验证**: 让模型自我验证
+5. **约束**: 限制生成长度
+
+---
+
+## 八、手撕代码题
+
+### 必会代码
+
+**Q25: 手写 Scaled Dot-Product Attention**
+
+```python
+def scaled_dot_product_attention(Q, K, V, mask=None, dropout=None):
+    """
+    Q, K, V: [batch, heads, seq_len, d_k]
+    """
+    d_k = Q.size(-1)
+
+    # 计算注意力得分
+    scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(d_k)
+    # scores: [batch, heads, seq_len, seq_len]
+
+    # 应用 mask
+    if mask is not None:
+        scores = scores.masked_fill(mask == 0, -1e9)
+
+    # Softmax
+    attn_weights = F.softmax(scores, dim=-1)
+
+    # Dropout
+    if dropout is not None:
+        attn_weights = dropout(attn_weights)
+
+    # 加权求和
+    output = torch.matmul(attn_weights, V)
+    # output: [batch, heads, seq_len, d_k]
+
+    return output, attn_weights
+```
+
+**Q26: 手写 RoPE 位置编码**
+
+```python
+def apply_rotary_pos_emb(q, k, cos, sin):
+    """
+    应用旋转位置编码
+
+    q, k: [batch, heads, seq_len, head_dim]
+    cos, sin: [1, 1, seq_len, head_dim]
+    """
+    # 将 q, k 分成两半
+    q1, q2 = q[..., ::2], q[..., 1::2]
+    k1, k2 = k[..., ::2], k[..., 1::2]
+
+    # 应用旋转
+    q_embed = torch.cat([q1 * cos - q2 * sin, q1 * sin + q2 * cos], dim=-1)
+    k_embed = torch.cat([k1 * cos - k2 * sin, k1 * sin + k2 * cos], dim=-1)
+
+    return q_embed, k_embed
+
+
+def get_rope_embeddings(seq_len, head_dim, base=10000):
+    """生成 RoPE 的 cos/sin"""
+    positions = torch.arange(seq_len).unsqueeze(1)  # [seq_len, 1]
+    dim_indices = torch.arange(0, head_dim, 2).float()  # [head_dim//2]
+
+    # 计算角度
+    angles = positions / (base ** (dim_indices / head_dim))
+
+    # 扩展到完整维度
+    cos = torch.cos(angles).repeat_interleave(2, dim=-1)
+    sin = torch.sin(angles).repeat_interleave(2, dim=-1)
+
+    return cos.unsqueeze(0).unsqueeze(0), sin.unsqueeze(0).unsqueeze(0)
+```
+
+---
+
+## 九、行为面试题
+
+### 项目经验
+
+**Q27: 介绍你最熟悉的 LLM 项目**
+
+**回答框架**:
+1. **背景**: 项目目标和挑战
+2. **方案**: 技术选型和架构
+3. **实现**: 具体做了哪些工作
+4. **结果**: 量化的效果提升
+5. **反思**: 学到了什么，有什么改进
+
+**Q28: 遇到过的最大技术挑战？**
+
+**参考回答**:
+```
+场景: 长文档理解任务，上下文长度不足
+
+解决方案:
+1. 调研了多种长上下文方案
+2. 选择了 YaRN 外推 + 分层注意力
+3. 实现了 Sliding Window Attention
+4. 效果: 从 4K 扩展到 32K，性能保持 95%
+
+学到: 技术选型的权衡，工程化经验
+```
+
+**Q29: 如何跟进 LLM 最新进展？**
+
+**答案**:
+1. **论文**: arXiv, Papers With Code
+2. **社区**: Hugging Face, Twitter/X
+3. **开源**: GitHub trending
+4. **会议**: NeurIPS, ICML, ACL
+5. **博客**: OpenAI, DeepMind, 知乎
+
+---
+
+## 十、面试准备建议
+
+### 知识层次
+
+| 层次 | 内容 | 要求 |
+|------|------|------|
+| **基础** | Transformer, Attention | 必须熟练 |
+| **进阶** | RLHF, 推理优化 | 深入理解 |
+| **前沿** | MoE, o1, 多模态 | 了解原理 |
+| **工程** | 部署, 量化, 加速 | 实践经验 |
+
+### 推荐准备
+
+1. **理论**: 精读 Attention is All You Need, InstructGPT 等经典论文
+2. **代码**: 手撕 Transformer, LoRA, Attention
+3. **项目**: 准备 1-2 个完整的 LLM 项目
+4. **跟进**: 了解最新的 GPT-4, Claude, Llama 等进展
+
+---
+
+## 相关文档
+
+- [手撕代码题](/kb/llm/doc-su6ryo) - 代码实现详解
+- [系统设计题](/kb/llm/doc-81l1u9) - 系统设计详解
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [RLHF深度解析](/kb/llm/rlhf-n4tjfq) - 对齐技术
+d:T2628,# LLM 高频面试题
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 全阶段
+> **预计阅读时间**: 60 分钟
+
+---
+
+## 一、基础概念题
+
+### Transformer 相关
+
+**Q1: Transformer 相比 RNN 的核心优势？**
+
+**答案要点**:
+1. **并行化**: RNN 必须按时间步迭代，Transformer 可同时处理所有位置
+2. **长距离依赖**: Attention 直接连接任意两个位置，不受序列长度影响
+3. **可解释性**: 注意力权重展示模型关注重点
+4. **梯度流动**: 残差连接 + LayerNorm 缓解梯度消失
+
+**Q2: Self-Attention 的时间复杂度？**
+
+**答案**:
+- 序列长度 n，模型维度 d
+- Attention: O(n² × d) - 序列间两两交互
+- FFN: O(n × d²) - 逐位置变换
+- 通常 n < d，所以 Attention 是瓶颈
+
+**Q3: 为什么需要 Multi-Head Attention？**
+
+**答案**:
+1. 不同头学习不同的注意力模式
+2. 有的头关注语法，有的关注语义
+3. 增加模型表达能力
+4. 类似 CNN 的多通道
+
+**Q4: LayerNorm 的位置 (Pre vs Post)？**
+
+**答案**:
+| 类型 | 公式 | 效果 |
+|------|------|------|
+| Post-LN | x + Sublayer(LN(x)) | 原始 Transformer，训练不稳定 |
+| Pre-LN | LN(x + Sublayer(x)) | 现代常用，训练更稳定 |
+
+现代模型 (GPT-3, LLaMA) 都用 Pre-LN
+
+---
+
+## 二、预训练技术题
+
+### GPT/BERT
+
+**Q5: GPT 和 BERT 的核心区别？**
+
+**答案**:
+| 维度 | GPT | BERT |
+|------|-----|------|
+| 架构 | Decoder-only | Encoder-only |
+| 注意力 | 因果掩码 (单向) | 双向 |
+| 预训练任务 | 语言模型 (CLM) | MLM + NSP |
+| 适用任务 | 生成 | 理解 |
+
+**Q6: 什么是涌现能力 (Emergent Ability)？**
+
+**答案**:
+- 模型规模超过阈值后突然出现的能力
+- 小规模时完全不具备，超过阈值后稳定出现
+- 例子: 算术、代码、复杂推理
+- GPT-3 175B 是典型例子
+
+**Q7: 预训练数据如何清洗？**
+
+**答案要点**:
+1. **去重**: 精确/模糊去重
+2. **过滤**: 低质量内容、NSFW、PII
+3. **语言检测**: 保留目标语言
+4. **长度过滤**: 去除过短/过长文本
+5. **质量打分**: 使用分类器评估质量
+
+---
+
+## 三、对齐技术题
+
+### RLHF / DPO
+
+**Q8: RLHF 的三个阶段？**
+
+**答案**:
+1. **SFT**: 指令微调，学习任务格式
+2. **RM 训练**: 人类偏好数据训练奖励模型
+3. **PPO**: 使用 RM 奖励优化策略
+
+**Q9: RLHF 中为什么需要 Reference Model？**
+
+**答案**:
+1. 计算 KL 散度约束
+2. 防止模型过度偏离 SFT 模型
+3. 避免奖励黑客 (Reward Hacking)
+4. 保持生成质量稳定性
+
+**Q10: DPO 相比 RLHF 的优势？**
+
+**答案**:
+| 维度 | RLHF | DPO |
+|------|------|-----|
+| 奖励模型 | 需要 | 不需要 |
+| 训练稳定性 | 一般 | 好 |
+| 实现复杂度 | 高 | 低 |
+| 训练效率 | 低 | 高 |
+
+DPO 直接优化策略，跳过奖励模型训练
+
+**Q11: 什么情况下 DPO 比 RLHF 差？**
+
+**答案**:
+- 偏好数据噪声大时
+- 需要细粒度过程监督时
+- 多轮对话优化时
+
+---
+
+## 四、推理优化题
+
+### KV Cache / 量化
+
+**Q12: KV Cache 为什么能加速生成？**
+
+**答案**:
+1. 避免重复计算之前 token 的 KV
+2. 复杂度从 O(n²) 降到 O(n) 每步
+3. 内存局部性好，缓存命中率高
+
+**Q13: GQA 是什么？相比 MHA 的优势？**
+
+**答案**:
+- **MHA**: 每头独立 KV (8 heads = 8 套 KV)
+- **GQA**: 多查询头共享 KV (8 heads = 2 套 KV)
+- **优势**: 减少 KV Cache 显存，几乎不损失效果
+
+**Q14: INT8 量化的两种方法？**
+
+**答案**:
+1. **PTQ (Post-Training Quantization)**: 训练后直接量化
+2. **QAT (Quantization-Aware Training)**: 训练时模拟量化
+
+**Q15: 为什么量化能加速推理？**
+
+**答案**:
+1. 减少显存占用，可批处理更多样本
+2. 硬件支持 INT8/FP8 矩阵乘法 (更快)
+3. 减少数据传输
+
+---
+
+## 五、长上下文题
+
+### 位置编码 / 外推
+
+**Q16: 绝对位置编码 vs 相对位置编码？**
+
+**答案**:
+| 类型 | 代表 | 特点 |
+|------|------|------|
+| 绝对 | Sinusoidal, Learned | 每个位置独立编码 |
+| 相对 | RoPE, ALiBi | 编码相对距离 |
+
+RoPE 兼具绝对和相对优点
+
+**Q17: RoPE 位置编码的优势？**
+
+**答案**:
+1. 通过旋转矩阵编码相对位置
+2. 外推性好 (可扩展到更长序列)
+3. 注意力得分可分解为相对位置的函数
+4. 现代 LLM 主流选择
+
+**Q18: 如何处理超出训练长度的序列？**
+
+**答案**:
+1. **NTK-aware 外推**: 频率缩放
+2. **YaRN**: 组合策略 + 温度缩放
+3. **位置插值**: 压缩位置到训练长度
+4. **滑动窗口**: 只关注局部上下文
+
+---
+
+## 六、前沿技术题
+
+### MoE / o1
+
+**Q19: MoE 的核心思想？负载均衡如何实现？**
+
+**答案**:
+- **核心**: 多个专家，只激活部分
+- **负载均衡**: 辅助损失函数，鼓励均匀分配
+- **辅助损失**: 基于专家使用频率的 KL 散度
+
+**Q20: o1 类模型与传统 LLM 的核心区别？**
+
+**答案**:
+1. **思考方式**: o1 深度推理，传统快速直觉
+2. **训练**: o1 使用过程奖励模型 (PRM)
+3. **推理**: o1 投入更多计算时间
+4. **适用**: o1 适合复杂推理任务
+
+**Q21: 什么是 Test-Time Scaling？**
+
+**答案**:
+- 在推理时投入更多计算资源
+- 方法: 多次采样、自我验证、逐步检查
+- 与训练时扩展开销不同
+
+---
+
+## 七、系统设计题
+
+### 工程实践
+
+**Q22: 如何设计一个 LLM 推理服务？**
+
+**答案要点**:
+```
+架构:
+1. 负载均衡 (nginx/ALB)
+2. 推理服务器 (vLLM/TGI)
+   - 连续批处理
+   - PagedAttention
+   - 量化支持
+3. 缓存层 (Redis)
+4. 模型存储 (S3/共享存储)
+
+优化:
+- 动态批处理
+- KV Cache 复用
+- 模型量化
+- 多卡并行
+```
+
+**Q23: 大模型部署的显存计算？**
+
+**答案**:
+```
+7B 模型 FP16:
+- 模型权重: 14 GB
+- KV Cache (4K): 2 GB
+- 激活值: 1 GB
+- 合计: ~17 GB
+
+优化后 (INT4 + GQA):
+- 模型权重: 4 GB
+- KV Cache: 0.5 GB
+- 可在单卡 24GB 运行
+```
+
+**Q24: 如何处理 LLM 的幻觉问题？**
+
+**答案**:
+1. **数据**: 高质量训练数据
+2. **对齐**: RLHF 减少幻觉
+3. **检索**: RAG 提供事实依据
+4. **验证**: 让模型自我验证
+5. **约束**: 限制生成长度
+
+---
+
+## 八、手撕代码题
+
+### 必会代码
+
+**Q25: 手写 Scaled Dot-Product Attention**
+
+```python
+def scaled_dot_product_attention(Q, K, V, mask=None, dropout=None):
+    """
+    Q, K, V: [batch, heads, seq_len, d_k]
+    """
+    d_k = Q.size(-1)
+
+    # 计算注意力得分
+    scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(d_k)
+    # scores: [batch, heads, seq_len, seq_len]
+
+    # 应用 mask
+    if mask is not None:
+        scores = scores.masked_fill(mask == 0, -1e9)
+
+    # Softmax
+    attn_weights = F.softmax(scores, dim=-1)
+
+    # Dropout
+    if dropout is not None:
+        attn_weights = dropout(attn_weights)
+
+    # 加权求和
+    output = torch.matmul(attn_weights, V)
+    # output: [batch, heads, seq_len, d_k]
+
+    return output, attn_weights
+```
+
+**Q26: 手写 RoPE 位置编码**
+
+```python
+def apply_rotary_pos_emb(q, k, cos, sin):
+    """
+    应用旋转位置编码
+
+    q, k: [batch, heads, seq_len, head_dim]
+    cos, sin: [1, 1, seq_len, head_dim]
+    """
+    # 将 q, k 分成两半
+    q1, q2 = q[..., ::2], q[..., 1::2]
+    k1, k2 = k[..., ::2], k[..., 1::2]
+
+    # 应用旋转
+    q_embed = torch.cat([q1 * cos - q2 * sin, q1 * sin + q2 * cos], dim=-1)
+    k_embed = torch.cat([k1 * cos - k2 * sin, k1 * sin + k2 * cos], dim=-1)
+
+    return q_embed, k_embed
+
+
+def get_rope_embeddings(seq_len, head_dim, base=10000):
+    """生成 RoPE 的 cos/sin"""
+    positions = torch.arange(seq_len).unsqueeze(1)  # [seq_len, 1]
+    dim_indices = torch.arange(0, head_dim, 2).float()  # [head_dim//2]
+
+    # 计算角度
+    angles = positions / (base ** (dim_indices / head_dim))
+
+    # 扩展到完整维度
+    cos = torch.cos(angles).repeat_interleave(2, dim=-1)
+    sin = torch.sin(angles).repeat_interleave(2, dim=-1)
+
+    return cos.unsqueeze(0).unsqueeze(0), sin.unsqueeze(0).unsqueeze(0)
+```
+
+---
+
+## 九、行为面试题
+
+### 项目经验
+
+**Q27: 介绍你最熟悉的 LLM 项目**
+
+**回答框架**:
+1. **背景**: 项目目标和挑战
+2. **方案**: 技术选型和架构
+3. **实现**: 具体做了哪些工作
+4. **结果**: 量化的效果提升
+5. **反思**: 学到了什么，有什么改进
+
+**Q28: 遇到过的最大技术挑战？**
+
+**参考回答**:
+```
+场景: 长文档理解任务，上下文长度不足
+
+解决方案:
+1. 调研了多种长上下文方案
+2. 选择了 YaRN 外推 + 分层注意力
+3. 实现了 Sliding Window Attention
+4. 效果: 从 4K 扩展到 32K，性能保持 95%
+
+学到: 技术选型的权衡，工程化经验
+```
+
+**Q29: 如何跟进 LLM 最新进展？**
+
+**答案**:
+1. **论文**: arXiv, Papers With Code
+2. **社区**: Hugging Face, Twitter/X
+3. **开源**: GitHub trending
+4. **会议**: NeurIPS, ICML, ACL
+5. **博客**: OpenAI, DeepMind, 知乎
+
+---
+
+## 十、面试准备建议
+
+### 知识层次
+
+| 层次 | 内容 | 要求 |
+|------|------|------|
+| **基础** | Transformer, Attention | 必须熟练 |
+| **进阶** | RLHF, 推理优化 | 深入理解 |
+| **前沿** | MoE, o1, 多模态 | 了解原理 |
+| **工程** | 部署, 量化, 加速 | 实践经验 |
+
+### 推荐准备
+
+1. **理论**: 精读 Attention is All You Need, InstructGPT 等经典论文
+2. **代码**: 手撕 Transformer, LoRA, Attention
+3. **项目**: 准备 1-2 个完整的 LLM 项目
+4. **跟进**: 了解最新的 GPT-4, Claude, Llama 等进展
+
+---
+
+## 相关文档
+
+- [手撕代码题](/kb/llm/doc-su6ryo) - 代码实现详解
+- [系统设计题](/kb/llm/doc-81l1u9) - 系统设计详解
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [RLHF深度解析](/kb/llm/rlhf-n4tjfq) - 对齐技术
+2:["$","$Lb",null,{"document":{"slug":"llm-9wye2p","title":"LLM高频面试题","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"面试专题/LLM高频面试题.md","default":{"slug":"llm-9wye2p","title":"LLM高频面试题","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"面试专题/LLM高频面试题.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"LLM高频面试题 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"LLM高频面试题"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

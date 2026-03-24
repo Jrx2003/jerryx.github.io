@@ -1,0 +1,1462 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","o-l9negx","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","o-l9negx","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"o-l9negx\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","o-l9negx","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T4a9f,# o1 类推理模型深度解析
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 高级
+> **预计阅读时间**: 60 分钟
+
+---
+
+## 目录
+
+1. [o1 模型概述](#o1-模型概述)
+2. [Test-Time Scaling](#test-time-scaling)
+3. [Process Reward Model](#process-reward-model)
+4. [Chain-of-Thought 优化](#chain-of-thought-优化)
+5. [DeepSeek-R1 开源方案](#deepseek-r1-开源方案)
+6. [面试要点](#面试要点)
+
+---
+
+## o1 模型概述
+
+### 什么是 o1 模型
+
+OpenAI 于 2024 年 9 月发布的 o1 系列模型（o1-preview、o1-mini）代表了 LLM 推理能力的重要突破。
+
+```
+传统 LLM: 问题 → 直接回答
+o1 模型:   问题 → 思考过程 (Chain-of-Thought) → 回答
+
+特点:
+- 生成详细的思考过程
+- 可以回溯和修正思路
+- 在数学、代码、科学推理上显著提升
+```
+
+### 性能提升
+
+| 评测集 | GPT-4 | o1-preview | 提升 |
+|--------|-------|------------|------|
+| MATH (数学) | 52.9% | 83.8% | +30.9% |
+| Codeforces (编程) | 11th percentile | 89th percentile | +78% |
+| GPQA Diamond (科学) | 56.1% | 78.0% | +21.9% |
+| AIME (数学竞赛) | 12.0% | 83.3% | +71.3% |
+
+### 核心思想
+
+```
+传统 Scaling Law: 提升模型性能主要靠
+- 增加模型参数
+- 增加训练数据
+- 增加训练计算
+
+o1 的创新: Test-Time Scaling
+- 在推理时增加"思考时间"
+- 生成更长的推理链
+- 通过验证和回溯提高答案质量
+```
+
+---
+
+## Test-Time Scaling
+
+### 概念
+
+**Test-Time Scaling** 是指在推理阶段投入更多计算资源来提升模型性能。
+
+```python
+# 传统推理
+answer = model.generate(prompt, max_tokens=100)
+
+# Test-Time Scaling
+def test_time_scaling(model, prompt, max_iterations=10):
+    """通过多步推理提升答案质量"""
+
+    thoughts = []
+    for i in range(max_iterations):
+        # 生成思考步骤
+        thought_prompt = f"""
+问题: {prompt}
+
+当前思路: {' '.join(thoughts)}
+
+下一步思考:"""
+
+        thought = model.generate(thought_prompt, temperature=0.7)
+        thoughts.append(thought)
+
+        # 检查是否可以给出答案
+        answer_prompt = f"""
+问题: {prompt}
+
+思考过程:
+{chr(10).join(f'{i+1}. {t}' for i, t in enumerate(thoughts))}
+
+基于以上思考，给出最终答案:"""
+
+        answer = model.generate(answer_prompt)
+
+        # 验证答案
+        if verify_answer(answer, prompt):
+            return answer
+
+    return answer  # 返回最后一次的答案
+```
+
+### 具体技术
+
+#### 1. Self-Consistency
+
+通过采样多个推理路径，选择最常见的答案。
+
+```python
+def self_consistency_decoding(model, prompt, n_samples=10):
+    """自洽性解码"""
+
+    # 采样多个推理路径
+    answers = []
+    for _ in range(n_samples):
+        # 使用不同温度采样
+        temperature = random.uniform(0.5, 1.0)
+        answer = model.generate(prompt, temperature=temperature)
+        answers.append(answer)
+
+    # 选择最常见的答案
+    from collections import Counter
+    answer_counts = Counter(answers)
+    most_common = answer_counts.most_common(1)[0][0]
+
+    return most_common
+```
+
+#### 2. Step-by-Step Verification
+
+逐步验证推理过程的正确性。
+
+```python
+def step_by_step_verification(model, problem, num_steps=5):
+    """逐步验证"""
+
+    steps = []
+
+    for step_idx in range(num_steps):
+        # 生成下一步
+        step_prompt = f"""
+问题: {problem}
+已完成的步骤:
+{chr(10).join(steps)}
+
+请继续下一步推理:"""
+
+        step = model.generate(step_prompt)
+
+        # 验证这一步的正确性
+        verify_prompt = f"""
+问题: {problem}
+当前步骤: {step}
+
+这一步是否正确？请回答 Yes 或 No 并解释原因。"""
+
+        verification = model.generate(verify_prompt)
+
+        if "No" in verification:
+            # 重新生成这一步
+            correction_prompt = f"""
+问题: {problem}
+之前的步骤有错误。
+
+请重新思考这一步:"""
+            step = model.generate(correction_prompt)
+
+        steps.append(step)
+
+    # 生成最终答案
+    final_prompt = f"""
+问题: {problem}
+推理步骤:
+{chr(10).join(steps)}
+
+最终答案:"""
+
+    return model.generate(final_prompt)
+```
+
+#### 3. Tree of Thoughts (ToT)
+
+使用树形搜索探索多条推理路径。
+
+```python
+class TreeOfThoughts:
+    """思维树搜索"""
+
+    def __init__(self, model, breadth=3, depth=5):
+        self.model = model
+        self.breadth = breadth  # 每层的分支数
+        self.depth = depth      # 最大深度
+
+    def search(self, problem):
+        """执行树搜索"""
+
+        # 初始化根节点
+        root = ThoughtNode(content=problem, score=0)
+
+        for depth in range(self.depth):
+            # 扩展当前层的所有节点
+            current_nodes = self.get_nodes_at_depth(root, depth)
+
+            for node in current_nodes:
+                # 生成多个可能的下一步
+                candidates = self.generate_candidates(node, k=self.breadth)
+
+                for candidate in candidates:
+                    # 评估候选节点的质量
+                    score = self.evaluate(candidate, problem)
+
+                    child = ThoughtNode(
+                        content=candidate,
+                        parent=node,
+                        score=score
+                    )
+                    node.children.append(child)
+
+        # 选择最佳路径
+        best_path = self.select_best_path(root)
+        return self.extract_answer(best_path)
+
+    def generate_candidates(self, node, k=3):
+        """生成 k 个候选思考"""
+
+        candidates = []
+        for i in range(k):
+            prompt = f"""
+问题: {node.root.content}
+当前思路: {node.get_path_content()}
+
+请提供第 {i+1} 个可能的下一步思考:"""
+
+            candidate = self.model.generate(prompt, temperature=0.8)
+            candidates.append(candidate)
+
+        return candidates
+
+    def evaluate(self, thought, problem):
+        """评估思考步骤的质量"""
+
+        eval_prompt = f"""
+问题: {problem}
+思考步骤: {thought}
+
+请评估这个思考步骤的合理性（0-10分）："""
+
+        score_text = self.model.generate(eval_prompt)
+        # 解析分数
+        score = self.extract_score(score_text)
+
+        return score
+```
+
+---
+
+## Process Reward Model
+
+### 什么是 PRM
+
+**Process Reward Model (PRM)** 用于评估推理过程中每一步的正确性，而不仅仅是最终结果。
+
+```
+传统 Reward Model: 评估最终答案的正确性
+Process Reward Model: 评估每一步推理的正确性
+
+优势:
+1. 更细粒度的反馈
+2. 可以定位错误步骤
+3. 更好的信用分配
+```
+
+### PRM 训练
+
+```python
+class ProcessRewardModel(nn.Module):
+    """过程奖励模型"""
+
+    def __init__(self, base_model_name: str):
+        super().__init__()
+        self.base_model = AutoModel.from_pretrained(base_model_name)
+        self.value_head = nn.Linear(self.base_model.config.hidden_size, 1)
+
+    def forward(self, input_ids, attention_mask):
+        """
+        为每个 token 位置预测奖励值
+
+        输入:
+        - input_ids: [batch, seq_len] 包含问题和推理步骤
+
+        输出:
+        - rewards: [batch, seq_len] 每个位置的奖励值
+        """
+        # 获取隐藏状态
+        outputs = self.base_model(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            output_hidden_states=True
+        )
+
+        hidden_states = outputs.last_hidden_state  # [batch, seq_len, hidden]
+
+        # 预测每个位置的奖励
+        rewards = self.value_head(hidden_states).squeeze(-1)  # [batch, seq_len]
+
+        return rewards
+
+    def compute_step_rewards(self, problem: str, reasoning_steps: List[str]):
+        """计算每一步的奖励"""
+
+        full_text = problem + "\n"
+        step_rewards = []
+
+        for i, step in enumerate(reasoning_steps):
+            full_text += f"Step {i+1}: {step}\n"
+
+            # 编码当前状态
+            inputs = self.tokenizer(
+                full_text,
+                return_tensors="pt",
+                truncation=True
+            )
+
+            # 获取最后一步的奖励
+            with torch.no_grad():
+                rewards = self.forward(**inputs)
+                step_reward = rewards[0, -1].item()
+
+            step_rewards.append(step_reward)
+
+        return step_rewards
+```
+
+### PRM 训练数据构建
+
+```python
+def create_prm_training_data(problems, num_samples_per_problem=10):
+    """创建 PRM 训练数据"""
+
+    training_data = []
+
+    for problem in problems:
+        # 使用模型生成多个推理路径
+        for _ in range(num_samples_per_problem):
+            reasoning_steps, final_answer = generate_reasoning_path(problem)
+
+            # 标注每一步的正确性
+            step_labels = []
+            for i, step in enumerate(reasoning_steps):
+                # 人工或自动标注
+                is_correct = verify_step(problem, reasoning_steps[:i+1])
+                step_labels.append(1.0 if is_correct else 0.0)
+
+            training_data.append({
+                'problem': problem,
+                'steps': reasoning_steps,
+                'step_labels': step_labels,
+                'final_answer': final_answer
+            })
+
+    return training_data
+
+
+def train_prm(prm_model, training_data, epochs=3):
+    """训练 PRM"""
+
+    optimizer = AdamW(prm_model.parameters(), lr=1e-5)
+
+    for epoch in range(epochs):
+        total_loss = 0
+
+        for batch in training_data:
+            # 构建输入
+            text = batch['problem'] + "\n"
+            for i, step in enumerate(batch['steps']):
+                text += f"Step {i+1}: {step}\n"
+
+            inputs = prm_model.tokenizer(
+                text,
+                return_tensors="pt",
+                truncation=True
+            )
+
+            # 前向传播
+            rewards = prm_model(**inputs)
+
+            # 计算损失 - 只在推理步骤位置计算
+            step_positions = find_step_positions(inputs['input_ids'])
+            step_rewards = rewards[0, step_positions]
+
+            # MSE 损失
+            labels = torch.tensor(batch['step_labels'])
+            loss = F.mse_loss(step_rewards, labels)
+
+            # 反向传播
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            total_loss += loss.item()
+
+        print(f"Epoch {epoch+1}, Loss: {total_loss/len(training_data):.4f}")
+```
+
+---
+
+## Chain-of-Thought 优化
+
+### CoT 基础
+
+```python
+def chain_of_thought_prompting(model, question):
+    """基础 CoT 提示"""
+
+    cot_prompt = f"""请逐步思考并回答以下问题。
+
+问题: {question}
+
+思考过程:"""
+
+    response = model.generate(cot_prompt, max_tokens=500)
+    return response
+```
+
+### Zero-Shot CoT
+
+```python
+# 使用触发词触发 CoT
+ZERO_SHOT_COT_TRIGGER = "让我们一步一步地思考。"
+
+def zero_shot_cot(model, question):
+    """零样本 CoT"""
+
+    prompt = f"""{question}
+
+{ZERO_SHOT_COT_TRIGGER}"""
+
+    return model.generate(prompt)
+```
+
+### Self-Consistency with CoT
+
+```python
+class SelfConsistencyCoT:
+    """自洽性 CoT"""
+
+    def __init__(self, model, num_paths=10):
+        self.model = model
+        self.num_paths = num_paths
+
+    def solve(self, problem):
+        """使用多条推理路径并投票"""
+
+        # 生成多条推理路径
+        reasoning_paths = []
+        for i in range(self.num_paths):
+            prompt = f"""问题: {problem}
+
+请详细分析这个问题，给出逐步推理过程，最后给出答案。
+
+思考过程:"""
+
+            response = self.model.generate(
+                prompt,
+                temperature=0.7 + i * 0.05  # 不同的温度
+            )
+
+            # 提取最终答案
+            answer = self.extract_answer(response)
+            reasoning_paths.append({
+                'reasoning': response,
+                'answer': answer
+            })
+
+        # 答案投票
+        from collections import Counter
+        answers = [p['answer'] for p in reasoning_paths]
+        vote_counts = Counter(answers)
+
+        # 选择最常见的答案
+        best_answer = vote_counts.most_common(1)[0][0]
+
+        # 选择对应的最佳推理过程
+        for path in reasoning_paths:
+            if path['answer'] == best_answer:
+                return path['reasoning'], best_answer
+
+        return reasoning_paths[0]['reasoning'], best_answer
+```
+
+---
+
+## DeepSeek-R1 开源方案
+
+### DeepSeek-R1 简介
+
+DeepSeek 于 2025 年 1 月发布的 R1 模型，首次在开源社区实现了接近 o1 的推理能力。
+
+```
+模型系列:
+- DeepSeek-R1-Zero: 纯强化学习训练
+- DeepSeek-R1: 冷启动 + 强化学习 + SFT
+- DeepSeek-R1-Distill: 蒸馏版本 (1.5B-70B)
+```
+
+### 训练流程
+
+```python
+class DeepSeekR1Trainer:
+    """DeepSeek-R1 训练流程"""
+
+    def __init__(self, base_model):
+        self.model = base_model
+
+    def stage1_cold_start(self, reasoning_data):
+        """
+        阶段1: 冷启动
+        - 使用少量高质量 CoT 数据微调
+        - 让模型学会基本的推理格式
+        """
+
+        # 构建 SFT 数据
+        sft_data = []
+        for item in reasoning_data:
+            prompt = item['problem']
+            response = f"""<think>
+{item['reasoning']}
+</think>
+
+{item['answer']}"""
+
+            sft_data.append({
+                'prompt': prompt,
+                'response': response
+            })
+
+        # SFT 训练
+        self.model = self.supervised_finetune(self.model, sft_data)
+
+        return self.model
+
+    def stage2_reasoning_rl(self, math_problems, code_problems):
+        """
+        阶段2: 推理导向的强化学习
+        - 使用 GRPO (Group Relative Policy Optimization)
+        - 奖励基于答案正确性和格式
+        """
+
+        for batch in self.get_batches(math_problems + code_problems):
+            # 对每个问题采样多个回答
+            responses = []
+            for problem in batch:
+                # 采样 4 个回答
+                group_responses = []
+                for _ in range(4):
+                    response = self.model.generate(
+                        problem['question'],
+                        temperature=0.7
+                    )
+                    group_responses.append(response)
+
+                responses.append(group_responses)
+
+            # 计算奖励
+            rewards = []
+            for group in responses:
+                group_rewards = []
+                for response in group:
+                    # 格式奖励: 是否包含 <think> 标签
+                    format_reward = 1.0 if '<think>' in response else 0.0
+
+                    # 答案正确性奖励
+                    answer = self.extract_answer(response)
+                    correctness_reward = self.verify_answer(
+                        answer,
+                        problem['answer']
+                    )
+
+                    total_reward = format_reward + correctness_reward
+                    group_rewards.append(total_reward)
+
+                rewards.append(group_rewards)
+
+            # GRPO 更新
+            self.grpo_update(responses, rewards)
+
+        return self.model
+
+    def stage3_sft_all_scenarios(self, general_data):
+        """
+        阶段3: 全场景 SFT
+        - 使用通用数据提升写作能力
+        - 保持推理能力
+        """
+
+        # 混合推理数据和通用数据
+        mixed_data = self.mix_data(
+            reasoning_data=self.get_reasoning_data(),
+            general_data=general_data,
+            ratio=0.7  # 70% 推理数据
+        )
+
+        self.model = self.supervised_finetune(self.model, mixed_data)
+
+        return self.model
+
+    def stage4_rl_human_preference(self, human_preferences):
+        """
+        阶段4: 基于人类偏好的 RL
+        - 使用 DPO 或 PPO
+        - 对齐人类偏好
+        """
+
+        # DPO 训练
+        self.model = self.dpo_train(self.model, human_preferences)
+
+        return self.model
+
+    def grpo_update(self, responses, rewards):
+        """
+        Group Relative Policy Optimization
+
+        核心思想: 使用组内相对奖励而非绝对奖励
+        """
+
+        for group_responses, group_rewards in zip(responses, rewards):
+            # 计算组内平均奖励
+            mean_reward = np.mean(group_rewards)
+            std_reward = np.std(group_rewards) + 1e-8
+
+            # 归一化奖励
+            advantages = [(r - mean_reward) / std_reward for r in group_rewards]
+
+            # 策略梯度更新
+            for response, advantage in zip(group_responses, advantages):
+                # 计算策略损失
+                log_prob = self.model.compute_log_prob(response)
+
+                # PPO 风格的目标函数
+                loss = -log_prob * advantage
+
+                # 反向传播
+                loss.backward()
+
+        # 更新模型参数
+        self.optimizer.step()
+        self.optimizer.zero_grad()
+```
+
+### DeepSeek-R1 效果
+
+| 模型 | MATH-500 | AIME 2024 | Codeforces |
+|------|----------|-----------|------------|
+| GPT-4o | 74.6% | 9.3% | - |
+| o1-preview | 85.5% | 44.6% | - |
+| DeepSeek-R1 | 90.2% | 71.0% | 96.3% |
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: o1 模型相比 GPT-4 的核心创新是什么？**
+
+A:
+1. **Test-Time Scaling**: 在推理时增加思考时间
+2. **Process Reward Model**: 细粒度的步骤级反馈
+3. **长推理链**: 生成详细的思考过程
+4. **自我修正**: 可以回溯和修正思路
+
+**Q2: Test-Time Scaling 与 Pre-Train Scaling 的区别？**
+
+A:
+| 维度 | Pre-Train Scaling | Test-Time Scaling |
+|------|-------------------|-------------------|
+| 时机 | 训练阶段 | 推理阶段 |
+| 资源 | 训练计算 | 推理计算 |
+| 灵活性 | 固定 | 动态可调 |
+| 适用场景 | 通用能力 | 复杂推理 |
+
+**Q3: PRM 相比 ORM (Outcome Reward Model) 的优势？**
+
+A:
+1. **细粒度反馈**: 可以定位错误步骤
+2. **信用分配**: 明确哪一步导致错误
+3. **学习效率**: 从部分正确的样本学习
+4. **可解释性**: 知道模型在哪一步出错
+
+**Q4: DeepSeek-R1 的训练流程是怎样的？**
+
+A:
+1. **冷启动**: 使用高质量 CoT 数据 SFT
+2. **推理 RL**: 使用 GRPO 训练推理能力
+3. **全场景 SFT**: 混合推理和通用数据
+4. **偏好对齐**: 使用 DPO 对齐人类偏好
+
+**Q5: Self-Consistency 的原理是什么？**
+
+A:
+- 对同一问题采样多个推理路径
+- 通过投票选择最常见的答案
+- 基于假设: 正确的推理路径会收敛到相同答案
+- 类似于集成学习中的投票机制
+
+---
+
+## 相关文档
+
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [RLHF深度解析](/kb/llm/rlhf-n4tjfq) - 强化学习基础
+- [DeepEval与评估](/kb/llm/deepeval-41wlla) - 模型评估方法
+
+---
+
+## 参考文献
+
+1. OpenAI. "Learning to Reason with LLMs". 2024.
+2. DeepSeek-AI. "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning". 2025.
+3. Yao et al. "Tree of Thoughts: Deliberate Problem Solving with Large Language Models". 2023.
+4. Lightman et al. "Let's Verify Step by Step". 2023.
+d:T4a9f,# o1 类推理模型深度解析
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 高级
+> **预计阅读时间**: 60 分钟
+
+---
+
+## 目录
+
+1. [o1 模型概述](#o1-模型概述)
+2. [Test-Time Scaling](#test-time-scaling)
+3. [Process Reward Model](#process-reward-model)
+4. [Chain-of-Thought 优化](#chain-of-thought-优化)
+5. [DeepSeek-R1 开源方案](#deepseek-r1-开源方案)
+6. [面试要点](#面试要点)
+
+---
+
+## o1 模型概述
+
+### 什么是 o1 模型
+
+OpenAI 于 2024 年 9 月发布的 o1 系列模型（o1-preview、o1-mini）代表了 LLM 推理能力的重要突破。
+
+```
+传统 LLM: 问题 → 直接回答
+o1 模型:   问题 → 思考过程 (Chain-of-Thought) → 回答
+
+特点:
+- 生成详细的思考过程
+- 可以回溯和修正思路
+- 在数学、代码、科学推理上显著提升
+```
+
+### 性能提升
+
+| 评测集 | GPT-4 | o1-preview | 提升 |
+|--------|-------|------------|------|
+| MATH (数学) | 52.9% | 83.8% | +30.9% |
+| Codeforces (编程) | 11th percentile | 89th percentile | +78% |
+| GPQA Diamond (科学) | 56.1% | 78.0% | +21.9% |
+| AIME (数学竞赛) | 12.0% | 83.3% | +71.3% |
+
+### 核心思想
+
+```
+传统 Scaling Law: 提升模型性能主要靠
+- 增加模型参数
+- 增加训练数据
+- 增加训练计算
+
+o1 的创新: Test-Time Scaling
+- 在推理时增加"思考时间"
+- 生成更长的推理链
+- 通过验证和回溯提高答案质量
+```
+
+---
+
+## Test-Time Scaling
+
+### 概念
+
+**Test-Time Scaling** 是指在推理阶段投入更多计算资源来提升模型性能。
+
+```python
+# 传统推理
+answer = model.generate(prompt, max_tokens=100)
+
+# Test-Time Scaling
+def test_time_scaling(model, prompt, max_iterations=10):
+    """通过多步推理提升答案质量"""
+
+    thoughts = []
+    for i in range(max_iterations):
+        # 生成思考步骤
+        thought_prompt = f"""
+问题: {prompt}
+
+当前思路: {' '.join(thoughts)}
+
+下一步思考:"""
+
+        thought = model.generate(thought_prompt, temperature=0.7)
+        thoughts.append(thought)
+
+        # 检查是否可以给出答案
+        answer_prompt = f"""
+问题: {prompt}
+
+思考过程:
+{chr(10).join(f'{i+1}. {t}' for i, t in enumerate(thoughts))}
+
+基于以上思考，给出最终答案:"""
+
+        answer = model.generate(answer_prompt)
+
+        # 验证答案
+        if verify_answer(answer, prompt):
+            return answer
+
+    return answer  # 返回最后一次的答案
+```
+
+### 具体技术
+
+#### 1. Self-Consistency
+
+通过采样多个推理路径，选择最常见的答案。
+
+```python
+def self_consistency_decoding(model, prompt, n_samples=10):
+    """自洽性解码"""
+
+    # 采样多个推理路径
+    answers = []
+    for _ in range(n_samples):
+        # 使用不同温度采样
+        temperature = random.uniform(0.5, 1.0)
+        answer = model.generate(prompt, temperature=temperature)
+        answers.append(answer)
+
+    # 选择最常见的答案
+    from collections import Counter
+    answer_counts = Counter(answers)
+    most_common = answer_counts.most_common(1)[0][0]
+
+    return most_common
+```
+
+#### 2. Step-by-Step Verification
+
+逐步验证推理过程的正确性。
+
+```python
+def step_by_step_verification(model, problem, num_steps=5):
+    """逐步验证"""
+
+    steps = []
+
+    for step_idx in range(num_steps):
+        # 生成下一步
+        step_prompt = f"""
+问题: {problem}
+已完成的步骤:
+{chr(10).join(steps)}
+
+请继续下一步推理:"""
+
+        step = model.generate(step_prompt)
+
+        # 验证这一步的正确性
+        verify_prompt = f"""
+问题: {problem}
+当前步骤: {step}
+
+这一步是否正确？请回答 Yes 或 No 并解释原因。"""
+
+        verification = model.generate(verify_prompt)
+
+        if "No" in verification:
+            # 重新生成这一步
+            correction_prompt = f"""
+问题: {problem}
+之前的步骤有错误。
+
+请重新思考这一步:"""
+            step = model.generate(correction_prompt)
+
+        steps.append(step)
+
+    # 生成最终答案
+    final_prompt = f"""
+问题: {problem}
+推理步骤:
+{chr(10).join(steps)}
+
+最终答案:"""
+
+    return model.generate(final_prompt)
+```
+
+#### 3. Tree of Thoughts (ToT)
+
+使用树形搜索探索多条推理路径。
+
+```python
+class TreeOfThoughts:
+    """思维树搜索"""
+
+    def __init__(self, model, breadth=3, depth=5):
+        self.model = model
+        self.breadth = breadth  # 每层的分支数
+        self.depth = depth      # 最大深度
+
+    def search(self, problem):
+        """执行树搜索"""
+
+        # 初始化根节点
+        root = ThoughtNode(content=problem, score=0)
+
+        for depth in range(self.depth):
+            # 扩展当前层的所有节点
+            current_nodes = self.get_nodes_at_depth(root, depth)
+
+            for node in current_nodes:
+                # 生成多个可能的下一步
+                candidates = self.generate_candidates(node, k=self.breadth)
+
+                for candidate in candidates:
+                    # 评估候选节点的质量
+                    score = self.evaluate(candidate, problem)
+
+                    child = ThoughtNode(
+                        content=candidate,
+                        parent=node,
+                        score=score
+                    )
+                    node.children.append(child)
+
+        # 选择最佳路径
+        best_path = self.select_best_path(root)
+        return self.extract_answer(best_path)
+
+    def generate_candidates(self, node, k=3):
+        """生成 k 个候选思考"""
+
+        candidates = []
+        for i in range(k):
+            prompt = f"""
+问题: {node.root.content}
+当前思路: {node.get_path_content()}
+
+请提供第 {i+1} 个可能的下一步思考:"""
+
+            candidate = self.model.generate(prompt, temperature=0.8)
+            candidates.append(candidate)
+
+        return candidates
+
+    def evaluate(self, thought, problem):
+        """评估思考步骤的质量"""
+
+        eval_prompt = f"""
+问题: {problem}
+思考步骤: {thought}
+
+请评估这个思考步骤的合理性（0-10分）："""
+
+        score_text = self.model.generate(eval_prompt)
+        # 解析分数
+        score = self.extract_score(score_text)
+
+        return score
+```
+
+---
+
+## Process Reward Model
+
+### 什么是 PRM
+
+**Process Reward Model (PRM)** 用于评估推理过程中每一步的正确性，而不仅仅是最终结果。
+
+```
+传统 Reward Model: 评估最终答案的正确性
+Process Reward Model: 评估每一步推理的正确性
+
+优势:
+1. 更细粒度的反馈
+2. 可以定位错误步骤
+3. 更好的信用分配
+```
+
+### PRM 训练
+
+```python
+class ProcessRewardModel(nn.Module):
+    """过程奖励模型"""
+
+    def __init__(self, base_model_name: str):
+        super().__init__()
+        self.base_model = AutoModel.from_pretrained(base_model_name)
+        self.value_head = nn.Linear(self.base_model.config.hidden_size, 1)
+
+    def forward(self, input_ids, attention_mask):
+        """
+        为每个 token 位置预测奖励值
+
+        输入:
+        - input_ids: [batch, seq_len] 包含问题和推理步骤
+
+        输出:
+        - rewards: [batch, seq_len] 每个位置的奖励值
+        """
+        # 获取隐藏状态
+        outputs = self.base_model(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            output_hidden_states=True
+        )
+
+        hidden_states = outputs.last_hidden_state  # [batch, seq_len, hidden]
+
+        # 预测每个位置的奖励
+        rewards = self.value_head(hidden_states).squeeze(-1)  # [batch, seq_len]
+
+        return rewards
+
+    def compute_step_rewards(self, problem: str, reasoning_steps: List[str]):
+        """计算每一步的奖励"""
+
+        full_text = problem + "\n"
+        step_rewards = []
+
+        for i, step in enumerate(reasoning_steps):
+            full_text += f"Step {i+1}: {step}\n"
+
+            # 编码当前状态
+            inputs = self.tokenizer(
+                full_text,
+                return_tensors="pt",
+                truncation=True
+            )
+
+            # 获取最后一步的奖励
+            with torch.no_grad():
+                rewards = self.forward(**inputs)
+                step_reward = rewards[0, -1].item()
+
+            step_rewards.append(step_reward)
+
+        return step_rewards
+```
+
+### PRM 训练数据构建
+
+```python
+def create_prm_training_data(problems, num_samples_per_problem=10):
+    """创建 PRM 训练数据"""
+
+    training_data = []
+
+    for problem in problems:
+        # 使用模型生成多个推理路径
+        for _ in range(num_samples_per_problem):
+            reasoning_steps, final_answer = generate_reasoning_path(problem)
+
+            # 标注每一步的正确性
+            step_labels = []
+            for i, step in enumerate(reasoning_steps):
+                # 人工或自动标注
+                is_correct = verify_step(problem, reasoning_steps[:i+1])
+                step_labels.append(1.0 if is_correct else 0.0)
+
+            training_data.append({
+                'problem': problem,
+                'steps': reasoning_steps,
+                'step_labels': step_labels,
+                'final_answer': final_answer
+            })
+
+    return training_data
+
+
+def train_prm(prm_model, training_data, epochs=3):
+    """训练 PRM"""
+
+    optimizer = AdamW(prm_model.parameters(), lr=1e-5)
+
+    for epoch in range(epochs):
+        total_loss = 0
+
+        for batch in training_data:
+            # 构建输入
+            text = batch['problem'] + "\n"
+            for i, step in enumerate(batch['steps']):
+                text += f"Step {i+1}: {step}\n"
+
+            inputs = prm_model.tokenizer(
+                text,
+                return_tensors="pt",
+                truncation=True
+            )
+
+            # 前向传播
+            rewards = prm_model(**inputs)
+
+            # 计算损失 - 只在推理步骤位置计算
+            step_positions = find_step_positions(inputs['input_ids'])
+            step_rewards = rewards[0, step_positions]
+
+            # MSE 损失
+            labels = torch.tensor(batch['step_labels'])
+            loss = F.mse_loss(step_rewards, labels)
+
+            # 反向传播
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            total_loss += loss.item()
+
+        print(f"Epoch {epoch+1}, Loss: {total_loss/len(training_data):.4f}")
+```
+
+---
+
+## Chain-of-Thought 优化
+
+### CoT 基础
+
+```python
+def chain_of_thought_prompting(model, question):
+    """基础 CoT 提示"""
+
+    cot_prompt = f"""请逐步思考并回答以下问题。
+
+问题: {question}
+
+思考过程:"""
+
+    response = model.generate(cot_prompt, max_tokens=500)
+    return response
+```
+
+### Zero-Shot CoT
+
+```python
+# 使用触发词触发 CoT
+ZERO_SHOT_COT_TRIGGER = "让我们一步一步地思考。"
+
+def zero_shot_cot(model, question):
+    """零样本 CoT"""
+
+    prompt = f"""{question}
+
+{ZERO_SHOT_COT_TRIGGER}"""
+
+    return model.generate(prompt)
+```
+
+### Self-Consistency with CoT
+
+```python
+class SelfConsistencyCoT:
+    """自洽性 CoT"""
+
+    def __init__(self, model, num_paths=10):
+        self.model = model
+        self.num_paths = num_paths
+
+    def solve(self, problem):
+        """使用多条推理路径并投票"""
+
+        # 生成多条推理路径
+        reasoning_paths = []
+        for i in range(self.num_paths):
+            prompt = f"""问题: {problem}
+
+请详细分析这个问题，给出逐步推理过程，最后给出答案。
+
+思考过程:"""
+
+            response = self.model.generate(
+                prompt,
+                temperature=0.7 + i * 0.05  # 不同的温度
+            )
+
+            # 提取最终答案
+            answer = self.extract_answer(response)
+            reasoning_paths.append({
+                'reasoning': response,
+                'answer': answer
+            })
+
+        # 答案投票
+        from collections import Counter
+        answers = [p['answer'] for p in reasoning_paths]
+        vote_counts = Counter(answers)
+
+        # 选择最常见的答案
+        best_answer = vote_counts.most_common(1)[0][0]
+
+        # 选择对应的最佳推理过程
+        for path in reasoning_paths:
+            if path['answer'] == best_answer:
+                return path['reasoning'], best_answer
+
+        return reasoning_paths[0]['reasoning'], best_answer
+```
+
+---
+
+## DeepSeek-R1 开源方案
+
+### DeepSeek-R1 简介
+
+DeepSeek 于 2025 年 1 月发布的 R1 模型，首次在开源社区实现了接近 o1 的推理能力。
+
+```
+模型系列:
+- DeepSeek-R1-Zero: 纯强化学习训练
+- DeepSeek-R1: 冷启动 + 强化学习 + SFT
+- DeepSeek-R1-Distill: 蒸馏版本 (1.5B-70B)
+```
+
+### 训练流程
+
+```python
+class DeepSeekR1Trainer:
+    """DeepSeek-R1 训练流程"""
+
+    def __init__(self, base_model):
+        self.model = base_model
+
+    def stage1_cold_start(self, reasoning_data):
+        """
+        阶段1: 冷启动
+        - 使用少量高质量 CoT 数据微调
+        - 让模型学会基本的推理格式
+        """
+
+        # 构建 SFT 数据
+        sft_data = []
+        for item in reasoning_data:
+            prompt = item['problem']
+            response = f"""<think>
+{item['reasoning']}
+</think>
+
+{item['answer']}"""
+
+            sft_data.append({
+                'prompt': prompt,
+                'response': response
+            })
+
+        # SFT 训练
+        self.model = self.supervised_finetune(self.model, sft_data)
+
+        return self.model
+
+    def stage2_reasoning_rl(self, math_problems, code_problems):
+        """
+        阶段2: 推理导向的强化学习
+        - 使用 GRPO (Group Relative Policy Optimization)
+        - 奖励基于答案正确性和格式
+        """
+
+        for batch in self.get_batches(math_problems + code_problems):
+            # 对每个问题采样多个回答
+            responses = []
+            for problem in batch:
+                # 采样 4 个回答
+                group_responses = []
+                for _ in range(4):
+                    response = self.model.generate(
+                        problem['question'],
+                        temperature=0.7
+                    )
+                    group_responses.append(response)
+
+                responses.append(group_responses)
+
+            # 计算奖励
+            rewards = []
+            for group in responses:
+                group_rewards = []
+                for response in group:
+                    # 格式奖励: 是否包含 <think> 标签
+                    format_reward = 1.0 if '<think>' in response else 0.0
+
+                    # 答案正确性奖励
+                    answer = self.extract_answer(response)
+                    correctness_reward = self.verify_answer(
+                        answer,
+                        problem['answer']
+                    )
+
+                    total_reward = format_reward + correctness_reward
+                    group_rewards.append(total_reward)
+
+                rewards.append(group_rewards)
+
+            # GRPO 更新
+            self.grpo_update(responses, rewards)
+
+        return self.model
+
+    def stage3_sft_all_scenarios(self, general_data):
+        """
+        阶段3: 全场景 SFT
+        - 使用通用数据提升写作能力
+        - 保持推理能力
+        """
+
+        # 混合推理数据和通用数据
+        mixed_data = self.mix_data(
+            reasoning_data=self.get_reasoning_data(),
+            general_data=general_data,
+            ratio=0.7  # 70% 推理数据
+        )
+
+        self.model = self.supervised_finetune(self.model, mixed_data)
+
+        return self.model
+
+    def stage4_rl_human_preference(self, human_preferences):
+        """
+        阶段4: 基于人类偏好的 RL
+        - 使用 DPO 或 PPO
+        - 对齐人类偏好
+        """
+
+        # DPO 训练
+        self.model = self.dpo_train(self.model, human_preferences)
+
+        return self.model
+
+    def grpo_update(self, responses, rewards):
+        """
+        Group Relative Policy Optimization
+
+        核心思想: 使用组内相对奖励而非绝对奖励
+        """
+
+        for group_responses, group_rewards in zip(responses, rewards):
+            # 计算组内平均奖励
+            mean_reward = np.mean(group_rewards)
+            std_reward = np.std(group_rewards) + 1e-8
+
+            # 归一化奖励
+            advantages = [(r - mean_reward) / std_reward for r in group_rewards]
+
+            # 策略梯度更新
+            for response, advantage in zip(group_responses, advantages):
+                # 计算策略损失
+                log_prob = self.model.compute_log_prob(response)
+
+                # PPO 风格的目标函数
+                loss = -log_prob * advantage
+
+                # 反向传播
+                loss.backward()
+
+        # 更新模型参数
+        self.optimizer.step()
+        self.optimizer.zero_grad()
+```
+
+### DeepSeek-R1 效果
+
+| 模型 | MATH-500 | AIME 2024 | Codeforces |
+|------|----------|-----------|------------|
+| GPT-4o | 74.6% | 9.3% | - |
+| o1-preview | 85.5% | 44.6% | - |
+| DeepSeek-R1 | 90.2% | 71.0% | 96.3% |
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: o1 模型相比 GPT-4 的核心创新是什么？**
+
+A:
+1. **Test-Time Scaling**: 在推理时增加思考时间
+2. **Process Reward Model**: 细粒度的步骤级反馈
+3. **长推理链**: 生成详细的思考过程
+4. **自我修正**: 可以回溯和修正思路
+
+**Q2: Test-Time Scaling 与 Pre-Train Scaling 的区别？**
+
+A:
+| 维度 | Pre-Train Scaling | Test-Time Scaling |
+|------|-------------------|-------------------|
+| 时机 | 训练阶段 | 推理阶段 |
+| 资源 | 训练计算 | 推理计算 |
+| 灵活性 | 固定 | 动态可调 |
+| 适用场景 | 通用能力 | 复杂推理 |
+
+**Q3: PRM 相比 ORM (Outcome Reward Model) 的优势？**
+
+A:
+1. **细粒度反馈**: 可以定位错误步骤
+2. **信用分配**: 明确哪一步导致错误
+3. **学习效率**: 从部分正确的样本学习
+4. **可解释性**: 知道模型在哪一步出错
+
+**Q4: DeepSeek-R1 的训练流程是怎样的？**
+
+A:
+1. **冷启动**: 使用高质量 CoT 数据 SFT
+2. **推理 RL**: 使用 GRPO 训练推理能力
+3. **全场景 SFT**: 混合推理和通用数据
+4. **偏好对齐**: 使用 DPO 对齐人类偏好
+
+**Q5: Self-Consistency 的原理是什么？**
+
+A:
+- 对同一问题采样多个推理路径
+- 通过投票选择最常见的答案
+- 基于假设: 正确的推理路径会收敛到相同答案
+- 类似于集成学习中的投票机制
+
+---
+
+## 相关文档
+
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [RLHF深度解析](/kb/llm/rlhf-n4tjfq) - 强化学习基础
+- [DeepEval与评估](/kb/llm/deepeval-41wlla) - 模型评估方法
+
+---
+
+## 参考文献
+
+1. OpenAI. "Learning to Reason with LLMs". 2024.
+2. DeepSeek-AI. "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning". 2025.
+3. Yao et al. "Tree of Thoughts: Deliberate Problem Solving with Large Language Models". 2023.
+4. Lightman et al. "Let's Verify Step by Step". 2023.
+2:["$","$Lb",null,{"document":{"slug":"o-l9negx","title":"o1类推理模型","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"前沿研究/o1类推理模型.md","default":{"slug":"o-l9negx","title":"o1类推理模型","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"前沿研究/o1类推理模型.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"o1类推理模型 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"o1类推理模型"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

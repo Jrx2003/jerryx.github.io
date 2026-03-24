@@ -1,0 +1,312 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","aicad","d"]
+5:["slug","deepeval-4gyeij","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","deepeval-4gyeij","d"],{"children":["__PAGE__?{\"category\":\"aicad\",\"slug\":\"deepeval-4gyeij\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","deepeval-4gyeij","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T10d8,# DeepEval 与 OpenAI Evals 对照
+
+> 更新日期：2026-03-12
+> 来源：`docs/work_logs/LLM_JUDGE_EVALS_RESEARCH.md`
+
+## 目的
+
+本项目已经有 CAD LLM Judge 评估链路，本文的目标不是"重做一套"，而是：
+1. 盘点当前已实现能力。
+2. 对照 `deepeval` 与 `openai-evals` 提炼可增量补强点。
+3. 给出分阶段落地建议。
+
+---
+
+## 已实现能力盘点
+
+| 主题 | 当前项目状态 | 结论 |
+|---|---|---|
+| JSON 结构化输出 + schema 校验 | 已有（Pydantic 严格校验）| ✅ 已实现 |
+| Judge 输出无效时自动重试 | 已有（schema_fix 二次重试）| ✅ 已实现 |
+| 规则门限（hard gate）| 已有（missing/empty STEP 限分）| ✅ 已实现 |
+| LLM 语义分 + rule cap 融合 | 已有（ScoreMerger）| ✅ 已实现 |
+| 评估 trace / replay / 版本字段 | 已有（trace_id、replay_key、rubric/prompt/evaluator 版本）| ✅ 已实现 |
+| `confidence.low_threshold` 触发重判 | 配置与模型字段已定义，但流程未使用 | ⚠️ 未闭环 |
+| Judge 校准集与 meta-eval 回路 | 未见独立校准流程/指标 | ⚠️ 未闭环 |
+| 离散 choice->score 判分（稳态）| 当前主要为连续浮点维度分 | ⚠️ 可增强 |
+| 更丰富 deterministic gate（STEP 可解析性等）| 目前仅 2 个 gate | ⚠️ 可增强 |
+
+---
+
+## DeepEval 可借鉴点
+
+### 1. 将"标准描述"与"评估步骤"分离
+
+DeepEval 的 `GEval` 支持：
+- `criteria`（自然语言标准）
+- 或显式 `evaluation_steps`
+
+**对本项目的价值：**
+- 当前 rubric 有 anchors，但缺显式步骤化检查序列
+- 可在 rubric 中加入 `evaluation_steps`，提升判分一致性与可解释性
+
+---
+
+### 2. DAG 思路：先规则、后语义
+
+项目已具备雏形（RuleEvaluator + LLMJudge）。可继续扩展 deterministic gate：
+- STEP 基本可解析性检查
+- 实体数量/空几何异常检查
+- 明确几何异常信号后再进入语义评分
+
+---
+
+### 3. logprob 平滑（可选）
+
+DeepEval 在支持 logprob 时可做分数平滑。该项可放后续，不建议作为当前优先级。
+
+---
+
+## OpenAI Evals 可借鉴点
+
+### 1. 离散 choice 判分提高稳定性
+
+OpenAI Evals 常用 `choice_strings + choice_scores`。
+
+**对本项目建议：**
+- 每个维度先给离散等级（如 `A/B/C/D`）
+- 服务端映射为分数（如 `A=1.0, B=0.7, C=0.4, D=0.0`）
+- 可保留模型给的 float 作为诊断字段，但主判分采用映射值，减少模型漂移影响
+
+---
+
+### 2. Meta-eval 校准回路
+
+OpenAI Evals 推荐用人工标签数据集评估 judge 本身质量。
+
+**对本项目现状：**
+- 已有 `confidence` 字段与配置
+- 但未看到独立"judge 校准集 + metascore"回路
+
+**建议补齐：**
+- 构建小规模标注集（50-200 样本）
+- 跑每维度准确率与整体 metascore
+- 作为 prompt/rubric/model 变更的准入门槛
+
+---
+
+### 3. 评测集版本治理
+
+沿用 `<name>.<split>.<version>` 思路管理 CAD judge 评测集，便于回归比较与复现。
+
+---
+
+## 分阶段落地建议
+
+### P0（先补闭环）
+
+1. 接通 `confidence` 触发重判（可同模型二次、或备用模型复判）
+2. 建立 judge 校准数据集与 metascore 脚本（放在 `tests/evals/`）
+3. 增加评估报表里的聚合指标：invalid 输出率、低置信度占比、重判命中率
+
+---
+
+### P1（提升稳定性）
+
+1. 引入每维度离散 choice + 服务端 score 映射
+2. 扩展 deterministic gates（STEP 可解析性、基础几何异常信号）
+
+---
+
+### P2（进阶）
+
+1. 更 DAG 化的评估路径（规则节点 + 语义节点）
+2. 在 provider 支持前提下探索 logprob 平滑
+
+---
+
+## 最小校准数据集建议
+
+```json
+{
+  "sample_id": "cad_0001",
+  "request_prompt": "...",
+  "code_excerpt": "...",
+  "has_step": true,
+  "stderr_excerpt": "",
+  "human_labels": {
+    "requirement_fidelity": "B",
+    "geometric_reasonableness": "A",
+    "manufacturability_proxy": "B",
+    "code_quality_proxy": "C",
+    "execution_stability": "A"
+  }
+}
+```
+
+**建议映射：**
+- `A -> 1.0`
+- `B -> 0.7`
+- `C -> 0.4`
+- `D -> 0.0`
+
+---
+
+## 相关链接
+
+- [LLM-as-a-Judge 评估系统](/kb/aicad/llm-1my3q8)
+- [Rubric 配置化](/kb/aicad/rubric-4jt2xu)
+- [可回放可比对系统](/kb/aicad/doc-fbfn4n)
+- [无 Ground Truth 评估](/kb/aicad/doc-re0cna)
+d:T10d8,# DeepEval 与 OpenAI Evals 对照
+
+> 更新日期：2026-03-12
+> 来源：`docs/work_logs/LLM_JUDGE_EVALS_RESEARCH.md`
+
+## 目的
+
+本项目已经有 CAD LLM Judge 评估链路，本文的目标不是"重做一套"，而是：
+1. 盘点当前已实现能力。
+2. 对照 `deepeval` 与 `openai-evals` 提炼可增量补强点。
+3. 给出分阶段落地建议。
+
+---
+
+## 已实现能力盘点
+
+| 主题 | 当前项目状态 | 结论 |
+|---|---|---|
+| JSON 结构化输出 + schema 校验 | 已有（Pydantic 严格校验）| ✅ 已实现 |
+| Judge 输出无效时自动重试 | 已有（schema_fix 二次重试）| ✅ 已实现 |
+| 规则门限（hard gate）| 已有（missing/empty STEP 限分）| ✅ 已实现 |
+| LLM 语义分 + rule cap 融合 | 已有（ScoreMerger）| ✅ 已实现 |
+| 评估 trace / replay / 版本字段 | 已有（trace_id、replay_key、rubric/prompt/evaluator 版本）| ✅ 已实现 |
+| `confidence.low_threshold` 触发重判 | 配置与模型字段已定义，但流程未使用 | ⚠️ 未闭环 |
+| Judge 校准集与 meta-eval 回路 | 未见独立校准流程/指标 | ⚠️ 未闭环 |
+| 离散 choice->score 判分（稳态）| 当前主要为连续浮点维度分 | ⚠️ 可增强 |
+| 更丰富 deterministic gate（STEP 可解析性等）| 目前仅 2 个 gate | ⚠️ 可增强 |
+
+---
+
+## DeepEval 可借鉴点
+
+### 1. 将"标准描述"与"评估步骤"分离
+
+DeepEval 的 `GEval` 支持：
+- `criteria`（自然语言标准）
+- 或显式 `evaluation_steps`
+
+**对本项目的价值：**
+- 当前 rubric 有 anchors，但缺显式步骤化检查序列
+- 可在 rubric 中加入 `evaluation_steps`，提升判分一致性与可解释性
+
+---
+
+### 2. DAG 思路：先规则、后语义
+
+项目已具备雏形（RuleEvaluator + LLMJudge）。可继续扩展 deterministic gate：
+- STEP 基本可解析性检查
+- 实体数量/空几何异常检查
+- 明确几何异常信号后再进入语义评分
+
+---
+
+### 3. logprob 平滑（可选）
+
+DeepEval 在支持 logprob 时可做分数平滑。该项可放后续，不建议作为当前优先级。
+
+---
+
+## OpenAI Evals 可借鉴点
+
+### 1. 离散 choice 判分提高稳定性
+
+OpenAI Evals 常用 `choice_strings + choice_scores`。
+
+**对本项目建议：**
+- 每个维度先给离散等级（如 `A/B/C/D`）
+- 服务端映射为分数（如 `A=1.0, B=0.7, C=0.4, D=0.0`）
+- 可保留模型给的 float 作为诊断字段，但主判分采用映射值，减少模型漂移影响
+
+---
+
+### 2. Meta-eval 校准回路
+
+OpenAI Evals 推荐用人工标签数据集评估 judge 本身质量。
+
+**对本项目现状：**
+- 已有 `confidence` 字段与配置
+- 但未看到独立"judge 校准集 + metascore"回路
+
+**建议补齐：**
+- 构建小规模标注集（50-200 样本）
+- 跑每维度准确率与整体 metascore
+- 作为 prompt/rubric/model 变更的准入门槛
+
+---
+
+### 3. 评测集版本治理
+
+沿用 `<name>.<split>.<version>` 思路管理 CAD judge 评测集，便于回归比较与复现。
+
+---
+
+## 分阶段落地建议
+
+### P0（先补闭环）
+
+1. 接通 `confidence` 触发重判（可同模型二次、或备用模型复判）
+2. 建立 judge 校准数据集与 metascore 脚本（放在 `tests/evals/`）
+3. 增加评估报表里的聚合指标：invalid 输出率、低置信度占比、重判命中率
+
+---
+
+### P1（提升稳定性）
+
+1. 引入每维度离散 choice + 服务端 score 映射
+2. 扩展 deterministic gates（STEP 可解析性、基础几何异常信号）
+
+---
+
+### P2（进阶）
+
+1. 更 DAG 化的评估路径（规则节点 + 语义节点）
+2. 在 provider 支持前提下探索 logprob 平滑
+
+---
+
+## 最小校准数据集建议
+
+```json
+{
+  "sample_id": "cad_0001",
+  "request_prompt": "...",
+  "code_excerpt": "...",
+  "has_step": true,
+  "stderr_excerpt": "",
+  "human_labels": {
+    "requirement_fidelity": "B",
+    "geometric_reasonableness": "A",
+    "manufacturability_proxy": "B",
+    "code_quality_proxy": "C",
+    "execution_stability": "A"
+  }
+}
+```
+
+**建议映射：**
+- `A -> 1.0`
+- `B -> 0.7`
+- `C -> 0.4`
+- `D -> 0.0`
+
+---
+
+## 相关链接
+
+- [LLM-as-a-Judge 评估系统](/kb/aicad/llm-1my3q8)
+- [Rubric 配置化](/kb/aicad/rubric-4jt2xu)
+- [可回放可比对系统](/kb/aicad/doc-fbfn4n)
+- [无 Ground Truth 评估](/kb/aicad/doc-re0cna)
+2:["$","$Lb",null,{"document":{"slug":"deepeval-4gyeij","title":"DeepEval 与 OpenAI Evals 对照","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$c","filePath":"评估系统/DeepEval 与 OpenAI Evals 对照.md","default":{"slug":"deepeval-4gyeij","title":"DeepEval 与 OpenAI Evals 对照","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$d","filePath":"评估系统/DeepEval 与 OpenAI Evals 对照.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"DeepEval 与 OpenAI Evals 对照 - AICAD | Jerry Xu"}],["$","meta","3",{"name":"description","content":"DeepEval 与 OpenAI Evals 对照"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

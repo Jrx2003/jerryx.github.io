@@ -1,0 +1,698 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","aicad","d"]
+5:["slug","aci-9rbb4v","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","aci-9rbb4v","d"],{"children":["__PAGE__?{\"category\":\"aicad\",\"slug\":\"aci-9rbb4v\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","aci-9rbb4v","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T1e4a,# ACI 会话管理
+
+> 更新日期：2026-03-12
+> 来源：`docs/work_logs/WORK_LOG_2026_03_05_CAD_ACTION_INTERFACE.md`
+
+## 概述
+
+ACI 会话管理允许在多个 MCP 调用之间保持建模状态，实现跨调用的持续建模能力。
+
+---
+
+## SessionManager 架构
+
+### 位置
+
+`services/sandbox/mcp_server/src/sandbox_mcp_server/service.py`
+
+---
+
+### 核心数据结构
+
+```python
+class SessionState(BaseModel):
+    """会话状态模型"""
+    history: list[ActionHistoryEntry]  # 完整动作序列
+    current_step: int                 # 当前步骤计数器
+    created_at: datetime               # 会话创建时间戳
+
+class ActionHistoryEntry(BaseModel):
+    """单条动作历史记录"""
+    step: int                        # 步骤编号
+    action_type: CADActionType         # 动作类型
+    params: dict                      # 动作参数
+    snapshot: CADStateSnapshot         # 执行后状态快照
+    success: bool                    # 是否成功
+    error: str | None               # 错误信息（如有）
+```
+
+---
+
+### SessionManager API
+
+```python
+class SessionManager:
+    """ACI 会话管理器"""
+
+    def __init__(self, max_history_length: int = 50):
+        self._sessions: dict[str, SessionState] = {}
+        self.max_history_length = max_history_length
+
+    def get_or_create_session(self, session_id: str) -> SessionState:
+        """获取或创建会话"""
+        if session_id not in self._sessions:
+            self._sessions[session_id] = SessionState(
+                history=[],
+                current_step=0,
+                created_at=datetime.now()
+            )
+        return self._sessions[session_id]
+
+    def clear_session(self, session_id: str) -> None:
+        """清除会话状态"""
+        if session_id in self._sessions:
+            del self._sessions[session_id]
+
+    def append_action(self, session_id: str, entry: ActionHistoryEntry) -> None:
+        """追加动作到历史（max 50 entries）"""
+        session = self.get_or_create_session(session_id)
+        session.history.append(entry)
+        session.current_step += 1
+        # 限制历史长度
+        if len(session.history) > self.max_history_length:
+            session.history = session.history[-self.max_history_length:]
+
+    def get_session_history(self, session_id: str) -> list[ActionHistoryEntry]:
+        """获取完整动作历史"""
+        session = self.get_or_create_session(session_id)
+        return session.history
+```
+
+---
+
+## 会话操作
+
+### CLEAR_SESSION
+
+清除当前会话，重新开始建模。
+
+**请求：**
+```json
+{
+  "action": "clear_session"
+}
+```
+
+**效果：**
+- 删除会话中的所有历史记录
+- 重置步骤计数器到 0
+- 后续动作开始全新建模
+
+---
+
+### GET_HISTORY
+
+获取完整动作历史。
+
+**请求：**
+```json
+{
+  "action": "get_history",
+  "session_id": "my_model",
+  "include_history": true
+}
+```
+
+**响应：**
+```json
+{
+  "action_history": [
+    {
+      "step": 1,
+      "action_type": "create_sketch",
+      "params": {"plane": "XY"},
+      "snapshot": {...},
+      "success": true,
+      "error": null
+    },
+    {
+      "step": 2,
+      "action_type": "add_rectangle",
+      "params": {"width": 80, "height": 40, "centered": true},
+      "snapshot": {...},
+      "success": true,
+      "error": null
+    }
+  ]
+}
+```
+
+---
+
+### MODIFY_ACTION
+
+修改之前动作的参数，无需完全回退。
+
+**请求：**
+```json
+{
+  "action": "modify_action",
+  "target_step": 3,
+  "new_params": {
+    "radius": 3,
+    "target": "all_outer_edges"
+  }
+}
+```
+
+**处理流程：**
+1. 验证 `target_step` 参数
+2. 获取会话历史
+3. 合并 `new_params` 与原始动作参数
+4. 从修改后的动作重新构建模型（重放从步骤 1 到目标步骤）
+5. 更新会话历史中的条目
+6. 返回更新的快照和完整性
+
+---
+
+## 会话持久化机制
+
+### 当前实现
+
+- **存储方式：** 内存中（Python dict）
+- **生命周期：** MCP 服务器运行期间
+- **限制：** 服务器重启后丢失
+
+---
+
+### 未来扩展方向
+
+#### 方案 1：Redis 持久化
+
+```python
+class RedisSessionManager(SessionManager):
+    """Redis 持久化会话管理"""
+
+    def __init__(self, redis_url: str):
+        self.redis = redis.from_url(redis_url)
+
+    def get_or_create_session(self, session_id: str) -> SessionState:
+        # 从 Redis 读取或创建
+        data = self.redis.get(f"session:{session_id}")
+        if data:
+            return SessionState.parse_raw(data)
+        return SessionState(history=[], current_step=0)
+
+    def save_session(self, session_id: str, session: SessionState) -> None:
+        # 保存到 Redis
+        self.redis.setex(
+            f"session:{session_id}",
+            3600,  # 1 小时过期
+            session.json()
+        )
+```
+
+#### 方案 2：数据库持久化
+
+```python
+class DatabaseSessionManager(SessionManager):
+    """数据库持久化会话管理"""
+
+    def get_or_create_session(self, session_id: str) -> SessionState:
+        # 从数据库查询或创建
+        session = db.query(SessionState).filter_by(id=session_id).first()
+        if not session:
+            session = SessionState(id=session_id, history=[], current_step=0)
+            db.add(session)
+        return session
+
+    def append_action(self, session_id: str, entry: ActionHistoryEntry) -> None:
+        # 追加动作并持久化
+        session = self.get_or_create_session(session_id)
+        session.history.append(entry)
+        session.current_step += 1
+        db.commit()
+```
+
+---
+
+## 会话使用模式
+
+### 模式 1：单会话多步建模
+
+```python
+# 第一次调用
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "create_sketch", "plane": "XY"}, ...]
+})
+
+# 第二次调用（基于第一次结果）
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "extrude", "distance": 2}, ...]
+})
+
+# 第三次调用（基于前两次结果）
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "fillet", "radius": 0.5}, ...]
+})
+```
+
+---
+
+### 模式 2：修改已执行动作
+
+```python
+# 原始序列
+step 1: create_sketch
+step 2: add_rectangle
+step 3: extrude (distance=10)
+step 4: fillet (radius=1)
+
+# 发现需要修改 step 3
+apply_cad_action({
+    "session_id": "phone_case",
+    "action": "modify_action",
+    "target_step": 3,
+    "new_params": {"distance": 15}
+})
+
+# 结果：重放并更新
+step 1: create_sketch
+step 2: add_rectangle
+step 3: extrude (distance=15)  ← 已修改
+step 4: fillet (radius=1)       ← 保持原样
+```
+
+---
+
+### 模式 3：查看历史并继续
+
+```python
+# 查看历史
+get_history({"session_id": "phone_case"})
+# 返回完整历史和快照
+
+# 基于历史决策下一步
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "hole", "diameter": 2}, ...]
+})
+```
+
+---
+
+### 模式 4：完全重新开始
+
+```python
+# 清除所有历史
+apply_cad_action({
+    "action": "clear_session"
+})
+
+# 从头开始新建模
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "create_sketch", "plane": "XY"}, ...]
+})
+```
+
+---
+
+## 性能考虑
+
+### 内存使用
+
+- **假设：** 100 个并发会话，每个平均 20 个历史条目
+- **估算：** 100 * 20 * ~2KB = ~4MB（可接受）
+
+---
+
+### 历史长度限制
+
+- **当前：** 50 条目/会话
+- **建议：** 可配置，基于实际使用调整
+
+---
+
+### 过期策略
+
+- **内存：** LRU 策略或定期清理
+- **Redis：** TTL 自动过期
+- **数据库：** 定期清理过期会话
+
+---
+
+## 相关链接
+
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [ACI 实现细节](/kb/aicad/aci-8a0c9l)
+- [CAD 动作集设计](/kb/aicad/cad-a9bzjv)
+- [SessionManager](/kb/aicad/sessionmanager-qjvfpz)
+d:T1e4a,# ACI 会话管理
+
+> 更新日期：2026-03-12
+> 来源：`docs/work_logs/WORK_LOG_2026_03_05_CAD_ACTION_INTERFACE.md`
+
+## 概述
+
+ACI 会话管理允许在多个 MCP 调用之间保持建模状态，实现跨调用的持续建模能力。
+
+---
+
+## SessionManager 架构
+
+### 位置
+
+`services/sandbox/mcp_server/src/sandbox_mcp_server/service.py`
+
+---
+
+### 核心数据结构
+
+```python
+class SessionState(BaseModel):
+    """会话状态模型"""
+    history: list[ActionHistoryEntry]  # 完整动作序列
+    current_step: int                 # 当前步骤计数器
+    created_at: datetime               # 会话创建时间戳
+
+class ActionHistoryEntry(BaseModel):
+    """单条动作历史记录"""
+    step: int                        # 步骤编号
+    action_type: CADActionType         # 动作类型
+    params: dict                      # 动作参数
+    snapshot: CADStateSnapshot         # 执行后状态快照
+    success: bool                    # 是否成功
+    error: str | None               # 错误信息（如有）
+```
+
+---
+
+### SessionManager API
+
+```python
+class SessionManager:
+    """ACI 会话管理器"""
+
+    def __init__(self, max_history_length: int = 50):
+        self._sessions: dict[str, SessionState] = {}
+        self.max_history_length = max_history_length
+
+    def get_or_create_session(self, session_id: str) -> SessionState:
+        """获取或创建会话"""
+        if session_id not in self._sessions:
+            self._sessions[session_id] = SessionState(
+                history=[],
+                current_step=0,
+                created_at=datetime.now()
+            )
+        return self._sessions[session_id]
+
+    def clear_session(self, session_id: str) -> None:
+        """清除会话状态"""
+        if session_id in self._sessions:
+            del self._sessions[session_id]
+
+    def append_action(self, session_id: str, entry: ActionHistoryEntry) -> None:
+        """追加动作到历史（max 50 entries）"""
+        session = self.get_or_create_session(session_id)
+        session.history.append(entry)
+        session.current_step += 1
+        # 限制历史长度
+        if len(session.history) > self.max_history_length:
+            session.history = session.history[-self.max_history_length:]
+
+    def get_session_history(self, session_id: str) -> list[ActionHistoryEntry]:
+        """获取完整动作历史"""
+        session = self.get_or_create_session(session_id)
+        return session.history
+```
+
+---
+
+## 会话操作
+
+### CLEAR_SESSION
+
+清除当前会话，重新开始建模。
+
+**请求：**
+```json
+{
+  "action": "clear_session"
+}
+```
+
+**效果：**
+- 删除会话中的所有历史记录
+- 重置步骤计数器到 0
+- 后续动作开始全新建模
+
+---
+
+### GET_HISTORY
+
+获取完整动作历史。
+
+**请求：**
+```json
+{
+  "action": "get_history",
+  "session_id": "my_model",
+  "include_history": true
+}
+```
+
+**响应：**
+```json
+{
+  "action_history": [
+    {
+      "step": 1,
+      "action_type": "create_sketch",
+      "params": {"plane": "XY"},
+      "snapshot": {...},
+      "success": true,
+      "error": null
+    },
+    {
+      "step": 2,
+      "action_type": "add_rectangle",
+      "params": {"width": 80, "height": 40, "centered": true},
+      "snapshot": {...},
+      "success": true,
+      "error": null
+    }
+  ]
+}
+```
+
+---
+
+### MODIFY_ACTION
+
+修改之前动作的参数，无需完全回退。
+
+**请求：**
+```json
+{
+  "action": "modify_action",
+  "target_step": 3,
+  "new_params": {
+    "radius": 3,
+    "target": "all_outer_edges"
+  }
+}
+```
+
+**处理流程：**
+1. 验证 `target_step` 参数
+2. 获取会话历史
+3. 合并 `new_params` 与原始动作参数
+4. 从修改后的动作重新构建模型（重放从步骤 1 到目标步骤）
+5. 更新会话历史中的条目
+6. 返回更新的快照和完整性
+
+---
+
+## 会话持久化机制
+
+### 当前实现
+
+- **存储方式：** 内存中（Python dict）
+- **生命周期：** MCP 服务器运行期间
+- **限制：** 服务器重启后丢失
+
+---
+
+### 未来扩展方向
+
+#### 方案 1：Redis 持久化
+
+```python
+class RedisSessionManager(SessionManager):
+    """Redis 持久化会话管理"""
+
+    def __init__(self, redis_url: str):
+        self.redis = redis.from_url(redis_url)
+
+    def get_or_create_session(self, session_id: str) -> SessionState:
+        # 从 Redis 读取或创建
+        data = self.redis.get(f"session:{session_id}")
+        if data:
+            return SessionState.parse_raw(data)
+        return SessionState(history=[], current_step=0)
+
+    def save_session(self, session_id: str, session: SessionState) -> None:
+        # 保存到 Redis
+        self.redis.setex(
+            f"session:{session_id}",
+            3600,  # 1 小时过期
+            session.json()
+        )
+```
+
+#### 方案 2：数据库持久化
+
+```python
+class DatabaseSessionManager(SessionManager):
+    """数据库持久化会话管理"""
+
+    def get_or_create_session(self, session_id: str) -> SessionState:
+        # 从数据库查询或创建
+        session = db.query(SessionState).filter_by(id=session_id).first()
+        if not session:
+            session = SessionState(id=session_id, history=[], current_step=0)
+            db.add(session)
+        return session
+
+    def append_action(self, session_id: str, entry: ActionHistoryEntry) -> None:
+        # 追加动作并持久化
+        session = self.get_or_create_session(session_id)
+        session.history.append(entry)
+        session.current_step += 1
+        db.commit()
+```
+
+---
+
+## 会话使用模式
+
+### 模式 1：单会话多步建模
+
+```python
+# 第一次调用
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "create_sketch", "plane": "XY"}, ...]
+})
+
+# 第二次调用（基于第一次结果）
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "extrude", "distance": 2}, ...]
+})
+
+# 第三次调用（基于前两次结果）
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "fillet", "radius": 0.5}, ...]
+})
+```
+
+---
+
+### 模式 2：修改已执行动作
+
+```python
+# 原始序列
+step 1: create_sketch
+step 2: add_rectangle
+step 3: extrude (distance=10)
+step 4: fillet (radius=1)
+
+# 发现需要修改 step 3
+apply_cad_action({
+    "session_id": "phone_case",
+    "action": "modify_action",
+    "target_step": 3,
+    "new_params": {"distance": 15}
+})
+
+# 结果：重放并更新
+step 1: create_sketch
+step 2: add_rectangle
+step 3: extrude (distance=15)  ← 已修改
+step 4: fillet (radius=1)       ← 保持原样
+```
+
+---
+
+### 模式 3：查看历史并继续
+
+```python
+# 查看历史
+get_history({"session_id": "phone_case"})
+# 返回完整历史和快照
+
+# 基于历史决策下一步
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "hole", "diameter": 2}, ...]
+})
+```
+
+---
+
+### 模式 4：完全重新开始
+
+```python
+# 清除所有历史
+apply_cad_action({
+    "action": "clear_session"
+})
+
+# 从头开始新建模
+apply_cad_action({
+    "session_id": "phone_case",
+    "actions": [{"action": "create_sketch", "plane": "XY"}, ...]
+})
+```
+
+---
+
+## 性能考虑
+
+### 内存使用
+
+- **假设：** 100 个并发会话，每个平均 20 个历史条目
+- **估算：** 100 * 20 * ~2KB = ~4MB（可接受）
+
+---
+
+### 历史长度限制
+
+- **当前：** 50 条目/会话
+- **建议：** 可配置，基于实际使用调整
+
+---
+
+### 过期策略
+
+- **内存：** LRU 策略或定期清理
+- **Redis：** TTL 自动过期
+- **数据库：** 定期清理过期会话
+
+---
+
+## 相关链接
+
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [ACI 实现细节](/kb/aicad/aci-8a0c9l)
+- [CAD 动作集设计](/kb/aicad/cad-a9bzjv)
+- [SessionManager](/kb/aicad/sessionmanager-qjvfpz)
+2:["$","$Lb",null,{"document":{"slug":"aci-9rbb4v","title":"ACI 会话管理","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$c","filePath":"ACI/ACI 会话管理.md","default":{"slug":"aci-9rbb4v","title":"ACI 会话管理","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$d","filePath":"ACI/ACI 会话管理.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"ACI 会话管理 - AICAD | Jerry Xu"}],["$","meta","3",{"name":"description","content":"ACI 会话管理"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

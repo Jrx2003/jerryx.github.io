@@ -1,0 +1,11 @@
+{
+  "slug": "serverless-esu4qv",
+  "title": "Serverless 架构演进",
+  "description": "",
+  "date": null,
+  "tags": [],
+  "category": "Cloud Computing",
+  "categoryId": "cloud",
+  "content": "# Serverless 架构演进\n\n> **更新日期**: 2026-03-13\n> **版本**: v1.0\n> **难度**: 中级\n> **预计阅读时间**: 40 分钟\n\n---\n\n## 目录\n\n1. [Serverless 概述](#serverless-概述)\n2. [架构演进](#架构演进)\n3. [技术实现](#技术实现)\n4. [应用场景](#应用场景)\n5. [面试要点](#面试要点)\n\n---\n\n## Serverless 概述\n\n### 什么是 Serverless\n\n```\nServerless = 无服务器架构\n\n核心特征:\n- 无需管理服务器\n- 自动扩缩容\n- 按实际调用付费\n- 事件驱动\n\n提供商管理:\n  服务器、网络、存储、虚拟化、容器、运行时\n\n开发者关注:\n  代码、业务逻辑\n```\n\n### 两种形态\n\n| 类型 | 代表 | 适用场景 |\n|------|------|----------|\n| FaaS | AWS Lambda, 函数计算 | 事件处理、API |\n| BaaS | Firebase, AppSync | 后端服务集成 |\n\n---\n\n## 架构演进\n\n### 演进历程\n\n```\n传统架构 (IaaS):\nApp → VM → OS → Middleware → Runtime\n\n容器化 (CaaS):\nApp → Container → Container Runtime → VM → OS\n\nServerless (FaaS):\nApp → Function → Platform\n\n每个阶段抽象层次更高，运维负担更小\n```\n\n### Serverless 架构图\n\n```\n事件源 → API Gateway → 函数平台 → 后端服务\n              ↓\n         ┌─────────┐\n         │ 函数1   │\n         │ 函数2   │\n         │ 函数3   │\n         └─────────┘\n              ↓\n         数据库/存储/队列\n```\n\n---\n\n## 技术实现\n\n### 冷启动优化\n\n```\n冷启动过程:\n1. 下载代码 (从对象存储)\n2. 启动容器\n3. 初始化运行时\n4. 执行初始化代码\n5. 处理请求\n\n优化策略:\n- 预留实例 (Provisioned Concurrency)\n- 单实例多并发\n- 精简依赖包\n- 延迟加载\n```\n\n### 状态管理\n\n```\n无状态设计:\n函数不保存状态，每次调用独立\n\n状态持久化:\n┌────────┐    ┌────────────┐    ┌────────┐\n│ 函数   │ → │ 外部存储   │ → │ 数据库 │\n└────────┘    │ (Redis/S3) │    └────────┘\n              └────────────┘\n```\n\n---\n\n## 应用场景\n\n### 适用场景\n\n```\n✅ 适合:\n- Web/API 后端\n- 定时任务 (Cron)\n- 文件处理 (上传触发)\n- 数据 ETL\n- IoT 数据处理\n- 聊天机器人\n\n❌ 不适合:\n- 长时间运行任务 (>15分钟)\n- 需要低延迟 (<100ms)\n- 大规模计算\n- 遗留系统迁移\n```\n\n---\n\n## 面试要点\n\n**Q1: Serverless 的优势和局限？**\n\nA:\n- 优势: 零运维、自动扩缩、按需付费、快速上线\n- 局限: 冷启动延迟、执行时长限制、调试困难、供应商锁定\n\n**Q2: 如何解决冷启动问题？**\n\nA:\n- 预留实例保持热状态\n- 单实例多并发复用容器\n- 优化代码包大小\n- 使用专用 VPC 减少网络初始化\n\n**Q3: Serverless 与传统架构对比？**\n\nA:\n- 成本: 流量低时便宜，流量高时可能更贵\n- 运维: Serverless 大幅减少运维工作\n- 性能: 传统架构更可预测\n\n",
+  "filePath": "云原生技术/Serverless 架构演进.md"
+}

@@ -10,7 +10,7 @@
   },
   "documents": [
     {
-      "slug": "2024-2025搜推前沿趋势",
+      "slug": "doc-vc6grk",
       "title": "2024-2025搜推前沿趋势",
       "description": "",
       "date": null,
@@ -19,7 +19,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "AB-实验与评估",
+      "slug": "ab-w064dv",
       "title": "AB 实验与评估",
       "description": "",
       "date": null,
@@ -28,7 +28,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "BERT4Rec",
+      "slug": "bert-s3aqrj",
       "title": "BERT4Rec",
       "description": "",
       "date": null,
@@ -37,7 +37,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "DeepFM-与-xDeepFM",
+      "slug": "deepfm-xblqgc",
       "title": "DeepFM 与 xDeepFM",
       "description": "",
       "date": null,
@@ -46,7 +46,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "DeepFM家族",
+      "slug": "deepfm-bgvg18",
       "title": "DeepFM家族",
       "description": "",
       "date": null,
@@ -55,7 +55,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "DIN与DIEN",
+      "slug": "din-z4srw3",
       "title": "DIN与DIEN",
       "description": "",
       "date": null,
@@ -64,7 +64,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "ESMM-与-ESSM",
+      "slug": "esmm-qq710",
       "title": "ESMM 与 ESSM",
       "description": "",
       "date": null,
@@ -73,7 +73,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GNN-在搜推中的应用",
+      "slug": "gnn-a9w0gq",
       "title": "GNN 在搜推中的应用",
       "description": "",
       "date": null,
@@ -82,7 +82,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GNN-基础",
+      "slug": "gnn-yux7gf",
       "title": "GNN 基础",
       "description": "",
       "date": null,
@@ -91,7 +91,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GNN基础与应用",
+      "slug": "gnn-yvji4r",
       "title": "GNN基础与应用",
       "description": "",
       "date": null,
@@ -100,7 +100,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GraphSAGE-与-GAT",
+      "slug": "graphsage-b5e4ma",
       "title": "GraphSAGE 与 GAT",
       "description": "",
       "date": null,
@@ -109,7 +109,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GRU4Rec-与-NARM",
+      "slug": "gru-uhsnqe",
       "title": "GRU4Rec 与 NARM",
       "description": "",
       "date": null,
@@ -118,7 +118,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GRU4Rec与SASRec",
+      "slug": "gru-py913n",
       "title": "GRU4Rec与SASRec",
       "description": "",
       "date": null,
@@ -127,7 +127,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "Learning-to-Rank",
+      "slug": "learning-6az7rl",
       "title": "Learning to Rank",
       "description": "",
       "date": null,
@@ -136,7 +136,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "LLM4Rec大模型推荐",
+      "slug": "llm-zt5ow",
       "title": "LLM4Rec大模型推荐",
       "description": "",
       "date": null,
@@ -145,7 +145,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "MMoE与多任务学习",
+      "slug": "mmoe-r6qn1a",
       "title": "MMoE与多任务学习",
       "description": "",
       "date": null,
@@ -154,7 +154,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "PLE-与递归冷启动",
+      "slug": "ple-izc14p",
       "title": "PLE 与递归冷启动",
       "description": "",
       "date": null,
@@ -163,7 +163,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "SASRec-与-BERT4Rec",
+      "slug": "sasrec-xba360",
       "title": "SASRec 与 BERT4Rec",
       "description": "",
       "date": null,
@@ -172,7 +172,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "Wide-&-Deep-模型",
+      "slug": "wide-rli4sp",
       "title": "Wide & Deep 模型",
       "description": "",
       "date": null,
@@ -181,7 +181,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "Wide&Deep架构",
+      "slug": "wide-1s5qlp",
       "title": "Wide&Deep架构",
       "description": "",
       "date": null,
@@ -190,7 +190,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "冷启动问题与策略",
+      "slug": "doc-nxy3qb",
       "title": "冷启动问题与策略",
       "description": "",
       "date": null,
@@ -199,7 +199,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "协同过滤算法",
+      "slug": "doc-3gfi0o",
       "title": "协同过滤算法",
       "description": "",
       "date": null,
@@ -208,7 +208,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "召回与排序框架",
+      "slug": "doc-8si5ft",
       "title": "召回与排序框架",
       "description": "",
       "date": null,
@@ -217,7 +217,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "因果推荐",
+      "slug": "doc-be4sbo",
       "title": "因果推荐",
       "description": "",
       "date": null,
@@ -226,7 +226,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "在线学习",
+      "slug": "doc-bir2c1",
       "title": "在线学习",
       "description": "",
       "date": null,
@@ -235,7 +235,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "在线学习系统",
+      "slug": "doc-98hap7",
       "title": "在线学习系统",
       "description": "",
       "date": null,
@@ -244,7 +244,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "多样性与新颖性",
+      "slug": "doc-m8mvdv",
       "title": "多样性与新颖性",
       "description": "",
       "date": null,
@@ -253,7 +253,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "多目标优化",
+      "slug": "doc-8nxrch",
       "title": "多目标优化",
       "description": "",
       "date": null,
@@ -262,7 +262,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "大模型推荐系统",
+      "slug": "doc-elhj6l",
       "title": "大模型推荐系统",
       "description": "",
       "date": null,
@@ -271,7 +271,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "序列建模基础",
+      "slug": "doc-3n4vx1",
       "title": "序列建模基础",
       "description": "",
       "date": null,
@@ -280,7 +280,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "探索与利用",
+      "slug": "doc-kif8k3",
       "title": "探索与利用",
       "description": "",
       "date": null,
@@ -289,7 +289,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "推荐系统概述",
+      "slug": "doc-yiiijq",
       "title": "推荐系统概述",
       "description": "",
       "date": null,
@@ -298,7 +298,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "搜推高频面试题",
+      "slug": "doc-tuai74",
       "title": "搜推高频面试题",
       "description": "",
       "date": null,
@@ -307,7 +307,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "搜索系统架构",
+      "slug": "doc-3r5ei0",
       "title": "搜索系统架构",
       "description": "",
       "date": null,
@@ -316,7 +316,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "流式计算基础",
+      "slug": "doc-5jicja",
       "title": "流式计算基础",
       "description": "",
       "date": null,
@@ -325,7 +325,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "特征实时化",
+      "slug": "doc-xtyn6e",
       "title": "特征实时化",
       "description": "",
       "date": null,
@@ -334,7 +334,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "生成式推荐",
+      "slug": "doc-qi8nei",
       "title": "生成式推荐",
       "description": "",
       "date": null,
@@ -343,7 +343,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "相关性计算",
+      "slug": "doc-ld9332",
       "title": "相关性计算",
       "description": "",
       "date": null,
@@ -352,7 +352,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "矩阵分解与因子分解机",
+      "slug": "doc-6o5tjc",
       "title": "矩阵分解与因子分解机",
       "description": "",
       "date": null,
@@ -361,7 +361,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "系统设计题",
+      "slug": "doc-81l1u9",
       "title": "系统设计题",
       "description": "",
       "date": null,
@@ -370,7 +370,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "评估指标体系",
+      "slug": "doc-2xfahg",
       "title": "评估指标体系",
       "description": "",
       "date": null,
@@ -379,7 +379,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "语义搜索与向量检索",
+      "slug": "doc-p8lhfw",
       "title": "语义搜索与向量检索",
       "description": "",
       "date": null,
@@ -388,7 +388,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "跨域推荐",
+      "slug": "doc-i9pbz3",
       "title": "跨域推荐",
       "description": "",
       "date": null,
@@ -397,7 +397,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "长序列建模",
+      "slug": "doc-sjw1qm",
       "title": "长序列建模",
       "description": "",
       "date": null,

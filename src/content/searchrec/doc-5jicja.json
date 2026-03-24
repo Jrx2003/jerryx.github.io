@@ -1,0 +1,11 @@
+{
+  "slug": "doc-5jicja",
+  "title": "流式计算基础",
+  "description": "",
+  "date": null,
+  "tags": [],
+  "category": "SearchRec",
+  "categoryId": "searchrec",
+  "content": "# 流式计算基础\n\n> **更新日期**: 2026-03-13\n> **版本**: v1.0\n> **难度**: 中级\n> **预计阅读时间**: 40 分钟\n\n---\n\n## 目录\n\n1. [流式计算概述](#流式计算概述)\n2. [Flink 基础](#flink-基础)\n3. [Kafka 集成](#kafka-集成)\n4. [面试要点](#面试要点)\n\n---\n\n## 流式计算概述\n\n### 什么是流式计算\n\n实时处理无界数据流的计算模式。\n\n```\n批处理: 有界数据 → 批量处理 → 输出\n流处理: 无界流 → 实时处理 → 持续输出\n\n应用场景:\n- 实时推荐\n- 实时监控\n- 实时风控\n```\n\n### 流处理框架\n\n| 框架 | 特点 |\n|------|------|\n| Flink | 真正的流处理、低延迟 |\n| Spark Streaming | 微批处理、高吞吐 |\n| Storm | 早期框架、纯实时 |\n| Kafka Streams | 轻量级、与Kafka集成 |\n\n---\n\n## Flink 基础\n\n### 核心概念\n\n```\nDataStream: 数据流抽象\nTransformation: 转换操作 (map/filter/reduce)\nWindow: 窗口 (时间/计数)\nState: 状态管理\n```\n\n### 示例代码\n\n```java\n// Flink 实时特征计算\nDataStream<Event> events = env\n    .addSource(new KafkaConsumer<>(\"events_topic\"))\n    .keyBy(Event::getUserId)\n    .window(TumblingEventTimeWindows.of(Time.minutes(5)))\n    .aggregate(new CountAggregate());\n```\n\n---\n\n## Kafka 集成\n\n### Kafka 架构\n\n```\nProducer → Kafka Cluster (Brokers) → Consumer\n              ↓\n           Topics (Partitions)\n```\n\n### 关键配置\n\n```properties\n# Producer\nbootstrap.servers=kafka:9092\nacks=all\nretries=3\n\n# Consumer\ngroup.id=recommendation-service\nauto.offset.reset=earliest\nenable.auto.commit=false\n```\n\n---\n\n## 面试要点\n\n**Q1: Flink 和 Spark Streaming 的区别？**\n\nA:\n- Flink 是真正的流处理\n- Spark Streaming 是微批处理\n- Flink 延迟更低\n\n**Q2: 如何保证 Exactly-Once？**\n\nA:\n- Checkpoint 机制\n- 两阶段提交\n- 幂等性设计\n\n---\n\n## 相关文档\n\n- [在线学习](/kb/searchrec/doc-bir2c1) - 实时模型更新\n- [特征实时化](/kb/searchrec/doc-xtyn6e) - 实时特征计算\n",
+  "filePath": "实时推荐/流式计算基础.md"
+}

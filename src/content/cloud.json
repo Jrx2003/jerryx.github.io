@@ -10,7 +10,7 @@
   },
   "documents": [
     {
-      "slug": "2024-2025云计算前沿趋势",
+      "slug": "doc-zbj61t",
       "title": "2024-2025云计算前沿趋势",
       "description": "",
       "date": null,
@@ -19,7 +19,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "AI-基础设施与-MaaS",
+      "slug": "ai-y94sk5",
       "title": "AI 基础设施与 MaaS",
       "description": "",
       "date": null,
@@ -28,7 +28,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Docker-容器基础",
+      "slug": "docker-2aysmt",
       "title": "Docker 容器基础",
       "description": "",
       "date": null,
@@ -37,7 +37,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "FaaS-函数计算",
+      "slug": "faas-oa4dj8",
       "title": "FaaS 函数计算",
       "description": "",
       "date": null,
@@ -46,7 +46,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "FinOps-云成本优化",
+      "slug": "finops-cit8by",
       "title": "FinOps 云成本优化",
       "description": "",
       "date": null,
@@ -55,7 +55,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Kubernetes-核心概念",
+      "slug": "kubernetes-usvmrs",
       "title": "Kubernetes 核心概念",
       "description": "",
       "date": null,
@@ -64,7 +64,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Kubernetes架构详解",
+      "slug": "kubernetes-ed669d",
       "title": "Kubernetes架构详解",
       "description": "",
       "date": null,
@@ -73,7 +73,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Serverless-架构演进",
+      "slug": "serverless-esu4qv",
       "title": "Serverless 架构演进",
       "description": "",
       "date": null,
@@ -82,7 +82,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Service-Mesh-详解",
+      "slug": "service-pyw8gr",
       "title": "Service Mesh 详解",
       "description": "",
       "date": null,
@@ -91,7 +91,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "WebAssembly-与云原生",
+      "slug": "webassembly-1pyjux",
       "title": "WebAssembly 与云原生",
       "description": "",
       "date": null,
@@ -100,7 +100,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "云平台对比分析",
+      "slug": "doc-54sh4j",
       "title": "云平台对比分析",
       "description": "",
       "date": null,
@@ -109,7 +109,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "云计算入门指南",
+      "slug": "doc-nrnzwa",
       "title": "云计算入门指南",
       "description": "",
       "date": null,
@@ -118,7 +118,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "云计算核心概念",
+      "slug": "doc-qfekbp",
       "title": "云计算核心概念",
       "description": "",
       "date": null,
@@ -127,7 +127,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "云计算高频面试题",
+      "slug": "doc-u4rysl",
       "title": "云计算高频面试题",
       "description": "",
       "date": null,
@@ -136,7 +136,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "冷启动优化技术",
+      "slug": "doc-q101p",
       "title": "冷启动优化技术",
       "description": "",
       "date": null,
@@ -145,7 +145,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "场景设计题精讲",
+      "slug": "doc-1xs7m4",
       "title": "场景设计题精讲",
       "description": "",
       "date": null,
@@ -154,7 +154,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "存储服务对比",
+      "slug": "doc-zh6agv",
       "title": "存储服务对比",
       "description": "",
       "date": null,
@@ -163,7 +163,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "容器服务选型指南",
+      "slug": "doc-s4d71n",
       "title": "容器服务选型指南",
       "description": "",
       "date": null,
@@ -172,7 +172,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "微服务架构设计",
+      "slug": "doc-1el699",
       "title": "微服务架构设计",
       "description": "",
       "date": null,
@@ -181,7 +181,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "服务模式详解",
+      "slug": "doc-t0gf41",
       "title": "服务模式详解",
       "description": "",
       "date": null,
@@ -190,7 +190,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "机密计算与零信任",
+      "slug": "doc-7gnf0k",
       "title": "机密计算与零信任",
       "description": "",
       "date": null,
@@ -199,7 +199,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "网络架构与VPC",
+      "slug": "doc-bs56no",
       "title": "网络架构与VPC",
       "description": "",
       "date": null,
@@ -208,7 +208,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "虚拟化技术详解",
+      "slug": "doc-tsqxnn",
       "title": "虚拟化技术详解",
       "description": "",
       "date": null,
@@ -217,7 +217,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "计算服务概览",
+      "slug": "doc-ibx4uo",
       "title": "计算服务概览",
       "description": "",
       "date": null,
@@ -226,7 +226,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "边缘计算与分布式云",
+      "slug": "doc-vemomw",
       "title": "边缘计算与分布式云",
       "description": "",
       "date": null,
@@ -235,7 +235,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "部署模式对比",
+      "slug": "doc-y877rn",
       "title": "部署模式对比",
       "description": "",
       "date": null,

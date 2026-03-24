@@ -1,0 +1,11 @@
+{
+  "slug": "doc-bir2c1",
+  "title": "在线学习",
+  "description": "",
+  "date": null,
+  "tags": [],
+  "category": "SearchRec",
+  "categoryId": "searchrec",
+  "content": "# 在线学习\n\n> **更新日期**: 2026-03-13\n> **版本**: v1.0\n> **难度**: 中级\n> **预计阅读时间**: 40 分钟\n\n---\n\n## 目录\n\n1. [在线学习概述](#在线学习概述)\n2. [FTRL 算法](#ftrl-算法)\n3. [实时更新策略](#实时更新策略)\n4. [面试要点](#面试要点)\n\n---\n\n## 在线学习概述\n\n### 什么是在线学习\n\n模型根据实时反馈持续更新。\n\n```\n离线学习: 批量训练 → 定期更新 (天/周)\n在线学习: 实时数据 → 增量更新 (秒/分钟)\n```\n\n### 应用场景\n\n- 新闻推荐 (热点变化快)\n- 实时广告\n- 金融风控\n\n---\n\n## FTRL 算法\n\n### Follow The Regularized Leader\n\n```python\nclass FTRL:\n    def __init__(self, alpha=0.005, beta=1.0, l1=0.1, l2=1.0):\n        self.alpha = alpha\n        self.beta = beta\n        self.l1 = l1\n        self.l2 = l2\n        self.z = {}\n        self.n = {}\n\n    def update(self, weights, gradients):\n        for f, g in gradients.items():\n            self.n[f] = self.n.get(f, 0) + g ** 2\n            sigma = (math.sqrt(self.n[f]) - math.sqrt(self.n[f] - g**2)) / self.alpha\n            self.z[f] = self.z.get(f, 0) + g - sigma * weights.get(f, 0)\n\n            if abs(self.z[f]) <= self.l1:\n                weights[f] = 0\n            else:\n                weights[f] = (self.l1 * (1 if self.z[f] > 0 else -1) - self.z[f]) / \\\n                             ((self.beta + math.sqrt(self.n[f])) / self.alpha + self.l2)\n        return weights\n```\n\n---\n\n## 实时更新策略\n\n### 参数服务器\n\n```\nWorker: 计算梯度 → Push 到 Server\nServer: 聚合更新 → 同步给 Workers\n```\n\n---\n\n## 面试要点\n\n**Q1: FTRL 的优点？**\n\nA:\n- 适合稀疏特征\n- 产生稀疏解\n- 每样本更新\n\n**Q2: 在线学习的挑战？**\n\nA:\n- 稳定性\n- 冷启动\n- 评估困难\n",
+  "filePath": "实时推荐/在线学习.md"
+}

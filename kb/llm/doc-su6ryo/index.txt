@@ -1,0 +1,1022 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","doc-su6ryo","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-su6ryo","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"doc-su6ryo\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-su6ryo","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T3422,# 手撕代码题
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 60 分钟
+
+---
+
+## 目录
+
+1. [Transformer 组件](#transformer-组件)
+2. [注意力机制](#注意力机制)
+3. [位置编码](#位置编码)
+4. [推理优化](#推理优化)
+5. [训练技巧](#训练技巧)
+6. [完整模型](#完整模型)
+
+---
+
+## Transformer 组件
+
+### 1. Layer Normalization
+
+```python
+class LayerNorm(nn.Module):
+    """层归一化"""
+
+    def __init__(self, d_model, eps=1e-6):
+        super().__init__()
+        self.eps = eps
+        self.gamma = nn.Parameter(torch.ones(d_model))
+        self.beta = nn.Parameter(torch.zeros(d_model))
+
+    def forward(self, x):
+        """
+        x: [batch, seq_len, d_model]
+        """
+        # 计算均值和方差
+        mean = x.mean(dim=-1, keepdim=True)
+        var = x.var(dim=-1, keepdim=True, unbiased=False)
+
+        # 归一化
+        x_norm = (x - mean) / torch.sqrt(var + self.eps)
+
+        # 缩放和平移
+        return self.gamma * x_norm + self.beta
+```
+
+### 2. Feed Forward Network
+
+```python
+class FeedForward(nn.Module):
+    """前馈网络"""
+
+    def __init__(self, d_model, d_ff, dropout=0.1):
+        super().__init__()
+        self.linear1 = nn.Linear(d_model, d_ff)
+        self.linear2 = nn.Linear(d_ff, d_model)
+        self.dropout = nn.Dropout(dropout)
+        self.activation = nn.GELU()
+
+    def forward(self, x):
+        """
+        x: [batch, seq_len, d_model]
+        """
+        x = self.linear1(x)
+        x = self.activation(x)
+        x = self.dropout(x)
+        x = self.linear2(x)
+        return x
+```
+
+### 3. 残差连接
+
+```python
+class ResidualConnection(nn.Module):
+    """残差连接 + LayerNorm"""
+
+    def __init__(self, d_model, dropout=0.1):
+        super().__init__()
+        self.norm = LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, sublayer):
+        """
+        x: 输入
+        sublayer: 子层函数
+        """
+        # Pre-LN: 先归一化再经过子层
+        return x + self.dropout(sublayer(self.norm(x)))
+```
+
+---
+
+## 注意力机制
+
+### 1. Scaled Dot-Product Attention
+
+```python
+def attention(Q, K, V, mask=None, dropout=None):
+    """
+    缩放点积注意力
+
+    Q, K, V: [batch, heads, seq_len, d_k]
+    mask: [batch, 1, seq_len, seq_len] 或广播形式
+    """
+    d_k = Q.size(-1)
+
+    # 计算注意力分数
+    scores = torch.matmul(Q, K.transpose(-2, -1))  # [batch, heads, seq, seq]
+    scores = scores / math.sqrt(d_k)
+
+    # 应用 mask
+    if mask is not None:
+        scores = scores.masked_fill(mask == 0, -1e9)
+
+    # Softmax
+    attn_weights = F.softmax(scores, dim=-1)
+
+    # Dropout
+    if dropout is not None:
+        attn_weights = dropout(attn_weights)
+
+    # 加权求和
+    output = torch.matmul(attn_weights, V)  # [batch, heads, seq, d_k]
+
+    return output, attn_weights
+```
+
+### 2. Multi-Head Attention
+
+```python
+class MultiHeadAttention(nn.Module):
+    """多头注意力"""
+
+    def __init__(self, d_model, num_heads, dropout=0.1):
+        super().__init__()
+        assert d_model % num_heads == 0
+
+        self.d_model = d_model
+        self.num_heads = num_heads
+        self.d_k = d_model // num_heads
+
+        # Q, K, V 投影
+        self.W_q = nn.Linear(d_model, d_model)
+        self.W_k = nn.Linear(d_model, d_model)
+        self.W_v = nn.Linear(d_model, d_model)
+        self.W_o = nn.Linear(d_model, d_model)
+
+        self.dropout = nn.Dropout(dropout)
+
+    def split_heads(self, x):
+        """
+        x: [batch, seq_len, d_model]
+        输出: [batch, heads, seq_len, d_k]
+        """
+        batch_size, seq_len, _ = x.size()
+        x = x.view(batch_size, seq_len, self.num_heads, self.d_k)
+        return x.transpose(1, 2)
+
+    def combine_heads(self, x):
+        """
+        x: [batch, heads, seq_len, d_k]
+        输出: [batch, seq_len, d_model]
+        """
+        batch_size, _, seq_len, _ = x.size()
+        x = x.transpose(1, 2).contiguous()
+        return x.view(batch_size, seq_len, self.d_model)
+
+    def forward(self, query, key, value, mask=None):
+        """
+        query, key, value: [batch, seq_len, d_model]
+        mask: [batch, 1, seq_len, seq_len]
+        """
+        # 投影并分头
+        Q = self.split_heads(self.W_q(query))
+        K = self.split_heads(self.W_k(key))
+        V = self.split_heads(self.W_v(value))
+
+        # 注意力计算
+        attn_output, attn_weights = attention(
+            Q, K, V, mask, self.dropout
+        )
+
+        # 合并头并输出投影
+        output = self.W_o(self.combine_heads(attn_output))
+
+        return output, attn_weights
+```
+
+### 3. 因果掩码 (Causal Mask)
+
+```python
+def create_causal_mask(seq_len):
+    """
+    创建因果掩码 (上三角为0)
+    输出: [seq_len, seq_len]
+    """
+    mask = torch.triu(torch.ones(seq_len, seq_len), diagonal=1)
+    mask = mask.masked_fill(mask == 1, float('-inf'))
+    return mask
+
+# 或使用 bool mask
+def create_causal_mask_bool(seq_len):
+    """创建布尔因果掩码"""
+    mask = torch.tril(torch.ones(seq_len, seq_len))
+    return mask.bool()
+```
+
+---
+
+## 位置编码
+
+### 1. 正弦位置编码
+
+```python
+class SinusoidalPositionalEncoding(nn.Module):
+    """正弦位置编码"""
+
+    def __init__(self, d_model, max_len=5000, dropout=0.1):
+        super().__init__()
+        self.dropout = nn.Dropout(dropout)
+
+        # 计算位置编码
+        pe = torch.zeros(max_len, d_model)
+        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
+
+        div_term = torch.exp(
+            torch.arange(0, d_model, 2).float() *
+            (-math.log(10000.0) / d_model)
+        )
+
+        pe[:, 0::2] = torch.sin(position * div_term)
+        pe[:, 1::2] = torch.cos(position * div_term)
+
+        pe = pe.unsqueeze(0)  # [1, max_len, d_model]
+        self.register_buffer('pe', pe)
+
+    def forward(self, x):
+        """
+        x: [batch, seq_len, d_model]
+        """
+        x = x + self.pe[:, :x.size(1)]
+        return self.dropout(x)
+```
+
+### 2. RoPE (旋转位置编码)
+
+```python
+def precompute_freqs_cis(dim: int, end: int, theta: float = 10000.0):
+    """
+    预计算旋转频率
+
+    dim: 维度
+    end: 最大序列长度
+    """
+    freqs = 1.0 / (theta ** (torch.arange(0, dim, 2).float() / dim))
+    t = torch.arange(end)
+    freqs = torch.outer(t, freqs)  # [end, dim//2]
+    freqs_cis = torch.polar(torch.ones_like(freqs), freqs)  # 复数形式
+    return freqs_cis
+
+
+def apply_rotary_emb(xq, xk, freqs_cis):
+    """
+    应用旋转位置编码
+
+    xq, xk: [batch, heads, seq_len, head_dim]
+    freqs_cis: [seq_len, head_dim//2] 复数
+    """
+    # 转换为复数
+    def reshape_for_broadcast(x):
+        # [batch, heads, seq_len, head_dim] -> [batch, heads, seq_len, head_dim//2, 2]
+        x = x.float().reshape(*x.shape[:-1], -1, 2)
+        return torch.view_as_complex(x)
+
+    xq_ = reshape_for_broadcast(xq)
+    xk_ = reshape_for_broadcast(xk)
+
+    # 对齐维度
+    freqs_cis = freqs_cis.unsqueeze(0).unsqueeze(0)  # [1, 1, seq_len, head_dim//2]
+
+    # 旋转
+    xq_out = torch.view_as_real(xq_ * freqs_cis).flatten(3)
+    xk_out = torch.view_as_real(xk_ * freqs_cis).flatten(3)
+
+    return xq_out.type_as(xq), xk_out.type_as(xk)
+```
+
+---
+
+## 推理优化
+
+### 1. KV Cache
+
+```python
+class KVCache:
+    """KV Cache 管理"""
+
+    def __init__(self, num_layers, num_heads, head_dim, max_seq_len):
+        self.num_layers = num_layers
+        self.k_cache = [
+            torch.zeros(1, num_heads, max_seq_len, head_dim)
+            for _ in range(num_layers)
+        ]
+        self.v_cache = [
+            torch.zeros(1, num_heads, max_seq_len, head_dim)
+            for _ in range(num_layers)
+        ]
+        self.current_len = 0
+
+    def update(self, layer_idx, new_k, new_v):
+        """
+        更新 cache
+        new_k, new_v: [batch, heads, new_len, head_dim]
+        """
+        batch_size, _, new_len, _ = new_k.shape
+        start = self.current_len
+        end = start + new_len
+
+        self.k_cache[layer_idx][:, :, start:end] = new_k
+        self.v_cache[layer_idx][:, :, start:end] = new_v
+
+        self.current_len = end
+
+    def get(self, layer_idx):
+        """获取当前 cache"""
+        return (
+            self.k_cache[layer_idx][:, :, :self.current_len],
+            self.v_cache[layer_idx][:, :, :self.current_len]
+        )
+
+
+def attention_with_cache(Q, K, V, k_cache, v_cache, layer_idx, mask=None):
+    """使用 KV Cache 的注意力"""
+    # 更新 cache
+    k_cache.update(layer_idx, K, V)
+
+    # 获取完整 K, V
+    full_k, full_v = k_cache.get(layer_idx)
+
+    # 计算注意力 (只计算新 token 的输出)
+    scores = torch.matmul(Q, full_k.transpose(-2, -1)) / math.sqrt(Q.size(-1))
+
+    if mask is not None:
+        scores = scores.masked_fill(mask == 0, -1e9)
+
+    attn = F.softmax(scores, dim=-1)
+    output = torch.matmul(attn, full_v)
+
+    return output
+```
+
+### 2. GQA (分组查询注意力)
+
+```python
+class GroupedQueryAttention(nn.Module):
+    """分组查询注意力"""
+
+    def __init__(self, d_model, num_heads, num_kv_heads, dropout=0.1):
+        super().__init__()
+        self.num_heads = num_heads
+        self.num_kv_heads = num_kv_heads
+        self.head_dim = d_model // num_heads
+        self.num_groups = num_heads // num_kv_heads
+
+        # Q: num_heads, K/V: num_kv_heads
+        self.W_q = nn.Linear(d_model, num_heads * self.head_dim)
+        self.W_k = nn.Linear(d_model, num_kv_heads * self.head_dim)
+        self.W_v = nn.Linear(d_model, num_kv_heads * self.head_dim)
+        self.W_o = nn.Linear(d_model, d_model)
+
+    def forward(self, x, mask=None):
+        batch, seq_len, _ = x.shape
+
+        # 投影
+        Q = self.W_q(x).view(batch, seq_len, self.num_heads, self.head_dim)
+        K = self.W_k(x).view(batch, seq_len, self.num_kv_heads, self.head_dim)
+        V = self.W_v(x).view(batch, seq_len, self.num_kv_heads, self.head_dim)
+
+        # 扩展 K, V 以匹配 Q 的头数
+        # [batch, seq, num_kv_heads, head_dim] -> [batch, seq, num_heads, head_dim]
+        K = K.repeat_interleave(self.num_groups, dim=2)
+        V = V.repeat_interleave(self.num_groups, dim=2)
+
+        # 转置为 [batch, heads, seq, head_dim]
+        Q = Q.transpose(1, 2)
+        K = K.transpose(1, 2)
+        V = V.transpose(1, 2)
+
+        # 注意力计算
+        scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.head_dim)
+        if mask is not None:
+            scores = scores.masked_fill(mask == 0, -1e9)
+
+        attn = F.softmax(scores, dim=-1)
+        output = torch.matmul(attn, V)
+
+        # 合并头
+        output = output.transpose(1, 2).contiguous().view(batch, seq_len, -1)
+        return self.W_o(output)
+```
+
+---
+
+## 训练技巧
+
+### 1. LoRA
+
+```python
+class LoRALayer(nn.Module):
+    """LoRA 层"""
+
+    def __init__(self, in_features, out_features, rank=8, alpha=16):
+        super().__init__()
+        self.rank = rank
+        self.alpha = alpha
+        self.scaling = alpha / rank
+
+        self.lora_A = nn.Parameter(torch.zeros(in_features, rank))
+        self.lora_B = nn.Parameter(torch.zeros(rank, out_features))
+
+        nn.init.kaiming_uniform_(self.lora_A)
+        nn.init.zeros_(self.lora_B)
+
+    def forward(self, x):
+        """x @ A @ B * scaling"""
+        return (x @ self.lora_A @ self.lora_B) * self.scaling
+
+
+class LinearWithLoRA(nn.Module):
+    def __init__(self, base_layer, rank=8, alpha=16):
+        super().__init__()
+        self.base_layer = base_layer
+        self.lora = LoRALayer(
+            base_layer.in_features,
+            base_layer.out_features,
+            rank, alpha
+        )
+
+        # 冻结原权重
+        for param in self.base_layer.parameters():
+            param.requires_grad = False
+
+    def forward(self, x):
+        return self.base_layer(x) + self.lora(x)
+```
+
+---
+
+## 完整模型
+
+### 极简 GPT
+
+```python
+class MiniGPT(nn.Module):
+    """极简 GPT 实现"""
+
+    def __init__(self, vocab_size, d_model=512, num_heads=8,
+                 num_layers=6, d_ff=2048, max_len=512, dropout=0.1):
+        super().__init__()
+
+        self.token_emb = nn.Embedding(vocab_size, d_model)
+        self.pos_emb = SinusoidalPositionalEncoding(d_model, max_len, dropout)
+
+        self.layers = nn.ModuleList([
+            TransformerBlock(d_model, num_heads, d_ff, dropout)
+            for _ in range(num_layers)
+        ])
+
+        self.norm = LayerNorm(d_model)
+        self.output = nn.Linear(d_model, vocab_size)
+
+    def forward(self, x, mask=None):
+        # Embedding
+        x = self.token_emb(x)
+        x = self.pos_emb(x)
+
+        # Transformer 层
+        for layer in self.layers:
+            x = layer(x, mask)
+
+        # 输出
+        x = self.norm(x)
+        return self.output(x)
+
+    def generate(self, prompt, max_new_tokens=100, temperature=1.0):
+        """自回归生成"""
+        self.eval()
+        generated = prompt
+
+        for _ in range(max_new_tokens):
+            # 准备输入
+            logits = self.forward(generated)
+            logits = logits[:, -1, :] / temperature
+
+            # 采样
+            probs = F.softmax(logits, dim=-1)
+            next_token = torch.multinomial(probs, num_samples=1)
+
+            # 添加到序列
+            generated = torch.cat([generated, next_token], dim=1)
+
+        return generated
+d:T3422,# 手撕代码题
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 60 分钟
+
+---
+
+## 目录
+
+1. [Transformer 组件](#transformer-组件)
+2. [注意力机制](#注意力机制)
+3. [位置编码](#位置编码)
+4. [推理优化](#推理优化)
+5. [训练技巧](#训练技巧)
+6. [完整模型](#完整模型)
+
+---
+
+## Transformer 组件
+
+### 1. Layer Normalization
+
+```python
+class LayerNorm(nn.Module):
+    """层归一化"""
+
+    def __init__(self, d_model, eps=1e-6):
+        super().__init__()
+        self.eps = eps
+        self.gamma = nn.Parameter(torch.ones(d_model))
+        self.beta = nn.Parameter(torch.zeros(d_model))
+
+    def forward(self, x):
+        """
+        x: [batch, seq_len, d_model]
+        """
+        # 计算均值和方差
+        mean = x.mean(dim=-1, keepdim=True)
+        var = x.var(dim=-1, keepdim=True, unbiased=False)
+
+        # 归一化
+        x_norm = (x - mean) / torch.sqrt(var + self.eps)
+
+        # 缩放和平移
+        return self.gamma * x_norm + self.beta
+```
+
+### 2. Feed Forward Network
+
+```python
+class FeedForward(nn.Module):
+    """前馈网络"""
+
+    def __init__(self, d_model, d_ff, dropout=0.1):
+        super().__init__()
+        self.linear1 = nn.Linear(d_model, d_ff)
+        self.linear2 = nn.Linear(d_ff, d_model)
+        self.dropout = nn.Dropout(dropout)
+        self.activation = nn.GELU()
+
+    def forward(self, x):
+        """
+        x: [batch, seq_len, d_model]
+        """
+        x = self.linear1(x)
+        x = self.activation(x)
+        x = self.dropout(x)
+        x = self.linear2(x)
+        return x
+```
+
+### 3. 残差连接
+
+```python
+class ResidualConnection(nn.Module):
+    """残差连接 + LayerNorm"""
+
+    def __init__(self, d_model, dropout=0.1):
+        super().__init__()
+        self.norm = LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, sublayer):
+        """
+        x: 输入
+        sublayer: 子层函数
+        """
+        # Pre-LN: 先归一化再经过子层
+        return x + self.dropout(sublayer(self.norm(x)))
+```
+
+---
+
+## 注意力机制
+
+### 1. Scaled Dot-Product Attention
+
+```python
+def attention(Q, K, V, mask=None, dropout=None):
+    """
+    缩放点积注意力
+
+    Q, K, V: [batch, heads, seq_len, d_k]
+    mask: [batch, 1, seq_len, seq_len] 或广播形式
+    """
+    d_k = Q.size(-1)
+
+    # 计算注意力分数
+    scores = torch.matmul(Q, K.transpose(-2, -1))  # [batch, heads, seq, seq]
+    scores = scores / math.sqrt(d_k)
+
+    # 应用 mask
+    if mask is not None:
+        scores = scores.masked_fill(mask == 0, -1e9)
+
+    # Softmax
+    attn_weights = F.softmax(scores, dim=-1)
+
+    # Dropout
+    if dropout is not None:
+        attn_weights = dropout(attn_weights)
+
+    # 加权求和
+    output = torch.matmul(attn_weights, V)  # [batch, heads, seq, d_k]
+
+    return output, attn_weights
+```
+
+### 2. Multi-Head Attention
+
+```python
+class MultiHeadAttention(nn.Module):
+    """多头注意力"""
+
+    def __init__(self, d_model, num_heads, dropout=0.1):
+        super().__init__()
+        assert d_model % num_heads == 0
+
+        self.d_model = d_model
+        self.num_heads = num_heads
+        self.d_k = d_model // num_heads
+
+        # Q, K, V 投影
+        self.W_q = nn.Linear(d_model, d_model)
+        self.W_k = nn.Linear(d_model, d_model)
+        self.W_v = nn.Linear(d_model, d_model)
+        self.W_o = nn.Linear(d_model, d_model)
+
+        self.dropout = nn.Dropout(dropout)
+
+    def split_heads(self, x):
+        """
+        x: [batch, seq_len, d_model]
+        输出: [batch, heads, seq_len, d_k]
+        """
+        batch_size, seq_len, _ = x.size()
+        x = x.view(batch_size, seq_len, self.num_heads, self.d_k)
+        return x.transpose(1, 2)
+
+    def combine_heads(self, x):
+        """
+        x: [batch, heads, seq_len, d_k]
+        输出: [batch, seq_len, d_model]
+        """
+        batch_size, _, seq_len, _ = x.size()
+        x = x.transpose(1, 2).contiguous()
+        return x.view(batch_size, seq_len, self.d_model)
+
+    def forward(self, query, key, value, mask=None):
+        """
+        query, key, value: [batch, seq_len, d_model]
+        mask: [batch, 1, seq_len, seq_len]
+        """
+        # 投影并分头
+        Q = self.split_heads(self.W_q(query))
+        K = self.split_heads(self.W_k(key))
+        V = self.split_heads(self.W_v(value))
+
+        # 注意力计算
+        attn_output, attn_weights = attention(
+            Q, K, V, mask, self.dropout
+        )
+
+        # 合并头并输出投影
+        output = self.W_o(self.combine_heads(attn_output))
+
+        return output, attn_weights
+```
+
+### 3. 因果掩码 (Causal Mask)
+
+```python
+def create_causal_mask(seq_len):
+    """
+    创建因果掩码 (上三角为0)
+    输出: [seq_len, seq_len]
+    """
+    mask = torch.triu(torch.ones(seq_len, seq_len), diagonal=1)
+    mask = mask.masked_fill(mask == 1, float('-inf'))
+    return mask
+
+# 或使用 bool mask
+def create_causal_mask_bool(seq_len):
+    """创建布尔因果掩码"""
+    mask = torch.tril(torch.ones(seq_len, seq_len))
+    return mask.bool()
+```
+
+---
+
+## 位置编码
+
+### 1. 正弦位置编码
+
+```python
+class SinusoidalPositionalEncoding(nn.Module):
+    """正弦位置编码"""
+
+    def __init__(self, d_model, max_len=5000, dropout=0.1):
+        super().__init__()
+        self.dropout = nn.Dropout(dropout)
+
+        # 计算位置编码
+        pe = torch.zeros(max_len, d_model)
+        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
+
+        div_term = torch.exp(
+            torch.arange(0, d_model, 2).float() *
+            (-math.log(10000.0) / d_model)
+        )
+
+        pe[:, 0::2] = torch.sin(position * div_term)
+        pe[:, 1::2] = torch.cos(position * div_term)
+
+        pe = pe.unsqueeze(0)  # [1, max_len, d_model]
+        self.register_buffer('pe', pe)
+
+    def forward(self, x):
+        """
+        x: [batch, seq_len, d_model]
+        """
+        x = x + self.pe[:, :x.size(1)]
+        return self.dropout(x)
+```
+
+### 2. RoPE (旋转位置编码)
+
+```python
+def precompute_freqs_cis(dim: int, end: int, theta: float = 10000.0):
+    """
+    预计算旋转频率
+
+    dim: 维度
+    end: 最大序列长度
+    """
+    freqs = 1.0 / (theta ** (torch.arange(0, dim, 2).float() / dim))
+    t = torch.arange(end)
+    freqs = torch.outer(t, freqs)  # [end, dim//2]
+    freqs_cis = torch.polar(torch.ones_like(freqs), freqs)  # 复数形式
+    return freqs_cis
+
+
+def apply_rotary_emb(xq, xk, freqs_cis):
+    """
+    应用旋转位置编码
+
+    xq, xk: [batch, heads, seq_len, head_dim]
+    freqs_cis: [seq_len, head_dim//2] 复数
+    """
+    # 转换为复数
+    def reshape_for_broadcast(x):
+        # [batch, heads, seq_len, head_dim] -> [batch, heads, seq_len, head_dim//2, 2]
+        x = x.float().reshape(*x.shape[:-1], -1, 2)
+        return torch.view_as_complex(x)
+
+    xq_ = reshape_for_broadcast(xq)
+    xk_ = reshape_for_broadcast(xk)
+
+    # 对齐维度
+    freqs_cis = freqs_cis.unsqueeze(0).unsqueeze(0)  # [1, 1, seq_len, head_dim//2]
+
+    # 旋转
+    xq_out = torch.view_as_real(xq_ * freqs_cis).flatten(3)
+    xk_out = torch.view_as_real(xk_ * freqs_cis).flatten(3)
+
+    return xq_out.type_as(xq), xk_out.type_as(xk)
+```
+
+---
+
+## 推理优化
+
+### 1. KV Cache
+
+```python
+class KVCache:
+    """KV Cache 管理"""
+
+    def __init__(self, num_layers, num_heads, head_dim, max_seq_len):
+        self.num_layers = num_layers
+        self.k_cache = [
+            torch.zeros(1, num_heads, max_seq_len, head_dim)
+            for _ in range(num_layers)
+        ]
+        self.v_cache = [
+            torch.zeros(1, num_heads, max_seq_len, head_dim)
+            for _ in range(num_layers)
+        ]
+        self.current_len = 0
+
+    def update(self, layer_idx, new_k, new_v):
+        """
+        更新 cache
+        new_k, new_v: [batch, heads, new_len, head_dim]
+        """
+        batch_size, _, new_len, _ = new_k.shape
+        start = self.current_len
+        end = start + new_len
+
+        self.k_cache[layer_idx][:, :, start:end] = new_k
+        self.v_cache[layer_idx][:, :, start:end] = new_v
+
+        self.current_len = end
+
+    def get(self, layer_idx):
+        """获取当前 cache"""
+        return (
+            self.k_cache[layer_idx][:, :, :self.current_len],
+            self.v_cache[layer_idx][:, :, :self.current_len]
+        )
+
+
+def attention_with_cache(Q, K, V, k_cache, v_cache, layer_idx, mask=None):
+    """使用 KV Cache 的注意力"""
+    # 更新 cache
+    k_cache.update(layer_idx, K, V)
+
+    # 获取完整 K, V
+    full_k, full_v = k_cache.get(layer_idx)
+
+    # 计算注意力 (只计算新 token 的输出)
+    scores = torch.matmul(Q, full_k.transpose(-2, -1)) / math.sqrt(Q.size(-1))
+
+    if mask is not None:
+        scores = scores.masked_fill(mask == 0, -1e9)
+
+    attn = F.softmax(scores, dim=-1)
+    output = torch.matmul(attn, full_v)
+
+    return output
+```
+
+### 2. GQA (分组查询注意力)
+
+```python
+class GroupedQueryAttention(nn.Module):
+    """分组查询注意力"""
+
+    def __init__(self, d_model, num_heads, num_kv_heads, dropout=0.1):
+        super().__init__()
+        self.num_heads = num_heads
+        self.num_kv_heads = num_kv_heads
+        self.head_dim = d_model // num_heads
+        self.num_groups = num_heads // num_kv_heads
+
+        # Q: num_heads, K/V: num_kv_heads
+        self.W_q = nn.Linear(d_model, num_heads * self.head_dim)
+        self.W_k = nn.Linear(d_model, num_kv_heads * self.head_dim)
+        self.W_v = nn.Linear(d_model, num_kv_heads * self.head_dim)
+        self.W_o = nn.Linear(d_model, d_model)
+
+    def forward(self, x, mask=None):
+        batch, seq_len, _ = x.shape
+
+        # 投影
+        Q = self.W_q(x).view(batch, seq_len, self.num_heads, self.head_dim)
+        K = self.W_k(x).view(batch, seq_len, self.num_kv_heads, self.head_dim)
+        V = self.W_v(x).view(batch, seq_len, self.num_kv_heads, self.head_dim)
+
+        # 扩展 K, V 以匹配 Q 的头数
+        # [batch, seq, num_kv_heads, head_dim] -> [batch, seq, num_heads, head_dim]
+        K = K.repeat_interleave(self.num_groups, dim=2)
+        V = V.repeat_interleave(self.num_groups, dim=2)
+
+        # 转置为 [batch, heads, seq, head_dim]
+        Q = Q.transpose(1, 2)
+        K = K.transpose(1, 2)
+        V = V.transpose(1, 2)
+
+        # 注意力计算
+        scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.head_dim)
+        if mask is not None:
+            scores = scores.masked_fill(mask == 0, -1e9)
+
+        attn = F.softmax(scores, dim=-1)
+        output = torch.matmul(attn, V)
+
+        # 合并头
+        output = output.transpose(1, 2).contiguous().view(batch, seq_len, -1)
+        return self.W_o(output)
+```
+
+---
+
+## 训练技巧
+
+### 1. LoRA
+
+```python
+class LoRALayer(nn.Module):
+    """LoRA 层"""
+
+    def __init__(self, in_features, out_features, rank=8, alpha=16):
+        super().__init__()
+        self.rank = rank
+        self.alpha = alpha
+        self.scaling = alpha / rank
+
+        self.lora_A = nn.Parameter(torch.zeros(in_features, rank))
+        self.lora_B = nn.Parameter(torch.zeros(rank, out_features))
+
+        nn.init.kaiming_uniform_(self.lora_A)
+        nn.init.zeros_(self.lora_B)
+
+    def forward(self, x):
+        """x @ A @ B * scaling"""
+        return (x @ self.lora_A @ self.lora_B) * self.scaling
+
+
+class LinearWithLoRA(nn.Module):
+    def __init__(self, base_layer, rank=8, alpha=16):
+        super().__init__()
+        self.base_layer = base_layer
+        self.lora = LoRALayer(
+            base_layer.in_features,
+            base_layer.out_features,
+            rank, alpha
+        )
+
+        # 冻结原权重
+        for param in self.base_layer.parameters():
+            param.requires_grad = False
+
+    def forward(self, x):
+        return self.base_layer(x) + self.lora(x)
+```
+
+---
+
+## 完整模型
+
+### 极简 GPT
+
+```python
+class MiniGPT(nn.Module):
+    """极简 GPT 实现"""
+
+    def __init__(self, vocab_size, d_model=512, num_heads=8,
+                 num_layers=6, d_ff=2048, max_len=512, dropout=0.1):
+        super().__init__()
+
+        self.token_emb = nn.Embedding(vocab_size, d_model)
+        self.pos_emb = SinusoidalPositionalEncoding(d_model, max_len, dropout)
+
+        self.layers = nn.ModuleList([
+            TransformerBlock(d_model, num_heads, d_ff, dropout)
+            for _ in range(num_layers)
+        ])
+
+        self.norm = LayerNorm(d_model)
+        self.output = nn.Linear(d_model, vocab_size)
+
+    def forward(self, x, mask=None):
+        # Embedding
+        x = self.token_emb(x)
+        x = self.pos_emb(x)
+
+        # Transformer 层
+        for layer in self.layers:
+            x = layer(x, mask)
+
+        # 输出
+        x = self.norm(x)
+        return self.output(x)
+
+    def generate(self, prompt, max_new_tokens=100, temperature=1.0):
+        """自回归生成"""
+        self.eval()
+        generated = prompt
+
+        for _ in range(max_new_tokens):
+            # 准备输入
+            logits = self.forward(generated)
+            logits = logits[:, -1, :] / temperature
+
+            # 采样
+            probs = F.softmax(logits, dim=-1)
+            next_token = torch.multinomial(probs, num_samples=1)
+
+            # 添加到序列
+            generated = torch.cat([generated, next_token], dim=1)
+
+        return generated
+2:["$","$Lb",null,{"document":{"slug":"doc-su6ryo","title":"手撕代码题","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"面试专题/手撕代码题.md","default":{"slug":"doc-su6ryo","title":"手撕代码题","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"面试专题/手撕代码题.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"手撕代码题 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"手撕代码题"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

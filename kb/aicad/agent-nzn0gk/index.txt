@@ -1,0 +1,1554 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","aicad","d"]
+5:["slug","agent-nzn0gk","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","agent-nzn0gk","d"],{"children":["__PAGE__?{\"category\":\"aicad\",\"slug\":\"agent-nzn0gk\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","agent-nzn0gk","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T5da7,# Agent 基础概念
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地整理 Agent 相关的核心概念
+
+---
+
+## 目录
+
+1. [MCP (Model Context Protocol)](#mcp-model-context-protocol)
+2. [Function Calling](#function-calling)
+3. [Tool Use vs Function Calling](#tool-use-vs-function-calling)
+4. [RAG (Retrieval-Augmented Generation)](#rag-retrieval-augmented-generation)
+5. [向量检索 (FAISS)](#向量检索-faiss)
+6. [Agent 模式](#agent-模式)
+7. [Agent Swarms](#agent-swarms)
+8. [Memory Systems](#memory-systems)
+
+---
+
+## MCP (Model Context Protocol)
+
+### 什么是 MCP？
+
+**MCP (Model Context Protocol)** 是一个开放标准，用于连接 AI 应用（如 Claude、ChatGPT）与数据源和工具。
+
+---
+
+### MCP 的核心价值
+
+传统 LLM 应用的局限性：
+- **上下文窗口有限**：无法放入大量文档或代码
+- **实时性差**：无法访问实时数据
+- **安全性问题**：将数据直接输入到 prompt 存在泄露风险
+
+MCP 解决了这些问题：
+- **标准化接口**：统一的工具调用协议
+- **按需加载**：只在需要时获取数据
+- **权限控制**：精细化的访问权限管理
+- **跨平台**：同一工具可在不同 LLM 应用中使用
+
+---
+
+### MCP 架构
+
+```
+┌─────────────────────────────────────────────┐
+│           LLM Application              │
+│       (Claude, ChatGPT, etc.)       │
+│                                      │
+│  ┌────────────────────────────────┐   │
+│  │  MCP Client SDK           │   │
+│  │  (Python, TypeScript, etc.)  │   │
+│  └────────────────────────────────┘   │
+└──────────────┬──────────────────────────┘
+               │ JSON-RPC 2.0
+               │ stdio (stdin/stdout)
+               │
+┌──────────────────────────────────────────┐
+│          MCP Server                 │
+└──────────────────────────────────────────┘
+     │              │              │
+     │              │              │
+┌─────┐    ┌────────┐    ┌──────────┐
+│ Tool│    │Database│    │FileSystem  │
+└─────┘    └────────┘    └──────────┘
+```
+
+---
+
+### MCP 的三种通信方式
+
+| 方式 | 描述 | 适用场景 |
+|------|------|----------|
+| **stdio** | 标准输入/输出通信，最简单 | 本地进程、开发调试 |
+| **SSE (Server-Sent Events)** | 服务器推送事件流 | 长时间运行的连接 |
+| **HTTP/WebSocket** | 基于 HTTP 的实时通信 | 云端服务、远程调用 |
+
+---
+
+### MCP 核心概念
+
+#### 1. Tools (工具)
+
+工具是 MCP 服务器提供的基本功能单元。
+
+**工具定义结构：**
+```json
+{
+  "name": "execute_cadquery",
+  "description": "Execute CadQuery code in sandbox",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "code": {
+        "type": "string",
+        "description": "CadQuery Python code"
+      },
+      "timeout": {
+        "type": "integer",
+        "default": 120
+      }
+    },
+    "required": ["code"]
+  }
+}
+```
+
+---
+
+#### 2. Resources (资源)
+
+资源是 MCP 提供的数据访问能力（如文件、数据库内容）。
+
+**资源 URI 格式：**
+```
+mcp://{server_name}/{resource_type}/{identifier}
+```
+
+例如：
+- `mcp://filesystem/file/home/user/project/src/main.py`
+- `mcp://postgres/rows/users/123`
+
+---
+
+#### 3. Prompts (提示)
+
+预定义的提示模板，用于标准化某些操作。
+
+**示例：**
+```json
+{
+  "name": "review_code",
+  "description": "Review code for security issues",
+  "arguments": {
+    "code": {
+      "type": "string",
+      "description": "Code to review"
+    }
+  }
+}
+```
+
+---
+
+### MCP 实现要点
+
+#### 服务器端
+
+```python
+from mcp.server import Server
+
+server = Server("cad-sandbox")
+
+@server.list_tools()
+async def list_tools():
+    return [
+        {
+            "name": "execute_cadquery",
+            "description": "...",
+            "inputSchema": {...}
+        }
+    ]
+
+@server.call_tool()
+async def call_tool(name: str, arguments: dict):
+    if name == "execute_cadquery":
+        return execute_cadquery(arguments)
+```
+
+#### 客户端
+
+```python
+from mcp.client.session import ClientSession
+from mcp.client.stdio import stdio_client
+
+async def main():
+    params = StdioServerParameters(
+        command="uv",
+        args=["run", "python", "-m", "sandbox_mcp_server"],
+        cwd="/path/to/project"
+    )
+
+    async with stdio_client(params) as (read, write):
+        async with ClientSession(read, write) as session:
+            await session.initialize()
+
+            # 列出工具
+            tools = await session.list_tools()
+
+            # 调用工具
+            result = await session.call_tool(
+                "execute_cadquery",
+                {"code": "...", "timeout": 120}
+            )
+```
+
+---
+
+## Function Calling
+
+### 什么是 Function Calling？
+
+**Function Calling** 是 LLM 的能力，允许模型以结构化的方式调用外部函数/工具，而不仅仅是生成文本。
+
+---
+
+### Function Calling 工作流程
+
+```
+┌─────────────────────────────────────────────┐
+│            User Query                 │
+│   "创建一个 80x40x5 的板"         │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌──────────────────────────────────────────┐
+│           System / Host               │
+│  定义可用的函数列表（包含：        │
+│  函数名、描述、参数 schema）       │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌──────────────────────────────────────────┐
+│              LLM                    │
+│  1. 理解用户请求                 │
+│  2. 分析可用函数                 │
+│  3. 决定需要调用哪个函数           │
+│  4. 生成结构化的函数调用           │
+└──────────────┬──────────────────────────┘
+               │
+               ↓ (函数调用)
+┌──────────────────────────────────────────┐
+│         Function Execution            │
+│  执行实际的操作（如运行代码、       │
+│  调用 API、查询数据库）            │
+└──────────────┬──────────────────────────┘
+               │ (返回结果)
+               ↓
+┌──────────────────────────────────────────┐
+│              LLM                    │
+│  1. 接收函数执行结果             │
+│  2. 将结果整合到最终响应中         │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌──────────────────────────────────────────┐
+│            User Response              │
+│  "我已创建了一个 80x40x5 的板，    │
+│   四角各有一个直径 5 的孔"        │
+└──────────────────────────────────────────┘
+```
+
+---
+
+### Function Schema 定义
+
+函数定义需要包含完整的 schema：
+
+```json
+{
+  "name": "create_plate",
+  "description": "创建一个矩形板",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "width": {
+        "type": "number",
+        "description": "板的宽度 (mm)"
+      },
+      "height": {
+        "type": "number",
+        "description": "板的高度 (mm)"
+      },
+      "thickness": {
+        "type": "number",
+        "description": "板的厚度 (mm)"
+      }
+    },
+    "required": ["width", "height", "thickness"]
+  }
+}
+```
+
+---
+
+### Function Calling vs Tool Use
+
+| 特性 | Function Calling | Tool Use |
+|------|-----------------|-----------|
+| **返回格式** | 专用的函数调用块 | 文本中嵌入工具调用 |
+| **并行调用** | 原生支持多个函数并行调用 | 通常串行或需要手动解析 |
+| **标准程度** | OpenAI/Anthropic 等有标准化 | 各家实现不统一 |
+| **类型严格性** | 强类型 schema | 通常较宽松 |
+| **适用场景** | 结构化的 API 调用 | 自由形式的工具使用 |
+
+---
+
+## RAG (Retrieval-Augmented Generation)
+
+### 什么是 RAG？
+
+**RAG (Retrieval-Augmented Generation)** 是一种增强 LLM 能力的技术，通过从外部知识库中检索相关信息，然后将其作为上下文提供给 LLM。
+
+---
+
+### RAG 架构
+
+```
+┌─────────────────────────────────────────────────┐
+│               用户问题                    │
+│        "如何安装 MCP 服务器？"           │
+└──────────────┬──────────────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────────────────┐
+│           检索系统 (Retriever)           │
+│                                          │
+│  1. 向量数据库 (Vector DB)              │
+│  2. 相似度计算                          │
+│  3. Top-K 检索                         │
+└──────────────┬──────────────────────────────┘
+               │ (检索到的相关文档)
+               ↓
+┌─────────────────────────────────────────────────┐
+│           上下文构建 (Context Builder)    │
+│  将检索到的文档格式化为 prompt 上下文       │
+└──────────────┬──────────────────────────────┘
+               │ (增强后的 prompt)
+               ↓
+┌─────────────────────────────────────────────────┐
+│                LLM                     │
+│  1. 用户问题 + 检索到的上下文          │
+│  2. 生成回答                           │
+└──────────────┬──────────────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────────────────┐
+│              回答                       │
+│  "要安装 MCP 服务器，你需要：           │
+│   1. 从 GitHub 克隆代码库            │
+│   2. 安装依赖                             │
+│   3. 配置环境变量"                    │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+### RAG 的关键组件
+
+#### 1. 文档切分 (Chunking)
+
+将长文档切分为小块，便于检索和利用上下文窗口。
+
+**切分策略：**
+- **固定长度切分**：按字符数切分
+- **语义切分**：按段落、章节切分
+- **重叠切分**：块之间有重叠，避免信息丢失
+
+**示例：**
+```
+原文: "MCP 是一个开放标准..."
+切分后:
+Chunk 1: "MCP 是一个开放标准，用于连接 AI 应用..."
+Chunk 2: "用于连接 AI 应用与数据源和工具。MCP 的..."
+```
+
+---
+
+#### 2. 嵌入模型 (Embedding Model)
+
+将文本转换为向量表示，用于相似度计算。
+
+**常用模型：**
+- `text-embedding-ada-002` (OpenAI)
+- `text-embedding-3-small` (OpenAI)
+- `bge-large-zh-v1.5` (中文优化)
+
+**向量维度：**
+- 小模型：384-768 维
+- 大模型：1024-3072 维
+
+---
+
+#### 3. 向量数据库 (Vector Database)
+
+存储和查询向量的专用数据库。
+
+**主流向量数据库：**
+| 数据库 | 特点 | 适用场景 |
+|--------|------|----------|
+| **FAISS** | Facebook 开源，纯 Python，本地 | 本地开发、原型验证 |
+| **Pinecone** | 托管服务，易扩展 | 生产环境、云部署 |
+| **Weaviate** | 开源，混合搜索 | 需要 GPU 加速 |
+| **Chroma** | 轻量级，易集成 | 小型项目、边缘部署 |
+| **Milvus** | 开源，高性能 | 大规模部署 |
+
+---
+
+### RAG 的优势
+
+1. **实时性**：可以访问最新数据，无需重新训练
+2. **可解释性**：可以引用检索到的文档来源
+3. **成本控制**：只检索相关文档，减少 token 使用
+4. **知识更新**：更新文档库即可，无需更新模型
+
+---
+
+## 向量检索 (FAISS)
+
+### 什么是 FAISS？
+
+**FAISS (Facebook AI Similarity Search)** 是 Facebook 开源的高效向量相似度搜索库。
+
+---
+
+### FAISS 的核心概念
+
+#### 1. 向量相似度
+
+衡量两个向量之间的相似程度。
+
+**常用距离度量：**
+- **欧氏距离 (L2)**：`||A - B||₂`
+- **余弦相似度**：`(A · B) / (||A|| × ||B||)`
+- **内积 (IP)**：`A · B`
+
+**选择建议：**
+- **余弦相似度**：适合文本语义相似度，结果在 [-1, 1] 之间
+- **欧氏距离**：适合几何向量，结果非负
+
+---
+
+#### 2. 索引类型
+
+FAISS 提供多种索引类型，适用于不同场景：
+
+| 索引 | 特点 | 适用数据规模 |
+|--------|------|-------------|
+| **Flat (暴力搜索)** | 精确，无近似 | < 10K 向量 |
+| **IVF (倒排文件)** | 平衡精度和速度 | 10K - 1M 向量 |
+| **PQ (乘积量化)** | 极快，内存占用低 | > 1M 向量 |
+| **HNSW (分层小世界)** | 快速，支持动态更新 | 实时场景 |
+
+---
+
+#### 3. FAISS 使用示例
+
+```python
+import faiss
+import numpy as np
+
+# 1. 创建向量数据库
+d = 768  # 向量维度
+nb = 10000  # 向量数量
+
+# 2. 生成随机向量（实际中来自嵌入模型）
+xb = np.random.random((nb, d)).astype('float32')
+
+# 3. 创建索引
+index = faiss.IndexFlatL2(d)  # L2 距离的扁平索引
+index.add(xb)  # 添加向量到索引
+
+# 4. 查询
+k = 5  # 返回前 5 个最相似的
+xq = np.random.random((1, d)).astype('float32')  # 查询向量
+D, I = index.search(xq, k)  # 搜索
+
+# D: 距离矩阵 (1 x k)
+# I: 索引矩阵 (1 x k)
+```
+
+---
+
+#### 4. IVF 索引（加速大规模检索）
+
+```python
+import faiss
+import numpy as np
+
+d = 768
+nlist = 100  # 聚类中心数量
+m = 16  # 每个聚类中心的向量数
+
+quantizer = faiss.IndexFlatL2(d)
+quantizer.train(xb)  # 训练量化器
+
+index = faiss.IndexIVFFlat(quantizer, d, nlist)
+index.add(xb)
+
+# 搜索时更快
+k = 5
+xq = np.random.random((1, d)).astype('float32')
+D, I = index.search(xq, k)
+```
+
+---
+
+## Agent 模式
+
+### 单 Agent 模式
+
+最简单的 Agent 形式，一个 LLM 实例处理所有任务。
+
+**优点：**
+- 实现简单
+- 上下文连贯性好
+
+**缺点：**
+- 能力受限
+- 无法并行处理
+- 单点故障
+
+---
+
+### 多 Agent 系统
+
+多个专门的 Agent 协作完成复杂任务。
+
+**典型架构：**
+```
+┌─────────────────────────────────────────────┐
+│              Orchestrator              │
+│          (任务分配和协调)             │
+└───────────┬──────────────────────────┘
+              │
+    ┌─────────┼─────────┬─────────┐
+    │         │         │         │
+┌───┴──┐ ┌──┴──┐ ┌──┴──┐ ┌──────┐
+│ Agent1 │ │ Agent2│ │ Agent3│ │Agent4│
+│(设计) │ │(代码) │ │(测试) │ │(文档)│
+└────────┘ └────────┘ └────────┘ └──────┘
+```
+
+**协作方式：**
+- **顺序协作**：Agent 按顺序执行，前一个的输出是后一个的输入
+- **并行协作**：多个 Agent 同时工作，结果汇总
+- **竞争协作**：多个 Agent 提供方案，由 Orchestrator 选择最佳
+
+---
+
+### 反应式 Agent (ReAct Agent)
+
+**ReAct (Reasoning + Acting)** 是一种经典的 Agent 模式，通过观察-思考-行动的循环来解决问题。
+
+**ReAct 循环：**
+```
+Thought: 我需要创建一个板...
+Action: create_sketch(plane="XY")
+Observation: 草图已创建
+Thought: 现在需要添加矩形...
+Action: add_rectangle(width=80, height=40)
+Observation: 矩形已添加
+Thought: 然后需要拉伸...
+Action: extrude(distance=5)
+Observation: 拉伸完成，生成了实体
+Thought: 任务完成！
+```
+
+---
+
+## Agent Swarms
+
+### 什么是 Agent Swarm？
+
+**Agent Swarm** 是指多个 Agent 协作、竞争或并行工作以解决复杂问题的系统。
+
+---
+
+### Swarm 模式
+
+#### 1. 协作式 Swarm
+
+多个 Agent 共同工作，每个 Agent 负责特定方面。
+
+**示例：**
+```
+用户任务："开发一个 CAD 建模功能"
+
+┌─────────────────────────────────────────────┐
+│              User                       │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────────────┐
+│            Orchestrator               │
+└──────────────┬──────────────────────────┘
+               │
+    ┌──────────┼──────────┬──────────┐
+    │          │          │          │
+┌──┴──┐ ┌──┴──┐ ┌──┴──┐ ┌──────┐
+│设计Agent│ │代码Agent│ │测试Agent│ │文档Agent│
+│        │ │        │ │        │ │        │
+│设计    │ │编码    │ │测试    │ │编写    │
+└────────┘ └────────┘ └────────┘ └────────┘
+```
+
+**协作流程：**
+1. 设计 Agent 分析需求
+2. 代码 Agent 实现
+3. 测试 Agent 验证
+4. 文档 Agent 编写文档
+5. Orchestrator 汇总结果
+
+---
+
+#### 2. 竞争式 Swarm
+
+多个 Agent 提供不同的解决方案，由系统选择最佳。
+
+**示例：**
+```
+用户任务："生成一个安装支架"
+
+Agent A: 方案 1 = 四孔矩形支架
+Agent B: 方案 2 = 六孔圆形支架
+Agent C: 方案 3 = 加强筋结构
+      ↓
+    评估各方案
+      ↓
+    选择最佳方案
+```
+
+**适用场景：**
+- 创意生成
+- 多方案比较
+- 优化问题（如遗传算法）
+
+---
+
+#### 3. 层次化 Swarm
+
+Agent 分层组织，高层 Agent 分配任务给低层 Agent。
+
+**架构：**
+```
+┌─────────────────────────────────────────────┐
+│          Master Agent                  │
+│        (高层规划和协调)                │
+└──────────────┬──────────────────────────┘
+               │
+    ┌────────────────┼────────────────┐
+    │                │                │
+┌──┴──┐        ┌──┴──┐        ┌──┴──┐
+│Sub-A1│        │Sub-A2│        │Sub-A3│
+│(设计) │        │(实现) │        │(测试) │
+│       │        │       │        │       │
+└───┬──┘   └───┬──┘   └───┬──┘
+    │            │            │
+┌───┴──┐    ┌───┴──┐    ┌───┴──┐
+│执行1│    │执行2│    │执行3│
+└──────┘    └──────┘    └──────┘
+```
+
+---
+
+## Memory Systems
+
+### 为什么需要 Memory？
+
+LLM 的上下文窗口有限，无法记住所有历史对话和知识。Memory 系统解决了这个问题。
+
+---
+
+### Memory 的类型
+
+#### 1. 短期记忆 (Short-term Memory)
+
+存储最近的对话历史，通常在 10-50 条消息范围内。
+
+**实现方式：**
+- 环形缓冲区（固定大小，自动丢弃旧消息）
+- 滑动窗口（只保留最近 N 条）
+- 重要度评分（保留重要的对话）
+
+---
+
+#### 2. 长期记忆 (Long-term Memory)
+
+持久化的知识存储，跨越多个会话。
+
+**实现方式：**
+- **键值存储**：Redis、PostgreSQL、SQLite
+- **向量数据库**：用于语义检索
+- **图数据库**：用于关联知识（如 Neo4j）
+
+---
+
+#### 3. 工作记忆 (Working Memory)
+
+存储 Agent 当前的思考过程和中间结果。
+
+**示例：**
+```
+工作记忆: {
+  "当前任务": "创建安装支架",
+  "已完成步骤": [
+    {"step": "create_sketch", "status": "done"},
+    {"step": "add_rectangle", "status": "done"}
+  ],
+  "待办事项": [
+    "extrude",
+    "add_holes",
+    "add_fillet"
+  ],
+  "关键决策": {
+    "尺寸": "80x40x5",
+    "孔径": "5mm",
+    "位置": "四角"
+  }
+}
+```
+
+---
+
+### Memory 的关键操作
+
+```python
+class MemorySystem:
+    def add(self, key: str, value: any):
+        """添加记忆"""
+        pass
+
+    def retrieve(self, key: str) -> any:
+        """检索记忆"""
+        pass
+
+    def search(self, query: str, k: int = 5):
+        """语义搜索记忆"""
+        pass
+
+    def relevance_score(self, key: str, context: str) -> float:
+        """计算相关性评分"""
+        pass
+
+# 使用示例
+memory = MemorySystem()
+
+# 存储
+memory.add("user_preference", "喜欢 Python")
+
+# 检索
+value = memory.retrieve("user_preference")
+
+# 搜索
+results = memory.search("用户喜欢什么编程语言")
+```
+
+---
+
+## 总结
+
+| 概念 | 核心价值 | 典型应用 |
+|------|----------|----------|
+| **MCP** | 标准化工具调用 | CAD Sandbox、Git、文件系统 |
+| **Function Calling** | 结构化外部调用 | API 调用、数据库查询 |
+| **RAG** | 增强知识访问 | 文档问答、代码搜索 |
+| **FAISS** | 高效向量检索 | 大规模知识库 |
+| **Agent 模式** | 智能任务分解 | 复杂工作流自动化 |
+| **Agent Swarms** | 并行协作 | 并发处理、方案竞争 |
+| **Memory Systems** | 持久化上下文 | 长对话、跨会话记忆 |
+
+---
+
+## 相关链接
+
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [MCP 工具设计](/kb/aicad/mcp-e3dih1)
+- [LLM-as-a-Judge 评估系统](/kb/aicad/llm-1my3q8)
+- [Prompt 设计](/kb/aicad/prompt-jygudb)
+- [向量检索](/kb/aicad/doc-b7l1a8)
+d:T5da7,# Agent 基础概念
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地整理 Agent 相关的核心概念
+
+---
+
+## 目录
+
+1. [MCP (Model Context Protocol)](#mcp-model-context-protocol)
+2. [Function Calling](#function-calling)
+3. [Tool Use vs Function Calling](#tool-use-vs-function-calling)
+4. [RAG (Retrieval-Augmented Generation)](#rag-retrieval-augmented-generation)
+5. [向量检索 (FAISS)](#向量检索-faiss)
+6. [Agent 模式](#agent-模式)
+7. [Agent Swarms](#agent-swarms)
+8. [Memory Systems](#memory-systems)
+
+---
+
+## MCP (Model Context Protocol)
+
+### 什么是 MCP？
+
+**MCP (Model Context Protocol)** 是一个开放标准，用于连接 AI 应用（如 Claude、ChatGPT）与数据源和工具。
+
+---
+
+### MCP 的核心价值
+
+传统 LLM 应用的局限性：
+- **上下文窗口有限**：无法放入大量文档或代码
+- **实时性差**：无法访问实时数据
+- **安全性问题**：将数据直接输入到 prompt 存在泄露风险
+
+MCP 解决了这些问题：
+- **标准化接口**：统一的工具调用协议
+- **按需加载**：只在需要时获取数据
+- **权限控制**：精细化的访问权限管理
+- **跨平台**：同一工具可在不同 LLM 应用中使用
+
+---
+
+### MCP 架构
+
+```
+┌─────────────────────────────────────────────┐
+│           LLM Application              │
+│       (Claude, ChatGPT, etc.)       │
+│                                      │
+│  ┌────────────────────────────────┐   │
+│  │  MCP Client SDK           │   │
+│  │  (Python, TypeScript, etc.)  │   │
+│  └────────────────────────────────┘   │
+└──────────────┬──────────────────────────┘
+               │ JSON-RPC 2.0
+               │ stdio (stdin/stdout)
+               │
+┌──────────────────────────────────────────┐
+│          MCP Server                 │
+└──────────────────────────────────────────┘
+     │              │              │
+     │              │              │
+┌─────┐    ┌────────┐    ┌──────────┐
+│ Tool│    │Database│    │FileSystem  │
+└─────┘    └────────┘    └──────────┘
+```
+
+---
+
+### MCP 的三种通信方式
+
+| 方式 | 描述 | 适用场景 |
+|------|------|----------|
+| **stdio** | 标准输入/输出通信，最简单 | 本地进程、开发调试 |
+| **SSE (Server-Sent Events)** | 服务器推送事件流 | 长时间运行的连接 |
+| **HTTP/WebSocket** | 基于 HTTP 的实时通信 | 云端服务、远程调用 |
+
+---
+
+### MCP 核心概念
+
+#### 1. Tools (工具)
+
+工具是 MCP 服务器提供的基本功能单元。
+
+**工具定义结构：**
+```json
+{
+  "name": "execute_cadquery",
+  "description": "Execute CadQuery code in sandbox",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "code": {
+        "type": "string",
+        "description": "CadQuery Python code"
+      },
+      "timeout": {
+        "type": "integer",
+        "default": 120
+      }
+    },
+    "required": ["code"]
+  }
+}
+```
+
+---
+
+#### 2. Resources (资源)
+
+资源是 MCP 提供的数据访问能力（如文件、数据库内容）。
+
+**资源 URI 格式：**
+```
+mcp://{server_name}/{resource_type}/{identifier}
+```
+
+例如：
+- `mcp://filesystem/file/home/user/project/src/main.py`
+- `mcp://postgres/rows/users/123`
+
+---
+
+#### 3. Prompts (提示)
+
+预定义的提示模板，用于标准化某些操作。
+
+**示例：**
+```json
+{
+  "name": "review_code",
+  "description": "Review code for security issues",
+  "arguments": {
+    "code": {
+      "type": "string",
+      "description": "Code to review"
+    }
+  }
+}
+```
+
+---
+
+### MCP 实现要点
+
+#### 服务器端
+
+```python
+from mcp.server import Server
+
+server = Server("cad-sandbox")
+
+@server.list_tools()
+async def list_tools():
+    return [
+        {
+            "name": "execute_cadquery",
+            "description": "...",
+            "inputSchema": {...}
+        }
+    ]
+
+@server.call_tool()
+async def call_tool(name: str, arguments: dict):
+    if name == "execute_cadquery":
+        return execute_cadquery(arguments)
+```
+
+#### 客户端
+
+```python
+from mcp.client.session import ClientSession
+from mcp.client.stdio import stdio_client
+
+async def main():
+    params = StdioServerParameters(
+        command="uv",
+        args=["run", "python", "-m", "sandbox_mcp_server"],
+        cwd="/path/to/project"
+    )
+
+    async with stdio_client(params) as (read, write):
+        async with ClientSession(read, write) as session:
+            await session.initialize()
+
+            # 列出工具
+            tools = await session.list_tools()
+
+            # 调用工具
+            result = await session.call_tool(
+                "execute_cadquery",
+                {"code": "...", "timeout": 120}
+            )
+```
+
+---
+
+## Function Calling
+
+### 什么是 Function Calling？
+
+**Function Calling** 是 LLM 的能力，允许模型以结构化的方式调用外部函数/工具，而不仅仅是生成文本。
+
+---
+
+### Function Calling 工作流程
+
+```
+┌─────────────────────────────────────────────┐
+│            User Query                 │
+│   "创建一个 80x40x5 的板"         │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌──────────────────────────────────────────┐
+│           System / Host               │
+│  定义可用的函数列表（包含：        │
+│  函数名、描述、参数 schema）       │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌──────────────────────────────────────────┐
+│              LLM                    │
+│  1. 理解用户请求                 │
+│  2. 分析可用函数                 │
+│  3. 决定需要调用哪个函数           │
+│  4. 生成结构化的函数调用           │
+└──────────────┬──────────────────────────┘
+               │
+               ↓ (函数调用)
+┌──────────────────────────────────────────┐
+│         Function Execution            │
+│  执行实际的操作（如运行代码、       │
+│  调用 API、查询数据库）            │
+└──────────────┬──────────────────────────┘
+               │ (返回结果)
+               ↓
+┌──────────────────────────────────────────┐
+│              LLM                    │
+│  1. 接收函数执行结果             │
+│  2. 将结果整合到最终响应中         │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌──────────────────────────────────────────┐
+│            User Response              │
+│  "我已创建了一个 80x40x5 的板，    │
+│   四角各有一个直径 5 的孔"        │
+└──────────────────────────────────────────┘
+```
+
+---
+
+### Function Schema 定义
+
+函数定义需要包含完整的 schema：
+
+```json
+{
+  "name": "create_plate",
+  "description": "创建一个矩形板",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "width": {
+        "type": "number",
+        "description": "板的宽度 (mm)"
+      },
+      "height": {
+        "type": "number",
+        "description": "板的高度 (mm)"
+      },
+      "thickness": {
+        "type": "number",
+        "description": "板的厚度 (mm)"
+      }
+    },
+    "required": ["width", "height", "thickness"]
+  }
+}
+```
+
+---
+
+### Function Calling vs Tool Use
+
+| 特性 | Function Calling | Tool Use |
+|------|-----------------|-----------|
+| **返回格式** | 专用的函数调用块 | 文本中嵌入工具调用 |
+| **并行调用** | 原生支持多个函数并行调用 | 通常串行或需要手动解析 |
+| **标准程度** | OpenAI/Anthropic 等有标准化 | 各家实现不统一 |
+| **类型严格性** | 强类型 schema | 通常较宽松 |
+| **适用场景** | 结构化的 API 调用 | 自由形式的工具使用 |
+
+---
+
+## RAG (Retrieval-Augmented Generation)
+
+### 什么是 RAG？
+
+**RAG (Retrieval-Augmented Generation)** 是一种增强 LLM 能力的技术，通过从外部知识库中检索相关信息，然后将其作为上下文提供给 LLM。
+
+---
+
+### RAG 架构
+
+```
+┌─────────────────────────────────────────────────┐
+│               用户问题                    │
+│        "如何安装 MCP 服务器？"           │
+└──────────────┬──────────────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────────────────┐
+│           检索系统 (Retriever)           │
+│                                          │
+│  1. 向量数据库 (Vector DB)              │
+│  2. 相似度计算                          │
+│  3. Top-K 检索                         │
+└──────────────┬──────────────────────────────┘
+               │ (检索到的相关文档)
+               ↓
+┌─────────────────────────────────────────────────┐
+│           上下文构建 (Context Builder)    │
+│  将检索到的文档格式化为 prompt 上下文       │
+└──────────────┬──────────────────────────────┘
+               │ (增强后的 prompt)
+               ↓
+┌─────────────────────────────────────────────────┐
+│                LLM                     │
+│  1. 用户问题 + 检索到的上下文          │
+│  2. 生成回答                           │
+└──────────────┬──────────────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────────────────┐
+│              回答                       │
+│  "要安装 MCP 服务器，你需要：           │
+│   1. 从 GitHub 克隆代码库            │
+│   2. 安装依赖                             │
+│   3. 配置环境变量"                    │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+### RAG 的关键组件
+
+#### 1. 文档切分 (Chunking)
+
+将长文档切分为小块，便于检索和利用上下文窗口。
+
+**切分策略：**
+- **固定长度切分**：按字符数切分
+- **语义切分**：按段落、章节切分
+- **重叠切分**：块之间有重叠，避免信息丢失
+
+**示例：**
+```
+原文: "MCP 是一个开放标准..."
+切分后:
+Chunk 1: "MCP 是一个开放标准，用于连接 AI 应用..."
+Chunk 2: "用于连接 AI 应用与数据源和工具。MCP 的..."
+```
+
+---
+
+#### 2. 嵌入模型 (Embedding Model)
+
+将文本转换为向量表示，用于相似度计算。
+
+**常用模型：**
+- `text-embedding-ada-002` (OpenAI)
+- `text-embedding-3-small` (OpenAI)
+- `bge-large-zh-v1.5` (中文优化)
+
+**向量维度：**
+- 小模型：384-768 维
+- 大模型：1024-3072 维
+
+---
+
+#### 3. 向量数据库 (Vector Database)
+
+存储和查询向量的专用数据库。
+
+**主流向量数据库：**
+| 数据库 | 特点 | 适用场景 |
+|--------|------|----------|
+| **FAISS** | Facebook 开源，纯 Python，本地 | 本地开发、原型验证 |
+| **Pinecone** | 托管服务，易扩展 | 生产环境、云部署 |
+| **Weaviate** | 开源，混合搜索 | 需要 GPU 加速 |
+| **Chroma** | 轻量级，易集成 | 小型项目、边缘部署 |
+| **Milvus** | 开源，高性能 | 大规模部署 |
+
+---
+
+### RAG 的优势
+
+1. **实时性**：可以访问最新数据，无需重新训练
+2. **可解释性**：可以引用检索到的文档来源
+3. **成本控制**：只检索相关文档，减少 token 使用
+4. **知识更新**：更新文档库即可，无需更新模型
+
+---
+
+## 向量检索 (FAISS)
+
+### 什么是 FAISS？
+
+**FAISS (Facebook AI Similarity Search)** 是 Facebook 开源的高效向量相似度搜索库。
+
+---
+
+### FAISS 的核心概念
+
+#### 1. 向量相似度
+
+衡量两个向量之间的相似程度。
+
+**常用距离度量：**
+- **欧氏距离 (L2)**：`||A - B||₂`
+- **余弦相似度**：`(A · B) / (||A|| × ||B||)`
+- **内积 (IP)**：`A · B`
+
+**选择建议：**
+- **余弦相似度**：适合文本语义相似度，结果在 [-1, 1] 之间
+- **欧氏距离**：适合几何向量，结果非负
+
+---
+
+#### 2. 索引类型
+
+FAISS 提供多种索引类型，适用于不同场景：
+
+| 索引 | 特点 | 适用数据规模 |
+|--------|------|-------------|
+| **Flat (暴力搜索)** | 精确，无近似 | < 10K 向量 |
+| **IVF (倒排文件)** | 平衡精度和速度 | 10K - 1M 向量 |
+| **PQ (乘积量化)** | 极快，内存占用低 | > 1M 向量 |
+| **HNSW (分层小世界)** | 快速，支持动态更新 | 实时场景 |
+
+---
+
+#### 3. FAISS 使用示例
+
+```python
+import faiss
+import numpy as np
+
+# 1. 创建向量数据库
+d = 768  # 向量维度
+nb = 10000  # 向量数量
+
+# 2. 生成随机向量（实际中来自嵌入模型）
+xb = np.random.random((nb, d)).astype('float32')
+
+# 3. 创建索引
+index = faiss.IndexFlatL2(d)  # L2 距离的扁平索引
+index.add(xb)  # 添加向量到索引
+
+# 4. 查询
+k = 5  # 返回前 5 个最相似的
+xq = np.random.random((1, d)).astype('float32')  # 查询向量
+D, I = index.search(xq, k)  # 搜索
+
+# D: 距离矩阵 (1 x k)
+# I: 索引矩阵 (1 x k)
+```
+
+---
+
+#### 4. IVF 索引（加速大规模检索）
+
+```python
+import faiss
+import numpy as np
+
+d = 768
+nlist = 100  # 聚类中心数量
+m = 16  # 每个聚类中心的向量数
+
+quantizer = faiss.IndexFlatL2(d)
+quantizer.train(xb)  # 训练量化器
+
+index = faiss.IndexIVFFlat(quantizer, d, nlist)
+index.add(xb)
+
+# 搜索时更快
+k = 5
+xq = np.random.random((1, d)).astype('float32')
+D, I = index.search(xq, k)
+```
+
+---
+
+## Agent 模式
+
+### 单 Agent 模式
+
+最简单的 Agent 形式，一个 LLM 实例处理所有任务。
+
+**优点：**
+- 实现简单
+- 上下文连贯性好
+
+**缺点：**
+- 能力受限
+- 无法并行处理
+- 单点故障
+
+---
+
+### 多 Agent 系统
+
+多个专门的 Agent 协作完成复杂任务。
+
+**典型架构：**
+```
+┌─────────────────────────────────────────────┐
+│              Orchestrator              │
+│          (任务分配和协调)             │
+└───────────┬──────────────────────────┘
+              │
+    ┌─────────┼─────────┬─────────┐
+    │         │         │         │
+┌───┴──┐ ┌──┴──┐ ┌──┴──┐ ┌──────┐
+│ Agent1 │ │ Agent2│ │ Agent3│ │Agent4│
+│(设计) │ │(代码) │ │(测试) │ │(文档)│
+└────────┘ └────────┘ └────────┘ └──────┘
+```
+
+**协作方式：**
+- **顺序协作**：Agent 按顺序执行，前一个的输出是后一个的输入
+- **并行协作**：多个 Agent 同时工作，结果汇总
+- **竞争协作**：多个 Agent 提供方案，由 Orchestrator 选择最佳
+
+---
+
+### 反应式 Agent (ReAct Agent)
+
+**ReAct (Reasoning + Acting)** 是一种经典的 Agent 模式，通过观察-思考-行动的循环来解决问题。
+
+**ReAct 循环：**
+```
+Thought: 我需要创建一个板...
+Action: create_sketch(plane="XY")
+Observation: 草图已创建
+Thought: 现在需要添加矩形...
+Action: add_rectangle(width=80, height=40)
+Observation: 矩形已添加
+Thought: 然后需要拉伸...
+Action: extrude(distance=5)
+Observation: 拉伸完成，生成了实体
+Thought: 任务完成！
+```
+
+---
+
+## Agent Swarms
+
+### 什么是 Agent Swarm？
+
+**Agent Swarm** 是指多个 Agent 协作、竞争或并行工作以解决复杂问题的系统。
+
+---
+
+### Swarm 模式
+
+#### 1. 协作式 Swarm
+
+多个 Agent 共同工作，每个 Agent 负责特定方面。
+
+**示例：**
+```
+用户任务："开发一个 CAD 建模功能"
+
+┌─────────────────────────────────────────────┐
+│              User                       │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────────────┐
+│            Orchestrator               │
+└──────────────┬──────────────────────────┘
+               │
+    ┌──────────┼──────────┬──────────┐
+    │          │          │          │
+┌──┴──┐ ┌──┴──┐ ┌──┴──┐ ┌──────┐
+│设计Agent│ │代码Agent│ │测试Agent│ │文档Agent│
+│        │ │        │ │        │ │        │
+│设计    │ │编码    │ │测试    │ │编写    │
+└────────┘ └────────┘ └────────┘ └────────┘
+```
+
+**协作流程：**
+1. 设计 Agent 分析需求
+2. 代码 Agent 实现
+3. 测试 Agent 验证
+4. 文档 Agent 编写文档
+5. Orchestrator 汇总结果
+
+---
+
+#### 2. 竞争式 Swarm
+
+多个 Agent 提供不同的解决方案，由系统选择最佳。
+
+**示例：**
+```
+用户任务："生成一个安装支架"
+
+Agent A: 方案 1 = 四孔矩形支架
+Agent B: 方案 2 = 六孔圆形支架
+Agent C: 方案 3 = 加强筋结构
+      ↓
+    评估各方案
+      ↓
+    选择最佳方案
+```
+
+**适用场景：**
+- 创意生成
+- 多方案比较
+- 优化问题（如遗传算法）
+
+---
+
+#### 3. 层次化 Swarm
+
+Agent 分层组织，高层 Agent 分配任务给低层 Agent。
+
+**架构：**
+```
+┌─────────────────────────────────────────────┐
+│          Master Agent                  │
+│        (高层规划和协调)                │
+└──────────────┬──────────────────────────┘
+               │
+    ┌────────────────┼────────────────┐
+    │                │                │
+┌──┴──┐        ┌──┴──┐        ┌──┴──┐
+│Sub-A1│        │Sub-A2│        │Sub-A3│
+│(设计) │        │(实现) │        │(测试) │
+│       │        │       │        │       │
+└───┬──┘   └───┬──┘   └───┬──┘
+    │            │            │
+┌───┴──┐    ┌───┴──┐    ┌───┴──┐
+│执行1│    │执行2│    │执行3│
+└──────┘    └──────┘    └──────┘
+```
+
+---
+
+## Memory Systems
+
+### 为什么需要 Memory？
+
+LLM 的上下文窗口有限，无法记住所有历史对话和知识。Memory 系统解决了这个问题。
+
+---
+
+### Memory 的类型
+
+#### 1. 短期记忆 (Short-term Memory)
+
+存储最近的对话历史，通常在 10-50 条消息范围内。
+
+**实现方式：**
+- 环形缓冲区（固定大小，自动丢弃旧消息）
+- 滑动窗口（只保留最近 N 条）
+- 重要度评分（保留重要的对话）
+
+---
+
+#### 2. 长期记忆 (Long-term Memory)
+
+持久化的知识存储，跨越多个会话。
+
+**实现方式：**
+- **键值存储**：Redis、PostgreSQL、SQLite
+- **向量数据库**：用于语义检索
+- **图数据库**：用于关联知识（如 Neo4j）
+
+---
+
+#### 3. 工作记忆 (Working Memory)
+
+存储 Agent 当前的思考过程和中间结果。
+
+**示例：**
+```
+工作记忆: {
+  "当前任务": "创建安装支架",
+  "已完成步骤": [
+    {"step": "create_sketch", "status": "done"},
+    {"step": "add_rectangle", "status": "done"}
+  ],
+  "待办事项": [
+    "extrude",
+    "add_holes",
+    "add_fillet"
+  ],
+  "关键决策": {
+    "尺寸": "80x40x5",
+    "孔径": "5mm",
+    "位置": "四角"
+  }
+}
+```
+
+---
+
+### Memory 的关键操作
+
+```python
+class MemorySystem:
+    def add(self, key: str, value: any):
+        """添加记忆"""
+        pass
+
+    def retrieve(self, key: str) -> any:
+        """检索记忆"""
+        pass
+
+    def search(self, query: str, k: int = 5):
+        """语义搜索记忆"""
+        pass
+
+    def relevance_score(self, key: str, context: str) -> float:
+        """计算相关性评分"""
+        pass
+
+# 使用示例
+memory = MemorySystem()
+
+# 存储
+memory.add("user_preference", "喜欢 Python")
+
+# 检索
+value = memory.retrieve("user_preference")
+
+# 搜索
+results = memory.search("用户喜欢什么编程语言")
+```
+
+---
+
+## 总结
+
+| 概念 | 核心价值 | 典型应用 |
+|------|----------|----------|
+| **MCP** | 标准化工具调用 | CAD Sandbox、Git、文件系统 |
+| **Function Calling** | 结构化外部调用 | API 调用、数据库查询 |
+| **RAG** | 增强知识访问 | 文档问答、代码搜索 |
+| **FAISS** | 高效向量检索 | 大规模知识库 |
+| **Agent 模式** | 智能任务分解 | 复杂工作流自动化 |
+| **Agent Swarms** | 并行协作 | 并发处理、方案竞争 |
+| **Memory Systems** | 持久化上下文 | 长对话、跨会话记忆 |
+
+---
+
+## 相关链接
+
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [MCP 工具设计](/kb/aicad/mcp-e3dih1)
+- [LLM-as-a-Judge 评估系统](/kb/aicad/llm-1my3q8)
+- [Prompt 设计](/kb/aicad/prompt-jygudb)
+- [向量检索](/kb/aicad/doc-b7l1a8)
+2:["$","$Lb",null,{"document":{"slug":"agent-nzn0gk","title":"Agent 基础概念","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$c","filePath":"核心技术/Agent 基础概念.md","default":{"slug":"agent-nzn0gk","title":"Agent 基础概念","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$d","filePath":"核心技术/Agent 基础概念.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Agent 基础概念 - AICAD | Jerry Xu"}],["$","meta","3",{"name":"description","content":"Agent 基础概念"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

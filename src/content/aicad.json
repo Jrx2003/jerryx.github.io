@@ -10,7 +10,7 @@
   },
   "documents": [
     {
-      "slug": "ACI-会话管理",
+      "slug": "aci-9rbb4v",
       "title": "ACI 会话管理",
       "description": "",
       "date": null,
@@ -19,7 +19,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "ACI-四大支柱",
+      "slug": "aci-8zn4bd",
       "title": "ACI 四大支柱",
       "description": "",
       "date": null,
@@ -28,7 +28,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "ACI-实现细节",
+      "slug": "aci-8a0c9l",
       "title": "ACI 实现细节",
       "description": "",
       "date": null,
@@ -37,7 +37,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "ACI-概念与迁移",
+      "slug": "aci-83mtzw",
       "title": "ACI 概念与迁移",
       "description": "",
       "date": null,
@@ -46,7 +46,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "ACI-测试指南",
+      "slug": "aci-5ycojx",
       "title": "ACI 测试指南",
       "description": "",
       "date": null,
@@ -55,7 +55,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "Agent-基础概念",
+      "slug": "agent-nzn0gk",
       "title": "Agent 基础概念",
       "description": "",
       "date": null,
@@ -64,7 +64,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "CAD-Agent-迭代式演进方案",
+      "slug": "cad-op3zuu",
       "title": "CAD Agent 迭代式演进方案",
       "description": "",
       "date": null,
@@ -73,7 +73,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "CAD-Sandbox-MCP-设计详解",
+      "slug": "cad-1sc89z",
       "title": "CAD Sandbox MCP 设计详解",
       "description": "",
       "date": null,
@@ -82,7 +82,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "CAD-动作集设计",
+      "slug": "cad-a9bzjv",
       "title": "CAD 动作集设计",
       "description": "",
       "date": null,
@@ -91,7 +91,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "CadQuery-基础知识",
+      "slug": "cadquery-58h9np",
       "title": "CadQuery 基础知识",
       "description": "",
       "date": null,
@@ -100,7 +100,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "DeepEval-与-OpenAI-Evals-对照",
+      "slug": "deepeval-4gyeij",
       "title": "DeepEval 与 OpenAI Evals 对照",
       "description": "",
       "date": null,
@@ -109,7 +109,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "Ground-Truth-评估",
+      "slug": "ground-ct5cjq",
       "title": "Ground Truth 评估",
       "description": "",
       "date": null,
@@ -118,7 +118,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "LLM-as-a-Judge-评估系统",
+      "slug": "llm-1my3q8",
       "title": "LLM-as-a-Judge 评估系统",
       "description": "",
       "date": null,
@@ -127,7 +127,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "OpenCode_NanoBot_NanoClaw-系统设计",
+      "slug": "opencode-87w4rk",
       "title": "OpenCode_NanoBot_NanoClaw 系统设计",
       "description": "",
       "date": null,
@@ -136,7 +136,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "Prompt-设计",
+      "slug": "prompt-jygudb",
       "title": "Prompt 设计",
       "description": "",
       "date": null,
@@ -145,7 +145,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "Sandbox-MCP-改造",
+      "slug": "sandbox-kn08hm",
       "title": "Sandbox MCP 改造",
       "description": "",
       "date": null,
@@ -154,7 +154,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "借助-LLM-的评价系统设计",
+      "slug": "doc-caoj8r",
       "title": "借助 LLM 的评价系统设计",
       "description": "",
       "date": null,
@@ -163,7 +163,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "多模态评估流程",
+      "slug": "doc-3rx4s0",
       "title": "多模态评估流程",
       "description": "",
       "date": null,
@@ -172,7 +172,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "技术知识库总览",
+      "slug": "doc-yhzsmo",
       "title": "技术知识库总览",
       "description": "",
       "date": null,
@@ -181,7 +181,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "数据集测试流程",
+      "slug": "doc-ajypjw",
       "title": "数据集测试流程",
       "description": "",
       "date": null,
@@ -190,7 +190,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "核心术语表",
+      "slug": "doc-66ben5",
       "title": "核心术语表",
       "description": "",
       "date": null,
@@ -199,7 +199,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "测试产物目录结构",
+      "slug": "doc-4bc5tw",
       "title": "测试产物目录结构",
       "description": "",
       "date": null,
@@ -208,7 +208,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "渲染与-Preview-模块设计",
+      "slug": "doc-k0qhp8",
       "title": "渲染与 Preview 模块设计",
       "description": "",
       "date": null,
@@ -217,7 +217,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "知识库索引",
+      "slug": "doc-aeeza3",
       "title": "知识库索引",
       "description": "",
       "date": null,
@@ -226,7 +226,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "终端测试手册",
+      "slug": "doc-m7ie9e",
       "title": "终端测试手册",
       "description": "",
       "date": null,
@@ -235,7 +235,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "面向-LLM-的-CAD-CLI-工具设计",
+      "slug": "doc-5dd1gx",
       "title": "面向 LLM 的 CAD CLI 工具设计",
       "description": "",
       "date": null,

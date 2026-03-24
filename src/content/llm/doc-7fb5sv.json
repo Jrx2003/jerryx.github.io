@@ -1,0 +1,11 @@
+{
+  "slug": "doc-7fb5sv",
+  "title": "对齐技术对比",
+  "description": "",
+  "date": null,
+  "tags": [],
+  "category": "LLM",
+  "categoryId": "llm",
+  "content": "# 对齐技术对比\n\n> **更新日期**: 2026-03-13\n> **版本**: v1.0\n> **难度**: 中级\n> **预计阅读时间**: 40 分钟\n\n---\n\n## 目录\n\n1. [对齐方法概述](#对齐方法概述)\n2. [SFT vs RLHF vs DPO](#sft-vs-rlhf-vs-dpo)\n3. [方法选型指南](#方法选型指南)\n4. [面试要点](#面试要点)\n\n---\n\n## 对齐方法概述\n\n### 三种主要方法\n\n| 方法 | 全称 | 特点 |\n|------|------|------|\n| SFT | Supervised Fine-Tuning | 有监督微调 |\n| RLHF | Reinforcement Learning from Human Feedback | 人类反馈强化学习 |\n| DPO | Direct Preference Optimization | 直接偏好优化 |\n\n---\n\n## SFT vs RLHF vs DPO\n\n### 对比表\n\n| 维度 | SFT | RLHF | DPO |\n|------|-----|------|-----|\n| 数据格式 | (指令, 输出) | 偏好对 | 偏好对 |\n| 训练难度 | 简单 | 复杂 | 中等 |\n| 稳定性 | 高 | 低 | 高 |\n| 效果 | 中等 | 好 | 好 |\n| 资源需求 | 低 | 高 | 中等 |\n\n### 流程对比\n\n```\nSFT:  预训练 → SFT数据 → 监督训练\n\nRLHF: 预训练 → SFT → 奖励模型 → PPO训练\n\nDPO:  预训练 → SFT → 直接偏好训练\n```\n\n---\n\n## 方法选型指南\n\n### 选择建议\n\n| 场景 | 推荐方法 |\n|------|----------|\n| 快速迭代 | SFT |\n| 追求最佳效果 | RLHF |\n| 平衡效果和资源 | DPO |\n| 简单任务 | SFT |\n| 复杂对齐需求 | RLHF/DPO |\n\n---\n\n## 面试要点\n\n**Q1: 为什么 RLHF 效果好但难训练？**\n\nA:\n- 需要训练奖励模型\n- PPO 不稳定\n- 超参数敏感\n\n**Q2: DPO 相比 RLHF 的优势？**\n\nA:\n- 无需奖励模型\n- 训练稳定\n- 实现简单\n- 效果相当\n",
+  "filePath": "对齐技术/对齐技术对比.md"
+}

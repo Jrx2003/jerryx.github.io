@@ -1,0 +1,1146 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","aicad","d"]
+5:["slug","doc-k0qhp8","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","doc-k0qhp8","d"],{"children":["__PAGE__?{\"category\":\"aicad\",\"slug\":\"doc-k0qhp8\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","doc-k0qhp8","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T3ba3,# 渲染与 Preview 模块设计
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地讲解渲染和预览模块的设计原理和实现
+
+---
+
+## 目录
+
+1. [渲染模块架构](#渲染模块架构)
+2. [Preview 模块设计](#preview-模块设计)
+3. [视图投影系统](#视图投影系统)
+4. [图像生成流程](#图像生成流程)
+5. [性能优化策略](#性能优化策略)
+6. [质量保证](#质量保证)
+
+---
+
+## 渲染模块架构
+
+### 核心组件
+
+```
+┌───────────────────────────────────────────┐
+│           Sandbox 执行环境              │
+│              (Docker 容器)              │
+└──────────────────┬──────────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│         CadQuery 运行时              │
+│              (entrypoint.py)           │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  渲染引擎 (Render)      │  │
+│  │  ├─ VTK               │
+│  │  ├─ OCP               │
+│  │  └─ Offscreen           │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  图像生成器 (Output)    │  │
+│  │  ├─ PNG Writer        │  │
+│  │  └─ JPEG Writer       │  │
+│  └────────────────────────────┘  │
+│                                   │
+└──────────────────────────────────────┘
+```
+
+---
+
+### 渲染流程
+
+```
+CadQuery 模型
+    ↓
+[几何处理]
+    ├─ 确保有效几何
+    ├─ 计算包围盒
+    └─ 生成显示网格
+    ↓
+[视图计算]
+    ├─ 确定相机位置
+    ├─ 计算相机方向
+    └─ 设置透视矩阵
+    ↓
+[渲染引擎]
+    ├─ 离散化（VTK/OCP）
+    ├─ 光线追踪（可选）
+    ├─ 纹理处理（可选）
+    └─ 阴影贴图（可选）
+    ↓
+[图像生成]
+    ├─ 渲染场景
+    ├─ 捕捉帧缓冲
+    └─ 编码图像
+    ↓
+[产物输出]
+    ├─ 预览图 (PNG/JPEG)
+    ├─ 深度图（可选）
+    └─ 动画帧（可选）
+```
+
+---
+
+## Preview 模块设计
+
+### Preview 模块职责
+
+1. **多视角预览**：从不同角度观察 3D 模型
+2. **实时更新**：在模型修改时实时更新预览
+3. **质量可调**：支持不同渲染质量级别
+4. **快速响应**：低延迟的预览更新
+5. **缓存机制**：减少重复渲染开销
+
+---
+
+### Preview 架构
+
+```python
+class PreviewManager:
+    """预览管理器"""
+
+    def __init__(self):
+        self.cache = PreviewCache()
+        self.renderer = SceneRenderer()
+        self.views = ViewManager()
+
+    async def generate_preview(
+        self,
+        model_path: str,
+        view_type: ViewType,
+        quality: RenderQuality = "medium"
+    ) -> PreviewImage:
+        """生成预览图"""
+        # 1. 检查缓存
+        cached = self.cache.get(model_path, view_type, quality)
+        if cached:
+            return cached
+
+        # 2. 加载模型
+        model = load_model(model_path)
+
+        # 3. 设置视图
+        camera = self.views.get_camera(view_type)
+
+        # 4. 渲染
+        image = await self.renderer.render(model, camera, quality)
+
+        # 5. 缓存结果
+        self.cache.put(model_path, view_type, quality, image)
+
+        return image
+
+    async def generate_all_views(self, model_path: str) -> dict[ViewType, PreviewImage]:
+        """生成所有标准视角的预览"""
+        tasks = [
+            self.generate_preview(model_path, view_type, "medium")
+            for view_type in [ViewType.ISO, ViewType.TOP, ViewType.FRONT, ViewType.RIGHT]
+        ]
+        results = await asyncio.gather(*tasks)
+        return dict(zip([ViewType.ISO, ViewType.TOP, ViewType.FRONT, ViewType.RIGHT], results))
+```
+
+---
+
+## 视图投影系统
+
+### 标准视角定义
+
+| 视角 | 代码 | 描述 | 使用场景 |
+|------|------|------|----------|
+| ISO | `iso` | 等轴视图，全面展示 3D 模型 | 主要预览 |
+| TOP | `top` | 顶视图（Z 轴向下） | 尺寸标注 |
+| FRONT | `front` | 前视图（Y 轴向前） | 正面观察 |
+| RIGHT | `right` | 右视图（X 轴向右） | 侧面观察 |
+| BACK | `back` | 后视图 | 反面观察 |
+| BOTTOM | `bottom` | 底视图 | 底面观察 |
+| LEFT | `left` | 左视图 | 左侧观察 |
+
+---
+
+### 相机位置计算
+
+```python
+import numpy as np
+
+def calculate_camera_position(
+    bbox: BoundingBox,
+    view_type: ViewType,
+    distance_factor: float = 2.0
+) -> Camera:
+    """计算相机位置"""
+
+    # 包围盒中心
+    center = bbox.center
+
+    # 根据视图类型设置相机方向
+    if view_type == ViewType.ISO:
+        # 等轴视图 - 45 度角俯视
+        direction = normalize([1, 1, 1])
+        position = center + direction * distance_factor * bbox.max_dimension
+
+    elif view_type == ViewType.TOP:
+        # 顶视图 - 从上方看
+        direction = [0, 0, -1]
+        position = center + direction * distance_factor * bbox.max_dimension
+
+    elif view_type == ViewType.FRONT:
+        # 前视图 - 从 Y+ 方看
+        direction = [0, -1, 0]
+        position = center + direction * distance_factor * bbox.max_dimension
+
+    # ... 其他视角类似
+
+    # 计算相机朝向（看向中心）
+    look_at = center
+
+    # 计算上方向
+    up = [0, 0, 1]
+
+    return Camera(position=position, look_at=look_at, up=up)
+```
+
+---
+
+### 透视矩阵计算
+
+```python
+import numpy as np
+
+def compute_perspective_matrix(
+    fov_degrees: float = 45,
+    aspect_ratio: float = 16/9,
+    near: float = 0.1,
+    far: float = 1000.0
+) -> np.ndarray:
+    """计算透视投影矩阵"""
+
+    # 视场角度转弧度
+    fov_rad = np.deg2rad(fov_degrees)
+
+    # 透视除法
+    f = 1.0 / np.tan(fov_rad / 2)
+
+    # 宽高比
+    aspect = aspect_ratio
+
+    # 构建透视矩阵
+    P = np.zeros((4, 4), dtype=np.float32)
+    P[0, 0] = [
+        aspect / f, 0,        0,
+        0,          1,        0,
+        0,          0,        -1 / f, 0
+    ]
+    P[1, 1] = [
+        0,          1,        0,
+        0,          1,        0,
+        0,          0,        -1 / f, 0
+    ]
+    P[2, 2] = [
+        0,          0,        -1,
+        0,          1,        0,
+        0,          0,        -1,        0
+    ]
+    P[3, 3] = [
+        0,          0,        0,
+        0,          1,        0,
+        0,          0,        0,        -1
+    ]
+
+    # 平移到相机空间
+    P[3, 3] = np.array([0, 0, -near])
+
+    return P
+```
+
+---
+
+## 图像生成流程
+
+### 1. 场景渲染
+
+```python
+async def render_scene(
+    model: Model3D,
+    camera: Camera,
+    lights: List[Light],
+    background: Background,
+    quality: RenderQuality
+) -> Image:
+    """渲染完整场景"""
+
+    # 1. 设置 VTK 渲染器
+    renderer = VTKRenderer()
+    renderer.set_camera(camera)
+    renderer.set_lights(lights)
+    renderer.set_background(background)
+
+    # 2. 根据质量设置
+    if quality == RenderQuality.LOW:
+        renderer.set_resolution(800, 600)
+        renderer.set_anti_aliasing(False)
+    elif quality == RenderQuality.MEDIUM:
+        renderer.set_resolution(1920, 1080)
+        renderer.set_anti_aliasing(True)
+    elif quality == RenderQuality.HIGH:
+        renderer.set_resolution(3840, 2160)
+        renderer.set_anti_aliasing(True, 4x)
+
+    # 3. 执行渲染
+    window = renderer.get_render_window()
+    image = window.render()
+
+    return image
+```
+
+---
+
+### 2. 离屏渲染
+
+```python
+import numpy as np
+from PIL import Image
+
+def render_offscreen(model: Model3D, camera: Camera, size: tuple) -> Image:
+    """离屏渲染 - 无需 GUI"""
+
+    import matplotlib.pyplot as plt
+
+    # 设置图形后端
+    plt.ioff()
+
+    # 使用 matplotlib 的 3D 渲染
+    fig = plt.figure(figsize=(size[0]/100, size[1]/100), dpi=100)
+    ax = fig.add_subplot(111, projection='3d')
+
+    # 隐藏坐标轴
+    ax.set_axis_off()
+
+    # 绘制模型
+    ax.plot_trisurf(model.vertices, model.faces, shade=True)
+
+    # 设置视图
+    ax.view_init(
+        elev=camera.elevation_degrees,
+        azim=camera.azimuth_degrees
+    )
+    ax.set_xlim([camera.target.x - 5, camera.target.x + 5])
+    ax.set_ylim([camera.target.y - 5, camera.target.y + 5])
+
+    # 保存为图像
+    canvas = fig.canvas
+    image = Image.frombytes(canvas.tostring_rgb())
+    plt.ioff()
+
+    return image
+```
+
+---
+
+### 3. 批量渲染优化
+
+```python
+async def batch_render(
+    models: List[Model3D],
+    views: List[ViewType],
+    quality: RenderQuality
+) -> dict[str, dict[ViewType, Image]]:
+    """批量渲染多个模型"""
+
+    # 创建相机位置
+    cameras = [calculate_camera_position(model.bbox, view) for model in models for view in views]
+
+    # 并行渲染
+    tasks = []
+    for model in models:
+        for view_type, camera in zip(views, cameras):
+            task = render_scene(model, camera, quality)
+            tasks.append(task)
+
+    results = await asyncio.gather(*tasks)
+
+    # 组织结果
+    return {
+        model.id: {
+            view_type: view.value: image
+            for view_type, image in zip(views, results)
+        }
+        for model in models
+    }
+```
+
+---
+
+## 性能优化策略
+
+### 1. 渲染参数优化
+
+| 参数 | 低质量 | 中等质量 | 高质量 | 说明 |
+|------|--------|----------|--------|------|
+| 分辨率 | 800x600 | 1920x1080 | 3840x2160 | 像素数量 |
+| 抗锯齿 | 关闭 | 2x MSAA | 4x MSAA | 计算成本 |
+| 阴影 | 禁用 | 低质量 | 高质量 | 性能开销 |
+| 反射 | 禁用 | 低质量 | 高质量 | 遮免反射计算 |
+
+---
+
+### 2. 缓存策略
+
+```python
+from dataclasses import dataclass
+from datetime import datetime, timedelta
+
+@dataclass
+class CacheEntry:
+    """缓存条目"""
+    model_hash: str          # 模型哈希
+    view_type: ViewType       # 视图类型
+    quality: RenderQuality    # 渲染质量
+    image: bytes             # 图像数据
+    created_at: datetime     # 创建时间
+    size_bytes: int          # 数据大小
+
+class PreviewCache:
+    """预览缓存管理器"""
+
+    def __init__(self, max_size_mb: int = 100, ttl_minutes: int = 30):
+        self.cache: dict[str, CacheEntry] = {}
+        self.max_size_bytes = max_size_mb * 1024 * 1024
+        self.ttl = timedelta(minutes=ttl_minutes)
+
+    def get(self, key: str) -> Optional[bytes]:
+        """获取缓存"""
+        entry = self.cache.get(key)
+        if entry:
+            # 检查是否过期
+            if datetime.now() - entry.created_at > self.ttl:
+                del self.cache[key]
+                return None
+            return entry.image
+
+    def put(self, key: str, image: bytes) -> None:
+        """存入缓存"""
+        # 检查大小限制
+        if len(self.cache) * 1000000 > self.max_size_bytes:
+            # 清理最旧的条目
+            self._evict_oldest()
+
+        self.cache[key] = CacheEntry(
+            model_hash=key.split(":")[0],
+            view_type=key.split(":")[1],
+            quality=key.split(":")[2],
+            image=image,
+            created_at=datetime.now(),
+            size_bytes=len(image)
+        )
+
+    def _evict_oldest(self):
+        """淘汰最旧的条目"""
+        oldest = min(self.cache.items(), key=lambda x: x[1].created_at)
+        del self.cache[oldest[0]]
+```
+
+---
+
+### 3. 增量更新策略
+
+```python
+class IncrementalUpdater:
+    """增量更新器 - 只更新变化的部分"""
+
+    def __init__(self, preview_manager: PreviewManager):
+        self.preview_manager = preview_manager
+
+    async def update_changed_parts(
+        self,
+        model: Model3D,
+        changed_faces: List[Face]
+    ):
+        """只更新变化的面"""
+        # 1. 识别受影响的面
+        affected_viewports = self._identify_affected_viewports(model, changed_faces)
+
+        # 2. 重新渲染受影响的视角
+        for viewport in affected_viewports:
+            image = await self.preview_manager.generate_preview(model, viewport)
+
+        return {viewport: image for viewport in affected_viewports}
+
+    def _identify_affected_viewports(self, model: Model3D, faces: List[Face]) -> set[ViewType]:
+        """识别受影响的视角"""
+        affected = set()
+
+        # 简化实现：如果面在任何视角的视锥体中，则该视角需要重新渲染
+        for face in faces:
+            # 计算面的法向量
+            normal = face.normal
+
+            # 检查每个视角
+            for view_type in ViewType:
+                if self._is_visible_from_view(model, view_type, face, normal):
+                    affected.add(view_type)
+
+        return affected
+
+    def _is_visible_from_view(self, model, view_type, face, normal):
+        """判断面是否从视角可见"""
+        view_normal = view_type.camera_direction
+
+        # 简化可见性检查：点积
+        return np.dot(normal, view_normal) > 0
+```
+
+---
+
+## 质量保证
+
+### 1. 渲染验证
+
+```python
+def validate_rendered_image(image: Image, expected_size: tuple[int, int]) -> ValidationResult:
+    """验证渲染的图像"""
+
+    # 检查图像尺寸
+    if image.size != expected_size:
+        return ValidationResult(
+            valid=False,
+            error=f"图像尺寸不匹配：期望 {expected_size}，实际 {image.size}"
+        )
+
+    # 检查是否全黑（可能是渲染错误）
+    pixels = np.array(image)
+    if np.all(pixels == 0):
+        return ValidationResult(
+            valid=False,
+            error="图像全黑，可能是渲染错误"
+        )
+
+    return ValidationResult(valid=True, error=None)
+```
+
+---
+
+### 2. 错误恢复机制
+
+```python
+class RenderingErrorHandler:
+    """渲染错误处理器"""
+
+    async def render_with_retry(
+        self,
+        model: Model3D,
+        view_type: ViewType,
+        max_retries: int = 3
+    ) -> Image:
+        """带重试的渲染"""
+
+        for attempt in range(max_retries):
+            try:
+                image = await self._render_scene(model, view_type)
+
+                # 验证结果
+                validation = validate_rendered_image(image, (1920, 1080))
+
+                if not validation.valid:
+                    raise RenderingError(validation.error)
+
+                return image
+
+            except RenderingError as e:
+                if attempt == max_retries - 1:
+                    raise  # 最后一次失败则抛出
+
+                # 记录错误并降级质量
+                logger.warning(f"渲染失败（尝试 {attempt + 1}）：{e}")
+                # 降级到低质量
+                quality = RenderQuality.LOW
+```
+
+---
+
+## 相关链接
+
+- [CAD Sandbox MCP 设计详解](/kb/aicad/cad-1sc89z)
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [CAD 动作集设计](/kb/aicad/cad-a9bzjv)
+d:T3ba3,# 渲染与 Preview 模块设计
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地讲解渲染和预览模块的设计原理和实现
+
+---
+
+## 目录
+
+1. [渲染模块架构](#渲染模块架构)
+2. [Preview 模块设计](#preview-模块设计)
+3. [视图投影系统](#视图投影系统)
+4. [图像生成流程](#图像生成流程)
+5. [性能优化策略](#性能优化策略)
+6. [质量保证](#质量保证)
+
+---
+
+## 渲染模块架构
+
+### 核心组件
+
+```
+┌───────────────────────────────────────────┐
+│           Sandbox 执行环境              │
+│              (Docker 容器)              │
+└──────────────────┬──────────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│         CadQuery 运行时              │
+│              (entrypoint.py)           │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  渲染引擎 (Render)      │  │
+│  │  ├─ VTK               │
+│  │  ├─ OCP               │
+│  │  └─ Offscreen           │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  图像生成器 (Output)    │  │
+│  │  ├─ PNG Writer        │  │
+│  │  └─ JPEG Writer       │  │
+│  └────────────────────────────┘  │
+│                                   │
+└──────────────────────────────────────┘
+```
+
+---
+
+### 渲染流程
+
+```
+CadQuery 模型
+    ↓
+[几何处理]
+    ├─ 确保有效几何
+    ├─ 计算包围盒
+    └─ 生成显示网格
+    ↓
+[视图计算]
+    ├─ 确定相机位置
+    ├─ 计算相机方向
+    └─ 设置透视矩阵
+    ↓
+[渲染引擎]
+    ├─ 离散化（VTK/OCP）
+    ├─ 光线追踪（可选）
+    ├─ 纹理处理（可选）
+    └─ 阴影贴图（可选）
+    ↓
+[图像生成]
+    ├─ 渲染场景
+    ├─ 捕捉帧缓冲
+    └─ 编码图像
+    ↓
+[产物输出]
+    ├─ 预览图 (PNG/JPEG)
+    ├─ 深度图（可选）
+    └─ 动画帧（可选）
+```
+
+---
+
+## Preview 模块设计
+
+### Preview 模块职责
+
+1. **多视角预览**：从不同角度观察 3D 模型
+2. **实时更新**：在模型修改时实时更新预览
+3. **质量可调**：支持不同渲染质量级别
+4. **快速响应**：低延迟的预览更新
+5. **缓存机制**：减少重复渲染开销
+
+---
+
+### Preview 架构
+
+```python
+class PreviewManager:
+    """预览管理器"""
+
+    def __init__(self):
+        self.cache = PreviewCache()
+        self.renderer = SceneRenderer()
+        self.views = ViewManager()
+
+    async def generate_preview(
+        self,
+        model_path: str,
+        view_type: ViewType,
+        quality: RenderQuality = "medium"
+    ) -> PreviewImage:
+        """生成预览图"""
+        # 1. 检查缓存
+        cached = self.cache.get(model_path, view_type, quality)
+        if cached:
+            return cached
+
+        # 2. 加载模型
+        model = load_model(model_path)
+
+        # 3. 设置视图
+        camera = self.views.get_camera(view_type)
+
+        # 4. 渲染
+        image = await self.renderer.render(model, camera, quality)
+
+        # 5. 缓存结果
+        self.cache.put(model_path, view_type, quality, image)
+
+        return image
+
+    async def generate_all_views(self, model_path: str) -> dict[ViewType, PreviewImage]:
+        """生成所有标准视角的预览"""
+        tasks = [
+            self.generate_preview(model_path, view_type, "medium")
+            for view_type in [ViewType.ISO, ViewType.TOP, ViewType.FRONT, ViewType.RIGHT]
+        ]
+        results = await asyncio.gather(*tasks)
+        return dict(zip([ViewType.ISO, ViewType.TOP, ViewType.FRONT, ViewType.RIGHT], results))
+```
+
+---
+
+## 视图投影系统
+
+### 标准视角定义
+
+| 视角 | 代码 | 描述 | 使用场景 |
+|------|------|------|----------|
+| ISO | `iso` | 等轴视图，全面展示 3D 模型 | 主要预览 |
+| TOP | `top` | 顶视图（Z 轴向下） | 尺寸标注 |
+| FRONT | `front` | 前视图（Y 轴向前） | 正面观察 |
+| RIGHT | `right` | 右视图（X 轴向右） | 侧面观察 |
+| BACK | `back` | 后视图 | 反面观察 |
+| BOTTOM | `bottom` | 底视图 | 底面观察 |
+| LEFT | `left` | 左视图 | 左侧观察 |
+
+---
+
+### 相机位置计算
+
+```python
+import numpy as np
+
+def calculate_camera_position(
+    bbox: BoundingBox,
+    view_type: ViewType,
+    distance_factor: float = 2.0
+) -> Camera:
+    """计算相机位置"""
+
+    # 包围盒中心
+    center = bbox.center
+
+    # 根据视图类型设置相机方向
+    if view_type == ViewType.ISO:
+        # 等轴视图 - 45 度角俯视
+        direction = normalize([1, 1, 1])
+        position = center + direction * distance_factor * bbox.max_dimension
+
+    elif view_type == ViewType.TOP:
+        # 顶视图 - 从上方看
+        direction = [0, 0, -1]
+        position = center + direction * distance_factor * bbox.max_dimension
+
+    elif view_type == ViewType.FRONT:
+        # 前视图 - 从 Y+ 方看
+        direction = [0, -1, 0]
+        position = center + direction * distance_factor * bbox.max_dimension
+
+    # ... 其他视角类似
+
+    # 计算相机朝向（看向中心）
+    look_at = center
+
+    # 计算上方向
+    up = [0, 0, 1]
+
+    return Camera(position=position, look_at=look_at, up=up)
+```
+
+---
+
+### 透视矩阵计算
+
+```python
+import numpy as np
+
+def compute_perspective_matrix(
+    fov_degrees: float = 45,
+    aspect_ratio: float = 16/9,
+    near: float = 0.1,
+    far: float = 1000.0
+) -> np.ndarray:
+    """计算透视投影矩阵"""
+
+    # 视场角度转弧度
+    fov_rad = np.deg2rad(fov_degrees)
+
+    # 透视除法
+    f = 1.0 / np.tan(fov_rad / 2)
+
+    # 宽高比
+    aspect = aspect_ratio
+
+    # 构建透视矩阵
+    P = np.zeros((4, 4), dtype=np.float32)
+    P[0, 0] = [
+        aspect / f, 0,        0,
+        0,          1,        0,
+        0,          0,        -1 / f, 0
+    ]
+    P[1, 1] = [
+        0,          1,        0,
+        0,          1,        0,
+        0,          0,        -1 / f, 0
+    ]
+    P[2, 2] = [
+        0,          0,        -1,
+        0,          1,        0,
+        0,          0,        -1,        0
+    ]
+    P[3, 3] = [
+        0,          0,        0,
+        0,          1,        0,
+        0,          0,        0,        -1
+    ]
+
+    # 平移到相机空间
+    P[3, 3] = np.array([0, 0, -near])
+
+    return P
+```
+
+---
+
+## 图像生成流程
+
+### 1. 场景渲染
+
+```python
+async def render_scene(
+    model: Model3D,
+    camera: Camera,
+    lights: List[Light],
+    background: Background,
+    quality: RenderQuality
+) -> Image:
+    """渲染完整场景"""
+
+    # 1. 设置 VTK 渲染器
+    renderer = VTKRenderer()
+    renderer.set_camera(camera)
+    renderer.set_lights(lights)
+    renderer.set_background(background)
+
+    # 2. 根据质量设置
+    if quality == RenderQuality.LOW:
+        renderer.set_resolution(800, 600)
+        renderer.set_anti_aliasing(False)
+    elif quality == RenderQuality.MEDIUM:
+        renderer.set_resolution(1920, 1080)
+        renderer.set_anti_aliasing(True)
+    elif quality == RenderQuality.HIGH:
+        renderer.set_resolution(3840, 2160)
+        renderer.set_anti_aliasing(True, 4x)
+
+    # 3. 执行渲染
+    window = renderer.get_render_window()
+    image = window.render()
+
+    return image
+```
+
+---
+
+### 2. 离屏渲染
+
+```python
+import numpy as np
+from PIL import Image
+
+def render_offscreen(model: Model3D, camera: Camera, size: tuple) -> Image:
+    """离屏渲染 - 无需 GUI"""
+
+    import matplotlib.pyplot as plt
+
+    # 设置图形后端
+    plt.ioff()
+
+    # 使用 matplotlib 的 3D 渲染
+    fig = plt.figure(figsize=(size[0]/100, size[1]/100), dpi=100)
+    ax = fig.add_subplot(111, projection='3d')
+
+    # 隐藏坐标轴
+    ax.set_axis_off()
+
+    # 绘制模型
+    ax.plot_trisurf(model.vertices, model.faces, shade=True)
+
+    # 设置视图
+    ax.view_init(
+        elev=camera.elevation_degrees,
+        azim=camera.azimuth_degrees
+    )
+    ax.set_xlim([camera.target.x - 5, camera.target.x + 5])
+    ax.set_ylim([camera.target.y - 5, camera.target.y + 5])
+
+    # 保存为图像
+    canvas = fig.canvas
+    image = Image.frombytes(canvas.tostring_rgb())
+    plt.ioff()
+
+    return image
+```
+
+---
+
+### 3. 批量渲染优化
+
+```python
+async def batch_render(
+    models: List[Model3D],
+    views: List[ViewType],
+    quality: RenderQuality
+) -> dict[str, dict[ViewType, Image]]:
+    """批量渲染多个模型"""
+
+    # 创建相机位置
+    cameras = [calculate_camera_position(model.bbox, view) for model in models for view in views]
+
+    # 并行渲染
+    tasks = []
+    for model in models:
+        for view_type, camera in zip(views, cameras):
+            task = render_scene(model, camera, quality)
+            tasks.append(task)
+
+    results = await asyncio.gather(*tasks)
+
+    # 组织结果
+    return {
+        model.id: {
+            view_type: view.value: image
+            for view_type, image in zip(views, results)
+        }
+        for model in models
+    }
+```
+
+---
+
+## 性能优化策略
+
+### 1. 渲染参数优化
+
+| 参数 | 低质量 | 中等质量 | 高质量 | 说明 |
+|------|--------|----------|--------|------|
+| 分辨率 | 800x600 | 1920x1080 | 3840x2160 | 像素数量 |
+| 抗锯齿 | 关闭 | 2x MSAA | 4x MSAA | 计算成本 |
+| 阴影 | 禁用 | 低质量 | 高质量 | 性能开销 |
+| 反射 | 禁用 | 低质量 | 高质量 | 遮免反射计算 |
+
+---
+
+### 2. 缓存策略
+
+```python
+from dataclasses import dataclass
+from datetime import datetime, timedelta
+
+@dataclass
+class CacheEntry:
+    """缓存条目"""
+    model_hash: str          # 模型哈希
+    view_type: ViewType       # 视图类型
+    quality: RenderQuality    # 渲染质量
+    image: bytes             # 图像数据
+    created_at: datetime     # 创建时间
+    size_bytes: int          # 数据大小
+
+class PreviewCache:
+    """预览缓存管理器"""
+
+    def __init__(self, max_size_mb: int = 100, ttl_minutes: int = 30):
+        self.cache: dict[str, CacheEntry] = {}
+        self.max_size_bytes = max_size_mb * 1024 * 1024
+        self.ttl = timedelta(minutes=ttl_minutes)
+
+    def get(self, key: str) -> Optional[bytes]:
+        """获取缓存"""
+        entry = self.cache.get(key)
+        if entry:
+            # 检查是否过期
+            if datetime.now() - entry.created_at > self.ttl:
+                del self.cache[key]
+                return None
+            return entry.image
+
+    def put(self, key: str, image: bytes) -> None:
+        """存入缓存"""
+        # 检查大小限制
+        if len(self.cache) * 1000000 > self.max_size_bytes:
+            # 清理最旧的条目
+            self._evict_oldest()
+
+        self.cache[key] = CacheEntry(
+            model_hash=key.split(":")[0],
+            view_type=key.split(":")[1],
+            quality=key.split(":")[2],
+            image=image,
+            created_at=datetime.now(),
+            size_bytes=len(image)
+        )
+
+    def _evict_oldest(self):
+        """淘汰最旧的条目"""
+        oldest = min(self.cache.items(), key=lambda x: x[1].created_at)
+        del self.cache[oldest[0]]
+```
+
+---
+
+### 3. 增量更新策略
+
+```python
+class IncrementalUpdater:
+    """增量更新器 - 只更新变化的部分"""
+
+    def __init__(self, preview_manager: PreviewManager):
+        self.preview_manager = preview_manager
+
+    async def update_changed_parts(
+        self,
+        model: Model3D,
+        changed_faces: List[Face]
+    ):
+        """只更新变化的面"""
+        # 1. 识别受影响的面
+        affected_viewports = self._identify_affected_viewports(model, changed_faces)
+
+        # 2. 重新渲染受影响的视角
+        for viewport in affected_viewports:
+            image = await self.preview_manager.generate_preview(model, viewport)
+
+        return {viewport: image for viewport in affected_viewports}
+
+    def _identify_affected_viewports(self, model: Model3D, faces: List[Face]) -> set[ViewType]:
+        """识别受影响的视角"""
+        affected = set()
+
+        # 简化实现：如果面在任何视角的视锥体中，则该视角需要重新渲染
+        for face in faces:
+            # 计算面的法向量
+            normal = face.normal
+
+            # 检查每个视角
+            for view_type in ViewType:
+                if self._is_visible_from_view(model, view_type, face, normal):
+                    affected.add(view_type)
+
+        return affected
+
+    def _is_visible_from_view(self, model, view_type, face, normal):
+        """判断面是否从视角可见"""
+        view_normal = view_type.camera_direction
+
+        # 简化可见性检查：点积
+        return np.dot(normal, view_normal) > 0
+```
+
+---
+
+## 质量保证
+
+### 1. 渲染验证
+
+```python
+def validate_rendered_image(image: Image, expected_size: tuple[int, int]) -> ValidationResult:
+    """验证渲染的图像"""
+
+    # 检查图像尺寸
+    if image.size != expected_size:
+        return ValidationResult(
+            valid=False,
+            error=f"图像尺寸不匹配：期望 {expected_size}，实际 {image.size}"
+        )
+
+    # 检查是否全黑（可能是渲染错误）
+    pixels = np.array(image)
+    if np.all(pixels == 0):
+        return ValidationResult(
+            valid=False,
+            error="图像全黑，可能是渲染错误"
+        )
+
+    return ValidationResult(valid=True, error=None)
+```
+
+---
+
+### 2. 错误恢复机制
+
+```python
+class RenderingErrorHandler:
+    """渲染错误处理器"""
+
+    async def render_with_retry(
+        self,
+        model: Model3D,
+        view_type: ViewType,
+        max_retries: int = 3
+    ) -> Image:
+        """带重试的渲染"""
+
+        for attempt in range(max_retries):
+            try:
+                image = await self._render_scene(model, view_type)
+
+                # 验证结果
+                validation = validate_rendered_image(image, (1920, 1080))
+
+                if not validation.valid:
+                    raise RenderingError(validation.error)
+
+                return image
+
+            except RenderingError as e:
+                if attempt == max_retries - 1:
+                    raise  # 最后一次失败则抛出
+
+                # 记录错误并降级质量
+                logger.warning(f"渲染失败（尝试 {attempt + 1}）：{e}")
+                # 降级到低质量
+                quality = RenderQuality.LOW
+```
+
+---
+
+## 相关链接
+
+- [CAD Sandbox MCP 设计详解](/kb/aicad/cad-1sc89z)
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [CAD 动作集设计](/kb/aicad/cad-a9bzjv)
+2:["$","$Lb",null,{"document":{"slug":"doc-k0qhp8","title":"渲染与 Preview 模块设计","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$c","filePath":"Sandbox & MCP/渲染与 Preview 模块设计.md","default":{"slug":"doc-k0qhp8","title":"渲染与 Preview 模块设计","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$d","filePath":"Sandbox & MCP/渲染与 Preview 模块设计.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"渲染与 Preview 模块设计 - AICAD | Jerry Xu"}],["$","meta","3",{"name":"description","content":"渲染与 Preview 模块设计"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

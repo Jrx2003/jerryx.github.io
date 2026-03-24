@@ -1,0 +1,1086 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","doc-no9q35","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-no9q35","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"doc-no9q35\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-no9q35","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T3420,# 模型合并与编辑
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 高级
+> **预计阅读时间**: 45 分钟
+
+---
+
+## 目录
+
+1. [模型合并概述](#模型合并概述)
+2. [加权平均合并](#加权平均合并)
+3. [Task Arithmetic](#task-arithmetic)
+4. [SLERP 球面插值](#slerp-球面插值)
+5. [TIES 合并](#ties-合并)
+6. [DARE 丢弃重缩放](#dare-丢弃重缩放)
+7. [模型编辑](#模型编辑)
+8. [应用场景](#应用场景)
+9. [面试要点](#面试要点)
+
+---
+
+## 模型合并概述
+
+### 什么是模型合并
+
+将多个微调模型的能力整合到一个模型中，无需重新训练。
+
+```
+模型 A (擅长数学) ──┐
+                   ├──→ 合并算法 ──→ 合并模型 (数学+代码)
+模型 B (擅长代码) ──┘
+```
+
+### 优势
+
+| 优势 | 说明 |
+|------|------|
+| **高效** | 无需训练，直接合并 |
+| **节省** | 避免多任务训练成本 |
+| **模块化** | 能力模块化，灵活组合 |
+| **可扩展** | 随时添加新能力 |
+
+---
+
+## 加权平均合并
+
+### 简单平均
+
+```python
+def simple_average(models, weights=None):
+    """
+    模型参数加权平均
+
+    models: 模型列表
+    weights: 权重列表，默认等权重
+    """
+    if weights is None:
+        weights = [1.0 / len(models)] * len(models)
+
+    merged_params = {}
+    for key in models[0].state_dict().keys():
+        merged_params[key] = sum(
+            w * m.state_dict()[key]
+            for w, m in zip(weights, models)
+        )
+
+    return merged_params
+```
+
+### 注意事项
+
+- 模型必须同架构
+- 权重和为 1
+- 通常效果一般，需要更复杂的合并方法
+
+---
+
+## Task Arithmetic
+
+### 核心思想
+
+在参数空间进行算术运算：加法、减法。
+
+```
+基础模型: θ_base
+任务 A 模型: θ_A = θ_base + τ_A  (任务向量)
+任务 B 模型: θ_B = θ_base + τ_B
+
+合并: θ_merged = θ_base + α × τ_A + β × τ_B
+```
+
+### 实现
+
+```python
+class TaskArithmetic:
+    def __init__(self, base_model):
+        self.base_params = get_model_params(base_model)
+
+    def compute_task_vector(self, finetuned_model):
+        """计算任务向量: τ = θ_finetuned - θ_base"""
+        ft_params = get_model_params(finetuned_model)
+        return {
+            k: ft_params[k] - self.base_params[k]
+            for k in self.base_params.keys()
+        }
+
+    def merge(self, task_vectors, scaling_factors=None):
+        """
+        合并任务向量
+
+        task_vectors: [τ_1, τ_2, ...]
+        scaling_factors: [α_1, α_2, ...]
+        """
+        if scaling_factors is None:
+            scaling_factors = [1.0] * len(task_vectors)
+
+        merged_params = copy.deepcopy(self.base_params)
+
+        for key in merged_params.keys():
+            for tv, alpha in zip(task_vectors, scaling_factors):
+                merged_params[key] += alpha * tv[key]
+
+        return merged_params
+```
+
+### 应用示例
+
+```python
+# 1. 加载基础模型
+base_model = load_model("llama-2-7b")
+
+# 2. 加载微调模型
+math_model = load_model("llama-2-7b-math")
+code_model = load_model("llama-2-7b-code")
+
+# 3. 计算任务向量
+arithmetic = TaskArithmetic(base_model)
+tau_math = arithmetic.compute_task_vector(math_model)
+tau_code = arithmetic.compute_task_vector(code_model)
+
+# 4. 合并
+merged_params = arithmetic.merge(
+    task_vectors=[tau_math, tau_code],
+    scaling_factors=[0.8, 0.8]  # 调整权重
+)
+
+# 5. 加载合并后的参数
+merged_model = load_model("llama-2-7b")
+merged_model.load_state_dict(merged_params)
+```
+
+---
+
+## SLERP 球面插值
+
+### 核心思想
+
+Spherical Linear Interpolation，在超球面上进行插值，保持向量长度。
+
+```
+线性插值: θ = (1-t) × θ_1 + t × θ_2  (长度会变化)
+SLERP:     θ = sin((1-t)ω)/sin(ω) × θ_1 + sin(tω)/sin(ω) × θ_2
+其中 cos(ω) = θ_1 · θ_2 / (||θ_1|| × ||θ_2||)
+```
+
+### 实现
+
+```python
+def slerp(t, v0, v1, DOT_THRESHOLD=0.9995):
+    """
+    球面线性插值
+
+    t: 插值系数 [0, 1]
+    v0, v1: 两个向量
+    """
+    # 归一化
+    v0_norm = v0 / torch.norm(v0)
+    v1_norm = v1 / torch.norm(v1)
+
+    # 计算夹角
+    dot = torch.sum(v0_norm * v1_norm)
+
+    # 如果夹角很小，使用线性插值
+    if dot > DOT_THRESHOLD:
+        return (1 - t) * v0 + t * v1
+
+    # 计算角度
+    omega = torch.acos(dot)
+    sin_omega = torch.sin(omega)
+
+    # SLERP 公式
+    scale_0 = torch.sin((1 - t) * omega) / sin_omega
+    scale_1 = torch.sin(t * omega) / sin_omega
+
+    return scale_0 * v0 + scale_1 * v1
+
+
+class SLERPMerging:
+    """SLERP 模型合并"""
+
+    def __init__(self, base_model):
+        self.base_params = get_model_params(base_model)
+
+    def merge(self, model_a, model_b, t=0.5):
+        """
+        使用 SLERP 合并两个模型
+
+        t: 插值系数，0=全A，1=全B
+        """
+        params_a = get_model_params(model_a)
+        params_b = get_model_params(model_b)
+
+        merged_params = {}
+        for key in self.base_params.keys():
+            merged_params[key] = slerp(
+                t,
+                params_a[key],
+                params_b[key]
+            )
+
+        return merged_params
+```
+
+---
+
+## TIES 合并
+
+### 核心思想
+
+Trim, Elect Sign & Merge，解决任务向量冲突。
+
+```
+问题: 不同任务向量在某些参数上方向相反，会互相抵消
+
+TIES 解决方案:
+1. Trim: 只保留重要的参数变化 (剪枝)
+2. Elect Sign: 选择主导方向
+3. Merge: 只合并在主导方向上的更新
+```
+
+### 实现
+
+```python
+class TIESMerging:
+    """TIES 模型合并"""
+
+    def __init__(self, base_model, density=0.6):
+        self.base_params = get_model_params(base_model)
+        self.density = density  # 保留的参数比例
+
+    def trim(self, task_vector):
+        """步骤1: 剪枝，只保留重要的参数"""
+        flat_tv = torch.cat([v.flatten() for v in task_vector.values()])
+
+        # 计算阈值
+        k = int(self.density * flat_tv.numel())
+        threshold = torch.topk(torch.abs(flat_tv), k).values[-1]
+
+        # 剪枝
+        trimmed_tv = {}
+        for key, value in task_vector.items():
+            mask = torch.abs(value) >= threshold
+            trimmed_tv[key] = value * mask
+
+        return trimmed_tv
+
+    def elect_sign(self, task_vectors):
+        """步骤2: 选举符号，确定主导方向"""
+        # 累加所有任务向量的符号
+        sign_sum = {}
+        for key in self.base_params.keys():
+            sign_sum[key] = sum(
+                torch.sign(tv[key]) for tv in task_vectors
+            )
+
+        # 主导符号
+        elected_signs = {
+            key: torch.sign(sign_sum[key])
+            for key in sign_sum.keys()
+        }
+
+        return elected_signs
+
+    def disjoint_merge(self, task_vectors, elected_signs):
+        """步骤3: 只合并在主导方向上的参数"""
+        merged_tv = {key: torch.zeros_like(v)
+                     for key, v in self.base_params.items()}
+
+        for key in self.base_params.keys():
+            for tv in task_vectors:
+                # 只保留与主导方向一致的参数
+                mask = torch.sign(tv[key]) == elected_signs[key]
+                merged_tv[key] += tv[key] * mask
+
+        return merged_tv
+
+    def merge(self, finetuned_models):
+        """完整 TIES 合并流程"""
+        # 计算任务向量
+        task_vectors = [
+            {k: get_model_params(m)[k] - self.base_params[k]
+             for k in self.base_params.keys()}
+            for m in finetuned_models
+        ]
+
+        # Step 1: 剪枝
+        trimmed_tvs = [self.trim(tv) for tv in task_vectors]
+
+        # Step 2: 选举符号
+        elected_signs = self.elect_sign(trimmed_tvs)
+
+        # Step 3: 合并
+        merged_tv = self.disjoint_merge(trimmed_tvs, elected_signs)
+
+        # 应用到基础模型
+        merged_params = {
+            k: self.base_params[k] + merged_tv[k]
+            for k in self.base_params.keys()
+        }
+
+        return merged_params
+```
+
+---
+
+## DARE 丢弃重缩放
+
+### 核心思想
+
+Drop And REscale，随机丢弃小的参数更新，然后重缩放剩余部分。
+
+```
+1. 计算任务向量: τ = θ_finetuned - θ_base
+2. 随机丢弃: mask ~ Bernoulli(p), τ' = τ ⊙ mask
+3. 重缩放: τ'' = τ' / (1 - p)
+4. 合并多个 τ''
+```
+
+### 实现
+
+```python
+class DAREMerging:
+    """DARE 模型合并"""
+
+    def __init__(self, base_model, drop_rate=0.5):
+        self.base_params = get_model_params(base_model)
+        self.drop_rate = drop_rate
+
+    def apply_dare(self, task_vector):
+        """应用 DARE 到单个任务向量"""
+        dared_tv = {}
+
+        for key, value in task_vector.items():
+            # 随机掩码
+            mask = torch.rand_like(value) > self.drop_rate
+
+            # 丢弃并重缩放
+            dared_tv[key] = value * mask / (1 - self.drop_rate)
+
+        return dared_tv
+
+    def merge(self, finetuned_models):
+        """DARE 合并"""
+        merged_params = copy.deepcopy(self.base_params)
+
+        for model in finetuned_models:
+            # 计算任务向量
+            ft_params = get_model_params(model)
+            task_vector = {
+                k: ft_params[k] - self.base_params[k]
+                for k in self.base_params.keys()
+            }
+
+            # 应用 DARE
+            dared_tv = self.apply_dare(task_vector)
+
+            # 累加
+            for key in merged_params.keys():
+                merged_params[key] += dared_tv[key]
+
+        return merged_params
+```
+
+---
+
+## 模型编辑
+
+### 知识编辑
+
+修改模型中的特定知识，而不影响其他知识。
+
+```python
+class KnowledgeEditor:
+    """模型知识编辑"""
+
+    def __init__(self, model):
+        self.model = model
+
+    def locate_key_layers(self, prompt, target):
+        """定位关键层 (使用因果追踪)"""
+        # 1. 计算原始输出
+        original_output = self.model(prompt)
+
+        # 2. 逐层干扰，看哪些层影响目标输出
+        key_layers = []
+        for layer_idx in range(self.model.num_layers):
+            # 干扰该层
+            corrupted_output = self.model(prompt, corrupt_layer=layer_idx)
+
+            # 如果输出变化大，说明是关键层
+            if distance(corrupted_output, original_output) > threshold:
+                key_layers.append(layer_idx)
+
+        return key_layers
+
+    def edit(self, prompt, old_target, new_target, key_layers):
+        """编辑模型知识"""
+        # 只在关键层进行梯度更新
+        for layer_idx in key_layers:
+            layer = self.model.layers[layer_idx]
+
+            # 计算编辑损失
+            output = self.model(prompt)
+            loss = F.cross_entropy(output, new_target)
+
+            # 只更新该层
+            loss.backward()
+            update_layer(layer)
+```
+
+---
+
+## 应用场景
+
+### 1. 多任务能力整合
+
+```python
+# 整合多个专家模型
+models = {
+    "math": load_model("llama-math"),
+    "code": load_model("llama-code"),
+    "chat": load_model("llama-chat"),
+    "reasoning": load_model("llama-reasoning")
+}
+
+# 使用 TIES 合并
+merger = TIESMerging(base_model)
+merged = merger.merge(list(models.values()))
+```
+
+### 2. 领域适应
+
+```python
+# 基础模型 + 领域适配
+base = load_model("llama-2-7b")
+medical = load_model("llama-medical")
+
+# 只保留医学知识的方向
+arithmetic = TaskArithmetic(base)
+tau_medical = arithmetic.compute_task_vector(medical)
+
+# 以较小权重合并
+merged = arithmetic.merge([tau_medical], scaling_factors=[0.3])
+```
+
+### 3. 能力遗忘
+
+```python
+# 移除有害能力
+base = load_model("llama-2-7b")
+unsafe = load_model("llama-unsafe")  # 假设
+
+arithmetic = TaskArithmetic(base)
+tau_unsafe = arithmetic.compute_task_vector(unsafe)
+
+# 减去有害方向
+safe_model = arithmetic.merge([-tau_unsafe], scaling_factors=[1.0])
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: 模型合并 vs 多任务学习？**
+
+A:
+| 维度 | 模型合并 | 多任务学习 |
+|------|----------|------------|
+| 训练成本 | 无 | 高 |
+| 灵活性 | 模块化组合 | 固定训练 |
+| 效果 | 可能略差 | 通常更好 |
+| 适用 | 快速原型 | 生产环境 |
+
+**Q2: Task Arithmetic 的核心假设？**
+
+A: 任务向量在参数空间是线性的、可叠加的。
+即: 任务 A + 任务 B ≈ 同时擅长 A 和 B 的模型
+
+**Q3: TIES 解决了什么问题？**
+
+A: 任务向量冲突问题。当两个任务在某些参数上更新方向相反时，简单合并会相互抵消。TIES 通过选择主导方向避免冲突。
+
+**Q4: DARE 的 drop_rate 如何选择？**
+
+A:
+- drop_rate = 0.5: 丢弃 50%，保留 50%
+- 越大丢弃越多，但剩余参数需要更大缩放
+- 经验值: 0.3-0.7
+
+**Q5: 模型合并的前提条件？**
+
+A:
+1. 同架构模型
+2. 相同预训练基础
+3. 任务向量独立
+4. 参数空间可线性组合
+
+---
+
+## 相关文档
+
+- [高效微调技术](/kb/llm/doc-16n0ng) - LoRA 等微调方法
+- [RLHF深度解析](/kb/llm/rlhf-n4tjfq) - 模型对齐
+- [GPT系列模型演进](/kb/llm/gpt-5ep6g8) - 模型基础
+
+---
+
+## 参考文献
+
+1. Ilharco et al. "Editing Models with Task Arithmetic". 2022.
+2. Yadav et al. "TIES-Merging: Resolving Interference When Merging Models". 2023.
+3. Yu et al. "Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch". 2023.
+4. Mitchell et al. "Memory-Based Model Editing at Scale". 2022.
+d:T3420,# 模型合并与编辑
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 高级
+> **预计阅读时间**: 45 分钟
+
+---
+
+## 目录
+
+1. [模型合并概述](#模型合并概述)
+2. [加权平均合并](#加权平均合并)
+3. [Task Arithmetic](#task-arithmetic)
+4. [SLERP 球面插值](#slerp-球面插值)
+5. [TIES 合并](#ties-合并)
+6. [DARE 丢弃重缩放](#dare-丢弃重缩放)
+7. [模型编辑](#模型编辑)
+8. [应用场景](#应用场景)
+9. [面试要点](#面试要点)
+
+---
+
+## 模型合并概述
+
+### 什么是模型合并
+
+将多个微调模型的能力整合到一个模型中，无需重新训练。
+
+```
+模型 A (擅长数学) ──┐
+                   ├──→ 合并算法 ──→ 合并模型 (数学+代码)
+模型 B (擅长代码) ──┘
+```
+
+### 优势
+
+| 优势 | 说明 |
+|------|------|
+| **高效** | 无需训练，直接合并 |
+| **节省** | 避免多任务训练成本 |
+| **模块化** | 能力模块化，灵活组合 |
+| **可扩展** | 随时添加新能力 |
+
+---
+
+## 加权平均合并
+
+### 简单平均
+
+```python
+def simple_average(models, weights=None):
+    """
+    模型参数加权平均
+
+    models: 模型列表
+    weights: 权重列表，默认等权重
+    """
+    if weights is None:
+        weights = [1.0 / len(models)] * len(models)
+
+    merged_params = {}
+    for key in models[0].state_dict().keys():
+        merged_params[key] = sum(
+            w * m.state_dict()[key]
+            for w, m in zip(weights, models)
+        )
+
+    return merged_params
+```
+
+### 注意事项
+
+- 模型必须同架构
+- 权重和为 1
+- 通常效果一般，需要更复杂的合并方法
+
+---
+
+## Task Arithmetic
+
+### 核心思想
+
+在参数空间进行算术运算：加法、减法。
+
+```
+基础模型: θ_base
+任务 A 模型: θ_A = θ_base + τ_A  (任务向量)
+任务 B 模型: θ_B = θ_base + τ_B
+
+合并: θ_merged = θ_base + α × τ_A + β × τ_B
+```
+
+### 实现
+
+```python
+class TaskArithmetic:
+    def __init__(self, base_model):
+        self.base_params = get_model_params(base_model)
+
+    def compute_task_vector(self, finetuned_model):
+        """计算任务向量: τ = θ_finetuned - θ_base"""
+        ft_params = get_model_params(finetuned_model)
+        return {
+            k: ft_params[k] - self.base_params[k]
+            for k in self.base_params.keys()
+        }
+
+    def merge(self, task_vectors, scaling_factors=None):
+        """
+        合并任务向量
+
+        task_vectors: [τ_1, τ_2, ...]
+        scaling_factors: [α_1, α_2, ...]
+        """
+        if scaling_factors is None:
+            scaling_factors = [1.0] * len(task_vectors)
+
+        merged_params = copy.deepcopy(self.base_params)
+
+        for key in merged_params.keys():
+            for tv, alpha in zip(task_vectors, scaling_factors):
+                merged_params[key] += alpha * tv[key]
+
+        return merged_params
+```
+
+### 应用示例
+
+```python
+# 1. 加载基础模型
+base_model = load_model("llama-2-7b")
+
+# 2. 加载微调模型
+math_model = load_model("llama-2-7b-math")
+code_model = load_model("llama-2-7b-code")
+
+# 3. 计算任务向量
+arithmetic = TaskArithmetic(base_model)
+tau_math = arithmetic.compute_task_vector(math_model)
+tau_code = arithmetic.compute_task_vector(code_model)
+
+# 4. 合并
+merged_params = arithmetic.merge(
+    task_vectors=[tau_math, tau_code],
+    scaling_factors=[0.8, 0.8]  # 调整权重
+)
+
+# 5. 加载合并后的参数
+merged_model = load_model("llama-2-7b")
+merged_model.load_state_dict(merged_params)
+```
+
+---
+
+## SLERP 球面插值
+
+### 核心思想
+
+Spherical Linear Interpolation，在超球面上进行插值，保持向量长度。
+
+```
+线性插值: θ = (1-t) × θ_1 + t × θ_2  (长度会变化)
+SLERP:     θ = sin((1-t)ω)/sin(ω) × θ_1 + sin(tω)/sin(ω) × θ_2
+其中 cos(ω) = θ_1 · θ_2 / (||θ_1|| × ||θ_2||)
+```
+
+### 实现
+
+```python
+def slerp(t, v0, v1, DOT_THRESHOLD=0.9995):
+    """
+    球面线性插值
+
+    t: 插值系数 [0, 1]
+    v0, v1: 两个向量
+    """
+    # 归一化
+    v0_norm = v0 / torch.norm(v0)
+    v1_norm = v1 / torch.norm(v1)
+
+    # 计算夹角
+    dot = torch.sum(v0_norm * v1_norm)
+
+    # 如果夹角很小，使用线性插值
+    if dot > DOT_THRESHOLD:
+        return (1 - t) * v0 + t * v1
+
+    # 计算角度
+    omega = torch.acos(dot)
+    sin_omega = torch.sin(omega)
+
+    # SLERP 公式
+    scale_0 = torch.sin((1 - t) * omega) / sin_omega
+    scale_1 = torch.sin(t * omega) / sin_omega
+
+    return scale_0 * v0 + scale_1 * v1
+
+
+class SLERPMerging:
+    """SLERP 模型合并"""
+
+    def __init__(self, base_model):
+        self.base_params = get_model_params(base_model)
+
+    def merge(self, model_a, model_b, t=0.5):
+        """
+        使用 SLERP 合并两个模型
+
+        t: 插值系数，0=全A，1=全B
+        """
+        params_a = get_model_params(model_a)
+        params_b = get_model_params(model_b)
+
+        merged_params = {}
+        for key in self.base_params.keys():
+            merged_params[key] = slerp(
+                t,
+                params_a[key],
+                params_b[key]
+            )
+
+        return merged_params
+```
+
+---
+
+## TIES 合并
+
+### 核心思想
+
+Trim, Elect Sign & Merge，解决任务向量冲突。
+
+```
+问题: 不同任务向量在某些参数上方向相反，会互相抵消
+
+TIES 解决方案:
+1. Trim: 只保留重要的参数变化 (剪枝)
+2. Elect Sign: 选择主导方向
+3. Merge: 只合并在主导方向上的更新
+```
+
+### 实现
+
+```python
+class TIESMerging:
+    """TIES 模型合并"""
+
+    def __init__(self, base_model, density=0.6):
+        self.base_params = get_model_params(base_model)
+        self.density = density  # 保留的参数比例
+
+    def trim(self, task_vector):
+        """步骤1: 剪枝，只保留重要的参数"""
+        flat_tv = torch.cat([v.flatten() for v in task_vector.values()])
+
+        # 计算阈值
+        k = int(self.density * flat_tv.numel())
+        threshold = torch.topk(torch.abs(flat_tv), k).values[-1]
+
+        # 剪枝
+        trimmed_tv = {}
+        for key, value in task_vector.items():
+            mask = torch.abs(value) >= threshold
+            trimmed_tv[key] = value * mask
+
+        return trimmed_tv
+
+    def elect_sign(self, task_vectors):
+        """步骤2: 选举符号，确定主导方向"""
+        # 累加所有任务向量的符号
+        sign_sum = {}
+        for key in self.base_params.keys():
+            sign_sum[key] = sum(
+                torch.sign(tv[key]) for tv in task_vectors
+            )
+
+        # 主导符号
+        elected_signs = {
+            key: torch.sign(sign_sum[key])
+            for key in sign_sum.keys()
+        }
+
+        return elected_signs
+
+    def disjoint_merge(self, task_vectors, elected_signs):
+        """步骤3: 只合并在主导方向上的参数"""
+        merged_tv = {key: torch.zeros_like(v)
+                     for key, v in self.base_params.items()}
+
+        for key in self.base_params.keys():
+            for tv in task_vectors:
+                # 只保留与主导方向一致的参数
+                mask = torch.sign(tv[key]) == elected_signs[key]
+                merged_tv[key] += tv[key] * mask
+
+        return merged_tv
+
+    def merge(self, finetuned_models):
+        """完整 TIES 合并流程"""
+        # 计算任务向量
+        task_vectors = [
+            {k: get_model_params(m)[k] - self.base_params[k]
+             for k in self.base_params.keys()}
+            for m in finetuned_models
+        ]
+
+        # Step 1: 剪枝
+        trimmed_tvs = [self.trim(tv) for tv in task_vectors]
+
+        # Step 2: 选举符号
+        elected_signs = self.elect_sign(trimmed_tvs)
+
+        # Step 3: 合并
+        merged_tv = self.disjoint_merge(trimmed_tvs, elected_signs)
+
+        # 应用到基础模型
+        merged_params = {
+            k: self.base_params[k] + merged_tv[k]
+            for k in self.base_params.keys()
+        }
+
+        return merged_params
+```
+
+---
+
+## DARE 丢弃重缩放
+
+### 核心思想
+
+Drop And REscale，随机丢弃小的参数更新，然后重缩放剩余部分。
+
+```
+1. 计算任务向量: τ = θ_finetuned - θ_base
+2. 随机丢弃: mask ~ Bernoulli(p), τ' = τ ⊙ mask
+3. 重缩放: τ'' = τ' / (1 - p)
+4. 合并多个 τ''
+```
+
+### 实现
+
+```python
+class DAREMerging:
+    """DARE 模型合并"""
+
+    def __init__(self, base_model, drop_rate=0.5):
+        self.base_params = get_model_params(base_model)
+        self.drop_rate = drop_rate
+
+    def apply_dare(self, task_vector):
+        """应用 DARE 到单个任务向量"""
+        dared_tv = {}
+
+        for key, value in task_vector.items():
+            # 随机掩码
+            mask = torch.rand_like(value) > self.drop_rate
+
+            # 丢弃并重缩放
+            dared_tv[key] = value * mask / (1 - self.drop_rate)
+
+        return dared_tv
+
+    def merge(self, finetuned_models):
+        """DARE 合并"""
+        merged_params = copy.deepcopy(self.base_params)
+
+        for model in finetuned_models:
+            # 计算任务向量
+            ft_params = get_model_params(model)
+            task_vector = {
+                k: ft_params[k] - self.base_params[k]
+                for k in self.base_params.keys()
+            }
+
+            # 应用 DARE
+            dared_tv = self.apply_dare(task_vector)
+
+            # 累加
+            for key in merged_params.keys():
+                merged_params[key] += dared_tv[key]
+
+        return merged_params
+```
+
+---
+
+## 模型编辑
+
+### 知识编辑
+
+修改模型中的特定知识，而不影响其他知识。
+
+```python
+class KnowledgeEditor:
+    """模型知识编辑"""
+
+    def __init__(self, model):
+        self.model = model
+
+    def locate_key_layers(self, prompt, target):
+        """定位关键层 (使用因果追踪)"""
+        # 1. 计算原始输出
+        original_output = self.model(prompt)
+
+        # 2. 逐层干扰，看哪些层影响目标输出
+        key_layers = []
+        for layer_idx in range(self.model.num_layers):
+            # 干扰该层
+            corrupted_output = self.model(prompt, corrupt_layer=layer_idx)
+
+            # 如果输出变化大，说明是关键层
+            if distance(corrupted_output, original_output) > threshold:
+                key_layers.append(layer_idx)
+
+        return key_layers
+
+    def edit(self, prompt, old_target, new_target, key_layers):
+        """编辑模型知识"""
+        # 只在关键层进行梯度更新
+        for layer_idx in key_layers:
+            layer = self.model.layers[layer_idx]
+
+            # 计算编辑损失
+            output = self.model(prompt)
+            loss = F.cross_entropy(output, new_target)
+
+            # 只更新该层
+            loss.backward()
+            update_layer(layer)
+```
+
+---
+
+## 应用场景
+
+### 1. 多任务能力整合
+
+```python
+# 整合多个专家模型
+models = {
+    "math": load_model("llama-math"),
+    "code": load_model("llama-code"),
+    "chat": load_model("llama-chat"),
+    "reasoning": load_model("llama-reasoning")
+}
+
+# 使用 TIES 合并
+merger = TIESMerging(base_model)
+merged = merger.merge(list(models.values()))
+```
+
+### 2. 领域适应
+
+```python
+# 基础模型 + 领域适配
+base = load_model("llama-2-7b")
+medical = load_model("llama-medical")
+
+# 只保留医学知识的方向
+arithmetic = TaskArithmetic(base)
+tau_medical = arithmetic.compute_task_vector(medical)
+
+# 以较小权重合并
+merged = arithmetic.merge([tau_medical], scaling_factors=[0.3])
+```
+
+### 3. 能力遗忘
+
+```python
+# 移除有害能力
+base = load_model("llama-2-7b")
+unsafe = load_model("llama-unsafe")  # 假设
+
+arithmetic = TaskArithmetic(base)
+tau_unsafe = arithmetic.compute_task_vector(unsafe)
+
+# 减去有害方向
+safe_model = arithmetic.merge([-tau_unsafe], scaling_factors=[1.0])
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: 模型合并 vs 多任务学习？**
+
+A:
+| 维度 | 模型合并 | 多任务学习 |
+|------|----------|------------|
+| 训练成本 | 无 | 高 |
+| 灵活性 | 模块化组合 | 固定训练 |
+| 效果 | 可能略差 | 通常更好 |
+| 适用 | 快速原型 | 生产环境 |
+
+**Q2: Task Arithmetic 的核心假设？**
+
+A: 任务向量在参数空间是线性的、可叠加的。
+即: 任务 A + 任务 B ≈ 同时擅长 A 和 B 的模型
+
+**Q3: TIES 解决了什么问题？**
+
+A: 任务向量冲突问题。当两个任务在某些参数上更新方向相反时，简单合并会相互抵消。TIES 通过选择主导方向避免冲突。
+
+**Q4: DARE 的 drop_rate 如何选择？**
+
+A:
+- drop_rate = 0.5: 丢弃 50%，保留 50%
+- 越大丢弃越多，但剩余参数需要更大缩放
+- 经验值: 0.3-0.7
+
+**Q5: 模型合并的前提条件？**
+
+A:
+1. 同架构模型
+2. 相同预训练基础
+3. 任务向量独立
+4. 参数空间可线性组合
+
+---
+
+## 相关文档
+
+- [高效微调技术](/kb/llm/doc-16n0ng) - LoRA 等微调方法
+- [RLHF深度解析](/kb/llm/rlhf-n4tjfq) - 模型对齐
+- [GPT系列模型演进](/kb/llm/gpt-5ep6g8) - 模型基础
+
+---
+
+## 参考文献
+
+1. Ilharco et al. "Editing Models with Task Arithmetic". 2022.
+2. Yadav et al. "TIES-Merging: Resolving Interference When Merging Models". 2023.
+3. Yu et al. "Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch". 2023.
+4. Mitchell et al. "Memory-Based Model Editing at Scale". 2022.
+2:["$","$Lb",null,{"document":{"slug":"doc-no9q35","title":"模型合并与编辑","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"前沿研究/模型合并与编辑.md","default":{"slug":"doc-no9q35","title":"模型合并与编辑","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"前沿研究/模型合并与编辑.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"模型合并与编辑 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"模型合并与编辑"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

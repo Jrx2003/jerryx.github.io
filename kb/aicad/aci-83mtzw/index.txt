@@ -1,0 +1,958 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","aicad","d"]
+5:["slug","aci-83mtzw","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","aci-83mtzw","d"],{"children":["__PAGE__?{\"category\":\"aicad\",\"slug\":\"aci-83mtzw\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","aci-83mtzw","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T31a5,# ACI 概念与迁移
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地讲解 ACI 的概念、在 Agent 中的体现以及在 CAD 领域的迁移
+
+---
+
+## 目录
+
+1. [ACI 核心概念](#aci-核心概念)
+2. [ACI 在 Agent 中的体现](#aci-在-agent-中的体现)
+3. [ACI 从 CAD 领域的迁移](#aci-从-cad-领域中的迁移)
+4. [ACI 与传统 CAD 的对比](#aci-与传统-cad-的对比)
+5. [ACI 的设计原则](#aci-的设计原则)
+
+---
+
+## ACI 核心概念
+
+### 什么是 ACI？
+
+**ACI (Agent-Computer Interface)** 是一种让 LLM 与专业软件（如 CAD、IDE、开发工具）进行结构化交互的接口设计范式。
+
+---
+
+### ACI 的历史背景
+
+ACI 概念的演变：
+
+| 阶段 | 年代 | 核心思想 | 代表系统 |
+|------|------|----------|----------|
+| **早期** | 2000-2010 | 命令行接口 | Unix Shell, Windows CMD |
+| **图形时代** | 2010-2020 | GUI 界面 | 鼠标操作、菜单栏 |
+| **API 时代** | 2010-2020 | 编程接口 | REST API, SDK |
+| **插件时代** | 2015-2020 | 插件系统 | IDE 插件、浏览器扩展 |
+| **AI 时代** | 2020-至今 | **ACI** | Claude Code, Cursor, Windsurf |
+
+---
+
+### ACI 的本质
+
+ACI 的本质是 **将领域专业知识转化为 LLM 可理解的结构化接口**。
+
+```
+传统 CAD（GUI）：
+┌──────────────────────────────────┐
+│  用户         │
+│  ↓              │
+│  鼠标操作      │ ← 灵活但难以自动化
+│  → 复杂       │
+│  ↓              │
+│  结果         │
+└──────────────────────────────────┘
+
+ACI（结构化）：
+┌──────────────────────────────────┐
+│  LLM Agent      │
+│  ↓              │
+│  理解意图        │
+│  → 规划动作       │ ← 可自动化、可推理
+│  ↓              │
+│  执行动作        │
+│  ↓              │
+│  观察状态        │
+│  ↓              │
+│  决策下一步       │
+│  → 结果         │
+└──────────────────────────────────┘
+```
+
+---
+
+## ACI 在 Agent 中的体现
+
+### 1. 四大支柱在 Agent 中的对应
+
+| ACI 支柱 | 在 Agent 中的体现 | 示例 |
+|----------|--------------|--------|
+| **可操作** | Function Calling / Tool Use | LLM 调用 `execute_cadquery` 或 `apply_cad_action` |
+| **可观测** | 观察性输出 | LLM 获取状态快照、多视图截图 |
+| **可回滚** | 历史记录与回退 | LLM 查看 `action_history`，使用 `modify_action` 或 `rollback` |
+| **可组合** | 链式能力 | LLM 将多个动作组合成复杂工作流 |
+
+---
+
+### 2. ACI 的 Prompt 设计模式
+
+#### 基础 Prompt
+
+```
+你是 CAD 建模助手，使用以下 ACI 动作接口：
+
+可用动作：
+- create_sketch(plane)
+- add_rectangle(width, height, centered)
+- extrude(distance, direction)
+- fillet(radius, target)
+- hole(diameter, depth, position)
+
+使用规则：
+1. 每次只执行一个动作
+2. 观察返回的 snapshot 和 suggestions
+3. 基于反馈决定下一步
+```
+
+#### 系统化 Prompt
+
+```
+ACI 工作流程：
+
+第 1 步：分析需求
+- 理解用户想要创建什么
+- 确定基本参数（尺寸、材料、精度）
+
+第 2 步：规划动作序列
+- 将复杂需求分解为动作序列
+- 考虑依赖关系（草图 → 实体 → 特征）
+- 预估所需步骤数
+
+第 3 步：迭代执行
+- 逐个执行动作
+- 每步观察状态快照
+- 处理错误和异常
+
+第 4 步：验证与优化
+- 检查是否符合需求
+- 根据建议进行优化
+- 确认模型质量
+```
+
+---
+
+### 3. ACI 的思维链（Chain of Thought）
+
+```
+用户: "创建一个带四个安装孔的板"
+
+思考 1 (Th1): [分析需求]
+我需要创建一个矩形板，四角各有一个安装孔。
+基本尺寸需要确定。
+
+思考 2 (Th2): [确定参数]
+假设板的尺寸为 100x60mm，厚度为 8mm。
+安装孔直径为 6mm，需要距离边缘 15mm。
+孔的位置应该在 (15,15), (85,15), (15,45), (85,45)。
+
+思考 3 (Th3): [规划动作]
+动作序列：
+1. create_sketch(plane="XY")
+2. add_rectangle(width=100, height=60, centered=True)
+3. extrude(distance=8, direction="up")
+4. create_sketch(plane=">Z")
+5. hole(diameter=6, position=[15,15])
+6. hole(diameter=6, position=[85,15])
+7. hole(diameter=6, position=[15,45])
+8. hole(diameter=6, position=[85,45])
+9. fillet(radius=2, target="all_outer_edges")
+
+思考 4 (Th4): [执行第 1 个动作]
+执行: create_sketch(plane="XY")
+观察: 草图已创建
+```
+
+---
+
+### 4. ACI 的错误处理
+
+```python
+# 错误分类和处理策略
+errors = {
+    "geometry_invalid": {
+        "severity": "error",
+        "action": "rollback",
+        "message": "几何形状无效，无法继续"
+    },
+    "parameter_out_of_range": {
+        "severity": "warning",
+        "action": "adjust",
+        "message": "参数超出范围，已自动调整"
+    },
+    "feature_creation_failed": {
+        "severity": "error",
+        "action": "retry",
+        "message": "特征创建失败，正在重试"
+    }
+}
+
+def handle_error(error, current_state):
+    """ACI 错误处理"""
+    error_type = classify_error(error)
+    strategy = errors[error_type]
+
+    if strategy["action"] == "rollback":
+        # 回退到上一步
+        rollback_to(current_state["previous_step"])
+    elif strategy["action"] == "adjust":
+        # 调整参数
+        adjusted_params = adjust_parameters(error, current_state)
+        return retry_with(adjusted_params)
+```
+
+---
+
+## ACI 从 CAD 领域的迁移
+
+### 1. 传统 CAD 的操作模式
+
+传统 CAD 软件的核心操作：
+
+```
+传统 CAD 工作流程：
+┌─────────────────────────────────────┐
+│                                 │
+│   绘图    调整    约束    标注    │
+│     ↓        ↓       ↓        ↓        │
+│     └───────────────────────────────┘
+│              ↓
+│         实体建模          │
+│              ↓
+│         特征操作          │
+│              ↓
+│         装配/组合          │
+│              ↓
+│         文档/标注          │
+└─────────────────────────────────────┘
+```
+
+---
+
+### 2. ACI 的操作模式
+
+ACI 将传统 CAD 的操作原子化：
+
+| 传统 CAD 操作 | ACI 动作 | 转换要点 |
+|-------------|---------|-----------|
+| 创建矩形框 | `add_rectangle(width, height, centered)` | 固定中心、指定尺寸 |
+| 拉伸草图 | `extrude(distance, direction)` | 独立的方向控制 |
+| 添加圆角 | `fillet(radius, target)` | 目标选择器 |
+| 打孔 | `hole(diameter, depth, position)` | 坐标定位 |
+| 倒角 | `chamfer(length, target)` | 长度参数 |
+| 镜像 | `mirror(plane)` | 平面选择 |
+| 阵列 | `pattern_linear/count, spacing, direction)` | 模式化复制 |
+
+---
+
+### 3. CAD 软件到 ACI 的映射
+
+#### SolidWorks 到 ACI
+
+| SolidWorks | ACI | 说明 |
+|-----------|-----|------|
+| Boss-Extrude | `extrude(distance, direction="up")` | 向上拉伸 |
+| Revolve Boss | `revolve(axis="X", angle=360)` | 绕 X 轴旋转 |
+| Fillet Edge | `fillet(radius, target="edge_id")` | 对特定边圆角 |
+| Simple Hole | `hole(diameter, depth, position)` | 基本孔操作 |
+
+---
+
+#### AutoCAD 到 ACI
+
+| AutoCAD | ACI | 说明 |
+|---------|-----|------|
+| POLYLINE | `add_polygon(points)` | 多边形创建 |
+| EXTRUDE | `extrude(distance, direction="up")` | 拉伸操作 |
+| FILLET | `fillet(radius, target)` | 圆角操作 |
+
+---
+
+#### Fusion 360 到 ACI
+
+| Fusion 360 | ACI | 说明 |
+|-----------|-----|------|
+| Box | `add_rectangle(width, height, centered=True)` | 立方体 |
+| Cylinder | `circle(radius) + extrude(height)` | 圆柱体 |
+| Pipe | `circle(radius) + extrude(height)` + `circle(inner_radius) + extrude(height)` | 管道 |
+
+---
+
+### 4. 设计思维的迁移
+
+#### 传统 CAD 设计思维
+
+```
+设计师的工作流程：
+1. 看需求（图纸、文字描述）
+2. 在脑海中想象 3D 形状
+3. 思考如何构建：
+   - 先创建草图
+   - 再拉伸成实体
+   - 添加圆角
+   - 打孔
+4. 边做边调整参数
+5. 边预览效果
+6. 完成后标注尺寸
+```
+
+特点：
+- **经验驱动**：依赖设计师的经验和直觉
+- **视觉反馈**：通过 GUI 实时看到效果
+- **试错过程**：多次调整参数
+- **难以文档化**：很多决策是隐性的
+
+---
+
+#### ACI 设计思维
+
+```
+ACI Agent 的工作流程：
+1. 理解需求（自然语言）
+2. 拆解为标准 CAD 操作（调用 API）
+3. 规划动作序列（结构化思考）
+4. 执行并观察：
+   - 调用 action API
+   - 获取状态快照
+   - 获取 AI 建议
+5. 基于反馈调整：
+   - 如果 suggestion 建议添加圆角 → 执行 fillet
+   - 如果 snapshot 显示尺寸不对 → 重新建模
+6. 验证：检查完整性指标
+```
+
+特点：
+- **结构化推理**：每步都有明确的 reasoning
+- **可解释性**：可以查看动作历史
+- **可复制**：相同的推理可以重复执行
+- **可审计**：每个决策都有记录
+
+---
+
+## ACI 与传统 CAD 的对比
+
+### 维度对比表
+
+| 维度 | 传统 CAD（GUI） | ACI（基于 Agent） |
+|------|-----------------|-----------------|
+| **交互方式** | 鼠标/键盘 | 自然语言对话 |
+| **学习曲线** | 陡峭（需学习软件）| 低（会自然语言）|
+| **灵活性** | 高（可任意操作）| 中（受限于 API）|
+| **自动化** | 需要脚本/宏 | 可全自动（LLM 决策）|
+| **可扩展性** | 需要编程/插件 | 易扩展（添加新 action）|
+| **版本控制** | 手动保存 | 集成 Git |
+| **协作** | 文件共享 | 多人并行工作 |
+| **可解释性** | 隐性（难以追溯）| 显性（有 reasoning 日志）|
+| **错误恢复** | Ctrl+Z（有限）| 历史回退（完整）|
+
+---
+
+## ACI 的设计原则
+
+### 1. 原子化（Atomicity）
+
+每个动作应该是原子的、不可分割的最小单位。
+
+```python
+# 好的设计
+good_action = {
+    "action": "create_sketch",
+    "plane": "XY"
+}
+
+# 不好的设计（多个动作混合）
+bad_action = {
+    "action": "create_sketch_and_add_rect_and_extrude",
+    "sketch": "XY",
+    "rect": [80, 40],
+    "extrude": {"distance": 5}
+}
+```
+
+---
+
+### 2. 幂等性（Idempotency）
+
+相同动作重复执行应产生相同结果。
+
+```python
+# 幂等性保证
+def execute_action(action, state):
+    # 检查是否已经执行过相同动作
+    if is_already_executed(action, state):
+        return get_cached_result(action, state)
+    return execute_fresh(action, state)
+```
+
+---
+
+### 3. 可组合性（Composability）
+
+动作可以组合成复杂模式。
+
+```python
+# 组合模式
+def create_plate_with_holes():
+    """创建带孔的板 - 可组合的模式"""
+    actions = [
+        create_sketch("XY"),
+        add_rectangle(100, 60),
+        extrude(5),
+        create_sketch(">Z"),
+        pattern_linear_holes(hole_positions)
+    ]
+    return execute_sequence(actions)
+```
+
+---
+
+### 4. 可逆性（Reversibility）
+
+大部分操作应该可逆，允许回退。
+
+```python
+# 可逆操作映射
+reversible_actions = {
+    "create_sketch": "delete_sketch",
+    "add_rectangle": "remove_rectangle",
+    "extrude": "extrude",
+    "fillet": "remove_fillet",
+    "hole": "fill_hole"
+}
+
+# 回退操作
+def rollback_to_step(target_step):
+    """回退到指定步骤"""
+    current_step = get_current_step()
+    steps_to_undo = current_step - target_step
+
+    for _ in range(steps_to_undo):
+        action = pop_last_action()
+        reverse_action = get_reverse_action(action)
+        execute(reverse_action)
+```
+
+---
+
+### 5. 可观测性（Observability）
+
+每次执行后应该返回丰富的状态信息。
+
+```json
+{
+  "action": "extrude",
+  "success": true,
+  "snapshot": {
+    "geometry": {
+      "solids": 1,
+      "faces": 6,
+      "volume": 32000
+    },
+    "features": ["Extrude(5)", "Box(100x60x5)"],
+    "images": ["iso.png", "top.png", "front.png", "right.png"]
+  },
+  "suggestions": [
+    "建议添加圆角以提高强度",
+    "考虑添加安装孔"
+  ],
+  "completeness": {
+    "expected_steps": 6,
+    "current_step": 3,
+    "can_continue": true,
+    "confidence": 0.6
+  }
+}
+```
+
+---
+
+## 相关链接
+
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [CAD 动作集设计](/kb/aicad/cad-a9bzjv)
+- [ACI 实现细节](/kb/aicad/aci-8a0c9l)
+- [ACI 会话管理](/kb/aicad/aci-9rbb4v)
+- [Agent 基础概念](/kb/aicad/agent-nzn0gk)
+d:T31a5,# ACI 概念与迁移
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地讲解 ACI 的概念、在 Agent 中的体现以及在 CAD 领域的迁移
+
+---
+
+## 目录
+
+1. [ACI 核心概念](#aci-核心概念)
+2. [ACI 在 Agent 中的体现](#aci-在-agent-中的体现)
+3. [ACI 从 CAD 领域的迁移](#aci-从-cad-领域中的迁移)
+4. [ACI 与传统 CAD 的对比](#aci-与传统-cad-的对比)
+5. [ACI 的设计原则](#aci-的设计原则)
+
+---
+
+## ACI 核心概念
+
+### 什么是 ACI？
+
+**ACI (Agent-Computer Interface)** 是一种让 LLM 与专业软件（如 CAD、IDE、开发工具）进行结构化交互的接口设计范式。
+
+---
+
+### ACI 的历史背景
+
+ACI 概念的演变：
+
+| 阶段 | 年代 | 核心思想 | 代表系统 |
+|------|------|----------|----------|
+| **早期** | 2000-2010 | 命令行接口 | Unix Shell, Windows CMD |
+| **图形时代** | 2010-2020 | GUI 界面 | 鼠标操作、菜单栏 |
+| **API 时代** | 2010-2020 | 编程接口 | REST API, SDK |
+| **插件时代** | 2015-2020 | 插件系统 | IDE 插件、浏览器扩展 |
+| **AI 时代** | 2020-至今 | **ACI** | Claude Code, Cursor, Windsurf |
+
+---
+
+### ACI 的本质
+
+ACI 的本质是 **将领域专业知识转化为 LLM 可理解的结构化接口**。
+
+```
+传统 CAD（GUI）：
+┌──────────────────────────────────┐
+│  用户         │
+│  ↓              │
+│  鼠标操作      │ ← 灵活但难以自动化
+│  → 复杂       │
+│  ↓              │
+│  结果         │
+└──────────────────────────────────┘
+
+ACI（结构化）：
+┌──────────────────────────────────┐
+│  LLM Agent      │
+│  ↓              │
+│  理解意图        │
+│  → 规划动作       │ ← 可自动化、可推理
+│  ↓              │
+│  执行动作        │
+│  ↓              │
+│  观察状态        │
+│  ↓              │
+│  决策下一步       │
+│  → 结果         │
+└──────────────────────────────────┘
+```
+
+---
+
+## ACI 在 Agent 中的体现
+
+### 1. 四大支柱在 Agent 中的对应
+
+| ACI 支柱 | 在 Agent 中的体现 | 示例 |
+|----------|--------------|--------|
+| **可操作** | Function Calling / Tool Use | LLM 调用 `execute_cadquery` 或 `apply_cad_action` |
+| **可观测** | 观察性输出 | LLM 获取状态快照、多视图截图 |
+| **可回滚** | 历史记录与回退 | LLM 查看 `action_history`，使用 `modify_action` 或 `rollback` |
+| **可组合** | 链式能力 | LLM 将多个动作组合成复杂工作流 |
+
+---
+
+### 2. ACI 的 Prompt 设计模式
+
+#### 基础 Prompt
+
+```
+你是 CAD 建模助手，使用以下 ACI 动作接口：
+
+可用动作：
+- create_sketch(plane)
+- add_rectangle(width, height, centered)
+- extrude(distance, direction)
+- fillet(radius, target)
+- hole(diameter, depth, position)
+
+使用规则：
+1. 每次只执行一个动作
+2. 观察返回的 snapshot 和 suggestions
+3. 基于反馈决定下一步
+```
+
+#### 系统化 Prompt
+
+```
+ACI 工作流程：
+
+第 1 步：分析需求
+- 理解用户想要创建什么
+- 确定基本参数（尺寸、材料、精度）
+
+第 2 步：规划动作序列
+- 将复杂需求分解为动作序列
+- 考虑依赖关系（草图 → 实体 → 特征）
+- 预估所需步骤数
+
+第 3 步：迭代执行
+- 逐个执行动作
+- 每步观察状态快照
+- 处理错误和异常
+
+第 4 步：验证与优化
+- 检查是否符合需求
+- 根据建议进行优化
+- 确认模型质量
+```
+
+---
+
+### 3. ACI 的思维链（Chain of Thought）
+
+```
+用户: "创建一个带四个安装孔的板"
+
+思考 1 (Th1): [分析需求]
+我需要创建一个矩形板，四角各有一个安装孔。
+基本尺寸需要确定。
+
+思考 2 (Th2): [确定参数]
+假设板的尺寸为 100x60mm，厚度为 8mm。
+安装孔直径为 6mm，需要距离边缘 15mm。
+孔的位置应该在 (15,15), (85,15), (15,45), (85,45)。
+
+思考 3 (Th3): [规划动作]
+动作序列：
+1. create_sketch(plane="XY")
+2. add_rectangle(width=100, height=60, centered=True)
+3. extrude(distance=8, direction="up")
+4. create_sketch(plane=">Z")
+5. hole(diameter=6, position=[15,15])
+6. hole(diameter=6, position=[85,15])
+7. hole(diameter=6, position=[15,45])
+8. hole(diameter=6, position=[85,45])
+9. fillet(radius=2, target="all_outer_edges")
+
+思考 4 (Th4): [执行第 1 个动作]
+执行: create_sketch(plane="XY")
+观察: 草图已创建
+```
+
+---
+
+### 4. ACI 的错误处理
+
+```python
+# 错误分类和处理策略
+errors = {
+    "geometry_invalid": {
+        "severity": "error",
+        "action": "rollback",
+        "message": "几何形状无效，无法继续"
+    },
+    "parameter_out_of_range": {
+        "severity": "warning",
+        "action": "adjust",
+        "message": "参数超出范围，已自动调整"
+    },
+    "feature_creation_failed": {
+        "severity": "error",
+        "action": "retry",
+        "message": "特征创建失败，正在重试"
+    }
+}
+
+def handle_error(error, current_state):
+    """ACI 错误处理"""
+    error_type = classify_error(error)
+    strategy = errors[error_type]
+
+    if strategy["action"] == "rollback":
+        # 回退到上一步
+        rollback_to(current_state["previous_step"])
+    elif strategy["action"] == "adjust":
+        # 调整参数
+        adjusted_params = adjust_parameters(error, current_state)
+        return retry_with(adjusted_params)
+```
+
+---
+
+## ACI 从 CAD 领域的迁移
+
+### 1. 传统 CAD 的操作模式
+
+传统 CAD 软件的核心操作：
+
+```
+传统 CAD 工作流程：
+┌─────────────────────────────────────┐
+│                                 │
+│   绘图    调整    约束    标注    │
+│     ↓        ↓       ↓        ↓        │
+│     └───────────────────────────────┘
+│              ↓
+│         实体建模          │
+│              ↓
+│         特征操作          │
+│              ↓
+│         装配/组合          │
+│              ↓
+│         文档/标注          │
+└─────────────────────────────────────┘
+```
+
+---
+
+### 2. ACI 的操作模式
+
+ACI 将传统 CAD 的操作原子化：
+
+| 传统 CAD 操作 | ACI 动作 | 转换要点 |
+|-------------|---------|-----------|
+| 创建矩形框 | `add_rectangle(width, height, centered)` | 固定中心、指定尺寸 |
+| 拉伸草图 | `extrude(distance, direction)` | 独立的方向控制 |
+| 添加圆角 | `fillet(radius, target)` | 目标选择器 |
+| 打孔 | `hole(diameter, depth, position)` | 坐标定位 |
+| 倒角 | `chamfer(length, target)` | 长度参数 |
+| 镜像 | `mirror(plane)` | 平面选择 |
+| 阵列 | `pattern_linear/count, spacing, direction)` | 模式化复制 |
+
+---
+
+### 3. CAD 软件到 ACI 的映射
+
+#### SolidWorks 到 ACI
+
+| SolidWorks | ACI | 说明 |
+|-----------|-----|------|
+| Boss-Extrude | `extrude(distance, direction="up")` | 向上拉伸 |
+| Revolve Boss | `revolve(axis="X", angle=360)` | 绕 X 轴旋转 |
+| Fillet Edge | `fillet(radius, target="edge_id")` | 对特定边圆角 |
+| Simple Hole | `hole(diameter, depth, position)` | 基本孔操作 |
+
+---
+
+#### AutoCAD 到 ACI
+
+| AutoCAD | ACI | 说明 |
+|---------|-----|------|
+| POLYLINE | `add_polygon(points)` | 多边形创建 |
+| EXTRUDE | `extrude(distance, direction="up")` | 拉伸操作 |
+| FILLET | `fillet(radius, target)` | 圆角操作 |
+
+---
+
+#### Fusion 360 到 ACI
+
+| Fusion 360 | ACI | 说明 |
+|-----------|-----|------|
+| Box | `add_rectangle(width, height, centered=True)` | 立方体 |
+| Cylinder | `circle(radius) + extrude(height)` | 圆柱体 |
+| Pipe | `circle(radius) + extrude(height)` + `circle(inner_radius) + extrude(height)` | 管道 |
+
+---
+
+### 4. 设计思维的迁移
+
+#### 传统 CAD 设计思维
+
+```
+设计师的工作流程：
+1. 看需求（图纸、文字描述）
+2. 在脑海中想象 3D 形状
+3. 思考如何构建：
+   - 先创建草图
+   - 再拉伸成实体
+   - 添加圆角
+   - 打孔
+4. 边做边调整参数
+5. 边预览效果
+6. 完成后标注尺寸
+```
+
+特点：
+- **经验驱动**：依赖设计师的经验和直觉
+- **视觉反馈**：通过 GUI 实时看到效果
+- **试错过程**：多次调整参数
+- **难以文档化**：很多决策是隐性的
+
+---
+
+#### ACI 设计思维
+
+```
+ACI Agent 的工作流程：
+1. 理解需求（自然语言）
+2. 拆解为标准 CAD 操作（调用 API）
+3. 规划动作序列（结构化思考）
+4. 执行并观察：
+   - 调用 action API
+   - 获取状态快照
+   - 获取 AI 建议
+5. 基于反馈调整：
+   - 如果 suggestion 建议添加圆角 → 执行 fillet
+   - 如果 snapshot 显示尺寸不对 → 重新建模
+6. 验证：检查完整性指标
+```
+
+特点：
+- **结构化推理**：每步都有明确的 reasoning
+- **可解释性**：可以查看动作历史
+- **可复制**：相同的推理可以重复执行
+- **可审计**：每个决策都有记录
+
+---
+
+## ACI 与传统 CAD 的对比
+
+### 维度对比表
+
+| 维度 | 传统 CAD（GUI） | ACI（基于 Agent） |
+|------|-----------------|-----------------|
+| **交互方式** | 鼠标/键盘 | 自然语言对话 |
+| **学习曲线** | 陡峭（需学习软件）| 低（会自然语言）|
+| **灵活性** | 高（可任意操作）| 中（受限于 API）|
+| **自动化** | 需要脚本/宏 | 可全自动（LLM 决策）|
+| **可扩展性** | 需要编程/插件 | 易扩展（添加新 action）|
+| **版本控制** | 手动保存 | 集成 Git |
+| **协作** | 文件共享 | 多人并行工作 |
+| **可解释性** | 隐性（难以追溯）| 显性（有 reasoning 日志）|
+| **错误恢复** | Ctrl+Z（有限）| 历史回退（完整）|
+
+---
+
+## ACI 的设计原则
+
+### 1. 原子化（Atomicity）
+
+每个动作应该是原子的、不可分割的最小单位。
+
+```python
+# 好的设计
+good_action = {
+    "action": "create_sketch",
+    "plane": "XY"
+}
+
+# 不好的设计（多个动作混合）
+bad_action = {
+    "action": "create_sketch_and_add_rect_and_extrude",
+    "sketch": "XY",
+    "rect": [80, 40],
+    "extrude": {"distance": 5}
+}
+```
+
+---
+
+### 2. 幂等性（Idempotency）
+
+相同动作重复执行应产生相同结果。
+
+```python
+# 幂等性保证
+def execute_action(action, state):
+    # 检查是否已经执行过相同动作
+    if is_already_executed(action, state):
+        return get_cached_result(action, state)
+    return execute_fresh(action, state)
+```
+
+---
+
+### 3. 可组合性（Composability）
+
+动作可以组合成复杂模式。
+
+```python
+# 组合模式
+def create_plate_with_holes():
+    """创建带孔的板 - 可组合的模式"""
+    actions = [
+        create_sketch("XY"),
+        add_rectangle(100, 60),
+        extrude(5),
+        create_sketch(">Z"),
+        pattern_linear_holes(hole_positions)
+    ]
+    return execute_sequence(actions)
+```
+
+---
+
+### 4. 可逆性（Reversibility）
+
+大部分操作应该可逆，允许回退。
+
+```python
+# 可逆操作映射
+reversible_actions = {
+    "create_sketch": "delete_sketch",
+    "add_rectangle": "remove_rectangle",
+    "extrude": "extrude",
+    "fillet": "remove_fillet",
+    "hole": "fill_hole"
+}
+
+# 回退操作
+def rollback_to_step(target_step):
+    """回退到指定步骤"""
+    current_step = get_current_step()
+    steps_to_undo = current_step - target_step
+
+    for _ in range(steps_to_undo):
+        action = pop_last_action()
+        reverse_action = get_reverse_action(action)
+        execute(reverse_action)
+```
+
+---
+
+### 5. 可观测性（Observability）
+
+每次执行后应该返回丰富的状态信息。
+
+```json
+{
+  "action": "extrude",
+  "success": true,
+  "snapshot": {
+    "geometry": {
+      "solids": 1,
+      "faces": 6,
+      "volume": 32000
+    },
+    "features": ["Extrude(5)", "Box(100x60x5)"],
+    "images": ["iso.png", "top.png", "front.png", "right.png"]
+  },
+  "suggestions": [
+    "建议添加圆角以提高强度",
+    "考虑添加安装孔"
+  ],
+  "completeness": {
+    "expected_steps": 6,
+    "current_step": 3,
+    "can_continue": true,
+    "confidence": 0.6
+  }
+}
+```
+
+---
+
+## 相关链接
+
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [CAD 动作集设计](/kb/aicad/cad-a9bzjv)
+- [ACI 实现细节](/kb/aicad/aci-8a0c9l)
+- [ACI 会话管理](/kb/aicad/aci-9rbb4v)
+- [Agent 基础概念](/kb/aicad/agent-nzn0gk)
+2:["$","$Lb",null,{"document":{"slug":"aci-83mtzw","title":"ACI 概念与迁移","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$c","filePath":"ACI/ACI 概念与迁移.md","default":{"slug":"aci-83mtzw","title":"ACI 概念与迁移","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$d","filePath":"ACI/ACI 概念与迁移.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"ACI 概念与迁移 - AICAD | Jerry Xu"}],["$","meta","3",{"name":"description","content":"ACI 概念与迁移"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

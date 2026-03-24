@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T07:44:02.402Z",
+  "generatedAt": "2026-03-24T07:50:03.716Z",
   "totalDocuments": 132,
   "categories": [
     {
@@ -45,7 +45,7 @@
   ],
   "allDocuments": [
     {
-      "slug": "ACI-会话管理",
+      "slug": "aci-9rbb4v",
       "title": "ACI 会话管理",
       "description": "",
       "date": null,
@@ -54,7 +54,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "ACI-四大支柱",
+      "slug": "aci-8zn4bd",
       "title": "ACI 四大支柱",
       "description": "",
       "date": null,
@@ -63,7 +63,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "ACI-实现细节",
+      "slug": "aci-8a0c9l",
       "title": "ACI 实现细节",
       "description": "",
       "date": null,
@@ -72,7 +72,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "ACI-概念与迁移",
+      "slug": "aci-83mtzw",
       "title": "ACI 概念与迁移",
       "description": "",
       "date": null,
@@ -81,7 +81,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "ACI-测试指南",
+      "slug": "aci-5ycojx",
       "title": "ACI 测试指南",
       "description": "",
       "date": null,
@@ -90,7 +90,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "Agent-基础概念",
+      "slug": "agent-nzn0gk",
       "title": "Agent 基础概念",
       "description": "",
       "date": null,
@@ -99,7 +99,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "CAD-Agent-迭代式演进方案",
+      "slug": "cad-op3zuu",
       "title": "CAD Agent 迭代式演进方案",
       "description": "",
       "date": null,
@@ -108,7 +108,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "CAD-Sandbox-MCP-设计详解",
+      "slug": "cad-1sc89z",
       "title": "CAD Sandbox MCP 设计详解",
       "description": "",
       "date": null,
@@ -117,7 +117,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "CAD-动作集设计",
+      "slug": "cad-a9bzjv",
       "title": "CAD 动作集设计",
       "description": "",
       "date": null,
@@ -126,7 +126,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "CadQuery-基础知识",
+      "slug": "cadquery-58h9np",
       "title": "CadQuery 基础知识",
       "description": "",
       "date": null,
@@ -135,7 +135,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "DeepEval-与-OpenAI-Evals-对照",
+      "slug": "deepeval-4gyeij",
       "title": "DeepEval 与 OpenAI Evals 对照",
       "description": "",
       "date": null,
@@ -144,7 +144,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "Ground-Truth-评估",
+      "slug": "ground-ct5cjq",
       "title": "Ground Truth 评估",
       "description": "",
       "date": null,
@@ -153,7 +153,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "LLM-as-a-Judge-评估系统",
+      "slug": "llm-1my3q8",
       "title": "LLM-as-a-Judge 评估系统",
       "description": "",
       "date": null,
@@ -162,7 +162,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "OpenCode_NanoBot_NanoClaw-系统设计",
+      "slug": "opencode-87w4rk",
       "title": "OpenCode_NanoBot_NanoClaw 系统设计",
       "description": "",
       "date": null,
@@ -171,7 +171,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "Prompt-设计",
+      "slug": "prompt-jygudb",
       "title": "Prompt 设计",
       "description": "",
       "date": null,
@@ -180,7 +180,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "Sandbox-MCP-改造",
+      "slug": "sandbox-kn08hm",
       "title": "Sandbox MCP 改造",
       "description": "",
       "date": null,
@@ -189,7 +189,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "借助-LLM-的评价系统设计",
+      "slug": "doc-caoj8r",
       "title": "借助 LLM 的评价系统设计",
       "description": "",
       "date": null,
@@ -198,7 +198,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "多模态评估流程",
+      "slug": "doc-3rx4s0",
       "title": "多模态评估流程",
       "description": "",
       "date": null,
@@ -207,7 +207,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "技术知识库总览",
+      "slug": "doc-yhzsmo",
       "title": "技术知识库总览",
       "description": "",
       "date": null,
@@ -216,7 +216,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "数据集测试流程",
+      "slug": "doc-ajypjw",
       "title": "数据集测试流程",
       "description": "",
       "date": null,
@@ -225,7 +225,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "核心术语表",
+      "slug": "doc-66ben5",
       "title": "核心术语表",
       "description": "",
       "date": null,
@@ -234,7 +234,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "测试产物目录结构",
+      "slug": "doc-4bc5tw",
       "title": "测试产物目录结构",
       "description": "",
       "date": null,
@@ -243,7 +243,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "渲染与-Preview-模块设计",
+      "slug": "doc-k0qhp8",
       "title": "渲染与 Preview 模块设计",
       "description": "",
       "date": null,
@@ -252,7 +252,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "知识库索引",
+      "slug": "doc-aeeza3",
       "title": "知识库索引",
       "description": "",
       "date": null,
@@ -261,7 +261,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "终端测试手册",
+      "slug": "doc-m7ie9e",
       "title": "终端测试手册",
       "description": "",
       "date": null,
@@ -270,7 +270,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "面向-LLM-的-CAD-CLI-工具设计",
+      "slug": "doc-5dd1gx",
       "title": "面向 LLM 的 CAD CLI 工具设计",
       "description": "",
       "date": null,
@@ -279,7 +279,7 @@
       "categoryId": "aicad"
     },
     {
-      "slug": "2024-2025云计算前沿趋势",
+      "slug": "doc-zbj61t",
       "title": "2024-2025云计算前沿趋势",
       "description": "",
       "date": null,
@@ -288,7 +288,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "AI-基础设施与-MaaS",
+      "slug": "ai-y94sk5",
       "title": "AI 基础设施与 MaaS",
       "description": "",
       "date": null,
@@ -297,7 +297,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Docker-容器基础",
+      "slug": "docker-2aysmt",
       "title": "Docker 容器基础",
       "description": "",
       "date": null,
@@ -306,7 +306,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "FaaS-函数计算",
+      "slug": "faas-oa4dj8",
       "title": "FaaS 函数计算",
       "description": "",
       "date": null,
@@ -315,7 +315,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "FinOps-云成本优化",
+      "slug": "finops-cit8by",
       "title": "FinOps 云成本优化",
       "description": "",
       "date": null,
@@ -324,7 +324,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Kubernetes-核心概念",
+      "slug": "kubernetes-usvmrs",
       "title": "Kubernetes 核心概念",
       "description": "",
       "date": null,
@@ -333,7 +333,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Kubernetes架构详解",
+      "slug": "kubernetes-ed669d",
       "title": "Kubernetes架构详解",
       "description": "",
       "date": null,
@@ -342,7 +342,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Serverless-架构演进",
+      "slug": "serverless-esu4qv",
       "title": "Serverless 架构演进",
       "description": "",
       "date": null,
@@ -351,7 +351,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "Service-Mesh-详解",
+      "slug": "service-pyw8gr",
       "title": "Service Mesh 详解",
       "description": "",
       "date": null,
@@ -360,7 +360,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "WebAssembly-与云原生",
+      "slug": "webassembly-1pyjux",
       "title": "WebAssembly 与云原生",
       "description": "",
       "date": null,
@@ -369,7 +369,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "云平台对比分析",
+      "slug": "doc-54sh4j",
       "title": "云平台对比分析",
       "description": "",
       "date": null,
@@ -378,7 +378,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "云计算入门指南",
+      "slug": "doc-nrnzwa",
       "title": "云计算入门指南",
       "description": "",
       "date": null,
@@ -387,7 +387,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "云计算核心概念",
+      "slug": "doc-qfekbp",
       "title": "云计算核心概念",
       "description": "",
       "date": null,
@@ -396,7 +396,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "云计算高频面试题",
+      "slug": "doc-u4rysl",
       "title": "云计算高频面试题",
       "description": "",
       "date": null,
@@ -405,7 +405,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "冷启动优化技术",
+      "slug": "doc-q101p",
       "title": "冷启动优化技术",
       "description": "",
       "date": null,
@@ -414,7 +414,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "场景设计题精讲",
+      "slug": "doc-1xs7m4",
       "title": "场景设计题精讲",
       "description": "",
       "date": null,
@@ -423,7 +423,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "存储服务对比",
+      "slug": "doc-zh6agv",
       "title": "存储服务对比",
       "description": "",
       "date": null,
@@ -432,7 +432,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "容器服务选型指南",
+      "slug": "doc-s4d71n",
       "title": "容器服务选型指南",
       "description": "",
       "date": null,
@@ -441,7 +441,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "微服务架构设计",
+      "slug": "doc-1el699",
       "title": "微服务架构设计",
       "description": "",
       "date": null,
@@ -450,7 +450,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "服务模式详解",
+      "slug": "doc-t0gf41",
       "title": "服务模式详解",
       "description": "",
       "date": null,
@@ -459,7 +459,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "机密计算与零信任",
+      "slug": "doc-7gnf0k",
       "title": "机密计算与零信任",
       "description": "",
       "date": null,
@@ -468,7 +468,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "网络架构与VPC",
+      "slug": "doc-bs56no",
       "title": "网络架构与VPC",
       "description": "",
       "date": null,
@@ -477,7 +477,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "虚拟化技术详解",
+      "slug": "doc-tsqxnn",
       "title": "虚拟化技术详解",
       "description": "",
       "date": null,
@@ -486,7 +486,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "计算服务概览",
+      "slug": "doc-ibx4uo",
       "title": "计算服务概览",
       "description": "",
       "date": null,
@@ -495,7 +495,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "边缘计算与分布式云",
+      "slug": "doc-vemomw",
       "title": "边缘计算与分布式云",
       "description": "",
       "date": null,
@@ -504,7 +504,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "部署模式对比",
+      "slug": "doc-y877rn",
       "title": "部署模式对比",
       "description": "",
       "date": null,
@@ -513,7 +513,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "2024-2025-LLM前沿趋势",
+      "slug": "doc-skbcvz",
       "title": "2024-2025 LLM前沿趋势",
       "description": "",
       "date": null,
@@ -522,7 +522,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "Agent-规划能力",
+      "slug": "agent-u488vb",
       "title": "Agent 规划能力",
       "description": "",
       "date": null,
@@ -531,7 +531,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "AI-Agent在广告推荐中的多智能体架构",
+      "slug": "ai-vzrrrd",
       "title": "AI Agent在广告推荐中的多智能体架构",
       "description": "",
       "date": null,
@@ -540,7 +540,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "BERT-与编码器模型",
+      "slug": "bert-c7rtbg",
       "title": "BERT 与编码器模型",
       "description": "",
       "date": null,
@@ -549,7 +549,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "BERT与编码器模型",
+      "slug": "bert-174ici",
       "title": "BERT与编码器模型",
       "description": "",
       "date": null,
@@ -558,7 +558,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "CLIP-与视觉编码",
+      "slug": "clip-9g6lg4",
       "title": "CLIP 与视觉编码",
       "description": "",
       "date": null,
@@ -567,7 +567,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "DPO直接偏好优化",
+      "slug": "dpo-f0zn40",
       "title": "DPO直接偏好优化",
       "description": "",
       "date": null,
@@ -576,7 +576,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "GPT-系列模型演进",
+      "slug": "gpt-gmyzge",
       "title": "GPT 系列模型演进",
       "description": "",
       "date": null,
@@ -585,7 +585,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "GPT系列模型演进",
+      "slug": "gpt-5ep6g8",
       "title": "GPT系列模型演进",
       "description": "",
       "date": null,
@@ -594,7 +594,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "KV-Cache优化",
+      "slug": "kv-8uj5cl",
       "title": "KV Cache优化",
       "description": "",
       "date": null,
@@ -603,7 +603,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "LLM高频面试题",
+      "slug": "llm-9wye2p",
       "title": "LLM高频面试题",
       "description": "",
       "date": null,
@@ -612,7 +612,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "MoE混合专家模型",
+      "slug": "moe-m7fn41",
       "title": "MoE混合专家模型",
       "description": "",
       "date": null,
@@ -621,7 +621,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "o1类推理模型",
+      "slug": "o-l9negx",
       "title": "o1类推理模型",
       "description": "",
       "date": null,
@@ -630,7 +630,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "ReAct推理框架",
+      "slug": "react-fxfrxv",
       "title": "ReAct推理框架",
       "description": "",
       "date": null,
@@ -639,7 +639,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "RLHF深度解析",
+      "slug": "rlhf-n4tjfq",
       "title": "RLHF深度解析",
       "description": "",
       "date": null,
@@ -648,7 +648,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "Transformer-详解",
+      "slug": "transformer-qwfbd0",
       "title": "Transformer 详解",
       "description": "",
       "date": null,
@@ -657,7 +657,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "Transformer详解",
+      "slug": "transformer-f5ihl6",
       "title": "Transformer详解",
       "description": "",
       "date": null,
@@ -666,7 +666,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "vLLM与PagedAttention",
+      "slug": "vllm-mt8js0",
       "title": "vLLM与PagedAttention",
       "description": "",
       "date": null,
@@ -675,7 +675,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "上下文压缩技术",
+      "slug": "doc-9jqufn",
       "title": "上下文压缩技术",
       "description": "",
       "date": null,
@@ -684,7 +684,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "位置外推与插值",
+      "slug": "doc-z4eg79",
       "title": "位置外推与插值",
       "description": "",
       "date": null,
@@ -693,7 +693,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "位置编码技术演进",
+      "slug": "doc-ne91sy",
       "title": "位置编码技术演进",
       "description": "",
       "date": null,
@@ -702,7 +702,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "多模态基础架构",
+      "slug": "doc-2l8y4y",
       "title": "多模态基础架构",
       "description": "",
       "date": null,
@@ -711,7 +711,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "对齐技术对比",
+      "slug": "doc-7fb5sv",
       "title": "对齐技术对比",
       "description": "",
       "date": null,
@@ -720,7 +720,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "工具学习与使用",
+      "slug": "doc-ai6qej",
       "title": "工具学习与使用",
       "description": "",
       "date": null,
@@ -729,7 +729,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "手撕代码题",
+      "slug": "doc-su6ryo",
       "title": "手撕代码题",
       "description": "",
       "date": null,
@@ -738,7 +738,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "投机解码",
+      "slug": "doc-cvev7n",
       "title": "投机解码",
       "description": "",
       "date": null,
@@ -747,7 +747,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "指令微调与-SFT",
+      "slug": "doc-i1yc59",
       "title": "指令微调与 SFT",
       "description": "",
       "date": null,
@@ -756,7 +756,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "数据工程与清洗",
+      "slug": "doc-2lx3ss",
       "title": "数据工程与清洗",
       "description": "",
       "date": null,
@@ -765,7 +765,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "模型合并与编辑",
+      "slug": "doc-no9q35",
       "title": "模型合并与编辑",
       "description": "",
       "date": null,
@@ -774,7 +774,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "模型量化技术",
+      "slug": "doc-d3efts",
       "title": "模型量化技术",
       "description": "",
       "date": null,
@@ -783,7 +783,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "注意力机制深入理解",
+      "slug": "doc-kvxpkx",
       "title": "注意力机制深入理解",
       "description": "",
       "date": null,
@@ -792,7 +792,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "视觉语言模型-VLM",
+      "slug": "doc-ibqk95",
       "title": "视觉语言模型 VLM",
       "description": "",
       "date": null,
@@ -801,7 +801,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "系统设计题",
+      "slug": "doc-81l1u9",
       "title": "系统设计题",
       "description": "",
       "date": null,
@@ -810,7 +810,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "长上下文技术概览",
+      "slug": "doc-hke744",
       "title": "长上下文技术概览",
       "description": "",
       "date": null,
@@ -819,7 +819,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "预训练策略与技巧",
+      "slug": "doc-nfok3w",
       "title": "预训练策略与技巧",
       "description": "",
       "date": null,
@@ -828,7 +828,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "高效微调技术",
+      "slug": "doc-16n0ng",
       "title": "高效微调技术",
       "description": "",
       "date": null,
@@ -837,7 +837,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "2024-2025搜推前沿趋势",
+      "slug": "doc-vc6grk",
       "title": "2024-2025搜推前沿趋势",
       "description": "",
       "date": null,
@@ -846,7 +846,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "AB-实验与评估",
+      "slug": "ab-w064dv",
       "title": "AB 实验与评估",
       "description": "",
       "date": null,
@@ -855,7 +855,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "BERT4Rec",
+      "slug": "bert-s3aqrj",
       "title": "BERT4Rec",
       "description": "",
       "date": null,
@@ -864,7 +864,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "DeepFM-与-xDeepFM",
+      "slug": "deepfm-xblqgc",
       "title": "DeepFM 与 xDeepFM",
       "description": "",
       "date": null,
@@ -873,7 +873,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "DeepFM家族",
+      "slug": "deepfm-bgvg18",
       "title": "DeepFM家族",
       "description": "",
       "date": null,
@@ -882,7 +882,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "DIN与DIEN",
+      "slug": "din-z4srw3",
       "title": "DIN与DIEN",
       "description": "",
       "date": null,
@@ -891,7 +891,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "ESMM-与-ESSM",
+      "slug": "esmm-qq710",
       "title": "ESMM 与 ESSM",
       "description": "",
       "date": null,
@@ -900,7 +900,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GNN-在搜推中的应用",
+      "slug": "gnn-a9w0gq",
       "title": "GNN 在搜推中的应用",
       "description": "",
       "date": null,
@@ -909,7 +909,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GNN-基础",
+      "slug": "gnn-yux7gf",
       "title": "GNN 基础",
       "description": "",
       "date": null,
@@ -918,7 +918,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GNN基础与应用",
+      "slug": "gnn-yvji4r",
       "title": "GNN基础与应用",
       "description": "",
       "date": null,
@@ -927,7 +927,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GraphSAGE-与-GAT",
+      "slug": "graphsage-b5e4ma",
       "title": "GraphSAGE 与 GAT",
       "description": "",
       "date": null,
@@ -936,7 +936,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GRU4Rec-与-NARM",
+      "slug": "gru-uhsnqe",
       "title": "GRU4Rec 与 NARM",
       "description": "",
       "date": null,
@@ -945,7 +945,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "GRU4Rec与SASRec",
+      "slug": "gru-py913n",
       "title": "GRU4Rec与SASRec",
       "description": "",
       "date": null,
@@ -954,7 +954,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "Learning-to-Rank",
+      "slug": "learning-6az7rl",
       "title": "Learning to Rank",
       "description": "",
       "date": null,
@@ -963,7 +963,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "LLM4Rec大模型推荐",
+      "slug": "llm-zt5ow",
       "title": "LLM4Rec大模型推荐",
       "description": "",
       "date": null,
@@ -972,7 +972,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "MMoE与多任务学习",
+      "slug": "mmoe-r6qn1a",
       "title": "MMoE与多任务学习",
       "description": "",
       "date": null,
@@ -981,7 +981,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "PLE-与递归冷启动",
+      "slug": "ple-izc14p",
       "title": "PLE 与递归冷启动",
       "description": "",
       "date": null,
@@ -990,7 +990,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "SASRec-与-BERT4Rec",
+      "slug": "sasrec-xba360",
       "title": "SASRec 与 BERT4Rec",
       "description": "",
       "date": null,
@@ -999,7 +999,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "Wide-&-Deep-模型",
+      "slug": "wide-rli4sp",
       "title": "Wide & Deep 模型",
       "description": "",
       "date": null,
@@ -1008,7 +1008,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "Wide&Deep架构",
+      "slug": "wide-1s5qlp",
       "title": "Wide&Deep架构",
       "description": "",
       "date": null,
@@ -1017,7 +1017,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "冷启动问题与策略",
+      "slug": "doc-nxy3qb",
       "title": "冷启动问题与策略",
       "description": "",
       "date": null,
@@ -1026,7 +1026,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "协同过滤算法",
+      "slug": "doc-3gfi0o",
       "title": "协同过滤算法",
       "description": "",
       "date": null,
@@ -1035,7 +1035,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "召回与排序框架",
+      "slug": "doc-8si5ft",
       "title": "召回与排序框架",
       "description": "",
       "date": null,
@@ -1044,7 +1044,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "因果推荐",
+      "slug": "doc-be4sbo",
       "title": "因果推荐",
       "description": "",
       "date": null,
@@ -1053,7 +1053,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "在线学习",
+      "slug": "doc-bir2c1",
       "title": "在线学习",
       "description": "",
       "date": null,
@@ -1062,7 +1062,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "在线学习系统",
+      "slug": "doc-98hap7",
       "title": "在线学习系统",
       "description": "",
       "date": null,
@@ -1071,7 +1071,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "多样性与新颖性",
+      "slug": "doc-m8mvdv",
       "title": "多样性与新颖性",
       "description": "",
       "date": null,
@@ -1080,7 +1080,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "多目标优化",
+      "slug": "doc-8nxrch",
       "title": "多目标优化",
       "description": "",
       "date": null,
@@ -1089,7 +1089,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "大模型推荐系统",
+      "slug": "doc-elhj6l",
       "title": "大模型推荐系统",
       "description": "",
       "date": null,
@@ -1098,7 +1098,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "序列建模基础",
+      "slug": "doc-3n4vx1",
       "title": "序列建模基础",
       "description": "",
       "date": null,
@@ -1107,7 +1107,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "探索与利用",
+      "slug": "doc-kif8k3",
       "title": "探索与利用",
       "description": "",
       "date": null,
@@ -1116,7 +1116,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "推荐系统概述",
+      "slug": "doc-yiiijq",
       "title": "推荐系统概述",
       "description": "",
       "date": null,
@@ -1125,7 +1125,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "搜推高频面试题",
+      "slug": "doc-tuai74",
       "title": "搜推高频面试题",
       "description": "",
       "date": null,
@@ -1134,7 +1134,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "搜索系统架构",
+      "slug": "doc-3r5ei0",
       "title": "搜索系统架构",
       "description": "",
       "date": null,
@@ -1143,7 +1143,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "流式计算基础",
+      "slug": "doc-5jicja",
       "title": "流式计算基础",
       "description": "",
       "date": null,
@@ -1152,7 +1152,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "特征实时化",
+      "slug": "doc-xtyn6e",
       "title": "特征实时化",
       "description": "",
       "date": null,
@@ -1161,7 +1161,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "生成式推荐",
+      "slug": "doc-qi8nei",
       "title": "生成式推荐",
       "description": "",
       "date": null,
@@ -1170,7 +1170,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "相关性计算",
+      "slug": "doc-ld9332",
       "title": "相关性计算",
       "description": "",
       "date": null,
@@ -1179,7 +1179,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "矩阵分解与因子分解机",
+      "slug": "doc-6o5tjc",
       "title": "矩阵分解与因子分解机",
       "description": "",
       "date": null,
@@ -1188,7 +1188,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "系统设计题",
+      "slug": "doc-81l1u9",
       "title": "系统设计题",
       "description": "",
       "date": null,
@@ -1197,7 +1197,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "评估指标体系",
+      "slug": "doc-2xfahg",
       "title": "评估指标体系",
       "description": "",
       "date": null,
@@ -1206,7 +1206,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "语义搜索与向量检索",
+      "slug": "doc-p8lhfw",
       "title": "语义搜索与向量检索",
       "description": "",
       "date": null,
@@ -1215,7 +1215,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "跨域推荐",
+      "slug": "doc-i9pbz3",
       "title": "跨域推荐",
       "description": "",
       "date": null,
@@ -1224,7 +1224,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "长序列建模",
+      "slug": "doc-sjw1qm",
       "title": "长序列建模",
       "description": "",
       "date": null,

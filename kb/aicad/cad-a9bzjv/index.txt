@@ -1,0 +1,818 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","aicad","d"]
+5:["slug","cad-a9bzjv","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","cad-a9bzjv","d"],{"children":["__PAGE__?{\"category\":\"aicad\",\"slug\":\"cad-a9bzjv\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","cad-a9bzjv","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T1800,# CAD 动作集设计
+
+> 更新日期：2026-03-12
+> 来源：`docs/work_logs/WORK_LOG_2026_03_05_CAD_ACTION_INTERFACE.md`
+
+## 概述
+
+CAD 动作集是 ACI 的核心组成部分，将复杂的 CAD 操作拆解为基础动作单元。当前实现共 **15 个动作**，覆盖草图、实体、特征和状态操作。
+
+---
+
+## 动作分类
+
+### 1. 草图操作 (Sketch Operations)
+
+#### create_sketch
+
+创建新的草图工作平面。
+
+```json
+{
+  "action": "create_sketch",
+  "plane": "XY"
+}
+```
+
+**参数：**
+- `plane`: 工作平面 ("XY", "XZ", "YZ")
+
+---
+
+#### add_rectangle
+
+添加矩形到当前草图。
+
+```json
+{
+  "action": "add_rectangle",
+  "width": 80,
+  "height": 40,
+  "centered": true
+}
+```
+
+**参数：**
+- `width`: 宽度 (mm)
+- `height`: 高度 (mm)
+- `centered`: 是否居中 (默认 false)
+
+---
+
+#### add_circle
+
+添加圆形到当前草图。
+
+```json
+{
+  "action": "add_circle",
+  "radius": 25
+}
+```
+
+**参数：**
+- `radius`: 半径 (mm)
+
+---
+
+#### add_polygon
+
+添加多边形到当前草图。
+
+```json
+{
+  "action": "add_polygon",
+  "points": [[0,0], [50,0], [50,50], [0,50]]
+}
+```
+
+**参数：**
+- `points`: 顶点坐标列表 [[x,y], ...]
+
+---
+
+### 2. 实体操作 (Solid Operations)
+
+#### extrude
+
+拉伸草图创建实体。
+
+```json
+{
+  "action": "extrude",
+  "distance": 20,
+  "direction": "up"
+}
+```
+
+**参数：**
+- `distance`: 拉伸距离 (mm)
+- `direction`: 方向 ("up", "down")
+
+---
+
+#### cut_extrude
+
+拉伸切除实体。
+
+```json
+{
+  "action": "cut_extrude",
+  "distance": 5,
+  "target": "last_feature"
+}
+```
+
+**参数：**
+- `distance`: 切除距离 (mm)
+- `target`: 目标特征 ("last_feature", "all", 或具体特征名)
+
+---
+
+#### revolve
+
+旋转草图创建实体。
+
+```json
+{
+  "action": "revolve",
+  "axis": "X",
+  "angle": 360
+}
+```
+
+**参数：**
+- `axis`: 旋转轴 ("X", "Y", "Z")
+- `angle`: 旋转角度 (度)
+
+---
+
+#### loft
+
+在多个剖面间创建放样实体。
+
+```json
+{
+  "action": "loft",
+  "profiles": ["sketch1", "sketch2"]
+}
+```
+
+**参数：**
+- `profiles`: 剖面草图名称列表
+
+---
+
+### 3. 特征操作 (Feature Operations)
+
+#### fillet
+
+添加圆角。
+
+```json
+{
+  "action": "fillet",
+  "radius": 2,
+  "target": "all_outer_edges"
+}
+```
+
+**参数：**
+- `radius`: 圆角半径 (mm)
+- `target`: 目标 ("all_outer_edges", "all_edges", "last_feature", "top_face" 等)
+
+---
+
+#### chamfer
+
+添加倒角。
+
+```json
+{
+  "action": "chamfer",
+  "distance": 1,
+  "target": "top_face"
+}
+```
+
+**参数：**
+- `distance`: 倒角距离 (mm)
+- `target`: 目标面或边
+
+---
+
+#### hole
+
+创建孔。
+
+```json
+{
+  "action": "hole",
+  "diameter": 5,
+  "depth": 10,
+  "position": [20, 20]
+}
+```
+
+**参数：**
+- `diameter`: 孔径 (mm)
+- `depth`: 深度 (mm)
+- `position`: 位置 [x, y]
+
+---
+
+#### pattern_linear
+
+创建线性阵列。
+
+```json
+{
+  "action": "pattern_linear",
+  "feature": "hole_1",
+  "count": 4,
+  "spacing": 30,
+  "direction": "X"
+}
+```
+
+**参数：**
+- `feature`: 要阵列的特征名称
+- `count`: 数量
+- `spacing`: 间距 (mm)
+- `direction`: 方向 ("X", "Y")
+
+---
+
+#### pattern_circular
+
+创建圆形阵列。
+
+```json
+{
+  "action": "pattern_circular",
+  "feature": "hole_1",
+  "count": 6,
+  "radius": 25
+}
+```
+
+**参数：**
+- `feature`: 要阵列的特征名称
+- `count`: 数量
+- `radius`: 圆周半径 (mm)
+
+---
+
+### 4. 状态操作 (State Operations)
+
+#### rollback
+
+回退到指定步骤。
+
+```json
+{
+  "action": "rollback",
+  "step": 2
+}
+```
+
+**参数：**
+- `step`: 要回退到的步骤编号
+
+---
+
+#### snapshot
+
+创建当前状态的快照（用于分析或保存）。
+
+```json
+{
+  "action": "snapshot"
+}
+```
+
+---
+
+#### modify_action (Phase B)
+
+修改之前动作的参数。
+
+```json
+{
+  "action": "modify_action",
+  "target_step": 3,
+  "new_params": {
+    "radius": 3,
+    "target": "all_outer_edges"
+  }
+}
+```
+
+**参数：**
+- `target_step`: 要修改的动作步骤
+- `new_params`: 新的参数字典
+
+---
+
+#### clear_session (Phase B)
+
+清除当前会话，重新开始。
+
+```json
+{
+  "action": "clear_session"
+}
+```
+
+---
+
+#### get_history (Phase B)
+
+获取完整的动作历史。
+
+```json
+{
+  "action": "get_history",
+  "session_id": "my_model"
+}
+```
+
+**参数：**
+- `session_id`: 会话标识符
+
+---
+
+## 动作统计
+
+| 类别 | 动作数 | 动作列表 |
+|------|---------|----------|
+| 草图操作 | 4 | create_sketch, add_rectangle, add_circle, add_polygon |
+| 实体操作 | 4 | extrude, cut_extrude, revolve, loft |
+| 特征操作 | 5 | fillet, chamfer, hole, pattern_linear, pattern_circular |
+| 状态操作 | 2 | rollback, snapshot |
+| **扩展操作** | 3 | modify_action, clear_session, get_history |
+| **总计** | **18** | - |
+
+---
+
+## 目标选择器 (Target Selectors)
+
+用于指定操作目标的选择器：
+
+| 选择器 | 说明 |
+|--------|------|
+| `last_feature` | 最后创建的特征 |
+| `all_outer_edges` | 所有外边 |
+| `all_edges` | 所有边 |
+| `all_faces` | 所有面 |
+| `top_face` | 顶面（Z+ 方向）|
+| `bottom_face` | 底面（Z- 方向）|
+| `front_face` | 前面（Y+ 方向）|
+| `back_face` | 后面（Y- 方向）|
+| `left_face` | 左面（X- 方向）|
+| `right_face` | 右面（X+ 方向）|
+
+---
+
+## 常见动作序列
+
+### 创建带孔的安装板
+
+```json
+[
+  {"action": "create_sketch", "plane": "XY"},
+  {"action": "add_rectangle", "width": 80, "height": 40, "centered": true},
+  {"action": "extrude", "distance": 5, "direction": "up"},
+  {"action": "hole", "diameter": 5, "depth": 5, "position": [20, 15]},
+  {"action": "hole", "diameter": 5, "depth": 5, "position": [-20, 15]},
+  {"action": "hole", "diameter": 5, "depth": 5, "position": [-20, -15]},
+  {"action": "hole", "diameter": 5, "depth": 5, "position": [20, -15]},
+  {"action": "fillet", "radius": 2, "target": "all_outer_edges"}
+]
+```
+
+---
+
+### 创建圆筒
+
+```json
+[
+  {"action": "create_sketch", "plane": "XY"},
+  {"action": "add_circle", "radius": 25},
+  {"action": "extrude", "distance": 100, "direction": "up"}
+]
+```
+
+---
+
+## 相关链接
+
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [ACI 实现细节](/kb/aicad/aci-8a0c9l)
+- [ACI 会话管理](/kb/aicad/aci-9rbb4v)
+- [ACI 测试指南](/kb/aicad/aci-5ycojx)
+d:T1800,# CAD 动作集设计
+
+> 更新日期：2026-03-12
+> 来源：`docs/work_logs/WORK_LOG_2026_03_05_CAD_ACTION_INTERFACE.md`
+
+## 概述
+
+CAD 动作集是 ACI 的核心组成部分，将复杂的 CAD 操作拆解为基础动作单元。当前实现共 **15 个动作**，覆盖草图、实体、特征和状态操作。
+
+---
+
+## 动作分类
+
+### 1. 草图操作 (Sketch Operations)
+
+#### create_sketch
+
+创建新的草图工作平面。
+
+```json
+{
+  "action": "create_sketch",
+  "plane": "XY"
+}
+```
+
+**参数：**
+- `plane`: 工作平面 ("XY", "XZ", "YZ")
+
+---
+
+#### add_rectangle
+
+添加矩形到当前草图。
+
+```json
+{
+  "action": "add_rectangle",
+  "width": 80,
+  "height": 40,
+  "centered": true
+}
+```
+
+**参数：**
+- `width`: 宽度 (mm)
+- `height`: 高度 (mm)
+- `centered`: 是否居中 (默认 false)
+
+---
+
+#### add_circle
+
+添加圆形到当前草图。
+
+```json
+{
+  "action": "add_circle",
+  "radius": 25
+}
+```
+
+**参数：**
+- `radius`: 半径 (mm)
+
+---
+
+#### add_polygon
+
+添加多边形到当前草图。
+
+```json
+{
+  "action": "add_polygon",
+  "points": [[0,0], [50,0], [50,50], [0,50]]
+}
+```
+
+**参数：**
+- `points`: 顶点坐标列表 [[x,y], ...]
+
+---
+
+### 2. 实体操作 (Solid Operations)
+
+#### extrude
+
+拉伸草图创建实体。
+
+```json
+{
+  "action": "extrude",
+  "distance": 20,
+  "direction": "up"
+}
+```
+
+**参数：**
+- `distance`: 拉伸距离 (mm)
+- `direction`: 方向 ("up", "down")
+
+---
+
+#### cut_extrude
+
+拉伸切除实体。
+
+```json
+{
+  "action": "cut_extrude",
+  "distance": 5,
+  "target": "last_feature"
+}
+```
+
+**参数：**
+- `distance`: 切除距离 (mm)
+- `target`: 目标特征 ("last_feature", "all", 或具体特征名)
+
+---
+
+#### revolve
+
+旋转草图创建实体。
+
+```json
+{
+  "action": "revolve",
+  "axis": "X",
+  "angle": 360
+}
+```
+
+**参数：**
+- `axis`: 旋转轴 ("X", "Y", "Z")
+- `angle`: 旋转角度 (度)
+
+---
+
+#### loft
+
+在多个剖面间创建放样实体。
+
+```json
+{
+  "action": "loft",
+  "profiles": ["sketch1", "sketch2"]
+}
+```
+
+**参数：**
+- `profiles`: 剖面草图名称列表
+
+---
+
+### 3. 特征操作 (Feature Operations)
+
+#### fillet
+
+添加圆角。
+
+```json
+{
+  "action": "fillet",
+  "radius": 2,
+  "target": "all_outer_edges"
+}
+```
+
+**参数：**
+- `radius`: 圆角半径 (mm)
+- `target`: 目标 ("all_outer_edges", "all_edges", "last_feature", "top_face" 等)
+
+---
+
+#### chamfer
+
+添加倒角。
+
+```json
+{
+  "action": "chamfer",
+  "distance": 1,
+  "target": "top_face"
+}
+```
+
+**参数：**
+- `distance`: 倒角距离 (mm)
+- `target`: 目标面或边
+
+---
+
+#### hole
+
+创建孔。
+
+```json
+{
+  "action": "hole",
+  "diameter": 5,
+  "depth": 10,
+  "position": [20, 20]
+}
+```
+
+**参数：**
+- `diameter`: 孔径 (mm)
+- `depth`: 深度 (mm)
+- `position`: 位置 [x, y]
+
+---
+
+#### pattern_linear
+
+创建线性阵列。
+
+```json
+{
+  "action": "pattern_linear",
+  "feature": "hole_1",
+  "count": 4,
+  "spacing": 30,
+  "direction": "X"
+}
+```
+
+**参数：**
+- `feature`: 要阵列的特征名称
+- `count`: 数量
+- `spacing`: 间距 (mm)
+- `direction`: 方向 ("X", "Y")
+
+---
+
+#### pattern_circular
+
+创建圆形阵列。
+
+```json
+{
+  "action": "pattern_circular",
+  "feature": "hole_1",
+  "count": 6,
+  "radius": 25
+}
+```
+
+**参数：**
+- `feature`: 要阵列的特征名称
+- `count`: 数量
+- `radius`: 圆周半径 (mm)
+
+---
+
+### 4. 状态操作 (State Operations)
+
+#### rollback
+
+回退到指定步骤。
+
+```json
+{
+  "action": "rollback",
+  "step": 2
+}
+```
+
+**参数：**
+- `step`: 要回退到的步骤编号
+
+---
+
+#### snapshot
+
+创建当前状态的快照（用于分析或保存）。
+
+```json
+{
+  "action": "snapshot"
+}
+```
+
+---
+
+#### modify_action (Phase B)
+
+修改之前动作的参数。
+
+```json
+{
+  "action": "modify_action",
+  "target_step": 3,
+  "new_params": {
+    "radius": 3,
+    "target": "all_outer_edges"
+  }
+}
+```
+
+**参数：**
+- `target_step`: 要修改的动作步骤
+- `new_params`: 新的参数字典
+
+---
+
+#### clear_session (Phase B)
+
+清除当前会话，重新开始。
+
+```json
+{
+  "action": "clear_session"
+}
+```
+
+---
+
+#### get_history (Phase B)
+
+获取完整的动作历史。
+
+```json
+{
+  "action": "get_history",
+  "session_id": "my_model"
+}
+```
+
+**参数：**
+- `session_id`: 会话标识符
+
+---
+
+## 动作统计
+
+| 类别 | 动作数 | 动作列表 |
+|------|---------|----------|
+| 草图操作 | 4 | create_sketch, add_rectangle, add_circle, add_polygon |
+| 实体操作 | 4 | extrude, cut_extrude, revolve, loft |
+| 特征操作 | 5 | fillet, chamfer, hole, pattern_linear, pattern_circular |
+| 状态操作 | 2 | rollback, snapshot |
+| **扩展操作** | 3 | modify_action, clear_session, get_history |
+| **总计** | **18** | - |
+
+---
+
+## 目标选择器 (Target Selectors)
+
+用于指定操作目标的选择器：
+
+| 选择器 | 说明 |
+|--------|------|
+| `last_feature` | 最后创建的特征 |
+| `all_outer_edges` | 所有外边 |
+| `all_edges` | 所有边 |
+| `all_faces` | 所有面 |
+| `top_face` | 顶面（Z+ 方向）|
+| `bottom_face` | 底面（Z- 方向）|
+| `front_face` | 前面（Y+ 方向）|
+| `back_face` | 后面（Y- 方向）|
+| `left_face` | 左面（X- 方向）|
+| `right_face` | 右面（X+ 方向）|
+
+---
+
+## 常见动作序列
+
+### 创建带孔的安装板
+
+```json
+[
+  {"action": "create_sketch", "plane": "XY"},
+  {"action": "add_rectangle", "width": 80, "height": 40, "centered": true},
+  {"action": "extrude", "distance": 5, "direction": "up"},
+  {"action": "hole", "diameter": 5, "depth": 5, "position": [20, 15]},
+  {"action": "hole", "diameter": 5, "depth": 5, "position": [-20, 15]},
+  {"action": "hole", "diameter": 5, "depth": 5, "position": [-20, -15]},
+  {"action": "hole", "diameter": 5, "depth": 5, "position": [20, -15]},
+  {"action": "fillet", "radius": 2, "target": "all_outer_edges"}
+]
+```
+
+---
+
+### 创建圆筒
+
+```json
+[
+  {"action": "create_sketch", "plane": "XY"},
+  {"action": "add_circle", "radius": 25},
+  {"action": "extrude", "distance": 100, "direction": "up"}
+]
+```
+
+---
+
+## 相关链接
+
+- [ACI 四大支柱](/kb/aicad/aci-8zn4bd)
+- [ACI 实现细节](/kb/aicad/aci-8a0c9l)
+- [ACI 会话管理](/kb/aicad/aci-9rbb4v)
+- [ACI 测试指南](/kb/aicad/aci-5ycojx)
+2:["$","$Lb",null,{"document":{"slug":"cad-a9bzjv","title":"CAD 动作集设计","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$c","filePath":"ACI/CAD 动作集设计.md","default":{"slug":"cad-a9bzjv","title":"CAD 动作集设计","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$d","filePath":"ACI/CAD 动作集设计.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"CAD 动作集设计 - AICAD | Jerry Xu"}],["$","meta","3",{"name":"description","content":"CAD 动作集设计"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

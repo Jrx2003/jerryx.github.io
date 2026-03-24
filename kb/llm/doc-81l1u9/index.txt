@@ -1,0 +1,952 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","doc-81l1u9","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-81l1u9","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"doc-81l1u9\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-81l1u9","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T4d03,# LLM 系统设计题
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 高级
+> **预计阅读时间**: 90 分钟
+
+---
+
+## 目录
+
+1. [LLM 服务系统设计](#llm-服务系统设计)
+2. [RAG 系统设计](#rag-系统设计)
+3. [Agent 系统设计](#agent-系统设计)
+4. [推理优化系统](#推理优化系统)
+5. [面试技巧](#面试技巧)
+
+---
+
+## LLM 服务系统设计
+
+### 问题描述
+
+设计一个支持 1000 万日活用户、QPS 达到 10,000 的 LLM 推理服务系统。
+
+### 系统架构
+
+```
+用户请求
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│              API Gateway (Kong/Nginx)                        │
+│  ┌────────────┐  ┌────────────┐  ┌────────────┐            │
+│  │  限流控制   │  │  认证授权   │  │  负载均衡   │            │
+│  └────────────┘  └────────────┘  └────────────┘            │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+    ┌──────────────────┼──────────────────┐
+    │                  │                  │
+    ▼                  ▼                  ▼
+┌────────────┐  ┌────────────┐  ┌────────────┐
+│    缓存层   │  │    队列    │  │   配置中心  │
+│  (Redis)   │  │ (RabbitMQ) │  │   (Etcd)   │
+└─────┬──────┘  └────────────┘  └────────────┘
+      │
+      ▼
+┌─────────────────────────────────────────────────────────────┐
+│              LLM 推理服务集群 (Kubernetes)                    │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐            │ │
+│  │  │ vLLM Pod │  │ vLLM Pod │  │ vLLM Pod │  ...       │ │
+│  │  │A100 x 8  │  │A100 x 8  │  │A100 x 8  │            │ │
+│  │  └──────────┘  └──────────┘  └──────────┘            │ │
+│  │                                                       │ │
+│  │  ┌───────────────────────────────────────────────┐   │ │
+│  │  │          HPA 自动伸缩控制器                   │   │ │
+│  │  │  GPU利用率监控 → 自动扩容/缩容 → 动态调整     │   │ │
+│  │  └───────────────────────────────────────────────┘   │ │
+│  └───────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 核心组件设计
+
+```python
+class LLMServiceGateway:
+    """LLM 服务网关"""
+
+    def __init__(self):
+        self.rate_limiter = TokenBucketRateLimiter(
+            capacity=1000,
+            refill_rate=100
+        )
+        self.cache = RedisCache()
+        self.router = LoadBalancer(strategy='least_conn')
+
+    async def handle_request(self, request: LLMRequest) -> LLMResponse:
+        # 1. 限流检查
+        if not await self.rate_limiter.allow(request.user_id):
+            raise RateLimitExceeded()
+
+        # 2. 缓存查询
+        cache_key = self._generate_cache_key(request)
+        cached = await self.cache.get(cache_key)
+        if cached:
+            return cached
+
+        # 3. 路由到后端服务
+        backend = self.router.select(request)
+
+        # 4. 请求处理
+        response = await backend.generate(request)
+
+        # 5. 缓存结果
+        await self.cache.set(cache_key, response, ttl=3600)
+
+        return response
+
+
+class vLLMServingPod:
+    """基于 vLLM 的推理服务 Pod"""
+
+    def __init__(self):
+        self.engine = LLMEngine(
+            model="meta-llama/Llama-2-70b",
+            tensor_parallel_size=8,
+            gpu_memory_utilization=0.85,
+            max_num_seqs=256,
+            max_model_len=4096,
+            block_size=16,
+            swap_space=20,
+        )
+
+    async def generate(self, request: LLMRequest) -> LLMResponse:
+        request_id = str(uuid.uuid4())
+
+        sampling_params = SamplingParams(
+            temperature=request.temperature,
+            top_p=request.top_p,
+            max_tokens=request.max_tokens,
+            stop=request.stop_sequences,
+        )
+
+        self.engine.add_request(request_id, request.prompt, sampling_params)
+
+        output_text = ""
+        while True:
+            step_outputs = self.engine.step()
+
+            for output in step_outputs:
+                if output.request_id == request_id:
+                    output_text = output.outputs[-1].text
+
+                    if output.finished:
+                        return LLMResponse(
+                            text=output_text,
+                            usage=output.usage,
+                            finish_reason=output.outputs[-1].finish_reason
+                        )
+
+            await asyncio.sleep(0.01)
+```
+
+### 关键问题答案
+
+**Q1: 如何处理高并发和长连接？**
+
+A:
+1. **连接复用**: 使用长连接（HTTP/2 或 WebSocket）
+2. **异步处理**: 所有 IO 使用 async/await
+3. **流式响应**: 支持 SSE 实现逐 token 返回
+4. **批处理**: 将多个请求 batch 到一起推理
+
+---
+
+## RAG 系统设计
+
+### 问题描述
+
+设计一个支持企业级文档的 RAG 系统，支持 1000 万+文档、毫秒级响应。
+
+### 系统架构
+
+```
+用户查询
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│                       RAG 推理服务                          │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  查询输入 → 查询改写 → 查询扩展 → 最终提示词          │ │
+│  │                │           │                          │ │
+│  │                ▼           ▼                          │ │
+│  │          Query理解    多路召回                        │ │
+│  │          意图识别    向量搜索召回                      │ │
+│  │          实体提取    关键词搜索召回                    │ │
+│  │                    知识图谱召回                        │ │
+│  │                                                       │ │
+│  │  ┌───────────────────────────────────────────────┐   │ │
+│  │  │  相关性重排序 → 内容压缩 → LLM生成答案        │   │ │
+│  │  └───────────────────────────────────────────────┘   │ │
+│  └───────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                       知识库架构                            │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  原始文档 → 解析分块 → 向量化 → 索引建立              │ │
+│  │    │                          │          │           │ │
+│  │    ▼                          ▼          ▼           │ │
+│  │  OCR/PDF解析    ┌──────────┐  ┌──────────┐           │ │
+│  │  表格提取       │  Milvus  │  │ES关键字  │           │ │
+│  │  图片理解       │向量数据库  │  │  索引    │           │ │
+│  │                 └──────────┘  └──────────┘           │ │
+│  └───────────────────────────────────────────────────────┘ │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  知识图谱: 实体识别 → 关系抽取 → Neo4j存储 → 查询     │ │
+│  └───────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 核心实现
+
+```python
+class RAGSystem:
+    """企业级 RAG 系统"""
+
+    def __init__(self):
+        # 向量数据库
+        self.vector_store = MilvusClient(
+            collection_name="documents",
+            embedding_dim=1536,
+            index_type="HNSW",
+            metric_type="COSINE"
+        )
+
+        # 关键词搜索
+        self.keyword_search = ElasticsearchClient(
+            index_name="documents",
+            similarity="BM25"
+        )
+
+        # 重排序模型
+        self.reranker = CrossEncoderReranker()
+
+        # LLM
+        self.llm = OpenAIClient()
+
+    async def retrieve(self, query: str, top_k: int = 20) -> List[DocumentChunk]:
+        """多路召回"""
+        # 查询改写
+        rewritten_queries = await self.rewrite_query(query)
+
+        results = []
+
+        # 1. 向量召回
+        query_embedding = await self.embed(rewritten_queries[0])
+        vector_results = await self.vector_store.search(
+            query_embedding, top_k=top_k
+        )
+        results.extend(vector_results)
+
+        # 2. 关键词召回
+        keyword_results = await self.keyword_search.search(
+            rewritten_queries[0], top_k=top_k
+        )
+        results.extend(keyword_results)
+
+        # 3. 去重
+        unique_results = self.deduplicate(results)
+
+        # 4. 重排序
+        reranked = await self.reranker.rerank(
+            query, unique_results, top_n=10
+        )
+
+        return reranked
+
+    async def rewrite_query(self, query: str) -> List[str]:
+        """查询改写"""
+        prompt = f"""将以下查询改写为3-5个更具体、更易检索的查询：
+
+原查询: {query}
+
+直接输出改写后的查询列表，每行一个。"""
+
+        response = await self.llm.generate(prompt, temperature=0.7)
+        queries = [q.strip() for q in response.split('\n') if q.strip()]
+        queries.insert(0, query)
+
+        return queries[:5]
+```
+
+---
+
+## Agent 系统设计
+
+### 架构设计
+
+```
+用户任务
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     规划器 (Planner)                        │
+│  任务分解: 复杂任务 → 子任务列表                            │
+│  路径规划: 确定子任务执行顺序                               │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     执行器 (Executor)                       │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  工具注册表: search | code_executor | calculator     │ │
+│  └───────────────────────────────────────────────────────┘ │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     记忆系统 (Memory)                       │
+│  短期记忆: 当前会话上下文                                   │
+│  长期记忆: 用户偏好、历史任务经验                           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 核心实现
+
+```python
+class LLMAgent:
+    """基于 ReAct 的 LLM Agent"""
+
+    def __init__(self, llm, tools, memory=None):
+        self.llm = llm
+        self.tools = ToolRegistry(tools)
+        self.memory = memory or ConversationMemory()
+        self.max_iterations = 10
+
+    async def run(self, task: str, context: dict = None) -> str:
+        """执行任务"""
+        self.memory.add_user_message(task)
+
+        for iteration in range(self.max_iterations):
+            # 构建 ReAct 提示词
+            prompt = self._build_react_prompt(
+                task=task,
+                history=self.memory.get_history(),
+                available_tools=self.tools.get_descriptions(),
+                context=context
+            )
+
+            # 调用 LLM
+            response = await self.llm.generate(prompt)
+
+            # 解析响应
+            thought, action, action_input = self._parse_response(response)
+            self.memory.add_assistant_message(f"Thought: {thought}")
+
+            # 检查是否完成
+            if action == "finish":
+                return action_input
+
+            # 执行工具
+            if action in self.tools:
+                try:
+                    observation = await self.tools.execute(action, action_input)
+                    self.memory.add_tool_result(action, action_input, observation)
+                except Exception as e:
+                    observation = f"Error: {str(e)}"
+                    self.memory.add_tool_result(action, action_input, observation)
+
+        return "达到最大迭代次数，任务未能完成"
+
+    def _build_react_prompt(self, task, history, available_tools, context):
+        """构建 ReAct 风格的提示词"""
+        tools_desc = "\n".join([
+            f"- {name}: {desc}"
+            for name, desc in available_tools.items()
+        ])
+
+        return f"""你是一个帮助用户解决问题的 AI 助手。
+
+可用工具:
+{tools_desc}
+
+使用以下格式回答:
+Thought: 你的思考过程
+Action: 你要使用的工具名称（或 finish 表示完成）
+Action Input: 工具的输入参数
+
+历史记录:
+{history}
+
+用户任务: {task}
+
+请开始:
+Thought: """
+
+    def _parse_response(self, response: str) -> tuple:
+        """解析 LLM 响应"""
+        thought_match = re.search(r"Thought:\s*(.+?)(?=\nAction:|$)", response, re.DOTALL)
+        action_match = re.search(r"Action:\s*(\w+)", response)
+        input_match = re.search(r"Action Input:\s*(.+?)(?=\n|$)", response, re.DOTALL)
+
+        thought = thought_match.group(1).strip() if thought_match else ""
+        action = action_match.group(1).strip() if action_match else "finish"
+        action_input = input_match.group(1).strip() if input_match else response
+
+        return thought, action, action_input
+```
+
+---
+
+## 推理优化系统
+
+```python
+class InferenceOptimizer:
+    """推理优化系统"""
+
+    def __init__(self, model_path: str, config: OptimizationConfig):
+        self.config = config
+        self.model = self._load_and_optimize(model_path)
+
+    def _load_and_optimize(self, model_path: str):
+        """加载模型并应用优化"""
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype=self._get_dtype(),
+            device_map="auto"
+        )
+
+        # 量化
+        if self.config.quantization:
+            model = self._apply_quantization(model)
+
+        # vLLM 引擎优化
+        if self.config.use_vllm:
+            model = self._init_vllm_engine(model)
+
+        return model
+
+    def _init_vllm_engine(self, model):
+        """初始化 vLLM 引擎"""
+        return LLM(
+            model=model.config._name_or_path,
+            tensor_parallel_size=self.config.tensor_parallel_size,
+            gpu_memory_utilization=self.config.gpu_memory_utilization,
+            max_model_len=self.config.max_model_len,
+            quantization=self.config.quantization,
+            block_size=self.config.block_size,
+            swap_space=self.config.swap_space,
+            max_num_seqs=self.config.max_num_seqs,
+            speculative_model=self.config.speculative_model,
+            num_speculative_tokens=self.config.num_speculative_tokens,
+        )
+```
+
+---
+
+## 面试技巧
+
+### 答题框架
+
+**1. 明确需求**
+- QPS、延迟要求
+- 用户规模
+- 功能范围
+
+**2. 高层架构**
+- 先画总体架构图
+- 说明各层职责
+
+**3. 关键组件**
+- 深入一两个核心模块
+- 说明设计决策和 trade-off
+
+### 常见追问
+
+1. "如果 QPS 翻倍怎么办？" → 水平扩容、负载均衡、缓存策略
+2. "如何处理冷启动？" → 预加载、渐进式预热
+3. "怎么保证响应质量？" → 多重验证、人工审核流程
+4. "系统监控怎么做？" → 指标采集、告警、日志追踪
+
+---
+
+## 相关文档
+
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [KV Cache优化](/kb/llm/kv-8uj5cl) - 推理优化
+- [LoRA高效微调](/kb/llm/lora-r5vmuh) - 模型微调
+d:T4d03,# LLM 系统设计题
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 高级
+> **预计阅读时间**: 90 分钟
+
+---
+
+## 目录
+
+1. [LLM 服务系统设计](#llm-服务系统设计)
+2. [RAG 系统设计](#rag-系统设计)
+3. [Agent 系统设计](#agent-系统设计)
+4. [推理优化系统](#推理优化系统)
+5. [面试技巧](#面试技巧)
+
+---
+
+## LLM 服务系统设计
+
+### 问题描述
+
+设计一个支持 1000 万日活用户、QPS 达到 10,000 的 LLM 推理服务系统。
+
+### 系统架构
+
+```
+用户请求
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│              API Gateway (Kong/Nginx)                        │
+│  ┌────────────┐  ┌────────────┐  ┌────────────┐            │
+│  │  限流控制   │  │  认证授权   │  │  负载均衡   │            │
+│  └────────────┘  └────────────┘  └────────────┘            │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+    ┌──────────────────┼──────────────────┐
+    │                  │                  │
+    ▼                  ▼                  ▼
+┌────────────┐  ┌────────────┐  ┌────────────┐
+│    缓存层   │  │    队列    │  │   配置中心  │
+│  (Redis)   │  │ (RabbitMQ) │  │   (Etcd)   │
+└─────┬──────┘  └────────────┘  └────────────┘
+      │
+      ▼
+┌─────────────────────────────────────────────────────────────┐
+│              LLM 推理服务集群 (Kubernetes)                    │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐            │ │
+│  │  │ vLLM Pod │  │ vLLM Pod │  │ vLLM Pod │  ...       │ │
+│  │  │A100 x 8  │  │A100 x 8  │  │A100 x 8  │            │ │
+│  │  └──────────┘  └──────────┘  └──────────┘            │ │
+│  │                                                       │ │
+│  │  ┌───────────────────────────────────────────────┐   │ │
+│  │  │          HPA 自动伸缩控制器                   │   │ │
+│  │  │  GPU利用率监控 → 自动扩容/缩容 → 动态调整     │   │ │
+│  │  └───────────────────────────────────────────────┘   │ │
+│  └───────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 核心组件设计
+
+```python
+class LLMServiceGateway:
+    """LLM 服务网关"""
+
+    def __init__(self):
+        self.rate_limiter = TokenBucketRateLimiter(
+            capacity=1000,
+            refill_rate=100
+        )
+        self.cache = RedisCache()
+        self.router = LoadBalancer(strategy='least_conn')
+
+    async def handle_request(self, request: LLMRequest) -> LLMResponse:
+        # 1. 限流检查
+        if not await self.rate_limiter.allow(request.user_id):
+            raise RateLimitExceeded()
+
+        # 2. 缓存查询
+        cache_key = self._generate_cache_key(request)
+        cached = await self.cache.get(cache_key)
+        if cached:
+            return cached
+
+        # 3. 路由到后端服务
+        backend = self.router.select(request)
+
+        # 4. 请求处理
+        response = await backend.generate(request)
+
+        # 5. 缓存结果
+        await self.cache.set(cache_key, response, ttl=3600)
+
+        return response
+
+
+class vLLMServingPod:
+    """基于 vLLM 的推理服务 Pod"""
+
+    def __init__(self):
+        self.engine = LLMEngine(
+            model="meta-llama/Llama-2-70b",
+            tensor_parallel_size=8,
+            gpu_memory_utilization=0.85,
+            max_num_seqs=256,
+            max_model_len=4096,
+            block_size=16,
+            swap_space=20,
+        )
+
+    async def generate(self, request: LLMRequest) -> LLMResponse:
+        request_id = str(uuid.uuid4())
+
+        sampling_params = SamplingParams(
+            temperature=request.temperature,
+            top_p=request.top_p,
+            max_tokens=request.max_tokens,
+            stop=request.stop_sequences,
+        )
+
+        self.engine.add_request(request_id, request.prompt, sampling_params)
+
+        output_text = ""
+        while True:
+            step_outputs = self.engine.step()
+
+            for output in step_outputs:
+                if output.request_id == request_id:
+                    output_text = output.outputs[-1].text
+
+                    if output.finished:
+                        return LLMResponse(
+                            text=output_text,
+                            usage=output.usage,
+                            finish_reason=output.outputs[-1].finish_reason
+                        )
+
+            await asyncio.sleep(0.01)
+```
+
+### 关键问题答案
+
+**Q1: 如何处理高并发和长连接？**
+
+A:
+1. **连接复用**: 使用长连接（HTTP/2 或 WebSocket）
+2. **异步处理**: 所有 IO 使用 async/await
+3. **流式响应**: 支持 SSE 实现逐 token 返回
+4. **批处理**: 将多个请求 batch 到一起推理
+
+---
+
+## RAG 系统设计
+
+### 问题描述
+
+设计一个支持企业级文档的 RAG 系统，支持 1000 万+文档、毫秒级响应。
+
+### 系统架构
+
+```
+用户查询
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│                       RAG 推理服务                          │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  查询输入 → 查询改写 → 查询扩展 → 最终提示词          │ │
+│  │                │           │                          │ │
+│  │                ▼           ▼                          │ │
+│  │          Query理解    多路召回                        │ │
+│  │          意图识别    向量搜索召回                      │ │
+│  │          实体提取    关键词搜索召回                    │ │
+│  │                    知识图谱召回                        │ │
+│  │                                                       │ │
+│  │  ┌───────────────────────────────────────────────┐   │ │
+│  │  │  相关性重排序 → 内容压缩 → LLM生成答案        │   │ │
+│  │  └───────────────────────────────────────────────┘   │ │
+│  └───────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│                       知识库架构                            │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  原始文档 → 解析分块 → 向量化 → 索引建立              │ │
+│  │    │                          │          │           │ │
+│  │    ▼                          ▼          ▼           │ │
+│  │  OCR/PDF解析    ┌──────────┐  ┌──────────┐           │ │
+│  │  表格提取       │  Milvus  │  │ES关键字  │           │ │
+│  │  图片理解       │向量数据库  │  │  索引    │           │ │
+│  │                 └──────────┘  └──────────┘           │ │
+│  └───────────────────────────────────────────────────────┘ │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  知识图谱: 实体识别 → 关系抽取 → Neo4j存储 → 查询     │ │
+│  └───────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 核心实现
+
+```python
+class RAGSystem:
+    """企业级 RAG 系统"""
+
+    def __init__(self):
+        # 向量数据库
+        self.vector_store = MilvusClient(
+            collection_name="documents",
+            embedding_dim=1536,
+            index_type="HNSW",
+            metric_type="COSINE"
+        )
+
+        # 关键词搜索
+        self.keyword_search = ElasticsearchClient(
+            index_name="documents",
+            similarity="BM25"
+        )
+
+        # 重排序模型
+        self.reranker = CrossEncoderReranker()
+
+        # LLM
+        self.llm = OpenAIClient()
+
+    async def retrieve(self, query: str, top_k: int = 20) -> List[DocumentChunk]:
+        """多路召回"""
+        # 查询改写
+        rewritten_queries = await self.rewrite_query(query)
+
+        results = []
+
+        # 1. 向量召回
+        query_embedding = await self.embed(rewritten_queries[0])
+        vector_results = await self.vector_store.search(
+            query_embedding, top_k=top_k
+        )
+        results.extend(vector_results)
+
+        # 2. 关键词召回
+        keyword_results = await self.keyword_search.search(
+            rewritten_queries[0], top_k=top_k
+        )
+        results.extend(keyword_results)
+
+        # 3. 去重
+        unique_results = self.deduplicate(results)
+
+        # 4. 重排序
+        reranked = await self.reranker.rerank(
+            query, unique_results, top_n=10
+        )
+
+        return reranked
+
+    async def rewrite_query(self, query: str) -> List[str]:
+        """查询改写"""
+        prompt = f"""将以下查询改写为3-5个更具体、更易检索的查询：
+
+原查询: {query}
+
+直接输出改写后的查询列表，每行一个。"""
+
+        response = await self.llm.generate(prompt, temperature=0.7)
+        queries = [q.strip() for q in response.split('\n') if q.strip()]
+        queries.insert(0, query)
+
+        return queries[:5]
+```
+
+---
+
+## Agent 系统设计
+
+### 架构设计
+
+```
+用户任务
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     规划器 (Planner)                        │
+│  任务分解: 复杂任务 → 子任务列表                            │
+│  路径规划: 确定子任务执行顺序                               │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     执行器 (Executor)                       │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │  工具注册表: search | code_executor | calculator     │ │
+│  └───────────────────────────────────────────────────────┘ │
+└──────────────────────┬──────────────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     记忆系统 (Memory)                       │
+│  短期记忆: 当前会话上下文                                   │
+│  长期记忆: 用户偏好、历史任务经验                           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 核心实现
+
+```python
+class LLMAgent:
+    """基于 ReAct 的 LLM Agent"""
+
+    def __init__(self, llm, tools, memory=None):
+        self.llm = llm
+        self.tools = ToolRegistry(tools)
+        self.memory = memory or ConversationMemory()
+        self.max_iterations = 10
+
+    async def run(self, task: str, context: dict = None) -> str:
+        """执行任务"""
+        self.memory.add_user_message(task)
+
+        for iteration in range(self.max_iterations):
+            # 构建 ReAct 提示词
+            prompt = self._build_react_prompt(
+                task=task,
+                history=self.memory.get_history(),
+                available_tools=self.tools.get_descriptions(),
+                context=context
+            )
+
+            # 调用 LLM
+            response = await self.llm.generate(prompt)
+
+            # 解析响应
+            thought, action, action_input = self._parse_response(response)
+            self.memory.add_assistant_message(f"Thought: {thought}")
+
+            # 检查是否完成
+            if action == "finish":
+                return action_input
+
+            # 执行工具
+            if action in self.tools:
+                try:
+                    observation = await self.tools.execute(action, action_input)
+                    self.memory.add_tool_result(action, action_input, observation)
+                except Exception as e:
+                    observation = f"Error: {str(e)}"
+                    self.memory.add_tool_result(action, action_input, observation)
+
+        return "达到最大迭代次数，任务未能完成"
+
+    def _build_react_prompt(self, task, history, available_tools, context):
+        """构建 ReAct 风格的提示词"""
+        tools_desc = "\n".join([
+            f"- {name}: {desc}"
+            for name, desc in available_tools.items()
+        ])
+
+        return f"""你是一个帮助用户解决问题的 AI 助手。
+
+可用工具:
+{tools_desc}
+
+使用以下格式回答:
+Thought: 你的思考过程
+Action: 你要使用的工具名称（或 finish 表示完成）
+Action Input: 工具的输入参数
+
+历史记录:
+{history}
+
+用户任务: {task}
+
+请开始:
+Thought: """
+
+    def _parse_response(self, response: str) -> tuple:
+        """解析 LLM 响应"""
+        thought_match = re.search(r"Thought:\s*(.+?)(?=\nAction:|$)", response, re.DOTALL)
+        action_match = re.search(r"Action:\s*(\w+)", response)
+        input_match = re.search(r"Action Input:\s*(.+?)(?=\n|$)", response, re.DOTALL)
+
+        thought = thought_match.group(1).strip() if thought_match else ""
+        action = action_match.group(1).strip() if action_match else "finish"
+        action_input = input_match.group(1).strip() if input_match else response
+
+        return thought, action, action_input
+```
+
+---
+
+## 推理优化系统
+
+```python
+class InferenceOptimizer:
+    """推理优化系统"""
+
+    def __init__(self, model_path: str, config: OptimizationConfig):
+        self.config = config
+        self.model = self._load_and_optimize(model_path)
+
+    def _load_and_optimize(self, model_path: str):
+        """加载模型并应用优化"""
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            torch_dtype=self._get_dtype(),
+            device_map="auto"
+        )
+
+        # 量化
+        if self.config.quantization:
+            model = self._apply_quantization(model)
+
+        # vLLM 引擎优化
+        if self.config.use_vllm:
+            model = self._init_vllm_engine(model)
+
+        return model
+
+    def _init_vllm_engine(self, model):
+        """初始化 vLLM 引擎"""
+        return LLM(
+            model=model.config._name_or_path,
+            tensor_parallel_size=self.config.tensor_parallel_size,
+            gpu_memory_utilization=self.config.gpu_memory_utilization,
+            max_model_len=self.config.max_model_len,
+            quantization=self.config.quantization,
+            block_size=self.config.block_size,
+            swap_space=self.config.swap_space,
+            max_num_seqs=self.config.max_num_seqs,
+            speculative_model=self.config.speculative_model,
+            num_speculative_tokens=self.config.num_speculative_tokens,
+        )
+```
+
+---
+
+## 面试技巧
+
+### 答题框架
+
+**1. 明确需求**
+- QPS、延迟要求
+- 用户规模
+- 功能范围
+
+**2. 高层架构**
+- 先画总体架构图
+- 说明各层职责
+
+**3. 关键组件**
+- 深入一两个核心模块
+- 说明设计决策和 trade-off
+
+### 常见追问
+
+1. "如果 QPS 翻倍怎么办？" → 水平扩容、负载均衡、缓存策略
+2. "如何处理冷启动？" → 预加载、渐进式预热
+3. "怎么保证响应质量？" → 多重验证、人工审核流程
+4. "系统监控怎么做？" → 指标采集、告警、日志追踪
+
+---
+
+## 相关文档
+
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [KV Cache优化](/kb/llm/kv-8uj5cl) - 推理优化
+- [LoRA高效微调](/kb/llm/lora-r5vmuh) - 模型微调
+2:["$","$Lb",null,{"document":{"slug":"doc-81l1u9","title":"系统设计题","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"面试专题/系统设计题.md","default":{"slug":"doc-81l1u9","title":"系统设计题","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"面试专题/系统设计题.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"系统设计题 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"系统设计题"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null
