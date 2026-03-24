@@ -16,6 +16,7 @@ import {
   Music,
   Gamepad2,
   Trophy,
+  Camera,
 } from "lucide-react";
 import { ParticleBackground, FloatingOrbs } from "@/components/home/ParticleBackground";
 import { Typewriter } from "@/components/home/Typewriter";
@@ -81,10 +82,17 @@ const techStack = [
 const interests = [
   {
     icon: Music,
-    title: "音乐剧",
-    description: "享受现场演出的独特魅力",
+    title: "音乐",
+    description: "音乐剧与手风琴",
     color: "text-pink-400",
     bgGradient: "from-pink-500/20 to-rose-500/20",
+  },
+  {
+    icon: Camera,
+    title: "摄影",
+    description: "记录生活美好瞬间",
+    color: "text-amber-400",
+    bgGradient: "from-amber-500/20 to-orange-500/20",
   },
   {
     icon: Trophy,
@@ -95,8 +103,8 @@ const interests = [
   },
   {
     icon: Gamepad2,
-    title: "杀戮尖塔",
-    description: "Roguelike 卡牌游戏",
+    title: "游戏",
+    description: "涉猎广泛的玩家",
     color: "text-purple-400",
     bgGradient: "from-purple-500/20 to-indigo-500/20",
   },

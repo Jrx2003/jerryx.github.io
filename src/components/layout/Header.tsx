@@ -9,6 +9,7 @@ import { useState } from "react";
 const navItems = [
   { href: "/", label: "首页" },
   { href: "/about/", label: "关于" },
+  { href: "/resume/", label: "简历" },
   { href: "/projects/", label: "项目" },
   { href: "/kb/", label: "知识库" },
   { href: "/blog/", label: "博客" },
