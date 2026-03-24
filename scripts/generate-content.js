@@ -60,7 +60,7 @@ const KB_CATEGORIES = [
 function slugify(str) {
   // Create URL-friendly slug from Chinese filename
   // Use original filename without extension, replacing spaces with dashes
-  // Keep Chinese characters as-is for the filesystem
+  // Keep original case and Chinese characters
   return str
     .replace(/\.md$/, '')
     .trim()
