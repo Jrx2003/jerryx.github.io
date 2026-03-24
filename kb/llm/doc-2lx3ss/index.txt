@@ -1,0 +1,1216 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","doc-2lx3ss","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-2lx3ss","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"doc-2lx3ss\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-2lx3ss","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T3d53,# 数据工程与清洗
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 50 分钟
+
+---
+
+## 目录
+
+1. [数据工程概述](#数据工程概述)
+2. [数据源与采集](#数据源与采集)
+3. [数据清洗流程](#数据清洗流程)
+4. [去重技术](#去重技术)
+5. [质量评估与过滤](#质量评估与过滤)
+6. [数据配比](#数据配比)
+7. [分词器训练](#分词器训练)
+8. [数据格式与存储](#数据格式与存储)
+9. [面试要点](#面试要点)
+
+---
+
+## 数据工程概述
+
+### 核心原则
+
+```
+数据质量 > 数据数量
+
+Garbage In, Garbage Out
+```
+
+### 数据工程流程
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        数据工程流程                              │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  原始数据 ──→ 采集 ──→ 清洗 ──→ 去重 ──→ 过滤 ──→ 配比 ──→ 训练 │
+│    │          │        │        │        │        │             │
+│    │          │        │        │        │        │             │
+│    ▼          ▼        ▼        ▼        ▼        ▼             │
+│ Common     格式统一   精确去重  MinHash  质量评分  领域混合       │
+│ Crawl      编码修复   模糊去重  SimHash  分类器    采样策略       │
+│ Books      HTML去除   文档级    局部敏感  启发式    动态调整       │
+│ Code       文本提取   段落级    哈希      规则      温度采样       │
+│ ...        ...        ...      ...      ...      ...            │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 数据源与采集
+
+### 常见数据源
+
+| 数据源 | 规模 | 特点 | 适用场景 |
+|--------|------|------|----------|
+| Common Crawl | 数百 TB | 网页数据，噪声大 | 通用语料 |
+| C4 | 800GB | 清洗后的 Common Crawl | 通用预训练 |
+| RefinedWeb | 5T tokens | 高质量网页 | 高质量预训练 |
+| The Pile | 825GB | 多样化领域 | 研究 |
+| Books | 数十 GB | 高质量长文本 | 知识、推理 |
+| Wikipedia | 20GB | 结构化知识 | 知识增强 |
+| GitHub | 数百 GB | 代码数据 | 代码能力 |
+| ArXiv | 数十 GB | 学术论文 | 科学推理 |
+
+### 数据采集工具
+
+```python
+# Common Crawl 处理示例
+import boto3
+from warcio import ArchiveIterator
+
+def process_common_crawl(warc_path):
+    """处理 WARC 格式的 Common Crawl 数据"""
+    with open(warc_path, 'rb') as stream:
+        for record in ArchiveIterator(stream):
+            if record.rec_type == 'response':
+                url = record.rec_headers.get_header('WARC-Target-URI')
+                content = record.content_stream().read()
+
+                # 提取文本
+                text = extract_text_from_html(content)
+                yield {'url': url, 'text': text}
+```
+
+---
+
+## 数据清洗流程
+
+### 1. 格式统一
+
+```python
+def normalize_text(text):
+    """文本标准化"""
+    # 统一 Unicode
+    text = unicodedata.normalize('NFKC', text)
+
+    # 修复编码问题
+    text = fix_mojibake(text)
+
+    # 统一空白字符
+    text = ' '.join(text.split())
+
+    # 移除控制字符
+    text = remove_control_chars(text)
+
+    return text
+```
+
+### 2. HTML 处理
+
+```python
+from bs4 import BeautifulSoup
+
+def extract_text_from_html(html):
+    """从 HTML 提取干净文本"""
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # 移除脚本和样式
+    for script in soup(['script', 'style', 'nav', 'footer']):
+        script.decompose()
+
+    # 提取文本
+    text = soup.get_text()
+
+    # 清理
+    lines = (line.strip() for line in text.splitlines())
+    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+    text = '\n'.join(chunk for chunk in chunks if chunk)
+
+    return text
+```
+
+### 3. 语言检测
+
+```python
+from langdetect import detect
+
+def filter_by_language(text, target_lang='en'):
+    """按语言过滤"""
+    try:
+        lang = detect(text)
+        return lang == target_lang
+    except:
+        return False
+```
+
+### 4. 长度过滤
+
+```python
+def filter_by_length(text, min_length=100, max_length=100000):
+    """按长度过滤"""
+    length = len(text.split())
+    return min_length <= length <= max_length
+```
+
+---
+
+## 去重技术
+
+### 1. 精确去重
+
+**基于哈希**:
+
+```python
+import hashlib
+
+def exact_deduplication(documents):
+    """精确去重"""
+    seen = set()
+    unique_docs = []
+
+    for doc in documents:
+        doc_hash = hashlib.md5(doc.encode()).hexdigest()
+        if doc_hash not in seen:
+            seen.add(doc_hash)
+            unique_docs.append(doc)
+
+    return unique_docs
+```
+
+### 2. 模糊去重 (MinHash + LSH)
+
+**MinHash**: 估计文档间的 Jaccard 相似度
+
+```python
+from datasketch import MinHash, MinHashLSH
+
+def create_minhash(text, num_perm=128):
+    """为文档创建 MinHash 签名"""
+    m = MinHash(num_perm=num_perm)
+
+    # 使用 shingle (n-gram)
+    shingles = set()
+    words = text.split()
+    for i in range(len(words) - 2):
+        shingle = ' '.join(words[i:i+3])  # 3-gram
+        shingles.add(shingle)
+
+    for s in shingles:
+        m.update(s.encode('utf8'))
+
+    return m
+
+# LSH 索引
+lsh = MinHashLSH(threshold=0.8, num_perm=128)
+
+for i, doc in enumerate(documents):
+    m = create_minhash(doc)
+
+    # 查询相似文档
+    result = lsh.query(m)
+    if len(result) == 0:
+        # 无相似文档，插入
+        lsh.insert(f"doc_{i}", m)
+        yield doc
+```
+
+### 3. 子串去重 (Suffix Array)
+
+**去除训练数据中的测试集污染**:
+
+```python
+def remove_contamination(text, test_set, min_match_length=100):
+    """移除与测试集匹配的子串"""
+    for test_example in test_set:
+        if test_example in text:
+            text = text.replace(test_example, '')
+    return text
+```
+
+### 4. 文档内去重
+
+```python
+def dedup_paragraphs(text, min_paragraph_length=50):
+    """文档内段落去重"""
+    paragraphs = text.split('\n\n')
+    seen = set()
+    unique_paragraphs = []
+
+    for para in paragraphs:
+        para = para.strip()
+        if len(para) < min_paragraph_length:
+            continue
+
+        para_hash = hashlib.md5(para.lower().encode()).hexdigest()
+        if para_hash not in seen:
+            seen.add(para_hash)
+            unique_paragraphs.append(para)
+
+    return '\n\n'.join(unique_paragraphs)
+```
+
+---
+
+## 质量评估与过滤
+
+### 1. 启发式规则
+
+```python
+def heuristic_quality_filter(text):
+    """启发式质量过滤"""
+    # 1. 单词平均长度检查 (过滤随机字符)
+    words = text.split()
+    avg_word_len = sum(len(w) for w in words) / len(words)
+    if avg_word_len > 15 or avg_word_len < 2:
+        return False
+
+    # 2. 符号比例检查
+    symbol_ratio = sum(1 for c in text if not c.isalnum()) / len(text)
+    if symbol_ratio > 0.5:
+        return False
+
+    # 3. 行尾省略号比例 (过滤爬虫截断)
+    ellipsis_ratio = text.count('...') / len(text.split('\n'))
+    if ellipsis_ratio > 0.3:
+        return False
+
+    # 4. 停用词比例 (过滤非自然语言)
+    stopwords = set(['the', 'a', 'an', 'is', 'are', ...])
+    stopword_count = sum(1 for w in words if w.lower() in stopwords)
+    if stopword_count / len(words) < 0.1:
+        return False
+
+    return True
+```
+
+### 2. 基于模型的质量评分
+
+```python
+# 使用小型分类器评估质量
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+quality_tokenizer = AutoTokenizer.from_pretrained("quality-classifier")
+quality_model = AutoModelForSequenceClassification.from_pretrained("quality-classifier")
+
+def score_quality(text):
+    """使用模型评估文本质量"""
+    inputs = quality_tokenizer(
+        text[:1024],  # 截断
+        return_tensors="pt",
+        truncation=True
+    )
+    outputs = quality_model(**inputs)
+    score = torch.softmax(outputs.logits, dim=-1)[0][1].item()
+    return score
+
+# 过滤低质量文本
+if score_quality(text) > 0.5:
+    keep(text)
+```
+
+### 3. 困惑度过滤
+
+```python
+def perplexity_filter(text, model, tokenizer, threshold=1000):
+    """使用语言模型困惑度过滤"""
+    inputs = tokenizer(text, return_tensors="pt")
+
+    with torch.no_grad():
+        outputs = model(**inputs, labels=inputs["input_ids"])
+        perplexity = torch.exp(outputs.loss).item()
+
+    return perplexity < threshold
+```
+
+### 4. 毒性内容过滤
+
+```python
+def toxicity_filter(text, toxicity_threshold=0.5):
+    """过滤毒性内容"""
+    result = toxicity_classifier(text)
+    return result['toxicity'] < toxicity_threshold
+```
+
+---
+
+## 数据配比
+
+### 领域配比策略
+
+```python
+# 不同领域的采样比例
+data_mixture = {
+    'web': 0.60,      # 网页数据
+    'code': 0.17,     # 代码
+    'books': 0.08,    # 书籍
+    'wiki': 0.05,     # 维基百科
+    'academic': 0.04, # 学术论文
+    'news': 0.04,     # 新闻
+    'social': 0.02,   # 社交媒体
+}
+```
+
+### 温度采样
+
+**调整不同领域的采样概率**:
+
+```python
+def temperature_sampling(dataset_probs, temperature=0.3):
+    """
+    temperature < 1: 更均衡
+    temperature > 1: 更倾斜
+    """
+    # 应用温度
+    adjusted_probs = {k: v ** (1/temperature) for k, v in dataset_probs.items()}
+
+    # 归一化
+    total = sum(adjusted_probs.values())
+    normalized_probs = {k: v/total for k, v in adjusted_probs.items()}
+
+    return normalized_probs
+
+# 示例
+probs = {'web': 0.7, 'code': 0.2, 'books': 0.1}
+adjusted = temperature_sampling(probs, temperature=0.3)
+# 结果: web: 0.52, code: 0.31, books: 0.17 (更均衡)
+```
+
+### 动态配比
+
+```python
+class DynamicDataMixer:
+    """根据训练损失动态调整数据配比"""
+
+    def __init__(self, datasets, initial_probs):
+        self.datasets = datasets
+        self.probs = initial_probs
+        self.domain_losses = {k: [] for k in datasets}
+
+    def update_probs(self, domain_losses):
+        """根据领域损失调整采样概率"""
+        # 损失高的领域增加采样
+        avg_losses = {k: sum(v)/len(v) for k, v in domain_losses.items()}
+        total_loss = sum(avg_losses.values())
+
+        # 损失占比越高，采样概率越高
+        new_probs = {k: v/total_loss for k, v in avg_losses.items()}
+
+        # 平滑更新
+        for k in self.probs:
+            self.probs[k] = 0.9 * self.probs[k] + 0.1 * new_probs[k]
+
+    def sample_batch(self, batch_size):
+        """根据当前概率采样批次"""
+        domains = list(self.probs.keys())
+        probs = list(self.probs.values())
+
+        selected_domains = np.random.choice(domains, size=batch_size, p=probs)
+
+        batch = []
+        for domain in selected_domains:
+            sample = self.datasets[domain].sample()
+            batch.append(sample)
+
+        return batch
+```
+
+---
+
+## 分词器训练
+
+### BPE 训练
+
+```python
+from tokenizers import Tokenizer, models, trainers
+
+# 初始化 BPE 模型
+tokenizer = Tokenizer(models.BPE())
+
+# 配置训练器
+trainer = trainers.BpeTrainer(
+    vocab_size=32000,
+    min_frequency=2,
+    special_tokens=["<pad>", "<s>", "</s>", "<unk>", "<mask>"]
+)
+
+# 训练
+files = ["train_data_1.txt", "train_data_2.txt", ...]
+tokenizer.train(files, trainer)
+
+# 保存
+tokenizer.save("tokenizer.json")
+```
+
+### SentencePiece
+
+```python
+import sentencepiece as spm
+
+spm.SentencePieceTrainer.train(
+    input='train_data.txt',
+    model_prefix='spm_model',
+    vocab_size=32000,
+    model_type='bpe',  # 或 'unigram'
+    character_coverage=0.9995,
+    num_threads=64,
+    split_by_whitespace=True,
+    split_by_unicode_script=True,
+    split_by_number=True,
+    max_sentencepiece_length=16,
+    add_dummy_prefix=True,
+    remove_extra_whitespaces=True,
+    normalization_rule_name='nmt_nfkc_cf',
+)
+```
+
+### 分词器选择
+
+| 算法 | 优点 | 缺点 | 适用 |
+|------|------|------|------|
+| BPE | 简单高效 | 贪婪合并 | 通用 |
+| WordPiece | 考虑概率 | 实现复杂 | BERT |
+| Unigram | 可逆，更灵活 | 训练慢 | T5, XLNet |
+| SentencePiece | 语言无关 | 需要预处理 | 多语言 |
+
+---
+
+## 数据格式与存储
+
+### 1. 二进制格式 (Memmap)
+
+```python
+import numpy as np
+
+def create_memmap(data, output_path, dtype=np.uint16):
+    """创建内存映射文件"""
+    arr = np.array(data, dtype=dtype)
+    fp = np.memmap(output_path, dtype=dtype, mode='w+', shape=arr.shape)
+    fp[:] = arr[:]
+    fp.flush()
+    return fp
+
+# 使用
+mmap = np.memmap('data.bin', dtype=np.uint16, mode='r')
+batch = mmap[offset:offset+seq_length]
+```
+
+### 2. Arrow 格式
+
+```python
+import pyarrow as pa
+import pyarrow.parquet as pq
+
+# 保存为 Parquet
+table = pa.table({'text': documents, 'source': sources})
+pq.write_table(table, 'data.parquet')
+
+# 读取
+table = pq.read_table('data.parquet')
+documents = table['text'].to_pylist()
+```
+
+### 3. WebDataset
+
+```python
+from webdataset import ShardWriter
+
+with ShardWriter("data-%06d.tar", maxcount=10000) as sink:
+    for doc in documents:
+        sink.write({
+            "__key__": doc_id,
+            "txt": doc.encode('utf-8')
+        })
+```
+
+### 格式对比
+
+| 格式 | 读取速度 | 内存占用 | 压缩 | 适用场景 |
+|------|----------|----------|------|----------|
+| Raw Text | 慢 | 高 | 无 | 调试 |
+| Memmap | 极快 | 低 | 无 | 大规模训练 |
+| Parquet | 快 | 中 | 好 | 分析处理 |
+| WebDataset | 快 | 低 | 可选 | 分布式训练 |
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: 为什么数据质量比数量更重要？**
+
+A: 低质量数据会导致：
+1. 模型学习到错误模式
+2. 训练不稳定
+3. 下游任务性能下降
+4. 产生有害输出
+
+**Q2: MinHash 去重的原理？**
+
+A: MinHash 通过局部敏感哈希估计文档间的 Jaccard 相似度。将文档表示为 shingle 集合，通过多个哈希函数计算签名，相似文档有高概率产生相同的最小哈希值。
+
+**Q3: 如何防止训练数据污染测试集？**
+
+A:
+1. 使用子串匹配去除测试集内容
+2. N-gram 重叠检测
+3. 嵌入相似度检测
+4. 人工审核关键数据集
+
+**Q4: 数据配比的重要性？**
+
+A: 不同领域数据对模型能力有不同贡献。合理的配比可以：
+1. 平衡通用能力和专业能力
+2. 避免某些领域过拟合
+3. 优化训练效率
+
+**Q5: BPE 和 SentencePiece 的区别？**
+
+A:
+- BPE: 贪婪合并最频繁的字符对
+- SentencePiece: 基于语言模型概率，可逆编码
+- SentencePiece 更适合多语言，将空格编码为特殊 token
+
+### 手撕代码重点
+
+1. **MinHash** 实现
+2. **启发式质量过滤**
+3. **温度采样** 实现
+4. **BPE 训练** 流程
+
+---
+
+## 相关文档
+
+- [预训练策略与技巧](/kb/llm/doc-nfok3w) - 训练流程
+- [GPT 系列模型演进](/kb/llm/gpt-gmyzge) - 数据规模参考
+- [指令微调与 SFT](/kb/llm/doc-i1yc59) - 指令数据构造
+
+---
+
+## 参考文献
+
+1. Raffel et al. "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer". JMLR 2020.
+2. Lee et al. "Deduplicating Training Data Makes Language Models Better". ACL 2022.
+3. Xie et al. "Data Selection for Language Models via Importance Resampled MCMC". 2023.
+4. Penedo et al. "The RefinedWeb Dataset for Falcon LLM". 2023.
+d:T3d53,# 数据工程与清洗
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 50 分钟
+
+---
+
+## 目录
+
+1. [数据工程概述](#数据工程概述)
+2. [数据源与采集](#数据源与采集)
+3. [数据清洗流程](#数据清洗流程)
+4. [去重技术](#去重技术)
+5. [质量评估与过滤](#质量评估与过滤)
+6. [数据配比](#数据配比)
+7. [分词器训练](#分词器训练)
+8. [数据格式与存储](#数据格式与存储)
+9. [面试要点](#面试要点)
+
+---
+
+## 数据工程概述
+
+### 核心原则
+
+```
+数据质量 > 数据数量
+
+Garbage In, Garbage Out
+```
+
+### 数据工程流程
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        数据工程流程                              │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  原始数据 ──→ 采集 ──→ 清洗 ──→ 去重 ──→ 过滤 ──→ 配比 ──→ 训练 │
+│    │          │        │        │        │        │             │
+│    │          │        │        │        │        │             │
+│    ▼          ▼        ▼        ▼        ▼        ▼             │
+│ Common     格式统一   精确去重  MinHash  质量评分  领域混合       │
+│ Crawl      编码修复   模糊去重  SimHash  分类器    采样策略       │
+│ Books      HTML去除   文档级    局部敏感  启发式    动态调整       │
+│ Code       文本提取   段落级    哈希      规则      温度采样       │
+│ ...        ...        ...      ...      ...      ...            │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 数据源与采集
+
+### 常见数据源
+
+| 数据源 | 规模 | 特点 | 适用场景 |
+|--------|------|------|----------|
+| Common Crawl | 数百 TB | 网页数据，噪声大 | 通用语料 |
+| C4 | 800GB | 清洗后的 Common Crawl | 通用预训练 |
+| RefinedWeb | 5T tokens | 高质量网页 | 高质量预训练 |
+| The Pile | 825GB | 多样化领域 | 研究 |
+| Books | 数十 GB | 高质量长文本 | 知识、推理 |
+| Wikipedia | 20GB | 结构化知识 | 知识增强 |
+| GitHub | 数百 GB | 代码数据 | 代码能力 |
+| ArXiv | 数十 GB | 学术论文 | 科学推理 |
+
+### 数据采集工具
+
+```python
+# Common Crawl 处理示例
+import boto3
+from warcio import ArchiveIterator
+
+def process_common_crawl(warc_path):
+    """处理 WARC 格式的 Common Crawl 数据"""
+    with open(warc_path, 'rb') as stream:
+        for record in ArchiveIterator(stream):
+            if record.rec_type == 'response':
+                url = record.rec_headers.get_header('WARC-Target-URI')
+                content = record.content_stream().read()
+
+                # 提取文本
+                text = extract_text_from_html(content)
+                yield {'url': url, 'text': text}
+```
+
+---
+
+## 数据清洗流程
+
+### 1. 格式统一
+
+```python
+def normalize_text(text):
+    """文本标准化"""
+    # 统一 Unicode
+    text = unicodedata.normalize('NFKC', text)
+
+    # 修复编码问题
+    text = fix_mojibake(text)
+
+    # 统一空白字符
+    text = ' '.join(text.split())
+
+    # 移除控制字符
+    text = remove_control_chars(text)
+
+    return text
+```
+
+### 2. HTML 处理
+
+```python
+from bs4 import BeautifulSoup
+
+def extract_text_from_html(html):
+    """从 HTML 提取干净文本"""
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # 移除脚本和样式
+    for script in soup(['script', 'style', 'nav', 'footer']):
+        script.decompose()
+
+    # 提取文本
+    text = soup.get_text()
+
+    # 清理
+    lines = (line.strip() for line in text.splitlines())
+    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+    text = '\n'.join(chunk for chunk in chunks if chunk)
+
+    return text
+```
+
+### 3. 语言检测
+
+```python
+from langdetect import detect
+
+def filter_by_language(text, target_lang='en'):
+    """按语言过滤"""
+    try:
+        lang = detect(text)
+        return lang == target_lang
+    except:
+        return False
+```
+
+### 4. 长度过滤
+
+```python
+def filter_by_length(text, min_length=100, max_length=100000):
+    """按长度过滤"""
+    length = len(text.split())
+    return min_length <= length <= max_length
+```
+
+---
+
+## 去重技术
+
+### 1. 精确去重
+
+**基于哈希**:
+
+```python
+import hashlib
+
+def exact_deduplication(documents):
+    """精确去重"""
+    seen = set()
+    unique_docs = []
+
+    for doc in documents:
+        doc_hash = hashlib.md5(doc.encode()).hexdigest()
+        if doc_hash not in seen:
+            seen.add(doc_hash)
+            unique_docs.append(doc)
+
+    return unique_docs
+```
+
+### 2. 模糊去重 (MinHash + LSH)
+
+**MinHash**: 估计文档间的 Jaccard 相似度
+
+```python
+from datasketch import MinHash, MinHashLSH
+
+def create_minhash(text, num_perm=128):
+    """为文档创建 MinHash 签名"""
+    m = MinHash(num_perm=num_perm)
+
+    # 使用 shingle (n-gram)
+    shingles = set()
+    words = text.split()
+    for i in range(len(words) - 2):
+        shingle = ' '.join(words[i:i+3])  # 3-gram
+        shingles.add(shingle)
+
+    for s in shingles:
+        m.update(s.encode('utf8'))
+
+    return m
+
+# LSH 索引
+lsh = MinHashLSH(threshold=0.8, num_perm=128)
+
+for i, doc in enumerate(documents):
+    m = create_minhash(doc)
+
+    # 查询相似文档
+    result = lsh.query(m)
+    if len(result) == 0:
+        # 无相似文档，插入
+        lsh.insert(f"doc_{i}", m)
+        yield doc
+```
+
+### 3. 子串去重 (Suffix Array)
+
+**去除训练数据中的测试集污染**:
+
+```python
+def remove_contamination(text, test_set, min_match_length=100):
+    """移除与测试集匹配的子串"""
+    for test_example in test_set:
+        if test_example in text:
+            text = text.replace(test_example, '')
+    return text
+```
+
+### 4. 文档内去重
+
+```python
+def dedup_paragraphs(text, min_paragraph_length=50):
+    """文档内段落去重"""
+    paragraphs = text.split('\n\n')
+    seen = set()
+    unique_paragraphs = []
+
+    for para in paragraphs:
+        para = para.strip()
+        if len(para) < min_paragraph_length:
+            continue
+
+        para_hash = hashlib.md5(para.lower().encode()).hexdigest()
+        if para_hash not in seen:
+            seen.add(para_hash)
+            unique_paragraphs.append(para)
+
+    return '\n\n'.join(unique_paragraphs)
+```
+
+---
+
+## 质量评估与过滤
+
+### 1. 启发式规则
+
+```python
+def heuristic_quality_filter(text):
+    """启发式质量过滤"""
+    # 1. 单词平均长度检查 (过滤随机字符)
+    words = text.split()
+    avg_word_len = sum(len(w) for w in words) / len(words)
+    if avg_word_len > 15 or avg_word_len < 2:
+        return False
+
+    # 2. 符号比例检查
+    symbol_ratio = sum(1 for c in text if not c.isalnum()) / len(text)
+    if symbol_ratio > 0.5:
+        return False
+
+    # 3. 行尾省略号比例 (过滤爬虫截断)
+    ellipsis_ratio = text.count('...') / len(text.split('\n'))
+    if ellipsis_ratio > 0.3:
+        return False
+
+    # 4. 停用词比例 (过滤非自然语言)
+    stopwords = set(['the', 'a', 'an', 'is', 'are', ...])
+    stopword_count = sum(1 for w in words if w.lower() in stopwords)
+    if stopword_count / len(words) < 0.1:
+        return False
+
+    return True
+```
+
+### 2. 基于模型的质量评分
+
+```python
+# 使用小型分类器评估质量
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+quality_tokenizer = AutoTokenizer.from_pretrained("quality-classifier")
+quality_model = AutoModelForSequenceClassification.from_pretrained("quality-classifier")
+
+def score_quality(text):
+    """使用模型评估文本质量"""
+    inputs = quality_tokenizer(
+        text[:1024],  # 截断
+        return_tensors="pt",
+        truncation=True
+    )
+    outputs = quality_model(**inputs)
+    score = torch.softmax(outputs.logits, dim=-1)[0][1].item()
+    return score
+
+# 过滤低质量文本
+if score_quality(text) > 0.5:
+    keep(text)
+```
+
+### 3. 困惑度过滤
+
+```python
+def perplexity_filter(text, model, tokenizer, threshold=1000):
+    """使用语言模型困惑度过滤"""
+    inputs = tokenizer(text, return_tensors="pt")
+
+    with torch.no_grad():
+        outputs = model(**inputs, labels=inputs["input_ids"])
+        perplexity = torch.exp(outputs.loss).item()
+
+    return perplexity < threshold
+```
+
+### 4. 毒性内容过滤
+
+```python
+def toxicity_filter(text, toxicity_threshold=0.5):
+    """过滤毒性内容"""
+    result = toxicity_classifier(text)
+    return result['toxicity'] < toxicity_threshold
+```
+
+---
+
+## 数据配比
+
+### 领域配比策略
+
+```python
+# 不同领域的采样比例
+data_mixture = {
+    'web': 0.60,      # 网页数据
+    'code': 0.17,     # 代码
+    'books': 0.08,    # 书籍
+    'wiki': 0.05,     # 维基百科
+    'academic': 0.04, # 学术论文
+    'news': 0.04,     # 新闻
+    'social': 0.02,   # 社交媒体
+}
+```
+
+### 温度采样
+
+**调整不同领域的采样概率**:
+
+```python
+def temperature_sampling(dataset_probs, temperature=0.3):
+    """
+    temperature < 1: 更均衡
+    temperature > 1: 更倾斜
+    """
+    # 应用温度
+    adjusted_probs = {k: v ** (1/temperature) for k, v in dataset_probs.items()}
+
+    # 归一化
+    total = sum(adjusted_probs.values())
+    normalized_probs = {k: v/total for k, v in adjusted_probs.items()}
+
+    return normalized_probs
+
+# 示例
+probs = {'web': 0.7, 'code': 0.2, 'books': 0.1}
+adjusted = temperature_sampling(probs, temperature=0.3)
+# 结果: web: 0.52, code: 0.31, books: 0.17 (更均衡)
+```
+
+### 动态配比
+
+```python
+class DynamicDataMixer:
+    """根据训练损失动态调整数据配比"""
+
+    def __init__(self, datasets, initial_probs):
+        self.datasets = datasets
+        self.probs = initial_probs
+        self.domain_losses = {k: [] for k in datasets}
+
+    def update_probs(self, domain_losses):
+        """根据领域损失调整采样概率"""
+        # 损失高的领域增加采样
+        avg_losses = {k: sum(v)/len(v) for k, v in domain_losses.items()}
+        total_loss = sum(avg_losses.values())
+
+        # 损失占比越高，采样概率越高
+        new_probs = {k: v/total_loss for k, v in avg_losses.items()}
+
+        # 平滑更新
+        for k in self.probs:
+            self.probs[k] = 0.9 * self.probs[k] + 0.1 * new_probs[k]
+
+    def sample_batch(self, batch_size):
+        """根据当前概率采样批次"""
+        domains = list(self.probs.keys())
+        probs = list(self.probs.values())
+
+        selected_domains = np.random.choice(domains, size=batch_size, p=probs)
+
+        batch = []
+        for domain in selected_domains:
+            sample = self.datasets[domain].sample()
+            batch.append(sample)
+
+        return batch
+```
+
+---
+
+## 分词器训练
+
+### BPE 训练
+
+```python
+from tokenizers import Tokenizer, models, trainers
+
+# 初始化 BPE 模型
+tokenizer = Tokenizer(models.BPE())
+
+# 配置训练器
+trainer = trainers.BpeTrainer(
+    vocab_size=32000,
+    min_frequency=2,
+    special_tokens=["<pad>", "<s>", "</s>", "<unk>", "<mask>"]
+)
+
+# 训练
+files = ["train_data_1.txt", "train_data_2.txt", ...]
+tokenizer.train(files, trainer)
+
+# 保存
+tokenizer.save("tokenizer.json")
+```
+
+### SentencePiece
+
+```python
+import sentencepiece as spm
+
+spm.SentencePieceTrainer.train(
+    input='train_data.txt',
+    model_prefix='spm_model',
+    vocab_size=32000,
+    model_type='bpe',  # 或 'unigram'
+    character_coverage=0.9995,
+    num_threads=64,
+    split_by_whitespace=True,
+    split_by_unicode_script=True,
+    split_by_number=True,
+    max_sentencepiece_length=16,
+    add_dummy_prefix=True,
+    remove_extra_whitespaces=True,
+    normalization_rule_name='nmt_nfkc_cf',
+)
+```
+
+### 分词器选择
+
+| 算法 | 优点 | 缺点 | 适用 |
+|------|------|------|------|
+| BPE | 简单高效 | 贪婪合并 | 通用 |
+| WordPiece | 考虑概率 | 实现复杂 | BERT |
+| Unigram | 可逆，更灵活 | 训练慢 | T5, XLNet |
+| SentencePiece | 语言无关 | 需要预处理 | 多语言 |
+
+---
+
+## 数据格式与存储
+
+### 1. 二进制格式 (Memmap)
+
+```python
+import numpy as np
+
+def create_memmap(data, output_path, dtype=np.uint16):
+    """创建内存映射文件"""
+    arr = np.array(data, dtype=dtype)
+    fp = np.memmap(output_path, dtype=dtype, mode='w+', shape=arr.shape)
+    fp[:] = arr[:]
+    fp.flush()
+    return fp
+
+# 使用
+mmap = np.memmap('data.bin', dtype=np.uint16, mode='r')
+batch = mmap[offset:offset+seq_length]
+```
+
+### 2. Arrow 格式
+
+```python
+import pyarrow as pa
+import pyarrow.parquet as pq
+
+# 保存为 Parquet
+table = pa.table({'text': documents, 'source': sources})
+pq.write_table(table, 'data.parquet')
+
+# 读取
+table = pq.read_table('data.parquet')
+documents = table['text'].to_pylist()
+```
+
+### 3. WebDataset
+
+```python
+from webdataset import ShardWriter
+
+with ShardWriter("data-%06d.tar", maxcount=10000) as sink:
+    for doc in documents:
+        sink.write({
+            "__key__": doc_id,
+            "txt": doc.encode('utf-8')
+        })
+```
+
+### 格式对比
+
+| 格式 | 读取速度 | 内存占用 | 压缩 | 适用场景 |
+|------|----------|----------|------|----------|
+| Raw Text | 慢 | 高 | 无 | 调试 |
+| Memmap | 极快 | 低 | 无 | 大规模训练 |
+| Parquet | 快 | 中 | 好 | 分析处理 |
+| WebDataset | 快 | 低 | 可选 | 分布式训练 |
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: 为什么数据质量比数量更重要？**
+
+A: 低质量数据会导致：
+1. 模型学习到错误模式
+2. 训练不稳定
+3. 下游任务性能下降
+4. 产生有害输出
+
+**Q2: MinHash 去重的原理？**
+
+A: MinHash 通过局部敏感哈希估计文档间的 Jaccard 相似度。将文档表示为 shingle 集合，通过多个哈希函数计算签名，相似文档有高概率产生相同的最小哈希值。
+
+**Q3: 如何防止训练数据污染测试集？**
+
+A:
+1. 使用子串匹配去除测试集内容
+2. N-gram 重叠检测
+3. 嵌入相似度检测
+4. 人工审核关键数据集
+
+**Q4: 数据配比的重要性？**
+
+A: 不同领域数据对模型能力有不同贡献。合理的配比可以：
+1. 平衡通用能力和专业能力
+2. 避免某些领域过拟合
+3. 优化训练效率
+
+**Q5: BPE 和 SentencePiece 的区别？**
+
+A:
+- BPE: 贪婪合并最频繁的字符对
+- SentencePiece: 基于语言模型概率，可逆编码
+- SentencePiece 更适合多语言，将空格编码为特殊 token
+
+### 手撕代码重点
+
+1. **MinHash** 实现
+2. **启发式质量过滤**
+3. **温度采样** 实现
+4. **BPE 训练** 流程
+
+---
+
+## 相关文档
+
+- [预训练策略与技巧](/kb/llm/doc-nfok3w) - 训练流程
+- [GPT 系列模型演进](/kb/llm/gpt-gmyzge) - 数据规模参考
+- [指令微调与 SFT](/kb/llm/doc-i1yc59) - 指令数据构造
+
+---
+
+## 参考文献
+
+1. Raffel et al. "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer". JMLR 2020.
+2. Lee et al. "Deduplicating Training Data Makes Language Models Better". ACL 2022.
+3. Xie et al. "Data Selection for Language Models via Importance Resampled MCMC". 2023.
+4. Penedo et al. "The RefinedWeb Dataset for Falcon LLM". 2023.
+2:["$","$Lb",null,{"document":{"slug":"doc-2lx3ss","title":"数据工程与清洗","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"预训练技术/数据工程与清洗.md","default":{"slug":"doc-2lx3ss","title":"数据工程与清洗","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"预训练技术/数据工程与清洗.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"数据工程与清洗 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"数据工程与清洗"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

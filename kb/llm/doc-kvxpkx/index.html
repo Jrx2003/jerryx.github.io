@@ -1,0 +1,443 @@
+<!DOCTYPE html><html lang="zh-CN" class="dark scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/85ed2b6284775456.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-f5d064e8df6cf7aa.js"/><script src="/_next/static/chunks/fd9d1056-feaa03e4ba5b7f26.js" async=""></script><script src="/_next/static/chunks/7023-23d925299661e942.js" async=""></script><script src="/_next/static/chunks/main-app-7af50e099f0d48b5.js" async=""></script><script src="/_next/static/chunks/2015-af9c16aac7ff4ad0.js" async=""></script><script src="/_next/static/chunks/7138-b897b2ad3516dd35.js" async=""></script><script src="/_next/static/chunks/app/layout-441e83d4c275c29e.js" async=""></script><script src="/_next/static/chunks/app/not-found-32f7da5ab09aedff.js" async=""></script><script src="/_next/static/chunks/8373-886bc01b77cafd14.js" async=""></script><script src="/_next/static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js" async=""></script><title>注意力机制深入理解 - LLM | Jerry Xu</title><meta name="description" content="注意力机制深入理解"/><meta name="author" content="Jerry Xu"/><meta name="keywords" content="Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"/><meta property="og:title" content="Jerry Xu - 徐劼瑞"/><meta property="og:description" content="上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"/><meta property="og:site_name" content="Jerry Xu"/><meta property="og:locale" content="zh_CN"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Jerry Xu - 徐劼瑞"/><meta name="twitter:description" content="上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"/><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body class="font-sans antialiased min-h-screen flex flex-col bg-background text-foreground"><header class="fixed top-0 left-0 right-0 z-50"><div class="mx-4 mt-4"><nav class="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass border border-white/10 shadow-2xl shadow-purple-500/5" style="opacity:0;transform:translateY(-100px)"><div class="flex items-center justify-between"><a class="flex items-center gap-2 group" href="/"><div class="relative"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-white"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg></div><div class="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div></div><span class="font-bold text-lg tracking-tight hidden sm:block text-foreground">Jerry</span></a><div class="hidden md:flex items-center gap-1"><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/">首页</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/about/">关于</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/projects/">项目</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/kb/">知识库</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/blog/">博客</a></div><div class="flex items-center gap-2"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><button class="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav></div></header><main class="flex-1"><div class="relative min-h-screen"><div class="fixed inset-0 gradient-bg -z-10"></div><div class="fixed inset-0 grid-pattern -z-10"></div><div class="relative z-10 py-32 px-4"><div class="max-w-4xl mx-auto"><div class="mb-8" style="opacity:0;transform:translateX(-20px)"><a class="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" href="/kb/llm/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回 <!-- -->LLM</a></div><div class="mb-12" style="opacity:0;transform:translateY(20px)"><div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-muted-foreground"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full glass"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>LLM</span><span class="inline-flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>24<!-- --> 分钟阅读</span></div><h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"><span class="gradient-text">注意力机制深入理解</span></h1></div><div class="glass rounded-2xl p-6 md:p-10" style="opacity:0;transform:translateY(20px)"><article class="prose prose-invert prose-lg max-w-none"><h1 class="text-3xl font-bold mt-8 mb-4 pb-2 border-b border-white/10">注意力机制深入理解</h1>
+<blockquote class="border-l-4 border-purple-500 pl-4 italic text-muted-foreground my-4">
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>更新日期</strong>: 2026-03-13
+<strong>版本</strong>: v1.0
+<strong>难度</strong>: 中级
+<strong>预计阅读时间</strong>: 50 分钟</p>
+</blockquote>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">目录</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="#%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6%E6%A6%82%E8%BF%B0" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">注意力机制概述</a></li>
+<li class="leading-relaxed"><a href="#qkv-%E8%AE%A1%E7%AE%97%E8%AF%A6%E8%A7%A3" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">QKV 计算详解</a></li>
+<li class="leading-relaxed"><a href="#%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%88%86%E6%95%B0%E8%AE%A1%E7%AE%97" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">注意力分数计算</a></li>
+<li class="leading-relaxed"><a href="#%E5%9B%A0%E6%9E%9C%E6%8E%A9%E7%A0%81%E6%9C%BA%E5%88%B6" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">因果掩码机制</a></li>
+<li class="leading-relaxed"><a href="#softmax-%E7%A8%B3%E5%AE%9A%E6%80%A7%E4%BC%98%E5%8C%96" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">Softmax 稳定性优化</a></li>
+<li class="leading-relaxed"><a href="#%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%8F%98%E4%BD%93" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">注意力变体</a></li>
+<li class="leading-relaxed"><a href="#%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%8F%AF%E8%A7%86%E5%8C%96" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">注意力可视化</a></li>
+<li class="leading-relaxed"><a href="#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">代码实现</a></li>
+<li class="leading-relaxed"><a href="#%E9%9D%A2%E8%AF%95%E8%A6%81%E7%82%B9" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">面试要点</a></li>
+</ol>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">注意力机制概述</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">核心思想</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">注意力机制模仿人类视觉注意力，让模型在处理信息时聚焦于最相关的部分。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">注意力通用形式</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{f(Q, K)}{\sqrt{d_k}}\right)V
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">其中 $f(Q, K)$ 是相似度函数，常见选择：</p>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">相似度函数</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">公式</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">应用</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">点积</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">$QK^T$</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">Transformer</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">缩放点积</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">$\frac{QK^T}{\sqrt{d_k}}$</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">Scaled Dot-Product</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">加性</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">$v^T \tanh(W_q Q + W_k K)$</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">Bahdanau Attention</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">双线性</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">$QWK^T$</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">特定任务</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">QKV 计算详解</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">Query, Key, Value 的直观理解</h3>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">类比：图书馆检索系统
+
+Query (查询): 读者的问题 &quot;我想找关于机器学习的书&quot;
+Key (键): 书籍的标签/索引 [&quot;深度学习&quot;, &quot;机器学习&quot;, &quot;计算机视觉&quot;, ...]
+Value (值): 书籍的实际内容
+
+注意力分数: 问题与标签的匹配程度
+输出: 根据匹配程度加权的书籍内容组合
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">数学推导</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">给定输入 $X \in \mathbb{R}^{n \times d}$：</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Step 1: 线性投影</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\begin{aligned}
+Q &amp;= XW^Q \in \mathbb{R}^{n \times d_k} \
+K &amp;= XW^K \in \mathbb{R}^{n \times d_k} \
+V &amp;= XW^V \in \mathbb{R}^{n \times d_v}
+\end{aligned}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Step 2: 注意力权重计算</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+A = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) \in \mathbb{R}^{n \times n}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Step 3: 加权求和</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+O = AV \in \mathbb{R}^{n \times d_v}
+$$</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">维度变换可视化</h3>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">输入 X: [batch_size, seq_len, d_model]
+           │
+           ├─── W^Q ───→ Q: [batch_size, seq_len, d_k]
+           ├─── W^K ───→ K: [batch_size, seq_len, d_k]
+           └─── W^V ───→ V: [batch_size, seq_len, d_v]
+
+注意力计算:
+Q × K^T: [batch_size, seq_len, d_k] × [batch_size, d_k, seq_len]
+       → [batch_size, seq_len, seq_len]  (注意力矩阵)
+
+Softmax → A: [batch_size, seq_len, seq_len]
+
+A × V: [batch_size, seq_len, seq_len] × [batch_size, seq_len, d_v]
+     → [batch_size, seq_len, d_v]  (输出)
+</code></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">注意力分数计算</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">Scaled Dot-Product</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\text{score}(q, k) = \frac{q \cdot k}{\sqrt{d_k}}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>为什么需要缩放？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">假设 $q, k$ 的每个元素是独立随机变量，均值为 0，方差为 1：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\text{Var}(q \cdot k) = \sum_{i=1}^{d_k} \text{Var}(q_i k_i) = d_k \cdot 1 \cdot 1 = d_k
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">因此点积的方差为 $d_k$，除以 $\sqrt{d_k}$ 将方差缩放回 1。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">注意力矩阵分析</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">对于序列长度 $n$，注意力矩阵 $A \in \mathbb{R}^{n \times n}$：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">        token1  token2  token3  token4  token5
+token1  [a11     a12     a13     a14     a15    ]
+token2  [a21     a22     a23     a24     a25    ]
+token3  [a31     a32     a33     a34     a35    ]
+token4  [a41     a42     a43     a44     a45    ]
+token5  [a51     a52     a53     a54     a55    ]
+
+每行和为 1 (softmax 归一化)
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">注意力模式类型</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">模式</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">描述</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">示例</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">对角线</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">关注自身及邻近</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">局部语法</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">垂直条纹</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">关注特定位置</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">标点、冠词</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">块状</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">关注特定区域</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">句子边界</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">稀疏分散</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">长距离依赖</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">指代消解</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">因果掩码机制</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">为什么需要因果掩码</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">Decoder 在生成序列时需要保持自回归特性：预测第 $i$ 个 token 时只能看到 $1$ 到 $i-1$ 的信息。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">因果掩码构造</h3>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">位置:    1    2    3    4    5
+      ┌────┬────┬────┬────┬────┐
+   1  │ 1  │ 0  │ 0  │ 0  │ 0  │  只能看自己
+   2  │ 1  │ 1  │ 0  │ 0  │ 0  │  看前2个
+   3  │ 1  │ 1  │ 1  │ 0  │ 0  │  看前3个
+   4  │ 1  │ 1  │ 1  │ 1  │ 0  │  看前4个
+   5  │ 1  │ 1  │ 1  │ 1  │ 1  │  看全部
+      └────┴────┴────┴────┴────┘
+          下三角矩阵 (Lower Triangular)
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">数学表示</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+M_{ij} = \begin{cases} 1 &amp; \text{if } i \geq j \ 0 &amp; \text{if } i &lt; j \end{cases}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">应用掩码：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\text{scores}_{\text{masked}} = \text{scores} \cdot M + (1 - M) \cdot (-\infty)
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">这样 $i &lt; j$ 的位置在 softmax 后变为 0。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">代码实现</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import torch
+
+def create_causal_mask(seq_len):
+    &quot;&quot;&quot;创建因果掩码&quot;&quot;&quot;
+    mask = torch.tril(torch.ones(seq_len, seq_len))  # 下三角矩阵
+    return mask  # [seq_len, seq_len]
+
+# 示例
+seq_len = 5
+mask = create_causal_mask(seq_len)
+print(&quot;因果掩码:&quot;)
+print(mask)
+# tensor([[1., 0., 0., 0., 0.],
+#         [1., 1., 0., 0., 0.],
+#         [1., 1., 1., 0., 0.],
+#         [1., 1., 1., 1., 0.],
+#         [1., 1., 1., 1., 1.]])
+
+# 应用到注意力分数
+def apply_causal_mask(scores, mask):
+    &quot;&quot;&quot;
+    scores: [batch_size, num_heads, seq_len, seq_len]
+    mask: [seq_len, seq_len]
+    &quot;&quot;&quot;
+    # 将 mask 为 0 的位置设为 -inf
+    masked_scores = scores.masked_fill(mask == 0, float(&#x27;-inf&#x27;))
+    return masked_scores
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">Softmax 稳定性优化</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">数值稳定性问题</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">当注意力分数较大时，$e^{x}$ 可能溢出：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">scores = [1000, 1000, 1000]
+e^1000 = inf (溢出!)
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">Softmax 数值稳定技巧</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">利用性质：$\text{softmax}(x) = \text{softmax}(x - c)$，对任意常数 $c$。</p>
+<p class="text-muted-foreground leading-relaxed mb-4">通常选择 $c = \max(x)$：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\text{softmax}(x_i) = \frac{e^{x_i - \max(x)}}{\sum_j e^{x_j - \max(x)}}
+$$</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import numpy as np
+
+def stable_softmax(x):
+    &quot;&quot;&quot;数值稳定的 softmax&quot;&quot;&quot;
+    # 减去最大值防止溢出
+    x_shifted = x - np.max(x, axis=-1, keepdims=True)
+    exp_x = np.exp(x_shifted)
+    return exp_x / np.sum(exp_x, axis=-1, keepdims=True)
+
+# 对比
+x = np.array([1000, 1000, 1000])
+
+# 不稳定版本
+print(&quot;不稳定:&quot;, np.exp(x) / np.sum(np.exp(x)))  # [nan, nan, nan]
+
+# 稳定版本
+print(&quot;稳定:&quot;, stable_softmax(x))  # [0.333, 0.333, 0.333]
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">FlashAttention 的内存优化</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">标准 Attention 实现需要存储 $O(n^2)$ 的注意力矩阵，FlashAttention 通过分块计算和重计算减少内存：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">标准 Attention:
+  S = QK^T        # 存储 O(n^2)
+  P = softmax(S)  # 存储 O(n^2)
+  O = PV          # 存储 O(n^2)
+
+FlashAttention (分块):
+  将 Q, K, V 分成小块
+  逐块计算，只保留当前块的统计量
+  最终输出 O，不存储中间矩阵
+</code></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">注意力变体</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 稀疏注意力 (Sparse Attention)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">解决 $O(n^2)$ 复杂度问题。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>局部注意力 (Local Attention)</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">只关注窗口内的 token：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">窗口大小 = 3
+位置:    1    2    3    4    5    6    7    8
+      ┌────┬────┬────┬────┬────┬────┬────┬────┐
+   1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │ 0  │ 0  │
+   2  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │ 0  │
+   3  │ 1  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │
+   4  │ 0  │ 1  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │
+   ...
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">复杂度：$O(n \times w)$，$w$ 为窗口大小。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Longformer 模式</strong></p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">局部窗口 + 全局注意力:
+- 每个 token 关注邻近 w 个 token
+- 特殊 token ([CLS]) 关注全部
+- 每个 token 关注 [CLS]
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 线性注意力 (Linear Attention)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">通过核技巧将复杂度降至 $O(n)$：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\text{Attention}(Q, K, V)<em>i = \frac{\phi(Q_i)^T \sum</em>{j=1}^i \phi(K_j)V_j^T}{\phi(Q_i)^T \sum_{j=1}^i \phi(K_j)}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">其中 $\phi$ 是特征映射（如 $\phi(x) = \text{elu}(x) + 1$）。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 分组查询注意力 (GQA)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">平衡 MHA 和 MQA：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">MHA: 每个头有独立的 K, V
+     Q1-K1-V1, Q2-K2-V2, Q3-K3-V3, Q4-K4-V4
+
+MQA: 所有头共享 K, V
+     Q1-K-V, Q2-K-V, Q3-K-V, Q4-K-V
+
+GQA: 头分组共享 K, V
+     Q1-K1-V1, Q2-K1-V1, Q3-K2-V2, Q4-K2-V2
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">详见 <a href="/kb/llm/kv-9idzm9" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">KV Cache 优化</a>。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4. 交叉注意力 (Cross Attention)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">用于 Encoder-Decoder 架构，Q 来自 Decoder，K/V 来自 Encoder：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">Decoder Query ──┐
+                ├──→ Attention ──→ Output
+Encoder Key  ───┤
+Encoder Value ──┘
+</code></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">注意力可视化</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">注意力头 specialization</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">不同头学习不同的注意力模式：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">Head 0: 关注下一个词 (局部语法)
+Head 1: 关注 [SEP] 或标点
+Head 2: 关注相同词 (重复模式)
+Head 3: 关注语义相关词
+Head 4: 关注主语-动词关系
+...
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">可视化代码</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import matplotlib.pyplot as plt
+import seaborn as sns
+
+def visualize_attention(attention_weights, tokens, layer=0, head=0):
+    &quot;&quot;&quot;
+    attention_weights: [num_layers, num_heads, seq_len, seq_len]
+    tokens: list of token strings
+    &quot;&quot;&quot;
+    attn = attention_weights[layer, head].cpu().numpy()
+
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(attn,
+                xticklabels=tokens,
+                yticklabels=tokens,
+                cmap=&#x27;YlOrRd&#x27;,
+                cbar_kws={&#x27;label&#x27;: &#x27;Attention Weight&#x27;})
+    plt.title(f&#x27;Layer {layer}, Head {head}&#x27;)
+    plt.xlabel(&#x27;Key&#x27;)
+    plt.ylabel(&#x27;Query&#x27;)
+    plt.tight_layout()
+    plt.show()
+
+# 使用示例
+# tokens = [&#x27;[CLS]&#x27;, &#x27;The&#x27;, &#x27;cat&#x27;, &#x27;sat&#x27;, &#x27;on&#x27;, &#x27;the&#x27;, &#x27;mat&#x27;, &#x27;[SEP]&#x27;]
+# visualize_attention(attn_weights, tokens, layer=8, head=3)
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">代码实现</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">完整的 Self-Attention 实现</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import torch
+import torch.nn as nn
+import math
+
+class SelfAttention(nn.Module):
+    &quot;&quot;&quot;
+    完整的 Self-Attention 实现，包含所有优化技巧
+    &quot;&quot;&quot;
+    def __init__(self, d_model, num_heads, dropout=0.1):
+        super().__init__()
+        assert d_model % num_heads == 0
+
+        self.d_model = d_model
+        self.num_heads = num_heads
+        self.d_k = d_model // num_heads
+
+        # 线性投影
+        self.W_q = nn.Linear(d_model, d_model)
+        self.W_k = nn.Linear(d_model, d_model)
+        self.W_v = nn.Linear(d_model, d_model)
+        self.W_o = nn.Linear(d_model, d_model)
+
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, mask=None, is_causal=False):
+        &quot;&quot;&quot;
+        Args:
+            x: [batch_size, seq_len, d_model]
+            mask: [batch_size, seq_len, seq_len] 或 [seq_len, seq_len]
+            is_causal: 是否使用因果掩码
+        &quot;&quot;&quot;
+        batch_size, seq_len, _ = x.shape
+
+        # 1. 线性投影并分头
+        Q = self.W_q(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)
+        K = self.W_k(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)
+        V = self.W_v(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)
+        # [batch_size, num_heads, seq_len, d_k]
+
+        # 2. 计算注意力分数
+        scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.d_k)
+        # [batch_size, num_heads, seq_len, seq_len]
+
+        # 3. 应用掩码
+        if is_causal:
+            causal_mask = torch.tril(torch.ones(seq_len, seq_len, device=x.device))
+            scores = scores.masked_fill(causal_mask == 0, float(&#x27;-inf&#x27;))
+
+        if mask is not None:
+            scores = scores.masked_fill(mask == 0, float(&#x27;-inf&#x27;))
+
+        # 4. Softmax 和 Dropout
+        attn_weights = torch.softmax(scores, dim=-1)
+        attn_weights = self.dropout(attn_weights)
+
+        # 5. 加权求和
+        output = torch.matmul(attn_weights, V)
+        # [batch_size, num_heads, seq_len, d_k]
+
+        # 6. 合并多头
+        output = output.transpose(1, 2).contiguous().view(batch_size, seq_len, self.d_model)
+
+        # 7. 最终线性投影
+        return self.W_o(output)
+
+
+# 使用 PyTorch 内置的高效实现
+class EfficientSelfAttention(nn.Module):
+    &quot;&quot;&quot;使用 scaled_dot_product_attention (PyTorch 2.0+)&quot;&quot;&quot;
+    def __init__(self, d_model, num_heads, dropout=0.1):
+        super().__init__()
+        self.d_model = d_model
+        self.num_heads = num_heads
+
+        self.W_q = nn.Linear(d_model, d_model)
+        self.W_k = nn.Linear(d_model, d_model)
+        self.W_v = nn.Linear(d_model, d_model)
+        self.W_o = nn.Linear(d_model, d_model)
+
+        self.dropout = dropout
+
+    def forward(self, x, is_causal=False):
+        batch_size, seq_len, _ = x.shape
+
+        Q = self.W_q(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)
+        K = self.W_k(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)
+        V = self.W_v(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)
+
+        # 使用高效的 flash attention 实现
+        output = torch.nn.functional.scaled_dot_product_attention(
+            Q, K, V,
+            dropout_p=self.dropout if self.training else 0.0,
+            is_causal=is_causal
+        )
+
+        output = output.transpose(1, 2).contiguous().view(batch_size, seq_len, self.d_model)
+        return self.W_o(output)
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">面试要点</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">高频问题</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q1: QKV 分别代表什么？为什么要这样设计？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">Q (Query): 查询，表示当前要关注什么</li>
+<li class="leading-relaxed">K (Key): 键，表示每个位置能提供什么信息</li>
+<li class="leading-relaxed">V (Value): 值，表示每个位置的实际内容</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4">设计灵感来自信息检索系统，通过 QK 匹配确定关注权重，再对 V 加权求和。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q2: 注意力矩阵为什么要除以 $\sqrt{d_k}$？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">当 $d_k$ 较大时，点积的方差会增大（$\text{Var} = d_k$）</li>
+<li class="leading-relaxed">大的点积值会导致 softmax 进入梯度极小的饱和区</li>
+<li class="leading-relaxed">除以 $\sqrt{d_k}$ 将方差缩放回 1，保持数值稳定性</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q3: 因果掩码是如何实现的？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">构造下三角矩阵 $M$，$M_{ij} = 1$ if $i \geq j$ else 0</li>
+<li class="leading-relaxed">将注意力分数中 $M_{ij} = 0$ 的位置设为 $-\infty$</li>
+<li class="leading-relaxed">Softmax 后这些位置变为 0，实现只关注过去信息</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q4: Self-Attention 的时间复杂度和空间复杂度？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">时间复杂度: $O(n^2 \cdot d)$，主要来自 $QK^T$ 的计算</li>
+<li class="leading-relaxed">空间复杂度: $O(n^2)$，需要存储注意力矩阵</li>
+<li class="leading-relaxed">这是 Transformer 处理长序列的主要瓶颈</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q5: MHA、MQA、GQA 的区别？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">MHA (Multi-Head Attention): 每个头有独立的 QKV，效果最好但慢</li>
+<li class="leading-relaxed">MQA (Multi-Query Attention): 所有头共享 KV，推理快但效果略降</li>
+<li class="leading-relaxed">GQA (Grouped-Query Attention): 折中方案，头分组共享 KV</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">手撕代码重点</h3>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>Scaled Dot-Product Attention</strong> 完整实现</li>
+<li class="leading-relaxed"><strong>因果掩码</strong> 构造与应用</li>
+<li class="leading-relaxed"><strong>多头注意力</strong> 的维度变换</li>
+<li class="leading-relaxed"><strong>数值稳定 Softmax</strong> 实现</li>
+</ol>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">相关文档</h2>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="/kb/llm/transformer-qwfbd0" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">Transformer 详解</a> - Transformer 完整架构</li>
+<li class="leading-relaxed"><a href="/kb/llm/kv-9idzm9" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">KV Cache 优化</a> - MQA/GQA 详解</li>
+<li class="leading-relaxed"><a href="/kb/llm/doc-ne91sy" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">位置编码技术演进</a> - 位置编码方法对比</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">参考文献</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">Vaswani et al. &quot;Attention Is All You Need&quot;. NeurIPS 2017.</li>
+<li class="leading-relaxed">Dao et al. &quot;FlashAttention: Fast and Memory-Efficient Exact Attention&quot;. NeurIPS 2022.</li>
+<li class="leading-relaxed">Ainslie et al. &quot;GQA: Training Generalized Multi-Query Transformer Models&quot;. 2023.</li>
+</ol></article></div><div class="mt-12 flex items-center justify-between" style="opacity:0;transform:translateY(20px)"><a class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors" href="/kb/llm/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回列表</a></div></div></div></div></main><footer class="relative border-t border-white/5"><div class="absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"></div><div class="container relative py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-12"><div class="md:col-span-2 space-y-4"><a class="inline-block" href="/"><span class="text-2xl font-bold gradient-text">Jerry Xu</span></a><p class="text-muted-foreground max-w-sm">热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。</p><div class="flex items-center gap-4"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">导航</h4><ul class="space-y-3"><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/about/">关于</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/projects/">项目</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/kb/">知识库</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/blog/">博客</a></li></ul></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">联系方式</h4><ul class="space-y-3 text-sm"><li><a href="https://www.sjtu.edu.cn" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">上海交通大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li><a href="https://www.cuhk.edu.hk" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">即将前往香港中文大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li class="text-xs pt-2 text-muted-foreground">通过 GitHub 联系</li></ul></div></div><div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm text-muted-foreground">© <!-- -->2026<!-- --> Jerry Xu. Built with<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg> and Next.js</p><p class="text-xs text-muted-foreground/60">Designed &amp; Developed by Jerry</p></div></div></footer><script src="/_next/static/chunks/webpack-f5d064e8df6cf7aa.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/85ed2b6284775456.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"2:I[95751,[],\"\"]\n5:I[39275,[],\"\"]\n8:I[61343,[],\"\"]\n9:I[62782,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-441e83d4c275c29e.js\"],\"Header\"]\na:I[82446,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"9160\",\"static/chunks/app/not-found-32f7da5ab09aedff.js\"],\"default\"]\nb:I[231,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-441e83d4c275c29e.js\"],\"\"]\nd:I[76130,[],\"\"]\n6:[\"category\",\"llm\",\"d\"]\n7:[\"slug\",\"doc-kvxpkx\",\"d\"]\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/85ed2b6284775456.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L2\",null,{\"buildId\":\"ol1eMh0FVRjIrfwLO-nkw\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/kb/llm/doc-kvxpkx/\",\"initialTree\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"llm\",\"d\"],{\"children\":[[\"slug\",\"doc-kvxpkx\",\"d\"],{\"children\":[\"__PAGE__?{\\\"category\\\":\\\"llm\\\",\\\"slug\\\":\\\"doc-kvxpkx\\\"}\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"llm\",\"d\"],{\"children\":[[\"slug\",\"doc-kvxpkx\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L3\",\"$L4\"],null],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\",\"$7\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"className\":\"dark scroll-smooth\",\"children\":[\"$\",\"body\",null,{\"className\":\"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"main\",null,{\"className\":\"flex-1\",\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$La\",null,{}],\"notFoundStyles\":[],\"styles\":null}]}],[\"$\",\"footer\",null,{\"className\":\"relative border-t border-white/5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none\"}],[\"$\",\"div\",null,{\"className\":\"container relative py-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-4 gap-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"md:col-span-2 space-y-4\",\"children\":[[\"$\",\"$Lb\",null,{\"href\":\"/\",\"className\":\"inline-block\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-2xl font-bold gradient-text\",\"children\":\"Jerry Xu\"}]}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground max-w-sm\",\"children\":\"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。\"}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/Jrx2003\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group\",\"children\":[[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github w-4 h-4\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"导航\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3\",\"children\":[[\"$\",\"li\",\"/about/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/about/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"关于\"}]}],[\"$\",\"li\",\"/projects/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/projects/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"项目\"}]}],[\"$\",\"li\",\"/kb/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/kb/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"知识库\"}]}],[\"$\",\"li\",\"/blog/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/blog/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"博客\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"联系方式\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3 text-sm\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.sjtu.edu.cn\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"上海交通大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.cuhk.edu.hk\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"即将前往香港中文大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"className\":\"text-xs pt-2 text-muted-foreground\",\"children\":\"通过 GitHub 联系\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":[\"© \",2026,\" Jerry Xu. Built with\",\" \",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500\",\"children\":[[\"$\",\"path\",\"c3ymky\",{\"d\":\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"}],\"$undefined\"]}],\" and Next.js\"]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-muted-foreground/60\",\"children\":\"Designed \u0026 Developed by Jerry\"}]]}]]}]]}]]}]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]]\n"])</script><script>self.__next_f.push([1,"f:I[66006,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"8373\",\"static/chunks/8373-886bc01b77cafd14.js\",\"7438\",\"static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js\"],\"default\"]\n10:T3ba6,"])</script><script>self.__next_f.push([1,"# 注意力机制深入理解\n\n\u003e **更新日期**: 2026-03-13\n\u003e **版本**: v1.0\n\u003e **难度**: 中级\n\u003e **预计阅读时间**: 50 分钟\n\n---\n\n## 目录\n\n1. [注意力机制概述](#注意力机制概述)\n2. [QKV 计算详解](#qkv-计算详解)\n3. [注意力分数计算](#注意力分数计算)\n4. [因果掩码机制](#因果掩码机制)\n5. [Softmax 稳定性优化](#softmax-稳定性优化)\n6. [注意力变体](#注意力变体)\n7. [注意力可视化](#注意力可视化)\n8. [代码实现](#代码实现)\n9. [面试要点](#面试要点)\n\n---\n\n## 注意力机制概述\n\n### 核心思想\n\n注意力机制模仿人类视觉注意力，让模型在处理信息时聚焦于最相关的部分。\n\n### 注意力通用形式\n\n$$\n\\text{Attention}(Q, K, V) = \\text{softmax}\\left(\\frac{f(Q, K)}{\\sqrt{d_k}}\\right)V\n$$\n\n其中 $f(Q, K)$ 是相似度函数，常见选择：\n\n| 相似度函数 | 公式 | 应用 |\n|------------|------|------|\n| 点积 | $QK^T$ | Transformer |\n| 缩放点积 | $\\frac{QK^T}{\\sqrt{d_k}}$ | Scaled Dot-Product |\n| 加性 | $v^T \\tanh(W_q Q + W_k K)$ | Bahdanau Attention |\n| 双线性 | $QWK^T$ | 特定任务 |\n\n---\n\n## QKV 计算详解\n\n### Query, Key, Value 的直观理解\n\n```\n类比：图书馆检索系统\n\nQuery (查询): 读者的问题 \"我想找关于机器学习的书\"\nKey (键): 书籍的标签/索引 [\"深度学习\", \"机器学习\", \"计算机视觉\", ...]\nValue (值): 书籍的实际内容\n\n注意力分数: 问题与标签的匹配程度\n输出: 根据匹配程度加权的书籍内容组合\n```\n\n### 数学推导\n\n给定输入 $X \\in \\mathbb{R}^{n \\times d}$：\n\n**Step 1: 线性投影**\n\n$$\n\\begin{aligned}\nQ \u0026= XW^Q \\in \\mathbb{R}^{n \\times d_k} \\\\\nK \u0026= XW^K \\in \\mathbb{R}^{n \\times d_k} \\\\\nV \u0026= XW^V \\in \\mathbb{R}^{n \\times d_v}\n\\end{aligned}\n$$\n\n**Step 2: 注意力权重计算**\n\n$$\nA = \\text{softmax}\\left(\\frac{QK^T}{\\sqrt{d_k}}\\right) \\in \\mathbb{R}^{n \\times n}\n$$\n\n**Step 3: 加权求和**\n\n$$\nO = AV \\in \\mathbb{R}^{n \\times d_v}\n$$\n\n### 维度变换可视化\n\n```\n输入 X: [batch_size, seq_len, d_model]\n           │\n           ├─── W^Q ───→ Q: [batch_size, seq_len, d_k]\n           ├─── W^K ───→ K: [batch_size, seq_len, d_k]\n           └─── W^V ───→ V: [batch_size, seq_len, d_v]\n\n注意力计算:\nQ × K^T: [batch_size, seq_len, d_k] × [batch_size, d_k, seq_len]\n       → [batch_size, seq_len, seq_len]  (注意力矩阵)\n\nSoftmax → A: [batch_size, seq_len, seq_len]\n\nA × V: [batch_size, seq_len, seq_len] × [batch_size, seq_len, d_v]\n     → [batch_size, seq_len, d_v]  (输出)\n```\n\n---\n\n## 注意力分数计算\n\n### Scaled Dot-Product\n\n$$\n\\text{score}(q, k) = \\frac{q \\cdot k}{\\sqrt{d_k}}\n$$\n\n**为什么需要缩放？**\n\n假设 $q, k$ 的每个元素是独立随机变量，均值为 0，方差为 1：\n\n$$\n\\text{Var}(q \\cdot k) = \\sum_{i=1}^{d_k} \\text{Var}(q_i k_i) = d_k \\cdot 1 \\cdot 1 = d_k\n$$\n\n因此点积的方差为 $d_k$，除以 $\\sqrt{d_k}$ 将方差缩放回 1。\n\n### 注意力矩阵分析\n\n对于序列长度 $n$，注意力矩阵 $A \\in \\mathbb{R}^{n \\times n}$：\n\n```\n        token1  token2  token3  token4  token5\ntoken1  [a11     a12     a13     a14     a15    ]\ntoken2  [a21     a22     a23     a24     a25    ]\ntoken3  [a31     a32     a33     a34     a35    ]\ntoken4  [a41     a42     a43     a44     a45    ]\ntoken5  [a51     a52     a53     a54     a55    ]\n\n每行和为 1 (softmax 归一化)\n```\n\n### 注意力模式类型\n\n| 模式 | 描述 | 示例 |\n|------|------|------|\n| 对角线 | 关注自身及邻近 | 局部语法 |\n| 垂直条纹 | 关注特定位置 | 标点、冠词 |\n| 块状 | 关注特定区域 | 句子边界 |\n| 稀疏分散 | 长距离依赖 | 指代消解 |\n\n---\n\n## 因果掩码机制\n\n### 为什么需要因果掩码\n\nDecoder 在生成序列时需要保持自回归特性：预测第 $i$ 个 token 时只能看到 $1$ 到 $i-1$ 的信息。\n\n### 因果掩码构造\n\n```\n位置:    1    2    3    4    5\n      ┌────┬────┬────┬────┬────┐\n   1  │ 1  │ 0  │ 0  │ 0  │ 0  │  只能看自己\n   2  │ 1  │ 1  │ 0  │ 0  │ 0  │  看前2个\n   3  │ 1  │ 1  │ 1  │ 0  │ 0  │  看前3个\n   4  │ 1  │ 1  │ 1  │ 1  │ 0  │  看前4个\n   5  │ 1  │ 1  │ 1  │ 1  │ 1  │  看全部\n      └────┴────┴────┴────┴────┘\n          下三角矩阵 (Lower Triangular)\n```\n\n### 数学表示\n\n$$\nM_{ij} = \\begin{cases} 1 \u0026 \\text{if } i \\geq j \\\\ 0 \u0026 \\text{if } i \u003c j \\end{cases}\n$$\n\n应用掩码：\n\n$$\n\\text{scores}_{\\text{masked}} = \\text{scores} \\cdot M + (1 - M) \\cdot (-\\infty)\n$$\n\n这样 $i \u003c j$ 的位置在 softmax 后变为 0。\n\n### 代码实现\n\n```python\nimport torch\n\ndef create_causal_mask(seq_len):\n    \"\"\"创建因果掩码\"\"\"\n    mask = torch.tril(torch.ones(seq_len, seq_len))  # 下三角矩阵\n    return mask  # [seq_len, seq_len]\n\n# 示例\nseq_len = 5\nmask = create_causal_mask(seq_len)\nprint(\"因果掩码:\")\nprint(mask)\n# tensor([[1., 0., 0., 0., 0.],\n#         [1., 1., 0., 0., 0.],\n#         [1., 1., 1., 0., 0.],\n#         [1., 1., 1., 1., 0.],\n#         [1., 1., 1., 1., 1.]])\n\n# 应用到注意力分数\ndef apply_causal_mask(scores, mask):\n    \"\"\"\n    scores: [batch_size, num_heads, seq_len, seq_len]\n    mask: [seq_len, seq_len]\n    \"\"\"\n    # 将 mask 为 0 的位置设为 -inf\n    masked_scores = scores.masked_fill(mask == 0, float('-inf'))\n    return masked_scores\n```\n\n---\n\n## Softmax 稳定性优化\n\n### 数值稳定性问题\n\n当注意力分数较大时，$e^{x}$ 可能溢出：\n\n```\nscores = [1000, 1000, 1000]\ne^1000 = inf (溢出!)\n```\n\n### Softmax 数值稳定技巧\n\n利用性质：$\\text{softmax}(x) = \\text{softmax}(x - c)$，对任意常数 $c$。\n\n通常选择 $c = \\max(x)$：\n\n$$\n\\text{softmax}(x_i) = \\frac{e^{x_i - \\max(x)}}{\\sum_j e^{x_j - \\max(x)}}\n$$\n\n```python\nimport numpy as np\n\ndef stable_softmax(x):\n    \"\"\"数值稳定的 softmax\"\"\"\n    # 减去最大值防止溢出\n    x_shifted = x - np.max(x, axis=-1, keepdims=True)\n    exp_x = np.exp(x_shifted)\n    return exp_x / np.sum(exp_x, axis=-1, keepdims=True)\n\n# 对比\nx = np.array([1000, 1000, 1000])\n\n# 不稳定版本\nprint(\"不稳定:\", np.exp(x) / np.sum(np.exp(x)))  # [nan, nan, nan]\n\n# 稳定版本\nprint(\"稳定:\", stable_softmax(x))  # [0.333, 0.333, 0.333]\n```\n\n### FlashAttention 的内存优化\n\n标准 Attention 实现需要存储 $O(n^2)$ 的注意力矩阵，FlashAttention 通过分块计算和重计算减少内存：\n\n```\n标准 Attention:\n  S = QK^T        # 存储 O(n^2)\n  P = softmax(S)  # 存储 O(n^2)\n  O = PV          # 存储 O(n^2)\n\nFlashAttention (分块):\n  将 Q, K, V 分成小块\n  逐块计算，只保留当前块的统计量\n  最终输出 O，不存储中间矩阵\n```\n\n---\n\n## 注意力变体\n\n### 1. 稀疏注意力 (Sparse Attention)\n\n解决 $O(n^2)$ 复杂度问题。\n\n**局部注意力 (Local Attention)**\n\n只关注窗口内的 token：\n\n```\n窗口大小 = 3\n位置:    1    2    3    4    5    6    7    8\n      ┌────┬────┬────┬────┬────┬────┬────┬────┐\n   1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │ 0  │ 0  │\n   2  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │ 0  │\n   3  │ 1  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │\n   4  │ 0  │ 1  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │\n   ...\n```\n\n复杂度：$O(n \\times w)$，$w$ 为窗口大小。\n\n**Longformer 模式**\n\n```\n局部窗口 + 全局注意力:\n- 每个 token 关注邻近 w 个 token\n- 特殊 token ([CLS]) 关注全部\n- 每个 token 关注 [CLS]\n```\n\n### 2. 线性注意力 (Linear Attention)\n\n通过核技巧将复杂度降至 $O(n)$：\n\n$$\n\\text{Attention}(Q, K, V)_i = \\frac{\\phi(Q_i)^T \\sum_{j=1}^i \\phi(K_j)V_j^T}{\\phi(Q_i)^T \\sum_{j=1}^i \\phi(K_j)}\n$$\n\n其中 $\\phi$ 是特征映射（如 $\\phi(x) = \\text{elu}(x) + 1$）。\n\n### 3. 分组查询注意力 (GQA)\n\n平衡 MHA 和 MQA：\n\n```\nMHA: 每个头有独立的 K, V\n     Q1-K1-V1, Q2-K2-V2, Q3-K3-V3, Q4-K4-V4\n\nMQA: 所有头共享 K, V\n     Q1-K-V, Q2-K-V, Q3-K-V, Q4-K-V\n\nGQA: 头分组共享 K, V\n     Q1-K1-V1, Q2-K1-V1, Q3-K2-V2, Q4-K2-V2\n```\n\n详见 [KV Cache 优化](/kb/llm/kv-9idzm9)。\n\n### 4. 交叉注意力 (Cross Attention)\n\n用于 Encoder-Decoder 架构，Q 来自 Decoder，K/V 来自 Encoder：\n\n```\nDecoder Query ──┐\n                ├──→ Attention ──→ Output\nEncoder Key  ───┤\nEncoder Value ──┘\n```\n\n---\n\n## 注意力可视化\n\n### 注意力头 specialization\n\n不同头学习不同的注意力模式：\n\n```\nHead 0: 关注下一个词 (局部语法)\nHead 1: 关注 [SEP] 或标点\nHead 2: 关注相同词 (重复模式)\nHead 3: 关注语义相关词\nHead 4: 关注主语-动词关系\n...\n```\n\n### 可视化代码\n\n```python\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\ndef visualize_attention(attention_weights, tokens, layer=0, head=0):\n    \"\"\"\n    attention_weights: [num_layers, num_heads, seq_len, seq_len]\n    tokens: list of token strings\n    \"\"\"\n    attn = attention_weights[layer, head].cpu().numpy()\n\n    plt.figure(figsize=(10, 8))\n    sns.heatmap(attn,\n                xticklabels=tokens,\n                yticklabels=tokens,\n                cmap='YlOrRd',\n                cbar_kws={'label': 'Attention Weight'})\n    plt.title(f'Layer {layer}, Head {head}')\n    plt.xlabel('Key')\n    plt.ylabel('Query')\n    plt.tight_layout()\n    plt.show()\n\n# 使用示例\n# tokens = ['[CLS]', 'The', 'cat', 'sat', 'on', 'the', 'mat', '[SEP]']\n# visualize_attention(attn_weights, tokens, layer=8, head=3)\n```\n\n---\n\n## 代码实现\n\n### 完整的 Self-Attention 实现\n\n```python\nimport torch\nimport torch.nn as nn\nimport math\n\nclass SelfAttention(nn.Module):\n    \"\"\"\n    完整的 Self-Attention 实现，包含所有优化技巧\n    \"\"\"\n    def __init__(self, d_model, num_heads, dropout=0.1):\n        super().__init__()\n        assert d_model % num_heads == 0\n\n        self.d_model = d_model\n        self.num_heads = num_heads\n        self.d_k = d_model // num_heads\n\n        # 线性投影\n        self.W_q = nn.Linear(d_model, d_model)\n        self.W_k = nn.Linear(d_model, d_model)\n        self.W_v = nn.Linear(d_model, d_model)\n        self.W_o = nn.Linear(d_model, d_model)\n\n        self.dropout = nn.Dropout(dropout)\n\n    def forward(self, x, mask=None, is_causal=False):\n        \"\"\"\n        Args:\n            x: [batch_size, seq_len, d_model]\n            mask: [batch_size, seq_len, seq_len] 或 [seq_len, seq_len]\n            is_causal: 是否使用因果掩码\n        \"\"\"\n        batch_size, seq_len, _ = x.shape\n\n        # 1. 线性投影并分头\n        Q = self.W_q(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)\n        K = self.W_k(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)\n        V = self.W_v(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)\n        # [batch_size, num_heads, seq_len, d_k]\n\n        # 2. 计算注意力分数\n        scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.d_k)\n        # [batch_size, num_heads, seq_len, seq_len]\n\n        # 3. 应用掩码\n        if is_causal:\n            causal_mask = torch.tril(torch.ones(seq_len, seq_len, device=x.device))\n            scores = scores.masked_fill(causal_mask == 0, float('-inf'))\n\n        if mask is not None:\n            scores = scores.masked_fill(mask == 0, float('-inf'))\n\n        # 4. Softmax 和 Dropout\n        attn_weights = torch.softmax(scores, dim=-1)\n        attn_weights = self.dropout(attn_weights)\n\n        # 5. 加权求和\n        output = torch.matmul(attn_weights, V)\n        # [batch_size, num_heads, seq_len, d_k]\n\n        # 6. 合并多头\n        output = output.transpose(1, 2).contiguous().view(batch_size, seq_len, self.d_model)\n\n        # 7. 最终线性投影\n        return self.W_o(output)\n\n\n# 使用 PyTorch 内置的高效实现\nclass EfficientSelfAttention(nn.Module):\n    \"\"\"使用 scaled_dot_product_attention (PyTorch 2.0+)\"\"\"\n    def __init__(self, d_model, num_heads, dropout=0.1):\n        super().__init__()\n        self.d_model = d_model\n        self.num_heads = num_heads\n\n        self.W_q = nn.Linear(d_model, d_model)\n        self.W_k = nn.Linear(d_model, d_model)\n        self.W_v = nn.Linear(d_model, d_model)\n        self.W_o = nn.Linear(d_model, d_model)\n\n        self.dropout = dropout\n\n    def forward(self, x, is_causal=False):\n        batch_size, seq_len, _ = x.shape\n\n        Q = self.W_q(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)\n        K = self.W_k(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)\n        V = self.W_v(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)\n\n        # 使用高效的 flash attention 实现\n        output = torch.nn.functional.scaled_dot_product_attention(\n            Q, K, V,\n            dropout_p=self.dropout if self.training else 0.0,\n            is_causal=is_causal\n        )\n\n        output = output.transpose(1, 2).contiguous().view(batch_size, seq_len, self.d_model)\n        return self.W_o(output)\n```\n\n---\n\n## 面试要点\n\n### 高频问题\n\n**Q1: QKV 分别代表什么？为什么要这样设计？**\n\nA:\n- Q (Query): 查询，表示当前要关注什么\n- K (Key): 键，表示每个位置能提供什么信息\n- V (Value): 值，表示每个位置的实际内容\n\n设计灵感来自信息检索系统，通过 QK 匹配确定关注权重，再对 V 加权求和。\n\n**Q2: 注意力矩阵为什么要除以 $\\sqrt{d_k}$？**\n\nA:\n1. 当 $d_k$ 较大时，点积的方差会增大（$\\text{Var} = d_k$）\n2. 大的点积值会导致 softmax 进入梯度极小的饱和区\n3. 除以 $\\sqrt{d_k}$ 将方差缩放回 1，保持数值稳定性\n\n**Q3: 因果掩码是如何实现的？**\n\nA:\n1. 构造下三角矩阵 $M$，$M_{ij} = 1$ if $i \\geq j$ else 0\n2. 将注意力分数中 $M_{ij} = 0$ 的位置设为 $-\\infty$\n3. Softmax 后这些位置变为 0，实现只关注过去信息\n\n**Q4: Self-Attention 的时间复杂度和空间复杂度？**\n\nA:\n- 时间复杂度: $O(n^2 \\cdot d)$，主要来自 $QK^T$ 的计算\n- 空间复杂度: $O(n^2)$，需要存储注意力矩阵\n- 这是 Transformer 处理长序列的主要瓶颈\n\n**Q5: MHA、MQA、GQA 的区别？**\n\nA:\n- MHA (Multi-Head Attention): 每个头有独立的 QKV，效果最好但慢\n- MQA (Multi-Query Attention): 所有头共享 KV，推理快但效果略降\n- GQA (Grouped-Query Attention): 折中方案，头分组共享 KV\n\n### 手撕代码重点\n\n1. **Scaled Dot-Product Attention** 完整实现\n2. **因果掩码** 构造与应用\n3. **多头注意力** 的维度变换\n4. **数值稳定 Softmax** 实现\n\n---\n\n## 相关文档\n\n- [Transformer 详解](/kb/llm/transformer-qwfbd0) - Transformer 完整架构\n- [KV Cache 优化](/kb/llm/kv-9idzm9) - MQA/GQA 详解\n- [位置编码技术演进](/kb/llm/doc-ne91sy) - 位置编码方法对比\n\n---\n\n## 参考文献\n\n1. Vaswani et al. \"Attention Is All You Need\". NeurIPS 2017.\n2. Dao et al. \"FlashAttention: Fast and Memory-Efficient Exact Attention\". NeurIPS 2022.\n3. Ainslie et al. \"GQA: Training Generalized Multi-Query Transformer Models\". 2023.\n"])</script><script>self.__next_f.push([1,"11:T3ba6,"])</script><script>self.__next_f.push([1,"# 注意力机制深入理解\n\n\u003e **更新日期**: 2026-03-13\n\u003e **版本**: v1.0\n\u003e **难度**: 中级\n\u003e **预计阅读时间**: 50 分钟\n\n---\n\n## 目录\n\n1. [注意力机制概述](#注意力机制概述)\n2. [QKV 计算详解](#qkv-计算详解)\n3. [注意力分数计算](#注意力分数计算)\n4. [因果掩码机制](#因果掩码机制)\n5. [Softmax 稳定性优化](#softmax-稳定性优化)\n6. [注意力变体](#注意力变体)\n7. [注意力可视化](#注意力可视化)\n8. [代码实现](#代码实现)\n9. [面试要点](#面试要点)\n\n---\n\n## 注意力机制概述\n\n### 核心思想\n\n注意力机制模仿人类视觉注意力，让模型在处理信息时聚焦于最相关的部分。\n\n### 注意力通用形式\n\n$$\n\\text{Attention}(Q, K, V) = \\text{softmax}\\left(\\frac{f(Q, K)}{\\sqrt{d_k}}\\right)V\n$$\n\n其中 $f(Q, K)$ 是相似度函数，常见选择：\n\n| 相似度函数 | 公式 | 应用 |\n|------------|------|------|\n| 点积 | $QK^T$ | Transformer |\n| 缩放点积 | $\\frac{QK^T}{\\sqrt{d_k}}$ | Scaled Dot-Product |\n| 加性 | $v^T \\tanh(W_q Q + W_k K)$ | Bahdanau Attention |\n| 双线性 | $QWK^T$ | 特定任务 |\n\n---\n\n## QKV 计算详解\n\n### Query, Key, Value 的直观理解\n\n```\n类比：图书馆检索系统\n\nQuery (查询): 读者的问题 \"我想找关于机器学习的书\"\nKey (键): 书籍的标签/索引 [\"深度学习\", \"机器学习\", \"计算机视觉\", ...]\nValue (值): 书籍的实际内容\n\n注意力分数: 问题与标签的匹配程度\n输出: 根据匹配程度加权的书籍内容组合\n```\n\n### 数学推导\n\n给定输入 $X \\in \\mathbb{R}^{n \\times d}$：\n\n**Step 1: 线性投影**\n\n$$\n\\begin{aligned}\nQ \u0026= XW^Q \\in \\mathbb{R}^{n \\times d_k} \\\\\nK \u0026= XW^K \\in \\mathbb{R}^{n \\times d_k} \\\\\nV \u0026= XW^V \\in \\mathbb{R}^{n \\times d_v}\n\\end{aligned}\n$$\n\n**Step 2: 注意力权重计算**\n\n$$\nA = \\text{softmax}\\left(\\frac{QK^T}{\\sqrt{d_k}}\\right) \\in \\mathbb{R}^{n \\times n}\n$$\n\n**Step 3: 加权求和**\n\n$$\nO = AV \\in \\mathbb{R}^{n \\times d_v}\n$$\n\n### 维度变换可视化\n\n```\n输入 X: [batch_size, seq_len, d_model]\n           │\n           ├─── W^Q ───→ Q: [batch_size, seq_len, d_k]\n           ├─── W^K ───→ K: [batch_size, seq_len, d_k]\n           └─── W^V ───→ V: [batch_size, seq_len, d_v]\n\n注意力计算:\nQ × K^T: [batch_size, seq_len, d_k] × [batch_size, d_k, seq_len]\n       → [batch_size, seq_len, seq_len]  (注意力矩阵)\n\nSoftmax → A: [batch_size, seq_len, seq_len]\n\nA × V: [batch_size, seq_len, seq_len] × [batch_size, seq_len, d_v]\n     → [batch_size, seq_len, d_v]  (输出)\n```\n\n---\n\n## 注意力分数计算\n\n### Scaled Dot-Product\n\n$$\n\\text{score}(q, k) = \\frac{q \\cdot k}{\\sqrt{d_k}}\n$$\n\n**为什么需要缩放？**\n\n假设 $q, k$ 的每个元素是独立随机变量，均值为 0，方差为 1：\n\n$$\n\\text{Var}(q \\cdot k) = \\sum_{i=1}^{d_k} \\text{Var}(q_i k_i) = d_k \\cdot 1 \\cdot 1 = d_k\n$$\n\n因此点积的方差为 $d_k$，除以 $\\sqrt{d_k}$ 将方差缩放回 1。\n\n### 注意力矩阵分析\n\n对于序列长度 $n$，注意力矩阵 $A \\in \\mathbb{R}^{n \\times n}$：\n\n```\n        token1  token2  token3  token4  token5\ntoken1  [a11     a12     a13     a14     a15    ]\ntoken2  [a21     a22     a23     a24     a25    ]\ntoken3  [a31     a32     a33     a34     a35    ]\ntoken4  [a41     a42     a43     a44     a45    ]\ntoken5  [a51     a52     a53     a54     a55    ]\n\n每行和为 1 (softmax 归一化)\n```\n\n### 注意力模式类型\n\n| 模式 | 描述 | 示例 |\n|------|------|------|\n| 对角线 | 关注自身及邻近 | 局部语法 |\n| 垂直条纹 | 关注特定位置 | 标点、冠词 |\n| 块状 | 关注特定区域 | 句子边界 |\n| 稀疏分散 | 长距离依赖 | 指代消解 |\n\n---\n\n## 因果掩码机制\n\n### 为什么需要因果掩码\n\nDecoder 在生成序列时需要保持自回归特性：预测第 $i$ 个 token 时只能看到 $1$ 到 $i-1$ 的信息。\n\n### 因果掩码构造\n\n```\n位置:    1    2    3    4    5\n      ┌────┬────┬────┬────┬────┐\n   1  │ 1  │ 0  │ 0  │ 0  │ 0  │  只能看自己\n   2  │ 1  │ 1  │ 0  │ 0  │ 0  │  看前2个\n   3  │ 1  │ 1  │ 1  │ 0  │ 0  │  看前3个\n   4  │ 1  │ 1  │ 1  │ 1  │ 0  │  看前4个\n   5  │ 1  │ 1  │ 1  │ 1  │ 1  │  看全部\n      └────┴────┴────┴────┴────┘\n          下三角矩阵 (Lower Triangular)\n```\n\n### 数学表示\n\n$$\nM_{ij} = \\begin{cases} 1 \u0026 \\text{if } i \\geq j \\\\ 0 \u0026 \\text{if } i \u003c j \\end{cases}\n$$\n\n应用掩码：\n\n$$\n\\text{scores}_{\\text{masked}} = \\text{scores} \\cdot M + (1 - M) \\cdot (-\\infty)\n$$\n\n这样 $i \u003c j$ 的位置在 softmax 后变为 0。\n\n### 代码实现\n\n```python\nimport torch\n\ndef create_causal_mask(seq_len):\n    \"\"\"创建因果掩码\"\"\"\n    mask = torch.tril(torch.ones(seq_len, seq_len))  # 下三角矩阵\n    return mask  # [seq_len, seq_len]\n\n# 示例\nseq_len = 5\nmask = create_causal_mask(seq_len)\nprint(\"因果掩码:\")\nprint(mask)\n# tensor([[1., 0., 0., 0., 0.],\n#         [1., 1., 0., 0., 0.],\n#         [1., 1., 1., 0., 0.],\n#         [1., 1., 1., 1., 0.],\n#         [1., 1., 1., 1., 1.]])\n\n# 应用到注意力分数\ndef apply_causal_mask(scores, mask):\n    \"\"\"\n    scores: [batch_size, num_heads, seq_len, seq_len]\n    mask: [seq_len, seq_len]\n    \"\"\"\n    # 将 mask 为 0 的位置设为 -inf\n    masked_scores = scores.masked_fill(mask == 0, float('-inf'))\n    return masked_scores\n```\n\n---\n\n## Softmax 稳定性优化\n\n### 数值稳定性问题\n\n当注意力分数较大时，$e^{x}$ 可能溢出：\n\n```\nscores = [1000, 1000, 1000]\ne^1000 = inf (溢出!)\n```\n\n### Softmax 数值稳定技巧\n\n利用性质：$\\text{softmax}(x) = \\text{softmax}(x - c)$，对任意常数 $c$。\n\n通常选择 $c = \\max(x)$：\n\n$$\n\\text{softmax}(x_i) = \\frac{e^{x_i - \\max(x)}}{\\sum_j e^{x_j - \\max(x)}}\n$$\n\n```python\nimport numpy as np\n\ndef stable_softmax(x):\n    \"\"\"数值稳定的 softmax\"\"\"\n    # 减去最大值防止溢出\n    x_shifted = x - np.max(x, axis=-1, keepdims=True)\n    exp_x = np.exp(x_shifted)\n    return exp_x / np.sum(exp_x, axis=-1, keepdims=True)\n\n# 对比\nx = np.array([1000, 1000, 1000])\n\n# 不稳定版本\nprint(\"不稳定:\", np.exp(x) / np.sum(np.exp(x)))  # [nan, nan, nan]\n\n# 稳定版本\nprint(\"稳定:\", stable_softmax(x))  # [0.333, 0.333, 0.333]\n```\n\n### FlashAttention 的内存优化\n\n标准 Attention 实现需要存储 $O(n^2)$ 的注意力矩阵，FlashAttention 通过分块计算和重计算减少内存：\n\n```\n标准 Attention:\n  S = QK^T        # 存储 O(n^2)\n  P = softmax(S)  # 存储 O(n^2)\n  O = PV          # 存储 O(n^2)\n\nFlashAttention (分块):\n  将 Q, K, V 分成小块\n  逐块计算，只保留当前块的统计量\n  最终输出 O，不存储中间矩阵\n```\n\n---\n\n## 注意力变体\n\n### 1. 稀疏注意力 (Sparse Attention)\n\n解决 $O(n^2)$ 复杂度问题。\n\n**局部注意力 (Local Attention)**\n\n只关注窗口内的 token：\n\n```\n窗口大小 = 3\n位置:    1    2    3    4    5    6    7    8\n      ┌────┬────┬────┬────┬────┬────┬────┬────┐\n   1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │ 0  │ 0  │\n   2  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │ 0  │\n   3  │ 1  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │ 0  │\n   4  │ 0  │ 1  │ 1  │ 1  │ 1  │ 1  │ 0  │ 0  │\n   ...\n```\n\n复杂度：$O(n \\times w)$，$w$ 为窗口大小。\n\n**Longformer 模式**\n\n```\n局部窗口 + 全局注意力:\n- 每个 token 关注邻近 w 个 token\n- 特殊 token ([CLS]) 关注全部\n- 每个 token 关注 [CLS]\n```\n\n### 2. 线性注意力 (Linear Attention)\n\n通过核技巧将复杂度降至 $O(n)$：\n\n$$\n\\text{Attention}(Q, K, V)_i = \\frac{\\phi(Q_i)^T \\sum_{j=1}^i \\phi(K_j)V_j^T}{\\phi(Q_i)^T \\sum_{j=1}^i \\phi(K_j)}\n$$\n\n其中 $\\phi$ 是特征映射（如 $\\phi(x) = \\text{elu}(x) + 1$）。\n\n### 3. 分组查询注意力 (GQA)\n\n平衡 MHA 和 MQA：\n\n```\nMHA: 每个头有独立的 K, V\n     Q1-K1-V1, Q2-K2-V2, Q3-K3-V3, Q4-K4-V4\n\nMQA: 所有头共享 K, V\n     Q1-K-V, Q2-K-V, Q3-K-V, Q4-K-V\n\nGQA: 头分组共享 K, V\n     Q1-K1-V1, Q2-K1-V1, Q3-K2-V2, Q4-K2-V2\n```\n\n详见 [KV Cache 优化](/kb/llm/kv-9idzm9)。\n\n### 4. 交叉注意力 (Cross Attention)\n\n用于 Encoder-Decoder 架构，Q 来自 Decoder，K/V 来自 Encoder：\n\n```\nDecoder Query ──┐\n                ├──→ Attention ──→ Output\nEncoder Key  ───┤\nEncoder Value ──┘\n```\n\n---\n\n## 注意力可视化\n\n### 注意力头 specialization\n\n不同头学习不同的注意力模式：\n\n```\nHead 0: 关注下一个词 (局部语法)\nHead 1: 关注 [SEP] 或标点\nHead 2: 关注相同词 (重复模式)\nHead 3: 关注语义相关词\nHead 4: 关注主语-动词关系\n...\n```\n\n### 可视化代码\n\n```python\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\ndef visualize_attention(attention_weights, tokens, layer=0, head=0):\n    \"\"\"\n    attention_weights: [num_layers, num_heads, seq_len, seq_len]\n    tokens: list of token strings\n    \"\"\"\n    attn = attention_weights[layer, head].cpu().numpy()\n\n    plt.figure(figsize=(10, 8))\n    sns.heatmap(attn,\n                xticklabels=tokens,\n                yticklabels=tokens,\n                cmap='YlOrRd',\n                cbar_kws={'label': 'Attention Weight'})\n    plt.title(f'Layer {layer}, Head {head}')\n    plt.xlabel('Key')\n    plt.ylabel('Query')\n    plt.tight_layout()\n    plt.show()\n\n# 使用示例\n# tokens = ['[CLS]', 'The', 'cat', 'sat', 'on', 'the', 'mat', '[SEP]']\n# visualize_attention(attn_weights, tokens, layer=8, head=3)\n```\n\n---\n\n## 代码实现\n\n### 完整的 Self-Attention 实现\n\n```python\nimport torch\nimport torch.nn as nn\nimport math\n\nclass SelfAttention(nn.Module):\n    \"\"\"\n    完整的 Self-Attention 实现，包含所有优化技巧\n    \"\"\"\n    def __init__(self, d_model, num_heads, dropout=0.1):\n        super().__init__()\n        assert d_model % num_heads == 0\n\n        self.d_model = d_model\n        self.num_heads = num_heads\n        self.d_k = d_model // num_heads\n\n        # 线性投影\n        self.W_q = nn.Linear(d_model, d_model)\n        self.W_k = nn.Linear(d_model, d_model)\n        self.W_v = nn.Linear(d_model, d_model)\n        self.W_o = nn.Linear(d_model, d_model)\n\n        self.dropout = nn.Dropout(dropout)\n\n    def forward(self, x, mask=None, is_causal=False):\n        \"\"\"\n        Args:\n            x: [batch_size, seq_len, d_model]\n            mask: [batch_size, seq_len, seq_len] 或 [seq_len, seq_len]\n            is_causal: 是否使用因果掩码\n        \"\"\"\n        batch_size, seq_len, _ = x.shape\n\n        # 1. 线性投影并分头\n        Q = self.W_q(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)\n        K = self.W_k(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)\n        V = self.W_v(x).view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)\n        # [batch_size, num_heads, seq_len, d_k]\n\n        # 2. 计算注意力分数\n        scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.d_k)\n        # [batch_size, num_heads, seq_len, seq_len]\n\n        # 3. 应用掩码\n        if is_causal:\n            causal_mask = torch.tril(torch.ones(seq_len, seq_len, device=x.device))\n            scores = scores.masked_fill(causal_mask == 0, float('-inf'))\n\n        if mask is not None:\n            scores = scores.masked_fill(mask == 0, float('-inf'))\n\n        # 4. Softmax 和 Dropout\n        attn_weights = torch.softmax(scores, dim=-1)\n        attn_weights = self.dropout(attn_weights)\n\n        # 5. 加权求和\n        output = torch.matmul(attn_weights, V)\n        # [batch_size, num_heads, seq_len, d_k]\n\n        # 6. 合并多头\n        output = output.transpose(1, 2).contiguous().view(batch_size, seq_len, self.d_model)\n\n        # 7. 最终线性投影\n        return self.W_o(output)\n\n\n# 使用 PyTorch 内置的高效实现\nclass EfficientSelfAttention(nn.Module):\n    \"\"\"使用 scaled_dot_product_attention (PyTorch 2.0+)\"\"\"\n    def __init__(self, d_model, num_heads, dropout=0.1):\n        super().__init__()\n        self.d_model = d_model\n        self.num_heads = num_heads\n\n        self.W_q = nn.Linear(d_model, d_model)\n        self.W_k = nn.Linear(d_model, d_model)\n        self.W_v = nn.Linear(d_model, d_model)\n        self.W_o = nn.Linear(d_model, d_model)\n\n        self.dropout = dropout\n\n    def forward(self, x, is_causal=False):\n        batch_size, seq_len, _ = x.shape\n\n        Q = self.W_q(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)\n        K = self.W_k(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)\n        V = self.W_v(x).view(batch_size, seq_len, self.num_heads, -1).transpose(1, 2)\n\n        # 使用高效的 flash attention 实现\n        output = torch.nn.functional.scaled_dot_product_attention(\n            Q, K, V,\n            dropout_p=self.dropout if self.training else 0.0,\n            is_causal=is_causal\n        )\n\n        output = output.transpose(1, 2).contiguous().view(batch_size, seq_len, self.d_model)\n        return self.W_o(output)\n```\n\n---\n\n## 面试要点\n\n### 高频问题\n\n**Q1: QKV 分别代表什么？为什么要这样设计？**\n\nA:\n- Q (Query): 查询，表示当前要关注什么\n- K (Key): 键，表示每个位置能提供什么信息\n- V (Value): 值，表示每个位置的实际内容\n\n设计灵感来自信息检索系统，通过 QK 匹配确定关注权重，再对 V 加权求和。\n\n**Q2: 注意力矩阵为什么要除以 $\\sqrt{d_k}$？**\n\nA:\n1. 当 $d_k$ 较大时，点积的方差会增大（$\\text{Var} = d_k$）\n2. 大的点积值会导致 softmax 进入梯度极小的饱和区\n3. 除以 $\\sqrt{d_k}$ 将方差缩放回 1，保持数值稳定性\n\n**Q3: 因果掩码是如何实现的？**\n\nA:\n1. 构造下三角矩阵 $M$，$M_{ij} = 1$ if $i \\geq j$ else 0\n2. 将注意力分数中 $M_{ij} = 0$ 的位置设为 $-\\infty$\n3. Softmax 后这些位置变为 0，实现只关注过去信息\n\n**Q4: Self-Attention 的时间复杂度和空间复杂度？**\n\nA:\n- 时间复杂度: $O(n^2 \\cdot d)$，主要来自 $QK^T$ 的计算\n- 空间复杂度: $O(n^2)$，需要存储注意力矩阵\n- 这是 Transformer 处理长序列的主要瓶颈\n\n**Q5: MHA、MQA、GQA 的区别？**\n\nA:\n- MHA (Multi-Head Attention): 每个头有独立的 QKV，效果最好但慢\n- MQA (Multi-Query Attention): 所有头共享 KV，推理快但效果略降\n- GQA (Grouped-Query Attention): 折中方案，头分组共享 KV\n\n### 手撕代码重点\n\n1. **Scaled Dot-Product Attention** 完整实现\n2. **因果掩码** 构造与应用\n3. **多头注意力** 的维度变换\n4. **数值稳定 Softmax** 实现\n\n---\n\n## 相关文档\n\n- [Transformer 详解](/kb/llm/transformer-qwfbd0) - Transformer 完整架构\n- [KV Cache 优化](/kb/llm/kv-9idzm9) - MQA/GQA 详解\n- [位置编码技术演进](/kb/llm/doc-ne91sy) - 位置编码方法对比\n\n---\n\n## 参考文献\n\n1. Vaswani et al. \"Attention Is All You Need\". NeurIPS 2017.\n2. Dao et al. \"FlashAttention: Fast and Memory-Efficient Exact Attention\". NeurIPS 2022.\n3. Ainslie et al. \"GQA: Training Generalized Multi-Query Transformer Models\". 2023.\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"$Lf\",null,{\"document\":{\"slug\":\"doc-kvxpkx\",\"title\":\"注意力机制深入理解\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"LLM\",\"categoryId\":\"llm\",\"content\":\"$10\",\"filePath\":\"基础架构/注意力机制深入理解.md\",\"default\":{\"slug\":\"doc-kvxpkx\",\"title\":\"注意力机制深入理解\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"LLM\",\"categoryId\":\"llm\",\"content\":\"$11\",\"filePath\":\"基础架构/注意力机制深入理解.md\"}}}]\nc:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"注意力机制深入理解 - LLM | Jerry Xu\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"注意力机制深入理解\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"5\",{\"name\":\"keywords\",\"content\":\"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"zh_CN\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发\"}]]\n3:null\n"])</script></body></html>

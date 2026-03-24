@@ -1,0 +1,1294 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","bert-174ici","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","bert-174ici","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"bert-174ici\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","bert-174ici","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T48fe,# BERT 与编码器模型
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 50 分钟
+
+---
+
+## 目录
+
+1. [BERT 概述](#bert-概述)
+2. [预训练任务](#预训练任务)
+3. [BERT 架构详解](#bert-架构详解)
+4. [BERT 变体](#bert-变体)
+5. [编码器 vs 解码器](#编码器-vs-解码器)
+6. [面试要点](#面试要点)
+
+---
+
+## BERT 概述
+
+### 什么是 BERT
+
+**BERT** (Bidirectional Encoder Representations from Transformers) 是 Google 于 2018 年提出的预训练语言模型，开创了 NLP 预训练的新时代。
+
+```
+BERT 核心创新:
+1. 双向编码: 同时利用上下文信息
+2. 预训练+微调范式: 通用预训练 + 下游任务微调
+3. 深层双向: 12-24 层 Transformer Encoder
+```
+
+### BERT 模型规模
+
+| 模型 | 层数 | 隐藏维度 | 参数量 | 注意力头数 |
+|------|------|----------|--------|------------|
+| BERT-Base | 12 | 768 | 110M | 12 |
+| BERT-Large | 24 | 1024 | 340M | 16 |
+| BERT-Tiny | 2 | 128 | 4M | 2 |
+
+---
+
+## 预训练任务
+
+### Masked Language Model (MLM)
+
+```python
+class MaskedLM(nn.Module):
+    """
+    MLM: 随机 mask 部分 token，让模型预测
+
+    示例:
+    输入: "今天 [MASK] 气很好"
+    输出: "天"
+    """
+
+    def __init__(self, bert_model, vocab_size):
+        super().__init__()
+        self.bert = bert_model
+        self.cls = nn.Linear(bert_model.config.hidden_size, vocab_size)
+
+    def forward(self, input_ids, attention_mask, labels=None):
+        """
+        input_ids: [batch, seq_len]
+        labels: [batch, seq_len] (-100 表示非 mask 位置)
+        """
+        # BERT 编码
+        outputs = self.bert(input_ids, attention_mask)
+        sequence_output = outputs.last_hidden_state  # [batch, seq_len, hidden]
+
+        # 预测 vocab
+        prediction_scores = self.cls(sequence_output)  # [batch, seq_len, vocab_size]
+
+        loss = None
+        if labels is not None:
+            # 只在 mask 位置计算损失
+            loss_fct = nn.CrossEntropyLoss(ignore_index=-100)
+            loss = loss_fct(
+                prediction_scores.view(-1, self.config.vocab_size),
+                labels.view(-1)
+            )
+
+        return {'loss': loss, 'logits': prediction_scores}
+
+
+def create_mlm_inputs(tokens, vocab, mask_prob=0.15):
+    """
+    创建 MLM 训练数据
+
+    对于被 mask 的 token:
+    - 80% 概率替换为 [MASK]
+    - 10% 概率替换为随机 token
+    - 10% 概率保持不变
+    """
+    labels = [-100] * len(tokens)  # -100 表示不计算损失
+    masked_tokens = tokens.copy()
+
+    for i in range(len(tokens)):
+        if random.random() < mask_prob:
+            labels[i] = vocab[tokens[i]]  # 记录真实标签
+
+            prob = random.random()
+            if prob < 0.8:
+                masked_tokens[i] = "[MASK]"
+            elif prob < 0.9:
+                # 随机 token
+                masked_tokens[i] = random.choice(list(vocab.keys()))
+            # else: 10% 保持不变
+
+    return masked_tokens, labels
+```
+
+### Next Sentence Prediction (NSP)
+
+```python
+class NextSentencePrediction(nn.Module):
+    """
+    NSP: 预测两个句子是否有上下文关系
+
+    示例:
+    句子 A: "今天天气很好"
+    句子 B: "我想出去散步" → IsNext (是连续的)
+
+    句子 A: "今天天气很好"
+    句子 B: "机器学习很有趣" → NotNext (不是连续的)
+    """
+
+    def __init__(self, bert_model):
+        super().__init__()
+        self.bert = bert_model
+        # 二分类: IsNext / NotNext
+        self.nsp = nn.Linear(bert_model.config.hidden_size, 2)
+
+    def forward(self, input_ids, attention_mask, token_type_ids, labels=None):
+        """
+        token_type_ids: 0 表示句子 A, 1 表示句子 B
+        """
+        outputs = self.bert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids
+        )
+
+        # 取 [CLS] token 的表示
+        pooled_output = outputs.pooler_output  # [batch, hidden]
+
+        # 分类
+        logits = self.nsp(pooled_output)  # [batch, 2]
+
+        loss = None
+        if labels is not None:
+            loss_fct = nn.CrossEntropyLoss()
+            loss = loss_fct(logits, labels)
+
+        return {'loss': loss, 'logits': logits}
+
+
+def create_nsp_inputs(documents, nsp_prob=0.5):
+    """创建 NSP 训练数据"""
+
+    examples = []
+
+    for doc in documents:
+        sentences = doc.split('。')
+
+        for i in range(len(sentences) - 1):
+            # 句子 A
+            sentence_a = sentences[i]
+
+            if random.random() < nsp_prob:
+                # 50% 概率: 真实的下一句
+                sentence_b = sentences[i + 1]
+                label = 1  # IsNext
+            else:
+                # 50% 概率: 随机句子
+                sentence_b = random.choice(random.choice(documents).split('。'))
+                label = 0  # NotNext
+
+            examples.append({
+                'sentence_a': sentence_a,
+                'sentence_b': sentence_b,
+                'label': label
+            })
+
+    return examples
+```
+
+---
+
+## BERT 架构详解
+
+### 完整 BERT 实现
+
+```python
+class BertEmbeddings(nn.Module):
+    """BERT 嵌入层"""
+
+    def __init__(self, vocab_size, hidden_size, max_position_embeddings=512,
+                 type_vocab_size=2, dropout=0.1):
+        super().__init__()
+
+        # Token 嵌入
+        self.word_embeddings = nn.Embedding(vocab_size, hidden_size)
+
+        # 位置嵌入 (可学习)
+        self.position_embeddings = nn.Embedding(max_position_embeddings, hidden_size)
+
+        # Token Type 嵌入 (句子 A/B)
+        self.token_type_embeddings = nn.Embedding(type_vocab_size, hidden_size)
+
+        self.LayerNorm = nn.LayerNorm(hidden_size)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, input_ids, token_type_ids=None, position_ids=None):
+        batch_size, seq_len = input_ids.shape
+
+        if position_ids is None:
+            position_ids = torch.arange(seq_len, device=input_ids.device)
+            position_ids = position_ids.unsqueeze(0).expand(batch_size, -1)
+
+        if token_type_ids is None:
+            token_type_ids = torch.zeros_like(input_ids)
+
+        # 三种嵌入相加
+        word_embeds = self.word_embeddings(input_ids)
+        position_embeds = self.position_embeddings(position_ids)
+        token_type_embeds = self.token_type_embeddings(token_type_ids)
+
+        embeddings = word_embeds + position_embeds + token_type_embeds
+        embeddings = self.LayerNorm(embeddings)
+        embeddings = self.dropout(embeddings)
+
+        return embeddings
+
+
+class BertEncoder(nn.Module):
+    """BERT 编码器: 多层 Transformer Encoder"""
+
+    def __init__(self, hidden_size=768, num_hidden_layers=12,
+                 num_attention_heads=12, intermediate_size=3072, dropout=0.1):
+        super().__init__()
+
+        self.layer = nn.ModuleList([
+            BertLayer(hidden_size, num_attention_heads, intermediate_size, dropout)
+            for _ in range(num_hidden_layers)
+        ])
+
+    def forward(self, hidden_states, attention_mask=None):
+        all_hidden_states = []
+
+        for layer in self.layer:
+            hidden_states = layer(hidden_states, attention_mask)
+            all_hidden_states.append(hidden_states)
+
+        return hidden_states, all_hidden_states
+
+
+class BertLayer(nn.Module):
+    """单层 BERT (Transformer Encoder Layer)"""
+
+    def __init__(self, hidden_size, num_attention_heads, intermediate_size, dropout):
+        super().__init__()
+
+        # 自注意力
+        self.attention = BertAttention(hidden_size, num_attention_heads, dropout)
+
+        # 前馈网络
+        self.intermediate = nn.Linear(hidden_size, intermediate_size)
+        self.intermediate_act = nn.GELU()
+
+        self.output = nn.Linear(intermediate_size, hidden_size)
+        self.output_dropout = nn.Dropout(dropout)
+        self.output_layernorm = nn.LayerNorm(hidden_size)
+
+    def forward(self, hidden_states, attention_mask=None):
+        # 1. 自注意力
+        attention_output = self.attention(hidden_states, attention_mask)
+
+        # 2. 前馈网络
+        intermediate_output = self.intermediate(attention_output)
+        intermediate_output = self.intermediate_act(intermediate_output)
+
+        layer_output = self.output(intermediate_output)
+        layer_output = self.output_dropout(layer_output)
+        layer_output = self.output_layernorm(layer_output + attention_output)
+
+        return layer_output
+
+
+class BertAttention(nn.Module):
+    """BERT 自注意力"""
+
+    def __init__(self, hidden_size, num_attention_heads, dropout):
+        super().__init__()
+
+        self.num_attention_heads = num_attention_heads
+        self.attention_head_size = hidden_size // num_attention_heads
+
+        # Q, K, V 投影
+        self.query = nn.Linear(hidden_size, hidden_size)
+        self.key = nn.Linear(hidden_size, hidden_size)
+        self.value = nn.Linear(hidden_size, hidden_size)
+
+        self.dropout = nn.Dropout(dropout)
+        self.dense = nn.Linear(hidden_size, hidden_size)
+        self.LayerNorm = nn.LayerNorm(hidden_size)
+
+    def forward(self, hidden_states, attention_mask=None):
+        batch_size, seq_len, _ = hidden_states.shape
+
+        # 投影并分头
+        Q = self.query(hidden_states).view(
+            batch_size, seq_len, self.num_attention_heads, self.attention_head_size
+        ).transpose(1, 2)
+
+        K = self.key(hidden_states).view(
+            batch_size, seq_len, self.num_attention_heads, self.attention_head_size
+        ).transpose(1, 2)
+
+        V = self.value(hidden_states).view(
+            batch_size, seq_len, self.num_attention_heads, self.attention_head_size
+        ).transpose(1, 2)
+
+        # 注意力计算
+        scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.attention_head_size)
+
+        # 应用 attention mask
+        if attention_mask is not None:
+            scores = scores + attention_mask
+
+        attn_weights = F.softmax(scores, dim=-1)
+        attn_weights = self.dropout(attn_weights)
+
+        # 加权求和
+        attn_output = torch.matmul(attn_weights, V)
+
+        # 合并头
+        attn_output = attn_output.transpose(1, 2).contiguous()
+        attn_output = attn_output.view(batch_size, seq_len, -1)
+
+        # 输出投影
+        output = self.dense(attn_output)
+        output = self.dropout(output)
+        output = self.LayerNorm(output + hidden_states)
+
+        return output
+
+
+class BertModel(nn.Module):
+    """完整 BERT 模型"""
+
+    def __init__(self, vocab_size=30522, hidden_size=768, num_hidden_layers=12,
+                 num_attention_heads=12, intermediate_size=3072, max_position=512):
+        super().__init__()
+
+        self.embeddings = BertEmbeddings(
+            vocab_size, hidden_size, max_position
+        )
+
+        self.encoder = BertEncoder(
+            hidden_size, num_hidden_layers,
+            num_attention_heads, intermediate_size
+        )
+
+        # Pooler: 用于句子级别任务
+        self.pooler = nn.Linear(hidden_size, hidden_size)
+        self.pooler_activation = nn.Tanh()
+
+    def forward(self, input_ids, attention_mask=None, token_type_ids=None):
+        # 嵌入
+        embedding_output = self.embeddings(input_ids, token_type_ids)
+
+        # 编码
+        if attention_mask is not None:
+            # 将 attention_mask 转为相加形式
+            attention_mask = (1.0 - attention_mask[:, None, None, :]) * -10000.0
+
+        sequence_output, all_hidden_states = self.encoder(
+            embedding_output, attention_mask
+        )
+
+        # Pooler: 取 [CLS] token
+        pooled_output = self.pooler_activation(
+            self.pooler(sequence_output[:, 0])
+        )
+
+        return {
+            'last_hidden_state': sequence_output,
+            'pooler_output': pooled_output,
+            'hidden_states': all_hidden_states
+        }
+```
+
+---
+
+## BERT 变体
+
+### RoBERTa
+
+```python
+# RoBERTa 改进:
+# 1. 动态掩码: 每个 epoch 重新随机 mask
+# 2. 移除 NSP 任务
+# 3. 更大的 batch size
+# 4. 更长的训练时间
+# 5. 更大的语料
+
+class DynamicMasking:
+    """动态掩码"""
+
+    def __init__(self, tokenizer, mask_prob=0.15):
+        self.tokenizer = tokenizer
+        self.mask_prob = mask_prob
+
+    def __call__(self, examples):
+        """每个 epoch 重新 mask"""
+        masked_inputs = []
+
+        for text in examples:
+            tokens = self.tokenizer.tokenize(text)
+            masked_tokens, labels = self.mask_tokens(tokens)
+            masked_inputs.append({
+                'input_ids': self.tokenizer.convert_tokens_to_ids(masked_tokens),
+                'labels': labels
+            })
+
+        return masked_inputs
+```
+
+### ALBERT
+
+```python
+# ALBERT 改进:
+# 1. 因子化嵌入: 将大 vocab embedding 分解为两个小的矩阵
+# 2. 跨层参数共享: 所有层共享同一套参数
+# 3. SOP (Sentence Order Prediction) 替代 NSP
+
+class AlbertEmbeddings(nn.Module):
+    """ALBERT 因子化嵌入"""
+
+    def __init__(self, vocab_size, embedding_size, hidden_size):
+        super().__init__()
+
+        # 因子化: vocab_size -> embedding_size -> hidden_size
+        self.word_embeddings = nn.Embedding(vocab_size, embedding_size)
+        self.embedding_projection = nn.Linear(embedding_size, hidden_size)
+
+        # ... 其他嵌入
+
+    def forward(self, input_ids):
+        word_embeds = self.word_embeddings(input_ids)
+        # 投影到隐藏维度
+        projected = self.embedding_projection(word_embeds)
+        return projected
+
+
+class AlbertTransformer(nn.Module):
+    """ALBERT: 跨层参数共享"""
+
+    def __init__(self, hidden_size, num_layers):
+        super().__init__()
+
+        # 只有一层，重复使用
+        self.layer = BertLayer(hidden_size)
+        self.num_layers = num_layers
+
+    def forward(self, hidden_states, attention_mask):
+        all_hidden_states = []
+
+        for _ in range(self.num_layers):
+            hidden_states = self.layer(hidden_states, attention_mask)
+            all_hidden_states.append(hidden_states)
+
+        return hidden_states, all_hidden_states
+```
+
+### ELECTRA
+
+```python
+# ELECTRA: 使用判别式预训练替代生成式
+
+class Electra(nn.Module):
+    """
+    ELECTRA 预训练:
+    1. 使用小 Generator 生成替换 token
+    2. 使用 Discriminator 判断每个 token 是否被替换
+    """
+
+    def __init__(self, generator, discriminator):
+        super().__init__()
+        self.generator = generator  # 小 BERT
+        self.discriminator = discriminator  # 判别器
+
+    def forward(self, input_ids, masked_positions):
+        """
+        1. 用 Generator 预测 masked token
+        2. 用预测结果替换原 token
+        3. Discriminator 判断每个位置是否被替换
+        """
+        # Generator
+        gen_logits = self.generator(input_ids)
+        gen_predictions = gen_logits.argmax(dim=-1)
+
+        # 构造替换后的输入
+        corrupted_input = input_ids.clone()
+        corrupted_input[masked_positions] = gen_predictions[masked_positions]
+
+        # Discriminator 判断
+        disc_logits = self.discriminator(corrupted_input)
+
+        return gen_logits, disc_logits
+```
+
+---
+
+## 编码器 vs 解码器
+
+### 架构对比
+
+| 特性 | Encoder (BERT) | Decoder (GPT) | Encoder-Decoder (T5) |
+|------|----------------|---------------|----------------------|
+| 注意力 | 双向 | 单向 (因果) | Encoder双向, Decoder单向 |
+| 预训练任务 | MLM, NSP | 自回归生成 | Span Corruption |
+| 适合任务 | 理解任务 | 生成任务 | 翻译、摘要 |
+| 代表模型 | BERT, RoBERTa, ALBERT | GPT-2/3/4, LLaMA | T5, BART |
+
+### 使用场景
+
+```python
+# 编码器适合的任务:
+- 文本分类: 情感分析、主题分类
+- 序列标注: NER、POS tagging
+- 句子关系: 语义相似度、NLI
+- 抽取式 QA
+
+# 解码器适合的任务:
+- 文本生成: 续写、创作
+- 对话系统
+- 生成式 QA
+- 代码生成
+
+# Encoder-Decoder 适合的任务:
+- 机器翻译
+- 文本摘要
+- 文本改写
+```
+
+### 注意力掩码对比
+
+```python
+# BERT: 双向注意力 (全可见)
+def create_bert_attention_mask(seq_len):
+    """BERT: 所有位置互相可见"""
+    return torch.ones(seq_len, seq_len)
+
+
+# GPT: 因果注意力 (只能看到过去)
+def create_gpt_attention_mask(seq_len):
+    """GPT: 只能看到当前及之前的位置"""
+    mask = torch.tril(torch.ones(seq_len, seq_len))
+    return mask
+
+
+# T5 Encoder: 双向
+# T5 Decoder: 因果 (带 cross-attention 到 encoder)
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: BERT 的预训练任务是什么？**
+
+A:
+1. **MLM (Masked Language Model)**: 随机 mask 15% 的 token，让模型预测
+   - 80% 概率替换为 [MASK]
+   - 10% 概率替换为随机 token
+   - 10% 概率保持不变
+
+2. **NSP (Next Sentence Prediction)**: 预测两个句子是否有上下文关系
+
+**Q2: BERT 和 GPT 的主要区别？**
+
+A:
+| 维度 | BERT | GPT |
+|------|------|-----|
+| 架构 | Transformer Encoder | Transformer Decoder |
+| 注意力 | 双向 | 单向 (因果) |
+| 预训练 | MLM | 自回归 |
+| 优势 | 理解任务 | 生成任务 |
+
+**Q3: 为什么 BERT 使用双向注意力而 GPT 使用单向？**
+
+A:
+- **BERT**: 目标是理解上下文，双向注意力可以同时利用左右信息
+- **GPT**: 目标是生成文本，只能基于已生成的 token，不能"偷看"未来的 token
+
+**Q4: MLM 中为什么 10% 的 mask 位置保持不变？**
+
+A:
+为了让模型学会在输入是真实 token 时也能正确预测，而不是只学会从 [MASK] 预测。这:
+1. 减少预训练和微调的不一致 (微调时没有 [MASK])
+2. 保持一部分真实输入的信息
+
+**Q5: RoBERTa 相比 BERT 有哪些改进？**
+
+A:
+1. **动态掩码**: 每个 epoch 重新随机 mask
+2. **移除 NSP**: 发现 NSP 对下游任务帮助不大
+3. **更大 batch**: 8k 样本/batch
+4. **更多数据**: 160GB vs 16GB
+5. **更长训练**: 更多训练步数
+
+**Q6: BERT 的位置编码是什么？**
+
+A:
+BERT 使用**可学习的位置编码** (Learned Positional Embedding)，而非正弦位置编码。
+
+```python
+self.position_embeddings = nn.Embedding(max_position_embeddings, hidden_size)
+```
+
+---
+
+## 相关文档
+
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [GPT系列模型演进](/kb/llm/gpt-5ep6g8) - 解码器模型
+- [多模态基础架构](/kb/llm/doc-2l8y4y) - 视觉编码器
+
+---
+
+## 参考文献
+
+1. Devlin et al. "BERT: Pre-training of Deep Bidirectional Transformers". 2019.
+2. Liu et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach". 2019.
+3. Lan et al. "ALBERT: A Lite BERT for Self-supervised Learning". 2020.
+4. Clark et al. "ELECTRA: Pre-training Text Encoders as Discriminators". 2020.
+d:T48fe,# BERT 与编码器模型
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 50 分钟
+
+---
+
+## 目录
+
+1. [BERT 概述](#bert-概述)
+2. [预训练任务](#预训练任务)
+3. [BERT 架构详解](#bert-架构详解)
+4. [BERT 变体](#bert-变体)
+5. [编码器 vs 解码器](#编码器-vs-解码器)
+6. [面试要点](#面试要点)
+
+---
+
+## BERT 概述
+
+### 什么是 BERT
+
+**BERT** (Bidirectional Encoder Representations from Transformers) 是 Google 于 2018 年提出的预训练语言模型，开创了 NLP 预训练的新时代。
+
+```
+BERT 核心创新:
+1. 双向编码: 同时利用上下文信息
+2. 预训练+微调范式: 通用预训练 + 下游任务微调
+3. 深层双向: 12-24 层 Transformer Encoder
+```
+
+### BERT 模型规模
+
+| 模型 | 层数 | 隐藏维度 | 参数量 | 注意力头数 |
+|------|------|----------|--------|------------|
+| BERT-Base | 12 | 768 | 110M | 12 |
+| BERT-Large | 24 | 1024 | 340M | 16 |
+| BERT-Tiny | 2 | 128 | 4M | 2 |
+
+---
+
+## 预训练任务
+
+### Masked Language Model (MLM)
+
+```python
+class MaskedLM(nn.Module):
+    """
+    MLM: 随机 mask 部分 token，让模型预测
+
+    示例:
+    输入: "今天 [MASK] 气很好"
+    输出: "天"
+    """
+
+    def __init__(self, bert_model, vocab_size):
+        super().__init__()
+        self.bert = bert_model
+        self.cls = nn.Linear(bert_model.config.hidden_size, vocab_size)
+
+    def forward(self, input_ids, attention_mask, labels=None):
+        """
+        input_ids: [batch, seq_len]
+        labels: [batch, seq_len] (-100 表示非 mask 位置)
+        """
+        # BERT 编码
+        outputs = self.bert(input_ids, attention_mask)
+        sequence_output = outputs.last_hidden_state  # [batch, seq_len, hidden]
+
+        # 预测 vocab
+        prediction_scores = self.cls(sequence_output)  # [batch, seq_len, vocab_size]
+
+        loss = None
+        if labels is not None:
+            # 只在 mask 位置计算损失
+            loss_fct = nn.CrossEntropyLoss(ignore_index=-100)
+            loss = loss_fct(
+                prediction_scores.view(-1, self.config.vocab_size),
+                labels.view(-1)
+            )
+
+        return {'loss': loss, 'logits': prediction_scores}
+
+
+def create_mlm_inputs(tokens, vocab, mask_prob=0.15):
+    """
+    创建 MLM 训练数据
+
+    对于被 mask 的 token:
+    - 80% 概率替换为 [MASK]
+    - 10% 概率替换为随机 token
+    - 10% 概率保持不变
+    """
+    labels = [-100] * len(tokens)  # -100 表示不计算损失
+    masked_tokens = tokens.copy()
+
+    for i in range(len(tokens)):
+        if random.random() < mask_prob:
+            labels[i] = vocab[tokens[i]]  # 记录真实标签
+
+            prob = random.random()
+            if prob < 0.8:
+                masked_tokens[i] = "[MASK]"
+            elif prob < 0.9:
+                # 随机 token
+                masked_tokens[i] = random.choice(list(vocab.keys()))
+            # else: 10% 保持不变
+
+    return masked_tokens, labels
+```
+
+### Next Sentence Prediction (NSP)
+
+```python
+class NextSentencePrediction(nn.Module):
+    """
+    NSP: 预测两个句子是否有上下文关系
+
+    示例:
+    句子 A: "今天天气很好"
+    句子 B: "我想出去散步" → IsNext (是连续的)
+
+    句子 A: "今天天气很好"
+    句子 B: "机器学习很有趣" → NotNext (不是连续的)
+    """
+
+    def __init__(self, bert_model):
+        super().__init__()
+        self.bert = bert_model
+        # 二分类: IsNext / NotNext
+        self.nsp = nn.Linear(bert_model.config.hidden_size, 2)
+
+    def forward(self, input_ids, attention_mask, token_type_ids, labels=None):
+        """
+        token_type_ids: 0 表示句子 A, 1 表示句子 B
+        """
+        outputs = self.bert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids
+        )
+
+        # 取 [CLS] token 的表示
+        pooled_output = outputs.pooler_output  # [batch, hidden]
+
+        # 分类
+        logits = self.nsp(pooled_output)  # [batch, 2]
+
+        loss = None
+        if labels is not None:
+            loss_fct = nn.CrossEntropyLoss()
+            loss = loss_fct(logits, labels)
+
+        return {'loss': loss, 'logits': logits}
+
+
+def create_nsp_inputs(documents, nsp_prob=0.5):
+    """创建 NSP 训练数据"""
+
+    examples = []
+
+    for doc in documents:
+        sentences = doc.split('。')
+
+        for i in range(len(sentences) - 1):
+            # 句子 A
+            sentence_a = sentences[i]
+
+            if random.random() < nsp_prob:
+                # 50% 概率: 真实的下一句
+                sentence_b = sentences[i + 1]
+                label = 1  # IsNext
+            else:
+                # 50% 概率: 随机句子
+                sentence_b = random.choice(random.choice(documents).split('。'))
+                label = 0  # NotNext
+
+            examples.append({
+                'sentence_a': sentence_a,
+                'sentence_b': sentence_b,
+                'label': label
+            })
+
+    return examples
+```
+
+---
+
+## BERT 架构详解
+
+### 完整 BERT 实现
+
+```python
+class BertEmbeddings(nn.Module):
+    """BERT 嵌入层"""
+
+    def __init__(self, vocab_size, hidden_size, max_position_embeddings=512,
+                 type_vocab_size=2, dropout=0.1):
+        super().__init__()
+
+        # Token 嵌入
+        self.word_embeddings = nn.Embedding(vocab_size, hidden_size)
+
+        # 位置嵌入 (可学习)
+        self.position_embeddings = nn.Embedding(max_position_embeddings, hidden_size)
+
+        # Token Type 嵌入 (句子 A/B)
+        self.token_type_embeddings = nn.Embedding(type_vocab_size, hidden_size)
+
+        self.LayerNorm = nn.LayerNorm(hidden_size)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, input_ids, token_type_ids=None, position_ids=None):
+        batch_size, seq_len = input_ids.shape
+
+        if position_ids is None:
+            position_ids = torch.arange(seq_len, device=input_ids.device)
+            position_ids = position_ids.unsqueeze(0).expand(batch_size, -1)
+
+        if token_type_ids is None:
+            token_type_ids = torch.zeros_like(input_ids)
+
+        # 三种嵌入相加
+        word_embeds = self.word_embeddings(input_ids)
+        position_embeds = self.position_embeddings(position_ids)
+        token_type_embeds = self.token_type_embeddings(token_type_ids)
+
+        embeddings = word_embeds + position_embeds + token_type_embeds
+        embeddings = self.LayerNorm(embeddings)
+        embeddings = self.dropout(embeddings)
+
+        return embeddings
+
+
+class BertEncoder(nn.Module):
+    """BERT 编码器: 多层 Transformer Encoder"""
+
+    def __init__(self, hidden_size=768, num_hidden_layers=12,
+                 num_attention_heads=12, intermediate_size=3072, dropout=0.1):
+        super().__init__()
+
+        self.layer = nn.ModuleList([
+            BertLayer(hidden_size, num_attention_heads, intermediate_size, dropout)
+            for _ in range(num_hidden_layers)
+        ])
+
+    def forward(self, hidden_states, attention_mask=None):
+        all_hidden_states = []
+
+        for layer in self.layer:
+            hidden_states = layer(hidden_states, attention_mask)
+            all_hidden_states.append(hidden_states)
+
+        return hidden_states, all_hidden_states
+
+
+class BertLayer(nn.Module):
+    """单层 BERT (Transformer Encoder Layer)"""
+
+    def __init__(self, hidden_size, num_attention_heads, intermediate_size, dropout):
+        super().__init__()
+
+        # 自注意力
+        self.attention = BertAttention(hidden_size, num_attention_heads, dropout)
+
+        # 前馈网络
+        self.intermediate = nn.Linear(hidden_size, intermediate_size)
+        self.intermediate_act = nn.GELU()
+
+        self.output = nn.Linear(intermediate_size, hidden_size)
+        self.output_dropout = nn.Dropout(dropout)
+        self.output_layernorm = nn.LayerNorm(hidden_size)
+
+    def forward(self, hidden_states, attention_mask=None):
+        # 1. 自注意力
+        attention_output = self.attention(hidden_states, attention_mask)
+
+        # 2. 前馈网络
+        intermediate_output = self.intermediate(attention_output)
+        intermediate_output = self.intermediate_act(intermediate_output)
+
+        layer_output = self.output(intermediate_output)
+        layer_output = self.output_dropout(layer_output)
+        layer_output = self.output_layernorm(layer_output + attention_output)
+
+        return layer_output
+
+
+class BertAttention(nn.Module):
+    """BERT 自注意力"""
+
+    def __init__(self, hidden_size, num_attention_heads, dropout):
+        super().__init__()
+
+        self.num_attention_heads = num_attention_heads
+        self.attention_head_size = hidden_size // num_attention_heads
+
+        # Q, K, V 投影
+        self.query = nn.Linear(hidden_size, hidden_size)
+        self.key = nn.Linear(hidden_size, hidden_size)
+        self.value = nn.Linear(hidden_size, hidden_size)
+
+        self.dropout = nn.Dropout(dropout)
+        self.dense = nn.Linear(hidden_size, hidden_size)
+        self.LayerNorm = nn.LayerNorm(hidden_size)
+
+    def forward(self, hidden_states, attention_mask=None):
+        batch_size, seq_len, _ = hidden_states.shape
+
+        # 投影并分头
+        Q = self.query(hidden_states).view(
+            batch_size, seq_len, self.num_attention_heads, self.attention_head_size
+        ).transpose(1, 2)
+
+        K = self.key(hidden_states).view(
+            batch_size, seq_len, self.num_attention_heads, self.attention_head_size
+        ).transpose(1, 2)
+
+        V = self.value(hidden_states).view(
+            batch_size, seq_len, self.num_attention_heads, self.attention_head_size
+        ).transpose(1, 2)
+
+        # 注意力计算
+        scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.attention_head_size)
+
+        # 应用 attention mask
+        if attention_mask is not None:
+            scores = scores + attention_mask
+
+        attn_weights = F.softmax(scores, dim=-1)
+        attn_weights = self.dropout(attn_weights)
+
+        # 加权求和
+        attn_output = torch.matmul(attn_weights, V)
+
+        # 合并头
+        attn_output = attn_output.transpose(1, 2).contiguous()
+        attn_output = attn_output.view(batch_size, seq_len, -1)
+
+        # 输出投影
+        output = self.dense(attn_output)
+        output = self.dropout(output)
+        output = self.LayerNorm(output + hidden_states)
+
+        return output
+
+
+class BertModel(nn.Module):
+    """完整 BERT 模型"""
+
+    def __init__(self, vocab_size=30522, hidden_size=768, num_hidden_layers=12,
+                 num_attention_heads=12, intermediate_size=3072, max_position=512):
+        super().__init__()
+
+        self.embeddings = BertEmbeddings(
+            vocab_size, hidden_size, max_position
+        )
+
+        self.encoder = BertEncoder(
+            hidden_size, num_hidden_layers,
+            num_attention_heads, intermediate_size
+        )
+
+        # Pooler: 用于句子级别任务
+        self.pooler = nn.Linear(hidden_size, hidden_size)
+        self.pooler_activation = nn.Tanh()
+
+    def forward(self, input_ids, attention_mask=None, token_type_ids=None):
+        # 嵌入
+        embedding_output = self.embeddings(input_ids, token_type_ids)
+
+        # 编码
+        if attention_mask is not None:
+            # 将 attention_mask 转为相加形式
+            attention_mask = (1.0 - attention_mask[:, None, None, :]) * -10000.0
+
+        sequence_output, all_hidden_states = self.encoder(
+            embedding_output, attention_mask
+        )
+
+        # Pooler: 取 [CLS] token
+        pooled_output = self.pooler_activation(
+            self.pooler(sequence_output[:, 0])
+        )
+
+        return {
+            'last_hidden_state': sequence_output,
+            'pooler_output': pooled_output,
+            'hidden_states': all_hidden_states
+        }
+```
+
+---
+
+## BERT 变体
+
+### RoBERTa
+
+```python
+# RoBERTa 改进:
+# 1. 动态掩码: 每个 epoch 重新随机 mask
+# 2. 移除 NSP 任务
+# 3. 更大的 batch size
+# 4. 更长的训练时间
+# 5. 更大的语料
+
+class DynamicMasking:
+    """动态掩码"""
+
+    def __init__(self, tokenizer, mask_prob=0.15):
+        self.tokenizer = tokenizer
+        self.mask_prob = mask_prob
+
+    def __call__(self, examples):
+        """每个 epoch 重新 mask"""
+        masked_inputs = []
+
+        for text in examples:
+            tokens = self.tokenizer.tokenize(text)
+            masked_tokens, labels = self.mask_tokens(tokens)
+            masked_inputs.append({
+                'input_ids': self.tokenizer.convert_tokens_to_ids(masked_tokens),
+                'labels': labels
+            })
+
+        return masked_inputs
+```
+
+### ALBERT
+
+```python
+# ALBERT 改进:
+# 1. 因子化嵌入: 将大 vocab embedding 分解为两个小的矩阵
+# 2. 跨层参数共享: 所有层共享同一套参数
+# 3. SOP (Sentence Order Prediction) 替代 NSP
+
+class AlbertEmbeddings(nn.Module):
+    """ALBERT 因子化嵌入"""
+
+    def __init__(self, vocab_size, embedding_size, hidden_size):
+        super().__init__()
+
+        # 因子化: vocab_size -> embedding_size -> hidden_size
+        self.word_embeddings = nn.Embedding(vocab_size, embedding_size)
+        self.embedding_projection = nn.Linear(embedding_size, hidden_size)
+
+        # ... 其他嵌入
+
+    def forward(self, input_ids):
+        word_embeds = self.word_embeddings(input_ids)
+        # 投影到隐藏维度
+        projected = self.embedding_projection(word_embeds)
+        return projected
+
+
+class AlbertTransformer(nn.Module):
+    """ALBERT: 跨层参数共享"""
+
+    def __init__(self, hidden_size, num_layers):
+        super().__init__()
+
+        # 只有一层，重复使用
+        self.layer = BertLayer(hidden_size)
+        self.num_layers = num_layers
+
+    def forward(self, hidden_states, attention_mask):
+        all_hidden_states = []
+
+        for _ in range(self.num_layers):
+            hidden_states = self.layer(hidden_states, attention_mask)
+            all_hidden_states.append(hidden_states)
+
+        return hidden_states, all_hidden_states
+```
+
+### ELECTRA
+
+```python
+# ELECTRA: 使用判别式预训练替代生成式
+
+class Electra(nn.Module):
+    """
+    ELECTRA 预训练:
+    1. 使用小 Generator 生成替换 token
+    2. 使用 Discriminator 判断每个 token 是否被替换
+    """
+
+    def __init__(self, generator, discriminator):
+        super().__init__()
+        self.generator = generator  # 小 BERT
+        self.discriminator = discriminator  # 判别器
+
+    def forward(self, input_ids, masked_positions):
+        """
+        1. 用 Generator 预测 masked token
+        2. 用预测结果替换原 token
+        3. Discriminator 判断每个位置是否被替换
+        """
+        # Generator
+        gen_logits = self.generator(input_ids)
+        gen_predictions = gen_logits.argmax(dim=-1)
+
+        # 构造替换后的输入
+        corrupted_input = input_ids.clone()
+        corrupted_input[masked_positions] = gen_predictions[masked_positions]
+
+        # Discriminator 判断
+        disc_logits = self.discriminator(corrupted_input)
+
+        return gen_logits, disc_logits
+```
+
+---
+
+## 编码器 vs 解码器
+
+### 架构对比
+
+| 特性 | Encoder (BERT) | Decoder (GPT) | Encoder-Decoder (T5) |
+|------|----------------|---------------|----------------------|
+| 注意力 | 双向 | 单向 (因果) | Encoder双向, Decoder单向 |
+| 预训练任务 | MLM, NSP | 自回归生成 | Span Corruption |
+| 适合任务 | 理解任务 | 生成任务 | 翻译、摘要 |
+| 代表模型 | BERT, RoBERTa, ALBERT | GPT-2/3/4, LLaMA | T5, BART |
+
+### 使用场景
+
+```python
+# 编码器适合的任务:
+- 文本分类: 情感分析、主题分类
+- 序列标注: NER、POS tagging
+- 句子关系: 语义相似度、NLI
+- 抽取式 QA
+
+# 解码器适合的任务:
+- 文本生成: 续写、创作
+- 对话系统
+- 生成式 QA
+- 代码生成
+
+# Encoder-Decoder 适合的任务:
+- 机器翻译
+- 文本摘要
+- 文本改写
+```
+
+### 注意力掩码对比
+
+```python
+# BERT: 双向注意力 (全可见)
+def create_bert_attention_mask(seq_len):
+    """BERT: 所有位置互相可见"""
+    return torch.ones(seq_len, seq_len)
+
+
+# GPT: 因果注意力 (只能看到过去)
+def create_gpt_attention_mask(seq_len):
+    """GPT: 只能看到当前及之前的位置"""
+    mask = torch.tril(torch.ones(seq_len, seq_len))
+    return mask
+
+
+# T5 Encoder: 双向
+# T5 Decoder: 因果 (带 cross-attention 到 encoder)
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: BERT 的预训练任务是什么？**
+
+A:
+1. **MLM (Masked Language Model)**: 随机 mask 15% 的 token，让模型预测
+   - 80% 概率替换为 [MASK]
+   - 10% 概率替换为随机 token
+   - 10% 概率保持不变
+
+2. **NSP (Next Sentence Prediction)**: 预测两个句子是否有上下文关系
+
+**Q2: BERT 和 GPT 的主要区别？**
+
+A:
+| 维度 | BERT | GPT |
+|------|------|-----|
+| 架构 | Transformer Encoder | Transformer Decoder |
+| 注意力 | 双向 | 单向 (因果) |
+| 预训练 | MLM | 自回归 |
+| 优势 | 理解任务 | 生成任务 |
+
+**Q3: 为什么 BERT 使用双向注意力而 GPT 使用单向？**
+
+A:
+- **BERT**: 目标是理解上下文，双向注意力可以同时利用左右信息
+- **GPT**: 目标是生成文本，只能基于已生成的 token，不能"偷看"未来的 token
+
+**Q4: MLM 中为什么 10% 的 mask 位置保持不变？**
+
+A:
+为了让模型学会在输入是真实 token 时也能正确预测，而不是只学会从 [MASK] 预测。这:
+1. 减少预训练和微调的不一致 (微调时没有 [MASK])
+2. 保持一部分真实输入的信息
+
+**Q5: RoBERTa 相比 BERT 有哪些改进？**
+
+A:
+1. **动态掩码**: 每个 epoch 重新随机 mask
+2. **移除 NSP**: 发现 NSP 对下游任务帮助不大
+3. **更大 batch**: 8k 样本/batch
+4. **更多数据**: 160GB vs 16GB
+5. **更长训练**: 更多训练步数
+
+**Q6: BERT 的位置编码是什么？**
+
+A:
+BERT 使用**可学习的位置编码** (Learned Positional Embedding)，而非正弦位置编码。
+
+```python
+self.position_embeddings = nn.Embedding(max_position_embeddings, hidden_size)
+```
+
+---
+
+## 相关文档
+
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [GPT系列模型演进](/kb/llm/gpt-5ep6g8) - 解码器模型
+- [多模态基础架构](/kb/llm/doc-2l8y4y) - 视觉编码器
+
+---
+
+## 参考文献
+
+1. Devlin et al. "BERT: Pre-training of Deep Bidirectional Transformers". 2019.
+2. Liu et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach". 2019.
+3. Lan et al. "ALBERT: A Lite BERT for Self-supervised Learning". 2020.
+4. Clark et al. "ELECTRA: Pre-training Text Encoders as Discriminators". 2020.
+2:["$","$Lb",null,{"document":{"slug":"bert-174ici","title":"BERT与编码器模型","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"预训练技术/BERT与编码器模型.md","default":{"slug":"bert-174ici","title":"BERT与编码器模型","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"预训练技术/BERT与编码器模型.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"BERT与编码器模型 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"BERT与编码器模型"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

@@ -1,0 +1,391 @@
+<!DOCTYPE html><html lang="zh-CN" class="dark scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/85ed2b6284775456.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-f5d064e8df6cf7aa.js"/><script src="/_next/static/chunks/fd9d1056-feaa03e4ba5b7f26.js" async=""></script><script src="/_next/static/chunks/7023-23d925299661e942.js" async=""></script><script src="/_next/static/chunks/main-app-7af50e099f0d48b5.js" async=""></script><script src="/_next/static/chunks/2015-af9c16aac7ff4ad0.js" async=""></script><script src="/_next/static/chunks/7138-b897b2ad3516dd35.js" async=""></script><script src="/_next/static/chunks/app/layout-441e83d4c275c29e.js" async=""></script><script src="/_next/static/chunks/app/not-found-32f7da5ab09aedff.js" async=""></script><script src="/_next/static/chunks/8373-886bc01b77cafd14.js" async=""></script><script src="/_next/static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js" async=""></script><title>位置编码技术演进 - LLM | Jerry Xu</title><meta name="description" content="位置编码技术演进"/><meta name="author" content="Jerry Xu"/><meta name="keywords" content="Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"/><meta property="og:title" content="Jerry Xu - 徐劼瑞"/><meta property="og:description" content="上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"/><meta property="og:site_name" content="Jerry Xu"/><meta property="og:locale" content="zh_CN"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Jerry Xu - 徐劼瑞"/><meta name="twitter:description" content="上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"/><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body class="font-sans antialiased min-h-screen flex flex-col bg-background text-foreground"><header class="fixed top-0 left-0 right-0 z-50"><div class="mx-4 mt-4"><nav class="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass border border-white/10 shadow-2xl shadow-purple-500/5" style="opacity:0;transform:translateY(-100px)"><div class="flex items-center justify-between"><a class="flex items-center gap-2 group" href="/"><div class="relative"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-white"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg></div><div class="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div></div><span class="font-bold text-lg tracking-tight hidden sm:block text-foreground">Jerry</span></a><div class="hidden md:flex items-center gap-1"><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/">首页</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/about/">关于</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/projects/">项目</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/kb/">知识库</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/blog/">博客</a></div><div class="flex items-center gap-2"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><button class="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav></div></header><main class="flex-1"><div class="relative min-h-screen"><div class="fixed inset-0 gradient-bg -z-10"></div><div class="fixed inset-0 grid-pattern -z-10"></div><div class="relative z-10 py-32 px-4"><div class="max-w-4xl mx-auto"><div class="mb-8" style="opacity:0;transform:translateX(-20px)"><a class="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" href="/kb/llm/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回 <!-- -->LLM</a></div><div class="mb-12" style="opacity:0;transform:translateY(20px)"><div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-muted-foreground"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full glass"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>LLM</span><span class="inline-flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>21<!-- --> 分钟阅读</span></div><h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"><span class="gradient-text">位置编码技术演进</span></h1></div><div class="glass rounded-2xl p-6 md:p-10" style="opacity:0;transform:translateY(20px)"><article class="prose prose-invert prose-lg max-w-none"><h1 class="text-3xl font-bold mt-8 mb-4 pb-2 border-b border-white/10">位置编码技术演进</h1>
+<blockquote class="border-l-4 border-purple-500 pl-4 italic text-muted-foreground my-4">
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>更新日期</strong>: 2026-03-13
+<strong>版本</strong>: v1.0
+<strong>难度</strong>: 中级
+<strong>预计阅读时间</strong>: 45 分钟</p>
+</blockquote>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">目录</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E4%BD%8D%E7%BD%AE%E7%BC%96%E7%A0%81" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">为什么需要位置编码</a></li>
+<li class="leading-relaxed"><a href="#%E7%BB%9D%E5%AF%B9%E4%BD%8D%E7%BD%AE%E7%BC%96%E7%A0%81" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">绝对位置编码</a></li>
+<li class="leading-relaxed"><a href="#%E7%9B%B8%E5%AF%B9%E4%BD%8D%E7%BD%AE%E7%BC%96%E7%A0%81" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">相对位置编码</a></li>
+<li class="leading-relaxed"><a href="#%E6%97%8B%E8%BD%AC%E4%BD%8D%E7%BD%AE%E7%BC%96%E7%A0%81-rope" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">旋转位置编码 (RoPE)</a></li>
+<li class="leading-relaxed"><a href="#alibi" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">ALiBi</a></li>
+<li class="leading-relaxed"><a href="#%E4%BD%8D%E7%BD%AE%E5%A4%96%E6%8E%A8%E6%96%B9%E6%B3%95" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">位置外推方法</a></li>
+<li class="leading-relaxed"><a href="#%E6%96%B9%E6%B3%95%E5%AF%B9%E6%AF%94%E4%B8%8E%E9%80%89%E5%9E%8B" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">方法对比与选型</a></li>
+<li class="leading-relaxed"><a href="#%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">代码实现</a></li>
+<li class="leading-relaxed"><a href="#%E9%9D%A2%E8%AF%95%E8%A6%81%E7%82%B9" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">面试要点</a></li>
+</ol>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">为什么需要位置编码</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">问题背景</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">Self-Attention 是<strong>位置无关 (Permutation Invariant)</strong> 的：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">输入: [A, B, C] → Attention 输出
+输入: [B, A, C] → 相同的 Attention 输出（只是顺序变了）
+
+这意味着模型无法区分 &quot;A 在 B 前面&quot; 和 &quot;B 在 A 前面&quot;
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">解决方案</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">为每个位置添加唯一的标识，让模型感知顺序信息。</p>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">绝对位置编码</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 正弦位置编码 (Sinusoidal)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">Transformer 原始论文提出：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\begin{aligned}
+PE_{(pos, 2i)} &amp;= \sin\left(\frac{pos}{10000^{2i/d_{model}}}\right) \
+PE_{(pos, 2i+1)} &amp;= \cos\left(\frac{position}{10000^{2i/d_{model}}}\right)
+\end{aligned}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">其中：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">$pos$: 位置索引</li>
+<li class="leading-relaxed">$i$: 维度索引</li>
+<li class="leading-relaxed">$d_{model}$: 模型维度</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">波长分析</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">对于维度 $i$，波长为：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\lambda_i = 2\pi \cdot 10000^{2i/d_{model}}
+$$</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">小 $i$ (低维): 长波长，捕获长距离模式</li>
+<li class="leading-relaxed">大 $i$ (高维): 短波长，捕获细粒度变化</li>
+</ul>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">维度 0:  波长 ≈ 2π      (高频，精细位置)
+维度 128: 波长 ≈ 2π×100 (中频)
+维度 512: 波长 ≈ 2π×10000 (低频，粗粒度位置)
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 可学习位置编码 (Learned)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">BERT 采用的方式：</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">self.position_embeddings = nn.Embedding(max_seq_len, d_model)
+</code></pre></pre>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>优点</strong>:</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">灵活性高，数据驱动</li>
+<li class="leading-relaxed">可以针对特定任务优化</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>缺点</strong>:</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">外推性差，无法处理训练时未见过的长度</li>
+<li class="leading-relaxed">增加了参数量</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">绝对位置编码对比</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">特性</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">正弦</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">可学习</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">参数量</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">0</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">$max_seq \times d_{model}$</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">外推性</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">好</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">差</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">灵活性</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">固定</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">可优化</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">相对位置</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">可表示</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">不可直接表示</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">相对位置编码</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">核心思想</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">关注 token 之间的相对距离而非绝对位置：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">绝对: token A 在位置 5，token B 在位置 8
+相对: token B 距离 token A 有 +3 个位置
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. Transformer-XL 相对位置编码</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">在注意力计算中引入相对位置偏置：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+A_{ij} = \underbrace{E_{x_i}^T W_q^T W_k E_{x_j}}<em>{\text{内容}} + \underbrace{E</em>{x_i}^T W_q^T W_k R_{i-j}}<em>{\text{位置}} + \underbrace{u^T W_k E</em>{x_j}}<em>{\text{内容偏置}} + \underbrace{v^T W_k R</em>{i-j}}_{\text{位置偏置}}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">其中 $R_{i-j}$ 是相对位置编码。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. T5 相对位置编码</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">简化版本，只在注意力中添加可学习的相对位置偏置：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">attention_scores += relative_position_bias
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">相对位置偏置是一个可学习的查找表，通常限制最大距离（如 128）。</p>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">旋转位置编码 (RoPE)</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">核心思想</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">通过旋转矩阵将位置信息编码到 Q、K 向量中，使得内积自然包含相对位置信息。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">数学推导</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">对于二维情况，位置 $m$ 的向量 $x_m = [x_m^{(1)}, x_m^{(2)}]$：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+f(x_m, m) = \begin{pmatrix} \cos m\theta &amp; -\sin m\theta \ \sin m\theta &amp; \cos m\theta \end{pmatrix} \begin{pmatrix} x_m^{(1)} \ x_m^{(2)} \end{pmatrix}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">即对向量进行旋转，旋转角度与位置 $m$ 成正比。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">扩展到高维</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">将 $d$ 维向量分成 $d/2$ 对，每对应用旋转：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+f(x, m) = \underbrace{\begin{pmatrix} \cos m\theta_1 &amp; -\sin m\theta_1 &amp; 0 &amp; 0 &amp; \cdots \ \sin m\theta_1 &amp; \cos m\theta_1 &amp; 0 &amp; 0 &amp; \cdots \ 0 &amp; 0 &amp; \cos m\theta_2 &amp; -\sin m\theta_2 &amp; \cdots \ 0 &amp; 0 &amp; \sin m\theta_2 &amp; \cos m\theta_2 &amp; \cdots \ \vdots &amp; \vdots &amp; \vdots &amp; \vdots &amp; \ddots \end{pmatrix}}_{R_m} x
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4">其中 $\theta_i = 10000^{-2(i-1)/d}$</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">关键性质</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">对于位置 $m$ 和 $n$ 的向量：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+f(q, m)^T f(k, n) = q^T R_{m-n} k = g(q, k, m-n)
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>内积只依赖于相对位置 $m-n$！</strong></p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">RoPE 的优势</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">优势</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">说明</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">相对位置</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">内积自然体现相对位置</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">长距离衰减</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">远距离位置内积自然衰减</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">外推性</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">可处理训练时未见过的长度</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">灵活性</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">可配合各种外推技术</td></tr></tbody></table></div>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">现代应用</h3>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">LLaMA</li>
+<li class="leading-relaxed">PaLM</li>
+<li class="leading-relaxed">Qwen</li>
+<li class="leading-relaxed">Baichuan</li>
+<li class="leading-relaxed">大多数现代开源模型</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">ALiBi</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">核心思想</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">Attention with Linear Biases，直接在注意力分数上添加与距离成正比的惩罚：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+\text{softmax}(q^T k + \underbrace{-m \cdot |i-j|}_{\text{位置偏置}})
+$$</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">特点</h3>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>简单</strong>: 不需要修改 Q、K 的计算</li>
+<li class="leading-relaxed"><strong>有效</strong>: 外推性极佳</li>
+<li class="leading-relaxed"><strong>稳定</strong>: 训练更稳定</li>
+</ol>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">斜率设置</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">每个头使用不同的斜率 $m$：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">Head 1: m = 2^(-8)  (关注长距离)
+Head 2: m = 2^(-7)
+...
+Head 8: m = 2^(-1)  (关注短距离)
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">外推性对比</h3>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">训练长度: 2048
+测试长度: 8192
+
+正弦编码: 困惑度急剧上升
+RoPE:     困惑度缓慢上升
+ALiBi:    困惑度几乎不变
+</code></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">位置外推方法</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">问题定义</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">模型在长度 $L_{train}$ 上训练，如何泛化到 $L_{test} &gt; L_{train}$？</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 位置插值 (Position Interpolation, PI)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">将长序列的位置缩放到训练时的范围：</p>
+<p class="text-muted-foreground leading-relaxed mb-4">$$
+pos&#x27; = pos \times \frac{L_{train}}{L_{test}}
+$$</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>示例</strong>:</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">训练长度: 2048
+测试长度: 8192
+
+原始位置: 0, 1, 2, ..., 8191
+插值后:   0, 0.25, 0.5, ..., 2047.75
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>优点</strong>: 简单有效
+<strong>缺点</strong>: 需要微调</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. NTK-aware 外推</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">不直接缩放位置，而是调整 RoPE 的 base 频率：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">原始: θ_i = base^(-2i/d)
+修改: θ_i&#x27; = (base × λ)^(-2i/d)
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">其中 $\lambda$ 是缩放因子。</p>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. YaRN (Yet another RoPE extensioN)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">结合温度缩放和频率调整：</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">1. 对高频维度进行温度缩放 (temperature scaling)
+2. 对低频维度进行 NTK-aware 调整
+3. 注意力计算时乘以温度因子
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4. 动态 NTK</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">根据当前序列长度动态调整：</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">if seq_len &lt;= train_len:
+    scale = 1.0
+else:
+    scale = seq_len / train_len
+    # 动态调整 RoPE base
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">外推方法对比</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">方法</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">需要微调</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">复杂度</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">效果</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">PI</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">是</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">良好</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">NTK-aware</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">可选</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">良好</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">YaRN</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">推荐</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">中</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">优秀</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">动态 NTK</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">否</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">良好</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">方法对比与选型</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">综合对比表</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">方法</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">类型</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">外推性</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">训练稳定性</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">实现复杂度</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">代表模型</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">正弦</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">绝对</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">中</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">中</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">原始 Transformer</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">可学习</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">绝对</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">差</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">BERT</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">相对 (XL)</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">相对</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">好</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">中</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">Transformer-XL</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">T5 偏置</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">相对</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">差</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">T5</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">RoPE</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">旋转</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">好</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">中</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">LLaMA, Qwen</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">ALiBi</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">线性偏置</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">优秀</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">优秀</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">BLOOM, MPT</td></tr></tbody></table></div>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">选型建议</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">场景</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">推荐方案</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">追求简单稳定</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">ALiBi</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">追求最佳性能</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">RoPE + YaRN</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">快速原型</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">正弦位置编码</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">固定长度任务</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">可学习位置编码</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">超长上下文 (&gt;100K)</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">RoPE + 动态 NTK</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">代码实现</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 正弦位置编码</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import torch
+import torch.nn as nn
+import math
+
+class SinusoidalPositionalEncoding(nn.Module):
+    def __init__(self, d_model, max_seq_len=5000, dropout=0.1):
+        super().__init__()
+        self.dropout = nn.Dropout(dropout)
+
+        # 预计算位置编码
+        pe = torch.zeros(max_seq_len, d_model)
+        position = torch.arange(0, max_seq_len, dtype=torch.float).unsqueeze(1)
+
+        # 计算分母项
+        div_term = torch.exp(
+            torch.arange(0, d_model, 2).float() *
+            (-math.log(10000.0) / d_model)
+        )
+
+        # 偶数维: sin
+        pe[:, 0::2] = torch.sin(position * div_term)
+        # 奇数维: cos
+        pe[:, 1::2] = torch.cos(position * div_term)
+
+        # 注册为 buffer (不参与训练)
+        self.register_buffer(&#x27;pe&#x27;, pe.unsqueeze(0))
+
+    def forward(self, x):
+        &quot;&quot;&quot;
+        x: [batch_size, seq_len, d_model]
+        &quot;&quot;&quot;
+        x = x + self.pe[:, :x.size(1)]
+        return self.dropout(x)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. RoPE 实现</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">class RotaryPositionalEmbedding(nn.Module):
+    &quot;&quot;&quot;旋转位置编码实现&quot;&quot;&quot;
+    def __init__(self, dim, max_seq_len=2048, base=10000):
+        super().__init__()
+
+        # 计算旋转角度
+        theta = 1.0 / (base ** (torch.arange(0, dim, 2).float() / dim))
+
+        # 预计算位置 × 角度
+        positions = torch.arange(max_seq_len)
+        angles = torch.outer(positions, theta)  # [max_seq_len, dim/2]
+
+        # 注册为 buffer
+        self.register_buffer(&#x27;cos_cached&#x27;, torch.cos(angles))
+        self.register_buffer(&#x27;sin_cached&#x27;, torch.sin(angles))
+
+    def forward(self, x, seq_len):
+        &quot;&quot;&quot;
+        对输入 x 应用旋转位置编码
+        x: [batch_size, num_heads, seq_len, head_dim]
+        &quot;&quot;&quot;
+        # 将最后维度分成两半
+        x1, x2 = x[..., ::2], x[..., 1::2]
+
+        # 获取对应位置的 cos, sin
+        cos = self.cos_cached[:seq_len]  # [seq_len, dim/2]
+        sin = self.sin_cached[:seq_len]
+
+        # 调整维度以匹配 x
+        cos = cos.unsqueeze(0).unsqueeze(0)  # [1, 1, seq_len, dim/2]
+        sin = sin.unsqueeze(0).unsqueeze(0)
+
+        # 应用旋转
+        # [x1, x2] 旋转 mθ 角度:
+        # x1&#x27; = x1 * cos(mθ) - x2 * sin(mθ)
+        # x2&#x27; = x1 * sin(mθ) + x2 * cos(mθ)
+        x_rotated = torch.stack([
+            x1 * cos - x2 * sin,
+            x1 * sin + x2 * cos
+        ], dim=-1)  # [..., dim/2, 2]
+
+        return x_rotated.flatten(-2)  # [..., dim]
+
+
+def apply_rotary_pos_emb(q, k, cos, sin):
+    &quot;&quot;&quot;对 Q, K 应用 RoPE&quot;&quot;&quot;
+    def rotate_half(x):
+        x1, x2 = x[..., ::2], x[..., 1::2]
+        return torch.stack([-x2, x1], dim=-1).flatten(-2)
+
+    q_embed = (q * cos) + (rotate_half(q) * sin)
+    k_embed = (k * cos) + (rotate_half(k) * sin)
+    return q_embed, k_embed
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. ALiBi 实现</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">class ALiBiPositionalBias(nn.Module):
+    &quot;&quot;&quot;ALiBi 位置偏置&quot;&quot;&quot;
+    def __init__(self, num_heads, max_seq_len=2048):
+        super().__init__()
+        self.num_heads = num_heads
+
+        # 计算每个头的斜率
+        # m = 2^(-8*i/num_heads) for i in range(num_heads)
+        slopes = torch.pow(2, -torch.arange(0, num_heads) * 8 / num_heads)
+
+        # 计算距离矩阵
+        distance = torch.arange(max_seq_len).unsqueeze(0) - torch.arange(max_seq_len).unsqueeze(1)
+        distance = distance.abs().unsqueeze(0)  # [1, seq_len, seq_len]
+
+        # 计算偏置: -m * distance
+        bias = -distance * slopes.unsqueeze(1).unsqueeze(1)  # [num_heads, seq_len, seq_len]
+
+        self.register_buffer(&#x27;bias&#x27;, bias)
+
+    def forward(self, attention_scores):
+        &quot;&quot;&quot;
+        attention_scores: [batch_size, num_heads, seq_len, seq_len]
+        &quot;&quot;&quot;
+        seq_len = attention_scores.size(-1)
+        return attention_scores + self.bias[:, :seq_len, :seq_len]
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4. 位置插值实现</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">class PositionInterpolation(nn.Module):
+    &quot;&quot;&quot;位置插值实现&quot;&quot;&quot;
+    def __init__(self, base_model, train_len=2048, target_len=8192):
+        super().__init__()
+        self.model = base_model
+        self.scale = target_len / train_len
+
+    def forward(self, x):
+        # 修改位置编码的 scale
+        if hasattr(self.model, &#x27;position_encoding&#x27;):
+            # 对于正弦编码，调整位置索引
+            positions = torch.arange(x.size(1), device=x.device) / self.scale
+            # 重新计算位置编码...
+        return self.model(x)
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">面试要点</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">高频问题</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q1: 为什么 Transformer 需要位置编码？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A: Self-Attention 是位置无关的，对输入序列的排列不敏感。位置编码为模型提供顺序信息，使其能区分 &quot;A 在 B 前&quot; 和 &quot;B 在 A 前&quot;。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q2: 正弦位置编码为什么使用不同频率？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A: 不同维度使用不同波长，使模型能同时捕获：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">低维（高频）：精细的位置变化</li>
+<li class="leading-relaxed">高维（低频）：粗粒度的位置模式</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q3: RoPE 相比绝对位置编码的优势？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">内积自然体现相对位置</li>
+<li class="leading-relaxed">长距离内积自然衰减</li>
+<li class="leading-relaxed">外推性更好</li>
+<li class="leading-relaxed">不需要额外的位置嵌入参数</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q4: ALiBi 和 RoPE 的主要区别？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">ALiBi: 在注意力分数上添加线性偏置，简单稳定，外推性极佳</li>
+<li class="leading-relaxed">RoPE: 通过旋转矩阵编码位置，更灵活，可配合多种外推技术</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q5: 什么是位置外推？有哪些方法？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A: 外推指模型处理比训练时更长序列的能力。常用方法：</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">位置插值 (PI): 缩放位置索引</li>
+<li class="leading-relaxed">NTK-aware: 调整 RoPE 的 base 频率</li>
+<li class="leading-relaxed">YaRN: 结合温度缩放和频率调整</li>
+<li class="leading-relaxed">动态 NTK: 根据长度动态调整</li>
+</ol>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">手撕代码重点</h3>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>正弦位置编码</strong> 计算</li>
+<li class="leading-relaxed"><strong>RoPE 旋转矩阵</strong> 构造</li>
+<li class="leading-relaxed"><strong>ALiBi 偏置矩阵</strong> 计算</li>
+<li class="leading-relaxed"><strong>位置插值</strong> 实现</li>
+</ol>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">相关文档</h2>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="/kb/llm/transformer-qwfbd0" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">Transformer 详解</a> - 正弦位置编码在 Transformer 中的应用</li>
+<li class="leading-relaxed"><a href="/kb/llm/doc-kvxpkx" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">注意力机制深入理解</a> - 注意力计算细节</li>
+<li class="leading-relaxed"><a href="/kb/llm/doc-hke744" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">长上下文技术概览</a> - 位置外推与长序列建模</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">参考文献</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">Vaswani et al. &quot;Attention Is All You Need&quot;. NeurIPS 2017.</li>
+<li class="leading-relaxed">Su et al. &quot;RoFormer: Enhanced Transformer with Rotary Position Embedding&quot;. 2021.</li>
+<li class="leading-relaxed">Press et al. &quot;Train Short, Test Long: Attention with Linear Biases&quot;. 2021.</li>
+<li class="leading-relaxed">Chen et al. &quot;Extending Context Window of Large Language Models via Position Interpolation&quot;. 2023.</li>
+<li class="leading-relaxed">Peng et al. &quot;YaRN: Efficient Context Window Extension of Large Language Models&quot;. 2023.</li>
+</ol></article></div><div class="mt-12 flex items-center justify-between" style="opacity:0;transform:translateY(20px)"><a class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors" href="/kb/llm/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回列表</a></div></div></div></div></main><footer class="relative border-t border-white/5"><div class="absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"></div><div class="container relative py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-12"><div class="md:col-span-2 space-y-4"><a class="inline-block" href="/"><span class="text-2xl font-bold gradient-text">Jerry Xu</span></a><p class="text-muted-foreground max-w-sm">热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。</p><div class="flex items-center gap-4"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">导航</h4><ul class="space-y-3"><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/about/">关于</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/projects/">项目</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/kb/">知识库</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/blog/">博客</a></li></ul></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">联系方式</h4><ul class="space-y-3 text-sm"><li><a href="https://www.sjtu.edu.cn" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">上海交通大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li><a href="https://www.cuhk.edu.hk" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">即将前往香港中文大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li class="text-xs pt-2 text-muted-foreground">通过 GitHub 联系</li></ul></div></div><div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm text-muted-foreground">© <!-- -->2026<!-- --> Jerry Xu. Built with<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg> and Next.js</p><p class="text-xs text-muted-foreground/60">Designed &amp; Developed by Jerry</p></div></div></footer><script src="/_next/static/chunks/webpack-f5d064e8df6cf7aa.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/85ed2b6284775456.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"2:I[95751,[],\"\"]\n5:I[39275,[],\"\"]\n8:I[61343,[],\"\"]\n9:I[62782,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-441e83d4c275c29e.js\"],\"Header\"]\na:I[82446,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"9160\",\"static/chunks/app/not-found-32f7da5ab09aedff.js\"],\"default\"]\nb:I[231,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-441e83d4c275c29e.js\"],\"\"]\nd:I[76130,[],\"\"]\n6:[\"category\",\"llm\",\"d\"]\n7:[\"slug\",\"doc-ne91sy\",\"d\"]\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/85ed2b6284775456.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L2\",null,{\"buildId\":\"ol1eMh0FVRjIrfwLO-nkw\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/kb/llm/doc-ne91sy/\",\"initialTree\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"llm\",\"d\"],{\"children\":[[\"slug\",\"doc-ne91sy\",\"d\"],{\"children\":[\"__PAGE__?{\\\"category\\\":\\\"llm\\\",\\\"slug\\\":\\\"doc-ne91sy\\\"}\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"llm\",\"d\"],{\"children\":[[\"slug\",\"doc-ne91sy\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L3\",\"$L4\"],null],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\",\"$7\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"className\":\"dark scroll-smooth\",\"children\":[\"$\",\"body\",null,{\"className\":\"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"main\",null,{\"className\":\"flex-1\",\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$La\",null,{}],\"notFoundStyles\":[],\"styles\":null}]}],[\"$\",\"footer\",null,{\"className\":\"relative border-t border-white/5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none\"}],[\"$\",\"div\",null,{\"className\":\"container relative py-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-4 gap-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"md:col-span-2 space-y-4\",\"children\":[[\"$\",\"$Lb\",null,{\"href\":\"/\",\"className\":\"inline-block\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-2xl font-bold gradient-text\",\"children\":\"Jerry Xu\"}]}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground max-w-sm\",\"children\":\"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。\"}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/Jrx2003\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group\",\"children\":[[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github w-4 h-4\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"导航\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3\",\"children\":[[\"$\",\"li\",\"/about/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/about/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"关于\"}]}],[\"$\",\"li\",\"/projects/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/projects/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"项目\"}]}],[\"$\",\"li\",\"/kb/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/kb/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"知识库\"}]}],[\"$\",\"li\",\"/blog/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/blog/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"博客\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"联系方式\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3 text-sm\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.sjtu.edu.cn\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"上海交通大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.cuhk.edu.hk\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"即将前往香港中文大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"className\":\"text-xs pt-2 text-muted-foreground\",\"children\":\"通过 GitHub 联系\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":[\"© \",2026,\" Jerry Xu. Built with\",\" \",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500\",\"children\":[[\"$\",\"path\",\"c3ymky\",{\"d\":\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"}],\"$undefined\"]}],\" and Next.js\"]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-muted-foreground/60\",\"children\":\"Designed \u0026 Developed by Jerry\"}]]}]]}]]}]]}]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]]\n"])</script><script>self.__next_f.push([1,"f:I[66006,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"8373\",\"static/chunks/8373-886bc01b77cafd14.js\",\"7438\",\"static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js\"],\"default\"]\n10:T35c3,"])</script><script>self.__next_f.push([1,"# 位置编码技术演进\n\n\u003e **更新日期**: 2026-03-13\n\u003e **版本**: v1.0\n\u003e **难度**: 中级\n\u003e **预计阅读时间**: 45 分钟\n\n---\n\n## 目录\n\n1. [为什么需要位置编码](#为什么需要位置编码)\n2. [绝对位置编码](#绝对位置编码)\n3. [相对位置编码](#相对位置编码)\n4. [旋转位置编码 (RoPE)](#旋转位置编码-rope)\n5. [ALiBi](#alibi)\n6. [位置外推方法](#位置外推方法)\n7. [方法对比与选型](#方法对比与选型)\n8. [代码实现](#代码实现)\n9. [面试要点](#面试要点)\n\n---\n\n## 为什么需要位置编码\n\n### 问题背景\n\nSelf-Attention 是**位置无关 (Permutation Invariant)** 的：\n\n```\n输入: [A, B, C] → Attention 输出\n输入: [B, A, C] → 相同的 Attention 输出（只是顺序变了）\n\n这意味着模型无法区分 \"A 在 B 前面\" 和 \"B 在 A 前面\"\n```\n\n### 解决方案\n\n为每个位置添加唯一的标识，让模型感知顺序信息。\n\n---\n\n## 绝对位置编码\n\n### 1. 正弦位置编码 (Sinusoidal)\n\nTransformer 原始论文提出：\n\n$$\n\\begin{aligned}\nPE_{(pos, 2i)} \u0026= \\sin\\left(\\frac{pos}{10000^{2i/d_{model}}}\\right) \\\\\nPE_{(pos, 2i+1)} \u0026= \\cos\\left(\\frac{position}{10000^{2i/d_{model}}}\\right)\n\\end{aligned}\n$$\n\n其中：\n- $pos$: 位置索引\n- $i$: 维度索引\n- $d_{model}$: 模型维度\n\n### 波长分析\n\n对于维度 $i$，波长为：\n\n$$\n\\lambda_i = 2\\pi \\cdot 10000^{2i/d_{model}}\n$$\n\n- 小 $i$ (低维): 长波长，捕获长距离模式\n- 大 $i$ (高维): 短波长，捕获细粒度变化\n\n```\n维度 0:  波长 ≈ 2π      (高频，精细位置)\n维度 128: 波长 ≈ 2π×100 (中频)\n维度 512: 波长 ≈ 2π×10000 (低频，粗粒度位置)\n```\n\n### 2. 可学习位置编码 (Learned)\n\nBERT 采用的方式：\n\n```python\nself.position_embeddings = nn.Embedding(max_seq_len, d_model)\n```\n\n**优点**:\n- 灵活性高，数据驱动\n- 可以针对特定任务优化\n\n**缺点**:\n- 外推性差，无法处理训练时未见过的长度\n- 增加了参数量\n\n### 绝对位置编码对比\n\n| 特性 | 正弦 | 可学习 |\n|------|------|--------|\n| 参数量 | 0 | $max\\_seq \\times d_{model}$ |\n| 外推性 | 好 | 差 |\n| 灵活性 | 固定 | 可优化 |\n| 相对位置 | 可表示 | 不可直接表示 |\n\n---\n\n## 相对位置编码\n\n### 核心思想\n\n关注 token 之间的相对距离而非绝对位置：\n\n```\n绝对: token A 在位置 5，token B 在位置 8\n相对: token B 距离 token A 有 +3 个位置\n```\n\n### 1. Transformer-XL 相对位置编码\n\n在注意力计算中引入相对位置偏置：\n\n$$\nA_{ij} = \\underbrace{E_{x_i}^T W_q^T W_k E_{x_j}}_{\\text{内容}} + \\underbrace{E_{x_i}^T W_q^T W_k R_{i-j}}_{\\text{位置}} + \\underbrace{u^T W_k E_{x_j}}_{\\text{内容偏置}} + \\underbrace{v^T W_k R_{i-j}}_{\\text{位置偏置}}\n$$\n\n其中 $R_{i-j}$ 是相对位置编码。\n\n### 2. T5 相对位置编码\n\n简化版本，只在注意力中添加可学习的相对位置偏置：\n\n```\nattention_scores += relative_position_bias\n```\n\n相对位置偏置是一个可学习的查找表，通常限制最大距离（如 128）。\n\n---\n\n## 旋转位置编码 (RoPE)\n\n### 核心思想\n\n通过旋转矩阵将位置信息编码到 Q、K 向量中，使得内积自然包含相对位置信息。\n\n### 数学推导\n\n对于二维情况，位置 $m$ 的向量 $x_m = [x_m^{(1)}, x_m^{(2)}]$：\n\n$$\nf(x_m, m) = \\begin{pmatrix} \\cos m\\theta \u0026 -\\sin m\\theta \\\\ \\sin m\\theta \u0026 \\cos m\\theta \\end{pmatrix} \\begin{pmatrix} x_m^{(1)} \\\\ x_m^{(2)} \\end{pmatrix}\n$$\n\n即对向量进行旋转，旋转角度与位置 $m$ 成正比。\n\n### 扩展到高维\n\n将 $d$ 维向量分成 $d/2$ 对，每对应用旋转：\n\n$$\nf(x, m) = \\underbrace{\\begin{pmatrix} \\cos m\\theta_1 \u0026 -\\sin m\\theta_1 \u0026 0 \u0026 0 \u0026 \\cdots \\\\ \\sin m\\theta_1 \u0026 \\cos m\\theta_1 \u0026 0 \u0026 0 \u0026 \\cdots \\\\ 0 \u0026 0 \u0026 \\cos m\\theta_2 \u0026 -\\sin m\\theta_2 \u0026 \\cdots \\\\ 0 \u0026 0 \u0026 \\sin m\\theta_2 \u0026 \\cos m\\theta_2 \u0026 \\cdots \\\\ \\vdots \u0026 \\vdots \u0026 \\vdots \u0026 \\vdots \u0026 \\ddots \\end{pmatrix}}_{R_m} x\n$$\n\n其中 $\\theta_i = 10000^{-2(i-1)/d}$\n\n### 关键性质\n\n对于位置 $m$ 和 $n$ 的向量：\n\n$$\nf(q, m)^T f(k, n) = q^T R_{m-n} k = g(q, k, m-n)\n$$\n\n**内积只依赖于相对位置 $m-n$！**\n\n### RoPE 的优势\n\n| 优势 | 说明 |\n|------|------|\n| 相对位置 | 内积自然体现相对位置 |\n| 长距离衰减 | 远距离位置内积自然衰减 |\n| 外推性 | 可处理训练时未见过的长度 |\n| 灵活性 | 可配合各种外推技术 |\n\n### 现代应用\n\n- LLaMA\n- PaLM\n- Qwen\n- Baichuan\n- 大多数现代开源模型\n\n---\n\n## ALiBi\n\n### 核心思想\n\nAttention with Linear Biases，直接在注意力分数上添加与距离成正比的惩罚：\n\n$$\n\\text{softmax}(q^T k + \\underbrace{-m \\cdot |i-j|}_{\\text{位置偏置}})\n$$\n\n### 特点\n\n1. **简单**: 不需要修改 Q、K 的计算\n2. **有效**: 外推性极佳\n3. **稳定**: 训练更稳定\n\n### 斜率设置\n\n每个头使用不同的斜率 $m$：\n\n```\nHead 1: m = 2^(-8)  (关注长距离)\nHead 2: m = 2^(-7)\n...\nHead 8: m = 2^(-1)  (关注短距离)\n```\n\n### 外推性对比\n\n```\n训练长度: 2048\n测试长度: 8192\n\n正弦编码: 困惑度急剧上升\nRoPE:     困惑度缓慢上升\nALiBi:    困惑度几乎不变\n```\n\n---\n\n## 位置外推方法\n\n### 问题定义\n\n模型在长度 $L_{train}$ 上训练，如何泛化到 $L_{test} \u003e L_{train}$？\n\n### 1. 位置插值 (Position Interpolation, PI)\n\n将长序列的位置缩放到训练时的范围：\n\n$$\npos' = pos \\times \\frac{L_{train}}{L_{test}}\n$$\n\n**示例**:\n```\n训练长度: 2048\n测试长度: 8192\n\n原始位置: 0, 1, 2, ..., 8191\n插值后:   0, 0.25, 0.5, ..., 2047.75\n```\n\n**优点**: 简单有效\n**缺点**: 需要微调\n\n### 2. NTK-aware 外推\n\n不直接缩放位置，而是调整 RoPE 的 base 频率：\n\n```\n原始: θ_i = base^(-2i/d)\n修改: θ_i' = (base × λ)^(-2i/d)\n```\n\n其中 $\\lambda$ 是缩放因子。\n\n### 3. YaRN (Yet another RoPE extensioN)\n\n结合温度缩放和频率调整：\n\n```\n1. 对高频维度进行温度缩放 (temperature scaling)\n2. 对低频维度进行 NTK-aware 调整\n3. 注意力计算时乘以温度因子\n```\n\n### 4. 动态 NTK\n\n根据当前序列长度动态调整：\n\n```python\nif seq_len \u003c= train_len:\n    scale = 1.0\nelse:\n    scale = seq_len / train_len\n    # 动态调整 RoPE base\n```\n\n### 外推方法对比\n\n| 方法 | 需要微调 | 复杂度 | 效果 |\n|------|----------|--------|------|\n| PI | 是 | 低 | 良好 |\n| NTK-aware | 可选 | 低 | 良好 |\n| YaRN | 推荐 | 中 | 优秀 |\n| 动态 NTK | 否 | 低 | 良好 |\n\n---\n\n## 方法对比与选型\n\n### 综合对比表\n\n| 方法 | 类型 | 外推性 | 训练稳定性 | 实现复杂度 | 代表模型 |\n|------|------|--------|------------|------------|----------|\n| 正弦 | 绝对 | 中 | 中 | 低 | 原始 Transformer |\n| 可学习 | 绝对 | 差 | 高 | 低 | BERT |\n| 相对 (XL) | 相对 | 好 | 中 | 高 | Transformer-XL |\n| T5 偏置 | 相对 | 差 | 高 | 低 | T5 |\n| RoPE | 旋转 | 好 | 高 | 中 | LLaMA, Qwen |\n| ALiBi | 线性偏置 | 优秀 | 优秀 | 低 | BLOOM, MPT |\n\n### 选型建议\n\n| 场景 | 推荐方案 |\n|------|----------|\n| 追求简单稳定 | ALiBi |\n| 追求最佳性能 | RoPE + YaRN |\n| 快速原型 | 正弦位置编码 |\n| 固定长度任务 | 可学习位置编码 |\n| 超长上下文 (\u003e100K) | RoPE + 动态 NTK |\n\n---\n\n## 代码实现\n\n### 1. 正弦位置编码\n\n```python\nimport torch\nimport torch.nn as nn\nimport math\n\nclass SinusoidalPositionalEncoding(nn.Module):\n    def __init__(self, d_model, max_seq_len=5000, dropout=0.1):\n        super().__init__()\n        self.dropout = nn.Dropout(dropout)\n\n        # 预计算位置编码\n        pe = torch.zeros(max_seq_len, d_model)\n        position = torch.arange(0, max_seq_len, dtype=torch.float).unsqueeze(1)\n\n        # 计算分母项\n        div_term = torch.exp(\n            torch.arange(0, d_model, 2).float() *\n            (-math.log(10000.0) / d_model)\n        )\n\n        # 偶数维: sin\n        pe[:, 0::2] = torch.sin(position * div_term)\n        # 奇数维: cos\n        pe[:, 1::2] = torch.cos(position * div_term)\n\n        # 注册为 buffer (不参与训练)\n        self.register_buffer('pe', pe.unsqueeze(0))\n\n    def forward(self, x):\n        \"\"\"\n        x: [batch_size, seq_len, d_model]\n        \"\"\"\n        x = x + self.pe[:, :x.size(1)]\n        return self.dropout(x)\n```\n\n### 2. RoPE 实现\n\n```python\nclass RotaryPositionalEmbedding(nn.Module):\n    \"\"\"旋转位置编码实现\"\"\"\n    def __init__(self, dim, max_seq_len=2048, base=10000):\n        super().__init__()\n\n        # 计算旋转角度\n        theta = 1.0 / (base ** (torch.arange(0, dim, 2).float() / dim))\n\n        # 预计算位置 × 角度\n        positions = torch.arange(max_seq_len)\n        angles = torch.outer(positions, theta)  # [max_seq_len, dim/2]\n\n        # 注册为 buffer\n        self.register_buffer('cos_cached', torch.cos(angles))\n        self.register_buffer('sin_cached', torch.sin(angles))\n\n    def forward(self, x, seq_len):\n        \"\"\"\n        对输入 x 应用旋转位置编码\n        x: [batch_size, num_heads, seq_len, head_dim]\n        \"\"\"\n        # 将最后维度分成两半\n        x1, x2 = x[..., ::2], x[..., 1::2]\n\n        # 获取对应位置的 cos, sin\n        cos = self.cos_cached[:seq_len]  # [seq_len, dim/2]\n        sin = self.sin_cached[:seq_len]\n\n        # 调整维度以匹配 x\n        cos = cos.unsqueeze(0).unsqueeze(0)  # [1, 1, seq_len, dim/2]\n        sin = sin.unsqueeze(0).unsqueeze(0)\n\n        # 应用旋转\n        # [x1, x2] 旋转 mθ 角度:\n        # x1' = x1 * cos(mθ) - x2 * sin(mθ)\n        # x2' = x1 * sin(mθ) + x2 * cos(mθ)\n        x_rotated = torch.stack([\n            x1 * cos - x2 * sin,\n            x1 * sin + x2 * cos\n        ], dim=-1)  # [..., dim/2, 2]\n\n        return x_rotated.flatten(-2)  # [..., dim]\n\n\ndef apply_rotary_pos_emb(q, k, cos, sin):\n    \"\"\"对 Q, K 应用 RoPE\"\"\"\n    def rotate_half(x):\n        x1, x2 = x[..., ::2], x[..., 1::2]\n        return torch.stack([-x2, x1], dim=-1).flatten(-2)\n\n    q_embed = (q * cos) + (rotate_half(q) * sin)\n    k_embed = (k * cos) + (rotate_half(k) * sin)\n    return q_embed, k_embed\n```\n\n### 3. ALiBi 实现\n\n```python\nclass ALiBiPositionalBias(nn.Module):\n    \"\"\"ALiBi 位置偏置\"\"\"\n    def __init__(self, num_heads, max_seq_len=2048):\n        super().__init__()\n        self.num_heads = num_heads\n\n        # 计算每个头的斜率\n        # m = 2^(-8*i/num_heads) for i in range(num_heads)\n        slopes = torch.pow(2, -torch.arange(0, num_heads) * 8 / num_heads)\n\n        # 计算距离矩阵\n        distance = torch.arange(max_seq_len).unsqueeze(0) - torch.arange(max_seq_len).unsqueeze(1)\n        distance = distance.abs().unsqueeze(0)  # [1, seq_len, seq_len]\n\n        # 计算偏置: -m * distance\n        bias = -distance * slopes.unsqueeze(1).unsqueeze(1)  # [num_heads, seq_len, seq_len]\n\n        self.register_buffer('bias', bias)\n\n    def forward(self, attention_scores):\n        \"\"\"\n        attention_scores: [batch_size, num_heads, seq_len, seq_len]\n        \"\"\"\n        seq_len = attention_scores.size(-1)\n        return attention_scores + self.bias[:, :seq_len, :seq_len]\n```\n\n### 4. 位置插值实现\n\n```python\nclass PositionInterpolation(nn.Module):\n    \"\"\"位置插值实现\"\"\"\n    def __init__(self, base_model, train_len=2048, target_len=8192):\n        super().__init__()\n        self.model = base_model\n        self.scale = target_len / train_len\n\n    def forward(self, x):\n        # 修改位置编码的 scale\n        if hasattr(self.model, 'position_encoding'):\n            # 对于正弦编码，调整位置索引\n            positions = torch.arange(x.size(1), device=x.device) / self.scale\n            # 重新计算位置编码...\n        return self.model(x)\n```\n\n---\n\n## 面试要点\n\n### 高频问题\n\n**Q1: 为什么 Transformer 需要位置编码？**\n\nA: Self-Attention 是位置无关的，对输入序列的排列不敏感。位置编码为模型提供顺序信息，使其能区分 \"A 在 B 前\" 和 \"B 在 A 前\"。\n\n**Q2: 正弦位置编码为什么使用不同频率？**\n\nA: 不同维度使用不同波长，使模型能同时捕获：\n- 低维（高频）：精细的位置变化\n- 高维（低频）：粗粒度的位置模式\n\n**Q3: RoPE 相比绝对位置编码的优势？**\n\nA:\n1. 内积自然体现相对位置\n2. 长距离内积自然衰减\n3. 外推性更好\n4. 不需要额外的位置嵌入参数\n\n**Q4: ALiBi 和 RoPE 的主要区别？**\n\nA:\n- ALiBi: 在注意力分数上添加线性偏置，简单稳定，外推性极佳\n- RoPE: 通过旋转矩阵编码位置，更灵活，可配合多种外推技术\n\n**Q5: 什么是位置外推？有哪些方法？**\n\nA: 外推指模型处理比训练时更长序列的能力。常用方法：\n1. 位置插值 (PI): 缩放位置索引\n2. NTK-aware: 调整 RoPE 的 base 频率\n3. YaRN: 结合温度缩放和频率调整\n4. 动态 NTK: 根据长度动态调整\n\n### 手撕代码重点\n\n1. **正弦位置编码** 计算\n2. **RoPE 旋转矩阵** 构造\n3. **ALiBi 偏置矩阵** 计算\n4. **位置插值** 实现\n\n---\n\n## 相关文档\n\n- [Transformer 详解](/kb/llm/transformer-qwfbd0) - 正弦位置编码在 Transformer 中的应用\n- [注意力机制深入理解](/kb/llm/doc-kvxpkx) - 注意力计算细节\n- [长上下文技术概览](/kb/llm/doc-hke744) - 位置外推与长序列建模\n\n---\n\n## 参考文献\n\n1. Vaswani et al. \"Attention Is All You Need\". NeurIPS 2017.\n2. Su et al. \"RoFormer: Enhanced Transformer with Rotary Position Embedding\". 2021.\n3. Press et al. \"Train Short, Test Long: Attention with Linear Biases\". 2021.\n4. Chen et al. \"Extending Context Window of Large Language Models via Position Interpolation\". 2023.\n5. Peng et al. \"YaRN: Efficient Context Window Extension of Large Language Models\". 2023.\n"])</script><script>self.__next_f.push([1,"11:T35c3,"])</script><script>self.__next_f.push([1,"# 位置编码技术演进\n\n\u003e **更新日期**: 2026-03-13\n\u003e **版本**: v1.0\n\u003e **难度**: 中级\n\u003e **预计阅读时间**: 45 分钟\n\n---\n\n## 目录\n\n1. [为什么需要位置编码](#为什么需要位置编码)\n2. [绝对位置编码](#绝对位置编码)\n3. [相对位置编码](#相对位置编码)\n4. [旋转位置编码 (RoPE)](#旋转位置编码-rope)\n5. [ALiBi](#alibi)\n6. [位置外推方法](#位置外推方法)\n7. [方法对比与选型](#方法对比与选型)\n8. [代码实现](#代码实现)\n9. [面试要点](#面试要点)\n\n---\n\n## 为什么需要位置编码\n\n### 问题背景\n\nSelf-Attention 是**位置无关 (Permutation Invariant)** 的：\n\n```\n输入: [A, B, C] → Attention 输出\n输入: [B, A, C] → 相同的 Attention 输出（只是顺序变了）\n\n这意味着模型无法区分 \"A 在 B 前面\" 和 \"B 在 A 前面\"\n```\n\n### 解决方案\n\n为每个位置添加唯一的标识，让模型感知顺序信息。\n\n---\n\n## 绝对位置编码\n\n### 1. 正弦位置编码 (Sinusoidal)\n\nTransformer 原始论文提出：\n\n$$\n\\begin{aligned}\nPE_{(pos, 2i)} \u0026= \\sin\\left(\\frac{pos}{10000^{2i/d_{model}}}\\right) \\\\\nPE_{(pos, 2i+1)} \u0026= \\cos\\left(\\frac{position}{10000^{2i/d_{model}}}\\right)\n\\end{aligned}\n$$\n\n其中：\n- $pos$: 位置索引\n- $i$: 维度索引\n- $d_{model}$: 模型维度\n\n### 波长分析\n\n对于维度 $i$，波长为：\n\n$$\n\\lambda_i = 2\\pi \\cdot 10000^{2i/d_{model}}\n$$\n\n- 小 $i$ (低维): 长波长，捕获长距离模式\n- 大 $i$ (高维): 短波长，捕获细粒度变化\n\n```\n维度 0:  波长 ≈ 2π      (高频，精细位置)\n维度 128: 波长 ≈ 2π×100 (中频)\n维度 512: 波长 ≈ 2π×10000 (低频，粗粒度位置)\n```\n\n### 2. 可学习位置编码 (Learned)\n\nBERT 采用的方式：\n\n```python\nself.position_embeddings = nn.Embedding(max_seq_len, d_model)\n```\n\n**优点**:\n- 灵活性高，数据驱动\n- 可以针对特定任务优化\n\n**缺点**:\n- 外推性差，无法处理训练时未见过的长度\n- 增加了参数量\n\n### 绝对位置编码对比\n\n| 特性 | 正弦 | 可学习 |\n|------|------|--------|\n| 参数量 | 0 | $max\\_seq \\times d_{model}$ |\n| 外推性 | 好 | 差 |\n| 灵活性 | 固定 | 可优化 |\n| 相对位置 | 可表示 | 不可直接表示 |\n\n---\n\n## 相对位置编码\n\n### 核心思想\n\n关注 token 之间的相对距离而非绝对位置：\n\n```\n绝对: token A 在位置 5，token B 在位置 8\n相对: token B 距离 token A 有 +3 个位置\n```\n\n### 1. Transformer-XL 相对位置编码\n\n在注意力计算中引入相对位置偏置：\n\n$$\nA_{ij} = \\underbrace{E_{x_i}^T W_q^T W_k E_{x_j}}_{\\text{内容}} + \\underbrace{E_{x_i}^T W_q^T W_k R_{i-j}}_{\\text{位置}} + \\underbrace{u^T W_k E_{x_j}}_{\\text{内容偏置}} + \\underbrace{v^T W_k R_{i-j}}_{\\text{位置偏置}}\n$$\n\n其中 $R_{i-j}$ 是相对位置编码。\n\n### 2. T5 相对位置编码\n\n简化版本，只在注意力中添加可学习的相对位置偏置：\n\n```\nattention_scores += relative_position_bias\n```\n\n相对位置偏置是一个可学习的查找表，通常限制最大距离（如 128）。\n\n---\n\n## 旋转位置编码 (RoPE)\n\n### 核心思想\n\n通过旋转矩阵将位置信息编码到 Q、K 向量中，使得内积自然包含相对位置信息。\n\n### 数学推导\n\n对于二维情况，位置 $m$ 的向量 $x_m = [x_m^{(1)}, x_m^{(2)}]$：\n\n$$\nf(x_m, m) = \\begin{pmatrix} \\cos m\\theta \u0026 -\\sin m\\theta \\\\ \\sin m\\theta \u0026 \\cos m\\theta \\end{pmatrix} \\begin{pmatrix} x_m^{(1)} \\\\ x_m^{(2)} \\end{pmatrix}\n$$\n\n即对向量进行旋转，旋转角度与位置 $m$ 成正比。\n\n### 扩展到高维\n\n将 $d$ 维向量分成 $d/2$ 对，每对应用旋转：\n\n$$\nf(x, m) = \\underbrace{\\begin{pmatrix} \\cos m\\theta_1 \u0026 -\\sin m\\theta_1 \u0026 0 \u0026 0 \u0026 \\cdots \\\\ \\sin m\\theta_1 \u0026 \\cos m\\theta_1 \u0026 0 \u0026 0 \u0026 \\cdots \\\\ 0 \u0026 0 \u0026 \\cos m\\theta_2 \u0026 -\\sin m\\theta_2 \u0026 \\cdots \\\\ 0 \u0026 0 \u0026 \\sin m\\theta_2 \u0026 \\cos m\\theta_2 \u0026 \\cdots \\\\ \\vdots \u0026 \\vdots \u0026 \\vdots \u0026 \\vdots \u0026 \\ddots \\end{pmatrix}}_{R_m} x\n$$\n\n其中 $\\theta_i = 10000^{-2(i-1)/d}$\n\n### 关键性质\n\n对于位置 $m$ 和 $n$ 的向量：\n\n$$\nf(q, m)^T f(k, n) = q^T R_{m-n} k = g(q, k, m-n)\n$$\n\n**内积只依赖于相对位置 $m-n$！**\n\n### RoPE 的优势\n\n| 优势 | 说明 |\n|------|------|\n| 相对位置 | 内积自然体现相对位置 |\n| 长距离衰减 | 远距离位置内积自然衰减 |\n| 外推性 | 可处理训练时未见过的长度 |\n| 灵活性 | 可配合各种外推技术 |\n\n### 现代应用\n\n- LLaMA\n- PaLM\n- Qwen\n- Baichuan\n- 大多数现代开源模型\n\n---\n\n## ALiBi\n\n### 核心思想\n\nAttention with Linear Biases，直接在注意力分数上添加与距离成正比的惩罚：\n\n$$\n\\text{softmax}(q^T k + \\underbrace{-m \\cdot |i-j|}_{\\text{位置偏置}})\n$$\n\n### 特点\n\n1. **简单**: 不需要修改 Q、K 的计算\n2. **有效**: 外推性极佳\n3. **稳定**: 训练更稳定\n\n### 斜率设置\n\n每个头使用不同的斜率 $m$：\n\n```\nHead 1: m = 2^(-8)  (关注长距离)\nHead 2: m = 2^(-7)\n...\nHead 8: m = 2^(-1)  (关注短距离)\n```\n\n### 外推性对比\n\n```\n训练长度: 2048\n测试长度: 8192\n\n正弦编码: 困惑度急剧上升\nRoPE:     困惑度缓慢上升\nALiBi:    困惑度几乎不变\n```\n\n---\n\n## 位置外推方法\n\n### 问题定义\n\n模型在长度 $L_{train}$ 上训练，如何泛化到 $L_{test} \u003e L_{train}$？\n\n### 1. 位置插值 (Position Interpolation, PI)\n\n将长序列的位置缩放到训练时的范围：\n\n$$\npos' = pos \\times \\frac{L_{train}}{L_{test}}\n$$\n\n**示例**:\n```\n训练长度: 2048\n测试长度: 8192\n\n原始位置: 0, 1, 2, ..., 8191\n插值后:   0, 0.25, 0.5, ..., 2047.75\n```\n\n**优点**: 简单有效\n**缺点**: 需要微调\n\n### 2. NTK-aware 外推\n\n不直接缩放位置，而是调整 RoPE 的 base 频率：\n\n```\n原始: θ_i = base^(-2i/d)\n修改: θ_i' = (base × λ)^(-2i/d)\n```\n\n其中 $\\lambda$ 是缩放因子。\n\n### 3. YaRN (Yet another RoPE extensioN)\n\n结合温度缩放和频率调整：\n\n```\n1. 对高频维度进行温度缩放 (temperature scaling)\n2. 对低频维度进行 NTK-aware 调整\n3. 注意力计算时乘以温度因子\n```\n\n### 4. 动态 NTK\n\n根据当前序列长度动态调整：\n\n```python\nif seq_len \u003c= train_len:\n    scale = 1.0\nelse:\n    scale = seq_len / train_len\n    # 动态调整 RoPE base\n```\n\n### 外推方法对比\n\n| 方法 | 需要微调 | 复杂度 | 效果 |\n|------|----------|--------|------|\n| PI | 是 | 低 | 良好 |\n| NTK-aware | 可选 | 低 | 良好 |\n| YaRN | 推荐 | 中 | 优秀 |\n| 动态 NTK | 否 | 低 | 良好 |\n\n---\n\n## 方法对比与选型\n\n### 综合对比表\n\n| 方法 | 类型 | 外推性 | 训练稳定性 | 实现复杂度 | 代表模型 |\n|------|------|--------|------------|------------|----------|\n| 正弦 | 绝对 | 中 | 中 | 低 | 原始 Transformer |\n| 可学习 | 绝对 | 差 | 高 | 低 | BERT |\n| 相对 (XL) | 相对 | 好 | 中 | 高 | Transformer-XL |\n| T5 偏置 | 相对 | 差 | 高 | 低 | T5 |\n| RoPE | 旋转 | 好 | 高 | 中 | LLaMA, Qwen |\n| ALiBi | 线性偏置 | 优秀 | 优秀 | 低 | BLOOM, MPT |\n\n### 选型建议\n\n| 场景 | 推荐方案 |\n|------|----------|\n| 追求简单稳定 | ALiBi |\n| 追求最佳性能 | RoPE + YaRN |\n| 快速原型 | 正弦位置编码 |\n| 固定长度任务 | 可学习位置编码 |\n| 超长上下文 (\u003e100K) | RoPE + 动态 NTK |\n\n---\n\n## 代码实现\n\n### 1. 正弦位置编码\n\n```python\nimport torch\nimport torch.nn as nn\nimport math\n\nclass SinusoidalPositionalEncoding(nn.Module):\n    def __init__(self, d_model, max_seq_len=5000, dropout=0.1):\n        super().__init__()\n        self.dropout = nn.Dropout(dropout)\n\n        # 预计算位置编码\n        pe = torch.zeros(max_seq_len, d_model)\n        position = torch.arange(0, max_seq_len, dtype=torch.float).unsqueeze(1)\n\n        # 计算分母项\n        div_term = torch.exp(\n            torch.arange(0, d_model, 2).float() *\n            (-math.log(10000.0) / d_model)\n        )\n\n        # 偶数维: sin\n        pe[:, 0::2] = torch.sin(position * div_term)\n        # 奇数维: cos\n        pe[:, 1::2] = torch.cos(position * div_term)\n\n        # 注册为 buffer (不参与训练)\n        self.register_buffer('pe', pe.unsqueeze(0))\n\n    def forward(self, x):\n        \"\"\"\n        x: [batch_size, seq_len, d_model]\n        \"\"\"\n        x = x + self.pe[:, :x.size(1)]\n        return self.dropout(x)\n```\n\n### 2. RoPE 实现\n\n```python\nclass RotaryPositionalEmbedding(nn.Module):\n    \"\"\"旋转位置编码实现\"\"\"\n    def __init__(self, dim, max_seq_len=2048, base=10000):\n        super().__init__()\n\n        # 计算旋转角度\n        theta = 1.0 / (base ** (torch.arange(0, dim, 2).float() / dim))\n\n        # 预计算位置 × 角度\n        positions = torch.arange(max_seq_len)\n        angles = torch.outer(positions, theta)  # [max_seq_len, dim/2]\n\n        # 注册为 buffer\n        self.register_buffer('cos_cached', torch.cos(angles))\n        self.register_buffer('sin_cached', torch.sin(angles))\n\n    def forward(self, x, seq_len):\n        \"\"\"\n        对输入 x 应用旋转位置编码\n        x: [batch_size, num_heads, seq_len, head_dim]\n        \"\"\"\n        # 将最后维度分成两半\n        x1, x2 = x[..., ::2], x[..., 1::2]\n\n        # 获取对应位置的 cos, sin\n        cos = self.cos_cached[:seq_len]  # [seq_len, dim/2]\n        sin = self.sin_cached[:seq_len]\n\n        # 调整维度以匹配 x\n        cos = cos.unsqueeze(0).unsqueeze(0)  # [1, 1, seq_len, dim/2]\n        sin = sin.unsqueeze(0).unsqueeze(0)\n\n        # 应用旋转\n        # [x1, x2] 旋转 mθ 角度:\n        # x1' = x1 * cos(mθ) - x2 * sin(mθ)\n        # x2' = x1 * sin(mθ) + x2 * cos(mθ)\n        x_rotated = torch.stack([\n            x1 * cos - x2 * sin,\n            x1 * sin + x2 * cos\n        ], dim=-1)  # [..., dim/2, 2]\n\n        return x_rotated.flatten(-2)  # [..., dim]\n\n\ndef apply_rotary_pos_emb(q, k, cos, sin):\n    \"\"\"对 Q, K 应用 RoPE\"\"\"\n    def rotate_half(x):\n        x1, x2 = x[..., ::2], x[..., 1::2]\n        return torch.stack([-x2, x1], dim=-1).flatten(-2)\n\n    q_embed = (q * cos) + (rotate_half(q) * sin)\n    k_embed = (k * cos) + (rotate_half(k) * sin)\n    return q_embed, k_embed\n```\n\n### 3. ALiBi 实现\n\n```python\nclass ALiBiPositionalBias(nn.Module):\n    \"\"\"ALiBi 位置偏置\"\"\"\n    def __init__(self, num_heads, max_seq_len=2048):\n        super().__init__()\n        self.num_heads = num_heads\n\n        # 计算每个头的斜率\n        # m = 2^(-8*i/num_heads) for i in range(num_heads)\n        slopes = torch.pow(2, -torch.arange(0, num_heads) * 8 / num_heads)\n\n        # 计算距离矩阵\n        distance = torch.arange(max_seq_len).unsqueeze(0) - torch.arange(max_seq_len).unsqueeze(1)\n        distance = distance.abs().unsqueeze(0)  # [1, seq_len, seq_len]\n\n        # 计算偏置: -m * distance\n        bias = -distance * slopes.unsqueeze(1).unsqueeze(1)  # [num_heads, seq_len, seq_len]\n\n        self.register_buffer('bias', bias)\n\n    def forward(self, attention_scores):\n        \"\"\"\n        attention_scores: [batch_size, num_heads, seq_len, seq_len]\n        \"\"\"\n        seq_len = attention_scores.size(-1)\n        return attention_scores + self.bias[:, :seq_len, :seq_len]\n```\n\n### 4. 位置插值实现\n\n```python\nclass PositionInterpolation(nn.Module):\n    \"\"\"位置插值实现\"\"\"\n    def __init__(self, base_model, train_len=2048, target_len=8192):\n        super().__init__()\n        self.model = base_model\n        self.scale = target_len / train_len\n\n    def forward(self, x):\n        # 修改位置编码的 scale\n        if hasattr(self.model, 'position_encoding'):\n            # 对于正弦编码，调整位置索引\n            positions = torch.arange(x.size(1), device=x.device) / self.scale\n            # 重新计算位置编码...\n        return self.model(x)\n```\n\n---\n\n## 面试要点\n\n### 高频问题\n\n**Q1: 为什么 Transformer 需要位置编码？**\n\nA: Self-Attention 是位置无关的，对输入序列的排列不敏感。位置编码为模型提供顺序信息，使其能区分 \"A 在 B 前\" 和 \"B 在 A 前\"。\n\n**Q2: 正弦位置编码为什么使用不同频率？**\n\nA: 不同维度使用不同波长，使模型能同时捕获：\n- 低维（高频）：精细的位置变化\n- 高维（低频）：粗粒度的位置模式\n\n**Q3: RoPE 相比绝对位置编码的优势？**\n\nA:\n1. 内积自然体现相对位置\n2. 长距离内积自然衰减\n3. 外推性更好\n4. 不需要额外的位置嵌入参数\n\n**Q4: ALiBi 和 RoPE 的主要区别？**\n\nA:\n- ALiBi: 在注意力分数上添加线性偏置，简单稳定，外推性极佳\n- RoPE: 通过旋转矩阵编码位置，更灵活，可配合多种外推技术\n\n**Q5: 什么是位置外推？有哪些方法？**\n\nA: 外推指模型处理比训练时更长序列的能力。常用方法：\n1. 位置插值 (PI): 缩放位置索引\n2. NTK-aware: 调整 RoPE 的 base 频率\n3. YaRN: 结合温度缩放和频率调整\n4. 动态 NTK: 根据长度动态调整\n\n### 手撕代码重点\n\n1. **正弦位置编码** 计算\n2. **RoPE 旋转矩阵** 构造\n3. **ALiBi 偏置矩阵** 计算\n4. **位置插值** 实现\n\n---\n\n## 相关文档\n\n- [Transformer 详解](/kb/llm/transformer-qwfbd0) - 正弦位置编码在 Transformer 中的应用\n- [注意力机制深入理解](/kb/llm/doc-kvxpkx) - 注意力计算细节\n- [长上下文技术概览](/kb/llm/doc-hke744) - 位置外推与长序列建模\n\n---\n\n## 参考文献\n\n1. Vaswani et al. \"Attention Is All You Need\". NeurIPS 2017.\n2. Su et al. \"RoFormer: Enhanced Transformer with Rotary Position Embedding\". 2021.\n3. Press et al. \"Train Short, Test Long: Attention with Linear Biases\". 2021.\n4. Chen et al. \"Extending Context Window of Large Language Models via Position Interpolation\". 2023.\n5. Peng et al. \"YaRN: Efficient Context Window Extension of Large Language Models\". 2023.\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"$Lf\",null,{\"document\":{\"slug\":\"doc-ne91sy\",\"title\":\"位置编码技术演进\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"LLM\",\"categoryId\":\"llm\",\"content\":\"$10\",\"filePath\":\"基础架构/位置编码技术演进.md\",\"default\":{\"slug\":\"doc-ne91sy\",\"title\":\"位置编码技术演进\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"LLM\",\"categoryId\":\"llm\",\"content\":\"$11\",\"filePath\":\"基础架构/位置编码技术演进.md\"}}}]\nc:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"位置编码技术演进 - LLM | Jerry Xu\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"位置编码技术演进\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"5\",{\"name\":\"keywords\",\"content\":\"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"zh_CN\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发\"}]]\n3:null\n"])</script></body></html>

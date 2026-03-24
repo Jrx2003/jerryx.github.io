@@ -1,0 +1,481 @@
+<!DOCTYPE html><html lang="zh-CN" class="dark scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/85ed2b6284775456.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-f5d064e8df6cf7aa.js"/><script src="/_next/static/chunks/fd9d1056-feaa03e4ba5b7f26.js" async=""></script><script src="/_next/static/chunks/7023-23d925299661e942.js" async=""></script><script src="/_next/static/chunks/main-app-7af50e099f0d48b5.js" async=""></script><script src="/_next/static/chunks/2015-af9c16aac7ff4ad0.js" async=""></script><script src="/_next/static/chunks/7138-b897b2ad3516dd35.js" async=""></script><script src="/_next/static/chunks/app/layout-441e83d4c275c29e.js" async=""></script><script src="/_next/static/chunks/app/not-found-32f7da5ab09aedff.js" async=""></script><script src="/_next/static/chunks/8373-886bc01b77cafd14.js" async=""></script><script src="/_next/static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js" async=""></script><title>数据工程与清洗 - LLM | Jerry Xu</title><meta name="description" content="数据工程与清洗"/><meta name="author" content="Jerry Xu"/><meta name="keywords" content="Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"/><meta property="og:title" content="Jerry Xu - 徐劼瑞"/><meta property="og:description" content="上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"/><meta property="og:site_name" content="Jerry Xu"/><meta property="og:locale" content="zh_CN"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Jerry Xu - 徐劼瑞"/><meta name="twitter:description" content="上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"/><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body class="font-sans antialiased min-h-screen flex flex-col bg-background text-foreground"><header class="fixed top-0 left-0 right-0 z-50"><div class="mx-4 mt-4"><nav class="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass border border-white/10 shadow-2xl shadow-purple-500/5" style="opacity:0;transform:translateY(-100px)"><div class="flex items-center justify-between"><a class="flex items-center gap-2 group" href="/"><div class="relative"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-white"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg></div><div class="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div></div><span class="font-bold text-lg tracking-tight hidden sm:block text-foreground">Jerry</span></a><div class="hidden md:flex items-center gap-1"><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/">首页</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/about/">关于</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/projects/">项目</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/kb/">知识库</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/blog/">博客</a></div><div class="flex items-center gap-2"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><button class="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav></div></header><main class="flex-1"><div class="relative min-h-screen"><div class="fixed inset-0 gradient-bg -z-10"></div><div class="fixed inset-0 grid-pattern -z-10"></div><div class="relative z-10 py-32 px-4"><div class="max-w-4xl mx-auto"><div class="mb-8" style="opacity:0;transform:translateX(-20px)"><a class="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" href="/kb/llm/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回 <!-- -->LLM</a></div><div class="mb-12" style="opacity:0;transform:translateY(20px)"><div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-muted-foreground"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full glass"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>LLM</span><span class="inline-flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>26<!-- --> 分钟阅读</span></div><h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"><span class="gradient-text">数据工程与清洗</span></h1></div><div class="glass rounded-2xl p-6 md:p-10" style="opacity:0;transform:translateY(20px)"><article class="prose prose-invert prose-lg max-w-none"><h1 class="text-3xl font-bold mt-8 mb-4 pb-2 border-b border-white/10">数据工程与清洗</h1>
+<blockquote class="border-l-4 border-purple-500 pl-4 italic text-muted-foreground my-4">
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>更新日期</strong>: 2026-03-13
+<strong>版本</strong>: v1.0
+<strong>难度</strong>: 中级
+<strong>预计阅读时间</strong>: 50 分钟</p>
+</blockquote>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">目录</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="#%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E6%A6%82%E8%BF%B0" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">数据工程概述</a></li>
+<li class="leading-relaxed"><a href="#%E6%95%B0%E6%8D%AE%E6%BA%90%E4%B8%8E%E9%87%87%E9%9B%86" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">数据源与采集</a></li>
+<li class="leading-relaxed"><a href="#%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97%E6%B5%81%E7%A8%8B" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">数据清洗流程</a></li>
+<li class="leading-relaxed"><a href="#%E5%8E%BB%E9%87%8D%E6%8A%80%E6%9C%AF" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">去重技术</a></li>
+<li class="leading-relaxed"><a href="#%E8%B4%A8%E9%87%8F%E8%AF%84%E4%BC%B0%E4%B8%8E%E8%BF%87%E6%BB%A4" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">质量评估与过滤</a></li>
+<li class="leading-relaxed"><a href="#%E6%95%B0%E6%8D%AE%E9%85%8D%E6%AF%94" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">数据配比</a></li>
+<li class="leading-relaxed"><a href="#%E5%88%86%E8%AF%8D%E5%99%A8%E8%AE%AD%E7%BB%83" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">分词器训练</a></li>
+<li class="leading-relaxed"><a href="#%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E4%B8%8E%E5%AD%98%E5%82%A8" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">数据格式与存储</a></li>
+<li class="leading-relaxed"><a href="#%E9%9D%A2%E8%AF%95%E8%A6%81%E7%82%B9" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">面试要点</a></li>
+</ol>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">数据工程概述</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">核心原则</h3>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">数据质量 &gt; 数据数量
+
+Garbage In, Garbage Out
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">数据工程流程</h3>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">┌─────────────────────────────────────────────────────────────────┐
+│                        数据工程流程                              │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  原始数据 ──→ 采集 ──→ 清洗 ──→ 去重 ──→ 过滤 ──→ 配比 ──→ 训练 │
+│    │          │        │        │        │        │             │
+│    │          │        │        │        │        │             │
+│    ▼          ▼        ▼        ▼        ▼        ▼             │
+│ Common     格式统一   精确去重  MinHash  质量评分  领域混合       │
+│ Crawl      编码修复   模糊去重  SimHash  分类器    采样策略       │
+│ Books      HTML去除   文档级    局部敏感  启发式    动态调整       │
+│ Code       文本提取   段落级    哈希      规则      温度采样       │
+│ ...        ...        ...      ...      ...      ...            │
+└─────────────────────────────────────────────────────────────────┘
+</code></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">数据源与采集</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">常见数据源</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">数据源</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">规模</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">特点</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">适用场景</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">Common Crawl</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">数百 TB</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">网页数据，噪声大</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">通用语料</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">C4</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">800GB</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">清洗后的 Common Crawl</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">通用预训练</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">RefinedWeb</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">5T tokens</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高质量网页</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高质量预训练</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">The Pile</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">825GB</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">多样化领域</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">研究</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">Books</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">数十 GB</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高质量长文本</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">知识、推理</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">Wikipedia</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">20GB</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">结构化知识</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">知识增强</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">GitHub</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">数百 GB</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">代码数据</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">代码能力</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">ArXiv</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">数十 GB</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">学术论文</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">科学推理</td></tr></tbody></table></div>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">数据采集工具</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># Common Crawl 处理示例
+import boto3
+from warcio import ArchiveIterator
+
+def process_common_crawl(warc_path):
+    &quot;&quot;&quot;处理 WARC 格式的 Common Crawl 数据&quot;&quot;&quot;
+    with open(warc_path, &#x27;rb&#x27;) as stream:
+        for record in ArchiveIterator(stream):
+            if record.rec_type == &#x27;response&#x27;:
+                url = record.rec_headers.get_header(&#x27;WARC-Target-URI&#x27;)
+                content = record.content_stream().read()
+
+                # 提取文本
+                text = extract_text_from_html(content)
+                yield {&#x27;url&#x27;: url, &#x27;text&#x27;: text}
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">数据清洗流程</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 格式统一</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def normalize_text(text):
+    &quot;&quot;&quot;文本标准化&quot;&quot;&quot;
+    # 统一 Unicode
+    text = unicodedata.normalize(&#x27;NFKC&#x27;, text)
+
+    # 修复编码问题
+    text = fix_mojibake(text)
+
+    # 统一空白字符
+    text = &#x27; &#x27;.join(text.split())
+
+    # 移除控制字符
+    text = remove_control_chars(text)
+
+    return text
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. HTML 处理</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">from bs4 import BeautifulSoup
+
+def extract_text_from_html(html):
+    &quot;&quot;&quot;从 HTML 提取干净文本&quot;&quot;&quot;
+    soup = BeautifulSoup(html, &#x27;html.parser&#x27;)
+
+    # 移除脚本和样式
+    for script in soup([&#x27;script&#x27;, &#x27;style&#x27;, &#x27;nav&#x27;, &#x27;footer&#x27;]):
+        script.decompose()
+
+    # 提取文本
+    text = soup.get_text()
+
+    # 清理
+    lines = (line.strip() for line in text.splitlines())
+    chunks = (phrase.strip() for line in lines for phrase in line.split(&quot;  &quot;))
+    text = &#x27;\n&#x27;.join(chunk for chunk in chunks if chunk)
+
+    return text
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 语言检测</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">from langdetect import detect
+
+def filter_by_language(text, target_lang=&#x27;en&#x27;):
+    &quot;&quot;&quot;按语言过滤&quot;&quot;&quot;
+    try:
+        lang = detect(text)
+        return lang == target_lang
+    except:
+        return False
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4. 长度过滤</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def filter_by_length(text, min_length=100, max_length=100000):
+    &quot;&quot;&quot;按长度过滤&quot;&quot;&quot;
+    length = len(text.split())
+    return min_length &lt;= length &lt;= max_length
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">去重技术</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 精确去重</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>基于哈希</strong>:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import hashlib
+
+def exact_deduplication(documents):
+    &quot;&quot;&quot;精确去重&quot;&quot;&quot;
+    seen = set()
+    unique_docs = []
+
+    for doc in documents:
+        doc_hash = hashlib.md5(doc.encode()).hexdigest()
+        if doc_hash not in seen:
+            seen.add(doc_hash)
+            unique_docs.append(doc)
+
+    return unique_docs
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 模糊去重 (MinHash + LSH)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>MinHash</strong>: 估计文档间的 Jaccard 相似度</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">from datasketch import MinHash, MinHashLSH
+
+def create_minhash(text, num_perm=128):
+    &quot;&quot;&quot;为文档创建 MinHash 签名&quot;&quot;&quot;
+    m = MinHash(num_perm=num_perm)
+
+    # 使用 shingle (n-gram)
+    shingles = set()
+    words = text.split()
+    for i in range(len(words) - 2):
+        shingle = &#x27; &#x27;.join(words[i:i+3])  # 3-gram
+        shingles.add(shingle)
+
+    for s in shingles:
+        m.update(s.encode(&#x27;utf8&#x27;))
+
+    return m
+
+# LSH 索引
+lsh = MinHashLSH(threshold=0.8, num_perm=128)
+
+for i, doc in enumerate(documents):
+    m = create_minhash(doc)
+
+    # 查询相似文档
+    result = lsh.query(m)
+    if len(result) == 0:
+        # 无相似文档，插入
+        lsh.insert(f&quot;doc_{i}&quot;, m)
+        yield doc
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 子串去重 (Suffix Array)</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>去除训练数据中的测试集污染</strong>:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def remove_contamination(text, test_set, min_match_length=100):
+    &quot;&quot;&quot;移除与测试集匹配的子串&quot;&quot;&quot;
+    for test_example in test_set:
+        if test_example in text:
+            text = text.replace(test_example, &#x27;&#x27;)
+    return text
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4. 文档内去重</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def dedup_paragraphs(text, min_paragraph_length=50):
+    &quot;&quot;&quot;文档内段落去重&quot;&quot;&quot;
+    paragraphs = text.split(&#x27;\n\n&#x27;)
+    seen = set()
+    unique_paragraphs = []
+
+    for para in paragraphs:
+        para = para.strip()
+        if len(para) &lt; min_paragraph_length:
+            continue
+
+        para_hash = hashlib.md5(para.lower().encode()).hexdigest()
+        if para_hash not in seen:
+            seen.add(para_hash)
+            unique_paragraphs.append(para)
+
+    return &#x27;\n\n&#x27;.join(unique_paragraphs)
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">质量评估与过滤</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 启发式规则</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def heuristic_quality_filter(text):
+    &quot;&quot;&quot;启发式质量过滤&quot;&quot;&quot;
+    # 1. 单词平均长度检查 (过滤随机字符)
+    words = text.split()
+    avg_word_len = sum(len(w) for w in words) / len(words)
+    if avg_word_len &gt; 15 or avg_word_len &lt; 2:
+        return False
+
+    # 2. 符号比例检查
+    symbol_ratio = sum(1 for c in text if not c.isalnum()) / len(text)
+    if symbol_ratio &gt; 0.5:
+        return False
+
+    # 3. 行尾省略号比例 (过滤爬虫截断)
+    ellipsis_ratio = text.count(&#x27;...&#x27;) / len(text.split(&#x27;\n&#x27;))
+    if ellipsis_ratio &gt; 0.3:
+        return False
+
+    # 4. 停用词比例 (过滤非自然语言)
+    stopwords = set([&#x27;the&#x27;, &#x27;a&#x27;, &#x27;an&#x27;, &#x27;is&#x27;, &#x27;are&#x27;, ...])
+    stopword_count = sum(1 for w in words if w.lower() in stopwords)
+    if stopword_count / len(words) &lt; 0.1:
+        return False
+
+    return True
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 基于模型的质量评分</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 使用小型分类器评估质量
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+quality_tokenizer = AutoTokenizer.from_pretrained(&quot;quality-classifier&quot;)
+quality_model = AutoModelForSequenceClassification.from_pretrained(&quot;quality-classifier&quot;)
+
+def score_quality(text):
+    &quot;&quot;&quot;使用模型评估文本质量&quot;&quot;&quot;
+    inputs = quality_tokenizer(
+        text[:1024],  # 截断
+        return_tensors=&quot;pt&quot;,
+        truncation=True
+    )
+    outputs = quality_model(**inputs)
+    score = torch.softmax(outputs.logits, dim=-1)[0][1].item()
+    return score
+
+# 过滤低质量文本
+if score_quality(text) &gt; 0.5:
+    keep(text)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 困惑度过滤</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def perplexity_filter(text, model, tokenizer, threshold=1000):
+    &quot;&quot;&quot;使用语言模型困惑度过滤&quot;&quot;&quot;
+    inputs = tokenizer(text, return_tensors=&quot;pt&quot;)
+
+    with torch.no_grad():
+        outputs = model(**inputs, labels=inputs[&quot;input_ids&quot;])
+        perplexity = torch.exp(outputs.loss).item()
+
+    return perplexity &lt; threshold
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4. 毒性内容过滤</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def toxicity_filter(text, toxicity_threshold=0.5):
+    &quot;&quot;&quot;过滤毒性内容&quot;&quot;&quot;
+    result = toxicity_classifier(text)
+    return result[&#x27;toxicity&#x27;] &lt; toxicity_threshold
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">数据配比</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">领域配比策略</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono"># 不同领域的采样比例
+data_mixture = {
+    &#x27;web&#x27;: 0.60,      # 网页数据
+    &#x27;code&#x27;: 0.17,     # 代码
+    &#x27;books&#x27;: 0.08,    # 书籍
+    &#x27;wiki&#x27;: 0.05,     # 维基百科
+    &#x27;academic&#x27;: 0.04, # 学术论文
+    &#x27;news&#x27;: 0.04,     # 新闻
+    &#x27;social&#x27;: 0.02,   # 社交媒体
+}
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">温度采样</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>调整不同领域的采样概率</strong>:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def temperature_sampling(dataset_probs, temperature=0.3):
+    &quot;&quot;&quot;
+    temperature &lt; 1: 更均衡
+    temperature &gt; 1: 更倾斜
+    &quot;&quot;&quot;
+    # 应用温度
+    adjusted_probs = {k: v ** (1/temperature) for k, v in dataset_probs.items()}
+
+    # 归一化
+    total = sum(adjusted_probs.values())
+    normalized_probs = {k: v/total for k, v in adjusted_probs.items()}
+
+    return normalized_probs
+
+# 示例
+probs = {&#x27;web&#x27;: 0.7, &#x27;code&#x27;: 0.2, &#x27;books&#x27;: 0.1}
+adjusted = temperature_sampling(probs, temperature=0.3)
+# 结果: web: 0.52, code: 0.31, books: 0.17 (更均衡)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">动态配比</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">class DynamicDataMixer:
+    &quot;&quot;&quot;根据训练损失动态调整数据配比&quot;&quot;&quot;
+
+    def __init__(self, datasets, initial_probs):
+        self.datasets = datasets
+        self.probs = initial_probs
+        self.domain_losses = {k: [] for k in datasets}
+
+    def update_probs(self, domain_losses):
+        &quot;&quot;&quot;根据领域损失调整采样概率&quot;&quot;&quot;
+        # 损失高的领域增加采样
+        avg_losses = {k: sum(v)/len(v) for k, v in domain_losses.items()}
+        total_loss = sum(avg_losses.values())
+
+        # 损失占比越高，采样概率越高
+        new_probs = {k: v/total_loss for k, v in avg_losses.items()}
+
+        # 平滑更新
+        for k in self.probs:
+            self.probs[k] = 0.9 * self.probs[k] + 0.1 * new_probs[k]
+
+    def sample_batch(self, batch_size):
+        &quot;&quot;&quot;根据当前概率采样批次&quot;&quot;&quot;
+        domains = list(self.probs.keys())
+        probs = list(self.probs.values())
+
+        selected_domains = np.random.choice(domains, size=batch_size, p=probs)
+
+        batch = []
+        for domain in selected_domains:
+            sample = self.datasets[domain].sample()
+            batch.append(sample)
+
+        return batch
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">分词器训练</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">BPE 训练</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">from tokenizers import Tokenizer, models, trainers
+
+# 初始化 BPE 模型
+tokenizer = Tokenizer(models.BPE())
+
+# 配置训练器
+trainer = trainers.BpeTrainer(
+    vocab_size=32000,
+    min_frequency=2,
+    special_tokens=[&quot;&lt;pad&gt;&quot;, &quot;&lt;s&gt;&quot;, &quot;&lt;/s&gt;&quot;, &quot;&lt;unk&gt;&quot;, &quot;&lt;mask&gt;&quot;]
+)
+
+# 训练
+files = [&quot;train_data_1.txt&quot;, &quot;train_data_2.txt&quot;, ...]
+tokenizer.train(files, trainer)
+
+# 保存
+tokenizer.save(&quot;tokenizer.json&quot;)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">SentencePiece</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import sentencepiece as spm
+
+spm.SentencePieceTrainer.train(
+    input=&#x27;train_data.txt&#x27;,
+    model_prefix=&#x27;spm_model&#x27;,
+    vocab_size=32000,
+    model_type=&#x27;bpe&#x27;,  # 或 &#x27;unigram&#x27;
+    character_coverage=0.9995,
+    num_threads=64,
+    split_by_whitespace=True,
+    split_by_unicode_script=True,
+    split_by_number=True,
+    max_sentencepiece_length=16,
+    add_dummy_prefix=True,
+    remove_extra_whitespaces=True,
+    normalization_rule_name=&#x27;nmt_nfkc_cf&#x27;,
+)
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">分词器选择</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">算法</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">优点</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">缺点</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">适用</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">BPE</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">简单高效</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">贪婪合并</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">通用</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">WordPiece</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">考虑概率</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">实现复杂</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">BERT</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">Unigram</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">可逆，更灵活</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">训练慢</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">T5, XLNet</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">SentencePiece</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">语言无关</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">需要预处理</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">多语言</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">数据格式与存储</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 二进制格式 (Memmap)</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import numpy as np
+
+def create_memmap(data, output_path, dtype=np.uint16):
+    &quot;&quot;&quot;创建内存映射文件&quot;&quot;&quot;
+    arr = np.array(data, dtype=dtype)
+    fp = np.memmap(output_path, dtype=dtype, mode=&#x27;w+&#x27;, shape=arr.shape)
+    fp[:] = arr[:]
+    fp.flush()
+    return fp
+
+# 使用
+mmap = np.memmap(&#x27;data.bin&#x27;, dtype=np.uint16, mode=&#x27;r&#x27;)
+batch = mmap[offset:offset+seq_length]
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. Arrow 格式</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import pyarrow as pa
+import pyarrow.parquet as pq
+
+# 保存为 Parquet
+table = pa.table({&#x27;text&#x27;: documents, &#x27;source&#x27;: sources})
+pq.write_table(table, &#x27;data.parquet&#x27;)
+
+# 读取
+table = pq.read_table(&#x27;data.parquet&#x27;)
+documents = table[&#x27;text&#x27;].to_pylist()
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. WebDataset</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">from webdataset import ShardWriter
+
+with ShardWriter(&quot;data-%06d.tar&quot;, maxcount=10000) as sink:
+    for doc in documents:
+        sink.write({
+            &quot;__key__&quot;: doc_id,
+            &quot;txt&quot;: doc.encode(&#x27;utf-8&#x27;)
+        })
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">格式对比</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">格式</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">读取速度</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">内存占用</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">压缩</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">适用场景</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">Raw Text</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">慢</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">高</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">无</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">调试</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">Memmap</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">极快</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">无</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">大规模训练</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">Parquet</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">快</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">中</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">好</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">分析处理</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground">WebDataset</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">快</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">低</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">可选</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">分布式训练</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">面试要点</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">高频问题</h3>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q1: 为什么数据质量比数量更重要？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A: 低质量数据会导致：</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">模型学习到错误模式</li>
+<li class="leading-relaxed">训练不稳定</li>
+<li class="leading-relaxed">下游任务性能下降</li>
+<li class="leading-relaxed">产生有害输出</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q2: MinHash 去重的原理？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A: MinHash 通过局部敏感哈希估计文档间的 Jaccard 相似度。将文档表示为 shingle 集合，通过多个哈希函数计算签名，相似文档有高概率产生相同的最小哈希值。</p>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q3: 如何防止训练数据污染测试集？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">使用子串匹配去除测试集内容</li>
+<li class="leading-relaxed">N-gram 重叠检测</li>
+<li class="leading-relaxed">嵌入相似度检测</li>
+<li class="leading-relaxed">人工审核关键数据集</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q4: 数据配比的重要性？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A: 不同领域数据对模型能力有不同贡献。合理的配比可以：</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">平衡通用能力和专业能力</li>
+<li class="leading-relaxed">避免某些领域过拟合</li>
+<li class="leading-relaxed">优化训练效率</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>Q5: BPE 和 SentencePiece 的区别？</strong></p>
+<p class="text-muted-foreground leading-relaxed mb-4">A:</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">BPE: 贪婪合并最频繁的字符对</li>
+<li class="leading-relaxed">SentencePiece: 基于语言模型概率，可逆编码</li>
+<li class="leading-relaxed">SentencePiece 更适合多语言，将空格编码为特殊 token</li>
+</ul>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">手撕代码重点</h3>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>MinHash</strong> 实现</li>
+<li class="leading-relaxed"><strong>启发式质量过滤</strong></li>
+<li class="leading-relaxed"><strong>温度采样</strong> 实现</li>
+<li class="leading-relaxed"><strong>BPE 训练</strong> 流程</li>
+</ol>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">相关文档</h2>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="/kb/llm/doc-nfok3w" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">预训练策略与技巧</a> - 训练流程</li>
+<li class="leading-relaxed"><a href="/kb/llm/gpt-gmyzge" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">GPT 系列模型演进</a> - 数据规模参考</li>
+<li class="leading-relaxed"><a href="/kb/llm/doc-i1yc59" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">指令微调与 SFT</a> - 指令数据构造</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">参考文献</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">Raffel et al. &quot;Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer&quot;. JMLR 2020.</li>
+<li class="leading-relaxed">Lee et al. &quot;Deduplicating Training Data Makes Language Models Better&quot;. ACL 2022.</li>
+<li class="leading-relaxed">Xie et al. &quot;Data Selection for Language Models via Importance Resampled MCMC&quot;. 2023.</li>
+<li class="leading-relaxed">Penedo et al. &quot;The RefinedWeb Dataset for Falcon LLM&quot;. 2023.</li>
+</ol></article></div><div class="mt-12 flex items-center justify-between" style="opacity:0;transform:translateY(20px)"><a class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors" href="/kb/llm/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回列表</a></div></div></div></div></main><footer class="relative border-t border-white/5"><div class="absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"></div><div class="container relative py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-12"><div class="md:col-span-2 space-y-4"><a class="inline-block" href="/"><span class="text-2xl font-bold gradient-text">Jerry Xu</span></a><p class="text-muted-foreground max-w-sm">热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。</p><div class="flex items-center gap-4"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">导航</h4><ul class="space-y-3"><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/about/">关于</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/projects/">项目</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/kb/">知识库</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/blog/">博客</a></li></ul></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">联系方式</h4><ul class="space-y-3 text-sm"><li><a href="https://www.sjtu.edu.cn" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">上海交通大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li><a href="https://www.cuhk.edu.hk" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">即将前往香港中文大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li class="text-xs pt-2 text-muted-foreground">通过 GitHub 联系</li></ul></div></div><div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm text-muted-foreground">© <!-- -->2026<!-- --> Jerry Xu. Built with<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg> and Next.js</p><p class="text-xs text-muted-foreground/60">Designed &amp; Developed by Jerry</p></div></div></footer><script src="/_next/static/chunks/webpack-f5d064e8df6cf7aa.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/85ed2b6284775456.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"2:I[95751,[],\"\"]\n5:I[39275,[],\"\"]\n8:I[61343,[],\"\"]\n9:I[62782,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-441e83d4c275c29e.js\"],\"Header\"]\na:I[82446,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"9160\",\"static/chunks/app/not-found-32f7da5ab09aedff.js\"],\"default\"]\nb:I[231,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-441e83d4c275c29e.js\"],\"\"]\nd:I[76130,[],\"\"]\n6:[\"category\",\"llm\",\"d\"]\n7:[\"slug\",\"doc-2lx3ss\",\"d\"]\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/85ed2b6284775456.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L2\",null,{\"buildId\":\"ol1eMh0FVRjIrfwLO-nkw\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/kb/llm/doc-2lx3ss/\",\"initialTree\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"llm\",\"d\"],{\"children\":[[\"slug\",\"doc-2lx3ss\",\"d\"],{\"children\":[\"__PAGE__?{\\\"category\\\":\\\"llm\\\",\\\"slug\\\":\\\"doc-2lx3ss\\\"}\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"llm\",\"d\"],{\"children\":[[\"slug\",\"doc-2lx3ss\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L3\",\"$L4\"],null],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\",\"$7\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"className\":\"dark scroll-smooth\",\"children\":[\"$\",\"body\",null,{\"className\":\"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"main\",null,{\"className\":\"flex-1\",\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$La\",null,{}],\"notFoundStyles\":[],\"styles\":null}]}],[\"$\",\"footer\",null,{\"className\":\"relative border-t border-white/5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none\"}],[\"$\",\"div\",null,{\"className\":\"container relative py-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-4 gap-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"md:col-span-2 space-y-4\",\"children\":[[\"$\",\"$Lb\",null,{\"href\":\"/\",\"className\":\"inline-block\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-2xl font-bold gradient-text\",\"children\":\"Jerry Xu\"}]}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground max-w-sm\",\"children\":\"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。\"}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/Jrx2003\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group\",\"children\":[[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github w-4 h-4\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"导航\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3\",\"children\":[[\"$\",\"li\",\"/about/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/about/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"关于\"}]}],[\"$\",\"li\",\"/projects/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/projects/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"项目\"}]}],[\"$\",\"li\",\"/kb/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/kb/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"知识库\"}]}],[\"$\",\"li\",\"/blog/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/blog/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"博客\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"联系方式\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3 text-sm\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.sjtu.edu.cn\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"上海交通大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.cuhk.edu.hk\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"即将前往香港中文大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"className\":\"text-xs pt-2 text-muted-foreground\",\"children\":\"通过 GitHub 联系\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":[\"© \",2026,\" Jerry Xu. Built with\",\" \",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500\",\"children\":[[\"$\",\"path\",\"c3ymky\",{\"d\":\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"}],\"$undefined\"]}],\" and Next.js\"]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-muted-foreground/60\",\"children\":\"Designed \u0026 Developed by Jerry\"}]]}]]}]]}]]}]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]]\n"])</script><script>self.__next_f.push([1,"f:I[66006,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"8373\",\"static/chunks/8373-886bc01b77cafd14.js\",\"7438\",\"static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js\"],\"default\"]\n10:T3d53,"])</script><script>self.__next_f.push([1,"# 数据工程与清洗\n\n\u003e **更新日期**: 2026-03-13\n\u003e **版本**: v1.0\n\u003e **难度**: 中级\n\u003e **预计阅读时间**: 50 分钟\n\n---\n\n## 目录\n\n1. [数据工程概述](#数据工程概述)\n2. [数据源与采集](#数据源与采集)\n3. [数据清洗流程](#数据清洗流程)\n4. [去重技术](#去重技术)\n5. [质量评估与过滤](#质量评估与过滤)\n6. [数据配比](#数据配比)\n7. [分词器训练](#分词器训练)\n8. [数据格式与存储](#数据格式与存储)\n9. [面试要点](#面试要点)\n\n---\n\n## 数据工程概述\n\n### 核心原则\n\n```\n数据质量 \u003e 数据数量\n\nGarbage In, Garbage Out\n```\n\n### 数据工程流程\n\n```\n┌─────────────────────────────────────────────────────────────────┐\n│                        数据工程流程                              │\n├─────────────────────────────────────────────────────────────────┤\n│                                                                  │\n│  原始数据 ──→ 采集 ──→ 清洗 ──→ 去重 ──→ 过滤 ──→ 配比 ──→ 训练 │\n│    │          │        │        │        │        │             │\n│    │          │        │        │        │        │             │\n│    ▼          ▼        ▼        ▼        ▼        ▼             │\n│ Common     格式统一   精确去重  MinHash  质量评分  领域混合       │\n│ Crawl      编码修复   模糊去重  SimHash  分类器    采样策略       │\n│ Books      HTML去除   文档级    局部敏感  启发式    动态调整       │\n│ Code       文本提取   段落级    哈希      规则      温度采样       │\n│ ...        ...        ...      ...      ...      ...            │\n└─────────────────────────────────────────────────────────────────┘\n```\n\n---\n\n## 数据源与采集\n\n### 常见数据源\n\n| 数据源 | 规模 | 特点 | 适用场景 |\n|--------|------|------|----------|\n| Common Crawl | 数百 TB | 网页数据，噪声大 | 通用语料 |\n| C4 | 800GB | 清洗后的 Common Crawl | 通用预训练 |\n| RefinedWeb | 5T tokens | 高质量网页 | 高质量预训练 |\n| The Pile | 825GB | 多样化领域 | 研究 |\n| Books | 数十 GB | 高质量长文本 | 知识、推理 |\n| Wikipedia | 20GB | 结构化知识 | 知识增强 |\n| GitHub | 数百 GB | 代码数据 | 代码能力 |\n| ArXiv | 数十 GB | 学术论文 | 科学推理 |\n\n### 数据采集工具\n\n```python\n# Common Crawl 处理示例\nimport boto3\nfrom warcio import ArchiveIterator\n\ndef process_common_crawl(warc_path):\n    \"\"\"处理 WARC 格式的 Common Crawl 数据\"\"\"\n    with open(warc_path, 'rb') as stream:\n        for record in ArchiveIterator(stream):\n            if record.rec_type == 'response':\n                url = record.rec_headers.get_header('WARC-Target-URI')\n                content = record.content_stream().read()\n\n                # 提取文本\n                text = extract_text_from_html(content)\n                yield {'url': url, 'text': text}\n```\n\n---\n\n## 数据清洗流程\n\n### 1. 格式统一\n\n```python\ndef normalize_text(text):\n    \"\"\"文本标准化\"\"\"\n    # 统一 Unicode\n    text = unicodedata.normalize('NFKC', text)\n\n    # 修复编码问题\n    text = fix_mojibake(text)\n\n    # 统一空白字符\n    text = ' '.join(text.split())\n\n    # 移除控制字符\n    text = remove_control_chars(text)\n\n    return text\n```\n\n### 2. HTML 处理\n\n```python\nfrom bs4 import BeautifulSoup\n\ndef extract_text_from_html(html):\n    \"\"\"从 HTML 提取干净文本\"\"\"\n    soup = BeautifulSoup(html, 'html.parser')\n\n    # 移除脚本和样式\n    for script in soup(['script', 'style', 'nav', 'footer']):\n        script.decompose()\n\n    # 提取文本\n    text = soup.get_text()\n\n    # 清理\n    lines = (line.strip() for line in text.splitlines())\n    chunks = (phrase.strip() for line in lines for phrase in line.split(\"  \"))\n    text = '\\n'.join(chunk for chunk in chunks if chunk)\n\n    return text\n```\n\n### 3. 语言检测\n\n```python\nfrom langdetect import detect\n\ndef filter_by_language(text, target_lang='en'):\n    \"\"\"按语言过滤\"\"\"\n    try:\n        lang = detect(text)\n        return lang == target_lang\n    except:\n        return False\n```\n\n### 4. 长度过滤\n\n```python\ndef filter_by_length(text, min_length=100, max_length=100000):\n    \"\"\"按长度过滤\"\"\"\n    length = len(text.split())\n    return min_length \u003c= length \u003c= max_length\n```\n\n---\n\n## 去重技术\n\n### 1. 精确去重\n\n**基于哈希**:\n\n```python\nimport hashlib\n\ndef exact_deduplication(documents):\n    \"\"\"精确去重\"\"\"\n    seen = set()\n    unique_docs = []\n\n    for doc in documents:\n        doc_hash = hashlib.md5(doc.encode()).hexdigest()\n        if doc_hash not in seen:\n            seen.add(doc_hash)\n            unique_docs.append(doc)\n\n    return unique_docs\n```\n\n### 2. 模糊去重 (MinHash + LSH)\n\n**MinHash**: 估计文档间的 Jaccard 相似度\n\n```python\nfrom datasketch import MinHash, MinHashLSH\n\ndef create_minhash(text, num_perm=128):\n    \"\"\"为文档创建 MinHash 签名\"\"\"\n    m = MinHash(num_perm=num_perm)\n\n    # 使用 shingle (n-gram)\n    shingles = set()\n    words = text.split()\n    for i in range(len(words) - 2):\n        shingle = ' '.join(words[i:i+3])  # 3-gram\n        shingles.add(shingle)\n\n    for s in shingles:\n        m.update(s.encode('utf8'))\n\n    return m\n\n# LSH 索引\nlsh = MinHashLSH(threshold=0.8, num_perm=128)\n\nfor i, doc in enumerate(documents):\n    m = create_minhash(doc)\n\n    # 查询相似文档\n    result = lsh.query(m)\n    if len(result) == 0:\n        # 无相似文档，插入\n        lsh.insert(f\"doc_{i}\", m)\n        yield doc\n```\n\n### 3. 子串去重 (Suffix Array)\n\n**去除训练数据中的测试集污染**:\n\n```python\ndef remove_contamination(text, test_set, min_match_length=100):\n    \"\"\"移除与测试集匹配的子串\"\"\"\n    for test_example in test_set:\n        if test_example in text:\n            text = text.replace(test_example, '')\n    return text\n```\n\n### 4. 文档内去重\n\n```python\ndef dedup_paragraphs(text, min_paragraph_length=50):\n    \"\"\"文档内段落去重\"\"\"\n    paragraphs = text.split('\\n\\n')\n    seen = set()\n    unique_paragraphs = []\n\n    for para in paragraphs:\n        para = para.strip()\n        if len(para) \u003c min_paragraph_length:\n            continue\n\n        para_hash = hashlib.md5(para.lower().encode()).hexdigest()\n        if para_hash not in seen:\n            seen.add(para_hash)\n            unique_paragraphs.append(para)\n\n    return '\\n\\n'.join(unique_paragraphs)\n```\n\n---\n\n## 质量评估与过滤\n\n### 1. 启发式规则\n\n```python\ndef heuristic_quality_filter(text):\n    \"\"\"启发式质量过滤\"\"\"\n    # 1. 单词平均长度检查 (过滤随机字符)\n    words = text.split()\n    avg_word_len = sum(len(w) for w in words) / len(words)\n    if avg_word_len \u003e 15 or avg_word_len \u003c 2:\n        return False\n\n    # 2. 符号比例检查\n    symbol_ratio = sum(1 for c in text if not c.isalnum()) / len(text)\n    if symbol_ratio \u003e 0.5:\n        return False\n\n    # 3. 行尾省略号比例 (过滤爬虫截断)\n    ellipsis_ratio = text.count('...') / len(text.split('\\n'))\n    if ellipsis_ratio \u003e 0.3:\n        return False\n\n    # 4. 停用词比例 (过滤非自然语言)\n    stopwords = set(['the', 'a', 'an', 'is', 'are', ...])\n    stopword_count = sum(1 for w in words if w.lower() in stopwords)\n    if stopword_count / len(words) \u003c 0.1:\n        return False\n\n    return True\n```\n\n### 2. 基于模型的质量评分\n\n```python\n# 使用小型分类器评估质量\nfrom transformers import AutoTokenizer, AutoModelForSequenceClassification\n\nquality_tokenizer = AutoTokenizer.from_pretrained(\"quality-classifier\")\nquality_model = AutoModelForSequenceClassification.from_pretrained(\"quality-classifier\")\n\ndef score_quality(text):\n    \"\"\"使用模型评估文本质量\"\"\"\n    inputs = quality_tokenizer(\n        text[:1024],  # 截断\n        return_tensors=\"pt\",\n        truncation=True\n    )\n    outputs = quality_model(**inputs)\n    score = torch.softmax(outputs.logits, dim=-1)[0][1].item()\n    return score\n\n# 过滤低质量文本\nif score_quality(text) \u003e 0.5:\n    keep(text)\n```\n\n### 3. 困惑度过滤\n\n```python\ndef perplexity_filter(text, model, tokenizer, threshold=1000):\n    \"\"\"使用语言模型困惑度过滤\"\"\"\n    inputs = tokenizer(text, return_tensors=\"pt\")\n\n    with torch.no_grad():\n        outputs = model(**inputs, labels=inputs[\"input_ids\"])\n        perplexity = torch.exp(outputs.loss).item()\n\n    return perplexity \u003c threshold\n```\n\n### 4. 毒性内容过滤\n\n```python\ndef toxicity_filter(text, toxicity_threshold=0.5):\n    \"\"\"过滤毒性内容\"\"\"\n    result = toxicity_classifier(text)\n    return result['toxicity'] \u003c toxicity_threshold\n```\n\n---\n\n## 数据配比\n\n### 领域配比策略\n\n```python\n# 不同领域的采样比例\ndata_mixture = {\n    'web': 0.60,      # 网页数据\n    'code': 0.17,     # 代码\n    'books': 0.08,    # 书籍\n    'wiki': 0.05,     # 维基百科\n    'academic': 0.04, # 学术论文\n    'news': 0.04,     # 新闻\n    'social': 0.02,   # 社交媒体\n}\n```\n\n### 温度采样\n\n**调整不同领域的采样概率**:\n\n```python\ndef temperature_sampling(dataset_probs, temperature=0.3):\n    \"\"\"\n    temperature \u003c 1: 更均衡\n    temperature \u003e 1: 更倾斜\n    \"\"\"\n    # 应用温度\n    adjusted_probs = {k: v ** (1/temperature) for k, v in dataset_probs.items()}\n\n    # 归一化\n    total = sum(adjusted_probs.values())\n    normalized_probs = {k: v/total for k, v in adjusted_probs.items()}\n\n    return normalized_probs\n\n# 示例\nprobs = {'web': 0.7, 'code': 0.2, 'books': 0.1}\nadjusted = temperature_sampling(probs, temperature=0.3)\n# 结果: web: 0.52, code: 0.31, books: 0.17 (更均衡)\n```\n\n### 动态配比\n\n```python\nclass DynamicDataMixer:\n    \"\"\"根据训练损失动态调整数据配比\"\"\"\n\n    def __init__(self, datasets, initial_probs):\n        self.datasets = datasets\n        self.probs = initial_probs\n        self.domain_losses = {k: [] for k in datasets}\n\n    def update_probs(self, domain_losses):\n        \"\"\"根据领域损失调整采样概率\"\"\"\n        # 损失高的领域增加采样\n        avg_losses = {k: sum(v)/len(v) for k, v in domain_losses.items()}\n        total_loss = sum(avg_losses.values())\n\n        # 损失占比越高，采样概率越高\n        new_probs = {k: v/total_loss for k, v in avg_losses.items()}\n\n        # 平滑更新\n        for k in self.probs:\n            self.probs[k] = 0.9 * self.probs[k] + 0.1 * new_probs[k]\n\n    def sample_batch(self, batch_size):\n        \"\"\"根据当前概率采样批次\"\"\"\n        domains = list(self.probs.keys())\n        probs = list(self.probs.values())\n\n        selected_domains = np.random.choice(domains, size=batch_size, p=probs)\n\n        batch = []\n        for domain in selected_domains:\n            sample = self.datasets[domain].sample()\n            batch.append(sample)\n\n        return batch\n```\n\n---\n\n## 分词器训练\n\n### BPE 训练\n\n```python\nfrom tokenizers import Tokenizer, models, trainers\n\n# 初始化 BPE 模型\ntokenizer = Tokenizer(models.BPE())\n\n# 配置训练器\ntrainer = trainers.BpeTrainer(\n    vocab_size=32000,\n    min_frequency=2,\n    special_tokens=[\"\u003cpad\u003e\", \"\u003cs\u003e\", \"\u003c/s\u003e\", \"\u003cunk\u003e\", \"\u003cmask\u003e\"]\n)\n\n# 训练\nfiles = [\"train_data_1.txt\", \"train_data_2.txt\", ...]\ntokenizer.train(files, trainer)\n\n# 保存\ntokenizer.save(\"tokenizer.json\")\n```\n\n### SentencePiece\n\n```python\nimport sentencepiece as spm\n\nspm.SentencePieceTrainer.train(\n    input='train_data.txt',\n    model_prefix='spm_model',\n    vocab_size=32000,\n    model_type='bpe',  # 或 'unigram'\n    character_coverage=0.9995,\n    num_threads=64,\n    split_by_whitespace=True,\n    split_by_unicode_script=True,\n    split_by_number=True,\n    max_sentencepiece_length=16,\n    add_dummy_prefix=True,\n    remove_extra_whitespaces=True,\n    normalization_rule_name='nmt_nfkc_cf',\n)\n```\n\n### 分词器选择\n\n| 算法 | 优点 | 缺点 | 适用 |\n|------|------|------|------|\n| BPE | 简单高效 | 贪婪合并 | 通用 |\n| WordPiece | 考虑概率 | 实现复杂 | BERT |\n| Unigram | 可逆，更灵活 | 训练慢 | T5, XLNet |\n| SentencePiece | 语言无关 | 需要预处理 | 多语言 |\n\n---\n\n## 数据格式与存储\n\n### 1. 二进制格式 (Memmap)\n\n```python\nimport numpy as np\n\ndef create_memmap(data, output_path, dtype=np.uint16):\n    \"\"\"创建内存映射文件\"\"\"\n    arr = np.array(data, dtype=dtype)\n    fp = np.memmap(output_path, dtype=dtype, mode='w+', shape=arr.shape)\n    fp[:] = arr[:]\n    fp.flush()\n    return fp\n\n# 使用\nmmap = np.memmap('data.bin', dtype=np.uint16, mode='r')\nbatch = mmap[offset:offset+seq_length]\n```\n\n### 2. Arrow 格式\n\n```python\nimport pyarrow as pa\nimport pyarrow.parquet as pq\n\n# 保存为 Parquet\ntable = pa.table({'text': documents, 'source': sources})\npq.write_table(table, 'data.parquet')\n\n# 读取\ntable = pq.read_table('data.parquet')\ndocuments = table['text'].to_pylist()\n```\n\n### 3. WebDataset\n\n```python\nfrom webdataset import ShardWriter\n\nwith ShardWriter(\"data-%06d.tar\", maxcount=10000) as sink:\n    for doc in documents:\n        sink.write({\n            \"__key__\": doc_id,\n            \"txt\": doc.encode('utf-8')\n        })\n```\n\n### 格式对比\n\n| 格式 | 读取速度 | 内存占用 | 压缩 | 适用场景 |\n|------|----------|----------|------|----------|\n| Raw Text | 慢 | 高 | 无 | 调试 |\n| Memmap | 极快 | 低 | 无 | 大规模训练 |\n| Parquet | 快 | 中 | 好 | 分析处理 |\n| WebDataset | 快 | 低 | 可选 | 分布式训练 |\n\n---\n\n## 面试要点\n\n### 高频问题\n\n**Q1: 为什么数据质量比数量更重要？**\n\nA: 低质量数据会导致：\n1. 模型学习到错误模式\n2. 训练不稳定\n3. 下游任务性能下降\n4. 产生有害输出\n\n**Q2: MinHash 去重的原理？**\n\nA: MinHash 通过局部敏感哈希估计文档间的 Jaccard 相似度。将文档表示为 shingle 集合，通过多个哈希函数计算签名，相似文档有高概率产生相同的最小哈希值。\n\n**Q3: 如何防止训练数据污染测试集？**\n\nA:\n1. 使用子串匹配去除测试集内容\n2. N-gram 重叠检测\n3. 嵌入相似度检测\n4. 人工审核关键数据集\n\n**Q4: 数据配比的重要性？**\n\nA: 不同领域数据对模型能力有不同贡献。合理的配比可以：\n1. 平衡通用能力和专业能力\n2. 避免某些领域过拟合\n3. 优化训练效率\n\n**Q5: BPE 和 SentencePiece 的区别？**\n\nA:\n- BPE: 贪婪合并最频繁的字符对\n- SentencePiece: 基于语言模型概率，可逆编码\n- SentencePiece 更适合多语言，将空格编码为特殊 token\n\n### 手撕代码重点\n\n1. **MinHash** 实现\n2. **启发式质量过滤**\n3. **温度采样** 实现\n4. **BPE 训练** 流程\n\n---\n\n## 相关文档\n\n- [预训练策略与技巧](/kb/llm/doc-nfok3w) - 训练流程\n- [GPT 系列模型演进](/kb/llm/gpt-gmyzge) - 数据规模参考\n- [指令微调与 SFT](/kb/llm/doc-i1yc59) - 指令数据构造\n\n---\n\n## 参考文献\n\n1. Raffel et al. \"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\". JMLR 2020.\n2. Lee et al. \"Deduplicating Training Data Makes Language Models Better\". ACL 2022.\n3. Xie et al. \"Data Selection for Language Models via Importance Resampled MCMC\". 2023.\n4. Penedo et al. \"The RefinedWeb Dataset for Falcon LLM\". 2023.\n"])</script><script>self.__next_f.push([1,"11:T3d53,"])</script><script>self.__next_f.push([1,"# 数据工程与清洗\n\n\u003e **更新日期**: 2026-03-13\n\u003e **版本**: v1.0\n\u003e **难度**: 中级\n\u003e **预计阅读时间**: 50 分钟\n\n---\n\n## 目录\n\n1. [数据工程概述](#数据工程概述)\n2. [数据源与采集](#数据源与采集)\n3. [数据清洗流程](#数据清洗流程)\n4. [去重技术](#去重技术)\n5. [质量评估与过滤](#质量评估与过滤)\n6. [数据配比](#数据配比)\n7. [分词器训练](#分词器训练)\n8. [数据格式与存储](#数据格式与存储)\n9. [面试要点](#面试要点)\n\n---\n\n## 数据工程概述\n\n### 核心原则\n\n```\n数据质量 \u003e 数据数量\n\nGarbage In, Garbage Out\n```\n\n### 数据工程流程\n\n```\n┌─────────────────────────────────────────────────────────────────┐\n│                        数据工程流程                              │\n├─────────────────────────────────────────────────────────────────┤\n│                                                                  │\n│  原始数据 ──→ 采集 ──→ 清洗 ──→ 去重 ──→ 过滤 ──→ 配比 ──→ 训练 │\n│    │          │        │        │        │        │             │\n│    │          │        │        │        │        │             │\n│    ▼          ▼        ▼        ▼        ▼        ▼             │\n│ Common     格式统一   精确去重  MinHash  质量评分  领域混合       │\n│ Crawl      编码修复   模糊去重  SimHash  分类器    采样策略       │\n│ Books      HTML去除   文档级    局部敏感  启发式    动态调整       │\n│ Code       文本提取   段落级    哈希      规则      温度采样       │\n│ ...        ...        ...      ...      ...      ...            │\n└─────────────────────────────────────────────────────────────────┘\n```\n\n---\n\n## 数据源与采集\n\n### 常见数据源\n\n| 数据源 | 规模 | 特点 | 适用场景 |\n|--------|------|------|----------|\n| Common Crawl | 数百 TB | 网页数据，噪声大 | 通用语料 |\n| C4 | 800GB | 清洗后的 Common Crawl | 通用预训练 |\n| RefinedWeb | 5T tokens | 高质量网页 | 高质量预训练 |\n| The Pile | 825GB | 多样化领域 | 研究 |\n| Books | 数十 GB | 高质量长文本 | 知识、推理 |\n| Wikipedia | 20GB | 结构化知识 | 知识增强 |\n| GitHub | 数百 GB | 代码数据 | 代码能力 |\n| ArXiv | 数十 GB | 学术论文 | 科学推理 |\n\n### 数据采集工具\n\n```python\n# Common Crawl 处理示例\nimport boto3\nfrom warcio import ArchiveIterator\n\ndef process_common_crawl(warc_path):\n    \"\"\"处理 WARC 格式的 Common Crawl 数据\"\"\"\n    with open(warc_path, 'rb') as stream:\n        for record in ArchiveIterator(stream):\n            if record.rec_type == 'response':\n                url = record.rec_headers.get_header('WARC-Target-URI')\n                content = record.content_stream().read()\n\n                # 提取文本\n                text = extract_text_from_html(content)\n                yield {'url': url, 'text': text}\n```\n\n---\n\n## 数据清洗流程\n\n### 1. 格式统一\n\n```python\ndef normalize_text(text):\n    \"\"\"文本标准化\"\"\"\n    # 统一 Unicode\n    text = unicodedata.normalize('NFKC', text)\n\n    # 修复编码问题\n    text = fix_mojibake(text)\n\n    # 统一空白字符\n    text = ' '.join(text.split())\n\n    # 移除控制字符\n    text = remove_control_chars(text)\n\n    return text\n```\n\n### 2. HTML 处理\n\n```python\nfrom bs4 import BeautifulSoup\n\ndef extract_text_from_html(html):\n    \"\"\"从 HTML 提取干净文本\"\"\"\n    soup = BeautifulSoup(html, 'html.parser')\n\n    # 移除脚本和样式\n    for script in soup(['script', 'style', 'nav', 'footer']):\n        script.decompose()\n\n    # 提取文本\n    text = soup.get_text()\n\n    # 清理\n    lines = (line.strip() for line in text.splitlines())\n    chunks = (phrase.strip() for line in lines for phrase in line.split(\"  \"))\n    text = '\\n'.join(chunk for chunk in chunks if chunk)\n\n    return text\n```\n\n### 3. 语言检测\n\n```python\nfrom langdetect import detect\n\ndef filter_by_language(text, target_lang='en'):\n    \"\"\"按语言过滤\"\"\"\n    try:\n        lang = detect(text)\n        return lang == target_lang\n    except:\n        return False\n```\n\n### 4. 长度过滤\n\n```python\ndef filter_by_length(text, min_length=100, max_length=100000):\n    \"\"\"按长度过滤\"\"\"\n    length = len(text.split())\n    return min_length \u003c= length \u003c= max_length\n```\n\n---\n\n## 去重技术\n\n### 1. 精确去重\n\n**基于哈希**:\n\n```python\nimport hashlib\n\ndef exact_deduplication(documents):\n    \"\"\"精确去重\"\"\"\n    seen = set()\n    unique_docs = []\n\n    for doc in documents:\n        doc_hash = hashlib.md5(doc.encode()).hexdigest()\n        if doc_hash not in seen:\n            seen.add(doc_hash)\n            unique_docs.append(doc)\n\n    return unique_docs\n```\n\n### 2. 模糊去重 (MinHash + LSH)\n\n**MinHash**: 估计文档间的 Jaccard 相似度\n\n```python\nfrom datasketch import MinHash, MinHashLSH\n\ndef create_minhash(text, num_perm=128):\n    \"\"\"为文档创建 MinHash 签名\"\"\"\n    m = MinHash(num_perm=num_perm)\n\n    # 使用 shingle (n-gram)\n    shingles = set()\n    words = text.split()\n    for i in range(len(words) - 2):\n        shingle = ' '.join(words[i:i+3])  # 3-gram\n        shingles.add(shingle)\n\n    for s in shingles:\n        m.update(s.encode('utf8'))\n\n    return m\n\n# LSH 索引\nlsh = MinHashLSH(threshold=0.8, num_perm=128)\n\nfor i, doc in enumerate(documents):\n    m = create_minhash(doc)\n\n    # 查询相似文档\n    result = lsh.query(m)\n    if len(result) == 0:\n        # 无相似文档，插入\n        lsh.insert(f\"doc_{i}\", m)\n        yield doc\n```\n\n### 3. 子串去重 (Suffix Array)\n\n**去除训练数据中的测试集污染**:\n\n```python\ndef remove_contamination(text, test_set, min_match_length=100):\n    \"\"\"移除与测试集匹配的子串\"\"\"\n    for test_example in test_set:\n        if test_example in text:\n            text = text.replace(test_example, '')\n    return text\n```\n\n### 4. 文档内去重\n\n```python\ndef dedup_paragraphs(text, min_paragraph_length=50):\n    \"\"\"文档内段落去重\"\"\"\n    paragraphs = text.split('\\n\\n')\n    seen = set()\n    unique_paragraphs = []\n\n    for para in paragraphs:\n        para = para.strip()\n        if len(para) \u003c min_paragraph_length:\n            continue\n\n        para_hash = hashlib.md5(para.lower().encode()).hexdigest()\n        if para_hash not in seen:\n            seen.add(para_hash)\n            unique_paragraphs.append(para)\n\n    return '\\n\\n'.join(unique_paragraphs)\n```\n\n---\n\n## 质量评估与过滤\n\n### 1. 启发式规则\n\n```python\ndef heuristic_quality_filter(text):\n    \"\"\"启发式质量过滤\"\"\"\n    # 1. 单词平均长度检查 (过滤随机字符)\n    words = text.split()\n    avg_word_len = sum(len(w) for w in words) / len(words)\n    if avg_word_len \u003e 15 or avg_word_len \u003c 2:\n        return False\n\n    # 2. 符号比例检查\n    symbol_ratio = sum(1 for c in text if not c.isalnum()) / len(text)\n    if symbol_ratio \u003e 0.5:\n        return False\n\n    # 3. 行尾省略号比例 (过滤爬虫截断)\n    ellipsis_ratio = text.count('...') / len(text.split('\\n'))\n    if ellipsis_ratio \u003e 0.3:\n        return False\n\n    # 4. 停用词比例 (过滤非自然语言)\n    stopwords = set(['the', 'a', 'an', 'is', 'are', ...])\n    stopword_count = sum(1 for w in words if w.lower() in stopwords)\n    if stopword_count / len(words) \u003c 0.1:\n        return False\n\n    return True\n```\n\n### 2. 基于模型的质量评分\n\n```python\n# 使用小型分类器评估质量\nfrom transformers import AutoTokenizer, AutoModelForSequenceClassification\n\nquality_tokenizer = AutoTokenizer.from_pretrained(\"quality-classifier\")\nquality_model = AutoModelForSequenceClassification.from_pretrained(\"quality-classifier\")\n\ndef score_quality(text):\n    \"\"\"使用模型评估文本质量\"\"\"\n    inputs = quality_tokenizer(\n        text[:1024],  # 截断\n        return_tensors=\"pt\",\n        truncation=True\n    )\n    outputs = quality_model(**inputs)\n    score = torch.softmax(outputs.logits, dim=-1)[0][1].item()\n    return score\n\n# 过滤低质量文本\nif score_quality(text) \u003e 0.5:\n    keep(text)\n```\n\n### 3. 困惑度过滤\n\n```python\ndef perplexity_filter(text, model, tokenizer, threshold=1000):\n    \"\"\"使用语言模型困惑度过滤\"\"\"\n    inputs = tokenizer(text, return_tensors=\"pt\")\n\n    with torch.no_grad():\n        outputs = model(**inputs, labels=inputs[\"input_ids\"])\n        perplexity = torch.exp(outputs.loss).item()\n\n    return perplexity \u003c threshold\n```\n\n### 4. 毒性内容过滤\n\n```python\ndef toxicity_filter(text, toxicity_threshold=0.5):\n    \"\"\"过滤毒性内容\"\"\"\n    result = toxicity_classifier(text)\n    return result['toxicity'] \u003c toxicity_threshold\n```\n\n---\n\n## 数据配比\n\n### 领域配比策略\n\n```python\n# 不同领域的采样比例\ndata_mixture = {\n    'web': 0.60,      # 网页数据\n    'code': 0.17,     # 代码\n    'books': 0.08,    # 书籍\n    'wiki': 0.05,     # 维基百科\n    'academic': 0.04, # 学术论文\n    'news': 0.04,     # 新闻\n    'social': 0.02,   # 社交媒体\n}\n```\n\n### 温度采样\n\n**调整不同领域的采样概率**:\n\n```python\ndef temperature_sampling(dataset_probs, temperature=0.3):\n    \"\"\"\n    temperature \u003c 1: 更均衡\n    temperature \u003e 1: 更倾斜\n    \"\"\"\n    # 应用温度\n    adjusted_probs = {k: v ** (1/temperature) for k, v in dataset_probs.items()}\n\n    # 归一化\n    total = sum(adjusted_probs.values())\n    normalized_probs = {k: v/total for k, v in adjusted_probs.items()}\n\n    return normalized_probs\n\n# 示例\nprobs = {'web': 0.7, 'code': 0.2, 'books': 0.1}\nadjusted = temperature_sampling(probs, temperature=0.3)\n# 结果: web: 0.52, code: 0.31, books: 0.17 (更均衡)\n```\n\n### 动态配比\n\n```python\nclass DynamicDataMixer:\n    \"\"\"根据训练损失动态调整数据配比\"\"\"\n\n    def __init__(self, datasets, initial_probs):\n        self.datasets = datasets\n        self.probs = initial_probs\n        self.domain_losses = {k: [] for k in datasets}\n\n    def update_probs(self, domain_losses):\n        \"\"\"根据领域损失调整采样概率\"\"\"\n        # 损失高的领域增加采样\n        avg_losses = {k: sum(v)/len(v) for k, v in domain_losses.items()}\n        total_loss = sum(avg_losses.values())\n\n        # 损失占比越高，采样概率越高\n        new_probs = {k: v/total_loss for k, v in avg_losses.items()}\n\n        # 平滑更新\n        for k in self.probs:\n            self.probs[k] = 0.9 * self.probs[k] + 0.1 * new_probs[k]\n\n    def sample_batch(self, batch_size):\n        \"\"\"根据当前概率采样批次\"\"\"\n        domains = list(self.probs.keys())\n        probs = list(self.probs.values())\n\n        selected_domains = np.random.choice(domains, size=batch_size, p=probs)\n\n        batch = []\n        for domain in selected_domains:\n            sample = self.datasets[domain].sample()\n            batch.append(sample)\n\n        return batch\n```\n\n---\n\n## 分词器训练\n\n### BPE 训练\n\n```python\nfrom tokenizers import Tokenizer, models, trainers\n\n# 初始化 BPE 模型\ntokenizer = Tokenizer(models.BPE())\n\n# 配置训练器\ntrainer = trainers.BpeTrainer(\n    vocab_size=32000,\n    min_frequency=2,\n    special_tokens=[\"\u003cpad\u003e\", \"\u003cs\u003e\", \"\u003c/s\u003e\", \"\u003cunk\u003e\", \"\u003cmask\u003e\"]\n)\n\n# 训练\nfiles = [\"train_data_1.txt\", \"train_data_2.txt\", ...]\ntokenizer.train(files, trainer)\n\n# 保存\ntokenizer.save(\"tokenizer.json\")\n```\n\n### SentencePiece\n\n```python\nimport sentencepiece as spm\n\nspm.SentencePieceTrainer.train(\n    input='train_data.txt',\n    model_prefix='spm_model',\n    vocab_size=32000,\n    model_type='bpe',  # 或 'unigram'\n    character_coverage=0.9995,\n    num_threads=64,\n    split_by_whitespace=True,\n    split_by_unicode_script=True,\n    split_by_number=True,\n    max_sentencepiece_length=16,\n    add_dummy_prefix=True,\n    remove_extra_whitespaces=True,\n    normalization_rule_name='nmt_nfkc_cf',\n)\n```\n\n### 分词器选择\n\n| 算法 | 优点 | 缺点 | 适用 |\n|------|------|------|------|\n| BPE | 简单高效 | 贪婪合并 | 通用 |\n| WordPiece | 考虑概率 | 实现复杂 | BERT |\n| Unigram | 可逆，更灵活 | 训练慢 | T5, XLNet |\n| SentencePiece | 语言无关 | 需要预处理 | 多语言 |\n\n---\n\n## 数据格式与存储\n\n### 1. 二进制格式 (Memmap)\n\n```python\nimport numpy as np\n\ndef create_memmap(data, output_path, dtype=np.uint16):\n    \"\"\"创建内存映射文件\"\"\"\n    arr = np.array(data, dtype=dtype)\n    fp = np.memmap(output_path, dtype=dtype, mode='w+', shape=arr.shape)\n    fp[:] = arr[:]\n    fp.flush()\n    return fp\n\n# 使用\nmmap = np.memmap('data.bin', dtype=np.uint16, mode='r')\nbatch = mmap[offset:offset+seq_length]\n```\n\n### 2. Arrow 格式\n\n```python\nimport pyarrow as pa\nimport pyarrow.parquet as pq\n\n# 保存为 Parquet\ntable = pa.table({'text': documents, 'source': sources})\npq.write_table(table, 'data.parquet')\n\n# 读取\ntable = pq.read_table('data.parquet')\ndocuments = table['text'].to_pylist()\n```\n\n### 3. WebDataset\n\n```python\nfrom webdataset import ShardWriter\n\nwith ShardWriter(\"data-%06d.tar\", maxcount=10000) as sink:\n    for doc in documents:\n        sink.write({\n            \"__key__\": doc_id,\n            \"txt\": doc.encode('utf-8')\n        })\n```\n\n### 格式对比\n\n| 格式 | 读取速度 | 内存占用 | 压缩 | 适用场景 |\n|------|----------|----------|------|----------|\n| Raw Text | 慢 | 高 | 无 | 调试 |\n| Memmap | 极快 | 低 | 无 | 大规模训练 |\n| Parquet | 快 | 中 | 好 | 分析处理 |\n| WebDataset | 快 | 低 | 可选 | 分布式训练 |\n\n---\n\n## 面试要点\n\n### 高频问题\n\n**Q1: 为什么数据质量比数量更重要？**\n\nA: 低质量数据会导致：\n1. 模型学习到错误模式\n2. 训练不稳定\n3. 下游任务性能下降\n4. 产生有害输出\n\n**Q2: MinHash 去重的原理？**\n\nA: MinHash 通过局部敏感哈希估计文档间的 Jaccard 相似度。将文档表示为 shingle 集合，通过多个哈希函数计算签名，相似文档有高概率产生相同的最小哈希值。\n\n**Q3: 如何防止训练数据污染测试集？**\n\nA:\n1. 使用子串匹配去除测试集内容\n2. N-gram 重叠检测\n3. 嵌入相似度检测\n4. 人工审核关键数据集\n\n**Q4: 数据配比的重要性？**\n\nA: 不同领域数据对模型能力有不同贡献。合理的配比可以：\n1. 平衡通用能力和专业能力\n2. 避免某些领域过拟合\n3. 优化训练效率\n\n**Q5: BPE 和 SentencePiece 的区别？**\n\nA:\n- BPE: 贪婪合并最频繁的字符对\n- SentencePiece: 基于语言模型概率，可逆编码\n- SentencePiece 更适合多语言，将空格编码为特殊 token\n\n### 手撕代码重点\n\n1. **MinHash** 实现\n2. **启发式质量过滤**\n3. **温度采样** 实现\n4. **BPE 训练** 流程\n\n---\n\n## 相关文档\n\n- [预训练策略与技巧](/kb/llm/doc-nfok3w) - 训练流程\n- [GPT 系列模型演进](/kb/llm/gpt-gmyzge) - 数据规模参考\n- [指令微调与 SFT](/kb/llm/doc-i1yc59) - 指令数据构造\n\n---\n\n## 参考文献\n\n1. Raffel et al. \"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\". JMLR 2020.\n2. Lee et al. \"Deduplicating Training Data Makes Language Models Better\". ACL 2022.\n3. Xie et al. \"Data Selection for Language Models via Importance Resampled MCMC\". 2023.\n4. Penedo et al. \"The RefinedWeb Dataset for Falcon LLM\". 2023.\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"$Lf\",null,{\"document\":{\"slug\":\"doc-2lx3ss\",\"title\":\"数据工程与清洗\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"LLM\",\"categoryId\":\"llm\",\"content\":\"$10\",\"filePath\":\"预训练技术/数据工程与清洗.md\",\"default\":{\"slug\":\"doc-2lx3ss\",\"title\":\"数据工程与清洗\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"LLM\",\"categoryId\":\"llm\",\"content\":\"$11\",\"filePath\":\"预训练技术/数据工程与清洗.md\"}}}]\nc:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"数据工程与清洗 - LLM | Jerry Xu\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"数据工程与清洗\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"5\",{\"name\":\"keywords\",\"content\":\"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"zh_CN\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发\"}]]\n3:null\n"])</script></body></html>

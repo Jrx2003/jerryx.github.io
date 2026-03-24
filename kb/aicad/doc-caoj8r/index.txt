@@ -1,0 +1,1190 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","aicad","d"]
+5:["slug","doc-caoj8r","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","doc-caoj8r","d"],{"children":["__PAGE__?{\"category\":\"aicad\",\"slug\":\"doc-caoj8r\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","doc-caoj8r","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T3886,# 借助 LLM 的评价系统设计
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地讲解如何设计让 LLM 进行准确评价的系统
+
+---
+
+## 目录
+
+1. [评价系统概述](#评价系统概述)
+2. [评价维度设计](#评价维度设计)
+3. [LLM Judge Prompt 设计](#llm-judge-prompt-设计)
+4. [评分算法设计](#评分算法设计)
+5. [评估管道设计](#评估管道设计)
+6. [评估质量控制](#评估质量控制)
+
+---
+
+## 评价系统概述
+
+### 核心目标
+
+让 LLM 对生成的 CAD 模型进行准确、一致、可解释的质量评价。
+
+---
+
+### 评估系统架构
+
+```
+┌─────────────────────────────────────────────┐
+│           Sandbox/ACI               │
+│              (被评估对象)              │
+└──────────────────┬──────────────────────┘
+                 │ 产物收集
+                 ↓
+┌──────────────────────────────────────┐
+│       Evidence Builder             │
+│   (收集评估所需的证据)          │
+└──────────────────┬──────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│      Rule Evaluator            │
+│   (硬规则检查：无 STEP、超时等)  │
+└──────────────────┬──────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│       LLM Judge               │
+│   (语义评估：理解、准确度等)        │
+└──────────────────┬──────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│      Score Merger               │
+│   (合并规则和 LLM 分数)             │
+└──────────────────┬──────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│       Final Evaluation            │
+│   (最终评估结果)               │
+└──────────────────────────────────┘
+```
+
+---
+
+## 评价维度设计
+
+### 核心维度定义
+
+| 维度 | 权重 | 说明 | 评估要点 |
+|------|------|------|----------|
+| **需求符合度** | 0.35 | 模型是否符合用户的原始需求 | 尺寸、形状、位置、数量 |
+| **几何合理性** | 0.25 | 几何结构是否合理 | 拓扑正确、比例协调、无几何异常 |
+| **可制造性** | 0.20 | 模型是否适合标准制造工艺 | 壁厚均匀、无锐角、可脱模 |
+| **代码质量** | 0.10 | 生成代码的质量 | 代码简洁、可读、高效 |
+| **执行稳定性** | 0.10 | 生成过程的稳定性 | 无错误、超时、重试次数 |
+
+---
+
+### 维度评分标准
+
+#### 需求符合度
+
+```
+高 (1.0):
+- 关键尺寸与约束完全满足
+- 所有要求特征都已实现
+- 无多余或遗漏
+
+中 (0.5):
+- 主形状和尺寸正确
+- 次要特征基本实现
+- 有小的细节偏差
+
+低 (0.0):
+- 核心形状或尺寸不正确
+- 缺少关键特征
+- 严重偏离需求
+```
+
+#### 几何合理性
+
+```
+高 (1.0):
+- 拓扑正确，无自相交
+- 比例协调，无异常比例
+- 布局合理
+
+中 (0.5):
+- 拓扑基本正确
+- 有局部小比例不协调
+- 无明显几何异常
+
+低 (0.0):
+- 存在明显的几何错误
+- 比例严重失调
+- 存在无法制造的结构
+```
+
+---
+
+## LLM Judge Prompt 设计
+
+### Prompt 结构
+
+```
+你是一个专业的 CAD 模型评估专家。
+
+## 评估任务
+评估用户生成的 CAD 模型是否符合给定的需求。
+
+## 评估维度
+你需要从以下 5 个维度评估模型：
+
+1. **需求符合度 (35%)**
+   模型是否符合用户的原始需求？
+   关键尺寸、形状、位置、数量是否正确？
+
+2. **几何合理性 (25%)**
+   模型的几何结构是否合理？
+   拓扑正确、比例协调、无几何异常？
+
+3. **可制造性 (20%)**
+   模型是否适合标准制造工艺？
+   壁厚均匀、无锐角、可脱模？
+
+4. **代码质量 (10%)**
+   生成代码的质量如何？
+   代码简洁、可读、高效？
+
+5. **执行稳定性 (10%)**
+   生成过程的稳定性如何？
+   无错误、超时、重试次数？
+
+## 评分标准
+对每个维度，给出 0.0 到 1.0 的分数和详细解释。
+```
+
+---
+
+### Context 注入
+
+```
+## 评估输入
+
+### 需求描述
+用户需求: {requirement_text}
+
+### 生成的 CAD 代码
+```python
+{generated_code}
+```
+
+### 执行结果
+```json
+{
+  "success": true,
+  "error_code": "none",
+  "timeout": false
+}
+```
+
+### 产物信息
+```json
+{
+  "has_step": true,
+  "step_filename": "model.step",
+  "step_size_bytes": 24568,
+  "preview_images": [
+    "iso.png",
+    "front.png",
+    "right.png",
+    "top.png"
+  ]
+}
+```
+```
+
+## 评估输出
+
+请严格按照以下 JSON 格式输出评分结果：
+
+{
+  "overall_semantic_score": 0.0,
+  "confidence": 0.0,
+  "dimension_scores": {
+    "requirement_fidelity": 0.0,
+    "geometric_reasonableness": 0.0,
+    "manufacturability_proxy": 0.0,
+    "code_quality_proxy": 0.0,
+    "execution_stability": 0.0
+  },
+  "major_issues": [
+    "issue_1",
+    "issue_2",
+    "issue_3"
+  ],
+  "suggestions": [
+    "suggestion_1",
+    "suggestion_2"
+  ],
+  "reasoning_brief": "简要评估说明"
+}
+```
+```
+```
+
+---
+
+### Few-Shot 示例
+
+```
+## 输入
+
+用户需求: 创建一个 80x40x5 的矩形安装板，四角各有一个直径 6mm 的通孔
+
+生成的代码:
+```python
+import cadquery as cq
+
+result = (
+    cq.Workplane("XY")
+    .box(100, 40, 5)
+    .faces(">Z")
+    .workplane()
+    .pushPoints([(35, 15), (-35, 15), (-35, -15), (35, -15)])
+    .hole(6)
+)
+)
+```
+
+## 评估
+
+### 需求符合度: 0.2/1.0
+- ✅ 板的长度 80mm 和宽度 40mm 正确
+- ✅ 厚度 5mm 正确
+- ⚠️ 孔的位置应该是距边缘 10mm，而不是 15mm
+- ⚠️ 孔的间距应该更均匀
+
+### 几何合理性: 0.8/1.0
+- ✅ 拓扑正确，无自相交
+- ✅ 比例协调
+- ⚠️ 孔的位置不对称会导致装配问题
+
+### 可制造性: 0.9/1.0
+- ✅ 壁厚 5mm 适合制造
+- ✅ 孔径 6mm 是标准尺寸
+- ✅ 无尖锐边缘（假设会添加圆角）
+
+### 代码质量: 0.7/1.0
+- ✅ 代码简洁清晰
+- ✅ 使用了标准 CadQuery API
+- ⚠️ 硬编码了孔的位置（应该用变量）
+
+### 执行稳定性: 1.0/1.0
+- ✅ 无错误
+- ✅ 无超时
+- ✅ 一次性成功
+
+### 总分: (0.35×0.2 + 0.25×0.8 + 0.20×0.9 + 0.10×1.0) / 1.0 = 0.75
+
+### 主要问题
+1. 孔的位置计算错误
+2. 孔的间距不均匀
+
+### 改进建议
+1. 修正孔的位置计算逻辑
+2. 使用参数化定义孔位置
+3. 考虑添加边距参数
+```
+
+---
+
+### Self-Consistency 检查
+
+```
+## 自我一致性检查
+
+作为 LLM Judge，在给出评分前先自我检查：
+
+1. 我是否正确理解了需求？
+2. 我的评分是否一致？
+3. 我是否考虑了所有相关信息？
+4. 我的推理是否有逻辑漏洞？
+
+如果发现不一致，请在 reasoning_brief 中说明。
+```
+
+---
+
+## 评分算法设计
+
+### 1. 加权平均
+
+```python
+def calculate_overall_score(dimension_scores: dict, weights: dict) -> float:
+    """计算加权总分"""
+
+    total_score = 0.0
+    for dimension, score in dimension_scores.items():
+        weight = weights.get(dimension, 0)
+        total_score += score * weight
+
+    return total_score
+```
+
+---
+
+### 2. 硬规则门限
+
+```python
+def apply_hard_gates(score: float, rules: dict) -> float:
+    """应用硬性规则门限"""
+
+    final_score = score
+
+    # 无 STEP 产物封顶
+    if "missing_step" in rules and rules["missing_step_max_score"] < 1.0:
+        final_score = min(score, rules["missing_step_max_score"])
+
+    # 空文件封顶
+    if "empty_artifact" in rules and rules["empty_artifact_max_score"] < 1.0:
+        final_score = min(score, rules["empty_artifact_max_score"])
+
+    # 超时封顶
+    if "timeout" in rules and rules["timeout_max_score"] < 1.0:
+        final_score = min(score, rules["timeout_max_score"])
+
+    # 执行错误封顶
+    if "execution_error" in rules and rules["execution_error_max_score"] < 1.0:
+        final_score = rules["execution_error_max_score"]
+
+    return final_score
+```
+
+---
+
+### 3. 置信度调整
+
+```python
+def adjust_for_confidence(
+    base_score: float,
+    confidence: float,
+    low_threshold: float = 0.65
+) -> tuple[float, float]:
+    """根据置信度调整分数"""
+
+    if confidence < low_threshold:
+        # 低置信度时降低分数
+        adjusted_score = base_score * confidence
+        return adjusted_score, confidence
+
+    # 高置信度保持或轻微提升
+    return base_score, confidence
+```
+
+---
+
+## 评估管道设计
+
+### 1. 串行评估
+
+```python
+async def evaluate_serial(
+    evidence: EvidenceBundle,
+    rule_evaluator: RuleEvaluator,
+    llm_evaluator: LLMJudgeEvaluator,
+    score_merger: ScoreMerger
+) -> Evaluation:
+    """串行评估流程"""
+
+    # 1. 规则评估
+    rule_result = rule_evaluator.evaluate(evidence)
+
+    # 2. 如果规则评估通过，进行 LLM 评估
+    if rule_result.passed:
+        llm_result = await llm_evaluator.evaluate(evidence)
+    else:
+        llm_result = None
+
+    # 3. 合并分数
+    evaluation = score_merger.merge(rule_result, llm_result)
+
+    return evaluation
+```
+
+---
+
+### 2. 并行评估
+
+```python
+async def evaluate_parallel(
+    evidence_list: list[EvidenceBundle],
+    evaluators: list[Evaluator]
+) -> list[Evaluation]:
+    """并行评估多个证据"""
+
+    # 为每个证据创建评估任务
+    tasks = []
+    for evidence in evidence_list:
+        for evaluator in evaluators:
+            task = evaluator.evaluate(evidence)
+            tasks.append(task)
+
+    # 并行执行
+    results = await asyncio.gather(*tasks)
+
+    return results
+```
+
+---
+
+### 3. 批量评估
+
+```python
+async def evaluate_batch(
+    evidence_list: list[EvidenceBundle],
+    max_concurrent: int = 5
+) -> list[Evaluation]:
+    """批量评估（带并发限制）"""
+
+    # 使用信号量控制并发
+    semaphore = asyncio.Semaphore(max_concurrent)
+
+    async def evaluate_one(evidence):
+        async with semaphore:
+            return await llm_judge.evaluate(evidence)
+
+    # 创建任务
+    tasks = [evaluate_one(evidence) for evidence in evidence_list]
+    results = await asyncio.gather(*tasks)
+
+    return results
+```
+
+---
+
+## 评估质量控制
+
+### 1. 评估一致性验证
+
+```python
+class EvaluationConsistencyChecker:
+    """评估一致性检查器"""
+
+    def __init__(self):
+        self.evaluation_history = []
+
+    def check_consistency(
+        self,
+            new_evaluation: Evaluation,
+            old_evaluation: Optional[Evaluation]
+        ) -> ConsistencyReport:
+        """检查评估结果的一致性"""
+
+        if not old_evaluation:
+            return ConsistencyReport(consistent=True)
+
+        # 检查分数变化范围
+        score_delta = abs(new_evaluation.score - old_evaluation.score)
+        if score_delta > 0.3:
+            return ConsistencyReport(
+                consistent=False,
+                reason=f"分数大幅上升: {old_evaluation.score} → {new_evaluation.score}"
+            )
+
+        # 检查维度分数变化
+        for dimension, new_score in new_evaluation.dimension_scores.items():
+            old_score = old_evaluation.dimension_scores.get(dimension, 0)
+            delta = abs(new_score - old_score)
+            if delta > 0.4:
+                return ConsistencyReport(
+                    consistent=False,
+                    reason=f"{dimension} 分数大幅上升: {old_score} → {new_score}"
+                )
+
+        return ConsistencyReport(consistent=True)
+```
+
+---
+
+### 2. 离群值检测
+
+```python
+import numpy as np
+
+class OutlierDetector:
+    """离群值检测"""
+
+    def __init__(self, window_size: int = 50):
+        self.window_size = window_size
+        self.score_history = []
+
+    def is_outlier(self, score: float) -> bool:
+        """检测分数是否为离群值"""
+
+        if len(self.score_history) < self.window_size:
+            return False
+
+        # 计算窗口内分数的统计量
+        window = self.score_history[-self.window_size:]
+        mean = np.mean(window)
+        std = np.std(window)
+
+        # 使用 3-sigma 规则
+        lower_bound = mean - 3 * std
+        upper_bound = mean + 3 * std
+
+        # 判断是否为离群
+        is_outlier = score < lower_bound or score > upper_bound
+
+        # 更新历史
+        self.score_history.append(score)
+
+        return is_outlier
+```
+
+---
+
+### 3. 评估器性能监控
+
+```python
+class EvaluatorPerformanceMonitor:
+    """评估器性能监控"""
+
+    def __init__(self):
+        self.evaluation_times = []
+
+    def record_evaluation(
+        self,
+            evaluator_name: str,
+            duration_seconds: float
+    ):
+        """记录评估时间"""
+
+        self.evaluation_times.append({
+            "evaluator": evaluator_name,
+            "duration": duration_seconds,
+            "timestamp": datetime.now().isoformat()
+        })
+
+    def get_performance_stats(self) -> dict:
+        """获取性能统计"""
+
+        if not self.evaluation_times:
+            return {}
+
+        eval_times = [e["duration"] for e in self.evaluation_times]
+
+        return {
+            "avg_duration": np.mean(eval_times),
+            "median_duration": np.median(eval_times),
+            "p95_duration": np.percentile(eval_times, 95),
+            "p99_duration": np.percentile(eval_times, 99),
+            "total_evaluations": len(eval_times)
+        }
+```
+
+---
+
+## 相关链接
+
+- [LLM-as-a-Judge 评估系统](/kb/aicad/llm-1my3q8)
+- [DeepEval 与 OpenAI Evals 对照](/kb/aicad/deepeval-4gyeij)
+- [多模态评估流程](/kb/aicad/doc-3rx4s0)
+- [Ground Truth 评估](/kb/aicad/ground-ct5cjq)
+- [Prompt 设计](/kb/aicad/prompt-jygudb)
+d:T3886,# 借助 LLM 的评价系统设计
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地讲解如何设计让 LLM 进行准确评价的系统
+
+---
+
+## 目录
+
+1. [评价系统概述](#评价系统概述)
+2. [评价维度设计](#评价维度设计)
+3. [LLM Judge Prompt 设计](#llm-judge-prompt-设计)
+4. [评分算法设计](#评分算法设计)
+5. [评估管道设计](#评估管道设计)
+6. [评估质量控制](#评估质量控制)
+
+---
+
+## 评价系统概述
+
+### 核心目标
+
+让 LLM 对生成的 CAD 模型进行准确、一致、可解释的质量评价。
+
+---
+
+### 评估系统架构
+
+```
+┌─────────────────────────────────────────────┐
+│           Sandbox/ACI               │
+│              (被评估对象)              │
+└──────────────────┬──────────────────────┘
+                 │ 产物收集
+                 ↓
+┌──────────────────────────────────────┐
+│       Evidence Builder             │
+│   (收集评估所需的证据)          │
+└──────────────────┬──────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│      Rule Evaluator            │
+│   (硬规则检查：无 STEP、超时等)  │
+└──────────────────┬──────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│       LLM Judge               │
+│   (语义评估：理解、准确度等)        │
+└──────────────────┬──────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│      Score Merger               │
+│   (合并规则和 LLM 分数)             │
+└──────────────────┬──────────────────┘
+                 │
+                 ↓
+┌──────────────────────────────────────┐
+│       Final Evaluation            │
+│   (最终评估结果)               │
+└──────────────────────────────────┘
+```
+
+---
+
+## 评价维度设计
+
+### 核心维度定义
+
+| 维度 | 权重 | 说明 | 评估要点 |
+|------|------|------|----------|
+| **需求符合度** | 0.35 | 模型是否符合用户的原始需求 | 尺寸、形状、位置、数量 |
+| **几何合理性** | 0.25 | 几何结构是否合理 | 拓扑正确、比例协调、无几何异常 |
+| **可制造性** | 0.20 | 模型是否适合标准制造工艺 | 壁厚均匀、无锐角、可脱模 |
+| **代码质量** | 0.10 | 生成代码的质量 | 代码简洁、可读、高效 |
+| **执行稳定性** | 0.10 | 生成过程的稳定性 | 无错误、超时、重试次数 |
+
+---
+
+### 维度评分标准
+
+#### 需求符合度
+
+```
+高 (1.0):
+- 关键尺寸与约束完全满足
+- 所有要求特征都已实现
+- 无多余或遗漏
+
+中 (0.5):
+- 主形状和尺寸正确
+- 次要特征基本实现
+- 有小的细节偏差
+
+低 (0.0):
+- 核心形状或尺寸不正确
+- 缺少关键特征
+- 严重偏离需求
+```
+
+#### 几何合理性
+
+```
+高 (1.0):
+- 拓扑正确，无自相交
+- 比例协调，无异常比例
+- 布局合理
+
+中 (0.5):
+- 拓扑基本正确
+- 有局部小比例不协调
+- 无明显几何异常
+
+低 (0.0):
+- 存在明显的几何错误
+- 比例严重失调
+- 存在无法制造的结构
+```
+
+---
+
+## LLM Judge Prompt 设计
+
+### Prompt 结构
+
+```
+你是一个专业的 CAD 模型评估专家。
+
+## 评估任务
+评估用户生成的 CAD 模型是否符合给定的需求。
+
+## 评估维度
+你需要从以下 5 个维度评估模型：
+
+1. **需求符合度 (35%)**
+   模型是否符合用户的原始需求？
+   关键尺寸、形状、位置、数量是否正确？
+
+2. **几何合理性 (25%)**
+   模型的几何结构是否合理？
+   拓扑正确、比例协调、无几何异常？
+
+3. **可制造性 (20%)**
+   模型是否适合标准制造工艺？
+   壁厚均匀、无锐角、可脱模？
+
+4. **代码质量 (10%)**
+   生成代码的质量如何？
+   代码简洁、可读、高效？
+
+5. **执行稳定性 (10%)**
+   生成过程的稳定性如何？
+   无错误、超时、重试次数？
+
+## 评分标准
+对每个维度，给出 0.0 到 1.0 的分数和详细解释。
+```
+
+---
+
+### Context 注入
+
+```
+## 评估输入
+
+### 需求描述
+用户需求: {requirement_text}
+
+### 生成的 CAD 代码
+```python
+{generated_code}
+```
+
+### 执行结果
+```json
+{
+  "success": true,
+  "error_code": "none",
+  "timeout": false
+}
+```
+
+### 产物信息
+```json
+{
+  "has_step": true,
+  "step_filename": "model.step",
+  "step_size_bytes": 24568,
+  "preview_images": [
+    "iso.png",
+    "front.png",
+    "right.png",
+    "top.png"
+  ]
+}
+```
+```
+
+## 评估输出
+
+请严格按照以下 JSON 格式输出评分结果：
+
+{
+  "overall_semantic_score": 0.0,
+  "confidence": 0.0,
+  "dimension_scores": {
+    "requirement_fidelity": 0.0,
+    "geometric_reasonableness": 0.0,
+    "manufacturability_proxy": 0.0,
+    "code_quality_proxy": 0.0,
+    "execution_stability": 0.0
+  },
+  "major_issues": [
+    "issue_1",
+    "issue_2",
+    "issue_3"
+  ],
+  "suggestions": [
+    "suggestion_1",
+    "suggestion_2"
+  ],
+  "reasoning_brief": "简要评估说明"
+}
+```
+```
+```
+
+---
+
+### Few-Shot 示例
+
+```
+## 输入
+
+用户需求: 创建一个 80x40x5 的矩形安装板，四角各有一个直径 6mm 的通孔
+
+生成的代码:
+```python
+import cadquery as cq
+
+result = (
+    cq.Workplane("XY")
+    .box(100, 40, 5)
+    .faces(">Z")
+    .workplane()
+    .pushPoints([(35, 15), (-35, 15), (-35, -15), (35, -15)])
+    .hole(6)
+)
+)
+```
+
+## 评估
+
+### 需求符合度: 0.2/1.0
+- ✅ 板的长度 80mm 和宽度 40mm 正确
+- ✅ 厚度 5mm 正确
+- ⚠️ 孔的位置应该是距边缘 10mm，而不是 15mm
+- ⚠️ 孔的间距应该更均匀
+
+### 几何合理性: 0.8/1.0
+- ✅ 拓扑正确，无自相交
+- ✅ 比例协调
+- ⚠️ 孔的位置不对称会导致装配问题
+
+### 可制造性: 0.9/1.0
+- ✅ 壁厚 5mm 适合制造
+- ✅ 孔径 6mm 是标准尺寸
+- ✅ 无尖锐边缘（假设会添加圆角）
+
+### 代码质量: 0.7/1.0
+- ✅ 代码简洁清晰
+- ✅ 使用了标准 CadQuery API
+- ⚠️ 硬编码了孔的位置（应该用变量）
+
+### 执行稳定性: 1.0/1.0
+- ✅ 无错误
+- ✅ 无超时
+- ✅ 一次性成功
+
+### 总分: (0.35×0.2 + 0.25×0.8 + 0.20×0.9 + 0.10×1.0) / 1.0 = 0.75
+
+### 主要问题
+1. 孔的位置计算错误
+2. 孔的间距不均匀
+
+### 改进建议
+1. 修正孔的位置计算逻辑
+2. 使用参数化定义孔位置
+3. 考虑添加边距参数
+```
+
+---
+
+### Self-Consistency 检查
+
+```
+## 自我一致性检查
+
+作为 LLM Judge，在给出评分前先自我检查：
+
+1. 我是否正确理解了需求？
+2. 我的评分是否一致？
+3. 我是否考虑了所有相关信息？
+4. 我的推理是否有逻辑漏洞？
+
+如果发现不一致，请在 reasoning_brief 中说明。
+```
+
+---
+
+## 评分算法设计
+
+### 1. 加权平均
+
+```python
+def calculate_overall_score(dimension_scores: dict, weights: dict) -> float:
+    """计算加权总分"""
+
+    total_score = 0.0
+    for dimension, score in dimension_scores.items():
+        weight = weights.get(dimension, 0)
+        total_score += score * weight
+
+    return total_score
+```
+
+---
+
+### 2. 硬规则门限
+
+```python
+def apply_hard_gates(score: float, rules: dict) -> float:
+    """应用硬性规则门限"""
+
+    final_score = score
+
+    # 无 STEP 产物封顶
+    if "missing_step" in rules and rules["missing_step_max_score"] < 1.0:
+        final_score = min(score, rules["missing_step_max_score"])
+
+    # 空文件封顶
+    if "empty_artifact" in rules and rules["empty_artifact_max_score"] < 1.0:
+        final_score = min(score, rules["empty_artifact_max_score"])
+
+    # 超时封顶
+    if "timeout" in rules and rules["timeout_max_score"] < 1.0:
+        final_score = min(score, rules["timeout_max_score"])
+
+    # 执行错误封顶
+    if "execution_error" in rules and rules["execution_error_max_score"] < 1.0:
+        final_score = rules["execution_error_max_score"]
+
+    return final_score
+```
+
+---
+
+### 3. 置信度调整
+
+```python
+def adjust_for_confidence(
+    base_score: float,
+    confidence: float,
+    low_threshold: float = 0.65
+) -> tuple[float, float]:
+    """根据置信度调整分数"""
+
+    if confidence < low_threshold:
+        # 低置信度时降低分数
+        adjusted_score = base_score * confidence
+        return adjusted_score, confidence
+
+    # 高置信度保持或轻微提升
+    return base_score, confidence
+```
+
+---
+
+## 评估管道设计
+
+### 1. 串行评估
+
+```python
+async def evaluate_serial(
+    evidence: EvidenceBundle,
+    rule_evaluator: RuleEvaluator,
+    llm_evaluator: LLMJudgeEvaluator,
+    score_merger: ScoreMerger
+) -> Evaluation:
+    """串行评估流程"""
+
+    # 1. 规则评估
+    rule_result = rule_evaluator.evaluate(evidence)
+
+    # 2. 如果规则评估通过，进行 LLM 评估
+    if rule_result.passed:
+        llm_result = await llm_evaluator.evaluate(evidence)
+    else:
+        llm_result = None
+
+    # 3. 合并分数
+    evaluation = score_merger.merge(rule_result, llm_result)
+
+    return evaluation
+```
+
+---
+
+### 2. 并行评估
+
+```python
+async def evaluate_parallel(
+    evidence_list: list[EvidenceBundle],
+    evaluators: list[Evaluator]
+) -> list[Evaluation]:
+    """并行评估多个证据"""
+
+    # 为每个证据创建评估任务
+    tasks = []
+    for evidence in evidence_list:
+        for evaluator in evaluators:
+            task = evaluator.evaluate(evidence)
+            tasks.append(task)
+
+    # 并行执行
+    results = await asyncio.gather(*tasks)
+
+    return results
+```
+
+---
+
+### 3. 批量评估
+
+```python
+async def evaluate_batch(
+    evidence_list: list[EvidenceBundle],
+    max_concurrent: int = 5
+) -> list[Evaluation]:
+    """批量评估（带并发限制）"""
+
+    # 使用信号量控制并发
+    semaphore = asyncio.Semaphore(max_concurrent)
+
+    async def evaluate_one(evidence):
+        async with semaphore:
+            return await llm_judge.evaluate(evidence)
+
+    # 创建任务
+    tasks = [evaluate_one(evidence) for evidence in evidence_list]
+    results = await asyncio.gather(*tasks)
+
+    return results
+```
+
+---
+
+## 评估质量控制
+
+### 1. 评估一致性验证
+
+```python
+class EvaluationConsistencyChecker:
+    """评估一致性检查器"""
+
+    def __init__(self):
+        self.evaluation_history = []
+
+    def check_consistency(
+        self,
+            new_evaluation: Evaluation,
+            old_evaluation: Optional[Evaluation]
+        ) -> ConsistencyReport:
+        """检查评估结果的一致性"""
+
+        if not old_evaluation:
+            return ConsistencyReport(consistent=True)
+
+        # 检查分数变化范围
+        score_delta = abs(new_evaluation.score - old_evaluation.score)
+        if score_delta > 0.3:
+            return ConsistencyReport(
+                consistent=False,
+                reason=f"分数大幅上升: {old_evaluation.score} → {new_evaluation.score}"
+            )
+
+        # 检查维度分数变化
+        for dimension, new_score in new_evaluation.dimension_scores.items():
+            old_score = old_evaluation.dimension_scores.get(dimension, 0)
+            delta = abs(new_score - old_score)
+            if delta > 0.4:
+                return ConsistencyReport(
+                    consistent=False,
+                    reason=f"{dimension} 分数大幅上升: {old_score} → {new_score}"
+                )
+
+        return ConsistencyReport(consistent=True)
+```
+
+---
+
+### 2. 离群值检测
+
+```python
+import numpy as np
+
+class OutlierDetector:
+    """离群值检测"""
+
+    def __init__(self, window_size: int = 50):
+        self.window_size = window_size
+        self.score_history = []
+
+    def is_outlier(self, score: float) -> bool:
+        """检测分数是否为离群值"""
+
+        if len(self.score_history) < self.window_size:
+            return False
+
+        # 计算窗口内分数的统计量
+        window = self.score_history[-self.window_size:]
+        mean = np.mean(window)
+        std = np.std(window)
+
+        # 使用 3-sigma 规则
+        lower_bound = mean - 3 * std
+        upper_bound = mean + 3 * std
+
+        # 判断是否为离群
+        is_outlier = score < lower_bound or score > upper_bound
+
+        # 更新历史
+        self.score_history.append(score)
+
+        return is_outlier
+```
+
+---
+
+### 3. 评估器性能监控
+
+```python
+class EvaluatorPerformanceMonitor:
+    """评估器性能监控"""
+
+    def __init__(self):
+        self.evaluation_times = []
+
+    def record_evaluation(
+        self,
+            evaluator_name: str,
+            duration_seconds: float
+    ):
+        """记录评估时间"""
+
+        self.evaluation_times.append({
+            "evaluator": evaluator_name,
+            "duration": duration_seconds,
+            "timestamp": datetime.now().isoformat()
+        })
+
+    def get_performance_stats(self) -> dict:
+        """获取性能统计"""
+
+        if not self.evaluation_times:
+            return {}
+
+        eval_times = [e["duration"] for e in self.evaluation_times]
+
+        return {
+            "avg_duration": np.mean(eval_times),
+            "median_duration": np.median(eval_times),
+            "p95_duration": np.percentile(eval_times, 95),
+            "p99_duration": np.percentile(eval_times, 99),
+            "total_evaluations": len(eval_times)
+        }
+```
+
+---
+
+## 相关链接
+
+- [LLM-as-a-Judge 评估系统](/kb/aicad/llm-1my3q8)
+- [DeepEval 与 OpenAI Evals 对照](/kb/aicad/deepeval-4gyeij)
+- [多模态评估流程](/kb/aicad/doc-3rx4s0)
+- [Ground Truth 评估](/kb/aicad/ground-ct5cjq)
+- [Prompt 设计](/kb/aicad/prompt-jygudb)
+2:["$","$Lb",null,{"document":{"slug":"doc-caoj8r","title":"借助 LLM 的评价系统设计","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$c","filePath":"评估系统/借助 LLM 的评价系统设计.md","default":{"slug":"doc-caoj8r","title":"借助 LLM 的评价系统设计","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$d","filePath":"评估系统/借助 LLM 的评价系统设计.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"借助 LLM 的评价系统设计 - AICAD | Jerry Xu"}],["$","meta","3",{"name":"description","content":"借助 LLM 的评价系统设计"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

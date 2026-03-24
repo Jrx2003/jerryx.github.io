@@ -1,0 +1,1020 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","react-fxfrxv","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","react-fxfrxv","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"react-fxfrxv\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","react-fxfrxv","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T3d83,# ReAct 推理框架
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 40 分钟
+
+---
+
+## 目录
+
+1. [ReAct 概述](#react-概述)
+2. [核心思想](#核心思想)
+3. [推理与行动循环](#推理与行动循环)
+4. [Prompt 设计](#prompt-设计)
+5. [工具使用](#工具使用)
+6. [记忆机制](#记忆机制)
+7. [代码实现](#代码实现)
+8. [应用场景](#应用场景)
+9. [面试要点](#面试要点)
+
+---
+
+## ReAct 概述
+
+### 什么是 ReAct
+
+ReAct (Reasoning + Acting) 是一种将推理和行动结合的 Agent 框架，由 Google Research 在 2022 年提出。
+
+```
+传统 LLM: 问题 → 直接回答
+           ↓
+ReAct:     问题 → 思考 → 行动 → 观察 → 思考 → ... → 回答
+```
+
+### 核心优势
+
+| 特性 | 传统 LLM | ReAct |
+|------|----------|-------|
+| 事实准确性 | 可能幻觉 | 通过工具获取真实信息 |
+| 可解释性 | 黑盒 | 显示思考过程 |
+| 任务完成能力 | 单次推理 | 多步迭代 |
+| 工具使用 | 无 | 灵活调用外部工具 |
+
+---
+
+## 核心思想
+
+### Reasoning + Acting
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    ReAct 循环                            │
+├─────────────────────────────────────────────────────────┤
+│                                                          │
+│   ┌────────────┐                                        │
+│   │   Thought  │  ← 推理：我现在需要什么？               │
+│   └─────┬──────┘                                        │
+│         │                                                │
+│         ▼                                                │
+│   ┌────────────┐                                        │
+│   │    Act     │  ← 行动：调用工具或生成答案             │
+│   └─────┬──────┘                                        │
+│         │                                                │
+│         ▼                                                │
+│   ┌────────────┐                                        │
+│   │  Observation│  ← 观察：获取行动结果                  │
+│   └─────┬──────┘                                        │
+│         │                                                │
+│         └────────────────┐                              │
+│                          │                              │
+│                          ▼                              │
+│                    是否完成任务？                        │
+│                          │                              │
+│                    是 ←──┴──→ 否                        │
+│                   结束       继续循环                    │
+│                                                          │
+└─────────────────────────────────────────────────────────┘
+```
+
+### 三种核心能力
+
+| 能力 | 说明 | 示例 |
+|------|------|------|
+| **推理 (Reasoning)** | 分解问题，制定计划 | "我需要先查询天气，再决定穿衣建议" |
+| **行动 (Acting)** | 执行具体操作 | 调用天气 API |
+| **观察 (Observing)** | 获取外部反馈 | API 返回"今天北京 25°C，晴" |
+
+---
+
+## 推理与行动循环
+
+### 标准流程示例
+
+```
+用户问题: "今天是苹果公司成立多少周年？"
+
+Step 1 - Thought:
+"我需要知道苹果公司成立日期和今天的日期。"
+
+Step 2 - Act:
+搜索[苹果公司成立日期]
+
+Step 3 - Observation:
+"苹果公司于 1976 年 4 月 1 日由史蒂夫·乔布斯等人创立。"
+
+Step 4 - Thought:
+"现在我知道了成立日期是 1976 年 4 月 1 日。今天是 2026 年 3 月 13 日，
+需要计算周年数。"
+
+Step 5 - Act:
+计算[2026 - 1976]
+
+Step 6 - Observation:
+"结果为 50"
+
+Step 7 - Thought:
+"由于今天（3月13日）还未到成立日（4月1日），所以是 49 周年。"
+
+Step 8 - Act:
+回答[苹果公司成立 49 周年，即将在 2026 年 4 月 1 日迎来 50 周年]
+```
+
+---
+
+## Prompt 设计
+
+### Few-shot Prompt 模板
+
+```python
+REACT_PROMPT = """Solve a question answering task with interleaving Thought, Action, Observation steps.
+
+Thought can reason about the current situation, and Action can be three types:
+(1) Search[entity], which searches the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to search.
+(2) Lookup[string], which returns the next sentence containing the string in the current passage.
+(3) Finish[answer], which returns the answer and finishes the task.
+
+Here are some examples:
+
+Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?
+Thought 1: I need to search Colorado orogeny, find the area that the eastern sector of the Colorado orogeny extends into, then find the elevation range of the area.
+Action 1: Search[Colorado orogeny]
+Observation 1: The Colorado orogeny was an episode of mountain building (an orogeny) in Colorado and surrounding areas.
+Thought 2: It does not mention the eastern sector. So I need to look up eastern sector.
+Action 2: Lookup[eastern sector]
+Observation 2: (Result 1 / 1) The eastern sector extends into the High Plains and is called the Central Plains orogeny.
+Thought 3: The eastern sector of Colorado orogeny extends into the High Plains. So I need to search High Plains and find its elevation range.
+Action 3: Search[High Plains]
+Observation 3: High Plains refers to one of two distinct land regions
+Thought 4: I need to instead search High Plains (United States).
+Action 4: Search[High Plains (United States)]
+Observation 4: The High Plains are a subregion of the Great Plains. From east to west, the High Plains rise in elevation from around 1,800 to 7,000 ft (550 to 2,130 m).
+Thought 5: High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.
+Action 5: Finish[1,800 to 7,000 ft]
+
+Question: {question}"""
+```
+
+### Zero-shot Prompt 模板
+
+```python
+ZERO_SHOT_REACT_PROMPT = """You are an AI assistant that helps users by thinking step by step.
+
+When you need information, use tools by specifying:
+Action: tool_name[parameters]
+
+After each action, you will receive an Observation.
+Continue until you can provide the final answer.
+
+Format your response as:
+Thought: your reasoning here
+Action: tool_name[parameters]
+
+or when you have the answer:
+Thought: I have found the answer
+Action: Finish[your final answer]
+
+Question: {question}
+Thought:"""
+```
+
+---
+
+## 工具使用
+
+### 工具定义
+
+```python
+class Tool:
+    """工具基类"""
+    def __init__(self, name: str, description: str):
+        self.name = name
+        self.description = description
+
+    def run(self, query: str) -> str:
+        raise NotImplementedError
+
+class SearchTool(Tool):
+    """搜索工具"""
+    def __init__(self):
+        super().__init__(
+            name="Search",
+            description="Search for information on the internet"
+        )
+
+    def run(self, query: str) -> str:
+        # 实际实现调用搜索 API
+        return search_api(query)
+
+class CalculatorTool(Tool):
+    """计算器工具"""
+    def __init__(self):
+        super().__init__(
+            name="Calculator",
+            description="Perform mathematical calculations"
+        )
+
+    def run(self, expression: str) -> str:
+        try:
+            result = eval(expression)
+            return str(result)
+        except:
+            return "Error: Invalid expression"
+
+class WeatherTool(Tool):
+    """天气查询工具"""
+    def __init__(self):
+        super().__init__(
+            name="Weather",
+            description="Get current weather for a location"
+        )
+
+    def run(self, location: str) -> str:
+        # 调用天气 API
+        return weather_api(location)
+```
+
+### 工具注册
+
+```python
+class ToolRegistry:
+    """工具注册中心"""
+    def __init__(self):
+        self.tools = {}
+
+    def register(self, tool: Tool):
+        self.tools[tool.name] = tool
+
+    def execute(self, action_str: str) -> str:
+        """执行工具调用
+
+        action_str: "ToolName[parameters]"
+        """
+        import re
+        match = re.match(r'(\w+)\[(.*)\]', action_str)
+        if not match:
+            return "Error: Invalid action format"
+
+        tool_name, params = match.groups()
+        if tool_name not in self.tools:
+            return f"Error: Unknown tool {tool_name}"
+
+        return self.tools[tool_name].run(params)
+```
+
+---
+
+## 记忆机制
+
+### 短期记忆
+
+```python
+class ShortTermMemory:
+    """短期记忆：当前对话上下文"""
+    def __init__(self, max_turns: int = 10):
+        self.history = []
+        self.max_turns = max_turns
+
+    def add(self, thought: str, action: str, observation: str):
+        self.history.append({
+            'thought': thought,
+            'action': action,
+            'observation': observation
+        })
+        # 保持最近 N 轮
+        if len(self.history) > self.max_turns:
+            self.history = self.history[-self.max_turns:]
+
+    def get_context(self) -> str:
+        """获取记忆上下文用于 Prompt"""
+        context = ""
+        for i, turn in enumerate(self.history, 1):
+            context += f"Thought {i}: {turn['thought']}\n"
+            context += f"Action {i}: {turn['action']}\n"
+            context += f"Observation {i}: {turn['observation']}\n"
+        return context
+```
+
+### 长期记忆
+
+```python
+class LongTermMemory:
+    """长期记忆：向量数据库存储"""
+    def __init__(self, embedding_model, vector_store):
+        self.embedding_model = embedding_model
+        self.vector_store = vector_store
+
+    def store(self, text: str, metadata: dict = None):
+        """存储记忆"""
+        embedding = self.embedding_model.encode(text)
+        self.vector_store.add(
+            embeddings=[embedding],
+            documents=[text],
+            metadatas=[metadata or {}]
+        )
+
+    def retrieve(self, query: str, k: int = 3) -> list:
+        """检索相关记忆"""
+        query_embedding = self.embedding_model.encode(query)
+        results = self.vector_store.query(
+            query_embeddings=[query_embedding],
+            n_results=k
+        )
+        return results['documents'][0]
+```
+
+---
+
+## 代码实现
+
+### 完整 ReAct Agent
+
+```python
+import re
+from typing import List, Dict, Optional
+
+class ReActAgent:
+    """ReAct Agent 完整实现"""
+
+    def __init__(
+        self,
+        llm,
+        tools: List[Tool],
+        max_iterations: int = 10,
+        prompt_template: str = None
+    ):
+        self.llm = llm
+        self.tools = {tool.name: tool for tool in tools}
+        self.max_iterations = max_iterations
+        self.prompt_template = prompt_template or REACT_PROMPT
+        self.memory = ShortTermMemory()
+
+    def run(self, question: str) -> str:
+        """运行 ReAct 循环"""
+        context = f"Question: {question}\n"
+
+        for i in range(self.max_iterations):
+            # 1. 生成 Thought 和 Action
+            prompt = self._build_prompt(context)
+            response = self.llm.generate(prompt)
+
+            # 2. 解析 Thought 和 Action
+            thought, action = self._parse_response(response)
+
+            if not thought or not action:
+                return "Error: Failed to parse response"
+
+            # 3. 检查是否完成
+            if action.startswith("Finish["):
+                answer = action[7:-1]  # 提取 Finish[...] 中的内容
+                return answer
+
+            # 4. 执行 Action
+            observation = self._execute_action(action)
+
+            # 5. 更新记忆
+            self.memory.add(thought, action, observation)
+
+            # 6. 更新上下文
+            context += f"Thought {i+1}: {thought}\n"
+            context += f"Action {i+1}: {action}\n"
+            context += f"Observation {i+1}: {observation}\n"
+
+        return "Error: Maximum iterations reached"
+
+    def _build_prompt(self, context: str) -> str:
+        """构建 Prompt"""
+        return self.prompt_template.format(question=context)
+
+    def _parse_response(self, response: str) -> tuple:
+        """解析 LLM 响应"""
+        thought_match = re.search(r'Thought \d+: (.+?)(?=\nAction|$)', response)
+        action_match = re.search(r'Action \d+: (.+?)(?=\n|$)', response)
+
+        thought = thought_match.group(1) if thought_match else ""
+        action = action_match.group(1) if action_match else ""
+
+        return thought, action
+
+    def _execute_action(self, action: str) -> str:
+        """执行工具调用"""
+        # 解析 Action
+        match = re.match(r'(\w+)\[(.*)\]', action)
+        if not match:
+            return "Error: Invalid action format"
+
+        tool_name, params = match.groups()
+
+        # 执行工具
+        if tool_name not in self.tools:
+            return f"Error: Unknown tool '{tool_name}'"
+
+        try:
+            result = self.tools[tool_name].run(params)
+            return result
+        except Exception as e:
+            return f"Error: {str(e)}"
+
+# 使用示例
+if __name__ == "__main__":
+    # 初始化组件
+    llm = YourLLM()  # 替换为你的 LLM
+    tools = [
+        SearchTool(),
+        CalculatorTool(),
+        WeatherTool()
+    ]
+
+    # 创建 Agent
+    agent = ReActAgent(llm=llm, tools=tools)
+
+    # 运行
+    question = "苹果公司成立多少年了？"
+    answer = agent.run(question)
+    print(f"Answer: {answer}")
+```
+
+---
+
+## 应用场景
+
+| 场景 | 示例 | 所需工具 |
+|------|------|----------|
+| **信息查询** | "今天北京天气如何？" | 天气 API |
+| **数学计算** | "计算 1234 * 5678" | 计算器 |
+| **知识问答** | "谁发明了电话？" | 搜索引擎 |
+| **数据分析** | "分析这份销售数据" | 代码执行器 |
+| **多步任务** | "帮我订明天去上海的机票" | 多个 API 组合 |
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: ReAct 相比 Chain-of-Thought 的优势？**
+
+A:
+- CoT 只有推理，ReAct 增加了行动
+- ReAct 可以与外部环境交互获取信息
+- ReAct 更适合需要实时信息的任务
+
+**Q2: ReAct 的停止条件是什么？**
+
+A:
+1. 调用 Finish[answer] 工具
+2. 达到最大迭代次数
+3. 发生错误无法恢复
+
+**Q3: 如何防止 ReAct 陷入无限循环？**
+
+A:
+1. 设置最大迭代次数
+2. 检测重复的动作序列
+3. 使用记忆机制避免重复查询
+
+**Q4: ReAct 中的工具如何选择？**
+
+A:
+- 在 Prompt 中明确描述每个工具的功能
+- LLM 根据 Thought 决定使用哪个工具
+- 可以加入工具使用示例（Few-shot）
+
+**Q5: ReAct 的记忆机制作用？**
+
+A:
+- 短期记忆：保持当前任务上下文
+- 长期记忆：存储历史任务经验
+- 避免重复查询，提高效率
+
+---
+
+## 相关文档
+
+- [GPT系列模型演进](/kb/llm/gpt-5ep6g8) - LLM 基础
+- [工具学习与使用](/kb/llm/doc-ai6qej) - 工具使用详解
+- [Agent规划能力](/kb/llm/agent-mozab5) - 任务规划
+
+---
+
+## 参考文献
+
+1. Yao et al. "ReAct: Synergizing Reasoning and Acting in Language Models". 2022.
+2. Yao et al. "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents". 2022.
+d:T3d83,# ReAct 推理框架
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 40 分钟
+
+---
+
+## 目录
+
+1. [ReAct 概述](#react-概述)
+2. [核心思想](#核心思想)
+3. [推理与行动循环](#推理与行动循环)
+4. [Prompt 设计](#prompt-设计)
+5. [工具使用](#工具使用)
+6. [记忆机制](#记忆机制)
+7. [代码实现](#代码实现)
+8. [应用场景](#应用场景)
+9. [面试要点](#面试要点)
+
+---
+
+## ReAct 概述
+
+### 什么是 ReAct
+
+ReAct (Reasoning + Acting) 是一种将推理和行动结合的 Agent 框架，由 Google Research 在 2022 年提出。
+
+```
+传统 LLM: 问题 → 直接回答
+           ↓
+ReAct:     问题 → 思考 → 行动 → 观察 → 思考 → ... → 回答
+```
+
+### 核心优势
+
+| 特性 | 传统 LLM | ReAct |
+|------|----------|-------|
+| 事实准确性 | 可能幻觉 | 通过工具获取真实信息 |
+| 可解释性 | 黑盒 | 显示思考过程 |
+| 任务完成能力 | 单次推理 | 多步迭代 |
+| 工具使用 | 无 | 灵活调用外部工具 |
+
+---
+
+## 核心思想
+
+### Reasoning + Acting
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    ReAct 循环                            │
+├─────────────────────────────────────────────────────────┤
+│                                                          │
+│   ┌────────────┐                                        │
+│   │   Thought  │  ← 推理：我现在需要什么？               │
+│   └─────┬──────┘                                        │
+│         │                                                │
+│         ▼                                                │
+│   ┌────────────┐                                        │
+│   │    Act     │  ← 行动：调用工具或生成答案             │
+│   └─────┬──────┘                                        │
+│         │                                                │
+│         ▼                                                │
+│   ┌────────────┐                                        │
+│   │  Observation│  ← 观察：获取行动结果                  │
+│   └─────┬──────┘                                        │
+│         │                                                │
+│         └────────────────┐                              │
+│                          │                              │
+│                          ▼                              │
+│                    是否完成任务？                        │
+│                          │                              │
+│                    是 ←──┴──→ 否                        │
+│                   结束       继续循环                    │
+│                                                          │
+└─────────────────────────────────────────────────────────┘
+```
+
+### 三种核心能力
+
+| 能力 | 说明 | 示例 |
+|------|------|------|
+| **推理 (Reasoning)** | 分解问题，制定计划 | "我需要先查询天气，再决定穿衣建议" |
+| **行动 (Acting)** | 执行具体操作 | 调用天气 API |
+| **观察 (Observing)** | 获取外部反馈 | API 返回"今天北京 25°C，晴" |
+
+---
+
+## 推理与行动循环
+
+### 标准流程示例
+
+```
+用户问题: "今天是苹果公司成立多少周年？"
+
+Step 1 - Thought:
+"我需要知道苹果公司成立日期和今天的日期。"
+
+Step 2 - Act:
+搜索[苹果公司成立日期]
+
+Step 3 - Observation:
+"苹果公司于 1976 年 4 月 1 日由史蒂夫·乔布斯等人创立。"
+
+Step 4 - Thought:
+"现在我知道了成立日期是 1976 年 4 月 1 日。今天是 2026 年 3 月 13 日，
+需要计算周年数。"
+
+Step 5 - Act:
+计算[2026 - 1976]
+
+Step 6 - Observation:
+"结果为 50"
+
+Step 7 - Thought:
+"由于今天（3月13日）还未到成立日（4月1日），所以是 49 周年。"
+
+Step 8 - Act:
+回答[苹果公司成立 49 周年，即将在 2026 年 4 月 1 日迎来 50 周年]
+```
+
+---
+
+## Prompt 设计
+
+### Few-shot Prompt 模板
+
+```python
+REACT_PROMPT = """Solve a question answering task with interleaving Thought, Action, Observation steps.
+
+Thought can reason about the current situation, and Action can be three types:
+(1) Search[entity], which searches the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to search.
+(2) Lookup[string], which returns the next sentence containing the string in the current passage.
+(3) Finish[answer], which returns the answer and finishes the task.
+
+Here are some examples:
+
+Question: What is the elevation range for the area that the eastern sector of the Colorado orogeny extends into?
+Thought 1: I need to search Colorado orogeny, find the area that the eastern sector of the Colorado orogeny extends into, then find the elevation range of the area.
+Action 1: Search[Colorado orogeny]
+Observation 1: The Colorado orogeny was an episode of mountain building (an orogeny) in Colorado and surrounding areas.
+Thought 2: It does not mention the eastern sector. So I need to look up eastern sector.
+Action 2: Lookup[eastern sector]
+Observation 2: (Result 1 / 1) The eastern sector extends into the High Plains and is called the Central Plains orogeny.
+Thought 3: The eastern sector of Colorado orogeny extends into the High Plains. So I need to search High Plains and find its elevation range.
+Action 3: Search[High Plains]
+Observation 3: High Plains refers to one of two distinct land regions
+Thought 4: I need to instead search High Plains (United States).
+Action 4: Search[High Plains (United States)]
+Observation 4: The High Plains are a subregion of the Great Plains. From east to west, the High Plains rise in elevation from around 1,800 to 7,000 ft (550 to 2,130 m).
+Thought 5: High Plains rise in elevation from around 1,800 to 7,000 ft, so the answer is 1,800 to 7,000 ft.
+Action 5: Finish[1,800 to 7,000 ft]
+
+Question: {question}"""
+```
+
+### Zero-shot Prompt 模板
+
+```python
+ZERO_SHOT_REACT_PROMPT = """You are an AI assistant that helps users by thinking step by step.
+
+When you need information, use tools by specifying:
+Action: tool_name[parameters]
+
+After each action, you will receive an Observation.
+Continue until you can provide the final answer.
+
+Format your response as:
+Thought: your reasoning here
+Action: tool_name[parameters]
+
+or when you have the answer:
+Thought: I have found the answer
+Action: Finish[your final answer]
+
+Question: {question}
+Thought:"""
+```
+
+---
+
+## 工具使用
+
+### 工具定义
+
+```python
+class Tool:
+    """工具基类"""
+    def __init__(self, name: str, description: str):
+        self.name = name
+        self.description = description
+
+    def run(self, query: str) -> str:
+        raise NotImplementedError
+
+class SearchTool(Tool):
+    """搜索工具"""
+    def __init__(self):
+        super().__init__(
+            name="Search",
+            description="Search for information on the internet"
+        )
+
+    def run(self, query: str) -> str:
+        # 实际实现调用搜索 API
+        return search_api(query)
+
+class CalculatorTool(Tool):
+    """计算器工具"""
+    def __init__(self):
+        super().__init__(
+            name="Calculator",
+            description="Perform mathematical calculations"
+        )
+
+    def run(self, expression: str) -> str:
+        try:
+            result = eval(expression)
+            return str(result)
+        except:
+            return "Error: Invalid expression"
+
+class WeatherTool(Tool):
+    """天气查询工具"""
+    def __init__(self):
+        super().__init__(
+            name="Weather",
+            description="Get current weather for a location"
+        )
+
+    def run(self, location: str) -> str:
+        # 调用天气 API
+        return weather_api(location)
+```
+
+### 工具注册
+
+```python
+class ToolRegistry:
+    """工具注册中心"""
+    def __init__(self):
+        self.tools = {}
+
+    def register(self, tool: Tool):
+        self.tools[tool.name] = tool
+
+    def execute(self, action_str: str) -> str:
+        """执行工具调用
+
+        action_str: "ToolName[parameters]"
+        """
+        import re
+        match = re.match(r'(\w+)\[(.*)\]', action_str)
+        if not match:
+            return "Error: Invalid action format"
+
+        tool_name, params = match.groups()
+        if tool_name not in self.tools:
+            return f"Error: Unknown tool {tool_name}"
+
+        return self.tools[tool_name].run(params)
+```
+
+---
+
+## 记忆机制
+
+### 短期记忆
+
+```python
+class ShortTermMemory:
+    """短期记忆：当前对话上下文"""
+    def __init__(self, max_turns: int = 10):
+        self.history = []
+        self.max_turns = max_turns
+
+    def add(self, thought: str, action: str, observation: str):
+        self.history.append({
+            'thought': thought,
+            'action': action,
+            'observation': observation
+        })
+        # 保持最近 N 轮
+        if len(self.history) > self.max_turns:
+            self.history = self.history[-self.max_turns:]
+
+    def get_context(self) -> str:
+        """获取记忆上下文用于 Prompt"""
+        context = ""
+        for i, turn in enumerate(self.history, 1):
+            context += f"Thought {i}: {turn['thought']}\n"
+            context += f"Action {i}: {turn['action']}\n"
+            context += f"Observation {i}: {turn['observation']}\n"
+        return context
+```
+
+### 长期记忆
+
+```python
+class LongTermMemory:
+    """长期记忆：向量数据库存储"""
+    def __init__(self, embedding_model, vector_store):
+        self.embedding_model = embedding_model
+        self.vector_store = vector_store
+
+    def store(self, text: str, metadata: dict = None):
+        """存储记忆"""
+        embedding = self.embedding_model.encode(text)
+        self.vector_store.add(
+            embeddings=[embedding],
+            documents=[text],
+            metadatas=[metadata or {}]
+        )
+
+    def retrieve(self, query: str, k: int = 3) -> list:
+        """检索相关记忆"""
+        query_embedding = self.embedding_model.encode(query)
+        results = self.vector_store.query(
+            query_embeddings=[query_embedding],
+            n_results=k
+        )
+        return results['documents'][0]
+```
+
+---
+
+## 代码实现
+
+### 完整 ReAct Agent
+
+```python
+import re
+from typing import List, Dict, Optional
+
+class ReActAgent:
+    """ReAct Agent 完整实现"""
+
+    def __init__(
+        self,
+        llm,
+        tools: List[Tool],
+        max_iterations: int = 10,
+        prompt_template: str = None
+    ):
+        self.llm = llm
+        self.tools = {tool.name: tool for tool in tools}
+        self.max_iterations = max_iterations
+        self.prompt_template = prompt_template or REACT_PROMPT
+        self.memory = ShortTermMemory()
+
+    def run(self, question: str) -> str:
+        """运行 ReAct 循环"""
+        context = f"Question: {question}\n"
+
+        for i in range(self.max_iterations):
+            # 1. 生成 Thought 和 Action
+            prompt = self._build_prompt(context)
+            response = self.llm.generate(prompt)
+
+            # 2. 解析 Thought 和 Action
+            thought, action = self._parse_response(response)
+
+            if not thought or not action:
+                return "Error: Failed to parse response"
+
+            # 3. 检查是否完成
+            if action.startswith("Finish["):
+                answer = action[7:-1]  # 提取 Finish[...] 中的内容
+                return answer
+
+            # 4. 执行 Action
+            observation = self._execute_action(action)
+
+            # 5. 更新记忆
+            self.memory.add(thought, action, observation)
+
+            # 6. 更新上下文
+            context += f"Thought {i+1}: {thought}\n"
+            context += f"Action {i+1}: {action}\n"
+            context += f"Observation {i+1}: {observation}\n"
+
+        return "Error: Maximum iterations reached"
+
+    def _build_prompt(self, context: str) -> str:
+        """构建 Prompt"""
+        return self.prompt_template.format(question=context)
+
+    def _parse_response(self, response: str) -> tuple:
+        """解析 LLM 响应"""
+        thought_match = re.search(r'Thought \d+: (.+?)(?=\nAction|$)', response)
+        action_match = re.search(r'Action \d+: (.+?)(?=\n|$)', response)
+
+        thought = thought_match.group(1) if thought_match else ""
+        action = action_match.group(1) if action_match else ""
+
+        return thought, action
+
+    def _execute_action(self, action: str) -> str:
+        """执行工具调用"""
+        # 解析 Action
+        match = re.match(r'(\w+)\[(.*)\]', action)
+        if not match:
+            return "Error: Invalid action format"
+
+        tool_name, params = match.groups()
+
+        # 执行工具
+        if tool_name not in self.tools:
+            return f"Error: Unknown tool '{tool_name}'"
+
+        try:
+            result = self.tools[tool_name].run(params)
+            return result
+        except Exception as e:
+            return f"Error: {str(e)}"
+
+# 使用示例
+if __name__ == "__main__":
+    # 初始化组件
+    llm = YourLLM()  # 替换为你的 LLM
+    tools = [
+        SearchTool(),
+        CalculatorTool(),
+        WeatherTool()
+    ]
+
+    # 创建 Agent
+    agent = ReActAgent(llm=llm, tools=tools)
+
+    # 运行
+    question = "苹果公司成立多少年了？"
+    answer = agent.run(question)
+    print(f"Answer: {answer}")
+```
+
+---
+
+## 应用场景
+
+| 场景 | 示例 | 所需工具 |
+|------|------|----------|
+| **信息查询** | "今天北京天气如何？" | 天气 API |
+| **数学计算** | "计算 1234 * 5678" | 计算器 |
+| **知识问答** | "谁发明了电话？" | 搜索引擎 |
+| **数据分析** | "分析这份销售数据" | 代码执行器 |
+| **多步任务** | "帮我订明天去上海的机票" | 多个 API 组合 |
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: ReAct 相比 Chain-of-Thought 的优势？**
+
+A:
+- CoT 只有推理，ReAct 增加了行动
+- ReAct 可以与外部环境交互获取信息
+- ReAct 更适合需要实时信息的任务
+
+**Q2: ReAct 的停止条件是什么？**
+
+A:
+1. 调用 Finish[answer] 工具
+2. 达到最大迭代次数
+3. 发生错误无法恢复
+
+**Q3: 如何防止 ReAct 陷入无限循环？**
+
+A:
+1. 设置最大迭代次数
+2. 检测重复的动作序列
+3. 使用记忆机制避免重复查询
+
+**Q4: ReAct 中的工具如何选择？**
+
+A:
+- 在 Prompt 中明确描述每个工具的功能
+- LLM 根据 Thought 决定使用哪个工具
+- 可以加入工具使用示例（Few-shot）
+
+**Q5: ReAct 的记忆机制作用？**
+
+A:
+- 短期记忆：保持当前任务上下文
+- 长期记忆：存储历史任务经验
+- 避免重复查询，提高效率
+
+---
+
+## 相关文档
+
+- [GPT系列模型演进](/kb/llm/gpt-5ep6g8) - LLM 基础
+- [工具学习与使用](/kb/llm/doc-ai6qej) - 工具使用详解
+- [Agent规划能力](/kb/llm/agent-mozab5) - 任务规划
+
+---
+
+## 参考文献
+
+1. Yao et al. "ReAct: Synergizing Reasoning and Acting in Language Models". 2022.
+2. Yao et al. "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents". 2022.
+2:["$","$Lb",null,{"document":{"slug":"react-fxfrxv","title":"ReAct推理框架","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"Agent系统/ReAct推理框架.md","default":{"slug":"react-fxfrxv","title":"ReAct推理框架","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"Agent系统/ReAct推理框架.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"ReAct推理框架 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"ReAct推理框架"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

@@ -1,0 +1,1020 @@
+<!DOCTYPE html><html lang="zh-CN" class="dark scroll-smooth"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/85ed2b6284775456.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-f5d064e8df6cf7aa.js"/><script src="/_next/static/chunks/fd9d1056-feaa03e4ba5b7f26.js" async=""></script><script src="/_next/static/chunks/7023-23d925299661e942.js" async=""></script><script src="/_next/static/chunks/main-app-7af50e099f0d48b5.js" async=""></script><script src="/_next/static/chunks/2015-af9c16aac7ff4ad0.js" async=""></script><script src="/_next/static/chunks/7138-b897b2ad3516dd35.js" async=""></script><script src="/_next/static/chunks/app/layout-441e83d4c275c29e.js" async=""></script><script src="/_next/static/chunks/app/not-found-32f7da5ab09aedff.js" async=""></script><script src="/_next/static/chunks/8373-886bc01b77cafd14.js" async=""></script><script src="/_next/static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js" async=""></script><title>Prompt 设计 - AICAD | Jerry Xu</title><meta name="description" content="Prompt 设计"/><meta name="author" content="Jerry Xu"/><meta name="keywords" content="Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"/><meta property="og:title" content="Jerry Xu - 徐劼瑞"/><meta property="og:description" content="上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"/><meta property="og:site_name" content="Jerry Xu"/><meta property="og:locale" content="zh_CN"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Jerry Xu - 徐劼瑞"/><meta name="twitter:description" content="上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"/><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body class="font-sans antialiased min-h-screen flex flex-col bg-background text-foreground"><header class="fixed top-0 left-0 right-0 z-50"><div class="mx-4 mt-4"><nav class="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass border border-white/10 shadow-2xl shadow-purple-500/5" style="opacity:0;transform:translateY(-100px)"><div class="flex items-center justify-between"><a class="flex items-center gap-2 group" href="/"><div class="relative"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-white"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg></div><div class="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div></div><span class="font-bold text-lg tracking-tight hidden sm:block text-foreground">Jerry</span></a><div class="hidden md:flex items-center gap-1"><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/">首页</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/about/">关于</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/projects/">项目</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 bg-white/10 text-foreground" href="/kb/">知识库</a><a class="relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 text-muted-foreground hover:text-foreground hover:bg-white/5" href="/blog/">博客</a></div><div class="flex items-center gap-2"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><button class="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></nav></div></header><main class="flex-1"><div class="relative min-h-screen"><div class="fixed inset-0 gradient-bg -z-10"></div><div class="fixed inset-0 grid-pattern -z-10"></div><div class="relative z-10 py-32 px-4"><div class="max-w-4xl mx-auto"><div class="mb-8" style="opacity:0;transform:translateX(-20px)"><a class="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors" href="/kb/aicad/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回 <!-- -->AICAD</a></div><div class="mb-12" style="opacity:0;transform:translateY(20px)"><div class="flex flex-wrap items-center gap-4 mb-6 text-sm text-muted-foreground"><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full glass"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-4 h-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>AICAD</span><span class="inline-flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-4 h-4"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>34<!-- --> 分钟阅读</span></div><h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6"><span class="gradient-text">Prompt 设计</span></h1></div><div class="glass rounded-2xl p-6 md:p-10" style="opacity:0;transform:translateY(20px)"><article class="prose prose-invert prose-lg max-w-none"><h1 class="text-3xl font-bold mt-8 mb-4 pb-2 border-b border-white/10">Prompt 设计</h1>
+<blockquote class="border-l-4 border-purple-500 pl-4 italic text-muted-foreground my-4">
+<p class="text-muted-foreground leading-relaxed mb-4">更新日期：2026-03-12
+创建目的：系统性地讲解 CAD Agent 和 ACI 系统的 Prompt 设计原则、模式和最佳实践</p>
+</blockquote>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">目录</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="#prompt-%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">Prompt 设计原则</a></li>
+<li class="leading-relaxed"><a href="#cad-agent-prompt-%E6%A8%A1%E6%9D%BF" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">CAD Agent Prompt 模板</a></li>
+<li class="leading-relaxed"><a href="#aci-%E4%BA%A4%E4%BA%92-prompt-%E8%AE%BE%E8%AE%A1" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">ACI 交互 Prompt 设计</a></li>
+<li class="leading-relaxed"><a href="#%E8%AF%84%E4%BC%B0%E7%B3%BB%E7%BB%9F-prompt-%E8%AE%BE%E8%AE%A1" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">评估系统 Prompt 设计</a></li>
+<li class="leading-relaxed"><a href="#%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D-prompt-%E8%AE%BE%E8%AE%A1" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">多轮对话 Prompt 设计</a></li>
+<li class="leading-relaxed"><a href="#few-shot-%E5%AD%A6%E4%B9%A0%E8%AE%BE%E8%AE%A1" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">Few-Shot 学习设计</a></li>
+</ol>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">Prompt 设计原则</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 核心设计原则</h3>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">原则</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">说明</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">示例</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>清晰性</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">指令明确，避免歧义</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">&quot;创建草图&quot; → &quot;在 XY 平面创建草图&quot;</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>结构化</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">使用清晰的分区和层次</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">## 任务描述\n## 可用工具\n## 输出格式</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>示例驱动</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">提供 Few-Shot 示例</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">展示 2-3 个完整的输入-输出对</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>约束明确</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">清晰说明限制条件</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">&quot;代码不超过 200 行&quot;、&quot;执行时间不超过 30 秒&quot;</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>反馈循环</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">引导观察和调整</td><td class="border border-white/10 px-4 py-2 text-muted-foreground">&quot;执行后检查返回值，根据建议调整&quot;</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. Prompt 结构模板</h3>
+<h4>基础结构</h4>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-markdown text-sm font-mono"># 角色定义
+你是 {role}，负责 {responsibility}。
+
+# 能力描述
+你具备以下能力：
+- {capability_1}
+- {capability_2}
+- {capability_3}
+
+# 可用工具
+你可以使用以下工具：
+{tools_list}
+
+# 任务描述
+{task_description}
+
+# 执行流程
+1. {step_1}
+2. {step_2}
+3. {step_3}
+
+# 输出格式
+{output_format}
+
+# 注意事项
+{constraints_and_tips}
+</code></pre></pre>
+<h4>高级结构（带上下文注入）</h4>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-markdown text-sm font-mono"># 系统角色
+{system_role}
+
+# 领域知识
+{domain_knowledge}
+
+# 当前状态
+{current_state}
+
+# 可用工具
+{available_tools}
+
+# 历史上下文
+{history_context}
+
+# 当前任务
+{current_task}
+
+# 思考过程
+请按以下步骤思考：
+1. {thought_step_1}
+2. {thought_step_2}
+
+# 输出要求
+{output_requirements}
+</code></pre></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">CAD Agent Prompt 模板</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. 单次执行 Prompt</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-markdown text-sm font-mono">你是 CAD 建模助手，使用 CadQuery 创建 3D 模型。
+
+## 任务
+根据用户需求生成 CadQuery Python 代码，创建符合要求的 3D 模型。
+
+## CadQuery 基础操作
+- Workplane: `cq.Workplane(&quot;XY&quot;)` - 创建工作平面
+- Shape: `.box(l, w, h)` - 创建立方体
+- Extrude: `.extrude(distance)` - 拉伸草图
+- Fillet: `.fillet(radius)` - 添加圆角
+- Hole: `.hole(diameter)` - 打孔
+- Union: `result.union(part)` - 合并形状
+- Cut: `result.cut(part)` - 切割形状
+
+## 设计原则
+1. 保持代码简洁和可读性
+2. 使用参数化设计（用变量定义尺寸）
+3. 遵循从草图到实体的流程
+4. 添加必要的注释说明关键步骤
+5. 确保模型拓扑正确，无自相交
+
+## 常见错误避免
+- 避免使用 `import *`，明确导入 `import cadquery as cq`
+- 确保工作平面正确选择（XY、YZ、ZX）
+- 拉伸前先创建草图轮廓
+- 圆角和打孔前确保实体已创建
+
+## 输出格式
+只输出 Python 代码，不要任何解释文字：
+
+```python
+import cadquery as cq
+
+# {comments}
+
+result = (
+    cq.Workplane(&quot;XY&quot;)
+    # {your code}
+)
+</code></pre></pre>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">示例</h2>
+<p class="text-muted-foreground leading-relaxed mb-4">输入: &quot;创建一个 100x60x10 的矩形板，四角各有一个直径 8mm 的通孔&quot;</p>
+<p class="text-muted-foreground leading-relaxed mb-4">输出:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">import cadquery as cq
+
+# 参数定义
+length = 100
+width = 60
+thickness = 10
+hole_dia = 8
+hole_dist = 15  # 孔距离边缘的距离
+
+# 创建板
+result = (
+    cq.Workplane(&quot;XY&quot;)
+    .box(length, width, thickness)
+    # 在顶面创建孔
+    .faces(&quot;&gt;Z&quot;)
+    .workplane()
+    # 孔位置：(±(length/2-hole_dist), ±(width/2-hole_dist))
+    .pushPoints([
+        (length/2 - hole_dist, width/2 - hole_dist),
+        (-length/2 + hole_dist, width/2 - hole_dist),
+        (length/2 - hole_dist, -width/2 + hole_dist),
+        (-length/2 + hole_dist, -width/2 + hole_dist)
+    ])
+    .hole(hole_dia)
+)
+</code></pre></pre>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">
+---
+
+### 2. 迭代式 Prompt
+
+```markdown
+你是 CAD 建模助手，使用 ACI（Agent-Computer Interface）动作接口进行建模。
+
+## 可用 ACI 动作
+
+### 基础操作
+- `create_sketch(plane)`: 在指定平面创建草图
+  - 参数: plane=&quot;XY&quot;|&quot;YZ&quot;|&quot;ZX&quot;|&quot;&gt;X&quot;|&quot;&gt;Y&quot;|&quot;&gt;Z&quot;
+  - 返回: 草图已创建
+
+- `add_rectangle(width, height, centered=False)`: 添加矩形
+  - 参数: 宽度、高度、是否居中
+  - 返回: 矩形已添加
+
+- `add_circle(radius, center=(0,0))`: 添加圆形
+  - 参数: 半径、圆心坐标
+  - 返回: 圆形已添加
+
+- `add_polygon(points)`: 添加多边形
+  - 参数: 顶点列表 [(x1,y1), (x2,y2), ...]
+  - 返回: 多边形已添加
+
+### 实体操作
+- `extrude(distance, direction=&quot;up&quot;)`: 拉伸草图
+  - 参数: 距离、方向（&quot;up&quot;/&quot;down&quot;）
+  - 返回: 实体已创建
+
+- `revolve(axis, angle=360)`: 旋转草图
+  - 参数: 轴（&quot;X&quot;/&quot;Y&quot;/&quot;Z&quot;）、旋转角度
+  - 返回: 旋转体已创建
+
+### 特征操作
+- `fillet(radius, target=&quot;all_outer_edges&quot;)`: 添加圆角
+  - 参数: 半径、目标（边选择器）
+  - 返回: 圆角已添加
+
+- `chamfer(length, target=&quot;selected_edges&quot;)`: 添加倒角
+  - 参数: 长度、目标
+  - 返回: 倒角已添加
+
+- `hole(diameter, depth=None, position=(0,0))`: 打孔
+  - 参数: 直径、深度（None=通孔）、位置
+  - 返回: 孔已创建
+
+### 修改操作
+- `modify_action(step_id, new_params)`: 修改历史动作
+  - 参数: 步骤ID、新参数
+  - 返回: 动作已修改
+
+- `rollback_to(step_id)`: 回退到指定步骤
+  - 参数: 步骤ID
+  - 返回: 已回退
+
+### 查询操作
+- `get_snapshot()`: 获取当前状态快照
+  - 返回: {geometry, features, images, suggestions}
+
+- `get_history()`: 获取操作历史
+  - 返回: {actions, timestamps, results}
+
+## 工作流程
+
+### 第 1 步：分析需求
+- 理解用户想要创建什么
+- 识别关键尺寸、形状、特征
+- 确定基本参数
+
+### 第 2 步：规划动作序列
+- 将复杂需求分解为原子动作
+- 确定依赖关系
+- 预估步骤数
+
+### 第 3 步：逐个执行动作
+1. 执行动作
+2. 观察返回的 `snapshot`
+3. 检查 `suggestions` 列表
+4. 根据反馈决定下一步
+
+### 第 4 步：验证与优化
+- 检查 `completeness` 指标
+- 根据建议添加缺失特征
+- 确认模型质量
+
+## 输出格式
+
+每次只执行一个动作，输出以下 JSON 格式：
+
+```json
+{
+  &quot;action&quot;: &quot;action_name&quot;,
+  &quot;parameters&quot;: {
+    &quot;param1&quot;: value1,
+    &quot;param2&quot;: value2
+  },
+  &quot;reasoning&quot;: &quot;简短说明为什么选择这个动作&quot;
+}
+</code></pre>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">重要提示</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">每次只执行一个动作，观察结果后再决定下一步</li>
+<li class="leading-relaxed">使用 <code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">create_sketch</code> 时必须指定平面</li>
+<li class="leading-relaxed">拉伸前确保草图已完成（添加了至少一个形状）</li>
+<li class="leading-relaxed">圆角和打孔前确保实体已创建</li>
+<li class="leading-relaxed">如果 <code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">suggestions</code> 建议添加圆角，则执行 <code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">fillet</code></li>
+<li class="leading-relaxed">如果 <code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">snapshot</code> 显示特征不完整，继续添加特征</li>
+</ol>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">示例对话</h2>
+<p class="text-muted-foreground leading-relaxed mb-4">用户: &quot;创建一个带圆角的矩形板，四角有安装孔&quot;</p>
+<p class="text-muted-foreground leading-relaxed mb-4">思考 1: [分析需求]
+需要创建矩形板，添加圆角，在四角打孔。
+假设板尺寸为 100x60x10mm，孔直径 8mm，圆角半径 5mm。</p>
+<p class="text-muted-foreground leading-relaxed mb-4">动作 1:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-json text-sm font-mono">{
+  &quot;action&quot;: &quot;create_sketch&quot;,
+  &quot;parameters&quot;: {&quot;plane&quot;: &quot;XY&quot;},
+  &quot;reasoning&quot;: &quot;在 XY 平面创建草图作为起始&quot;
+}
+</code></pre></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">观察 1: 草图已创建，suggestions: [&quot;添加矩形轮廓&quot;, &quot;考虑使用参数化设计&quot;]</p>
+<p class="text-muted-foreground leading-relaxed mb-4">思考 2: [规划下一步]
+需要添加矩形，根据建议使用参数化。</p>
+<p class="text-muted-foreground leading-relaxed mb-4">动作 2:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-json text-sm font-mono">{
+  &quot;action&quot;: &quot;add_rectangle&quot;,
+  &quot;parameters&quot;: {&quot;width&quot;: 100, &quot;height&quot;: 60, &quot;centered&quot;: true},
+  &quot;reasoning&quot;: &quot;添加 100x60 的矩形轮廓，居中对齐&quot;
+}
+</code></pre></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">观察 2: 矩形已添加，suggestions: [&quot;拉伸草图创建实体&quot;, &quot;添加圆角特征&quot;]</p>
+<p class="text-muted-foreground leading-relaxed mb-4">思考 3: [继续]
+先拉伸成实体。</p>
+<p class="text-muted-foreground leading-relaxed mb-4">动作 3:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-json text-sm font-mono">{
+  &quot;action&quot;: &quot;extrude&quot;,
+  &quot;parameters&quot;: {&quot;distance&quot;: 10, &quot;direction&quot;: &quot;up&quot;},
+  &quot;reasoning&quot;: &quot;向上拉伸 10mm 创建实体板&quot;
+}
+</code></pre></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">观察 3: 实体已创建，suggestions: [&quot;添加圆角&quot;, &quot;添加安装孔&quot;]</p>
+<p class="text-muted-foreground leading-relaxed mb-4">思考 4: [添加圆角]
+根据建议添加圆角。</p>
+<p class="text-muted-foreground leading-relaxed mb-4">动作 4:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-json text-sm font-mono">{
+  &quot;action&quot;: &quot;fillet&quot;,
+  &quot;parameters&quot;: {&quot;radius&quot;: 5, &quot;target&quot;: &quot;all_outer_edges&quot;},
+  &quot;reasoning&quot;: &quot;给所有外边缘添加 5mm 圆角&quot;
+}
+</code></pre></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">观察 4: 圆角已添加，suggestions: [&quot;添加安装孔&quot;]</p>
+<p class="text-muted-foreground leading-relaxed mb-4">思考 5: [添加孔]
+需要在顶面创建草图，然后打孔。</p>
+<p class="text-muted-foreground leading-relaxed mb-4">动作 5:</p>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-json text-sm font-mono">{
+  &quot;action&quot;: &quot;create_sketch&quot;,
+  &quot;parameters&quot;: {&quot;plane&quot;: &quot;&gt;Z&quot;},
+  &quot;reasoning&quot;: &quot;在顶面创建草图用于打孔&quot;
+}
+</code></pre></pre>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">
+---
+
+## ACI 交互 Prompt 设计
+
+### 1. ACI 系统级 Prompt
+
+```markdown
+你是 ACI（Agent-Computer Interface）系统，负责协调 LLM 与 CAD 软件之间的交互。
+
+## ACI 四大支柱
+
+### 1. 可操作（Actionable）
+- 将 CAD 操作映射为结构化动作
+- 每个动作有明确的输入输出
+- 动作之间可组合
+
+### 2. 可观测（Observable）
+- 每次操作后返回状态快照
+- 提供多视角预览图
+- 返回 AI 建议和完整性指标
+
+### 3. 可回滚（Reversible）
+- 记录完整的动作历史
+- 支持回退到任意历史步骤
+- 支持修改历史动作参数
+
+### 4. 可组合（Composable）
+- 动作可序列化和复用
+- 支持动作模板
+- 支持批量操作
+
+## 动作接口规范
+
+### 动作定义格式
+```python
+@aci_action
+def action_name(
+    param1: type,
+    param2: type = default_value
+) -&gt; ActionResult:
+    &quot;&quot;&quot;
+    动作描述
+
+    Args:
+        param1: 参数说明
+        param2: 参数说明
+
+    Returns:
+        ActionResult 包含:
+        - success: bool
+        - snapshot: StateSnapshot
+        - suggestions: List[str]
+        - error: Optional[str]
+    &quot;&quot;&quot;
+    pass
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">动作执行流程</h3>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">1. LLM 调用动作
+   ↓
+2. 参数验证
+   ↓
+3. 执行操作
+   ↓
+4. 生成状态快照
+   ↓
+5. AI 建议生成
+   ↓
+6. 完整性检查
+   ↓
+7. 返回结果
+</code></pre>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">状态快照结构</h2>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-json text-sm font-mono">{
+  &quot;geometry&quot;: {
+    &quot;solids&quot;: 1,
+    &quot;faces&quot;: 6,
+    &quot;edges&quot;: 12,
+    &quot;vertices&quot;: 8,
+    &quot;volume&quot;: 60000.5,
+    &quot;bounds&quot;: {&quot;min&quot;: [-50,-30,0], &quot;max&quot;: [50,30,10]}
+  },
+  &quot;features&quot;: [
+    {&quot;type&quot;: &quot;box&quot;, &quot;params&quot;: [100, 60, 10], &quot;timestamp&quot;: &quot;2026-03-12T10:00:00Z&quot;}
+  ],
+  &quot;images&quot;: [
+    {&quot;view&quot;: &quot;iso&quot;, &quot;path&quot;: &quot;/output/iso.png&quot;},
+    {&quot;view&quot;: &quot;top&quot;, &quot;path&quot;: &quot;/output/top.png&quot;},
+    {&quot;view&quot;: &quot;front&quot;, &quot;path&quot;: &quot;/output/front.png&quot;},
+    {&quot;view&quot;: &quot;right&quot;, &quot;path&quot;: &quot;/output/right.png&quot;}
+  ],
+  &quot;suggestions&quot;: [
+    &quot;建议添加圆角以提高强度&quot;,
+    &quot;考虑添加安装孔&quot;
+  ],
+  &quot;completeness&quot;: {
+    &quot;expected_features&quot;: 4,
+    &quot;current_features&quot;: 1,
+    &quot;can_continue&quot;: true,
+    &quot;confidence&quot;: 0.25
+  }
+}
+</code></pre></pre>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">错误处理策略</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">错误分类</h3>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>参数错误</strong>: 参数类型或范围不正确</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">处理: 返回错误描述和建议的正确值</li>
+</ul>
+</li>
+<li class="leading-relaxed">
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>几何错误</strong>: 几何操作失败（如自相交）</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">处理: 返回错误信息，建议回退或修改参数</li>
+</ul>
+</li>
+<li class="leading-relaxed">
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>状态错误</strong>: 在不合适的状态执行动作</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">处理: 返回当前状态和建议的前置动作</li>
+</ul>
+</li>
+<li class="leading-relaxed">
+<p class="text-muted-foreground leading-relaxed mb-4"><strong>执行错误</strong>: 运行时异常</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">处理: 记录日志，返回用户友好的错误消息</li>
+</ul>
+</li>
+</ol>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">错误响应格式</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-json text-sm font-mono">{
+  &quot;success&quot;: false,
+  &quot;error&quot;: {
+    &quot;code&quot;: &quot;GEOMETRY_INVALID&quot;,
+    &quot;message&quot;: &quot;圆角半径过大导致几何自相交&quot;,
+    &quot;details&quot;: &quot;当前边缘长度为 5mm，圆角半径 10mm 太大&quot;,
+    &quot;suggestion&quot;: &quot;尝试使用较小的半径（如 2mm）或增大边缘长度&quot;
+  },
+  &quot;recovery_options&quot;: [
+    {
+      &quot;action&quot;: &quot;modify_action&quot;,
+      &quot;step_id&quot;: 4,
+      &quot;new_params&quot;: {&quot;radius&quot;: 2}
+    },
+    {
+      &quot;action&quot;: &quot;rollback_to&quot;,
+      &quot;step_id&quot;: 3
+    }
+  ]
+}
+</code></pre></pre>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">性能优化提示</h2>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><strong>批量操作</strong>: 使用 <code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">pattern_*</code> 系列动作替代多个单独动作</li>
+<li class="leading-relaxed"><strong>参数化</strong>: 使用变量而非硬编码数值</li>
+<li class="leading-relaxed"><strong>缓存</strong>: 复用相同参数的动作结果</li>
+<li class="leading-relaxed"><strong>并行执行</strong>: 对于独立的动作，可以并行执行</li>
+</ol>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">调试模式</h2>
+<p class="text-muted-foreground leading-relaxed mb-4">启用调试模式时，系统会额外返回：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">执行时间</li>
+<li class="leading-relaxed">内存使用</li>
+<li class="leading-relaxed">中间几何数据</li>
+<li class="leading-relaxed">详细的推理日志</li>
+</ul>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">评估系统 Prompt 设计</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. LLM Judge Prompt</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-markdown text-sm font-mono">你是专业的 CAD 模型评估专家，负责评估生成的 3D 模型是否符合用户需求。
+
+## 评估任务
+根据用户需求和生成的模型，从多个维度进行质量评估。
+
+## 评估维度
+
+### 1. 需求符合度（35%）
+模型是否准确符合用户的原始需求？
+- 尺寸是否正确
+- 形状是否准确
+- 特征是否完整
+- 位置是否正确
+
+评分标准:
+- 1.0: 完全符合所有需求
+- 0.8-0.9: 主要符合，次要细节有偏差
+- 0.5-0.7: 基本符合，有明显偏差
+- 0.0-0.4: 严重偏离需求
+
+### 2. 几何合理性（25%）
+模型的几何结构是否合理？
+- 拓扑是否正确（无自相交）
+- 比例是否协调
+- 是否有异常几何特征
+
+评分标准:
+- 1.0: 几何完全正确，拓扑合理
+- 0.7-0.9: 几何基本正确，有局部小问题
+- 0.4-0.6: 存在明显几何错误
+- 0.0-0.3: 几何严重错误
+
+### 3. 可制造性（20%）
+模型是否适合标准制造工艺？
+- 壁厚是否均匀
+- 是否有尖锐边缘（不利于模具）
+- 特征是否可脱模
+- 是否有过薄或过细的结构
+
+评分标准:
+- 1.0: 完全适合制造
+- 0.7-0.9: 适合制造，有小问题
+- 0.4-0.6: 需要修改才能制造
+- 0.0-0.3: 无法制造
+
+### 4. 代码质量（10%）
+生成的代码质量如何？
+- 代码是否简洁清晰
+- 是否使用参数化设计
+- 是否有适当的注释
+- 是否遵循最佳实践
+
+评分标准:
+- 1.0: 代码优雅，完全参数化
+- 0.7-0.9: 代码良好，部分参数化
+- 0.4-0.6: 代码可用，缺乏优化
+- 0.0-0.3: 代码质量差
+
+### 5. 执行稳定性（10%）
+生成过程的稳定性如何？
+- 无错误
+- 无超时
+- 一次性成功
+
+评分标准:
+- 1.0: 完全稳定
+- 0.7-0.9: 基本稳定，有警告
+- 0.4-0.6: 需要重试
+- 0.0: 执行失败
+
+## 评估流程
+
+### 第 1 步：理解需求
+仔细阅读用户需求，提取关键信息：
+- 尺寸要求
+- 形状要求
+- 特征要求
+- 约束条件
+
+### 第 2 步：分析模型
+分析生成的模型：
+- 几何结构
+- 代码实现
+- 预览图像
+- 执行日志
+
+### 第 3 步：逐维度评分
+对每个维度进行评分，并给出详细理由：
+- 评分（0.0-1.0）
+- 理由说明
+- 问题列举
+- 改进建议
+
+### 第 4 步：计算总分
+按照权重计算加权总分：
+</code></pre></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">总分 = 0.35×需求符合度 + 0.25×几何合理性
++ 0.20×可制造性 + 0.10×代码质量
++ 0.10×执行稳定性</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">
+### 第 5 步：生成报告
+输出结构化评估报告。
+
+## 输出格式
+
+严格按照以下 JSON 格式输出：
+
+```json
+{
+  &quot;overall_semantic_score&quot;: 0.85,
+  &quot;confidence&quot;: 0.90,
+  &quot;dimension_scores&quot;: {
+    &quot;requirement_fidelity&quot;: 0.90,
+    &quot;geometric_reasonableness&quot;: 0.85,
+    &quot;manufacturability_proxy&quot;: 0.80,
+    &quot;code_quality_proxy&quot;: 0.90,
+    &quot;execution_stability&quot;: 1.00
+  },
+  &quot;major_issues&quot;: [
+    &quot;孔的位置计算有偏差，应为距边缘 10mm 而非 15mm&quot;,
+    &quot;未添加必要的圆角，可能影响装配&quot;
+  ],
+  &quot;suggestions&quot;: [
+    &quot;修正孔的位置计算逻辑，使用 (length/2 - edge_margin) 公式&quot;,
+    &quot;添加 fillet(radius=2) 操作给所有外边缘添加圆角&quot;,
+    &quot;使用参数化设计，将边缘距离定义为变量便于调整&quot;
+  ],
+  &quot;reasoning_brief&quot;: &quot;模型整体符合需求，几何结构合理，但孔的位置计算有偏差且缺少圆角特征。代码质量良好，执行稳定。&quot;
+}
+</code></pre>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">Few-Shot 示例</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">示例 1</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">输入:</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">用户需求: 创建一个 80x40x5 的矩形安装板，四角各有一个直径 6mm 的通孔，距边缘 10mm
+
+生成代码:
+```python
+import cadquery as cq
+
+result = (
+    cq.Workplane(&quot;XY&quot;)
+    .box(100, 40, 5)
+    .faces(&quot;&gt;Z&quot;)
+    .workplane()
+    .pushPoints([(35, 15), (-35, 15), (-35, -15), (35, -15)])
+    .hole(6)
+)
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">执行结果: 成功，无错误
+预览图: iso.png, top.png, front.png, right.png</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">
+评估:
+```json
+{
+  &quot;overall_semantic_score&quot;: 0.72,
+  &quot;confidence&quot;: 0.85,
+  &quot;dimension_scores&quot;: {
+    &quot;requirement_fidelity&quot;: 0.50,
+    &quot;geometric_reasonableness&quot;: 0.80,
+    &quot;manufacturability_proxy&quot;: 0.90,
+    &quot;code_quality_proxy&quot;: 0.75,
+    &quot;execution_stability&quot;: 1.00
+  },
+  &quot;major_issues&quot;: [
+    &quot;板的长度应为 80mm 而非 100mm&quot;,
+    &quot;孔的位置应为距边缘 10mm，当前为 15mm 且位置不对称&quot;,
+    &quot;缺少圆角特征，可能影响装配和使用寿命&quot;
+  ],
+  &quot;suggestions&quot;: [
+    &quot;修正 box 的第一个参数为 80&quot;,
+    &quot;孔位置应为 (30, 10), (-30, 10), (-30, -10), (30, -10)&quot;,
+    &quot;添加 .fillet(2) 给所有外边缘添加圆角&quot;,
+    &quot;使用变量定义尺寸: L=80, W=40, H=5, HOLE_DIA=6, EDGE_MARGIN=10&quot;
+  ],
+  &quot;reasoning_brief&quot;: &quot;模型几何结构正确，执行稳定，但核心尺寸和孔位置与需求不符，且缺少圆角特征。&quot;
+}
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">示例 2</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">输入:</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">用户需求: 创建一个 M6 螺栓的六角头
+
+生成代码:
+```python
+import cadquery as cq
+
+import math
+
+# M6 螺栓参数
+diameter = 6.0
+head_width = 10.0
+head_height = 4.0
+
+# 创建六角头
+result = (
+    cq.Workplane(&quot;XY&quot;)
+    .polygon(6, head_width / 2)
+    .extrude(head_height)
+)
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">执行结果: 成功
+预览图: 显示正六棱柱</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">
+评估:
+```json
+{
+  &quot;overall_semantic_score&quot;: 0.95,
+  &quot;confidence&quot;: 0.95,
+  &quot;dimension_scores&quot;: {
+    &quot;requirement_fidelity&quot;: 1.00,
+    &quot;geometric_reasonableness&quot;: 0.95,
+    &quot;manufacturability_proxy&quot;: 0.90,
+    &quot;code_quality_proxy&quot;: 0.90,
+    &quot;execution_stability&quot;: 1.00
+  },
+  &quot;major_issues&quot;: [],
+  &quot;suggestions&quot;: [
+    &quot;考虑添加螺纹特征（对于完整螺栓）&quot;,
+    &quot;可以添加螺栓杆身部分&quot;,
+    &quot;考虑添加倒角特征以提高装配性&quot;
+  ],
+  &quot;reasoning_brief&quot;: &quot;完全符合需求，六角头几何正确，尺寸符合 M6 标准。代码简洁清晰，使用参数化设计。&quot;
+}
+</code></pre>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">自我一致性检查</h2>
+<p class="text-muted-foreground leading-relaxed mb-4">在给出评分前，请自我检查：</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">✅ 我是否正确理解了用户需求？</li>
+<li class="leading-relaxed">✅ 我的评分是否符合评分标准？</li>
+<li class="leading-relaxed">✅ 我是否检查了所有维度？</li>
+<li class="leading-relaxed">✅ 我的理由是否充分？</li>
+<li class="leading-relaxed">✅ 我的建议是否具体可行？</li>
+<li class="leading-relaxed">✅ 我的置信度是否合理？</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4">如果发现任何不一致，请在 reasoning_brief 中说明。</p>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">
+---
+
+## 多轮对话 Prompt 设计
+
+### 1. 上下文管理 Prompt
+
+```markdown
+你是 CAD 建模助手，支持多轮对话和上下文管理。
+
+## 对话状态管理
+
+### 上下文记忆
+- 记忆用户的所有输入
+- 记忆每次操作的结果
+- 跟踪模型的当前状态
+- 记忆中间决策过程
+
+### 对话策略
+1. 每次回复前，检查当前模型状态
+2. 理解用户的新需求与之前工作的关系
+3. 解释你的理解，避免误解
+4. 逐步执行，每步确认
+
+## 引导式交互
+
+### 场景 1: 新建模型
+用户首次提出需求时：
+1. 分析需求
+2. 确认关键参数
+3. 提供参数化的建议值
+4. 执行并展示结果
+
+示例:
+用户: &quot;创建一个安装板&quot;
+助手: &quot;我理解您想创建一个安装板。为了准确建模，我需要确认一些参数：
+- 板的尺寸（长x宽x厚）？
+- 需要多少个安装孔？直径多大？
+- 孔的位置如何分布？
+- 是否需要圆角？
+
+我可以使用默认值：100x60x8mm，4个M6安装孔，四角分布，圆角半径2mm。是否使用这些参数继续？&quot;
+
+### 场景 2: 修改模型
+用户要求修改已有模型时：
+1. 识别要修改的特征
+2. 提供修改选项
+3. 执行修改
+4. 展示对比
+
+示例:
+用户: &quot;把孔改为 6 个，沿边缘均匀分布&quot;
+助手: &quot;明白，您想将 4 个角孔改为 6 个沿边缘均匀分布的孔。
+
+当前状态：
+- 板尺寸: 100x60x8mm
+- 现有孔: 4 个，分布在四角
+
+修改方案：
+- 每长边 2 个孔，短边 1 个孔
+- 孔径: 保持 8mm（如需修改请告知）
+- 距边缘: 保持 15mm
+
+执行修改：
+- [回退到添加孔之前的步骤]
+- [创建新的孔分布]
+
+继续吗？&quot;
+
+### 场景 3: 错误处理
+遇到错误时：
+1. 清晰描述错误
+2. 分析错误原因
+3. 提供解决方案
+4. 重试或回退
+
+示例:
+用户: &quot;给这个圆角添加倒角&quot;
+助手: &quot;抱歉，我无法对圆角边添加倒角，这在几何上是不兼容的操作。
+
+当前状态：
+- 模型: 100x60x8mm 矩形板
+- 已有特征: 四角孔、外边缘圆角（半径 2mm）
+
+问题分析：
+- 圆角后的边无法再添加倒角
+- 这会导致几何自相交
+
+解决方案：
+1. 回退圆角操作，先添加倒角，再添加圆角
+2. 只对其他非圆角边添加倒角
+3. 如果确实需要圆角边有倒角效果，可以增加圆角半径
+
+您希望采取哪种方案？&quot;
+
+### 场景 4: 不完整需求
+用户需求不明确时：
+1. 识别缺失信息
+2. 提供合理假设
+3. 询问确认
+4. 执行并迭代
+
+示例:
+用户: &quot;创建一个齿轮&quot;
+助手: &quot;要创建齿轮，我需要一些具体参数：
+
+必需参数：
+- 模数（决定齿轮尺寸）
+- 齿数
+- 压力角（通常为 20°）
+
+可选参数：
+- 齿宽
+- 中心孔直径
+- 键槽尺寸（如需）
+
+我可以使用标准参数创建一个示例齿轮：
+- 模数: 2
+- 齿数: 20
+- 压力角: 20°
+- 齿宽: 10mm
+- 中心孔: 10mm
+
+是否使用这些参数创建？或者请提供您的具体参数。&quot;
+
+## 对话总结
+
+### 每完成一个任务后，提供总结：
+</code></pre>
+<p class="text-muted-foreground leading-relaxed mb-4">任务完成！</p>
+<p class="text-muted-foreground leading-relaxed mb-4">创建的模型：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">尺寸: 100x60x8mm</li>
+<li class="leading-relaxed">特征: 4个安装孔、圆角</li>
+<li class="leading-relaxed">文件: model.step</li>
+</ul>
+<p class="text-muted-foreground leading-relaxed mb-4">下一步建议：</p>
+<ol class="list-decimal list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">导出为 STL 用于 3D 打印</li>
+<li class="leading-relaxed">创建工程图标注尺寸</li>
+<li class="leading-relaxed">进行装配检查</li>
+</ol>
+<p class="text-muted-foreground leading-relaxed mb-4">其他可以做的修改：</p>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">调整板尺寸</li>
+<li class="leading-relaxed">修改孔的数量和位置</li>
+<li class="leading-relaxed">更改圆角半径</li>
+</ul>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">
+## 历史记录格式
+
+维护结构化的对话历史：
+
+```json
+{
+  &quot;session_id&quot;: &quot;uuid&quot;,
+  &quot;started_at&quot;: &quot;2026-03-12T10:00:00Z&quot;,
+  &quot;model_state&quot;: {
+    &quot;current_step&quot;: 8,
+    &quot;features&quot;: [...],
+    &quot;parameters&quot;: {...}
+  },
+  &quot;conversation_history&quot;: [
+    {
+      &quot;turn&quot;: 1,
+      &quot;user_input&quot;: &quot;...&quot;,
+      &quot;assistant_response&quot;: &quot;...&quot;,
+      &quot;actions_performed&quot;: [...],
+      &quot;model_state_after&quot;: {...}
+    }
+  ]
+}
+</code></pre>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">Few-Shot 学习设计</h2>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">1. Few-Shot 策略</h3>
+<h4>Zero-Shot（无示例）</h4>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">适用于：简单、标准化的任务</li>
+<li class="leading-relaxed">优点：节省 token</li>
+<li class="leading-relaxed">缺点：可能不够准确</li>
+</ul>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">用户: &quot;创建一个立方体&quot;
+助手: [直接生成代码]
+</code></pre>
+<h4>One-Shot（单个示例）</h4>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">适用于：中等复杂度的任务</li>
+<li class="leading-relaxed">优点：平衡准确性和效率</li>
+<li class="leading-relaxed">缺点：示例可能不够全面</li>
+</ul>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">示例: [1 个完整示例]
+用户: &quot;创建一个圆柱体&quot;
+助手: [参考示例生成代码]
+</code></pre>
+<h4>Few-Shot（多个示例）</h4>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed">适用于：复杂、多样化的任务</li>
+<li class="leading-relaxed">优点：准确度高，覆盖多种情况</li>
+<li class="leading-relaxed">缺点：消耗较多 token</li>
+</ul>
+<pre><code class="px-1.5 py-0.5 rounded bg-white/10 text-sm font-mono">示例 1: [创建带孔的板]
+示例 2: [创建旋转体]
+示例 3: [创建复杂装配]
+
+用户: &quot;创建一个带凸台的法兰&quot;
+助手: [参考多个示例生成代码]
+</code></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">2. 示例选择策略</h3>
+<h4>按任务类型选择</h4>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def select_examples(task_type: str) -&gt; List[Example]:
+    examples = {
+        &quot;simple_primitive&quot;: [
+            create_box_example(),
+            create_cylinder_example()
+        ],
+        &quot;feature_based&quot;: [
+            plate_with_holes_example(),
+            shaft_with_chamfer_example()
+        ],
+        &quot;assembly&quot;: [
+            simple_assembly_example(),
+            constrained_assembly_example()
+        ]
+    }
+    return examples.get(task_type, [])
+</code></pre></pre>
+<h4>按相似度选择</h4>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">def select_similar_examples(query: str, examples: List[Example], k: int = 3):
+    &quot;&quot;&quot;选择与查询最相似的 k 个示例&quot;&quot;&quot;
+    # 计算查询与每个示例的相似度
+    similarities = [
+        cosine_similarity(query, ex.description)
+        for ex in examples
+    ]
+    # 返回最相似的 k 个
+    ranked = sorted(zip(examples, similarities), key=lambda x: -x[1])
+    return [ex for ex, _ in ranked[:k]]
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">3. 动态 Few-Shot 构建</h3>
+<pre><pre class="p-4 rounded-xl bg-black/30 overflow-x-auto mb-4"><code class="language-python text-sm font-mono">class DynamicFewShotBuilder:
+    &quot;&quot;&quot;动态构建 Few-Shot 示例&quot;&quot;&quot;
+
+    def __init__(self, example_database: List[Example]):
+        self.database = example_database
+        self.embedding_model = load_model(&quot;sentence-transformers/all-MiniLM-L6-v2&quot;)
+
+    def build_prompt(
+        self,
+        task_description: str,
+        max_examples: int = 3
+    ) -&gt; str:
+        &quot;&quot;&quot;构建带动态示例的 Prompt&quot;&quot;&quot;
+
+        # 1. 编码任务描述
+        task_embedding = self.embedding_model.encode(task_description)
+
+        # 2. 从数据库中检索相似示例
+        similar_examples = self._retrieve_similar(
+            task_embedding,
+            max_examples
+        )
+
+        # 3. 构建 Prompt
+        prompt_parts = [
+            &quot;你是一个 CAD 建模专家。\n&quot;,
+            &quot;以下是相似任务的参考示例：\n\n&quot;
+        ]
+
+        # 4. 添加示例
+        for i, example in enumerate(similar_examples, 1):
+            prompt_parts.append(f&quot;### 示例 {i}\n&quot;)
+            prompt_parts.append(f&quot;需求: {example.input}\n&quot;)
+            prompt_parts.append(f&quot;代码:\n```python\n{example.code}\n```\n\n&quot;)
+
+        # 5. 添加当前任务
+        prompt_parts.append(&quot;### 当前任务\n&quot;)
+        prompt_parts.append(f&quot;需求: {task_description}\n&quot;)
+        prompt_parts.append(&quot;请根据以上示例生成代码：\n&quot;)
+
+        return &quot;&quot;.join(prompt_parts)
+
+    def _retrieve_similar(self, query_embedding, k: int):
+        &quot;&quot;&quot;检索最相似的示例&quot;&quot;&quot;
+        similarities = [
+            cosine_similarity(query_embedding, ex.embedding)
+            for ex in self.database
+        ]
+        indexed = list(enumerate(similarities))
+        indexed.sort(key=lambda x: -x[1])
+        return [self.database[i] for i, _ in indexed[:k]]
+</code></pre></pre>
+<h3 class="text-xl font-semibold mt-6 mb-3 text-foreground">4. 示例质量标准</h3>
+<p class="text-muted-foreground leading-relaxed mb-4">好的 Few-Shot 示例应满足：</p>
+<div class="overflow-x-auto mb-4"><table class="w-full border-collapse"><thead class="bg-white/5"><tr><th class="border border-white/10 px-4 py-2 text-left font-semibold">标准</th><th class="border border-white/10 px-4 py-2 text-left font-semibold">说明</th></tr></thead><tbody><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>代表性</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">能代表任务的主要模式</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>多样性</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">覆盖不同的场景和边缘情况</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>清晰性</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">代码和说明都清晰易懂</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>正确性</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">示例本身必须是正确的</td></tr><tr><td class="border border-white/10 px-4 py-2 text-muted-foreground"><strong>简洁性</strong></td><td class="border border-white/10 px-4 py-2 text-muted-foreground">避免不必要的复杂</td></tr></tbody></table></div>
+<hr class="border-white/10 my-8"/>
+<h2 class="text-2xl font-semibold mt-8 mb-4 text-foreground">相关链接</h2>
+<ul class="list-disc list-inside text-muted-foreground mb-4 space-y-2">
+<li class="leading-relaxed"><a href="/kb/aicad/aci-83mtzw" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">ACI 概念与迁移</a></li>
+<li class="leading-relaxed"><a href="/kb/aicad/cad-1sc89z" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">CAD Sandbox MCP 设计详解</a></li>
+<li class="leading-relaxed"><a href="/kb/aicad/doc-caoj8r" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">借助 LLM 的评价系统设计</a></li>
+<li class="leading-relaxed"><a href="/kb/aicad/agent-nzn0gk" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">Agent 基础概念</a></li>
+<li class="leading-relaxed"><a href="/kb/aicad/prompt-6jjhf7" class="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4">Prompt Engineering 最佳实践</a></li>
+</ul></article></div><div class="mt-12 flex items-center justify-between" style="opacity:0;transform:translateY(20px)"><a class="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors" href="/kb/aicad/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-4 h-4"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>返回列表</a></div></div></div></div></main><footer class="relative border-t border-white/5"><div class="absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"></div><div class="container relative py-16"><div class="grid grid-cols-1 md:grid-cols-4 gap-12"><div class="md:col-span-2 space-y-4"><a class="inline-block" href="/"><span class="text-2xl font-bold gradient-text">Jerry Xu</span></a><p class="text-muted-foreground max-w-sm">热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。</p><div class="flex items-center gap-4"><a href="https://github.com/Jrx2003" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-4 h-4"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg><span>GitHub</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">导航</h4><ul class="space-y-3"><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/about/">关于</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/projects/">项目</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/kb/">知识库</a></li><li><a class="text-muted-foreground hover:text-foreground transition-colors text-sm" href="/blog/">博客</a></li></ul></div><div><h4 class="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">联系方式</h4><ul class="space-y-3 text-sm"><li><a href="https://www.sjtu.edu.cn" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">上海交通大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li><a href="https://www.cuhk.edu.hk" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group">即将前往香港中文大学<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></li><li class="text-xs pt-2 text-muted-foreground">通过 GitHub 联系</li></ul></div></div><div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4"><p class="text-sm text-muted-foreground">© <!-- -->2026<!-- --> Jerry Xu. Built with<!-- --> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg> and Next.js</p><p class="text-xs text-muted-foreground/60">Designed &amp; Developed by Jerry</p></div></div></footer><script src="/_next/static/chunks/webpack-f5d064e8df6cf7aa.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/85ed2b6284775456.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"2:I[95751,[],\"\"]\n5:I[39275,[],\"\"]\n8:I[61343,[],\"\"]\n9:I[62782,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-441e83d4c275c29e.js\"],\"Header\"]\na:I[82446,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"9160\",\"static/chunks/app/not-found-32f7da5ab09aedff.js\"],\"default\"]\nb:I[231,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"3185\",\"static/chunks/app/layout-441e83d4c275c29e.js\"],\"\"]\nd:I[76130,[],\"\"]\n6:[\"category\",\"aicad\",\"d\"]\n7:[\"slug\",\"prompt-jygudb\",\"d\"]\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/85ed2b6284775456.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L2\",null,{\"buildId\":\"ol1eMh0FVRjIrfwLO-nkw\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/kb/aicad/prompt-jygudb/\",\"initialTree\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"aicad\",\"d\"],{\"children\":[[\"slug\",\"prompt-jygudb\",\"d\"],{\"children\":[\"__PAGE__?{\\\"category\\\":\\\"aicad\\\",\\\"slug\\\":\\\"prompt-jygudb\\\"}\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"kb\",{\"children\":[[\"category\",\"aicad\",\"d\"],{\"children\":[[\"slug\",\"prompt-jygudb\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L3\",\"$L4\"],null],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\",\"$7\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\",\"$6\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"kb\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"className\":\"dark scroll-smooth\",\"children\":[\"$\",\"body\",null,{\"className\":\"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"main\",null,{\"className\":\"flex-1\",\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$La\",null,{}],\"notFoundStyles\":[],\"styles\":null}]}],[\"$\",\"footer\",null,{\"className\":\"relative border-t border-white/5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none\"}],[\"$\",\"div\",null,{\"className\":\"container relative py-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-4 gap-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"md:col-span-2 space-y-4\",\"children\":[[\"$\",\"$Lb\",null,{\"href\":\"/\",\"className\":\"inline-block\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-2xl font-bold gradient-text\",\"children\":\"Jerry Xu\"}]}],[\"$\",\"p\",null,{\"className\":\"text-muted-foreground max-w-sm\",\"children\":\"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。\"}],[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/Jrx2003\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group\",\"children\":[[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-github w-4 h-4\",\"children\":[[\"$\",\"path\",\"tonef\",{\"d\":\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"}],[\"$\",\"path\",\"9comsn\",{\"d\":\"M9 18c-4.51 2-5-2-7-2\"}],\"$undefined\"]}],[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"导航\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3\",\"children\":[[\"$\",\"li\",\"/about/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/about/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"关于\"}]}],[\"$\",\"li\",\"/projects/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/projects/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"项目\"}]}],[\"$\",\"li\",\"/kb/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/kb/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"知识库\"}]}],[\"$\",\"li\",\"/blog/\",{\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/blog/\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors text-sm\",\"children\":\"博客\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground\",\"children\":\"联系方式\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-3 text-sm\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.sjtu.edu.cn\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"上海交通大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.cuhk.edu.hk\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group\",\"children\":[\"即将前往香港中文大学\",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity\",\"children\":[[\"$\",\"path\",\"1tivn9\",{\"d\":\"M7 7h10v10\"}],[\"$\",\"path\",\"1vkiza\",{\"d\":\"M7 17 17 7\"}],\"$undefined\"]}]]}]}],[\"$\",\"li\",null,{\"className\":\"text-xs pt-2 text-muted-foreground\",\"children\":\"通过 GitHub 联系\"}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm text-muted-foreground\",\"children\":[\"© \",2026,\" Jerry Xu. Built with\",\" \",[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"width\":24,\"height\":24,\"viewBox\":\"0 0 24 24\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":2,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"className\":\"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500\",\"children\":[[\"$\",\"path\",\"c3ymky\",{\"d\":\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"}],\"$undefined\"]}],\" and Next.js\"]}],[\"$\",\"p\",null,{\"className\":\"text-xs text-muted-foreground/60\",\"children\":\"Designed \u0026 Developed by Jerry\"}]]}]]}]]}]]}]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]]\n"])</script><script>self.__next_f.push([1,"f:I[66006,[\"2015\",\"static/chunks/2015-af9c16aac7ff4ad0.js\",\"7138\",\"static/chunks/7138-b897b2ad3516dd35.js\",\"8373\",\"static/chunks/8373-886bc01b77cafd14.js\",\"7438\",\"static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js\"],\"default\"]\n10:T6594,"])</script><script>self.__next_f.push([1,"# Prompt 设计\n\n\u003e 更新日期：2026-03-12\n\u003e 创建目的：系统性地讲解 CAD Agent 和 ACI 系统的 Prompt 设计原则、模式和最佳实践\n\n---\n\n## 目录\n\n1. [Prompt 设计原则](#prompt-设计原则)\n2. [CAD Agent Prompt 模板](#cad-agent-prompt-模板)\n3. [ACI 交互 Prompt 设计](#aci-交互-prompt-设计)\n4. [评估系统 Prompt 设计](#评估系统-prompt-设计)\n5. [多轮对话 Prompt 设计](#多轮对话-prompt-设计)\n6. [Few-Shot 学习设计](#few-shot-学习设计)\n\n---\n\n## Prompt 设计原则\n\n### 1. 核心设计原则\n\n| 原则 | 说明 | 示例 |\n|------|------|------|\n| **清晰性** | 指令明确，避免歧义 | \"创建草图\" → \"在 XY 平面创建草图\" |\n| **结构化** | 使用清晰的分区和层次 | ## 任务描述\\n## 可用工具\\n## 输出格式 |\n| **示例驱动** | 提供 Few-Shot 示例 | 展示 2-3 个完整的输入-输出对 |\n| **约束明确** | 清晰说明限制条件 | \"代码不超过 200 行\"、\"执行时间不超过 30 秒\" |\n| **反馈循环** | 引导观察和调整 | \"执行后检查返回值，根据建议调整\" |\n\n---\n\n### 2. Prompt 结构模板\n\n#### 基础结构\n\n```markdown\n# 角色定义\n你是 {role}，负责 {responsibility}。\n\n# 能力描述\n你具备以下能力：\n- {capability_1}\n- {capability_2}\n- {capability_3}\n\n# 可用工具\n你可以使用以下工具：\n{tools_list}\n\n# 任务描述\n{task_description}\n\n# 执行流程\n1. {step_1}\n2. {step_2}\n3. {step_3}\n\n# 输出格式\n{output_format}\n\n# 注意事项\n{constraints_and_tips}\n```\n\n#### 高级结构（带上下文注入）\n\n```markdown\n# 系统角色\n{system_role}\n\n# 领域知识\n{domain_knowledge}\n\n# 当前状态\n{current_state}\n\n# 可用工具\n{available_tools}\n\n# 历史上下文\n{history_context}\n\n# 当前任务\n{current_task}\n\n# 思考过程\n请按以下步骤思考：\n1. {thought_step_1}\n2. {thought_step_2}\n\n# 输出要求\n{output_requirements}\n```\n\n---\n\n## CAD Agent Prompt 模板\n\n### 1. 单次执行 Prompt\n\n```markdown\n你是 CAD 建模助手，使用 CadQuery 创建 3D 模型。\n\n## 任务\n根据用户需求生成 CadQuery Python 代码，创建符合要求的 3D 模型。\n\n## CadQuery 基础操作\n- Workplane: `cq.Workplane(\"XY\")` - 创建工作平面\n- Shape: `.box(l, w, h)` - 创建立方体\n- Extrude: `.extrude(distance)` - 拉伸草图\n- Fillet: `.fillet(radius)` - 添加圆角\n- Hole: `.hole(diameter)` - 打孔\n- Union: `result.union(part)` - 合并形状\n- Cut: `result.cut(part)` - 切割形状\n\n## 设计原则\n1. 保持代码简洁和可读性\n2. 使用参数化设计（用变量定义尺寸）\n3. 遵循从草图到实体的流程\n4. 添加必要的注释说明关键步骤\n5. 确保模型拓扑正确，无自相交\n\n## 常见错误避免\n- 避免使用 `import *`，明确导入 `import cadquery as cq`\n- 确保工作平面正确选择（XY、YZ、ZX）\n- 拉伸前先创建草图轮廓\n- 圆角和打孔前确保实体已创建\n\n## 输出格式\n只输出 Python 代码，不要任何解释文字：\n\n```python\nimport cadquery as cq\n\n# {comments}\n\nresult = (\n    cq.Workplane(\"XY\")\n    # {your code}\n)\n```\n\n## 示例\n\n输入: \"创建一个 100x60x10 的矩形板，四角各有一个直径 8mm 的通孔\"\n\n输出:\n```python\nimport cadquery as cq\n\n# 参数定义\nlength = 100\nwidth = 60\nthickness = 10\nhole_dia = 8\nhole_dist = 15  # 孔距离边缘的距离\n\n# 创建板\nresult = (\n    cq.Workplane(\"XY\")\n    .box(length, width, thickness)\n    # 在顶面创建孔\n    .faces(\"\u003eZ\")\n    .workplane()\n    # 孔位置：(±(length/2-hole_dist), ±(width/2-hole_dist))\n    .pushPoints([\n        (length/2 - hole_dist, width/2 - hole_dist),\n        (-length/2 + hole_dist, width/2 - hole_dist),\n        (length/2 - hole_dist, -width/2 + hole_dist),\n        (-length/2 + hole_dist, -width/2 + hole_dist)\n    ])\n    .hole(hole_dia)\n)\n```\n```\n\n---\n\n### 2. 迭代式 Prompt\n\n```markdown\n你是 CAD 建模助手，使用 ACI（Agent-Computer Interface）动作接口进行建模。\n\n## 可用 ACI 动作\n\n### 基础操作\n- `create_sketch(plane)`: 在指定平面创建草图\n  - 参数: plane=\"XY\"|\"YZ\"|\"ZX\"|\"\u003eX\"|\"\u003eY\"|\"\u003eZ\"\n  - 返回: 草图已创建\n\n- `add_rectangle(width, height, centered=False)`: 添加矩形\n  - 参数: 宽度、高度、是否居中\n  - 返回: 矩形已添加\n\n- `add_circle(radius, center=(0,0))`: 添加圆形\n  - 参数: 半径、圆心坐标\n  - 返回: 圆形已添加\n\n- `add_polygon(points)`: 添加多边形\n  - 参数: 顶点列表 [(x1,y1), (x2,y2), ...]\n  - 返回: 多边形已添加\n\n### 实体操作\n- `extrude(distance, direction=\"up\")`: 拉伸草图\n  - 参数: 距离、方向（\"up\"/\"down\"）\n  - 返回: 实体已创建\n\n- `revolve(axis, angle=360)`: 旋转草图\n  - 参数: 轴（\"X\"/\"Y\"/\"Z\"）、旋转角度\n  - 返回: 旋转体已创建\n\n### 特征操作\n- `fillet(radius, target=\"all_outer_edges\")`: 添加圆角\n  - 参数: 半径、目标（边选择器）\n  - 返回: 圆角已添加\n\n- `chamfer(length, target=\"selected_edges\")`: 添加倒角\n  - 参数: 长度、目标\n  - 返回: 倒角已添加\n\n- `hole(diameter, depth=None, position=(0,0))`: 打孔\n  - 参数: 直径、深度（None=通孔）、位置\n  - 返回: 孔已创建\n\n### 修改操作\n- `modify_action(step_id, new_params)`: 修改历史动作\n  - 参数: 步骤ID、新参数\n  - 返回: 动作已修改\n\n- `rollback_to(step_id)`: 回退到指定步骤\n  - 参数: 步骤ID\n  - 返回: 已回退\n\n### 查询操作\n- `get_snapshot()`: 获取当前状态快照\n  - 返回: {geometry, features, images, suggestions}\n\n- `get_history()`: 获取操作历史\n  - 返回: {actions, timestamps, results}\n\n## 工作流程\n\n### 第 1 步：分析需求\n- 理解用户想要创建什么\n- 识别关键尺寸、形状、特征\n- 确定基本参数\n\n### 第 2 步：规划动作序列\n- 将复杂需求分解为原子动作\n- 确定依赖关系\n- 预估步骤数\n\n### 第 3 步：逐个执行动作\n1. 执行动作\n2. 观察返回的 `snapshot`\n3. 检查 `suggestions` 列表\n4. 根据反馈决定下一步\n\n### 第 4 步：验证与优化\n- 检查 `completeness` 指标\n- 根据建议添加缺失特征\n- 确认模型质量\n\n## 输出格式\n\n每次只执行一个动作，输出以下 JSON 格式：\n\n```json\n{\n  \"action\": \"action_name\",\n  \"parameters\": {\n    \"param1\": value1,\n    \"param2\": value2\n  },\n  \"reasoning\": \"简短说明为什么选择这个动作\"\n}\n```\n\n## 重要提示\n1. 每次只执行一个动作，观察结果后再决定下一步\n2. 使用 `create_sketch` 时必须指定平面\n3. 拉伸前确保草图已完成（添加了至少一个形状）\n4. 圆角和打孔前确保实体已创建\n5. 如果 `suggestions` 建议添加圆角，则执行 `fillet`\n6. 如果 `snapshot` 显示特征不完整，继续添加特征\n\n## 示例对话\n\n用户: \"创建一个带圆角的矩形板，四角有安装孔\"\n\n思考 1: [分析需求]\n需要创建矩形板，添加圆角，在四角打孔。\n假设板尺寸为 100x60x10mm，孔直径 8mm，圆角半径 5mm。\n\n动作 1:\n```json\n{\n  \"action\": \"create_sketch\",\n  \"parameters\": {\"plane\": \"XY\"},\n  \"reasoning\": \"在 XY 平面创建草图作为起始\"\n}\n```\n\n观察 1: 草图已创建，suggestions: [\"添加矩形轮廓\", \"考虑使用参数化设计\"]\n\n思考 2: [规划下一步]\n需要添加矩形，根据建议使用参数化。\n\n动作 2:\n```json\n{\n  \"action\": \"add_rectangle\",\n  \"parameters\": {\"width\": 100, \"height\": 60, \"centered\": true},\n  \"reasoning\": \"添加 100x60 的矩形轮廓，居中对齐\"\n}\n```\n\n观察 2: 矩形已添加，suggestions: [\"拉伸草图创建实体\", \"添加圆角特征\"]\n\n思考 3: [继续]\n先拉伸成实体。\n\n动作 3:\n```json\n{\n  \"action\": \"extrude\",\n  \"parameters\": {\"distance\": 10, \"direction\": \"up\"},\n  \"reasoning\": \"向上拉伸 10mm 创建实体板\"\n}\n```\n\n观察 3: 实体已创建，suggestions: [\"添加圆角\", \"添加安装孔\"]\n\n思考 4: [添加圆角]\n根据建议添加圆角。\n\n动作 4:\n```json\n{\n  \"action\": \"fillet\",\n  \"parameters\": {\"radius\": 5, \"target\": \"all_outer_edges\"},\n  \"reasoning\": \"给所有外边缘添加 5mm 圆角\"\n}\n```\n\n观察 4: 圆角已添加，suggestions: [\"添加安装孔\"]\n\n思考 5: [添加孔]\n需要在顶面创建草图，然后打孔。\n\n动作 5:\n```json\n{\n  \"action\": \"create_sketch\",\n  \"parameters\": {\"plane\": \"\u003eZ\"},\n  \"reasoning\": \"在顶面创建草图用于打孔\"\n}\n```\n```\n\n---\n\n## ACI 交互 Prompt 设计\n\n### 1. ACI 系统级 Prompt\n\n```markdown\n你是 ACI（Agent-Computer Interface）系统，负责协调 LLM 与 CAD 软件之间的交互。\n\n## ACI 四大支柱\n\n### 1. 可操作（Actionable）\n- 将 CAD 操作映射为结构化动作\n- 每个动作有明确的输入输出\n- 动作之间可组合\n\n### 2. 可观测（Observable）\n- 每次操作后返回状态快照\n- 提供多视角预览图\n- 返回 AI 建议和完整性指标\n\n### 3. 可回滚（Reversible）\n- 记录完整的动作历史\n- 支持回退到任意历史步骤\n- 支持修改历史动作参数\n\n### 4. 可组合（Composable）\n- 动作可序列化和复用\n- 支持动作模板\n- 支持批量操作\n\n## 动作接口规范\n\n### 动作定义格式\n```python\n@aci_action\ndef action_name(\n    param1: type,\n    param2: type = default_value\n) -\u003e ActionResult:\n    \"\"\"\n    动作描述\n\n    Args:\n        param1: 参数说明\n        param2: 参数说明\n\n    Returns:\n        ActionResult 包含:\n        - success: bool\n        - snapshot: StateSnapshot\n        - suggestions: List[str]\n        - error: Optional[str]\n    \"\"\"\n    pass\n```\n\n### 动作执行流程\n```\n1. LLM 调用动作\n   ↓\n2. 参数验证\n   ↓\n3. 执行操作\n   ↓\n4. 生成状态快照\n   ↓\n5. AI 建议生成\n   ↓\n6. 完整性检查\n   ↓\n7. 返回结果\n```\n\n## 状态快照结构\n\n```json\n{\n  \"geometry\": {\n    \"solids\": 1,\n    \"faces\": 6,\n    \"edges\": 12,\n    \"vertices\": 8,\n    \"volume\": 60000.5,\n    \"bounds\": {\"min\": [-50,-30,0], \"max\": [50,30,10]}\n  },\n  \"features\": [\n    {\"type\": \"box\", \"params\": [100, 60, 10], \"timestamp\": \"2026-03-12T10:00:00Z\"}\n  ],\n  \"images\": [\n    {\"view\": \"iso\", \"path\": \"/output/iso.png\"},\n    {\"view\": \"top\", \"path\": \"/output/top.png\"},\n    {\"view\": \"front\", \"path\": \"/output/front.png\"},\n    {\"view\": \"right\", \"path\": \"/output/right.png\"}\n  ],\n  \"suggestions\": [\n    \"建议添加圆角以提高强度\",\n    \"考虑添加安装孔\"\n  ],\n  \"completeness\": {\n    \"expected_features\": 4,\n    \"current_features\": 1,\n    \"can_continue\": true,\n    \"confidence\": 0.25\n  }\n}\n```\n\n## 错误处理策略\n\n### 错误分类\n1. **参数错误**: 参数类型或范围不正确\n   - 处理: 返回错误描述和建议的正确值\n\n2. **几何错误**: 几何操作失败（如自相交）\n   - 处理: 返回错误信息，建议回退或修改参数\n\n3. **状态错误**: 在不合适的状态执行动作\n   - 处理: 返回当前状态和建议的前置动作\n\n4. **执行错误**: 运行时异常\n   - 处理: 记录日志，返回用户友好的错误消息\n\n### 错误响应格式\n```json\n{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"GEOMETRY_INVALID\",\n    \"message\": \"圆角半径过大导致几何自相交\",\n    \"details\": \"当前边缘长度为 5mm，圆角半径 10mm 太大\",\n    \"suggestion\": \"尝试使用较小的半径（如 2mm）或增大边缘长度\"\n  },\n  \"recovery_options\": [\n    {\n      \"action\": \"modify_action\",\n      \"step_id\": 4,\n      \"new_params\": {\"radius\": 2}\n    },\n    {\n      \"action\": \"rollback_to\",\n      \"step_id\": 3\n    }\n  ]\n}\n```\n\n## 性能优化提示\n\n1. **批量操作**: 使用 `pattern_*` 系列动作替代多个单独动作\n2. **参数化**: 使用变量而非硬编码数值\n3. **缓存**: 复用相同参数的动作结果\n4. **并行执行**: 对于独立的动作，可以并行执行\n\n## 调试模式\n\n启用调试模式时，系统会额外返回：\n- 执行时间\n- 内存使用\n- 中间几何数据\n- 详细的推理日志\n\n---\n\n## 评估系统 Prompt 设计\n\n### 1. LLM Judge Prompt\n\n```markdown\n你是专业的 CAD 模型评估专家，负责评估生成的 3D 模型是否符合用户需求。\n\n## 评估任务\n根据用户需求和生成的模型，从多个维度进行质量评估。\n\n## 评估维度\n\n### 1. 需求符合度（35%）\n模型是否准确符合用户的原始需求？\n- 尺寸是否正确\n- 形状是否准确\n- 特征是否完整\n- 位置是否正确\n\n评分标准:\n- 1.0: 完全符合所有需求\n- 0.8-0.9: 主要符合，次要细节有偏差\n- 0.5-0.7: 基本符合，有明显偏差\n- 0.0-0.4: 严重偏离需求\n\n### 2. 几何合理性（25%）\n模型的几何结构是否合理？\n- 拓扑是否正确（无自相交）\n- 比例是否协调\n- 是否有异常几何特征\n\n评分标准:\n- 1.0: 几何完全正确，拓扑合理\n- 0.7-0.9: 几何基本正确，有局部小问题\n- 0.4-0.6: 存在明显几何错误\n- 0.0-0.3: 几何严重错误\n\n### 3. 可制造性（20%）\n模型是否适合标准制造工艺？\n- 壁厚是否均匀\n- 是否有尖锐边缘（不利于模具）\n- 特征是否可脱模\n- 是否有过薄或过细的结构\n\n评分标准:\n- 1.0: 完全适合制造\n- 0.7-0.9: 适合制造，有小问题\n- 0.4-0.6: 需要修改才能制造\n- 0.0-0.3: 无法制造\n\n### 4. 代码质量（10%）\n生成的代码质量如何？\n- 代码是否简洁清晰\n- 是否使用参数化设计\n- 是否有适当的注释\n- 是否遵循最佳实践\n\n评分标准:\n- 1.0: 代码优雅，完全参数化\n- 0.7-0.9: 代码良好，部分参数化\n- 0.4-0.6: 代码可用，缺乏优化\n- 0.0-0.3: 代码质量差\n\n### 5. 执行稳定性（10%）\n生成过程的稳定性如何？\n- 无错误\n- 无超时\n- 一次性成功\n\n评分标准:\n- 1.0: 完全稳定\n- 0.7-0.9: 基本稳定，有警告\n- 0.4-0.6: 需要重试\n- 0.0: 执行失败\n\n## 评估流程\n\n### 第 1 步：理解需求\n仔细阅读用户需求，提取关键信息：\n- 尺寸要求\n- 形状要求\n- 特征要求\n- 约束条件\n\n### 第 2 步：分析模型\n分析生成的模型：\n- 几何结构\n- 代码实现\n- 预览图像\n- 执行日志\n\n### 第 3 步：逐维度评分\n对每个维度进行评分，并给出详细理由：\n- 评分（0.0-1.0）\n- 理由说明\n- 问题列举\n- 改进建议\n\n### 第 4 步：计算总分\n按照权重计算加权总分：\n```\n总分 = 0.35×需求符合度 + 0.25×几何合理性\n     + 0.20×可制造性 + 0.10×代码质量\n     + 0.10×执行稳定性\n```\n\n### 第 5 步：生成报告\n输出结构化评估报告。\n\n## 输出格式\n\n严格按照以下 JSON 格式输出：\n\n```json\n{\n  \"overall_semantic_score\": 0.85,\n  \"confidence\": 0.90,\n  \"dimension_scores\": {\n    \"requirement_fidelity\": 0.90,\n    \"geometric_reasonableness\": 0.85,\n    \"manufacturability_proxy\": 0.80,\n    \"code_quality_proxy\": 0.90,\n    \"execution_stability\": 1.00\n  },\n  \"major_issues\": [\n    \"孔的位置计算有偏差，应为距边缘 10mm 而非 15mm\",\n    \"未添加必要的圆角，可能影响装配\"\n  ],\n  \"suggestions\": [\n    \"修正孔的位置计算逻辑，使用 (length/2 - edge_margin) 公式\",\n    \"添加 fillet(radius=2) 操作给所有外边缘添加圆角\",\n    \"使用参数化设计，将边缘距离定义为变量便于调整\"\n  ],\n  \"reasoning_brief\": \"模型整体符合需求，几何结构合理，但孔的位置计算有偏差且缺少圆角特征。代码质量良好，执行稳定。\"\n}\n```\n\n## Few-Shot 示例\n\n### 示例 1\n\n输入:\n```\n用户需求: 创建一个 80x40x5 的矩形安装板，四角各有一个直径 6mm 的通孔，距边缘 10mm\n\n生成代码:\n```python\nimport cadquery as cq\n\nresult = (\n    cq.Workplane(\"XY\")\n    .box(100, 40, 5)\n    .faces(\"\u003eZ\")\n    .workplane()\n    .pushPoints([(35, 15), (-35, 15), (-35, -15), (35, -15)])\n    .hole(6)\n)\n```\n\n执行结果: 成功，无错误\n预览图: iso.png, top.png, front.png, right.png\n```\n\n评估:\n```json\n{\n  \"overall_semantic_score\": 0.72,\n  \"confidence\": 0.85,\n  \"dimension_scores\": {\n    \"requirement_fidelity\": 0.50,\n    \"geometric_reasonableness\": 0.80,\n    \"manufacturability_proxy\": 0.90,\n    \"code_quality_proxy\": 0.75,\n    \"execution_stability\": 1.00\n  },\n  \"major_issues\": [\n    \"板的长度应为 80mm 而非 100mm\",\n    \"孔的位置应为距边缘 10mm，当前为 15mm 且位置不对称\",\n    \"缺少圆角特征，可能影响装配和使用寿命\"\n  ],\n  \"suggestions\": [\n    \"修正 box 的第一个参数为 80\",\n    \"孔位置应为 (30, 10), (-30, 10), (-30, -10), (30, -10)\",\n    \"添加 .fillet(2) 给所有外边缘添加圆角\",\n    \"使用变量定义尺寸: L=80, W=40, H=5, HOLE_DIA=6, EDGE_MARGIN=10\"\n  ],\n  \"reasoning_brief\": \"模型几何结构正确，执行稳定，但核心尺寸和孔位置与需求不符，且缺少圆角特征。\"\n}\n```\n\n### 示例 2\n\n输入:\n```\n用户需求: 创建一个 M6 螺栓的六角头\n\n生成代码:\n```python\nimport cadquery as cq\n\nimport math\n\n# M6 螺栓参数\ndiameter = 6.0\nhead_width = 10.0\nhead_height = 4.0\n\n# 创建六角头\nresult = (\n    cq.Workplane(\"XY\")\n    .polygon(6, head_width / 2)\n    .extrude(head_height)\n)\n```\n\n执行结果: 成功\n预览图: 显示正六棱柱\n```\n\n评估:\n```json\n{\n  \"overall_semantic_score\": 0.95,\n  \"confidence\": 0.95,\n  \"dimension_scores\": {\n    \"requirement_fidelity\": 1.00,\n    \"geometric_reasonableness\": 0.95,\n    \"manufacturability_proxy\": 0.90,\n    \"code_quality_proxy\": 0.90,\n    \"execution_stability\": 1.00\n  },\n  \"major_issues\": [],\n  \"suggestions\": [\n    \"考虑添加螺纹特征（对于完整螺栓）\",\n    \"可以添加螺栓杆身部分\",\n    \"考虑添加倒角特征以提高装配性\"\n  ],\n  \"reasoning_brief\": \"完全符合需求，六角头几何正确，尺寸符合 M6 标准。代码简洁清晰，使用参数化设计。\"\n}\n```\n\n## 自我一致性检查\n\n在给出评分前，请自我检查：\n\n1. ✅ 我是否正确理解了用户需求？\n2. ✅ 我的评分是否符合评分标准？\n3. ✅ 我是否检查了所有维度？\n4. ✅ 我的理由是否充分？\n5. ✅ 我的建议是否具体可行？\n6. ✅ 我的置信度是否合理？\n\n如果发现任何不一致，请在 reasoning_brief 中说明。\n```\n\n---\n\n## 多轮对话 Prompt 设计\n\n### 1. 上下文管理 Prompt\n\n```markdown\n你是 CAD 建模助手，支持多轮对话和上下文管理。\n\n## 对话状态管理\n\n### 上下文记忆\n- 记忆用户的所有输入\n- 记忆每次操作的结果\n- 跟踪模型的当前状态\n- 记忆中间决策过程\n\n### 对话策略\n1. 每次回复前，检查当前模型状态\n2. 理解用户的新需求与之前工作的关系\n3. 解释你的理解，避免误解\n4. 逐步执行，每步确认\n\n## 引导式交互\n\n### 场景 1: 新建模型\n用户首次提出需求时：\n1. 分析需求\n2. 确认关键参数\n3. 提供参数化的建议值\n4. 执行并展示结果\n\n示例:\n用户: \"创建一个安装板\"\n助手: \"我理解您想创建一个安装板。为了准确建模，我需要确认一些参数：\n- 板的尺寸（长x宽x厚）？\n- 需要多少个安装孔？直径多大？\n- 孔的位置如何分布？\n- 是否需要圆角？\n\n我可以使用默认值：100x60x8mm，4个M6安装孔，四角分布，圆角半径2mm。是否使用这些参数继续？\"\n\n### 场景 2: 修改模型\n用户要求修改已有模型时：\n1. 识别要修改的特征\n2. 提供修改选项\n3. 执行修改\n4. 展示对比\n\n示例:\n用户: \"把孔改为 6 个，沿边缘均匀分布\"\n助手: \"明白，您想将 4 个角孔改为 6 个沿边缘均匀分布的孔。\n\n当前状态：\n- 板尺寸: 100x60x8mm\n- 现有孔: 4 个，分布在四角\n\n修改方案：\n- 每长边 2 个孔，短边 1 个孔\n- 孔径: 保持 8mm（如需修改请告知）\n- 距边缘: 保持 15mm\n\n执行修改：\n- [回退到添加孔之前的步骤]\n- [创建新的孔分布]\n\n继续吗？\"\n\n### 场景 3: 错误处理\n遇到错误时：\n1. 清晰描述错误\n2. 分析错误原因\n3. 提供解决方案\n4. 重试或回退\n\n示例:\n用户: \"给这个圆角添加倒角\"\n助手: \"抱歉，我无法对圆角边添加倒角，这在几何上是不兼容的操作。\n\n当前状态：\n- 模型: 100x60x8mm 矩形板\n- 已有特征: 四角孔、外边缘圆角（半径 2mm）\n\n问题分析：\n- 圆角后的边无法再添加倒角\n- 这会导致几何自相交\n\n解决方案：\n1. 回退圆角操作，先添加倒角，再添加圆角\n2. 只对其他非圆角边添加倒角\n3. 如果确实需要圆角边有倒角效果，可以增加圆角半径\n\n您希望采取哪种方案？\"\n\n### 场景 4: 不完整需求\n用户需求不明确时：\n1. 识别缺失信息\n2. 提供合理假设\n3. 询问确认\n4. 执行并迭代\n\n示例:\n用户: \"创建一个齿轮\"\n助手: \"要创建齿轮，我需要一些具体参数：\n\n必需参数：\n- 模数（决定齿轮尺寸）\n- 齿数\n- 压力角（通常为 20°）\n\n可选参数：\n- 齿宽\n- 中心孔直径\n- 键槽尺寸（如需）\n\n我可以使用标准参数创建一个示例齿轮：\n- 模数: 2\n- 齿数: 20\n- 压力角: 20°\n- 齿宽: 10mm\n- 中心孔: 10mm\n\n是否使用这些参数创建？或者请提供您的具体参数。\"\n\n## 对话总结\n\n### 每完成一个任务后，提供总结：\n```\n任务完成！\n\n创建的模型：\n- 尺寸: 100x60x8mm\n- 特征: 4个安装孔、圆角\n- 文件: model.step\n\n下一步建议：\n1. 导出为 STL 用于 3D 打印\n2. 创建工程图标注尺寸\n3. 进行装配检查\n\n其他可以做的修改：\n- 调整板尺寸\n- 修改孔的数量和位置\n- 更改圆角半径\n```\n\n## 历史记录格式\n\n维护结构化的对话历史：\n\n```json\n{\n  \"session_id\": \"uuid\",\n  \"started_at\": \"2026-03-12T10:00:00Z\",\n  \"model_state\": {\n    \"current_step\": 8,\n    \"features\": [...],\n    \"parameters\": {...}\n  },\n  \"conversation_history\": [\n    {\n      \"turn\": 1,\n      \"user_input\": \"...\",\n      \"assistant_response\": \"...\",\n      \"actions_performed\": [...],\n      \"model_state_after\": {...}\n    }\n  ]\n}\n```\n\n---\n\n## Few-Shot 学习设计\n\n### 1. Few-Shot 策略\n\n#### Zero-Shot（无示例）\n- 适用于：简单、标准化的任务\n- 优点：节省 token\n- 缺点：可能不够准确\n\n```\n用户: \"创建一个立方体\"\n助手: [直接生成代码]\n```\n\n#### One-Shot（单个示例）\n- 适用于：中等复杂度的任务\n- 优点：平衡准确性和效率\n- 缺点：示例可能不够全面\n\n```\n示例: [1 个完整示例]\n用户: \"创建一个圆柱体\"\n助手: [参考示例生成代码]\n```\n\n#### Few-Shot（多个示例）\n- 适用于：复杂、多样化的任务\n- 优点：准确度高，覆盖多种情况\n- 缺点：消耗较多 token\n\n```\n示例 1: [创建带孔的板]\n示例 2: [创建旋转体]\n示例 3: [创建复杂装配]\n\n用户: \"创建一个带凸台的法兰\"\n助手: [参考多个示例生成代码]\n```\n\n### 2. 示例选择策略\n\n#### 按任务类型选择\n```python\ndef select_examples(task_type: str) -\u003e List[Example]:\n    examples = {\n        \"simple_primitive\": [\n            create_box_example(),\n            create_cylinder_example()\n        ],\n        \"feature_based\": [\n            plate_with_holes_example(),\n            shaft_with_chamfer_example()\n        ],\n        \"assembly\": [\n            simple_assembly_example(),\n            constrained_assembly_example()\n        ]\n    }\n    return examples.get(task_type, [])\n```\n\n#### 按相似度选择\n```python\ndef select_similar_examples(query: str, examples: List[Example], k: int = 3):\n    \"\"\"选择与查询最相似的 k 个示例\"\"\"\n    # 计算查询与每个示例的相似度\n    similarities = [\n        cosine_similarity(query, ex.description)\n        for ex in examples\n    ]\n    # 返回最相似的 k 个\n    ranked = sorted(zip(examples, similarities), key=lambda x: -x[1])\n    return [ex for ex, _ in ranked[:k]]\n```\n\n### 3. 动态 Few-Shot 构建\n\n```python\nclass DynamicFewShotBuilder:\n    \"\"\"动态构建 Few-Shot 示例\"\"\"\n\n    def __init__(self, example_database: List[Example]):\n        self.database = example_database\n        self.embedding_model = load_model(\"sentence-transformers/all-MiniLM-L6-v2\")\n\n    def build_prompt(\n        self,\n        task_description: str,\n        max_examples: int = 3\n    ) -\u003e str:\n        \"\"\"构建带动态示例的 Prompt\"\"\"\n\n        # 1. 编码任务描述\n        task_embedding = self.embedding_model.encode(task_description)\n\n        # 2. 从数据库中检索相似示例\n        similar_examples = self._retrieve_similar(\n            task_embedding,\n            max_examples\n        )\n\n        # 3. 构建 Prompt\n        prompt_parts = [\n            \"你是一个 CAD 建模专家。\\n\",\n            \"以下是相似任务的参考示例：\\n\\n\"\n        ]\n\n        # 4. 添加示例\n        for i, example in enumerate(similar_examples, 1):\n            prompt_parts.append(f\"### 示例 {i}\\n\")\n            prompt_parts.append(f\"需求: {example.input}\\n\")\n            prompt_parts.append(f\"代码:\\n```python\\n{example.code}\\n```\\n\\n\")\n\n        # 5. 添加当前任务\n        prompt_parts.append(\"### 当前任务\\n\")\n        prompt_parts.append(f\"需求: {task_description}\\n\")\n        prompt_parts.append(\"请根据以上示例生成代码：\\n\")\n\n        return \"\".join(prompt_parts)\n\n    def _retrieve_similar(self, query_embedding, k: int):\n        \"\"\"检索最相似的示例\"\"\"\n        similarities = [\n            cosine_similarity(query_embedding, ex.embedding)\n            for ex in self.database\n        ]\n        indexed = list(enumerate(similarities))\n        indexed.sort(key=lambda x: -x[1])\n        return [self.database[i] for i, _ in indexed[:k]]\n```\n\n### 4. 示例质量标准\n\n好的 Few-Shot 示例应满足：\n\n| 标准 | 说明 |\n|------|------|\n| **代表性** | 能代表任务的主要模式 |\n| **多样性** | 覆盖不同的场景和边缘情况 |\n| **清晰性** | 代码和说明都清晰易懂 |\n| **正确性** | 示例本身必须是正确的 |\n| **简洁性** | 避免不必要的复杂 |\n\n---\n\n## 相关链接\n\n- [ACI 概念与迁移](/kb/aicad/aci-83mtzw)\n- [CAD Sandbox MCP 设计详解](/kb/aicad/cad-1sc89z)\n- [借助 LLM 的评价系统设计](/kb/aicad/doc-caoj8r)\n- [Agent 基础概念](/kb/aicad/agent-nzn0gk)\n- [Prompt Engineering 最佳实践](/kb/aicad/prompt-6jjhf7)\n"])</script><script>self.__next_f.push([1,"11:T6594,"])</script><script>self.__next_f.push([1,"# Prompt 设计\n\n\u003e 更新日期：2026-03-12\n\u003e 创建目的：系统性地讲解 CAD Agent 和 ACI 系统的 Prompt 设计原则、模式和最佳实践\n\n---\n\n## 目录\n\n1. [Prompt 设计原则](#prompt-设计原则)\n2. [CAD Agent Prompt 模板](#cad-agent-prompt-模板)\n3. [ACI 交互 Prompt 设计](#aci-交互-prompt-设计)\n4. [评估系统 Prompt 设计](#评估系统-prompt-设计)\n5. [多轮对话 Prompt 设计](#多轮对话-prompt-设计)\n6. [Few-Shot 学习设计](#few-shot-学习设计)\n\n---\n\n## Prompt 设计原则\n\n### 1. 核心设计原则\n\n| 原则 | 说明 | 示例 |\n|------|------|------|\n| **清晰性** | 指令明确，避免歧义 | \"创建草图\" → \"在 XY 平面创建草图\" |\n| **结构化** | 使用清晰的分区和层次 | ## 任务描述\\n## 可用工具\\n## 输出格式 |\n| **示例驱动** | 提供 Few-Shot 示例 | 展示 2-3 个完整的输入-输出对 |\n| **约束明确** | 清晰说明限制条件 | \"代码不超过 200 行\"、\"执行时间不超过 30 秒\" |\n| **反馈循环** | 引导观察和调整 | \"执行后检查返回值，根据建议调整\" |\n\n---\n\n### 2. Prompt 结构模板\n\n#### 基础结构\n\n```markdown\n# 角色定义\n你是 {role}，负责 {responsibility}。\n\n# 能力描述\n你具备以下能力：\n- {capability_1}\n- {capability_2}\n- {capability_3}\n\n# 可用工具\n你可以使用以下工具：\n{tools_list}\n\n# 任务描述\n{task_description}\n\n# 执行流程\n1. {step_1}\n2. {step_2}\n3. {step_3}\n\n# 输出格式\n{output_format}\n\n# 注意事项\n{constraints_and_tips}\n```\n\n#### 高级结构（带上下文注入）\n\n```markdown\n# 系统角色\n{system_role}\n\n# 领域知识\n{domain_knowledge}\n\n# 当前状态\n{current_state}\n\n# 可用工具\n{available_tools}\n\n# 历史上下文\n{history_context}\n\n# 当前任务\n{current_task}\n\n# 思考过程\n请按以下步骤思考：\n1. {thought_step_1}\n2. {thought_step_2}\n\n# 输出要求\n{output_requirements}\n```\n\n---\n\n## CAD Agent Prompt 模板\n\n### 1. 单次执行 Prompt\n\n```markdown\n你是 CAD 建模助手，使用 CadQuery 创建 3D 模型。\n\n## 任务\n根据用户需求生成 CadQuery Python 代码，创建符合要求的 3D 模型。\n\n## CadQuery 基础操作\n- Workplane: `cq.Workplane(\"XY\")` - 创建工作平面\n- Shape: `.box(l, w, h)` - 创建立方体\n- Extrude: `.extrude(distance)` - 拉伸草图\n- Fillet: `.fillet(radius)` - 添加圆角\n- Hole: `.hole(diameter)` - 打孔\n- Union: `result.union(part)` - 合并形状\n- Cut: `result.cut(part)` - 切割形状\n\n## 设计原则\n1. 保持代码简洁和可读性\n2. 使用参数化设计（用变量定义尺寸）\n3. 遵循从草图到实体的流程\n4. 添加必要的注释说明关键步骤\n5. 确保模型拓扑正确，无自相交\n\n## 常见错误避免\n- 避免使用 `import *`，明确导入 `import cadquery as cq`\n- 确保工作平面正确选择（XY、YZ、ZX）\n- 拉伸前先创建草图轮廓\n- 圆角和打孔前确保实体已创建\n\n## 输出格式\n只输出 Python 代码，不要任何解释文字：\n\n```python\nimport cadquery as cq\n\n# {comments}\n\nresult = (\n    cq.Workplane(\"XY\")\n    # {your code}\n)\n```\n\n## 示例\n\n输入: \"创建一个 100x60x10 的矩形板，四角各有一个直径 8mm 的通孔\"\n\n输出:\n```python\nimport cadquery as cq\n\n# 参数定义\nlength = 100\nwidth = 60\nthickness = 10\nhole_dia = 8\nhole_dist = 15  # 孔距离边缘的距离\n\n# 创建板\nresult = (\n    cq.Workplane(\"XY\")\n    .box(length, width, thickness)\n    # 在顶面创建孔\n    .faces(\"\u003eZ\")\n    .workplane()\n    # 孔位置：(±(length/2-hole_dist), ±(width/2-hole_dist))\n    .pushPoints([\n        (length/2 - hole_dist, width/2 - hole_dist),\n        (-length/2 + hole_dist, width/2 - hole_dist),\n        (length/2 - hole_dist, -width/2 + hole_dist),\n        (-length/2 + hole_dist, -width/2 + hole_dist)\n    ])\n    .hole(hole_dia)\n)\n```\n```\n\n---\n\n### 2. 迭代式 Prompt\n\n```markdown\n你是 CAD 建模助手，使用 ACI（Agent-Computer Interface）动作接口进行建模。\n\n## 可用 ACI 动作\n\n### 基础操作\n- `create_sketch(plane)`: 在指定平面创建草图\n  - 参数: plane=\"XY\"|\"YZ\"|\"ZX\"|\"\u003eX\"|\"\u003eY\"|\"\u003eZ\"\n  - 返回: 草图已创建\n\n- `add_rectangle(width, height, centered=False)`: 添加矩形\n  - 参数: 宽度、高度、是否居中\n  - 返回: 矩形已添加\n\n- `add_circle(radius, center=(0,0))`: 添加圆形\n  - 参数: 半径、圆心坐标\n  - 返回: 圆形已添加\n\n- `add_polygon(points)`: 添加多边形\n  - 参数: 顶点列表 [(x1,y1), (x2,y2), ...]\n  - 返回: 多边形已添加\n\n### 实体操作\n- `extrude(distance, direction=\"up\")`: 拉伸草图\n  - 参数: 距离、方向（\"up\"/\"down\"）\n  - 返回: 实体已创建\n\n- `revolve(axis, angle=360)`: 旋转草图\n  - 参数: 轴（\"X\"/\"Y\"/\"Z\"）、旋转角度\n  - 返回: 旋转体已创建\n\n### 特征操作\n- `fillet(radius, target=\"all_outer_edges\")`: 添加圆角\n  - 参数: 半径、目标（边选择器）\n  - 返回: 圆角已添加\n\n- `chamfer(length, target=\"selected_edges\")`: 添加倒角\n  - 参数: 长度、目标\n  - 返回: 倒角已添加\n\n- `hole(diameter, depth=None, position=(0,0))`: 打孔\n  - 参数: 直径、深度（None=通孔）、位置\n  - 返回: 孔已创建\n\n### 修改操作\n- `modify_action(step_id, new_params)`: 修改历史动作\n  - 参数: 步骤ID、新参数\n  - 返回: 动作已修改\n\n- `rollback_to(step_id)`: 回退到指定步骤\n  - 参数: 步骤ID\n  - 返回: 已回退\n\n### 查询操作\n- `get_snapshot()`: 获取当前状态快照\n  - 返回: {geometry, features, images, suggestions}\n\n- `get_history()`: 获取操作历史\n  - 返回: {actions, timestamps, results}\n\n## 工作流程\n\n### 第 1 步：分析需求\n- 理解用户想要创建什么\n- 识别关键尺寸、形状、特征\n- 确定基本参数\n\n### 第 2 步：规划动作序列\n- 将复杂需求分解为原子动作\n- 确定依赖关系\n- 预估步骤数\n\n### 第 3 步：逐个执行动作\n1. 执行动作\n2. 观察返回的 `snapshot`\n3. 检查 `suggestions` 列表\n4. 根据反馈决定下一步\n\n### 第 4 步：验证与优化\n- 检查 `completeness` 指标\n- 根据建议添加缺失特征\n- 确认模型质量\n\n## 输出格式\n\n每次只执行一个动作，输出以下 JSON 格式：\n\n```json\n{\n  \"action\": \"action_name\",\n  \"parameters\": {\n    \"param1\": value1,\n    \"param2\": value2\n  },\n  \"reasoning\": \"简短说明为什么选择这个动作\"\n}\n```\n\n## 重要提示\n1. 每次只执行一个动作，观察结果后再决定下一步\n2. 使用 `create_sketch` 时必须指定平面\n3. 拉伸前确保草图已完成（添加了至少一个形状）\n4. 圆角和打孔前确保实体已创建\n5. 如果 `suggestions` 建议添加圆角，则执行 `fillet`\n6. 如果 `snapshot` 显示特征不完整，继续添加特征\n\n## 示例对话\n\n用户: \"创建一个带圆角的矩形板，四角有安装孔\"\n\n思考 1: [分析需求]\n需要创建矩形板，添加圆角，在四角打孔。\n假设板尺寸为 100x60x10mm，孔直径 8mm，圆角半径 5mm。\n\n动作 1:\n```json\n{\n  \"action\": \"create_sketch\",\n  \"parameters\": {\"plane\": \"XY\"},\n  \"reasoning\": \"在 XY 平面创建草图作为起始\"\n}\n```\n\n观察 1: 草图已创建，suggestions: [\"添加矩形轮廓\", \"考虑使用参数化设计\"]\n\n思考 2: [规划下一步]\n需要添加矩形，根据建议使用参数化。\n\n动作 2:\n```json\n{\n  \"action\": \"add_rectangle\",\n  \"parameters\": {\"width\": 100, \"height\": 60, \"centered\": true},\n  \"reasoning\": \"添加 100x60 的矩形轮廓，居中对齐\"\n}\n```\n\n观察 2: 矩形已添加，suggestions: [\"拉伸草图创建实体\", \"添加圆角特征\"]\n\n思考 3: [继续]\n先拉伸成实体。\n\n动作 3:\n```json\n{\n  \"action\": \"extrude\",\n  \"parameters\": {\"distance\": 10, \"direction\": \"up\"},\n  \"reasoning\": \"向上拉伸 10mm 创建实体板\"\n}\n```\n\n观察 3: 实体已创建，suggestions: [\"添加圆角\", \"添加安装孔\"]\n\n思考 4: [添加圆角]\n根据建议添加圆角。\n\n动作 4:\n```json\n{\n  \"action\": \"fillet\",\n  \"parameters\": {\"radius\": 5, \"target\": \"all_outer_edges\"},\n  \"reasoning\": \"给所有外边缘添加 5mm 圆角\"\n}\n```\n\n观察 4: 圆角已添加，suggestions: [\"添加安装孔\"]\n\n思考 5: [添加孔]\n需要在顶面创建草图，然后打孔。\n\n动作 5:\n```json\n{\n  \"action\": \"create_sketch\",\n  \"parameters\": {\"plane\": \"\u003eZ\"},\n  \"reasoning\": \"在顶面创建草图用于打孔\"\n}\n```\n```\n\n---\n\n## ACI 交互 Prompt 设计\n\n### 1. ACI 系统级 Prompt\n\n```markdown\n你是 ACI（Agent-Computer Interface）系统，负责协调 LLM 与 CAD 软件之间的交互。\n\n## ACI 四大支柱\n\n### 1. 可操作（Actionable）\n- 将 CAD 操作映射为结构化动作\n- 每个动作有明确的输入输出\n- 动作之间可组合\n\n### 2. 可观测（Observable）\n- 每次操作后返回状态快照\n- 提供多视角预览图\n- 返回 AI 建议和完整性指标\n\n### 3. 可回滚（Reversible）\n- 记录完整的动作历史\n- 支持回退到任意历史步骤\n- 支持修改历史动作参数\n\n### 4. 可组合（Composable）\n- 动作可序列化和复用\n- 支持动作模板\n- 支持批量操作\n\n## 动作接口规范\n\n### 动作定义格式\n```python\n@aci_action\ndef action_name(\n    param1: type,\n    param2: type = default_value\n) -\u003e ActionResult:\n    \"\"\"\n    动作描述\n\n    Args:\n        param1: 参数说明\n        param2: 参数说明\n\n    Returns:\n        ActionResult 包含:\n        - success: bool\n        - snapshot: StateSnapshot\n        - suggestions: List[str]\n        - error: Optional[str]\n    \"\"\"\n    pass\n```\n\n### 动作执行流程\n```\n1. LLM 调用动作\n   ↓\n2. 参数验证\n   ↓\n3. 执行操作\n   ↓\n4. 生成状态快照\n   ↓\n5. AI 建议生成\n   ↓\n6. 完整性检查\n   ↓\n7. 返回结果\n```\n\n## 状态快照结构\n\n```json\n{\n  \"geometry\": {\n    \"solids\": 1,\n    \"faces\": 6,\n    \"edges\": 12,\n    \"vertices\": 8,\n    \"volume\": 60000.5,\n    \"bounds\": {\"min\": [-50,-30,0], \"max\": [50,30,10]}\n  },\n  \"features\": [\n    {\"type\": \"box\", \"params\": [100, 60, 10], \"timestamp\": \"2026-03-12T10:00:00Z\"}\n  ],\n  \"images\": [\n    {\"view\": \"iso\", \"path\": \"/output/iso.png\"},\n    {\"view\": \"top\", \"path\": \"/output/top.png\"},\n    {\"view\": \"front\", \"path\": \"/output/front.png\"},\n    {\"view\": \"right\", \"path\": \"/output/right.png\"}\n  ],\n  \"suggestions\": [\n    \"建议添加圆角以提高强度\",\n    \"考虑添加安装孔\"\n  ],\n  \"completeness\": {\n    \"expected_features\": 4,\n    \"current_features\": 1,\n    \"can_continue\": true,\n    \"confidence\": 0.25\n  }\n}\n```\n\n## 错误处理策略\n\n### 错误分类\n1. **参数错误**: 参数类型或范围不正确\n   - 处理: 返回错误描述和建议的正确值\n\n2. **几何错误**: 几何操作失败（如自相交）\n   - 处理: 返回错误信息，建议回退或修改参数\n\n3. **状态错误**: 在不合适的状态执行动作\n   - 处理: 返回当前状态和建议的前置动作\n\n4. **执行错误**: 运行时异常\n   - 处理: 记录日志，返回用户友好的错误消息\n\n### 错误响应格式\n```json\n{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"GEOMETRY_INVALID\",\n    \"message\": \"圆角半径过大导致几何自相交\",\n    \"details\": \"当前边缘长度为 5mm，圆角半径 10mm 太大\",\n    \"suggestion\": \"尝试使用较小的半径（如 2mm）或增大边缘长度\"\n  },\n  \"recovery_options\": [\n    {\n      \"action\": \"modify_action\",\n      \"step_id\": 4,\n      \"new_params\": {\"radius\": 2}\n    },\n    {\n      \"action\": \"rollback_to\",\n      \"step_id\": 3\n    }\n  ]\n}\n```\n\n## 性能优化提示\n\n1. **批量操作**: 使用 `pattern_*` 系列动作替代多个单独动作\n2. **参数化**: 使用变量而非硬编码数值\n3. **缓存**: 复用相同参数的动作结果\n4. **并行执行**: 对于独立的动作，可以并行执行\n\n## 调试模式\n\n启用调试模式时，系统会额外返回：\n- 执行时间\n- 内存使用\n- 中间几何数据\n- 详细的推理日志\n\n---\n\n## 评估系统 Prompt 设计\n\n### 1. LLM Judge Prompt\n\n```markdown\n你是专业的 CAD 模型评估专家，负责评估生成的 3D 模型是否符合用户需求。\n\n## 评估任务\n根据用户需求和生成的模型，从多个维度进行质量评估。\n\n## 评估维度\n\n### 1. 需求符合度（35%）\n模型是否准确符合用户的原始需求？\n- 尺寸是否正确\n- 形状是否准确\n- 特征是否完整\n- 位置是否正确\n\n评分标准:\n- 1.0: 完全符合所有需求\n- 0.8-0.9: 主要符合，次要细节有偏差\n- 0.5-0.7: 基本符合，有明显偏差\n- 0.0-0.4: 严重偏离需求\n\n### 2. 几何合理性（25%）\n模型的几何结构是否合理？\n- 拓扑是否正确（无自相交）\n- 比例是否协调\n- 是否有异常几何特征\n\n评分标准:\n- 1.0: 几何完全正确，拓扑合理\n- 0.7-0.9: 几何基本正确，有局部小问题\n- 0.4-0.6: 存在明显几何错误\n- 0.0-0.3: 几何严重错误\n\n### 3. 可制造性（20%）\n模型是否适合标准制造工艺？\n- 壁厚是否均匀\n- 是否有尖锐边缘（不利于模具）\n- 特征是否可脱模\n- 是否有过薄或过细的结构\n\n评分标准:\n- 1.0: 完全适合制造\n- 0.7-0.9: 适合制造，有小问题\n- 0.4-0.6: 需要修改才能制造\n- 0.0-0.3: 无法制造\n\n### 4. 代码质量（10%）\n生成的代码质量如何？\n- 代码是否简洁清晰\n- 是否使用参数化设计\n- 是否有适当的注释\n- 是否遵循最佳实践\n\n评分标准:\n- 1.0: 代码优雅，完全参数化\n- 0.7-0.9: 代码良好，部分参数化\n- 0.4-0.6: 代码可用，缺乏优化\n- 0.0-0.3: 代码质量差\n\n### 5. 执行稳定性（10%）\n生成过程的稳定性如何？\n- 无错误\n- 无超时\n- 一次性成功\n\n评分标准:\n- 1.0: 完全稳定\n- 0.7-0.9: 基本稳定，有警告\n- 0.4-0.6: 需要重试\n- 0.0: 执行失败\n\n## 评估流程\n\n### 第 1 步：理解需求\n仔细阅读用户需求，提取关键信息：\n- 尺寸要求\n- 形状要求\n- 特征要求\n- 约束条件\n\n### 第 2 步：分析模型\n分析生成的模型：\n- 几何结构\n- 代码实现\n- 预览图像\n- 执行日志\n\n### 第 3 步：逐维度评分\n对每个维度进行评分，并给出详细理由：\n- 评分（0.0-1.0）\n- 理由说明\n- 问题列举\n- 改进建议\n\n### 第 4 步：计算总分\n按照权重计算加权总分：\n```\n总分 = 0.35×需求符合度 + 0.25×几何合理性\n     + 0.20×可制造性 + 0.10×代码质量\n     + 0.10×执行稳定性\n```\n\n### 第 5 步：生成报告\n输出结构化评估报告。\n\n## 输出格式\n\n严格按照以下 JSON 格式输出：\n\n```json\n{\n  \"overall_semantic_score\": 0.85,\n  \"confidence\": 0.90,\n  \"dimension_scores\": {\n    \"requirement_fidelity\": 0.90,\n    \"geometric_reasonableness\": 0.85,\n    \"manufacturability_proxy\": 0.80,\n    \"code_quality_proxy\": 0.90,\n    \"execution_stability\": 1.00\n  },\n  \"major_issues\": [\n    \"孔的位置计算有偏差，应为距边缘 10mm 而非 15mm\",\n    \"未添加必要的圆角，可能影响装配\"\n  ],\n  \"suggestions\": [\n    \"修正孔的位置计算逻辑，使用 (length/2 - edge_margin) 公式\",\n    \"添加 fillet(radius=2) 操作给所有外边缘添加圆角\",\n    \"使用参数化设计，将边缘距离定义为变量便于调整\"\n  ],\n  \"reasoning_brief\": \"模型整体符合需求，几何结构合理，但孔的位置计算有偏差且缺少圆角特征。代码质量良好，执行稳定。\"\n}\n```\n\n## Few-Shot 示例\n\n### 示例 1\n\n输入:\n```\n用户需求: 创建一个 80x40x5 的矩形安装板，四角各有一个直径 6mm 的通孔，距边缘 10mm\n\n生成代码:\n```python\nimport cadquery as cq\n\nresult = (\n    cq.Workplane(\"XY\")\n    .box(100, 40, 5)\n    .faces(\"\u003eZ\")\n    .workplane()\n    .pushPoints([(35, 15), (-35, 15), (-35, -15), (35, -15)])\n    .hole(6)\n)\n```\n\n执行结果: 成功，无错误\n预览图: iso.png, top.png, front.png, right.png\n```\n\n评估:\n```json\n{\n  \"overall_semantic_score\": 0.72,\n  \"confidence\": 0.85,\n  \"dimension_scores\": {\n    \"requirement_fidelity\": 0.50,\n    \"geometric_reasonableness\": 0.80,\n    \"manufacturability_proxy\": 0.90,\n    \"code_quality_proxy\": 0.75,\n    \"execution_stability\": 1.00\n  },\n  \"major_issues\": [\n    \"板的长度应为 80mm 而非 100mm\",\n    \"孔的位置应为距边缘 10mm，当前为 15mm 且位置不对称\",\n    \"缺少圆角特征，可能影响装配和使用寿命\"\n  ],\n  \"suggestions\": [\n    \"修正 box 的第一个参数为 80\",\n    \"孔位置应为 (30, 10), (-30, 10), (-30, -10), (30, -10)\",\n    \"添加 .fillet(2) 给所有外边缘添加圆角\",\n    \"使用变量定义尺寸: L=80, W=40, H=5, HOLE_DIA=6, EDGE_MARGIN=10\"\n  ],\n  \"reasoning_brief\": \"模型几何结构正确，执行稳定，但核心尺寸和孔位置与需求不符，且缺少圆角特征。\"\n}\n```\n\n### 示例 2\n\n输入:\n```\n用户需求: 创建一个 M6 螺栓的六角头\n\n生成代码:\n```python\nimport cadquery as cq\n\nimport math\n\n# M6 螺栓参数\ndiameter = 6.0\nhead_width = 10.0\nhead_height = 4.0\n\n# 创建六角头\nresult = (\n    cq.Workplane(\"XY\")\n    .polygon(6, head_width / 2)\n    .extrude(head_height)\n)\n```\n\n执行结果: 成功\n预览图: 显示正六棱柱\n```\n\n评估:\n```json\n{\n  \"overall_semantic_score\": 0.95,\n  \"confidence\": 0.95,\n  \"dimension_scores\": {\n    \"requirement_fidelity\": 1.00,\n    \"geometric_reasonableness\": 0.95,\n    \"manufacturability_proxy\": 0.90,\n    \"code_quality_proxy\": 0.90,\n    \"execution_stability\": 1.00\n  },\n  \"major_issues\": [],\n  \"suggestions\": [\n    \"考虑添加螺纹特征（对于完整螺栓）\",\n    \"可以添加螺栓杆身部分\",\n    \"考虑添加倒角特征以提高装配性\"\n  ],\n  \"reasoning_brief\": \"完全符合需求，六角头几何正确，尺寸符合 M6 标准。代码简洁清晰，使用参数化设计。\"\n}\n```\n\n## 自我一致性检查\n\n在给出评分前，请自我检查：\n\n1. ✅ 我是否正确理解了用户需求？\n2. ✅ 我的评分是否符合评分标准？\n3. ✅ 我是否检查了所有维度？\n4. ✅ 我的理由是否充分？\n5. ✅ 我的建议是否具体可行？\n6. ✅ 我的置信度是否合理？\n\n如果发现任何不一致，请在 reasoning_brief 中说明。\n```\n\n---\n\n## 多轮对话 Prompt 设计\n\n### 1. 上下文管理 Prompt\n\n```markdown\n你是 CAD 建模助手，支持多轮对话和上下文管理。\n\n## 对话状态管理\n\n### 上下文记忆\n- 记忆用户的所有输入\n- 记忆每次操作的结果\n- 跟踪模型的当前状态\n- 记忆中间决策过程\n\n### 对话策略\n1. 每次回复前，检查当前模型状态\n2. 理解用户的新需求与之前工作的关系\n3. 解释你的理解，避免误解\n4. 逐步执行，每步确认\n\n## 引导式交互\n\n### 场景 1: 新建模型\n用户首次提出需求时：\n1. 分析需求\n2. 确认关键参数\n3. 提供参数化的建议值\n4. 执行并展示结果\n\n示例:\n用户: \"创建一个安装板\"\n助手: \"我理解您想创建一个安装板。为了准确建模，我需要确认一些参数：\n- 板的尺寸（长x宽x厚）？\n- 需要多少个安装孔？直径多大？\n- 孔的位置如何分布？\n- 是否需要圆角？\n\n我可以使用默认值：100x60x8mm，4个M6安装孔，四角分布，圆角半径2mm。是否使用这些参数继续？\"\n\n### 场景 2: 修改模型\n用户要求修改已有模型时：\n1. 识别要修改的特征\n2. 提供修改选项\n3. 执行修改\n4. 展示对比\n\n示例:\n用户: \"把孔改为 6 个，沿边缘均匀分布\"\n助手: \"明白，您想将 4 个角孔改为 6 个沿边缘均匀分布的孔。\n\n当前状态：\n- 板尺寸: 100x60x8mm\n- 现有孔: 4 个，分布在四角\n\n修改方案：\n- 每长边 2 个孔，短边 1 个孔\n- 孔径: 保持 8mm（如需修改请告知）\n- 距边缘: 保持 15mm\n\n执行修改：\n- [回退到添加孔之前的步骤]\n- [创建新的孔分布]\n\n继续吗？\"\n\n### 场景 3: 错误处理\n遇到错误时：\n1. 清晰描述错误\n2. 分析错误原因\n3. 提供解决方案\n4. 重试或回退\n\n示例:\n用户: \"给这个圆角添加倒角\"\n助手: \"抱歉，我无法对圆角边添加倒角，这在几何上是不兼容的操作。\n\n当前状态：\n- 模型: 100x60x8mm 矩形板\n- 已有特征: 四角孔、外边缘圆角（半径 2mm）\n\n问题分析：\n- 圆角后的边无法再添加倒角\n- 这会导致几何自相交\n\n解决方案：\n1. 回退圆角操作，先添加倒角，再添加圆角\n2. 只对其他非圆角边添加倒角\n3. 如果确实需要圆角边有倒角效果，可以增加圆角半径\n\n您希望采取哪种方案？\"\n\n### 场景 4: 不完整需求\n用户需求不明确时：\n1. 识别缺失信息\n2. 提供合理假设\n3. 询问确认\n4. 执行并迭代\n\n示例:\n用户: \"创建一个齿轮\"\n助手: \"要创建齿轮，我需要一些具体参数：\n\n必需参数：\n- 模数（决定齿轮尺寸）\n- 齿数\n- 压力角（通常为 20°）\n\n可选参数：\n- 齿宽\n- 中心孔直径\n- 键槽尺寸（如需）\n\n我可以使用标准参数创建一个示例齿轮：\n- 模数: 2\n- 齿数: 20\n- 压力角: 20°\n- 齿宽: 10mm\n- 中心孔: 10mm\n\n是否使用这些参数创建？或者请提供您的具体参数。\"\n\n## 对话总结\n\n### 每完成一个任务后，提供总结：\n```\n任务完成！\n\n创建的模型：\n- 尺寸: 100x60x8mm\n- 特征: 4个安装孔、圆角\n- 文件: model.step\n\n下一步建议：\n1. 导出为 STL 用于 3D 打印\n2. 创建工程图标注尺寸\n3. 进行装配检查\n\n其他可以做的修改：\n- 调整板尺寸\n- 修改孔的数量和位置\n- 更改圆角半径\n```\n\n## 历史记录格式\n\n维护结构化的对话历史：\n\n```json\n{\n  \"session_id\": \"uuid\",\n  \"started_at\": \"2026-03-12T10:00:00Z\",\n  \"model_state\": {\n    \"current_step\": 8,\n    \"features\": [...],\n    \"parameters\": {...}\n  },\n  \"conversation_history\": [\n    {\n      \"turn\": 1,\n      \"user_input\": \"...\",\n      \"assistant_response\": \"...\",\n      \"actions_performed\": [...],\n      \"model_state_after\": {...}\n    }\n  ]\n}\n```\n\n---\n\n## Few-Shot 学习设计\n\n### 1. Few-Shot 策略\n\n#### Zero-Shot（无示例）\n- 适用于：简单、标准化的任务\n- 优点：节省 token\n- 缺点：可能不够准确\n\n```\n用户: \"创建一个立方体\"\n助手: [直接生成代码]\n```\n\n#### One-Shot（单个示例）\n- 适用于：中等复杂度的任务\n- 优点：平衡准确性和效率\n- 缺点：示例可能不够全面\n\n```\n示例: [1 个完整示例]\n用户: \"创建一个圆柱体\"\n助手: [参考示例生成代码]\n```\n\n#### Few-Shot（多个示例）\n- 适用于：复杂、多样化的任务\n- 优点：准确度高，覆盖多种情况\n- 缺点：消耗较多 token\n\n```\n示例 1: [创建带孔的板]\n示例 2: [创建旋转体]\n示例 3: [创建复杂装配]\n\n用户: \"创建一个带凸台的法兰\"\n助手: [参考多个示例生成代码]\n```\n\n### 2. 示例选择策略\n\n#### 按任务类型选择\n```python\ndef select_examples(task_type: str) -\u003e List[Example]:\n    examples = {\n        \"simple_primitive\": [\n            create_box_example(),\n            create_cylinder_example()\n        ],\n        \"feature_based\": [\n            plate_with_holes_example(),\n            shaft_with_chamfer_example()\n        ],\n        \"assembly\": [\n            simple_assembly_example(),\n            constrained_assembly_example()\n        ]\n    }\n    return examples.get(task_type, [])\n```\n\n#### 按相似度选择\n```python\ndef select_similar_examples(query: str, examples: List[Example], k: int = 3):\n    \"\"\"选择与查询最相似的 k 个示例\"\"\"\n    # 计算查询与每个示例的相似度\n    similarities = [\n        cosine_similarity(query, ex.description)\n        for ex in examples\n    ]\n    # 返回最相似的 k 个\n    ranked = sorted(zip(examples, similarities), key=lambda x: -x[1])\n    return [ex for ex, _ in ranked[:k]]\n```\n\n### 3. 动态 Few-Shot 构建\n\n```python\nclass DynamicFewShotBuilder:\n    \"\"\"动态构建 Few-Shot 示例\"\"\"\n\n    def __init__(self, example_database: List[Example]):\n        self.database = example_database\n        self.embedding_model = load_model(\"sentence-transformers/all-MiniLM-L6-v2\")\n\n    def build_prompt(\n        self,\n        task_description: str,\n        max_examples: int = 3\n    ) -\u003e str:\n        \"\"\"构建带动态示例的 Prompt\"\"\"\n\n        # 1. 编码任务描述\n        task_embedding = self.embedding_model.encode(task_description)\n\n        # 2. 从数据库中检索相似示例\n        similar_examples = self._retrieve_similar(\n            task_embedding,\n            max_examples\n        )\n\n        # 3. 构建 Prompt\n        prompt_parts = [\n            \"你是一个 CAD 建模专家。\\n\",\n            \"以下是相似任务的参考示例：\\n\\n\"\n        ]\n\n        # 4. 添加示例\n        for i, example in enumerate(similar_examples, 1):\n            prompt_parts.append(f\"### 示例 {i}\\n\")\n            prompt_parts.append(f\"需求: {example.input}\\n\")\n            prompt_parts.append(f\"代码:\\n```python\\n{example.code}\\n```\\n\\n\")\n\n        # 5. 添加当前任务\n        prompt_parts.append(\"### 当前任务\\n\")\n        prompt_parts.append(f\"需求: {task_description}\\n\")\n        prompt_parts.append(\"请根据以上示例生成代码：\\n\")\n\n        return \"\".join(prompt_parts)\n\n    def _retrieve_similar(self, query_embedding, k: int):\n        \"\"\"检索最相似的示例\"\"\"\n        similarities = [\n            cosine_similarity(query_embedding, ex.embedding)\n            for ex in self.database\n        ]\n        indexed = list(enumerate(similarities))\n        indexed.sort(key=lambda x: -x[1])\n        return [self.database[i] for i, _ in indexed[:k]]\n```\n\n### 4. 示例质量标准\n\n好的 Few-Shot 示例应满足：\n\n| 标准 | 说明 |\n|------|------|\n| **代表性** | 能代表任务的主要模式 |\n| **多样性** | 覆盖不同的场景和边缘情况 |\n| **清晰性** | 代码和说明都清晰易懂 |\n| **正确性** | 示例本身必须是正确的 |\n| **简洁性** | 避免不必要的复杂 |\n\n---\n\n## 相关链接\n\n- [ACI 概念与迁移](/kb/aicad/aci-83mtzw)\n- [CAD Sandbox MCP 设计详解](/kb/aicad/cad-1sc89z)\n- [借助 LLM 的评价系统设计](/kb/aicad/doc-caoj8r)\n- [Agent 基础概念](/kb/aicad/agent-nzn0gk)\n- [Prompt Engineering 最佳实践](/kb/aicad/prompt-6jjhf7)\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"$Lf\",null,{\"document\":{\"slug\":\"prompt-jygudb\",\"title\":\"Prompt 设计\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"AICAD\",\"categoryId\":\"aicad\",\"content\":\"$10\",\"filePath\":\"ACI/Prompt 设计.md\",\"default\":{\"slug\":\"prompt-jygudb\",\"title\":\"Prompt 设计\",\"description\":\"\",\"date\":null,\"tags\":[],\"category\":\"AICAD\",\"categoryId\":\"aicad\",\"content\":\"$11\",\"filePath\":\"ACI/Prompt 设计.md\"}}}]\nc:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Prompt 设计 - AICAD | Jerry Xu\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Prompt 设计\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"5\",{\"name\":\"keywords\",\"content\":\"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:description\",\"content\":\"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:site_name\",\"content\":\"Jerry Xu\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:locale\",\"content\":\"zh_CN\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Jerry Xu - 徐劼瑞\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发\"}]]\n3:null\n"])</script></body></html>

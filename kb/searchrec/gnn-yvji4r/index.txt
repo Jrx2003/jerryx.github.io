@@ -1,0 +1,1244 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","searchrec","d"]
+5:["slug","gnn-yvji4r","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","searchrec","d"],{"children":[["slug","gnn-yvji4r","d"],{"children":["__PAGE__?{\"category\":\"searchrec\",\"slug\":\"gnn-yvji4r\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","searchrec","d"],{"children":[["slug","gnn-yvji4r","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T3d00,# GNN 基础与应用
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 50 分钟
+
+---
+
+## 目录
+
+1. [GNN 概述](#gnn-概述)
+2. [图卷积网络 (GCN)](#图卷积网络-gcn)
+3. [GraphSAGE](#graphsage)
+4. [图注意力网络 (GAT)](#图注意力网络-gat)
+5. [GNN 在推荐中的应用](#gnn-在推荐中的应用)
+6. [面试要点](#面试要点)
+
+---
+
+## GNN 概述
+
+### 什么是 GNN
+
+图神经网络 (Graph Neural Network) 专门处理图结构数据。
+
+```
+传统神经网络: 处理欧几里得数据 (图像、文本)
+GNN: 处理非欧几里得数据 (社交网络、知识图谱、推荐系统)
+
+图结构: G = (V, E)
+- V: 节点集合 (用户、商品)
+- E: 边集合 (交互关系)
+```
+
+### 推荐系统中的图
+
+| 图类型 | 节点 | 边 | 应用场景 |
+|--------|------|-----|----------|
+| 用户-商品二分图 | 用户、商品 | 交互 | 协同过滤 |
+| 社交网络 | 用户 | 好友关系 | 社交推荐 |
+| 知识图谱 | 实体 | 关系 | 知识增强推荐 |
+| 序列图 | 物品 | 时序关系 | 序列推荐 |
+
+---
+
+## 图卷积网络 (GCN)
+
+### 核心思想
+
+GCN 将卷积操作推广到图结构数据。
+
+```
+图卷积公式:
+H^(l+1) = σ(D^(-1/2) A D^(-1/2) H^(l) W^(l))
+
+其中:
+- A: 邻接矩阵
+- D: 度矩阵 (对角矩阵，D_ii = sum_j A_ij)
+- H^(l): 第 l 层节点特征
+- W^(l): 第 l 层可学习参数
+- σ: 激活函数
+```
+
+### GCN 实现
+
+```python
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+class GCNLayer(nn.Module):
+    """GCN 层"""
+
+    def __init__(self, in_features, out_features):
+        super().__init__()
+        self.linear = nn.Linear(in_features, out_features)
+
+    def forward(self, x, adj):
+        """
+        Args:
+            x: [N, in_features] 节点特征
+            adj: [N, N] 归一化邻接矩阵
+
+        Returns:
+            [N, out_features]
+        """
+        # 聚合邻居信息
+        x = torch.matmul(adj, x)
+
+        # 线性变换
+        x = self.linear(x)
+
+        return x
+
+
+class GCN(nn.Module):
+    """图卷积网络"""
+
+    def __init__(self, nfeat, nhid, nclass, dropout=0.5):
+        super().__init__()
+
+        self.gc1 = GCNLayer(nfeat, nhid)
+        self.gc2 = GCNLayer(nhid, nclass)
+        self.dropout = dropout
+
+    def forward(self, x, adj):
+        """
+        Args:
+            x: [N, nfeat] 输入特征
+            adj: [N, N] 归一化邻接矩阵
+        """
+        # 第一层
+        x = self.gc1(x, adj)
+        x = F.relu(x)
+        x = F.dropout(x, self.dropout, training=self.training)
+
+        # 第二层
+        x = self.gc2(x, adj)
+
+        return x
+
+
+def normalize_adj(adj):
+    """
+    对称归一化邻接矩阵: D^(-1/2) A D^(-1/2)
+
+    Args:
+        adj: [N, N] 邻接矩阵
+    """
+    # 添加自环
+    adj = adj + torch.eye(adj.size(0))
+
+    # 计算度矩阵
+    degree = adj.sum(dim=1)
+    degree_inv_sqrt = torch.pow(degree, -0.5)
+    degree_inv_sqrt[torch.isinf(degree_inv_sqrt)] = 0.
+
+    # D^(-1/2)
+    D_inv_sqrt = torch.diag(degree_inv_sqrt)
+
+    # D^(-1/2) A D^(-1/2)
+    normalized_adj = D_inv_sqrt @ adj @ D_inv_sqrt
+
+    return normalized_adj
+```
+
+---
+
+## GraphSAGE
+
+### 核心思想
+
+GraphSAGE (SAmple and agGreGatE) 通过采样邻居来扩展到大图。
+
+```
+GCN 的问题:
+- 需要完整的邻接矩阵
+- 内存消耗大
+- 不能处理动态图
+
+GraphSAGE 改进:
+- 采样固定数量的邻居
+- 支持归纳学习 (inductive)
+- 可扩展到大图
+```
+
+### GraphSAGE 实现
+
+```python
+class GraphSAGELayer(nn.Module):
+    """GraphSAGE 层"""
+
+    def __init__(self, in_features, out_features, aggregator='mean'):
+        super().__init__()
+
+        self.aggregator = aggregator
+
+        # 自身特征和邻居特征拼接后的线性变换
+        self.linear = nn.Linear(in_features * 2, out_features)
+
+    def forward(self, x, adj, sample_size=10):
+        """
+        Args:
+            x: [N, in_features] 节点特征
+            adj: [N, N] 邻接矩阵或邻居列表
+            sample_size: 每个节点采样的邻居数
+
+        Returns:
+            [N, out_features]
+        """
+        N = x.size(0)
+
+        # 采样并聚合邻居
+        neighbor_features = []
+
+        for i in range(N):
+            # 获取邻居
+            neighbors = adj[i].nonzero(as_tuple=True)[0]
+
+            # 采样邻居
+            if len(neighbors) > sample_size:
+                sampled = neighbors[torch.randperm(len(neighbors))[:sample_size]]
+            else:
+                sampled = neighbors
+
+            # 聚合
+            if len(sampled) > 0:
+                neighbor_feat = x[sampled]
+
+                if self.aggregator == 'mean':
+                    aggregated = neighbor_feat.mean(dim=0)
+                elif self.aggregator == 'max':
+                    aggregated = neighbor_feat.max(dim=0)[0]
+                elif self.aggregator == 'sum':
+                    aggregated = neighbor_feat.sum(dim=0)
+                else:
+                    aggregated = neighbor_feat.mean(dim=0)
+            else:
+                aggregated = torch.zeros_like(x[i])
+
+            neighbor_features.append(aggregated)
+
+        neighbor_features = torch.stack(neighbor_features)
+
+        # 拼接自身和邻居特征
+        combined = torch.cat([x, neighbor_features], dim=1)
+
+        # 线性变换
+        output = self.linear(combined)
+        output = F.relu(output)
+
+        return output
+
+
+class GraphSAGE(nn.Module):
+    """GraphSAGE 模型"""
+
+    def __init__(self, in_features, hidden_dims, num_classes,
+                 aggregator='mean', dropout=0.5):
+        super().__init__()
+
+        self.layers = nn.ModuleList()
+
+        # 构建多层
+        dims = [in_features] + hidden_dims
+        for i in range(len(hidden_dims)):
+            self.layers.append(
+                GraphSAGELayer(dims[i], dims[i+1], aggregator)
+            )
+
+        self.dropout = dropout
+        self.classifier = nn.Linear(hidden_dims[-1], num_classes)
+
+    def forward(self, x, adj):
+        """前向传播"""
+        for layer in self.layers:
+            x = layer(x, adj)
+            x = F.dropout(x, self.dropout, training=self.training)
+
+        # 节点分类
+        logits = self.classifier(x)
+
+        return logits
+
+    def get_embeddings(self, x, adj):
+        """获取节点嵌入 (用于推荐)"""
+        for layer in self.layers:
+            x = layer(x, adj)
+            x = F.dropout(x, self.dropout, training=self.training)
+
+        return x  # 节点嵌入
+```
+
+---
+
+## 图注意力网络 (GAT)
+
+### 核心思想
+
+GAT 使用注意力机制为不同邻居分配不同权重。
+
+```
+GCN: 所有邻居同等重要
+GAT: 学习邻居的重要性权重
+
+注意力系数:
+e_ij = a(W h_i, W h_j)
+α_ij = softmax_j(e_ij)
+
+更新规则:
+h_i' = σ(sum_j α_ij W h_j)
+```
+
+### GAT 实现
+
+```python
+class GATLayer(nn.Module):
+    """图注意力层"""
+
+    def __init__(self, in_features, out_features, num_heads=8,
+                 dropout=0.6, alpha=0.2, concat=True):
+        super().__init__()
+
+        self.in_features = in_features
+        self.out_features = out_features
+        self.num_heads = num_heads
+        self.concat = concat
+        self.dropout = dropout
+
+        # 多头注意力的权重矩阵
+        self.W = nn.Parameter(torch.zeros(
+            num_heads, in_features, out_features // num_heads
+        ))
+
+        # 注意力系数参数
+        self.a = nn.Parameter(torch.zeros(num_heads, 2 * (out_features // num_heads), 1))
+
+        self.leakyrelu = nn.LeakyReLU(alpha)
+
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        nn.init.xavier_uniform_(self.W)
+        nn.init.xavier_uniform_(self.a)
+
+    def forward(self, x, adj):
+        """
+        Args:
+            x: [N, in_features]
+            adj: [N, N] 邻接矩阵
+        """
+        N = x.size(0)
+
+        # 线性变换: [num_heads, N, out_features//num_heads]
+        h = torch.einsum('nd,hdo->hno', x, self.W)
+
+        # 计算注意力系数
+        # [h, N, 1, F'] 和 [h, 1, N, F'] 拼接 -> [h, N, N, 2F']
+        h_i = h.unsqueeze(2).expand(-1, -1, N, -1)
+        h_j = h.unsqueeze(1).expand(-1, N, -1, -1)
+
+        concat = torch.cat([h_i, h_j], dim=-1)
+
+        # e_ij = LeakyReLU(a^T [Wh_i || Wh_j])
+        e = self.leakyrelu(torch.einsum('hnmf,hfo->hnmo', concat, self.a).squeeze(-1))
+
+        # Mask (只考虑邻居)
+        mask = adj.unsqueeze(0).expand(self.num_heads, -1, -1)
+        e = e.masked_fill(mask == 0, float('-inf'))
+
+        # Softmax 归一化
+        alpha = F.softmax(e, dim=-1)
+        alpha = F.dropout(alpha, self.dropout, training=self.training)
+
+        # 加权聚合
+        h_prime = torch.einsum('hnn,hnd->hnd', alpha, h)
+
+        if self.concat:
+            # 拼接多头: [N, num_heads * (out_features//num_heads)]
+            return h_prime.reshape(N, -1)
+        else:
+            # 平均多头: [N, out_features//num_heads]
+            return h_prime.mean(dim=0)
+
+
+class GAT(nn.Module):
+    """图注意力网络"""
+
+    def __init__(self, nfeat, nhid, nclass, num_heads=8, dropout=0.6):
+        super().__init__()
+
+        self.gat1 = GATLayer(nfeat, nhid, num_heads=num_heads,
+                             dropout=dropout, concat=True)
+        self.gat2 = GATLayer(nhid * num_heads, nclass, num_heads=1,
+                             dropout=dropout, concat=False)
+
+    def forward(self, x, adj):
+        """前向传播"""
+        x = self.gat1(x, adj)
+        x = F.elu(x)
+        x = self.gat2(x, adj)
+
+        return x
+```
+
+---
+
+## GNN 在推荐中的应用
+
+### NGCF (Neural Graph Collaborative Filtering)
+
+```python
+class NGCFLayer(nn.Module):
+    """NGCF 层 - 神经图协同过滤"""
+
+    def __init__(self, in_features, out_features):
+        super().__init__()
+
+        # 不同传播路径的权重
+        self.W1 = nn.Linear(in_features, out_features)
+        self.W2 = nn.Linear(in_features, out_features)
+
+    def forward(self, x, adj):
+        """
+        传播规则:
+        e_u^(l+1) = LeakyReLU(m + e_u^l W1 + m ⊙ e_u^l W2)
+        其中 m = sum_{i in N_u} (e_i^l / sqrt(|N_u||N_i|))
+        """
+        # 归一化邻接矩阵
+        rowsum = adj.sum(dim=1)
+        d_inv_sqrt = torch.pow(rowsum, -0.5)
+        d_inv_sqrt[torch.isinf(d_inv_sqrt)] = 0.
+        norm_adj = d_inv_sqrt.unsqueeze(1) * adj * d_inv_sqrt.unsqueeze(0)
+
+        # 邻居聚合
+        neighbor_agg = torch.matmul(norm_adj, x)
+
+        # 消息传递
+        m1 = self.W1(neighbor_agg)
+        m2 = self.W2(neighbor_agg * x)
+
+        # 更新
+        output = m1 + m2 + x  # 残差连接
+        output = F.leaky_relu(output)
+
+        return output
+
+
+class NGCF(nn.Module):
+    """NGCF 模型"""
+
+    def __init__(self, n_users, n_items, embed_dim, n_layers=3, dropout=0.0):
+        super().__init__()
+
+        self.n_users = n_users
+        self.n_items = n_items
+        self.embed_dim = embed_dim
+        self.n_layers = n_layers
+
+        # 初始化嵌入
+        self.user_embedding = nn.Embedding(n_users, embed_dim)
+        self.item_embedding = nn.Embedding(n_items, embed_dim)
+
+        # NGCF 层
+        self.gnn_layers = nn.ModuleList([
+            NGCFLayer(embed_dim, embed_dim) for _ in range(n_layers)
+        ])
+
+        self.dropout = dropout
+
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        nn.init.xavier_uniform_(self.user_embedding.weight)
+        nn.init.xavier_uniform_(self.item_embedding.weight)
+
+    def forward(self, adj):
+        """
+        Args:
+            adj: [(n_users+n_items), (n_users+n_items)] 用户-物品二分图
+        """
+        # 初始嵌入
+        user_emb = self.user_embedding.weight
+        item_emb = self.item_embedding.weight
+
+        # 拼接用户和物品嵌入
+        all_emb = torch.cat([user_emb, item_emb], dim=0)
+
+        # 存储每层的嵌入
+        embs = [all_emb]
+
+        # 多层传播
+        for layer in self.gnn_layers:
+            all_emb = layer(all_emb, adj)
+            all_emb = F.dropout(all_emb, self.dropout, training=self.training)
+            embs.append(all_emb)
+
+        # 拼接所有层的嵌入
+        final_emb = torch.cat(embs, dim=1)  # [N, (n_layers+1) * embed_dim]
+
+        # 分离用户和物品嵌入
+        user_final_emb = final_emb[:self.n_users]
+        item_final_emb = final_emb[self.n_users:]
+
+        return user_final_emb, item_final_emb
+
+    def get_ratings(self, user_ids):
+        """预测评分"""
+        user_emb = self.user_embedding(user_ids)
+        item_emb = self.item_embedding.weight
+
+        ratings = torch.matmul(user_emb, item_emb.t())
+
+        return ratings
+```
+
+### LightGCN
+
+```python
+class LightGCN(nn.Module):
+    """
+    LightGCN - 轻量级图卷积网络
+
+    特点:
+    - 去除特征变换和非线性激活
+    - 只保留邻居聚合
+    - 更高效，性能更好
+    """
+
+    def __init__(self, n_users, n_items, embed_dim, n_layers=3):
+        super().__init__()
+
+        self.n_users = n_users
+        self.n_items = n_items
+        self.embed_dim = embed_dim
+        self.n_layers = n_layers
+
+        # 初始化嵌入
+        self.user_embedding = nn.Embedding(n_users, embed_dim)
+        self.item_embedding = nn.Embedding(n_items, embed_dim)
+
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        nn.init.xavier_uniform_(self.user_embedding.weight)
+        nn.init.xavier_uniform_(self.item_embedding.weight)
+
+    def forward(self, adj):
+        """
+        传播规则:
+        e^(k+1) = D^(-1/2) A D^(-1/2) e^k
+
+        简化: 没有 W 和激活函数
+        """
+        # 初始嵌入
+        all_emb = torch.cat([
+            self.user_embedding.weight,
+            self.item_embedding.weight
+        ], dim=0)
+
+        embs = [all_emb]
+
+        # 归一化邻接矩阵
+        rowsum = adj.sum(dim=1)
+        d_inv_sqrt = torch.pow(rowsum, -0.5)
+        d_inv_sqrt[torch.isinf(d_inv_sqrt)] = 0.
+        norm_adj = d_inv_sqrt.unsqueeze(1) * adj * d_inv_sqrt.unsqueeze(0)
+
+        # 多层传播 (只有聚合)
+        for _ in range(self.n_layers):
+            all_emb = torch.matmul(norm_adj, all_emb)
+            embs.append(all_emb)
+
+        # 平均所有层的嵌入
+        final_emb = sum(embs) / len(embs)
+
+        user_emb = final_emb[:self.n_users]
+        item_emb = final_emb[self.n_users:]
+
+        return user_emb, item_emb
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: GNN 相比传统方法的优点？**
+
+A:
+1. 显式建模关系结构
+2. 端到端学习
+3. 可融合多源信息
+4. 可扩展性强
+
+**Q2: GCN 和 GraphSAGE 的区别？**
+
+A:
+| 维度 | GCN | GraphSAGE |
+|------|-----|-----------|
+| 聚合 | 全图 | 采样邻居 |
+| 训练方式 | 直推式 | 归纳式 |
+| 扩展性 | 差 | 好 |
+
+**Q3: GAT 的注意力机制是什么？**
+
+A:
+- 为每个邻居学习一个权重
+- 通过可学习的注意力参数计算
+- 权重表示邻居的重要性
+
+**Q4: NGCF 和 LightGCN 的区别？**
+
+A:
+- NGCF: 包含特征变换、非线性激活
+- LightGCN: 只保留邻居聚合，更轻量、效果更好
+
+---
+
+## 相关文档
+
+- [协同过滤算法](/kb/searchrec/doc-3gfi0o) - 传统 CF
+- [DIN与DIEN](/kb/searchrec/din-z4srw3) - 深度推荐
+- [DeepFM家族](/kb/searchrec/deepfm-bgvg18) - 特征交叉
+
+---
+
+## 参考文献
+
+1. Kipf & Welling. "Semi-Supervised Classification with Graph Convolutional Networks". 2017.
+2. Hamilton et al. "Inductive Representation Learning on Large Graphs". 2017.
+3. Veličković et al. "Graph Attention Networks". 2018.
+4. Wang et al. "Neural Graph Collaborative Filtering". 2019.
+5. He et al. "LightGCN: Simplifying and Powering Graph Convolution Network". 2020.
+d:T3d00,# GNN 基础与应用
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 50 分钟
+
+---
+
+## 目录
+
+1. [GNN 概述](#gnn-概述)
+2. [图卷积网络 (GCN)](#图卷积网络-gcn)
+3. [GraphSAGE](#graphsage)
+4. [图注意力网络 (GAT)](#图注意力网络-gat)
+5. [GNN 在推荐中的应用](#gnn-在推荐中的应用)
+6. [面试要点](#面试要点)
+
+---
+
+## GNN 概述
+
+### 什么是 GNN
+
+图神经网络 (Graph Neural Network) 专门处理图结构数据。
+
+```
+传统神经网络: 处理欧几里得数据 (图像、文本)
+GNN: 处理非欧几里得数据 (社交网络、知识图谱、推荐系统)
+
+图结构: G = (V, E)
+- V: 节点集合 (用户、商品)
+- E: 边集合 (交互关系)
+```
+
+### 推荐系统中的图
+
+| 图类型 | 节点 | 边 | 应用场景 |
+|--------|------|-----|----------|
+| 用户-商品二分图 | 用户、商品 | 交互 | 协同过滤 |
+| 社交网络 | 用户 | 好友关系 | 社交推荐 |
+| 知识图谱 | 实体 | 关系 | 知识增强推荐 |
+| 序列图 | 物品 | 时序关系 | 序列推荐 |
+
+---
+
+## 图卷积网络 (GCN)
+
+### 核心思想
+
+GCN 将卷积操作推广到图结构数据。
+
+```
+图卷积公式:
+H^(l+1) = σ(D^(-1/2) A D^(-1/2) H^(l) W^(l))
+
+其中:
+- A: 邻接矩阵
+- D: 度矩阵 (对角矩阵，D_ii = sum_j A_ij)
+- H^(l): 第 l 层节点特征
+- W^(l): 第 l 层可学习参数
+- σ: 激活函数
+```
+
+### GCN 实现
+
+```python
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+class GCNLayer(nn.Module):
+    """GCN 层"""
+
+    def __init__(self, in_features, out_features):
+        super().__init__()
+        self.linear = nn.Linear(in_features, out_features)
+
+    def forward(self, x, adj):
+        """
+        Args:
+            x: [N, in_features] 节点特征
+            adj: [N, N] 归一化邻接矩阵
+
+        Returns:
+            [N, out_features]
+        """
+        # 聚合邻居信息
+        x = torch.matmul(adj, x)
+
+        # 线性变换
+        x = self.linear(x)
+
+        return x
+
+
+class GCN(nn.Module):
+    """图卷积网络"""
+
+    def __init__(self, nfeat, nhid, nclass, dropout=0.5):
+        super().__init__()
+
+        self.gc1 = GCNLayer(nfeat, nhid)
+        self.gc2 = GCNLayer(nhid, nclass)
+        self.dropout = dropout
+
+    def forward(self, x, adj):
+        """
+        Args:
+            x: [N, nfeat] 输入特征
+            adj: [N, N] 归一化邻接矩阵
+        """
+        # 第一层
+        x = self.gc1(x, adj)
+        x = F.relu(x)
+        x = F.dropout(x, self.dropout, training=self.training)
+
+        # 第二层
+        x = self.gc2(x, adj)
+
+        return x
+
+
+def normalize_adj(adj):
+    """
+    对称归一化邻接矩阵: D^(-1/2) A D^(-1/2)
+
+    Args:
+        adj: [N, N] 邻接矩阵
+    """
+    # 添加自环
+    adj = adj + torch.eye(adj.size(0))
+
+    # 计算度矩阵
+    degree = adj.sum(dim=1)
+    degree_inv_sqrt = torch.pow(degree, -0.5)
+    degree_inv_sqrt[torch.isinf(degree_inv_sqrt)] = 0.
+
+    # D^(-1/2)
+    D_inv_sqrt = torch.diag(degree_inv_sqrt)
+
+    # D^(-1/2) A D^(-1/2)
+    normalized_adj = D_inv_sqrt @ adj @ D_inv_sqrt
+
+    return normalized_adj
+```
+
+---
+
+## GraphSAGE
+
+### 核心思想
+
+GraphSAGE (SAmple and agGreGatE) 通过采样邻居来扩展到大图。
+
+```
+GCN 的问题:
+- 需要完整的邻接矩阵
+- 内存消耗大
+- 不能处理动态图
+
+GraphSAGE 改进:
+- 采样固定数量的邻居
+- 支持归纳学习 (inductive)
+- 可扩展到大图
+```
+
+### GraphSAGE 实现
+
+```python
+class GraphSAGELayer(nn.Module):
+    """GraphSAGE 层"""
+
+    def __init__(self, in_features, out_features, aggregator='mean'):
+        super().__init__()
+
+        self.aggregator = aggregator
+
+        # 自身特征和邻居特征拼接后的线性变换
+        self.linear = nn.Linear(in_features * 2, out_features)
+
+    def forward(self, x, adj, sample_size=10):
+        """
+        Args:
+            x: [N, in_features] 节点特征
+            adj: [N, N] 邻接矩阵或邻居列表
+            sample_size: 每个节点采样的邻居数
+
+        Returns:
+            [N, out_features]
+        """
+        N = x.size(0)
+
+        # 采样并聚合邻居
+        neighbor_features = []
+
+        for i in range(N):
+            # 获取邻居
+            neighbors = adj[i].nonzero(as_tuple=True)[0]
+
+            # 采样邻居
+            if len(neighbors) > sample_size:
+                sampled = neighbors[torch.randperm(len(neighbors))[:sample_size]]
+            else:
+                sampled = neighbors
+
+            # 聚合
+            if len(sampled) > 0:
+                neighbor_feat = x[sampled]
+
+                if self.aggregator == 'mean':
+                    aggregated = neighbor_feat.mean(dim=0)
+                elif self.aggregator == 'max':
+                    aggregated = neighbor_feat.max(dim=0)[0]
+                elif self.aggregator == 'sum':
+                    aggregated = neighbor_feat.sum(dim=0)
+                else:
+                    aggregated = neighbor_feat.mean(dim=0)
+            else:
+                aggregated = torch.zeros_like(x[i])
+
+            neighbor_features.append(aggregated)
+
+        neighbor_features = torch.stack(neighbor_features)
+
+        # 拼接自身和邻居特征
+        combined = torch.cat([x, neighbor_features], dim=1)
+
+        # 线性变换
+        output = self.linear(combined)
+        output = F.relu(output)
+
+        return output
+
+
+class GraphSAGE(nn.Module):
+    """GraphSAGE 模型"""
+
+    def __init__(self, in_features, hidden_dims, num_classes,
+                 aggregator='mean', dropout=0.5):
+        super().__init__()
+
+        self.layers = nn.ModuleList()
+
+        # 构建多层
+        dims = [in_features] + hidden_dims
+        for i in range(len(hidden_dims)):
+            self.layers.append(
+                GraphSAGELayer(dims[i], dims[i+1], aggregator)
+            )
+
+        self.dropout = dropout
+        self.classifier = nn.Linear(hidden_dims[-1], num_classes)
+
+    def forward(self, x, adj):
+        """前向传播"""
+        for layer in self.layers:
+            x = layer(x, adj)
+            x = F.dropout(x, self.dropout, training=self.training)
+
+        # 节点分类
+        logits = self.classifier(x)
+
+        return logits
+
+    def get_embeddings(self, x, adj):
+        """获取节点嵌入 (用于推荐)"""
+        for layer in self.layers:
+            x = layer(x, adj)
+            x = F.dropout(x, self.dropout, training=self.training)
+
+        return x  # 节点嵌入
+```
+
+---
+
+## 图注意力网络 (GAT)
+
+### 核心思想
+
+GAT 使用注意力机制为不同邻居分配不同权重。
+
+```
+GCN: 所有邻居同等重要
+GAT: 学习邻居的重要性权重
+
+注意力系数:
+e_ij = a(W h_i, W h_j)
+α_ij = softmax_j(e_ij)
+
+更新规则:
+h_i' = σ(sum_j α_ij W h_j)
+```
+
+### GAT 实现
+
+```python
+class GATLayer(nn.Module):
+    """图注意力层"""
+
+    def __init__(self, in_features, out_features, num_heads=8,
+                 dropout=0.6, alpha=0.2, concat=True):
+        super().__init__()
+
+        self.in_features = in_features
+        self.out_features = out_features
+        self.num_heads = num_heads
+        self.concat = concat
+        self.dropout = dropout
+
+        # 多头注意力的权重矩阵
+        self.W = nn.Parameter(torch.zeros(
+            num_heads, in_features, out_features // num_heads
+        ))
+
+        # 注意力系数参数
+        self.a = nn.Parameter(torch.zeros(num_heads, 2 * (out_features // num_heads), 1))
+
+        self.leakyrelu = nn.LeakyReLU(alpha)
+
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        nn.init.xavier_uniform_(self.W)
+        nn.init.xavier_uniform_(self.a)
+
+    def forward(self, x, adj):
+        """
+        Args:
+            x: [N, in_features]
+            adj: [N, N] 邻接矩阵
+        """
+        N = x.size(0)
+
+        # 线性变换: [num_heads, N, out_features//num_heads]
+        h = torch.einsum('nd,hdo->hno', x, self.W)
+
+        # 计算注意力系数
+        # [h, N, 1, F'] 和 [h, 1, N, F'] 拼接 -> [h, N, N, 2F']
+        h_i = h.unsqueeze(2).expand(-1, -1, N, -1)
+        h_j = h.unsqueeze(1).expand(-1, N, -1, -1)
+
+        concat = torch.cat([h_i, h_j], dim=-1)
+
+        # e_ij = LeakyReLU(a^T [Wh_i || Wh_j])
+        e = self.leakyrelu(torch.einsum('hnmf,hfo->hnmo', concat, self.a).squeeze(-1))
+
+        # Mask (只考虑邻居)
+        mask = adj.unsqueeze(0).expand(self.num_heads, -1, -1)
+        e = e.masked_fill(mask == 0, float('-inf'))
+
+        # Softmax 归一化
+        alpha = F.softmax(e, dim=-1)
+        alpha = F.dropout(alpha, self.dropout, training=self.training)
+
+        # 加权聚合
+        h_prime = torch.einsum('hnn,hnd->hnd', alpha, h)
+
+        if self.concat:
+            # 拼接多头: [N, num_heads * (out_features//num_heads)]
+            return h_prime.reshape(N, -1)
+        else:
+            # 平均多头: [N, out_features//num_heads]
+            return h_prime.mean(dim=0)
+
+
+class GAT(nn.Module):
+    """图注意力网络"""
+
+    def __init__(self, nfeat, nhid, nclass, num_heads=8, dropout=0.6):
+        super().__init__()
+
+        self.gat1 = GATLayer(nfeat, nhid, num_heads=num_heads,
+                             dropout=dropout, concat=True)
+        self.gat2 = GATLayer(nhid * num_heads, nclass, num_heads=1,
+                             dropout=dropout, concat=False)
+
+    def forward(self, x, adj):
+        """前向传播"""
+        x = self.gat1(x, adj)
+        x = F.elu(x)
+        x = self.gat2(x, adj)
+
+        return x
+```
+
+---
+
+## GNN 在推荐中的应用
+
+### NGCF (Neural Graph Collaborative Filtering)
+
+```python
+class NGCFLayer(nn.Module):
+    """NGCF 层 - 神经图协同过滤"""
+
+    def __init__(self, in_features, out_features):
+        super().__init__()
+
+        # 不同传播路径的权重
+        self.W1 = nn.Linear(in_features, out_features)
+        self.W2 = nn.Linear(in_features, out_features)
+
+    def forward(self, x, adj):
+        """
+        传播规则:
+        e_u^(l+1) = LeakyReLU(m + e_u^l W1 + m ⊙ e_u^l W2)
+        其中 m = sum_{i in N_u} (e_i^l / sqrt(|N_u||N_i|))
+        """
+        # 归一化邻接矩阵
+        rowsum = adj.sum(dim=1)
+        d_inv_sqrt = torch.pow(rowsum, -0.5)
+        d_inv_sqrt[torch.isinf(d_inv_sqrt)] = 0.
+        norm_adj = d_inv_sqrt.unsqueeze(1) * adj * d_inv_sqrt.unsqueeze(0)
+
+        # 邻居聚合
+        neighbor_agg = torch.matmul(norm_adj, x)
+
+        # 消息传递
+        m1 = self.W1(neighbor_agg)
+        m2 = self.W2(neighbor_agg * x)
+
+        # 更新
+        output = m1 + m2 + x  # 残差连接
+        output = F.leaky_relu(output)
+
+        return output
+
+
+class NGCF(nn.Module):
+    """NGCF 模型"""
+
+    def __init__(self, n_users, n_items, embed_dim, n_layers=3, dropout=0.0):
+        super().__init__()
+
+        self.n_users = n_users
+        self.n_items = n_items
+        self.embed_dim = embed_dim
+        self.n_layers = n_layers
+
+        # 初始化嵌入
+        self.user_embedding = nn.Embedding(n_users, embed_dim)
+        self.item_embedding = nn.Embedding(n_items, embed_dim)
+
+        # NGCF 层
+        self.gnn_layers = nn.ModuleList([
+            NGCFLayer(embed_dim, embed_dim) for _ in range(n_layers)
+        ])
+
+        self.dropout = dropout
+
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        nn.init.xavier_uniform_(self.user_embedding.weight)
+        nn.init.xavier_uniform_(self.item_embedding.weight)
+
+    def forward(self, adj):
+        """
+        Args:
+            adj: [(n_users+n_items), (n_users+n_items)] 用户-物品二分图
+        """
+        # 初始嵌入
+        user_emb = self.user_embedding.weight
+        item_emb = self.item_embedding.weight
+
+        # 拼接用户和物品嵌入
+        all_emb = torch.cat([user_emb, item_emb], dim=0)
+
+        # 存储每层的嵌入
+        embs = [all_emb]
+
+        # 多层传播
+        for layer in self.gnn_layers:
+            all_emb = layer(all_emb, adj)
+            all_emb = F.dropout(all_emb, self.dropout, training=self.training)
+            embs.append(all_emb)
+
+        # 拼接所有层的嵌入
+        final_emb = torch.cat(embs, dim=1)  # [N, (n_layers+1) * embed_dim]
+
+        # 分离用户和物品嵌入
+        user_final_emb = final_emb[:self.n_users]
+        item_final_emb = final_emb[self.n_users:]
+
+        return user_final_emb, item_final_emb
+
+    def get_ratings(self, user_ids):
+        """预测评分"""
+        user_emb = self.user_embedding(user_ids)
+        item_emb = self.item_embedding.weight
+
+        ratings = torch.matmul(user_emb, item_emb.t())
+
+        return ratings
+```
+
+### LightGCN
+
+```python
+class LightGCN(nn.Module):
+    """
+    LightGCN - 轻量级图卷积网络
+
+    特点:
+    - 去除特征变换和非线性激活
+    - 只保留邻居聚合
+    - 更高效，性能更好
+    """
+
+    def __init__(self, n_users, n_items, embed_dim, n_layers=3):
+        super().__init__()
+
+        self.n_users = n_users
+        self.n_items = n_items
+        self.embed_dim = embed_dim
+        self.n_layers = n_layers
+
+        # 初始化嵌入
+        self.user_embedding = nn.Embedding(n_users, embed_dim)
+        self.item_embedding = nn.Embedding(n_items, embed_dim)
+
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        nn.init.xavier_uniform_(self.user_embedding.weight)
+        nn.init.xavier_uniform_(self.item_embedding.weight)
+
+    def forward(self, adj):
+        """
+        传播规则:
+        e^(k+1) = D^(-1/2) A D^(-1/2) e^k
+
+        简化: 没有 W 和激活函数
+        """
+        # 初始嵌入
+        all_emb = torch.cat([
+            self.user_embedding.weight,
+            self.item_embedding.weight
+        ], dim=0)
+
+        embs = [all_emb]
+
+        # 归一化邻接矩阵
+        rowsum = adj.sum(dim=1)
+        d_inv_sqrt = torch.pow(rowsum, -0.5)
+        d_inv_sqrt[torch.isinf(d_inv_sqrt)] = 0.
+        norm_adj = d_inv_sqrt.unsqueeze(1) * adj * d_inv_sqrt.unsqueeze(0)
+
+        # 多层传播 (只有聚合)
+        for _ in range(self.n_layers):
+            all_emb = torch.matmul(norm_adj, all_emb)
+            embs.append(all_emb)
+
+        # 平均所有层的嵌入
+        final_emb = sum(embs) / len(embs)
+
+        user_emb = final_emb[:self.n_users]
+        item_emb = final_emb[self.n_users:]
+
+        return user_emb, item_emb
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: GNN 相比传统方法的优点？**
+
+A:
+1. 显式建模关系结构
+2. 端到端学习
+3. 可融合多源信息
+4. 可扩展性强
+
+**Q2: GCN 和 GraphSAGE 的区别？**
+
+A:
+| 维度 | GCN | GraphSAGE |
+|------|-----|-----------|
+| 聚合 | 全图 | 采样邻居 |
+| 训练方式 | 直推式 | 归纳式 |
+| 扩展性 | 差 | 好 |
+
+**Q3: GAT 的注意力机制是什么？**
+
+A:
+- 为每个邻居学习一个权重
+- 通过可学习的注意力参数计算
+- 权重表示邻居的重要性
+
+**Q4: NGCF 和 LightGCN 的区别？**
+
+A:
+- NGCF: 包含特征变换、非线性激活
+- LightGCN: 只保留邻居聚合，更轻量、效果更好
+
+---
+
+## 相关文档
+
+- [协同过滤算法](/kb/searchrec/doc-3gfi0o) - 传统 CF
+- [DIN与DIEN](/kb/searchrec/din-z4srw3) - 深度推荐
+- [DeepFM家族](/kb/searchrec/deepfm-bgvg18) - 特征交叉
+
+---
+
+## 参考文献
+
+1. Kipf & Welling. "Semi-Supervised Classification with Graph Convolutional Networks". 2017.
+2. Hamilton et al. "Inductive Representation Learning on Large Graphs". 2017.
+3. Veličković et al. "Graph Attention Networks". 2018.
+4. Wang et al. "Neural Graph Collaborative Filtering". 2019.
+5. He et al. "LightGCN: Simplifying and Powering Graph Convolution Network". 2020.
+2:["$","$Lb",null,{"document":{"slug":"gnn-yvji4r","title":"GNN基础与应用","description":"","date":null,"tags":[],"category":"SearchRec","categoryId":"searchrec","content":"$c","filePath":"图神经网络/GNN基础与应用.md","default":{"slug":"gnn-yvji4r","title":"GNN基础与应用","description":"","date":null,"tags":[],"category":"SearchRec","categoryId":"searchrec","content":"$d","filePath":"图神经网络/GNN基础与应用.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"GNN基础与应用 - SearchRec | Jerry Xu"}],["$","meta","3",{"name":"description","content":"GNN基础与应用"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

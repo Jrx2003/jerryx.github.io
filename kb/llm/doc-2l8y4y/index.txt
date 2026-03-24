@@ -1,0 +1,1394 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","llm","d"]
+5:["slug","doc-2l8y4y","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-2l8y4y","d"],{"children":["__PAGE__?{\"category\":\"llm\",\"slug\":\"doc-2l8y4y\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","llm","d"],{"children":[["slug","doc-2l8y4y","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T498e,# 多模态基础架构
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 60 分钟
+
+---
+
+## 目录
+
+1. [多模态概述](#多模态概述)
+2. [视觉编码器](#视觉编码器)
+3. [多模态融合](#多模态融合)
+4. [CLIP 与对比学习](#clip-与对比学习)
+5. [视觉语言模型](#视觉语言模型)
+6. [面试要点](#面试要点)
+
+---
+
+## 多模态概述
+
+### 什么是多模态
+
+多模态模型能够处理和理解多种类型的数据（文本、图像、音频、视频）。
+
+```
+单模态: 文本 → 文本 (GPT)
+多模态: 文本 + 图像 → 文本 (GPT-4V)
+
+应用场景:
+- 图像描述生成
+- 视觉问答 (VQA)
+- 图文检索
+- 视频理解
+- 跨模态翻译
+```
+
+### 主流模型
+
+| 模型 | 发布时间 | 视觉编码器 | 特点 |
+|------|----------|------------|------|
+| CLIP | 2021 | ViT | 图文对比学习 |
+| BLIP-2 | 2023 | ViT + Q-Former | 冻结 LLM 训练 |
+| LLaVA | 2023 | CLIP ViT | 简单高效 |
+| GPT-4V | 2023 | 未知 | 商业最强 |
+| Gemini | 2023 | 原生多模态 | 端到端训练 |
+| Qwen-VL | 2024 | ViT | 中文支持好 |
+
+---
+
+## 视觉编码器
+
+### Vision Transformer (ViT)
+
+```python
+class VisionTransformer(nn.Module):
+    """视觉 Transformer"""
+
+    def __init__(self, img_size=224, patch_size=16, in_channels=3,
+                 embed_dim=768, depth=12, num_heads=12, mlp_ratio=4):
+        super().__init__()
+
+        self.patch_embed = PatchEmbed(
+            img_size=img_size,
+            patch_size=patch_size,
+            in_channels=in_channels,
+            embed_dim=embed_dim
+        )
+
+        # 位置编码
+        num_patches = self.patch_embed.num_patches
+        self.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, embed_dim))
+        self.cls_token = nn.Parameter(torch.zeros(1, 1, embed_dim))
+
+        # Transformer 块
+        self.blocks = nn.ModuleList([
+            TransformerBlock(embed_dim, num_heads, mlp_ratio)
+            for _ in range(depth)
+        ])
+
+        self.norm = nn.LayerNorm(embed_dim)
+
+    def forward(self, x):
+        """
+        x: [batch, 3, 224, 224]
+        output: [batch, num_patches+1, embed_dim]
+        """
+        batch_size = x.shape[0]
+
+        # 1. 图像分块
+        x = self.patch_embed(x)  # [batch, num_patches, embed_dim]
+
+        # 2. 添加 CLS token
+        cls_tokens = self.cls_token.expand(batch_size, -1, -1)
+        x = torch.cat([cls_tokens, x], dim=1)
+
+        # 3. 添加位置编码
+        x = x + self.pos_embed
+
+        # 4. Transformer 编码
+        for block in self.blocks:
+            x = block(x)
+
+        x = self.norm(x)
+
+        # 返回 CLS token 和所有 patch tokens
+        return x  # [batch, num_patches+1, embed_dim]
+
+
+class PatchEmbed(nn.Module):
+    """图像分块嵌入"""
+
+    def __init__(self, img_size=224, patch_size=16, in_channels=3, embed_dim=768):
+        super().__init__()
+
+        self.img_size = img_size
+        self.patch_size = patch_size
+        self.num_patches = (img_size // patch_size) ** 2
+
+        self.proj = nn.Conv2d(
+            in_channels, embed_dim,
+            kernel_size=patch_size,
+            stride=patch_size
+        )
+
+    def forward(self, x):
+        """
+        x: [batch, 3, 224, 224]
+        output: [batch, num_patches, embed_dim]
+        """
+        x = self.proj(x)  # [batch, embed_dim, 14, 14]
+        x = x.flatten(2)  # [batch, embed_dim, 196]
+        x = x.transpose(1, 2)  # [batch, 196, embed_dim]
+        return x
+```
+
+### Swin Transformer
+
+```python
+class SwinTransformerBlock(nn.Module):
+    """Swin Transformer 块 - 使用局部窗口注意力"""
+
+    def __init__(self, dim, num_heads, window_size=7, shift_size=0):
+        super().__init__()
+
+        self.dim = dim
+        self.num_heads = num_heads
+        self.window_size = window_size
+        self.shift_size = shift_size
+
+        self.norm1 = nn.LayerNorm(dim)
+        self.attn = WindowAttention(
+            dim, num_heads, window_size=window_size
+        )
+
+        self.norm2 = nn.LayerNorm(dim)
+        self.mlp = MLP(dim, int(dim * 4))
+
+    def forward(self, x, H, W):
+        """
+        x: [batch, H*W, dim]
+        """
+        shortcut = x
+        x = self.norm1(x)
+
+        # reshape 为 2D
+        x = x.view(-1, H, W, self.dim)
+
+        # cyclic shift
+        if self.shift_size > 0:
+            shifted_x = torch.roll(
+                x, shifts=(-self.shift_size, -self.shift_size), dims=(1, 2)
+            )
+        else:
+            shifted_x = x
+
+        # 划分窗口
+        x_windows = self.window_partition(shifted_x, self.window_size)
+        # x_windows: [num_windows*batch, window_size*window_size, dim]
+
+        # 窗口注意力
+        attn_windows = self.attn(x_windows)
+
+        # 合并窗口
+        shifted_x = self.window_reverse(attn_windows, self.window_size, H, W)
+
+        # reverse cyclic shift
+        if self.shift_size > 0:
+            x = torch.roll(
+                shifted_x, shifts=(self.shift_size, self.shift_size), dims=(1, 2)
+            )
+        else:
+            x = shifted_x
+
+        # reshape 回 1D
+        x = x.view(-1, H * W, self.dim)
+
+        # FFN
+        x = shortcut + x
+        x = x + self.mlp(self.norm2(x))
+
+        return x
+```
+
+---
+
+## 多模态融合
+
+### 早期融合 (Early Fusion)
+
+```python
+class EarlyFusion(nn.Module):
+    """早期融合: 在特征层面融合"""
+
+    def __init__(self, text_encoder, vision_encoder, fusion_dim):
+        super().__init__()
+
+        self.text_encoder = text_encoder
+        self.vision_encoder = vision_encoder
+
+        # 投影到统一空间
+        self.text_proj = nn.Linear(text_encoder.config.hidden_size, fusion_dim)
+        self.vision_proj = nn.Linear(vision_encoder.config.hidden_size, fusion_dim)
+
+        # 融合层
+        self.fusion_layer = nn.TransformerEncoderLayer(
+            d_model=fusion_dim,
+            nhead=8,
+            dim_feedforward=fusion_dim * 4
+        )
+
+    def forward(self, images, text_tokens):
+        # 编码
+        vision_features = self.vision_encoder(images)  # [batch, num_patches+1, v_dim]
+        text_features = self.text_encoder(text_tokens)  # [batch, seq_len, t_dim]
+
+        # 投影
+        vision_features = self.vision_proj(vision_features)
+        text_features = self.text_proj(text_features)
+
+        # 拼接并融合
+        combined = torch.cat([vision_features, text_features], dim=1)
+        fused = self.fusion_layer(combined)
+
+        return fused
+```
+
+### 晚期融合 (Late Fusion)
+
+```python
+class LateFusion(nn.Module):
+    """晚期融合: 分别编码后在高层融合"""
+
+    def __init__(self, text_encoder, vision_encoder, fusion_dim):
+        super().__init__()
+
+        self.text_encoder = text_encoder
+        self.vision_encoder = vision_encoder
+
+        # 投影到统一空间
+        self.text_proj = nn.Linear(text_encoder.config.hidden_size, fusion_dim)
+        self.vision_proj = nn.Linear(vision_encoder.config.hidden_size, fusion_dim)
+
+        # 融合层
+        self.fusion_mlp = nn.Sequential(
+            nn.Linear(fusion_dim * 2, fusion_dim),
+            nn.ReLU(),
+            nn.Linear(fusion_dim, fusion_dim)
+        )
+
+    def forward(self, images, text_tokens):
+        # 分别编码
+        vision_features = self.vision_encoder(images)
+        text_features = self.text_encoder(text_tokens)
+
+        # 取全局特征 (CLS token 或平均)
+        vision_global = vision_features[:, 0]  # CLS token
+        text_global = text_features[:, 0]  # [CLS] token
+
+        # 投影
+        vision_proj = self.vision_proj(vision_global)
+        text_proj = self.text_proj(text_global)
+
+        # 拼接并融合
+        combined = torch.cat([vision_proj, text_proj], dim=-1)
+        fused = self.fusion_mlp(combined)
+
+        return fused
+```
+
+### 门控融合
+
+```python
+class GatedFusion(nn.Module):
+    """门控多模态融合"""
+
+    def __init__(self, dim):
+        super().__init__()
+
+        # 门控网络
+        self.gate = nn.Sequential(
+            nn.Linear(dim * 2, dim),
+            nn.Sigmoid()
+        )
+
+        self.text_transform = nn.Linear(dim, dim)
+        self.vision_transform = nn.Linear(dim, dim)
+
+    def forward(self, text_features, vision_features):
+        """
+        text_features: [batch, seq_len, dim]
+        vision_features: [batch, num_patches, dim]
+        """
+        # 平均池化得到全局特征
+        text_global = text_features.mean(dim=1)
+        vision_global = vision_features.mean(dim=1)
+
+        # 计算门控权重
+        gate_input = torch.cat([text_global, vision_global], dim=-1)
+        gate = self.gate(gate_input)  # [batch, dim]
+
+        # 门控融合
+        text_trans = self.text_transform(text_global)
+        vision_trans = self.vision_transform(vision_global)
+
+        fused = gate * text_trans + (1 - gate) * vision_trans
+
+        return fused
+```
+
+---
+
+## CLIP 与对比学习
+
+### CLIP 架构
+
+```python
+class CLIP(nn.Module):
+    """
+    CLIP: Contrastive Language-Image Pre-training
+
+    核心思想: 使用对比学习对齐图文特征空间
+    """
+
+    def __init__(self, text_encoder, vision_encoder, embed_dim=512):
+        super().__init__()
+
+        self.text_encoder = text_encoder
+        self.vision_encoder = vision_encoder
+
+        # 投影头
+        self.text_projection = nn.Linear(
+            text_encoder.config.hidden_size, embed_dim
+        )
+        self.vision_projection = nn.Linear(
+            vision_encoder.config.hidden_size, embed_dim
+        )
+
+        self.logit_scale = nn.Parameter(torch.ones([]) * np.log(1 / 0.07))
+
+    def forward(self, images, text_tokens):
+        """
+        images: [batch, 3, 224, 224]
+        text_tokens: [batch, seq_len]
+
+        Returns:
+            logits_per_image: [batch, batch]
+            logits_per_text: [batch, batch]
+        """
+        # 编码
+        image_features = self.vision_encoder(images)
+        text_features = self.text_encoder(text_tokens)
+
+        # 取 CLS token
+        image_features = image_features[:, 0]
+        text_features = text_features[:, 0]
+
+        # 投影
+        image_features = self.vision_projection(image_features)
+        text_features = self.text_projection(text_features)
+
+        # L2 归一化
+        image_features = F.normalize(image_features, dim=-1)
+        text_features = F.normalize(text_features, dim=-1)
+
+        # 计算相似度
+        logit_scale = self.logit_scale.exp()
+        logits_per_image = logit_scale * image_features @ text_features.T
+        logits_per_text = logits_per_image.T
+
+        return logits_per_image, logits_per_text
+
+    def contrastive_loss(self, logits_per_image, logits_per_text):
+        """对比损失"""
+        batch_size = logits_per_image.shape[0]
+
+        # 对角线为正样本
+        labels = torch.arange(batch_size, device=logits_per_image.device)
+
+        # 对称损失
+        loss_i2t = F.cross_entropy(logits_per_image, labels)
+        loss_t2i = F.cross_entropy(logits_per_text, labels)
+
+        loss = (loss_i2t + loss_t2i) / 2
+
+        return loss
+```
+
+### 应用
+
+```python
+class CLIPApplications:
+    """CLIP 应用示例"""
+
+    def __init__(self, clip_model):
+        self.clip = clip_model
+
+    def image_text_retrieval(self, images, texts, k=5):
+        """图文检索"""
+
+        # 编码所有图像
+        image_features = []
+        for img in images:
+            feat = self.clip.encode_image(img)
+            image_features.append(feat)
+        image_features = torch.stack(image_features)
+
+        # 编码所有文本
+        text_features = []
+        for text in texts:
+            feat = self.clip.encode_text(text)
+            text_features.append(feat)
+        text_features = torch.stack(text_features)
+
+        # 计算相似度
+        similarity = image_features @ text_features.T
+
+        # Top-K 检索
+        top_k_indices = similarity.topk(k, dim=1).indices
+
+        return top_k_indices
+
+    def zero_shot_classification(self, image, class_names):
+        """零样本分类"""
+
+        # 构建 prompts
+        templates = [
+            "a photo of a {}",
+            "a blurry photo of a {}",
+            "a photo of many {}",
+        ]
+
+        # 编码所有类别的文本
+        text_features = []
+        for class_name in class_names:
+            # 使用多个模板取平均
+            texts = [template.format(class_name) for template in templates]
+            text_feats = [self.clip.encode_text(t) for t in texts]
+            text_features.append(torch.stack(text_feats).mean(dim=0))
+
+        text_features = torch.stack(text_features)
+
+        # 编码图像
+        image_feature = self.clip.encode_image(image)
+
+        # 计算相似度
+        similarity = image_feature @ text_features.T
+
+        # 预测
+        predicted_class = similarity.argmax(dim=-1)
+
+        return predicted_class
+```
+
+---
+
+## 视觉语言模型
+
+### LLaVA 架构
+
+```python
+class LLaVA(nn.Module):
+    """
+    LLaVA: Large Language and Vision Assistant
+
+    架构: 视觉编码器 + 投影层 + 冻结 LLM
+    """
+
+    def __init__(self, vision_encoder, llm, projection_dim=4096):
+        super().__init__()
+
+        # 视觉编码器 (冻结)
+        self.vision_encoder = vision_encoder
+        for param in self.vision_encoder.parameters():
+            param.requires_grad = False
+
+        # 投影层 (可训练)
+        self.mm_projector = nn.Sequential(
+            nn.Linear(vision_encoder.config.hidden_size, projection_dim),
+            nn.GELU(),
+            nn.Linear(projection_dim, llm.config.hidden_size)
+        )
+
+        # 大语言模型 (冻结或 LoRA)
+        self.llm = llm
+
+    def forward(self, images, text_tokens):
+        """
+        images: [batch, 3, 336, 336]
+        text_tokens: [batch, seq_len]
+        """
+        # 1. 视觉编码
+        with torch.no_grad():
+            vision_features = self.vision_encoder(images)
+
+        # 2. 投影到 LLM 空间
+        projected_features = self.mm_projector(vision_features)
+
+        # 3. 文本编码
+        text_embeds = self.llm.get_input_embeddings()(text_tokens)
+
+        # 4. 拼接
+        # 找到 <image> token 的位置，用视觉特征替换
+        combined_embeds = self.insert_vision_tokens(
+            text_embeds, projected_features
+        )
+
+        # 5. LLM 生成
+        outputs = self.llm(inputs_embeds=combined_embeds)
+
+        return outputs
+
+    def generate(self, image, prompt, max_new_tokens=512):
+        """生成回答"""
+
+        # 构建对话格式
+        full_prompt = f"USER: <image>\n{prompt}\nASSISTANT:"
+
+        # 编码
+        inputs = self.tokenizer(full_prompt, return_tensors="pt")
+
+        # 生成
+        outputs = self.llm.generate(
+            **inputs,
+            max_new_tokens=max_new_tokens,
+            temperature=0.2,
+            do_sample=True
+        )
+
+        response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+        # 提取 ASSISTANT 的回答
+        return response.split("ASSISTANT:")[-1].strip()
+```
+
+### Q-Former (BLIP-2)
+
+```python
+class QFormer(nn.Module):
+    """
+    Q-Former: 查询 Transformer，用于压缩视觉特征
+
+    BLIP-2 中的关键组件
+    """
+
+    def __init__(self, num_query_tokens=32, encoder_width=1408,
+                 hidden_size=768, num_hidden_layers=12):
+        super().__init__()
+
+        # 可学习的查询 token
+        self.query_tokens = nn.Parameter(
+            torch.zeros(1, num_query_tokens, hidden_size)
+        )
+
+        # Q-Former (双向 Transformer)
+        self.qformer = BertLMHeadModel(
+            config=BertConfig(
+                hidden_size=hidden_size,
+                num_hidden_layers=num_hidden_layers,
+                is_decoder=False  # 双向注意力
+            )
+        )
+
+        # 投影到 LLM 维度
+        self.llm_proj = nn.Linear(hidden_size, 4096)
+
+    def forward(self, image_embeds, text_tokens=None):
+        """
+        image_embeds: [batch, num_patches, encoder_width]
+        text_tokens: [batch, text_len] (可选)
+
+        Returns:
+            query_output: [batch, num_query_tokens, llm_dim]
+        """
+        batch_size = image_embeds.shape[0]
+
+        # 扩展查询 token
+        query_tokens = self.query_tokens.expand(batch_size, -1, -1)
+
+        # 如果提供了文本，拼接
+        if text_tokens is not None:
+            text_embeds = self.qformer.embeddings(text_tokens)
+            input_embeds = torch.cat([query_tokens, text_embeds], dim=1)
+        else:
+            input_embeds = query_tokens
+
+        # 构建 attention mask
+        # 查询 token 可以看到图像特征，但看不到彼此（防止信息泄露）
+        # 这里简化为标准 attention
+
+        # 通过 Q-Former
+        outputs = self.qformer(
+            inputs_embeds=input_embeds,
+            encoder_hidden_states=image_embeds,
+            return_dict=True
+        )
+
+        # 提取查询 token 的输出
+        query_output = outputs.last_hidden_state[:, :self.num_query_tokens]
+
+        # 投影到 LLM 维度
+        query_output = self.llm_proj(query_output)
+
+        return query_output
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: 多模态融合有哪些方式？**
+
+A:
+| 方式 | 特点 | 代表模型 |
+|------|------|----------|
+| 早期融合 | 特征层融合，信息丰富 | ViLBERT |
+| 晚期融合 | 高层融合，计算高效 | CLIP |
+| 中期融合 | 多层交互 | ViLT |
+| 门控融合 | 自适应权重 | - |
+
+**Q2: CLIP 的对比学习损失是什么？**
+
+A:
+```python
+# 对称损失
+loss = (loss_image_to_text + loss_text_to_image) / 2
+
+# 其中
+loss_i2t = cross_entropy(logits_i2t, labels)  # 图像到文本
+loss_t2i = cross_entropy(logits_t2i, labels)  # 文本到图像
+
+# logits = temperature * image_features @ text_features.T
+```
+
+**Q3: LLaVA 和 BLIP-2 的区别？**
+
+A:
+| 维度 | LLaVA | BLIP-2 |
+|------|-------|--------|
+| 视觉编码 | CLIP ViT | EVA-CLIP |
+| 连接方式 | 简单 MLP | Q-Former |
+| 训练策略 | 端到端 | 分阶段 |
+| 特点 | 简单高效 | 更好的视觉理解 |
+
+**Q4: 如何实现零样本分类？**
+
+A:
+1. 将类别名转换为文本描述（如 "a photo of a dog"）
+2. 使用 CLIP 分别编码图像和所有类别的文本
+3. 计算图像与各类别的相似度
+4. 选择相似度最高的类别作为预测结果
+
+---
+
+## 相关文档
+
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [BERT与编码器模型](/kb/llm/bert-174ici) - 文本编码器
+- [预训练技术/GPT系列模型演进](/kb/llm/doc-d5cavi) - 语言模型
+
+---
+
+## 参考文献
+
+1. Radford et al. "Learning Transferable Visual Models From Natural Language Supervision". 2021.
+2. Liu et al. "Visual Instruction Tuning". 2023.
+3. Li et al. "BLIP-2: Bootstrapping Language-Image Pre-training". 2023.
+4. Dosovitskiy et al. "An Image is Worth 16x16 Words". 2021.
+d:T498e,# 多模态基础架构
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 中级
+> **预计阅读时间**: 60 分钟
+
+---
+
+## 目录
+
+1. [多模态概述](#多模态概述)
+2. [视觉编码器](#视觉编码器)
+3. [多模态融合](#多模态融合)
+4. [CLIP 与对比学习](#clip-与对比学习)
+5. [视觉语言模型](#视觉语言模型)
+6. [面试要点](#面试要点)
+
+---
+
+## 多模态概述
+
+### 什么是多模态
+
+多模态模型能够处理和理解多种类型的数据（文本、图像、音频、视频）。
+
+```
+单模态: 文本 → 文本 (GPT)
+多模态: 文本 + 图像 → 文本 (GPT-4V)
+
+应用场景:
+- 图像描述生成
+- 视觉问答 (VQA)
+- 图文检索
+- 视频理解
+- 跨模态翻译
+```
+
+### 主流模型
+
+| 模型 | 发布时间 | 视觉编码器 | 特点 |
+|------|----------|------------|------|
+| CLIP | 2021 | ViT | 图文对比学习 |
+| BLIP-2 | 2023 | ViT + Q-Former | 冻结 LLM 训练 |
+| LLaVA | 2023 | CLIP ViT | 简单高效 |
+| GPT-4V | 2023 | 未知 | 商业最强 |
+| Gemini | 2023 | 原生多模态 | 端到端训练 |
+| Qwen-VL | 2024 | ViT | 中文支持好 |
+
+---
+
+## 视觉编码器
+
+### Vision Transformer (ViT)
+
+```python
+class VisionTransformer(nn.Module):
+    """视觉 Transformer"""
+
+    def __init__(self, img_size=224, patch_size=16, in_channels=3,
+                 embed_dim=768, depth=12, num_heads=12, mlp_ratio=4):
+        super().__init__()
+
+        self.patch_embed = PatchEmbed(
+            img_size=img_size,
+            patch_size=patch_size,
+            in_channels=in_channels,
+            embed_dim=embed_dim
+        )
+
+        # 位置编码
+        num_patches = self.patch_embed.num_patches
+        self.pos_embed = nn.Parameter(torch.zeros(1, num_patches + 1, embed_dim))
+        self.cls_token = nn.Parameter(torch.zeros(1, 1, embed_dim))
+
+        # Transformer 块
+        self.blocks = nn.ModuleList([
+            TransformerBlock(embed_dim, num_heads, mlp_ratio)
+            for _ in range(depth)
+        ])
+
+        self.norm = nn.LayerNorm(embed_dim)
+
+    def forward(self, x):
+        """
+        x: [batch, 3, 224, 224]
+        output: [batch, num_patches+1, embed_dim]
+        """
+        batch_size = x.shape[0]
+
+        # 1. 图像分块
+        x = self.patch_embed(x)  # [batch, num_patches, embed_dim]
+
+        # 2. 添加 CLS token
+        cls_tokens = self.cls_token.expand(batch_size, -1, -1)
+        x = torch.cat([cls_tokens, x], dim=1)
+
+        # 3. 添加位置编码
+        x = x + self.pos_embed
+
+        # 4. Transformer 编码
+        for block in self.blocks:
+            x = block(x)
+
+        x = self.norm(x)
+
+        # 返回 CLS token 和所有 patch tokens
+        return x  # [batch, num_patches+1, embed_dim]
+
+
+class PatchEmbed(nn.Module):
+    """图像分块嵌入"""
+
+    def __init__(self, img_size=224, patch_size=16, in_channels=3, embed_dim=768):
+        super().__init__()
+
+        self.img_size = img_size
+        self.patch_size = patch_size
+        self.num_patches = (img_size // patch_size) ** 2
+
+        self.proj = nn.Conv2d(
+            in_channels, embed_dim,
+            kernel_size=patch_size,
+            stride=patch_size
+        )
+
+    def forward(self, x):
+        """
+        x: [batch, 3, 224, 224]
+        output: [batch, num_patches, embed_dim]
+        """
+        x = self.proj(x)  # [batch, embed_dim, 14, 14]
+        x = x.flatten(2)  # [batch, embed_dim, 196]
+        x = x.transpose(1, 2)  # [batch, 196, embed_dim]
+        return x
+```
+
+### Swin Transformer
+
+```python
+class SwinTransformerBlock(nn.Module):
+    """Swin Transformer 块 - 使用局部窗口注意力"""
+
+    def __init__(self, dim, num_heads, window_size=7, shift_size=0):
+        super().__init__()
+
+        self.dim = dim
+        self.num_heads = num_heads
+        self.window_size = window_size
+        self.shift_size = shift_size
+
+        self.norm1 = nn.LayerNorm(dim)
+        self.attn = WindowAttention(
+            dim, num_heads, window_size=window_size
+        )
+
+        self.norm2 = nn.LayerNorm(dim)
+        self.mlp = MLP(dim, int(dim * 4))
+
+    def forward(self, x, H, W):
+        """
+        x: [batch, H*W, dim]
+        """
+        shortcut = x
+        x = self.norm1(x)
+
+        # reshape 为 2D
+        x = x.view(-1, H, W, self.dim)
+
+        # cyclic shift
+        if self.shift_size > 0:
+            shifted_x = torch.roll(
+                x, shifts=(-self.shift_size, -self.shift_size), dims=(1, 2)
+            )
+        else:
+            shifted_x = x
+
+        # 划分窗口
+        x_windows = self.window_partition(shifted_x, self.window_size)
+        # x_windows: [num_windows*batch, window_size*window_size, dim]
+
+        # 窗口注意力
+        attn_windows = self.attn(x_windows)
+
+        # 合并窗口
+        shifted_x = self.window_reverse(attn_windows, self.window_size, H, W)
+
+        # reverse cyclic shift
+        if self.shift_size > 0:
+            x = torch.roll(
+                shifted_x, shifts=(self.shift_size, self.shift_size), dims=(1, 2)
+            )
+        else:
+            x = shifted_x
+
+        # reshape 回 1D
+        x = x.view(-1, H * W, self.dim)
+
+        # FFN
+        x = shortcut + x
+        x = x + self.mlp(self.norm2(x))
+
+        return x
+```
+
+---
+
+## 多模态融合
+
+### 早期融合 (Early Fusion)
+
+```python
+class EarlyFusion(nn.Module):
+    """早期融合: 在特征层面融合"""
+
+    def __init__(self, text_encoder, vision_encoder, fusion_dim):
+        super().__init__()
+
+        self.text_encoder = text_encoder
+        self.vision_encoder = vision_encoder
+
+        # 投影到统一空间
+        self.text_proj = nn.Linear(text_encoder.config.hidden_size, fusion_dim)
+        self.vision_proj = nn.Linear(vision_encoder.config.hidden_size, fusion_dim)
+
+        # 融合层
+        self.fusion_layer = nn.TransformerEncoderLayer(
+            d_model=fusion_dim,
+            nhead=8,
+            dim_feedforward=fusion_dim * 4
+        )
+
+    def forward(self, images, text_tokens):
+        # 编码
+        vision_features = self.vision_encoder(images)  # [batch, num_patches+1, v_dim]
+        text_features = self.text_encoder(text_tokens)  # [batch, seq_len, t_dim]
+
+        # 投影
+        vision_features = self.vision_proj(vision_features)
+        text_features = self.text_proj(text_features)
+
+        # 拼接并融合
+        combined = torch.cat([vision_features, text_features], dim=1)
+        fused = self.fusion_layer(combined)
+
+        return fused
+```
+
+### 晚期融合 (Late Fusion)
+
+```python
+class LateFusion(nn.Module):
+    """晚期融合: 分别编码后在高层融合"""
+
+    def __init__(self, text_encoder, vision_encoder, fusion_dim):
+        super().__init__()
+
+        self.text_encoder = text_encoder
+        self.vision_encoder = vision_encoder
+
+        # 投影到统一空间
+        self.text_proj = nn.Linear(text_encoder.config.hidden_size, fusion_dim)
+        self.vision_proj = nn.Linear(vision_encoder.config.hidden_size, fusion_dim)
+
+        # 融合层
+        self.fusion_mlp = nn.Sequential(
+            nn.Linear(fusion_dim * 2, fusion_dim),
+            nn.ReLU(),
+            nn.Linear(fusion_dim, fusion_dim)
+        )
+
+    def forward(self, images, text_tokens):
+        # 分别编码
+        vision_features = self.vision_encoder(images)
+        text_features = self.text_encoder(text_tokens)
+
+        # 取全局特征 (CLS token 或平均)
+        vision_global = vision_features[:, 0]  # CLS token
+        text_global = text_features[:, 0]  # [CLS] token
+
+        # 投影
+        vision_proj = self.vision_proj(vision_global)
+        text_proj = self.text_proj(text_global)
+
+        # 拼接并融合
+        combined = torch.cat([vision_proj, text_proj], dim=-1)
+        fused = self.fusion_mlp(combined)
+
+        return fused
+```
+
+### 门控融合
+
+```python
+class GatedFusion(nn.Module):
+    """门控多模态融合"""
+
+    def __init__(self, dim):
+        super().__init__()
+
+        # 门控网络
+        self.gate = nn.Sequential(
+            nn.Linear(dim * 2, dim),
+            nn.Sigmoid()
+        )
+
+        self.text_transform = nn.Linear(dim, dim)
+        self.vision_transform = nn.Linear(dim, dim)
+
+    def forward(self, text_features, vision_features):
+        """
+        text_features: [batch, seq_len, dim]
+        vision_features: [batch, num_patches, dim]
+        """
+        # 平均池化得到全局特征
+        text_global = text_features.mean(dim=1)
+        vision_global = vision_features.mean(dim=1)
+
+        # 计算门控权重
+        gate_input = torch.cat([text_global, vision_global], dim=-1)
+        gate = self.gate(gate_input)  # [batch, dim]
+
+        # 门控融合
+        text_trans = self.text_transform(text_global)
+        vision_trans = self.vision_transform(vision_global)
+
+        fused = gate * text_trans + (1 - gate) * vision_trans
+
+        return fused
+```
+
+---
+
+## CLIP 与对比学习
+
+### CLIP 架构
+
+```python
+class CLIP(nn.Module):
+    """
+    CLIP: Contrastive Language-Image Pre-training
+
+    核心思想: 使用对比学习对齐图文特征空间
+    """
+
+    def __init__(self, text_encoder, vision_encoder, embed_dim=512):
+        super().__init__()
+
+        self.text_encoder = text_encoder
+        self.vision_encoder = vision_encoder
+
+        # 投影头
+        self.text_projection = nn.Linear(
+            text_encoder.config.hidden_size, embed_dim
+        )
+        self.vision_projection = nn.Linear(
+            vision_encoder.config.hidden_size, embed_dim
+        )
+
+        self.logit_scale = nn.Parameter(torch.ones([]) * np.log(1 / 0.07))
+
+    def forward(self, images, text_tokens):
+        """
+        images: [batch, 3, 224, 224]
+        text_tokens: [batch, seq_len]
+
+        Returns:
+            logits_per_image: [batch, batch]
+            logits_per_text: [batch, batch]
+        """
+        # 编码
+        image_features = self.vision_encoder(images)
+        text_features = self.text_encoder(text_tokens)
+
+        # 取 CLS token
+        image_features = image_features[:, 0]
+        text_features = text_features[:, 0]
+
+        # 投影
+        image_features = self.vision_projection(image_features)
+        text_features = self.text_projection(text_features)
+
+        # L2 归一化
+        image_features = F.normalize(image_features, dim=-1)
+        text_features = F.normalize(text_features, dim=-1)
+
+        # 计算相似度
+        logit_scale = self.logit_scale.exp()
+        logits_per_image = logit_scale * image_features @ text_features.T
+        logits_per_text = logits_per_image.T
+
+        return logits_per_image, logits_per_text
+
+    def contrastive_loss(self, logits_per_image, logits_per_text):
+        """对比损失"""
+        batch_size = logits_per_image.shape[0]
+
+        # 对角线为正样本
+        labels = torch.arange(batch_size, device=logits_per_image.device)
+
+        # 对称损失
+        loss_i2t = F.cross_entropy(logits_per_image, labels)
+        loss_t2i = F.cross_entropy(logits_per_text, labels)
+
+        loss = (loss_i2t + loss_t2i) / 2
+
+        return loss
+```
+
+### 应用
+
+```python
+class CLIPApplications:
+    """CLIP 应用示例"""
+
+    def __init__(self, clip_model):
+        self.clip = clip_model
+
+    def image_text_retrieval(self, images, texts, k=5):
+        """图文检索"""
+
+        # 编码所有图像
+        image_features = []
+        for img in images:
+            feat = self.clip.encode_image(img)
+            image_features.append(feat)
+        image_features = torch.stack(image_features)
+
+        # 编码所有文本
+        text_features = []
+        for text in texts:
+            feat = self.clip.encode_text(text)
+            text_features.append(feat)
+        text_features = torch.stack(text_features)
+
+        # 计算相似度
+        similarity = image_features @ text_features.T
+
+        # Top-K 检索
+        top_k_indices = similarity.topk(k, dim=1).indices
+
+        return top_k_indices
+
+    def zero_shot_classification(self, image, class_names):
+        """零样本分类"""
+
+        # 构建 prompts
+        templates = [
+            "a photo of a {}",
+            "a blurry photo of a {}",
+            "a photo of many {}",
+        ]
+
+        # 编码所有类别的文本
+        text_features = []
+        for class_name in class_names:
+            # 使用多个模板取平均
+            texts = [template.format(class_name) for template in templates]
+            text_feats = [self.clip.encode_text(t) for t in texts]
+            text_features.append(torch.stack(text_feats).mean(dim=0))
+
+        text_features = torch.stack(text_features)
+
+        # 编码图像
+        image_feature = self.clip.encode_image(image)
+
+        # 计算相似度
+        similarity = image_feature @ text_features.T
+
+        # 预测
+        predicted_class = similarity.argmax(dim=-1)
+
+        return predicted_class
+```
+
+---
+
+## 视觉语言模型
+
+### LLaVA 架构
+
+```python
+class LLaVA(nn.Module):
+    """
+    LLaVA: Large Language and Vision Assistant
+
+    架构: 视觉编码器 + 投影层 + 冻结 LLM
+    """
+
+    def __init__(self, vision_encoder, llm, projection_dim=4096):
+        super().__init__()
+
+        # 视觉编码器 (冻结)
+        self.vision_encoder = vision_encoder
+        for param in self.vision_encoder.parameters():
+            param.requires_grad = False
+
+        # 投影层 (可训练)
+        self.mm_projector = nn.Sequential(
+            nn.Linear(vision_encoder.config.hidden_size, projection_dim),
+            nn.GELU(),
+            nn.Linear(projection_dim, llm.config.hidden_size)
+        )
+
+        # 大语言模型 (冻结或 LoRA)
+        self.llm = llm
+
+    def forward(self, images, text_tokens):
+        """
+        images: [batch, 3, 336, 336]
+        text_tokens: [batch, seq_len]
+        """
+        # 1. 视觉编码
+        with torch.no_grad():
+            vision_features = self.vision_encoder(images)
+
+        # 2. 投影到 LLM 空间
+        projected_features = self.mm_projector(vision_features)
+
+        # 3. 文本编码
+        text_embeds = self.llm.get_input_embeddings()(text_tokens)
+
+        # 4. 拼接
+        # 找到 <image> token 的位置，用视觉特征替换
+        combined_embeds = self.insert_vision_tokens(
+            text_embeds, projected_features
+        )
+
+        # 5. LLM 生成
+        outputs = self.llm(inputs_embeds=combined_embeds)
+
+        return outputs
+
+    def generate(self, image, prompt, max_new_tokens=512):
+        """生成回答"""
+
+        # 构建对话格式
+        full_prompt = f"USER: <image>\n{prompt}\nASSISTANT:"
+
+        # 编码
+        inputs = self.tokenizer(full_prompt, return_tensors="pt")
+
+        # 生成
+        outputs = self.llm.generate(
+            **inputs,
+            max_new_tokens=max_new_tokens,
+            temperature=0.2,
+            do_sample=True
+        )
+
+        response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+        # 提取 ASSISTANT 的回答
+        return response.split("ASSISTANT:")[-1].strip()
+```
+
+### Q-Former (BLIP-2)
+
+```python
+class QFormer(nn.Module):
+    """
+    Q-Former: 查询 Transformer，用于压缩视觉特征
+
+    BLIP-2 中的关键组件
+    """
+
+    def __init__(self, num_query_tokens=32, encoder_width=1408,
+                 hidden_size=768, num_hidden_layers=12):
+        super().__init__()
+
+        # 可学习的查询 token
+        self.query_tokens = nn.Parameter(
+            torch.zeros(1, num_query_tokens, hidden_size)
+        )
+
+        # Q-Former (双向 Transformer)
+        self.qformer = BertLMHeadModel(
+            config=BertConfig(
+                hidden_size=hidden_size,
+                num_hidden_layers=num_hidden_layers,
+                is_decoder=False  # 双向注意力
+            )
+        )
+
+        # 投影到 LLM 维度
+        self.llm_proj = nn.Linear(hidden_size, 4096)
+
+    def forward(self, image_embeds, text_tokens=None):
+        """
+        image_embeds: [batch, num_patches, encoder_width]
+        text_tokens: [batch, text_len] (可选)
+
+        Returns:
+            query_output: [batch, num_query_tokens, llm_dim]
+        """
+        batch_size = image_embeds.shape[0]
+
+        # 扩展查询 token
+        query_tokens = self.query_tokens.expand(batch_size, -1, -1)
+
+        # 如果提供了文本，拼接
+        if text_tokens is not None:
+            text_embeds = self.qformer.embeddings(text_tokens)
+            input_embeds = torch.cat([query_tokens, text_embeds], dim=1)
+        else:
+            input_embeds = query_tokens
+
+        # 构建 attention mask
+        # 查询 token 可以看到图像特征，但看不到彼此（防止信息泄露）
+        # 这里简化为标准 attention
+
+        # 通过 Q-Former
+        outputs = self.qformer(
+            inputs_embeds=input_embeds,
+            encoder_hidden_states=image_embeds,
+            return_dict=True
+        )
+
+        # 提取查询 token 的输出
+        query_output = outputs.last_hidden_state[:, :self.num_query_tokens]
+
+        # 投影到 LLM 维度
+        query_output = self.llm_proj(query_output)
+
+        return query_output
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: 多模态融合有哪些方式？**
+
+A:
+| 方式 | 特点 | 代表模型 |
+|------|------|----------|
+| 早期融合 | 特征层融合，信息丰富 | ViLBERT |
+| 晚期融合 | 高层融合，计算高效 | CLIP |
+| 中期融合 | 多层交互 | ViLT |
+| 门控融合 | 自适应权重 | - |
+
+**Q2: CLIP 的对比学习损失是什么？**
+
+A:
+```python
+# 对称损失
+loss = (loss_image_to_text + loss_text_to_image) / 2
+
+# 其中
+loss_i2t = cross_entropy(logits_i2t, labels)  # 图像到文本
+loss_t2i = cross_entropy(logits_t2i, labels)  # 文本到图像
+
+# logits = temperature * image_features @ text_features.T
+```
+
+**Q3: LLaVA 和 BLIP-2 的区别？**
+
+A:
+| 维度 | LLaVA | BLIP-2 |
+|------|-------|--------|
+| 视觉编码 | CLIP ViT | EVA-CLIP |
+| 连接方式 | 简单 MLP | Q-Former |
+| 训练策略 | 端到端 | 分阶段 |
+| 特点 | 简单高效 | 更好的视觉理解 |
+
+**Q4: 如何实现零样本分类？**
+
+A:
+1. 将类别名转换为文本描述（如 "a photo of a dog"）
+2. 使用 CLIP 分别编码图像和所有类别的文本
+3. 计算图像与各类别的相似度
+4. 选择相似度最高的类别作为预测结果
+
+---
+
+## 相关文档
+
+- [Transformer详解](/kb/llm/transformer-f5ihl6) - 基础架构
+- [BERT与编码器模型](/kb/llm/bert-174ici) - 文本编码器
+- [预训练技术/GPT系列模型演进](/kb/llm/doc-d5cavi) - 语言模型
+
+---
+
+## 参考文献
+
+1. Radford et al. "Learning Transferable Visual Models From Natural Language Supervision". 2021.
+2. Liu et al. "Visual Instruction Tuning". 2023.
+3. Li et al. "BLIP-2: Bootstrapping Language-Image Pre-training". 2023.
+4. Dosovitskiy et al. "An Image is Worth 16x16 Words". 2021.
+2:["$","$Lb",null,{"document":{"slug":"doc-2l8y4y","title":"多模态基础架构","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$c","filePath":"多模态/多模态基础架构.md","default":{"slug":"doc-2l8y4y","title":"多模态基础架构","description":"","date":null,"tags":[],"category":"LLM","categoryId":"llm","content":"$d","filePath":"多模态/多模态基础架构.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"多模态基础架构 - LLM | Jerry Xu"}],["$","meta","3",{"name":"description","content":"多模态基础架构"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

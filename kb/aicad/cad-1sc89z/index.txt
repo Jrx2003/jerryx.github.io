@@ -1,0 +1,1462 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","aicad","d"]
+5:["slug","cad-1sc89z","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","cad-1sc89z","d"],{"children":["__PAGE__?{\"category\":\"aicad\",\"slug\":\"cad-1sc89z\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","aicad","d"],{"children":[["slug","cad-1sc89z","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T50f7,# CAD Sandbox MCP 设计详解
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地讲解 CAD Sandbox MCP 的设计原理和实现细节
+
+---
+
+## 目录
+
+1. [Sandbox MCP 架构概览](#sandbox-mcp-架构概览)
+2. [核心组件设计](#核心组件设计)
+3. [执行流程详解](#执行流程详解)
+4. [产物管理](#产物管理)
+5. [安全机制](#安全机制)
+6. [性能优化](#性能优化)
+
+---
+
+## Sandbox MCP 架构概览
+
+### 整体架构
+
+```
+┌─────────────────────────────────────────────┐
+│              LLM / SubAgent         │
+│              (调用方)                 │
+└──────────────────┬──────────────────────┘
+                 │ stdio/HTTP
+                 ↓
+┌──────────────────────────────────────┐
+│         MCP Client                 │
+│    (libs/sandbox)               │
+└──────────────────┬──────────────────┘
+                 │ stdio
+                 ↓
+┌──────────────────────────────────────┐
+│    Sandbox MCP Server             │
+│    (sandbox_mcp_server)          │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  Tool Registration     │  │
+│  │  (list_tools)          │  │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  Tool Execution      │  │
+│  │  (call_tool)           │  │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  Service Layer       │  │
+│  │  (SandboxMCPService) │  │
+│  │  - Evidence Builder  │  │
+│  │  - Rule Evaluator   │  │
+│  │  - LLM Judge        │  │
+│  │  - Score Merger      │  │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  Runner Layer        │  │
+│  │  (DockerSandboxRunner) │  │
+│  │  - Docker API         │  │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  CadQuery Runtime   │  │
+│  │  (Docker 容器)       │  │
+│  └────────────────────────────┘  │
+└──────────────────────────────────────┘
+```
+
+---
+
+## 核心组件设计
+
+### 1. MCP Server 层
+
+#### Server 初始化
+
+```python
+# sandbox_mcp_server/server.py
+
+from mcp.server import Server
+from pydantic import BaseModel
+
+class SandboxTools(str, Enum):
+    EXECUTE_CADQUERY = "execute_cadquery"
+    APPLY_CAD_ACTION = "apply_cad_action"
+    GET_HISTORY = "get_history"
+    QUERY_SNAPSHOT = "query_snapshot"
+    QUERY_GEOMETRY = "query_geometry"
+
+# 创建服务器实例
+server = Server("sandbox-mcp-server")
+```
+
+#### Tool 注册
+
+```python
+@server.list_tools()
+async def list_tools():
+    """注册所有工具"""
+    tools = [
+        {
+            "name": SandboxTools.EXECUTE_CADQUERY.value,
+            "description": "Execute CadQuery Python code in sandbox",
+            "inputSchema": build_execute_cadquery_schema()
+        },
+        {
+            "name": SandboxTools.APPLY_CAD_ACTION.value,
+            "description": "Apply CAD action in iterative mode",
+            "inputSchema": build_apply_cad_action_schema()
+        },
+        {
+            "name": SandboxTools.GET_HISTORY.value,
+            "description": "Get action history for a session",
+            "inputSchema": build_get_history_schema()
+        }
+    ]
+    return tools
+```
+
+---
+
+### 2. Service 层
+
+#### SandboxMCPService 类
+
+```python
+# sandbox_mcp_server/service.py
+
+from typing import Optional
+from pydantic import BaseModel
+
+class SandboxMCPService:
+    """Sandbox MCP 核心服务类"""
+
+    def __init__(
+        self,
+        sandbox_runner: DockerSandboxRunner,
+        llm_client: LLMClient,
+        llm_judge_enabled: bool = False,
+        benchmark_index_path: Optional[str] = None
+    ):
+        self.sandbox_runner = sandbox_runner
+        self.llm_client = llm_client
+        self.llm_judge_enabled = llm_judge_enabled
+        self.benchmark_index_path = benchmark_index_path
+
+    async def execute_cadquery(
+        self,
+        code: str,
+        timeout_seconds: int = 120,
+        include_artifact_content: bool = True,
+        benchmark_sample_id: Optional[str] = None,
+        requirement_text: Optional[str] = None
+    ) -> CadQueryResult:
+        """执行 CadQuery 代码"""
+        # 1. 在 sandbox 中执行代码
+        execution_result = await self.sandbox_runner.execute(
+            code=code,
+            timeout_seconds=timeout_seconds
+        )
+
+        # 2. 处理执行失败
+        if not execution_result.success:
+            return CadQueryResult(
+                success=False,
+                error_code=execution_result.error_code,
+                error_message=execution_result.error_message
+            )
+
+        # 3. 构建证据
+        evidence = self._build_evidence(
+            code=code,
+            execution_result=execution_result,
+            requirement_text=requirement_text
+        )
+
+        # 4. 执行评估
+        if self.llm_judge_enabled:
+            evaluation = await self._evaluate_with_llm_judge(evidence)
+        elif benchmark_sample_id:
+            evaluation = await self._evaluate_with_ground_truth(
+                execution_result,
+                benchmark_sample_id
+            )
+        else:
+            evaluation = None
+
+        # 5. 返回结果
+        return CadQueryResult(
+            success=True,
+            output_files=execution_result.output_files,
+            artifacts=self._process_artifacts(
+                execution_result.artifacts,
+                include_artifact_content
+            ),
+            evaluation=evaluation
+        )
+```
+
+---
+
+### 3. Evidence Builder
+
+```python
+# sandbox_mcp_server/evidence_builder.py
+
+class EvidenceBuilder:
+    """证据构建器 - 收集评估所需的所有信息"""
+
+    def build(
+        self,
+        code: str,
+        execution_result: SandboxExecutionResult,
+        requirement_text: Optional[str] = None
+    ) -> EvidenceBundle:
+        """构建完整的证据包"""
+
+        return EvidenceBundle(
+            request_context=self._build_request_context(code, requirement_text),
+            execution_context=self._build_execution_context(execution_result),
+            artifact_context=self._build_artifact_context(execution_result),
+            code_context=self._build_code_context(code),
+            meta=self._build_meta(),
+            trace=self._build_trace()
+        )
+
+    def _build_request_context(self, code: str, requirement_text: str) -> RequestContext:
+        """构建请求上下文"""
+        return RequestContext(
+            user_prompt=requirement_text or "",
+            user_code=code
+        )
+
+    def _build_execution_context(self, result: SandboxExecutionResult) -> ExecutionContext:
+        """构建执行上下文"""
+        return ExecutionContext(
+            success=result.success,
+            error_code=result.error_code,
+            stderr=result.stderr,
+            timeout=result.timeout
+        )
+
+    def _build_artifact_context(self, result: SandboxExecutionResult) -> ArtifactContext:
+        """构建产物上下文"""
+        has_step = "model.step" in result.output_files
+        return ArtifactContext(
+            has_step=has_step,
+            step_filename="model.step" if has_step else None,
+            step_size_bytes=self._get_file_size(result.output_files, "model.step"),
+            has_preview=len(result.artifacts) > 0
+        )
+```
+
+---
+
+### 4. Rule Evaluator
+
+```python
+# sandbox_mcp_server/rule_evaluator.py
+
+class RuleEvaluator:
+    """规则评估器 - 硬性规则检查"""
+
+    RULES = {
+        "missing_step_max_score": 0.20,
+        "empty_artifact_max_score": 0.30,
+        "timeout_max_score": 0.10,
+        "execution_error_max_score": 0.0
+    }
+
+    def evaluate(self, evidence: EvidenceBundle) -> RuleResult:
+        """执行规则评估"""
+
+        score_cap = 1.0  # 默认无上限
+
+        # 规则 1: 无 STEP 产物
+        if not evidence.artifact_context.has_step:
+            score_cap = self.RULES["missing_step_max_score"]
+
+        # 规则 2: 空文件
+        elif evidence.artifact_context.step_size_bytes < 100:
+            score_cap = self.RULES["empty_artifact_max_score"]
+
+        # 规则 3: 超时
+        elif evidence.execution_context.timeout:
+            score_cap = self.RULES["timeout_max_score"]
+
+        # 规则 4: 执行错误
+        elif not evidence.execution_context.success:
+            score_cap = self.RULES["execution_error_max_score"]
+
+        return RuleResult(
+            passed=True,
+            score_cap=score_cap,
+            violations=self._detect_violations(evidence)
+        )
+```
+
+---
+
+### 5. LLM Judge
+
+```python
+# sandbox_mcp_server/llm_judge.py
+
+class LLMJudgeEvaluator:
+    """LLM Judge 评估器"""
+
+    def __init__(self, llm_client: LLMClient, rubric: RubricConfig):
+        self.llm_client = llm_client
+        self.rubric = rubric
+
+    async def evaluate(self, evidence: EvidenceBundle) -> LLMJudgeResult:
+        """执行 LLM Judge 评估"""
+
+        # 1. 构建 prompt
+        prompt = self._build_prompt(evidence)
+
+        # 2. 调用 LLM
+        raw_response = await self.llm_client.generate_json(
+            model=self.rubric.judge_model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        # 3. Schema 校验
+        validated = self._validate_schema(raw_response)
+        if not validated.ok:
+            # 重试一次
+            raw_response = await self.llm_client.generate_json(
+                model=self.rubric.judge_model,
+                messages=[{"role": "user", "content": prompt + "\n\n重要：请严格按照 JSON schema 输出"}]
+            )
+            validated = self._validate_schema(raw_response)
+
+        # 4. 解析结果
+        result = validated.parsed
+
+        # 5. 计算分数
+        score = self._calculate_weighted_score(result.dimension_scores, self.rubric.weights)
+
+        return LLMJudgeResult(
+            status="success",
+            score=score,
+            confidence=result.confidence,
+            dimension_scores=result.dimension_scores,
+            major_issues=result.major_issues,
+            suggestions=result.suggestions
+        )
+```
+
+---
+
+### 6. Score Merger
+
+```python
+# sandbox_mcp_server/score_merger.py
+
+class ScoreMerger:
+    """分数合并器 - 合并规则评估和 LLM Judge 结果"""
+
+    def merge(
+        self,
+        rule_result: RuleResult,
+        llm_result: Optional[LLMJudgeResult],
+        rubric_config: RubricConfig
+    ) -> Evaluation:
+        """合并评估结果"""
+
+        # 1. 应用规则封顶
+        final_score = 1.0
+        if llm_result:
+            final_score = min(llm_result.score, rule_result.score_cap)
+        else:
+            final_score = rule_result.score_cap
+
+        # 2. 构建评估对象
+        evaluation = Evaluation(
+            mode="llm_judge" if llm_result else "rule_only",
+            status="success" if llm_result else rule_result.to_status(),
+            score=final_score,
+            details=EvaluationDetails(
+                rule_result=rule_result.to_dict(),
+                llm_result=llm_result.to_dict() if llm_result else None,
+                rubric_version=rubric_config.version
+            )
+        )
+
+        return evaluation
+```
+
+---
+
+## 执行流程详解
+
+### 1. execute_cadquery 完整流程
+
+```python
+async def execute_cadquery_tool(arguments):
+    """execute_cadquery 工具的完整实现"""
+
+    # 1. 参数验证
+    code = arguments.get("code")
+    timeout = arguments.get("timeout", 120)
+
+    # 2. 执行代码
+    execution = await sandbox_runner.execute(code, timeout)
+
+    # 3. 收集产物
+    artifacts = collect_artifacts(execution.output_directory)
+
+    # 4. 构建证据
+    evidence = evidence_builder.build(
+        code=code,
+        execution_result=execution,
+        requirement_text=arguments.get("requirement_text")
+    )
+
+    # 5. 规则评估
+    rule_result = rule_evaluator.evaluate(evidence)
+
+    # 6. LLM Judge 评估（如果启用）
+    if llm_judge_enabled:
+        llm_result = await llm_judge.evaluate(evidence)
+    elif benchmark_sample_id:
+        llm_result = ground_truth_evaluator.evaluate(
+            execution, benchmark_sample_id
+        )
+    else:
+        llm_result = None
+
+    # 7. 合并分数
+    evaluation = score_merger.merge(rule_result, llm_result)
+
+    # 8. 构建响应
+    return ToolResponse(
+        content=[TextContent(type="text", text=format_summary(evaluation))],
+        artifacts=build_artifact_contents(artifacts)
+    )
+```
+
+---
+
+### 2. apply_cad_action 完整流程
+
+```python
+async def apply_cad_action_tool(arguments):
+    """apply_cad_action 工具的完整实现"""
+
+    # 1. 获取或创建会话
+    session_id = arguments.get("session_id", generate_id())
+    session = session_manager.get_or_create_session(session_id)
+
+    # 2. 解析动作
+    action = parse_action(arguments["action"])
+
+    # 3. 执行动作
+    result = await session.execute_action(action)
+
+    # 4. 追加到历史
+    action_entry = ActionHistoryEntry(
+        step=session.current_step,
+        action_type=action.type,
+        params=action.params,
+        snapshot=result.snapshot,
+        success=result.success,
+        error=result.error
+    )
+    session_manager.append_action(session_id, action_entry)
+
+    # 5. 生成建议和完整性
+    suggestions = generate_suggestions(result.snapshot)
+    completeness = generate_completeness(session, result.snapshot)
+
+    # 6. 构建响应
+    return ToolResponse(
+        content=[
+            TextContent(type="text", text=f"执行动作: {action.type}"),
+            TextContent(type="text", text=format_suggestions(suggestions)),
+            TextContent(type="text", text=format_completeness(completeness))
+        ],
+        action_history=session_manager.get_session_history(session_id)
+    )
+```
+
+---
+
+## 产物管理
+
+### 产物类型
+
+```python
+from enum import Enum
+
+class ArtifactType(Enum):
+    STEP_FILE = "step_file"
+    PREVIEW_IMAGE = "preview_image"
+    GEOMETRY_DATA = "geometry_data"
+    LOG_FILE = "log_file"
+```
+
+### 产物收集
+
+```python
+def collect_artifacts(output_dir: Path) -> list[Artifact]:
+    """收集所有产物"""
+
+    artifacts = []
+
+    # 1. STEP 文件
+    step_path = output_dir / "model.step"
+    if step_path.exists():
+        artifacts.append(Artifact(
+            type=ArtifactType.STEP_FILE,
+            path=str(step_path),
+            size_bytes=step_path.stat().st_size,
+            mime_type="model/step"
+        ))
+
+    # 2. 预览图
+    preview_pattern = "preview_*.png"
+    for preview_path in output_dir.glob(preview_pattern):
+        artifacts.append(Artifact(
+            type=ArtifactType.PREVIEW_IMAGE,
+            path=str(preview_path),
+            size_bytes=preview_path.stat().st_size,
+            mime_type="image/png"
+        ))
+
+    # 3. 日志文件
+    log_path = output_dir / "execution.log"
+    if log_path.exists():
+        artifacts.append(Artifact(
+            type=ArtifactType.LOG_FILE,
+            path=str(log_path),
+            size_bytes=log_path.stat().st_size,
+            mime_type="text/plain"
+        ))
+
+    return artifacts
+```
+
+---
+
+### 产物内容编码
+
+```python
+def encode_artifact_content(file_path: Path) -> str:
+    """将文件内容编码为 base64"""
+
+    with open(file_path, "rb") as f:
+        content = f.read()
+
+    # 对于大文件，限制大小
+    max_size = 6 * 1024 * 1024  # 6MB
+    if len(content) > max_size:
+        return None  # 不返回大文件内容
+
+    return base64.b64encode(content).decode('utf-8')
+```
+
+---
+
+## 安全机制
+
+### 1. 代码注入防护
+
+```python
+import ast
+import re
+
+def validate_code_safety(code: str) -> SafetyCheckResult:
+    """代码安全验证"""
+
+    # 1. 检查危险函数调用
+    dangerous_functions = ['eval', 'exec', 'compile', 'open', 'import os', 'import subprocess']
+    for func in dangerous_functions:
+        if func in code:
+            return SafetyCheckResult(
+                safe=False,
+                reason=f"包含危险函数: {func}"
+            )
+
+    # 2. 检查文件操作
+    file_operations = re.findall(r'\b(open|read|write)\b\(["\'][\w+]', code)
+    if file_operations:
+        return SafetyCheckResult(
+                safe=False,
+                reason="包含文件操作"
+            )
+
+    # 3. 检查网络操作
+    network_operations = re.findall(r'\b(urllib|requests|http|https)\b', code)
+    if network_operations:
+        return SafetyCheckResult(
+                safe=False,
+                reason="包含网络请求"
+            )
+
+    # 4. AST 解析检查
+    try:
+        tree = ast.parse(code)
+        # 检查是否有可疑节点
+        for node in ast.walk(tree):
+            if isinstance(node, (ast.Exec, ast.Import)):
+                if not isinstance(node, ast.alias):
+                    return SafetyCheckResult(
+                        safe=False,
+                        reason=f"包含动态执行节点"
+                    )
+    except:
+        # 语法错误会在执行时捕获
+        pass
+
+    return SafetyCheckResult(safe=True, reason=None)
+```
+
+---
+
+### 2. 资源限制
+
+```python
+class ResourceLimits:
+    """资源限制配置"""
+
+    MAX_CODE_LENGTH = 10000      # 最大代码长度
+    MAX_EXECUTION_TIME = 600      # 最大执行时间（秒）
+    MAX_ARTIFACT_SIZE = 10 * 1024 * 1024  # 最大产物大小 (10MB)
+    MAX_PREVIEW_IMAGES = 4       # 最大预览图数量
+    MAX_SESSION_HISTORY = 50      # 最大会话历史长度
+
+    @classmethod
+    def validate_code_length(cls, code: str) -> bool:
+        """验证代码长度"""
+        return len(code) <= cls.MAX_CODE_LENGTH
+
+    @classmethod
+    def validate_execution_time(cls, timeout: int) -> bool:
+        """验证执行时间"""
+        return timeout <= cls.MAX_EXECUTION_TIME
+
+    @classmethod
+    def validate_artifact_size(cls, size: int) -> bool:
+        """验证产物大小"""
+        return size <= cls.MAX_ARTIFACT_SIZE
+```
+
+---
+
+### 3. 超时处理
+
+```python
+import asyncio
+
+async def execute_with_timeout(coro, timeout_seconds):
+    """带超时的异步执行"""
+
+    try:
+        result = await asyncio.wait_for(
+            coro,
+            timeout=timeout_seconds
+        )
+        return result, False
+
+    except asyncio.TimeoutError:
+        return None, True
+```
+
+---
+
+## 性能优化
+
+### 1. 并行执行
+
+```python
+async def parallel_execution(actions: list[Action]):
+    """并行执行多个动作"""
+
+    # 构建任务列表
+    tasks = [execute_action(action) for action in actions]
+
+    # 并行执行
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+
+    return results
+```
+
+### 2. 缓存机制
+
+```python
+from functools import lru_cache
+
+@lru_cache(maxsize=128)
+def get_cached_geometry(hash_key: str):
+    """缓取几何数据"""
+    return None  # 实际从存储或缓存获取
+
+def invalidate_cache():
+    """清除缓存"""
+    get_cached_geometry.cache_clear()
+```
+
+### 3. 批量操作
+
+```python
+def batch_create_holes(positions: list[tuple]) -> Action:
+    """批量创建孔的优化动作"""
+
+    return Action(
+        type="batch_create_holes",
+        params={"positions": positions}
+    )
+```
+
+---
+
+## 相关链接
+
+- [Sandbox MCP 改造](/kb/aicad/sandbox-kn08hm)
+- [execute_cadquery 工具](/kb/aicad/execute-z7vc7a)
+- [LLM-as-a-Judge 评估系统](/kb/aicad/llm-1my3q8)
+- [Ground Truth 评估](/kb/aicad/ground-ct5cjq)
+- [多模态评估流程](/kb/aicad/doc-3rx4s0)
+d:T50f7,# CAD Sandbox MCP 设计详解
+
+> 更新日期：2026-03-12
+> 创建目的：系统性地讲解 CAD Sandbox MCP 的设计原理和实现细节
+
+---
+
+## 目录
+
+1. [Sandbox MCP 架构概览](#sandbox-mcp-架构概览)
+2. [核心组件设计](#核心组件设计)
+3. [执行流程详解](#执行流程详解)
+4. [产物管理](#产物管理)
+5. [安全机制](#安全机制)
+6. [性能优化](#性能优化)
+
+---
+
+## Sandbox MCP 架构概览
+
+### 整体架构
+
+```
+┌─────────────────────────────────────────────┐
+│              LLM / SubAgent         │
+│              (调用方)                 │
+└──────────────────┬──────────────────────┘
+                 │ stdio/HTTP
+                 ↓
+┌──────────────────────────────────────┐
+│         MCP Client                 │
+│    (libs/sandbox)               │
+└──────────────────┬──────────────────┘
+                 │ stdio
+                 ↓
+┌──────────────────────────────────────┐
+│    Sandbox MCP Server             │
+│    (sandbox_mcp_server)          │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  Tool Registration     │  │
+│  │  (list_tools)          │  │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  Tool Execution      │  │
+│  │  (call_tool)           │  │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  Service Layer       │  │
+│  │  (SandboxMCPService) │  │
+│  │  - Evidence Builder  │  │
+│  │  - Rule Evaluator   │  │
+│  │  - LLM Judge        │  │
+│  │  - Score Merger      │  │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  Runner Layer        │  │
+│  │  (DockerSandboxRunner) │  │
+│  │  - Docker API         │  │
+│  └────────────────────────────┘  │
+│                                   │
+│  ┌────────────────────────────┐  │
+│  │  CadQuery Runtime   │  │
+│  │  (Docker 容器)       │  │
+│  └────────────────────────────┘  │
+└──────────────────────────────────────┘
+```
+
+---
+
+## 核心组件设计
+
+### 1. MCP Server 层
+
+#### Server 初始化
+
+```python
+# sandbox_mcp_server/server.py
+
+from mcp.server import Server
+from pydantic import BaseModel
+
+class SandboxTools(str, Enum):
+    EXECUTE_CADQUERY = "execute_cadquery"
+    APPLY_CAD_ACTION = "apply_cad_action"
+    GET_HISTORY = "get_history"
+    QUERY_SNAPSHOT = "query_snapshot"
+    QUERY_GEOMETRY = "query_geometry"
+
+# 创建服务器实例
+server = Server("sandbox-mcp-server")
+```
+
+#### Tool 注册
+
+```python
+@server.list_tools()
+async def list_tools():
+    """注册所有工具"""
+    tools = [
+        {
+            "name": SandboxTools.EXECUTE_CADQUERY.value,
+            "description": "Execute CadQuery Python code in sandbox",
+            "inputSchema": build_execute_cadquery_schema()
+        },
+        {
+            "name": SandboxTools.APPLY_CAD_ACTION.value,
+            "description": "Apply CAD action in iterative mode",
+            "inputSchema": build_apply_cad_action_schema()
+        },
+        {
+            "name": SandboxTools.GET_HISTORY.value,
+            "description": "Get action history for a session",
+            "inputSchema": build_get_history_schema()
+        }
+    ]
+    return tools
+```
+
+---
+
+### 2. Service 层
+
+#### SandboxMCPService 类
+
+```python
+# sandbox_mcp_server/service.py
+
+from typing import Optional
+from pydantic import BaseModel
+
+class SandboxMCPService:
+    """Sandbox MCP 核心服务类"""
+
+    def __init__(
+        self,
+        sandbox_runner: DockerSandboxRunner,
+        llm_client: LLMClient,
+        llm_judge_enabled: bool = False,
+        benchmark_index_path: Optional[str] = None
+    ):
+        self.sandbox_runner = sandbox_runner
+        self.llm_client = llm_client
+        self.llm_judge_enabled = llm_judge_enabled
+        self.benchmark_index_path = benchmark_index_path
+
+    async def execute_cadquery(
+        self,
+        code: str,
+        timeout_seconds: int = 120,
+        include_artifact_content: bool = True,
+        benchmark_sample_id: Optional[str] = None,
+        requirement_text: Optional[str] = None
+    ) -> CadQueryResult:
+        """执行 CadQuery 代码"""
+        # 1. 在 sandbox 中执行代码
+        execution_result = await self.sandbox_runner.execute(
+            code=code,
+            timeout_seconds=timeout_seconds
+        )
+
+        # 2. 处理执行失败
+        if not execution_result.success:
+            return CadQueryResult(
+                success=False,
+                error_code=execution_result.error_code,
+                error_message=execution_result.error_message
+            )
+
+        # 3. 构建证据
+        evidence = self._build_evidence(
+            code=code,
+            execution_result=execution_result,
+            requirement_text=requirement_text
+        )
+
+        # 4. 执行评估
+        if self.llm_judge_enabled:
+            evaluation = await self._evaluate_with_llm_judge(evidence)
+        elif benchmark_sample_id:
+            evaluation = await self._evaluate_with_ground_truth(
+                execution_result,
+                benchmark_sample_id
+            )
+        else:
+            evaluation = None
+
+        # 5. 返回结果
+        return CadQueryResult(
+            success=True,
+            output_files=execution_result.output_files,
+            artifacts=self._process_artifacts(
+                execution_result.artifacts,
+                include_artifact_content
+            ),
+            evaluation=evaluation
+        )
+```
+
+---
+
+### 3. Evidence Builder
+
+```python
+# sandbox_mcp_server/evidence_builder.py
+
+class EvidenceBuilder:
+    """证据构建器 - 收集评估所需的所有信息"""
+
+    def build(
+        self,
+        code: str,
+        execution_result: SandboxExecutionResult,
+        requirement_text: Optional[str] = None
+    ) -> EvidenceBundle:
+        """构建完整的证据包"""
+
+        return EvidenceBundle(
+            request_context=self._build_request_context(code, requirement_text),
+            execution_context=self._build_execution_context(execution_result),
+            artifact_context=self._build_artifact_context(execution_result),
+            code_context=self._build_code_context(code),
+            meta=self._build_meta(),
+            trace=self._build_trace()
+        )
+
+    def _build_request_context(self, code: str, requirement_text: str) -> RequestContext:
+        """构建请求上下文"""
+        return RequestContext(
+            user_prompt=requirement_text or "",
+            user_code=code
+        )
+
+    def _build_execution_context(self, result: SandboxExecutionResult) -> ExecutionContext:
+        """构建执行上下文"""
+        return ExecutionContext(
+            success=result.success,
+            error_code=result.error_code,
+            stderr=result.stderr,
+            timeout=result.timeout
+        )
+
+    def _build_artifact_context(self, result: SandboxExecutionResult) -> ArtifactContext:
+        """构建产物上下文"""
+        has_step = "model.step" in result.output_files
+        return ArtifactContext(
+            has_step=has_step,
+            step_filename="model.step" if has_step else None,
+            step_size_bytes=self._get_file_size(result.output_files, "model.step"),
+            has_preview=len(result.artifacts) > 0
+        )
+```
+
+---
+
+### 4. Rule Evaluator
+
+```python
+# sandbox_mcp_server/rule_evaluator.py
+
+class RuleEvaluator:
+    """规则评估器 - 硬性规则检查"""
+
+    RULES = {
+        "missing_step_max_score": 0.20,
+        "empty_artifact_max_score": 0.30,
+        "timeout_max_score": 0.10,
+        "execution_error_max_score": 0.0
+    }
+
+    def evaluate(self, evidence: EvidenceBundle) -> RuleResult:
+        """执行规则评估"""
+
+        score_cap = 1.0  # 默认无上限
+
+        # 规则 1: 无 STEP 产物
+        if not evidence.artifact_context.has_step:
+            score_cap = self.RULES["missing_step_max_score"]
+
+        # 规则 2: 空文件
+        elif evidence.artifact_context.step_size_bytes < 100:
+            score_cap = self.RULES["empty_artifact_max_score"]
+
+        # 规则 3: 超时
+        elif evidence.execution_context.timeout:
+            score_cap = self.RULES["timeout_max_score"]
+
+        # 规则 4: 执行错误
+        elif not evidence.execution_context.success:
+            score_cap = self.RULES["execution_error_max_score"]
+
+        return RuleResult(
+            passed=True,
+            score_cap=score_cap,
+            violations=self._detect_violations(evidence)
+        )
+```
+
+---
+
+### 5. LLM Judge
+
+```python
+# sandbox_mcp_server/llm_judge.py
+
+class LLMJudgeEvaluator:
+    """LLM Judge 评估器"""
+
+    def __init__(self, llm_client: LLMClient, rubric: RubricConfig):
+        self.llm_client = llm_client
+        self.rubric = rubric
+
+    async def evaluate(self, evidence: EvidenceBundle) -> LLMJudgeResult:
+        """执行 LLM Judge 评估"""
+
+        # 1. 构建 prompt
+        prompt = self._build_prompt(evidence)
+
+        # 2. 调用 LLM
+        raw_response = await self.llm_client.generate_json(
+            model=self.rubric.judge_model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        # 3. Schema 校验
+        validated = self._validate_schema(raw_response)
+        if not validated.ok:
+            # 重试一次
+            raw_response = await self.llm_client.generate_json(
+                model=self.rubric.judge_model,
+                messages=[{"role": "user", "content": prompt + "\n\n重要：请严格按照 JSON schema 输出"}]
+            )
+            validated = self._validate_schema(raw_response)
+
+        # 4. 解析结果
+        result = validated.parsed
+
+        # 5. 计算分数
+        score = self._calculate_weighted_score(result.dimension_scores, self.rubric.weights)
+
+        return LLMJudgeResult(
+            status="success",
+            score=score,
+            confidence=result.confidence,
+            dimension_scores=result.dimension_scores,
+            major_issues=result.major_issues,
+            suggestions=result.suggestions
+        )
+```
+
+---
+
+### 6. Score Merger
+
+```python
+# sandbox_mcp_server/score_merger.py
+
+class ScoreMerger:
+    """分数合并器 - 合并规则评估和 LLM Judge 结果"""
+
+    def merge(
+        self,
+        rule_result: RuleResult,
+        llm_result: Optional[LLMJudgeResult],
+        rubric_config: RubricConfig
+    ) -> Evaluation:
+        """合并评估结果"""
+
+        # 1. 应用规则封顶
+        final_score = 1.0
+        if llm_result:
+            final_score = min(llm_result.score, rule_result.score_cap)
+        else:
+            final_score = rule_result.score_cap
+
+        # 2. 构建评估对象
+        evaluation = Evaluation(
+            mode="llm_judge" if llm_result else "rule_only",
+            status="success" if llm_result else rule_result.to_status(),
+            score=final_score,
+            details=EvaluationDetails(
+                rule_result=rule_result.to_dict(),
+                llm_result=llm_result.to_dict() if llm_result else None,
+                rubric_version=rubric_config.version
+            )
+        )
+
+        return evaluation
+```
+
+---
+
+## 执行流程详解
+
+### 1. execute_cadquery 完整流程
+
+```python
+async def execute_cadquery_tool(arguments):
+    """execute_cadquery 工具的完整实现"""
+
+    # 1. 参数验证
+    code = arguments.get("code")
+    timeout = arguments.get("timeout", 120)
+
+    # 2. 执行代码
+    execution = await sandbox_runner.execute(code, timeout)
+
+    # 3. 收集产物
+    artifacts = collect_artifacts(execution.output_directory)
+
+    # 4. 构建证据
+    evidence = evidence_builder.build(
+        code=code,
+        execution_result=execution,
+        requirement_text=arguments.get("requirement_text")
+    )
+
+    # 5. 规则评估
+    rule_result = rule_evaluator.evaluate(evidence)
+
+    # 6. LLM Judge 评估（如果启用）
+    if llm_judge_enabled:
+        llm_result = await llm_judge.evaluate(evidence)
+    elif benchmark_sample_id:
+        llm_result = ground_truth_evaluator.evaluate(
+            execution, benchmark_sample_id
+        )
+    else:
+        llm_result = None
+
+    # 7. 合并分数
+    evaluation = score_merger.merge(rule_result, llm_result)
+
+    # 8. 构建响应
+    return ToolResponse(
+        content=[TextContent(type="text", text=format_summary(evaluation))],
+        artifacts=build_artifact_contents(artifacts)
+    )
+```
+
+---
+
+### 2. apply_cad_action 完整流程
+
+```python
+async def apply_cad_action_tool(arguments):
+    """apply_cad_action 工具的完整实现"""
+
+    # 1. 获取或创建会话
+    session_id = arguments.get("session_id", generate_id())
+    session = session_manager.get_or_create_session(session_id)
+
+    # 2. 解析动作
+    action = parse_action(arguments["action"])
+
+    # 3. 执行动作
+    result = await session.execute_action(action)
+
+    # 4. 追加到历史
+    action_entry = ActionHistoryEntry(
+        step=session.current_step,
+        action_type=action.type,
+        params=action.params,
+        snapshot=result.snapshot,
+        success=result.success,
+        error=result.error
+    )
+    session_manager.append_action(session_id, action_entry)
+
+    # 5. 生成建议和完整性
+    suggestions = generate_suggestions(result.snapshot)
+    completeness = generate_completeness(session, result.snapshot)
+
+    # 6. 构建响应
+    return ToolResponse(
+        content=[
+            TextContent(type="text", text=f"执行动作: {action.type}"),
+            TextContent(type="text", text=format_suggestions(suggestions)),
+            TextContent(type="text", text=format_completeness(completeness))
+        ],
+        action_history=session_manager.get_session_history(session_id)
+    )
+```
+
+---
+
+## 产物管理
+
+### 产物类型
+
+```python
+from enum import Enum
+
+class ArtifactType(Enum):
+    STEP_FILE = "step_file"
+    PREVIEW_IMAGE = "preview_image"
+    GEOMETRY_DATA = "geometry_data"
+    LOG_FILE = "log_file"
+```
+
+### 产物收集
+
+```python
+def collect_artifacts(output_dir: Path) -> list[Artifact]:
+    """收集所有产物"""
+
+    artifacts = []
+
+    # 1. STEP 文件
+    step_path = output_dir / "model.step"
+    if step_path.exists():
+        artifacts.append(Artifact(
+            type=ArtifactType.STEP_FILE,
+            path=str(step_path),
+            size_bytes=step_path.stat().st_size,
+            mime_type="model/step"
+        ))
+
+    # 2. 预览图
+    preview_pattern = "preview_*.png"
+    for preview_path in output_dir.glob(preview_pattern):
+        artifacts.append(Artifact(
+            type=ArtifactType.PREVIEW_IMAGE,
+            path=str(preview_path),
+            size_bytes=preview_path.stat().st_size,
+            mime_type="image/png"
+        ))
+
+    # 3. 日志文件
+    log_path = output_dir / "execution.log"
+    if log_path.exists():
+        artifacts.append(Artifact(
+            type=ArtifactType.LOG_FILE,
+            path=str(log_path),
+            size_bytes=log_path.stat().st_size,
+            mime_type="text/plain"
+        ))
+
+    return artifacts
+```
+
+---
+
+### 产物内容编码
+
+```python
+def encode_artifact_content(file_path: Path) -> str:
+    """将文件内容编码为 base64"""
+
+    with open(file_path, "rb") as f:
+        content = f.read()
+
+    # 对于大文件，限制大小
+    max_size = 6 * 1024 * 1024  # 6MB
+    if len(content) > max_size:
+        return None  # 不返回大文件内容
+
+    return base64.b64encode(content).decode('utf-8')
+```
+
+---
+
+## 安全机制
+
+### 1. 代码注入防护
+
+```python
+import ast
+import re
+
+def validate_code_safety(code: str) -> SafetyCheckResult:
+    """代码安全验证"""
+
+    # 1. 检查危险函数调用
+    dangerous_functions = ['eval', 'exec', 'compile', 'open', 'import os', 'import subprocess']
+    for func in dangerous_functions:
+        if func in code:
+            return SafetyCheckResult(
+                safe=False,
+                reason=f"包含危险函数: {func}"
+            )
+
+    # 2. 检查文件操作
+    file_operations = re.findall(r'\b(open|read|write)\b\(["\'][\w+]', code)
+    if file_operations:
+        return SafetyCheckResult(
+                safe=False,
+                reason="包含文件操作"
+            )
+
+    # 3. 检查网络操作
+    network_operations = re.findall(r'\b(urllib|requests|http|https)\b', code)
+    if network_operations:
+        return SafetyCheckResult(
+                safe=False,
+                reason="包含网络请求"
+            )
+
+    # 4. AST 解析检查
+    try:
+        tree = ast.parse(code)
+        # 检查是否有可疑节点
+        for node in ast.walk(tree):
+            if isinstance(node, (ast.Exec, ast.Import)):
+                if not isinstance(node, ast.alias):
+                    return SafetyCheckResult(
+                        safe=False,
+                        reason=f"包含动态执行节点"
+                    )
+    except:
+        # 语法错误会在执行时捕获
+        pass
+
+    return SafetyCheckResult(safe=True, reason=None)
+```
+
+---
+
+### 2. 资源限制
+
+```python
+class ResourceLimits:
+    """资源限制配置"""
+
+    MAX_CODE_LENGTH = 10000      # 最大代码长度
+    MAX_EXECUTION_TIME = 600      # 最大执行时间（秒）
+    MAX_ARTIFACT_SIZE = 10 * 1024 * 1024  # 最大产物大小 (10MB)
+    MAX_PREVIEW_IMAGES = 4       # 最大预览图数量
+    MAX_SESSION_HISTORY = 50      # 最大会话历史长度
+
+    @classmethod
+    def validate_code_length(cls, code: str) -> bool:
+        """验证代码长度"""
+        return len(code) <= cls.MAX_CODE_LENGTH
+
+    @classmethod
+    def validate_execution_time(cls, timeout: int) -> bool:
+        """验证执行时间"""
+        return timeout <= cls.MAX_EXECUTION_TIME
+
+    @classmethod
+    def validate_artifact_size(cls, size: int) -> bool:
+        """验证产物大小"""
+        return size <= cls.MAX_ARTIFACT_SIZE
+```
+
+---
+
+### 3. 超时处理
+
+```python
+import asyncio
+
+async def execute_with_timeout(coro, timeout_seconds):
+    """带超时的异步执行"""
+
+    try:
+        result = await asyncio.wait_for(
+            coro,
+            timeout=timeout_seconds
+        )
+        return result, False
+
+    except asyncio.TimeoutError:
+        return None, True
+```
+
+---
+
+## 性能优化
+
+### 1. 并行执行
+
+```python
+async def parallel_execution(actions: list[Action]):
+    """并行执行多个动作"""
+
+    # 构建任务列表
+    tasks = [execute_action(action) for action in actions]
+
+    # 并行执行
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+
+    return results
+```
+
+### 2. 缓存机制
+
+```python
+from functools import lru_cache
+
+@lru_cache(maxsize=128)
+def get_cached_geometry(hash_key: str):
+    """缓取几何数据"""
+    return None  # 实际从存储或缓存获取
+
+def invalidate_cache():
+    """清除缓存"""
+    get_cached_geometry.cache_clear()
+```
+
+### 3. 批量操作
+
+```python
+def batch_create_holes(positions: list[tuple]) -> Action:
+    """批量创建孔的优化动作"""
+
+    return Action(
+        type="batch_create_holes",
+        params={"positions": positions}
+    )
+```
+
+---
+
+## 相关链接
+
+- [Sandbox MCP 改造](/kb/aicad/sandbox-kn08hm)
+- [execute_cadquery 工具](/kb/aicad/execute-z7vc7a)
+- [LLM-as-a-Judge 评估系统](/kb/aicad/llm-1my3q8)
+- [Ground Truth 评估](/kb/aicad/ground-ct5cjq)
+- [多模态评估流程](/kb/aicad/doc-3rx4s0)
+2:["$","$Lb",null,{"document":{"slug":"cad-1sc89z","title":"CAD Sandbox MCP 设计详解","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$c","filePath":"Sandbox & MCP/CAD Sandbox MCP 设计详解.md","default":{"slug":"cad-1sc89z","title":"CAD Sandbox MCP 设计详解","description":"","date":null,"tags":[],"category":"AICAD","categoryId":"aicad","content":"$d","filePath":"Sandbox & MCP/CAD Sandbox MCP 设计详解.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"CAD Sandbox MCP 设计详解 - AICAD | Jerry Xu"}],["$","meta","3",{"name":"description","content":"CAD Sandbox MCP 设计详解"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

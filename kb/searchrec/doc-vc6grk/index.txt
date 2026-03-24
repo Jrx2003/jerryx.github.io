@@ -1,0 +1,610 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","searchrec","d"]
+5:["slug","doc-vc6grk","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","searchrec","d"],{"children":[["slug","doc-vc6grk","d"],{"children":["__PAGE__?{\"category\":\"searchrec\",\"slug\":\"doc-vc6grk\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","searchrec","d"],{"children":[["slug","doc-vc6grk","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T1ef7,# 2024-2025 搜推前沿趋势
+
+> 更新日期：2026-03-13
+> 相关文档：[LLM4Rec大模型推荐](/kb/searchrec/llm-zt5ow) | [生成式推荐](/kb/searchrec/doc-qi8nei) | [因果推荐](/kb/searchrec/doc-be4sbo)
+
+---
+
+## 一、大模型推荐 (LLM4Rec)
+
+### 核心思想
+
+利用大语言模型的语义理解和生成能力，革新传统推荐系统。
+
+```
+传统推荐:
+用户ID → Embedding → MLP → 物品ID → 评分
+
+大模型推荐:
+用户历史行为(文本) → LLM → 语义理解 → 生成推荐解释/物品
+```
+
+### 三种范式
+
+| 范式 | 说明 | 代表工作 |
+|------|------|----------|
+| **LLM-as-Embedding** | 用LLM生成用户/物品Embedding | U-BERT, I-BERT |
+| **LLM-as-Ranker** | 用LLM做排序打分 | GPT4Rec, RankGPT |
+| **LLM-as-Generator** | 用LLM直接生成推荐 | RecGPT, Chat-Rec |
+
+### 应用场景
+
+| 场景 | 传统方法 | LLM方法 | 优势 |
+|------|----------|---------|------|
+| 推荐理由生成 | 模板填充 | LLM生成 | 更自然、个性化 |
+| 跨域推荐 | 迁移学习 | 语义对齐 | 零样本能力 |
+| 对话式推荐 | 规则匹配 | 多轮对话 | 交互体验好 |
+| 解释性推荐 | 特征归因 | 自然语言解释 | 可解释性强 |
+
+---
+
+## 二、生成式推荐 (Generative Recommendation)
+
+### 核心思想
+
+将推荐视为序列生成任务，预测下一个物品。
+
+```
+序列推荐传统方法:
+用户历史: [A, B, C] → 模型 → 预测 D
+
+生成式推荐:
+用户历史: "用户购买了A，浏览了B，收藏了C"
+→ LLM → "推荐给该用户D，因为..."
+```
+
+### 技术路线
+
+| 路线 | 方法 | 特点 |
+|------|------|------|
+| **Seq2Seq** | T5, BART | 编码历史，解码推荐 |
+| **自回归** | GPT | 直接生成物品ID序列 |
+| **扩散模型** | Diffusion | 生成Embedding，再检索 |
+
+### 代表模型
+
+| 模型 | 机构 | 核心创新 |
+|------|------|----------|
+| **P5** | UCSD | 统一范式：提示学习 |
+| **M6-Rec** | 阿里 | 多任务预训练 |
+| **VIP5** | 中科大 | 视觉增强提示 |
+| **Chat-Rec** | 微软 | 对话式推荐 |
+
+---
+
+## 三、多模态推荐
+
+### 核心思想
+
+融合文本、图像、视频、音频等多模态信息进行推荐。
+
+```
+传统推荐特征:
+- 用户ID、物品ID
+- 类别、标签
+- 数值特征
+
+多模态推荐特征:
+- 商品图片 (CNN/ViT编码)
+- 商品描述 (BERT编码)
+- 视频内容 (Video Swin编码)
+- 用户评论 (Text编码)
+```
+
+### 技术架构
+
+| 组件 | 方法 | 用途 |
+|------|------|------|
+| **视觉编码** | CLIP, ViT | 商品图片理解 |
+| **文本编码** | BERT, RoBERTa | 标题、描述、评论 |
+| **融合层** | Attention, Gating | 多模态特征融合 |
+| **推荐层** | MLP, Transformer | 最终排序 |
+
+### 代表模型
+
+| 模型 | 模态 | 场景 |
+|------|------|------|
+| **VBPR** | 图像+ID | 时尚推荐 |
+| **MMGCN** | 图+多模态 | 社交推荐 |
+| **MKGAT** | 知识图谱+多模态 | 知识增强 |
+
+---
+
+## 四、因果推荐 (Causal Recommendation)
+
+### 核心思想
+
+从因果推断角度理解推荐，解决偏差问题。
+
+```
+传统关联学习:
+用户看A后看B → 推荐B
+（可能存在选择偏差）
+
+因果学习:
+用户看A → 真正导致 → 想看B
+（消除混杂因素）
+```
+
+### 关键问题
+
+| 问题 | 说明 | 解决方案 |
+|------|------|----------|
+| **选择偏差** | 用户只看到部分物品 | IPS, 因果推断 |
+| **流行度偏差** | 热门物品过度推荐 | 因果去偏 |
+| **位置偏差** | 排名靠前物品被点击多 | 因果位置模型 |
+| **曝光偏差** | 未曝光物品无法被推荐 | 反事实推理 |
+
+### 方法分类
+
+| 方法 | 核心思想 |
+|------|----------|
+| **IPW (逆概率加权)** | 对稀有样本加权 |
+| **DR (双重稳健)** | 结合模型和IPW |
+| **后门调整** | 控制混杂变量 |
+| **反事实推理** | 预测未发生的情况 |
+
+---
+
+## 五、跨域推荐 (Cross-Domain Recommendation)
+
+### 核心思想
+
+利用源域数据帮助目标域推荐。
+
+```
+源域: 电影推荐 (数据丰富)
+目标域: 图书推荐 (数据稀疏)
+
+迁移: 电影-图书的相似性知识
+```
+
+### 技术方法
+
+| 方法 | 说明 | 代表 |
+|------|------|------|
+| **基于映射** | 学习跨域映射函数 | CMF, CDCF |
+| **基于共享** | 共享部分参数 | CoNet, RC-DFM |
+| **基于元学习** | 快速适应新域 | MAML4CDR |
+| **基于图** | 跨域图神经网络 | GA-DTCDR |
+
+---
+
+## 六、去偏与公平性
+
+### 推荐系统中的偏差
+
+| 偏差类型 | 描述 | 影响 |
+|----------|------|------|
+| **选择偏差** | 用户只能看到部分物品 | 长尾物品无法曝光 |
+| **位置偏差** | 用户倾向点击排名靠前物品 | 评估失真 |
+| **曝光偏差** | 未曝光物品无法被推荐 | 马太效应 |
+| **流行度偏差** | 热门物品被过度推荐 | 多样性降低 |
+
+### 去偏方法
+
+| 方法 | 原理 | 应用 |
+|------|------|------|
+| **IPS** | 逆倾向评分 | 消除选择偏差 |
+| **DR** | 双重稳健估计 | 结合预测和IPS |
+| **因果推断** | 建模因果关系 | 根本性解决 |
+| **对抗学习** | 学习不变表示 | 公平性保障 |
+
+---
+
+## 七、实时与动态推荐
+
+### 核心挑战
+
+| 挑战 | 传统方案 | 前沿方案 |
+|------|----------|----------|
+| **实时特征** | T+1更新 | 流式计算(Flink) |
+| **实时模型** | 离线训练 | 在线学习(FTRL) |
+| **用户兴趣漂移** | 固定窗口 | 自适应衰减 |
+| **新物品上线** | 冷启动策略 | 内容预训练 |
+
+### 技术趋势
+
+| 技术 | 说明 |
+|------|------|
+| **流批一体** | Lambda/Kappa架构 |
+| **在线学习** | FTRL, OGD |
+| **强化学习** | 实时反馈优化 |
+| **终身学习** | 持续学习不遗忘 |
+
+---
+
+## 八、面试要点
+
+### 高频问题
+
+**Q1: LLM4Rec vs 传统推荐的核心区别？**
+
+A:
+1. **特征表示**: LLM用语义理解，传统用ID Embedding
+2. **冷启动**: LLM利用预训练知识，传统需要数据积累
+3. **可解释性**: LLM可生成自然语言解释
+4. **跨域能力**: LLM有零样本迁移能力
+
+**Q2: 生成式推荐的优缺点？**
+
+A:
+**优点**:
+- 统一的生成框架
+- 自然语言交互
+- 可解释性强
+
+**缺点**:
+- 推理成本高
+- 幻觉问题
+- 实时性挑战
+
+**Q3: 因果推荐为什么重要？**
+
+A:
+1. **根本性解决偏差**: 不是缓解症状，而是消除病因
+2. **更好泛化**: 因果模型对分布变化更鲁棒
+3. **可解释性**: 理解真正的因果关系
+
+**Q4: 多模态推荐的关键技术？**
+
+A:
+1. **对齐**: 不同模态的特征对齐
+2. **融合**: 多模态信息有效融合
+3. **缺失处理**: 部分模态缺失时的处理
+
+**Q5: 跨域推荐的主要挑战？**
+
+A:
+1. **域间差异**: 不同域的分布差异大
+2. **负迁移**: 源域知识可能损害目标域
+3. **可迁移性**: 哪些知识可以迁移
+
+---
+
+## 九、研究趋势总结
+
+| 趋势 | 2024状态 | 2025展望 |
+|------|----------|----------|
+| **大模型推荐** | 探索阶段 | 工业落地 |
+| **生成式推荐** | 研究热点 | 结合检索增强 |
+| **因果推荐** | 理论完善 | 大规模应用 |
+| **多模态** | 图文为主 | 视频/音频加入 |
+| **实时化** | 流式计算 | 边缘计算+推荐 |
+
+---
+
+## 十、相关资源
+
+### 经典论文
+
+1. **P5**: Recommendation as Language Processing (2022)
+2. **Chat-Rec**: Towards Interactive and Explainable LLMs-Augmented Recommender System (2023)
+3. **Causal Inference for Recommendation**: A Survey (2023)
+4. **Multi-Modal Recommendation**: A Survey (2023)
+
+### 开源项目
+
+- **RecBole**: 统一推荐框架
+- **FuxiCTR**: CTR预测基准
+- **TorchRec**: Meta开源推荐库
+
+---
+
+## 相关文档
+
+- [LLM4Rec大模型推荐](/kb/searchrec/llm-zt5ow) - LLM在推荐中的应用
+- [生成式推荐](/kb/searchrec/doc-qi8nei) - 生成式方法详解
+- [因果推荐](/kb/searchrec/doc-be4sbo) - 因果推断方法
+- [跨域推荐](/kb/searchrec/doc-i9pbz3) - 迁移学习在推荐中
+d:T1ef7,# 2024-2025 搜推前沿趋势
+
+> 更新日期：2026-03-13
+> 相关文档：[LLM4Rec大模型推荐](/kb/searchrec/llm-zt5ow) | [生成式推荐](/kb/searchrec/doc-qi8nei) | [因果推荐](/kb/searchrec/doc-be4sbo)
+
+---
+
+## 一、大模型推荐 (LLM4Rec)
+
+### 核心思想
+
+利用大语言模型的语义理解和生成能力，革新传统推荐系统。
+
+```
+传统推荐:
+用户ID → Embedding → MLP → 物品ID → 评分
+
+大模型推荐:
+用户历史行为(文本) → LLM → 语义理解 → 生成推荐解释/物品
+```
+
+### 三种范式
+
+| 范式 | 说明 | 代表工作 |
+|------|------|----------|
+| **LLM-as-Embedding** | 用LLM生成用户/物品Embedding | U-BERT, I-BERT |
+| **LLM-as-Ranker** | 用LLM做排序打分 | GPT4Rec, RankGPT |
+| **LLM-as-Generator** | 用LLM直接生成推荐 | RecGPT, Chat-Rec |
+
+### 应用场景
+
+| 场景 | 传统方法 | LLM方法 | 优势 |
+|------|----------|---------|------|
+| 推荐理由生成 | 模板填充 | LLM生成 | 更自然、个性化 |
+| 跨域推荐 | 迁移学习 | 语义对齐 | 零样本能力 |
+| 对话式推荐 | 规则匹配 | 多轮对话 | 交互体验好 |
+| 解释性推荐 | 特征归因 | 自然语言解释 | 可解释性强 |
+
+---
+
+## 二、生成式推荐 (Generative Recommendation)
+
+### 核心思想
+
+将推荐视为序列生成任务，预测下一个物品。
+
+```
+序列推荐传统方法:
+用户历史: [A, B, C] → 模型 → 预测 D
+
+生成式推荐:
+用户历史: "用户购买了A，浏览了B，收藏了C"
+→ LLM → "推荐给该用户D，因为..."
+```
+
+### 技术路线
+
+| 路线 | 方法 | 特点 |
+|------|------|------|
+| **Seq2Seq** | T5, BART | 编码历史，解码推荐 |
+| **自回归** | GPT | 直接生成物品ID序列 |
+| **扩散模型** | Diffusion | 生成Embedding，再检索 |
+
+### 代表模型
+
+| 模型 | 机构 | 核心创新 |
+|------|------|----------|
+| **P5** | UCSD | 统一范式：提示学习 |
+| **M6-Rec** | 阿里 | 多任务预训练 |
+| **VIP5** | 中科大 | 视觉增强提示 |
+| **Chat-Rec** | 微软 | 对话式推荐 |
+
+---
+
+## 三、多模态推荐
+
+### 核心思想
+
+融合文本、图像、视频、音频等多模态信息进行推荐。
+
+```
+传统推荐特征:
+- 用户ID、物品ID
+- 类别、标签
+- 数值特征
+
+多模态推荐特征:
+- 商品图片 (CNN/ViT编码)
+- 商品描述 (BERT编码)
+- 视频内容 (Video Swin编码)
+- 用户评论 (Text编码)
+```
+
+### 技术架构
+
+| 组件 | 方法 | 用途 |
+|------|------|------|
+| **视觉编码** | CLIP, ViT | 商品图片理解 |
+| **文本编码** | BERT, RoBERTa | 标题、描述、评论 |
+| **融合层** | Attention, Gating | 多模态特征融合 |
+| **推荐层** | MLP, Transformer | 最终排序 |
+
+### 代表模型
+
+| 模型 | 模态 | 场景 |
+|------|------|------|
+| **VBPR** | 图像+ID | 时尚推荐 |
+| **MMGCN** | 图+多模态 | 社交推荐 |
+| **MKGAT** | 知识图谱+多模态 | 知识增强 |
+
+---
+
+## 四、因果推荐 (Causal Recommendation)
+
+### 核心思想
+
+从因果推断角度理解推荐，解决偏差问题。
+
+```
+传统关联学习:
+用户看A后看B → 推荐B
+（可能存在选择偏差）
+
+因果学习:
+用户看A → 真正导致 → 想看B
+（消除混杂因素）
+```
+
+### 关键问题
+
+| 问题 | 说明 | 解决方案 |
+|------|------|----------|
+| **选择偏差** | 用户只看到部分物品 | IPS, 因果推断 |
+| **流行度偏差** | 热门物品过度推荐 | 因果去偏 |
+| **位置偏差** | 排名靠前物品被点击多 | 因果位置模型 |
+| **曝光偏差** | 未曝光物品无法被推荐 | 反事实推理 |
+
+### 方法分类
+
+| 方法 | 核心思想 |
+|------|----------|
+| **IPW (逆概率加权)** | 对稀有样本加权 |
+| **DR (双重稳健)** | 结合模型和IPW |
+| **后门调整** | 控制混杂变量 |
+| **反事实推理** | 预测未发生的情况 |
+
+---
+
+## 五、跨域推荐 (Cross-Domain Recommendation)
+
+### 核心思想
+
+利用源域数据帮助目标域推荐。
+
+```
+源域: 电影推荐 (数据丰富)
+目标域: 图书推荐 (数据稀疏)
+
+迁移: 电影-图书的相似性知识
+```
+
+### 技术方法
+
+| 方法 | 说明 | 代表 |
+|------|------|------|
+| **基于映射** | 学习跨域映射函数 | CMF, CDCF |
+| **基于共享** | 共享部分参数 | CoNet, RC-DFM |
+| **基于元学习** | 快速适应新域 | MAML4CDR |
+| **基于图** | 跨域图神经网络 | GA-DTCDR |
+
+---
+
+## 六、去偏与公平性
+
+### 推荐系统中的偏差
+
+| 偏差类型 | 描述 | 影响 |
+|----------|------|------|
+| **选择偏差** | 用户只能看到部分物品 | 长尾物品无法曝光 |
+| **位置偏差** | 用户倾向点击排名靠前物品 | 评估失真 |
+| **曝光偏差** | 未曝光物品无法被推荐 | 马太效应 |
+| **流行度偏差** | 热门物品被过度推荐 | 多样性降低 |
+
+### 去偏方法
+
+| 方法 | 原理 | 应用 |
+|------|------|------|
+| **IPS** | 逆倾向评分 | 消除选择偏差 |
+| **DR** | 双重稳健估计 | 结合预测和IPS |
+| **因果推断** | 建模因果关系 | 根本性解决 |
+| **对抗学习** | 学习不变表示 | 公平性保障 |
+
+---
+
+## 七、实时与动态推荐
+
+### 核心挑战
+
+| 挑战 | 传统方案 | 前沿方案 |
+|------|----------|----------|
+| **实时特征** | T+1更新 | 流式计算(Flink) |
+| **实时模型** | 离线训练 | 在线学习(FTRL) |
+| **用户兴趣漂移** | 固定窗口 | 自适应衰减 |
+| **新物品上线** | 冷启动策略 | 内容预训练 |
+
+### 技术趋势
+
+| 技术 | 说明 |
+|------|------|
+| **流批一体** | Lambda/Kappa架构 |
+| **在线学习** | FTRL, OGD |
+| **强化学习** | 实时反馈优化 |
+| **终身学习** | 持续学习不遗忘 |
+
+---
+
+## 八、面试要点
+
+### 高频问题
+
+**Q1: LLM4Rec vs 传统推荐的核心区别？**
+
+A:
+1. **特征表示**: LLM用语义理解，传统用ID Embedding
+2. **冷启动**: LLM利用预训练知识，传统需要数据积累
+3. **可解释性**: LLM可生成自然语言解释
+4. **跨域能力**: LLM有零样本迁移能力
+
+**Q2: 生成式推荐的优缺点？**
+
+A:
+**优点**:
+- 统一的生成框架
+- 自然语言交互
+- 可解释性强
+
+**缺点**:
+- 推理成本高
+- 幻觉问题
+- 实时性挑战
+
+**Q3: 因果推荐为什么重要？**
+
+A:
+1. **根本性解决偏差**: 不是缓解症状，而是消除病因
+2. **更好泛化**: 因果模型对分布变化更鲁棒
+3. **可解释性**: 理解真正的因果关系
+
+**Q4: 多模态推荐的关键技术？**
+
+A:
+1. **对齐**: 不同模态的特征对齐
+2. **融合**: 多模态信息有效融合
+3. **缺失处理**: 部分模态缺失时的处理
+
+**Q5: 跨域推荐的主要挑战？**
+
+A:
+1. **域间差异**: 不同域的分布差异大
+2. **负迁移**: 源域知识可能损害目标域
+3. **可迁移性**: 哪些知识可以迁移
+
+---
+
+## 九、研究趋势总结
+
+| 趋势 | 2024状态 | 2025展望 |
+|------|----------|----------|
+| **大模型推荐** | 探索阶段 | 工业落地 |
+| **生成式推荐** | 研究热点 | 结合检索增强 |
+| **因果推荐** | 理论完善 | 大规模应用 |
+| **多模态** | 图文为主 | 视频/音频加入 |
+| **实时化** | 流式计算 | 边缘计算+推荐 |
+
+---
+
+## 十、相关资源
+
+### 经典论文
+
+1. **P5**: Recommendation as Language Processing (2022)
+2. **Chat-Rec**: Towards Interactive and Explainable LLMs-Augmented Recommender System (2023)
+3. **Causal Inference for Recommendation**: A Survey (2023)
+4. **Multi-Modal Recommendation**: A Survey (2023)
+
+### 开源项目
+
+- **RecBole**: 统一推荐框架
+- **FuxiCTR**: CTR预测基准
+- **TorchRec**: Meta开源推荐库
+
+---
+
+## 相关文档
+
+- [LLM4Rec大模型推荐](/kb/searchrec/llm-zt5ow) - LLM在推荐中的应用
+- [生成式推荐](/kb/searchrec/doc-qi8nei) - 生成式方法详解
+- [因果推荐](/kb/searchrec/doc-be4sbo) - 因果推断方法
+- [跨域推荐](/kb/searchrec/doc-i9pbz3) - 迁移学习在推荐中
+2:["$","$Lb",null,{"document":{"slug":"doc-vc6grk","title":"2024-2025搜推前沿趋势","description":"","date":null,"tags":[],"category":"SearchRec","categoryId":"searchrec","content":"$c","filePath":"前沿研究/2024-2025搜推前沿趋势.md","default":{"slug":"doc-vc6grk","title":"2024-2025搜推前沿趋势","description":"","date":null,"tags":[],"category":"SearchRec","categoryId":"searchrec","content":"$d","filePath":"前沿研究/2024-2025搜推前沿趋势.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"2024-2025搜推前沿趋势 - SearchRec | Jerry Xu"}],["$","meta","3",{"name":"description","content":"2024-2025搜推前沿趋势"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null

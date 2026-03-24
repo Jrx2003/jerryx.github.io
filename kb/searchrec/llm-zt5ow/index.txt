@@ -1,0 +1,910 @@
+3:I[39275,[],""]
+6:I[61343,[],""]
+7:I[62782,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],"Header"]
+8:I[82446,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","9160","static/chunks/app/not-found-32f7da5ab09aedff.js"],"default"]
+9:I[231,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","3185","static/chunks/app/layout-441e83d4c275c29e.js"],""]
+4:["category","searchrec","d"]
+5:["slug","llm-zt5ow","d"]
+0:["ol1eMh0FVRjIrfwLO-nkw",[[["",{"children":["kb",{"children":[["category","searchrec","d"],{"children":[["slug","llm-zt5ow","d"],{"children":["__PAGE__?{\"category\":\"searchrec\",\"slug\":\"llm-zt5ow\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","searchrec","d"],{"children":[["slug","llm-zt5ow","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[66006,["2015","static/chunks/2015-af9c16aac7ff4ad0.js","7138","static/chunks/7138-b897b2ad3516dd35.js","8373","static/chunks/8373-886bc01b77cafd14.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-a940bccb88ca2a9f.js"],"default"]
+c:T2a80,# LLM4Rec 大模型推荐
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 高级
+> **预计阅读时间**: 50 分钟
+
+---
+
+## 目录
+
+1. [LLM4Rec 概述](#llm4rec-概述)
+2. [应用范式](#应用范式)
+3. [Prompt 设计](#prompt-设计)
+4. [微调策略](#微调策略)
+5. [面试要点](#面试要点)
+
+---
+
+## LLM4Rec 概述
+
+### 为什么用 LLM 做推荐
+
+```
+传统推荐系统:
+- 专用架构 (召回+排序)
+- 领域特定训练
+- 难以跨域迁移
+
+LLM for Recommendation:
+- 统一语言建模框架
+- 预训练知识丰富
+- 强大的泛化能力
+- 自然语言接口
+```
+
+### 应用层次
+
+```
+┌─────────────────────────────────────────────┐
+│  Level 4: 统一推荐系统 (Chat-Rec)           │
+│  LLM 控制整个推荐流程                        │
+└─────────────────────────────────────────────┘
+                    │
+┌─────────────────────────────────────────────┐
+│  Level 3: 特征工程/打分机                   │
+│  LLM 生成特征或打分                          │
+└─────────────────────────────────────────────┘
+                    │
+┌─────────────────────────────────────────────┐
+│  Level 2: 序列建模 (P5, GPT4Rec)            │
+│  LLM 建模用户行为序列                        │
+└─────────────────────────────────────────────┘
+                    │
+┌─────────────────────────────────────────────┐
+│  Level 1: 知识增强 (KAR, UniCRS)            │
+│  LLM 提供外部知识                            │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+## 应用范式
+
+### 1. Prompt-based 推荐
+
+```python
+"""
+将推荐任务转化为自然语言任务
+"""
+
+class PromptBasedRecommendation:
+    """基于 Prompt 的推荐"""
+
+    def __init__(self, llm):
+        self.llm = llm
+
+    def build_prompt(self, user_history, candidates):
+        """构建推荐 Prompt"""
+
+        prompt = f"""基于用户的历史行为，推荐最相关的物品。
+
+用户历史行为:
+{chr(10).join(f'- {item}' for item in user_history)}
+
+候选物品:
+{chr(10).join(f'{i+1}. {item}' for i, item in enumerate(candidates))}
+
+请推荐最可能感兴趣的物品 (只输出编号):"""
+
+        return prompt
+
+    def recommend(self, user_history, candidates, top_k=5):
+        """生成推荐"""
+
+        prompt = self.build_prompt(user_history, candidates)
+
+        response = self.llm.generate(prompt)
+
+        # 解析推荐结果
+        recommended_indices = self.parse_response(response, top_k)
+
+        return [candidates[i] for i in recommended_indices]
+
+    def parse_response(self, response, top_k):
+        """解析模型输出"""
+        # 提取数字编号
+        import re
+        numbers = re.findall(r'\d+', response)
+        indices = [int(n) - 1 for n in numbers if int(n) <= 10]
+
+        return indices[:top_k]
+```
+
+### 2. In-Context Learning
+
+```python
+"""
+上下文学习: 提供示例让 LLM 学习推荐模式
+"""
+
+class InContextLearningRec:
+    """上下文学习推荐"""
+
+    def build_prompt_with_examples(self, user_history, candidates, examples):
+        """构建带示例的 Prompt"""
+
+        prompt = "根据用户历史推荐物品:\n\n"
+
+        # 添加示例
+        for example in examples:
+            prompt += f"""示例:
+历史: {', '.join(example['history'])}
+推荐: {example['recommendation']}
+
+"""
+
+        # 添加当前用户
+        prompt += f"""当前用户:
+历史: {', '.join(user_history)}
+
+候选: {', '.join(candidates)}
+
+推荐:"""
+
+        return prompt
+```
+
+### 3. 指令微调
+
+```python
+"""
+指令微调: 让 LLM 学习执行推荐任务
+"""
+
+class InstructionTuningRec:
+    """指令微调推荐"""
+
+    def create_training_data(self, interactions):
+        """创建指令微调数据"""
+
+        instructions = []
+
+        for user_id, history, target in interactions:
+            # 构建指令
+            instruction = {
+                'instruction': '根据用户历史推荐下一个物品',
+                'input': f"历史: {', '.join(history)}",
+                'output': target
+            }
+
+            # 格式化为对话
+            formatted = self.format_instruction(instruction)
+            instructions.append(formatted)
+
+        return instructions
+
+    def format_instruction(self, sample):
+        """格式化指令"""
+
+        return f"""### Instruction:
+{sample['instruction']}
+
+### Input:
+{sample['input']}
+
+### Response:
+{sample['output']}"""
+```
+
+---
+
+## Prompt 设计
+
+### 推荐任务 Prompt 模板
+
+```python
+RECOMMENDATION_PROMPT_TEMPLATES = {
+
+    # 1. 序列推荐
+    'sequential': """用户历史交互序列 (按时间排序):
+{history}
+
+基于以上历史，预测用户下一个可能交互的物品。
+候选物品: {candidates}
+
+推荐 (只输出物品ID):""",
+
+    # 2. 解释生成
+    'explanation': """用户历史: {history}
+推荐物品: {item}
+
+请生成推荐理由:""",
+
+    # 3. 属性预测
+    'attribute': """用户历史: {history}
+
+预测用户对以下属性的偏好:
+- 类别偏好:
+- 价格偏好:
+- 品牌偏好:""",
+
+    # 4. 对话推荐
+    'conversational': """用户: {user_utterance}
+历史: {history}
+
+系统:""",
+
+    # 5. 跨域推荐
+    'cross_domain': """用户在源领域的偏好:
+{source_domain_history}
+
+推荐目标领域的物品:
+{target_domain_candidates}"""
+}
+```
+
+### 物品表示方法
+
+```python
+"""
+如何将物品表示给 LLM?
+
+方法1: 物品 ID
+- 简单直接
+- 需要微调
+
+方法2: 物品标题
+- 利用预训练知识
+- 泛化性好
+
+方法3: 物品描述
+- 信息丰富
+- 输入较长
+
+方法4: 结构化特征
+- 属性明确
+- 适合特定场景
+"""
+
+class ItemRepresentation:
+    """物品表示方法"""
+
+    @staticmethod
+    def id_based(item):
+        return f"item_{item['id']}"
+
+    @staticmethod
+    def title_based(item):
+        return item['title']
+
+    @staticmethod
+    def description_based(item):
+        return f"{item['title']}: {item['description']}"
+
+    @staticmethod
+    def structured_based(item):
+        return f"""商品: {item['title']}
+类别: {item['category']}
+价格: {item['price']}元
+品牌: {item['brand']}"""
+```
+
+---
+
+## 微调策略
+
+### 参数高效微调
+
+```python
+"""
+推荐场景使用 LoRA/Adapter 微调 LLM
+"""
+
+from peft import LoraConfig, get_peft_model
+
+class LLM4RecWithLoRA(nn.Module):
+    """使用 LoRA 微调的推荐模型"""
+
+    def __init__(self, base_llm_name):
+        super().__init__()
+
+        # 加载基础模型
+        self.base_model = AutoModel.from_pretrained(base_llm_name)
+
+        # LoRA 配置
+        lora_config = LoraConfig(
+            r=16,
+            lora_alpha=32,
+            target_modules=["q_proj", "v_proj"],
+            lora_dropout=0.1,
+            bias="none",
+            task_type="CAUSAL_LM"
+        )
+
+        # 应用 LoRA
+        self.model = get_peft_model(self.base_model, lora_config)
+
+        # 推荐头
+        self.rec_head = nn.Linear(
+            self.base_model.config.hidden_size,
+            num_items
+        )
+
+    def forward(self, input_ids, attention_mask):
+        """前向传播"""
+
+        # LLM 编码
+        outputs = self.model(
+            input_ids=input_ids,
+            attention_mask=attention_mask
+        )
+
+        # 取最后一个 token 的表示
+        last_hidden = outputs.last_hidden_state[:, -1, :]
+
+        # 推荐分数
+        scores = self.rec_head(last_hidden)
+
+        return scores
+```
+
+### 两阶段训练
+
+```python
+"""
+两阶段训练策略:
+1. 预训练: 在大规模通用数据上训练
+2. 微调: 在特定推荐任务上微调
+"""
+
+class TwoStageTraining:
+    """两阶段训练"""
+
+    def stage1_pretraining(self, model, general_data):
+        """阶段1: 通用预训练"""
+
+        # 使用通用推荐数据预训练
+        # 包括多个领域的数据
+
+        optimizer = torch.optim.AdamW(
+            model.parameters(),
+            lr=1e-4
+        )
+
+        for epoch in range(5):
+            for batch in general_data:
+                loss = self.compute_loss(model, batch)
+
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+
+        return model
+
+    def stage2_finetuning(self, model, task_specific_data):
+        """阶段2: 任务微调"""
+
+        # 冻结部分层
+        for param in model.base_model.parameters():
+            param.requires_grad = False
+
+        # 只训练推荐头和 LoRA 参数
+        optimizer = torch.optim.AdamW(
+            filter(lambda p: p.requires_grad, model.parameters()),
+            lr=1e-5
+        )
+
+        for epoch in range(10):
+            for batch in task_specific_data:
+                loss = self.compute_loss(model, batch)
+
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+
+        return model
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: LLM4Rec 的主要范式有哪些？**
+
+A:
+1. **Prompt-based**: 直接 Prompt LLM 生成推荐
+2. **In-Context Learning**: 提供示例进行推荐
+3. **Fine-tuning**: 微调 LLM 适应推荐任务
+4. **Tool-use**: LLM 作为控制器调用推荐工具
+
+**Q2: LLM 做推荐的优缺点？**
+
+A:
+- **优点**: 统一框架、知识丰富、可解释、跨域泛化
+- **缺点**: 推理慢、需要大量计算资源、冷启动仍需解决
+
+**Q3: 如何表示物品给 LLM？**
+
+A:
+- ID 表示: 需要微调
+- 文本表示 (标题/描述): 利用预训练知识
+- 结构化表示: 明确属性
+
+**Q4: 如何降低 LLM 推荐的推理成本？**
+
+A:
+1. 蒸馏到小模型
+2. 缓存常见查询结果
+3. 使用更高效的架构 (如 Mamba)
+4. 量化和剪枝
+
+---
+
+## 相关文档
+
+- [生成式推荐](/kb/searchrec/doc-qi8nei) - 生成式方法
+- [LoRA高效微调](/kb/searchrec/lora-r5vmuh) - 微调技术
+- [Prompt设计](/kb/searchrec/prompt-fdks0p) - Prompt 工程
+
+---
+
+## 参考文献
+
+1. Liu et al. "Is ChatGPT a Good Recommender? A Preliminary Study". 2023.
+2. Zhang et al. "Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach". 2023.
+3. Xi et al. "Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models". 2023.
+d:T2a80,# LLM4Rec 大模型推荐
+
+> **更新日期**: 2026-03-13
+> **版本**: v1.0
+> **难度**: 高级
+> **预计阅读时间**: 50 分钟
+
+---
+
+## 目录
+
+1. [LLM4Rec 概述](#llm4rec-概述)
+2. [应用范式](#应用范式)
+3. [Prompt 设计](#prompt-设计)
+4. [微调策略](#微调策略)
+5. [面试要点](#面试要点)
+
+---
+
+## LLM4Rec 概述
+
+### 为什么用 LLM 做推荐
+
+```
+传统推荐系统:
+- 专用架构 (召回+排序)
+- 领域特定训练
+- 难以跨域迁移
+
+LLM for Recommendation:
+- 统一语言建模框架
+- 预训练知识丰富
+- 强大的泛化能力
+- 自然语言接口
+```
+
+### 应用层次
+
+```
+┌─────────────────────────────────────────────┐
+│  Level 4: 统一推荐系统 (Chat-Rec)           │
+│  LLM 控制整个推荐流程                        │
+└─────────────────────────────────────────────┘
+                    │
+┌─────────────────────────────────────────────┐
+│  Level 3: 特征工程/打分机                   │
+│  LLM 生成特征或打分                          │
+└─────────────────────────────────────────────┘
+                    │
+┌─────────────────────────────────────────────┐
+│  Level 2: 序列建模 (P5, GPT4Rec)            │
+│  LLM 建模用户行为序列                        │
+└─────────────────────────────────────────────┘
+                    │
+┌─────────────────────────────────────────────┐
+│  Level 1: 知识增强 (KAR, UniCRS)            │
+│  LLM 提供外部知识                            │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+## 应用范式
+
+### 1. Prompt-based 推荐
+
+```python
+"""
+将推荐任务转化为自然语言任务
+"""
+
+class PromptBasedRecommendation:
+    """基于 Prompt 的推荐"""
+
+    def __init__(self, llm):
+        self.llm = llm
+
+    def build_prompt(self, user_history, candidates):
+        """构建推荐 Prompt"""
+
+        prompt = f"""基于用户的历史行为，推荐最相关的物品。
+
+用户历史行为:
+{chr(10).join(f'- {item}' for item in user_history)}
+
+候选物品:
+{chr(10).join(f'{i+1}. {item}' for i, item in enumerate(candidates))}
+
+请推荐最可能感兴趣的物品 (只输出编号):"""
+
+        return prompt
+
+    def recommend(self, user_history, candidates, top_k=5):
+        """生成推荐"""
+
+        prompt = self.build_prompt(user_history, candidates)
+
+        response = self.llm.generate(prompt)
+
+        # 解析推荐结果
+        recommended_indices = self.parse_response(response, top_k)
+
+        return [candidates[i] for i in recommended_indices]
+
+    def parse_response(self, response, top_k):
+        """解析模型输出"""
+        # 提取数字编号
+        import re
+        numbers = re.findall(r'\d+', response)
+        indices = [int(n) - 1 for n in numbers if int(n) <= 10]
+
+        return indices[:top_k]
+```
+
+### 2. In-Context Learning
+
+```python
+"""
+上下文学习: 提供示例让 LLM 学习推荐模式
+"""
+
+class InContextLearningRec:
+    """上下文学习推荐"""
+
+    def build_prompt_with_examples(self, user_history, candidates, examples):
+        """构建带示例的 Prompt"""
+
+        prompt = "根据用户历史推荐物品:\n\n"
+
+        # 添加示例
+        for example in examples:
+            prompt += f"""示例:
+历史: {', '.join(example['history'])}
+推荐: {example['recommendation']}
+
+"""
+
+        # 添加当前用户
+        prompt += f"""当前用户:
+历史: {', '.join(user_history)}
+
+候选: {', '.join(candidates)}
+
+推荐:"""
+
+        return prompt
+```
+
+### 3. 指令微调
+
+```python
+"""
+指令微调: 让 LLM 学习执行推荐任务
+"""
+
+class InstructionTuningRec:
+    """指令微调推荐"""
+
+    def create_training_data(self, interactions):
+        """创建指令微调数据"""
+
+        instructions = []
+
+        for user_id, history, target in interactions:
+            # 构建指令
+            instruction = {
+                'instruction': '根据用户历史推荐下一个物品',
+                'input': f"历史: {', '.join(history)}",
+                'output': target
+            }
+
+            # 格式化为对话
+            formatted = self.format_instruction(instruction)
+            instructions.append(formatted)
+
+        return instructions
+
+    def format_instruction(self, sample):
+        """格式化指令"""
+
+        return f"""### Instruction:
+{sample['instruction']}
+
+### Input:
+{sample['input']}
+
+### Response:
+{sample['output']}"""
+```
+
+---
+
+## Prompt 设计
+
+### 推荐任务 Prompt 模板
+
+```python
+RECOMMENDATION_PROMPT_TEMPLATES = {
+
+    # 1. 序列推荐
+    'sequential': """用户历史交互序列 (按时间排序):
+{history}
+
+基于以上历史，预测用户下一个可能交互的物品。
+候选物品: {candidates}
+
+推荐 (只输出物品ID):""",
+
+    # 2. 解释生成
+    'explanation': """用户历史: {history}
+推荐物品: {item}
+
+请生成推荐理由:""",
+
+    # 3. 属性预测
+    'attribute': """用户历史: {history}
+
+预测用户对以下属性的偏好:
+- 类别偏好:
+- 价格偏好:
+- 品牌偏好:""",
+
+    # 4. 对话推荐
+    'conversational': """用户: {user_utterance}
+历史: {history}
+
+系统:""",
+
+    # 5. 跨域推荐
+    'cross_domain': """用户在源领域的偏好:
+{source_domain_history}
+
+推荐目标领域的物品:
+{target_domain_candidates}"""
+}
+```
+
+### 物品表示方法
+
+```python
+"""
+如何将物品表示给 LLM?
+
+方法1: 物品 ID
+- 简单直接
+- 需要微调
+
+方法2: 物品标题
+- 利用预训练知识
+- 泛化性好
+
+方法3: 物品描述
+- 信息丰富
+- 输入较长
+
+方法4: 结构化特征
+- 属性明确
+- 适合特定场景
+"""
+
+class ItemRepresentation:
+    """物品表示方法"""
+
+    @staticmethod
+    def id_based(item):
+        return f"item_{item['id']}"
+
+    @staticmethod
+    def title_based(item):
+        return item['title']
+
+    @staticmethod
+    def description_based(item):
+        return f"{item['title']}: {item['description']}"
+
+    @staticmethod
+    def structured_based(item):
+        return f"""商品: {item['title']}
+类别: {item['category']}
+价格: {item['price']}元
+品牌: {item['brand']}"""
+```
+
+---
+
+## 微调策略
+
+### 参数高效微调
+
+```python
+"""
+推荐场景使用 LoRA/Adapter 微调 LLM
+"""
+
+from peft import LoraConfig, get_peft_model
+
+class LLM4RecWithLoRA(nn.Module):
+    """使用 LoRA 微调的推荐模型"""
+
+    def __init__(self, base_llm_name):
+        super().__init__()
+
+        # 加载基础模型
+        self.base_model = AutoModel.from_pretrained(base_llm_name)
+
+        # LoRA 配置
+        lora_config = LoraConfig(
+            r=16,
+            lora_alpha=32,
+            target_modules=["q_proj", "v_proj"],
+            lora_dropout=0.1,
+            bias="none",
+            task_type="CAUSAL_LM"
+        )
+
+        # 应用 LoRA
+        self.model = get_peft_model(self.base_model, lora_config)
+
+        # 推荐头
+        self.rec_head = nn.Linear(
+            self.base_model.config.hidden_size,
+            num_items
+        )
+
+    def forward(self, input_ids, attention_mask):
+        """前向传播"""
+
+        # LLM 编码
+        outputs = self.model(
+            input_ids=input_ids,
+            attention_mask=attention_mask
+        )
+
+        # 取最后一个 token 的表示
+        last_hidden = outputs.last_hidden_state[:, -1, :]
+
+        # 推荐分数
+        scores = self.rec_head(last_hidden)
+
+        return scores
+```
+
+### 两阶段训练
+
+```python
+"""
+两阶段训练策略:
+1. 预训练: 在大规模通用数据上训练
+2. 微调: 在特定推荐任务上微调
+"""
+
+class TwoStageTraining:
+    """两阶段训练"""
+
+    def stage1_pretraining(self, model, general_data):
+        """阶段1: 通用预训练"""
+
+        # 使用通用推荐数据预训练
+        # 包括多个领域的数据
+
+        optimizer = torch.optim.AdamW(
+            model.parameters(),
+            lr=1e-4
+        )
+
+        for epoch in range(5):
+            for batch in general_data:
+                loss = self.compute_loss(model, batch)
+
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+
+        return model
+
+    def stage2_finetuning(self, model, task_specific_data):
+        """阶段2: 任务微调"""
+
+        # 冻结部分层
+        for param in model.base_model.parameters():
+            param.requires_grad = False
+
+        # 只训练推荐头和 LoRA 参数
+        optimizer = torch.optim.AdamW(
+            filter(lambda p: p.requires_grad, model.parameters()),
+            lr=1e-5
+        )
+
+        for epoch in range(10):
+            for batch in task_specific_data:
+                loss = self.compute_loss(model, batch)
+
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+
+        return model
+```
+
+---
+
+## 面试要点
+
+### 高频问题
+
+**Q1: LLM4Rec 的主要范式有哪些？**
+
+A:
+1. **Prompt-based**: 直接 Prompt LLM 生成推荐
+2. **In-Context Learning**: 提供示例进行推荐
+3. **Fine-tuning**: 微调 LLM 适应推荐任务
+4. **Tool-use**: LLM 作为控制器调用推荐工具
+
+**Q2: LLM 做推荐的优缺点？**
+
+A:
+- **优点**: 统一框架、知识丰富、可解释、跨域泛化
+- **缺点**: 推理慢、需要大量计算资源、冷启动仍需解决
+
+**Q3: 如何表示物品给 LLM？**
+
+A:
+- ID 表示: 需要微调
+- 文本表示 (标题/描述): 利用预训练知识
+- 结构化表示: 明确属性
+
+**Q4: 如何降低 LLM 推荐的推理成本？**
+
+A:
+1. 蒸馏到小模型
+2. 缓存常见查询结果
+3. 使用更高效的架构 (如 Mamba)
+4. 量化和剪枝
+
+---
+
+## 相关文档
+
+- [生成式推荐](/kb/searchrec/doc-qi8nei) - 生成式方法
+- [LoRA高效微调](/kb/searchrec/lora-r5vmuh) - 微调技术
+- [Prompt设计](/kb/searchrec/prompt-fdks0p) - Prompt 工程
+
+---
+
+## 参考文献
+
+1. Liu et al. "Is ChatGPT a Good Recommender? A Preliminary Study". 2023.
+2. Zhang et al. "Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach". 2023.
+3. Xi et al. "Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models". 2023.
+2:["$","$Lb",null,{"document":{"slug":"llm-zt5ow","title":"LLM4Rec大模型推荐","description":"","date":null,"tags":[],"category":"SearchRec","categoryId":"searchrec","content":"$c","filePath":"前沿研究/LLM4Rec大模型推荐.md","default":{"slug":"llm-zt5ow","title":"LLM4Rec大模型推荐","description":"","date":null,"tags":[],"category":"SearchRec","categoryId":"searchrec","content":"$d","filePath":"前沿研究/LLM4Rec大模型推荐.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"LLM4Rec大模型推荐 - SearchRec | Jerry Xu"}],["$","meta","3",{"name":"description","content":"LLM4Rec大模型推荐"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null
