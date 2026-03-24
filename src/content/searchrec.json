@@ -19,7 +19,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "ab-实验与评估",
+      "slug": "AB-实验与评估",
       "title": "AB 实验与评估",
       "description": "",
       "date": null,
@@ -28,7 +28,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "bert4rec",
+      "slug": "BERT4Rec",
       "title": "BERT4Rec",
       "description": "",
       "date": null,
@@ -37,7 +37,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "deepfm-与-xdeepfm",
+      "slug": "DeepFM-与-xDeepFM",
       "title": "DeepFM 与 xDeepFM",
       "description": "",
       "date": null,
@@ -46,7 +46,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "deepfm家族",
+      "slug": "DeepFM家族",
       "title": "DeepFM家族",
       "description": "",
       "date": null,
@@ -55,7 +55,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "din与dien",
+      "slug": "DIN与DIEN",
       "title": "DIN与DIEN",
       "description": "",
       "date": null,
@@ -64,7 +64,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "esmm-与-essm",
+      "slug": "ESMM-与-ESSM",
       "title": "ESMM 与 ESSM",
       "description": "",
       "date": null,
@@ -73,7 +73,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "gnn-在搜推中的应用",
+      "slug": "GNN-在搜推中的应用",
       "title": "GNN 在搜推中的应用",
       "description": "",
       "date": null,
@@ -82,7 +82,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "gnn-基础",
+      "slug": "GNN-基础",
       "title": "GNN 基础",
       "description": "",
       "date": null,
@@ -91,7 +91,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "gnn基础与应用",
+      "slug": "GNN基础与应用",
       "title": "GNN基础与应用",
       "description": "",
       "date": null,
@@ -100,7 +100,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "graphsage-与-gat",
+      "slug": "GraphSAGE-与-GAT",
       "title": "GraphSAGE 与 GAT",
       "description": "",
       "date": null,
@@ -109,7 +109,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "gru4rec-与-narm",
+      "slug": "GRU4Rec-与-NARM",
       "title": "GRU4Rec 与 NARM",
       "description": "",
       "date": null,
@@ -118,7 +118,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "gru4rec与sasrec",
+      "slug": "GRU4Rec与SASRec",
       "title": "GRU4Rec与SASRec",
       "description": "",
       "date": null,
@@ -127,7 +127,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "learning-to-rank",
+      "slug": "Learning-to-Rank",
       "title": "Learning to Rank",
       "description": "",
       "date": null,
@@ -136,7 +136,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "llm4rec大模型推荐",
+      "slug": "LLM4Rec大模型推荐",
       "title": "LLM4Rec大模型推荐",
       "description": "",
       "date": null,
@@ -145,7 +145,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "mmoe与多任务学习",
+      "slug": "MMoE与多任务学习",
       "title": "MMoE与多任务学习",
       "description": "",
       "date": null,
@@ -154,7 +154,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "ple-与递归冷启动",
+      "slug": "PLE-与递归冷启动",
       "title": "PLE 与递归冷启动",
       "description": "",
       "date": null,
@@ -163,7 +163,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "sasrec-与-bert4rec",
+      "slug": "SASRec-与-BERT4Rec",
       "title": "SASRec 与 BERT4Rec",
       "description": "",
       "date": null,
@@ -172,7 +172,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "wide-deep-模型",
+      "slug": "Wide-&-Deep-模型",
       "title": "Wide & Deep 模型",
       "description": "",
       "date": null,
@@ -181,7 +181,7 @@
       "categoryId": "searchrec"
     },
     {
-      "slug": "widedeep架构",
+      "slug": "Wide&Deep架构",
       "title": "Wide&Deep架构",
       "description": "",
       "date": null,

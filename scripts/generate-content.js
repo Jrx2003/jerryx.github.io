@@ -58,14 +58,13 @@ const KB_CATEGORIES = [
 ];
 
 function slugify(str) {
-  // Keep Chinese characters and convert to a URL-friendly format
+  // Create URL-friendly slug from Chinese filename
+  // Use original filename without extension, replacing spaces with dashes
+  // Keep Chinese characters as-is for the filesystem
   return str
     .replace(/\.md$/, '')
-    .replace(/[^\w\s\u4e00-\u9fa5-]/g, '') // Keep Chinese characters
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .toLowerCase();
+    .trim()
+    .replace(/\s+/g, '-');
 }
 
 function convertWikiLinks(content, categoryId) {

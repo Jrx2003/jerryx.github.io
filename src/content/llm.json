@@ -10,7 +10,7 @@
   },
   "documents": [
     {
-      "slug": "2024-2025-llm前沿趋势",
+      "slug": "2024-2025-LLM前沿趋势",
       "title": "2024-2025 LLM前沿趋势",
       "description": "",
       "date": null,
@@ -19,7 +19,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "agent-规划能力",
+      "slug": "Agent-规划能力",
       "title": "Agent 规划能力",
       "description": "",
       "date": null,
@@ -28,7 +28,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "ai-agent在广告推荐中的多智能体架构",
+      "slug": "AI-Agent在广告推荐中的多智能体架构",
       "title": "AI Agent在广告推荐中的多智能体架构",
       "description": "",
       "date": null,
@@ -37,7 +37,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "bert-与编码器模型",
+      "slug": "BERT-与编码器模型",
       "title": "BERT 与编码器模型",
       "description": "",
       "date": null,
@@ -46,7 +46,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "bert与编码器模型",
+      "slug": "BERT与编码器模型",
       "title": "BERT与编码器模型",
       "description": "",
       "date": null,
@@ -55,7 +55,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "clip-与视觉编码",
+      "slug": "CLIP-与视觉编码",
       "title": "CLIP 与视觉编码",
       "description": "",
       "date": null,
@@ -64,7 +64,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "dpo直接偏好优化",
+      "slug": "DPO直接偏好优化",
       "title": "DPO直接偏好优化",
       "description": "",
       "date": null,
@@ -73,7 +73,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "gpt-系列模型演进",
+      "slug": "GPT-系列模型演进",
       "title": "GPT 系列模型演进",
       "description": "",
       "date": null,
@@ -82,7 +82,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "gpt系列模型演进",
+      "slug": "GPT系列模型演进",
       "title": "GPT系列模型演进",
       "description": "",
       "date": null,
@@ -91,7 +91,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "kv-cache优化",
+      "slug": "KV-Cache优化",
       "title": "KV Cache优化",
       "description": "",
       "date": null,
@@ -100,7 +100,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "llm高频面试题",
+      "slug": "LLM高频面试题",
       "title": "LLM高频面试题",
       "description": "",
       "date": null,
@@ -109,7 +109,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "moe混合专家模型",
+      "slug": "MoE混合专家模型",
       "title": "MoE混合专家模型",
       "description": "",
       "date": null,
@@ -127,7 +127,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "react推理框架",
+      "slug": "ReAct推理框架",
       "title": "ReAct推理框架",
       "description": "",
       "date": null,
@@ -136,7 +136,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "rlhf深度解析",
+      "slug": "RLHF深度解析",
       "title": "RLHF深度解析",
       "description": "",
       "date": null,
@@ -145,7 +145,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "transformer-详解",
+      "slug": "Transformer-详解",
       "title": "Transformer 详解",
       "description": "",
       "date": null,
@@ -154,7 +154,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "transformer详解",
+      "slug": "Transformer详解",
       "title": "Transformer详解",
       "description": "",
       "date": null,
@@ -163,7 +163,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "vllm与pagedattention",
+      "slug": "vLLM与PagedAttention",
       "title": "vLLM与PagedAttention",
       "description": "",
       "date": null,
@@ -244,7 +244,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "指令微调与-sft",
+      "slug": "指令微调与-SFT",
       "title": "指令微调与 SFT",
       "description": "",
       "date": null,
@@ -289,7 +289,7 @@
       "categoryId": "llm"
     },
     {
-      "slug": "视觉语言模型-vlm",
+      "slug": "视觉语言模型-VLM",
       "title": "视觉语言模型 VLM",
       "description": "",
       "date": null,

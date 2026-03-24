@@ -1,71 +1,71 @@
 [
   {
     "category": "aicad",
-    "slug": "aci-会话管理"
+    "slug": "ACI-会话管理"
   },
   {
     "category": "aicad",
-    "slug": "aci-四大支柱"
+    "slug": "ACI-四大支柱"
   },
   {
     "category": "aicad",
-    "slug": "aci-实现细节"
+    "slug": "ACI-实现细节"
   },
   {
     "category": "aicad",
-    "slug": "aci-概念与迁移"
+    "slug": "ACI-概念与迁移"
   },
   {
     "category": "aicad",
-    "slug": "aci-测试指南"
+    "slug": "ACI-测试指南"
   },
   {
     "category": "aicad",
-    "slug": "agent-基础概念"
+    "slug": "Agent-基础概念"
   },
   {
     "category": "aicad",
-    "slug": "cad-agent-迭代式演进方案"
+    "slug": "CAD-Agent-迭代式演进方案"
   },
   {
     "category": "aicad",
-    "slug": "cad-sandbox-mcp-设计详解"
+    "slug": "CAD-Sandbox-MCP-设计详解"
   },
   {
     "category": "aicad",
-    "slug": "cad-动作集设计"
+    "slug": "CAD-动作集设计"
   },
   {
     "category": "aicad",
-    "slug": "cadquery-基础知识"
+    "slug": "CadQuery-基础知识"
   },
   {
     "category": "aicad",
-    "slug": "deepeval-与-openai-evals-对照"
+    "slug": "DeepEval-与-OpenAI-Evals-对照"
   },
   {
     "category": "aicad",
-    "slug": "ground-truth-评估"
+    "slug": "Ground-Truth-评估"
   },
   {
     "category": "aicad",
-    "slug": "llm-as-a-judge-评估系统"
+    "slug": "LLM-as-a-Judge-评估系统"
   },
   {
     "category": "aicad",
-    "slug": "opencode_nanobot_nanoclaw-系统设计"
+    "slug": "OpenCode_NanoBot_NanoClaw-系统设计"
   },
   {
     "category": "aicad",
-    "slug": "prompt-设计"
+    "slug": "Prompt-设计"
   },
   {
     "category": "aicad",
-    "slug": "sandbox-mcp-改造"
+    "slug": "Sandbox-MCP-改造"
   },
   {
     "category": "aicad",
-    "slug": "借助-llm-的评价系统设计"
+    "slug": "借助-LLM-的评价系统设计"
   },
   {
     "category": "aicad",
@@ -89,7 +89,7 @@
   },
   {
     "category": "aicad",
-    "slug": "渲染与-preview-模块设计"
+    "slug": "渲染与-Preview-模块设计"
   },
   {
     "category": "aicad",
@@ -101,7 +101,7 @@
   },
   {
     "category": "aicad",
-    "slug": "面向-llm-的-cad-cli-工具设计"
+    "slug": "面向-LLM-的-CAD-CLI-工具设计"
   },
   {
     "category": "cloud",
@@ -109,39 +109,39 @@
   },
   {
     "category": "cloud",
-    "slug": "ai-基础设施与-maas"
+    "slug": "AI-基础设施与-MaaS"
   },
   {
     "category": "cloud",
-    "slug": "docker-容器基础"
+    "slug": "Docker-容器基础"
   },
   {
     "category": "cloud",
-    "slug": "faas-函数计算"
+    "slug": "FaaS-函数计算"
   },
   {
     "category": "cloud",
-    "slug": "finops-云成本优化"
+    "slug": "FinOps-云成本优化"
   },
   {
     "category": "cloud",
-    "slug": "kubernetes-核心概念"
+    "slug": "Kubernetes-核心概念"
   },
   {
     "category": "cloud",
-    "slug": "kubernetes架构详解"
+    "slug": "Kubernetes架构详解"
   },
   {
     "category": "cloud",
-    "slug": "serverless-架构演进"
+    "slug": "Serverless-架构演进"
   },
   {
     "category": "cloud",
-    "slug": "service-mesh-详解"
+    "slug": "Service-Mesh-详解"
   },
   {
     "category": "cloud",
-    "slug": "webassembly-与云原生"
+    "slug": "WebAssembly-与云原生"
   },
   {
     "category": "cloud",
@@ -189,7 +189,7 @@
   },
   {
     "category": "cloud",
-    "slug": "网络架构与vpc"
+    "slug": "网络架构与VPC"
   },
   {
     "category": "cloud",
@@ -209,51 +209,51 @@
   },
   {
     "category": "llm",
-    "slug": "2024-2025-llm前沿趋势"
+    "slug": "2024-2025-LLM前沿趋势"
   },
   {
     "category": "llm",
-    "slug": "agent-规划能力"
+    "slug": "Agent-规划能力"
   },
   {
     "category": "llm",
-    "slug": "ai-agent在广告推荐中的多智能体架构"
+    "slug": "AI-Agent在广告推荐中的多智能体架构"
   },
   {
     "category": "llm",
-    "slug": "bert-与编码器模型"
+    "slug": "BERT-与编码器模型"
   },
   {
     "category": "llm",
-    "slug": "bert与编码器模型"
+    "slug": "BERT与编码器模型"
   },
   {
     "category": "llm",
-    "slug": "clip-与视觉编码"
+    "slug": "CLIP-与视觉编码"
   },
   {
     "category": "llm",
-    "slug": "dpo直接偏好优化"
+    "slug": "DPO直接偏好优化"
   },
   {
     "category": "llm",
-    "slug": "gpt-系列模型演进"
+    "slug": "GPT-系列模型演进"
   },
   {
     "category": "llm",
-    "slug": "gpt系列模型演进"
+    "slug": "GPT系列模型演进"
   },
   {
     "category": "llm",
-    "slug": "kv-cache优化"
+    "slug": "KV-Cache优化"
   },
   {
     "category": "llm",
-    "slug": "llm高频面试题"
+    "slug": "LLM高频面试题"
   },
   {
     "category": "llm",
-    "slug": "moe混合专家模型"
+    "slug": "MoE混合专家模型"
   },
   {
     "category": "llm",
@@ -261,23 +261,23 @@
   },
   {
     "category": "llm",
-    "slug": "react推理框架"
+    "slug": "ReAct推理框架"
   },
   {
     "category": "llm",
-    "slug": "rlhf深度解析"
+    "slug": "RLHF深度解析"
   },
   {
     "category": "llm",
-    "slug": "transformer-详解"
+    "slug": "Transformer-详解"
   },
   {
     "category": "llm",
-    "slug": "transformer详解"
+    "slug": "Transformer详解"
   },
   {
     "category": "llm",
-    "slug": "vllm与pagedattention"
+    "slug": "vLLM与PagedAttention"
   },
   {
     "category": "llm",
@@ -313,7 +313,7 @@
   },
   {
     "category": "llm",
-    "slug": "指令微调与-sft"
+    "slug": "指令微调与-SFT"
   },
   {
     "category": "llm",
@@ -333,7 +333,7 @@
   },
   {
     "category": "llm",
-    "slug": "视觉语言模型-vlm"
+    "slug": "视觉语言模型-VLM"
   },
   {
     "category": "llm",
@@ -357,79 +357,79 @@
   },
   {
     "category": "searchrec",
-    "slug": "ab-实验与评估"
+    "slug": "AB-实验与评估"
   },
   {
     "category": "searchrec",
-    "slug": "bert4rec"
+    "slug": "BERT4Rec"
   },
   {
     "category": "searchrec",
-    "slug": "deepfm-与-xdeepfm"
+    "slug": "DeepFM-与-xDeepFM"
   },
   {
     "category": "searchrec",
-    "slug": "deepfm家族"
+    "slug": "DeepFM家族"
   },
   {
     "category": "searchrec",
-    "slug": "din与dien"
+    "slug": "DIN与DIEN"
   },
   {
     "category": "searchrec",
-    "slug": "esmm-与-essm"
+    "slug": "ESMM-与-ESSM"
   },
   {
     "category": "searchrec",
-    "slug": "gnn-在搜推中的应用"
+    "slug": "GNN-在搜推中的应用"
   },
   {
     "category": "searchrec",
-    "slug": "gnn-基础"
+    "slug": "GNN-基础"
   },
   {
     "category": "searchrec",
-    "slug": "gnn基础与应用"
+    "slug": "GNN基础与应用"
   },
   {
     "category": "searchrec",
-    "slug": "graphsage-与-gat"
+    "slug": "GraphSAGE-与-GAT"
   },
   {
     "category": "searchrec",
-    "slug": "gru4rec-与-narm"
+    "slug": "GRU4Rec-与-NARM"
   },
   {
     "category": "searchrec",
-    "slug": "gru4rec与sasrec"
+    "slug": "GRU4Rec与SASRec"
   },
   {
     "category": "searchrec",
-    "slug": "learning-to-rank"
+    "slug": "Learning-to-Rank"
   },
   {
     "category": "searchrec",
-    "slug": "llm4rec大模型推荐"
+    "slug": "LLM4Rec大模型推荐"
   },
   {
     "category": "searchrec",
-    "slug": "mmoe与多任务学习"
+    "slug": "MMoE与多任务学习"
   },
   {
     "category": "searchrec",
-    "slug": "ple-与递归冷启动"
+    "slug": "PLE-与递归冷启动"
   },
   {
     "category": "searchrec",
-    "slug": "sasrec-与-bert4rec"
+    "slug": "SASRec-与-BERT4Rec"
   },
   {
     "category": "searchrec",
-    "slug": "wide-deep-模型"
+    "slug": "Wide-&-Deep-模型"
   },
   {
     "category": "searchrec",
-    "slug": "widedeep架构"
+    "slug": "Wide&Deep架构"
   },
   {
     "category": "searchrec",

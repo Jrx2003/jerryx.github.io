@@ -19,7 +19,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "ai-基础设施与-maas",
+      "slug": "AI-基础设施与-MaaS",
       "title": "AI 基础设施与 MaaS",
       "description": "",
       "date": null,
@@ -28,7 +28,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "docker-容器基础",
+      "slug": "Docker-容器基础",
       "title": "Docker 容器基础",
       "description": "",
       "date": null,
@@ -37,7 +37,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "faas-函数计算",
+      "slug": "FaaS-函数计算",
       "title": "FaaS 函数计算",
       "description": "",
       "date": null,
@@ -46,7 +46,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "finops-云成本优化",
+      "slug": "FinOps-云成本优化",
       "title": "FinOps 云成本优化",
       "description": "",
       "date": null,
@@ -55,7 +55,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "kubernetes-核心概念",
+      "slug": "Kubernetes-核心概念",
       "title": "Kubernetes 核心概念",
       "description": "",
       "date": null,
@@ -64,7 +64,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "kubernetes架构详解",
+      "slug": "Kubernetes架构详解",
       "title": "Kubernetes架构详解",
       "description": "",
       "date": null,
@@ -73,7 +73,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "serverless-架构演进",
+      "slug": "Serverless-架构演进",
       "title": "Serverless 架构演进",
       "description": "",
       "date": null,
@@ -82,7 +82,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "service-mesh-详解",
+      "slug": "Service-Mesh-详解",
       "title": "Service Mesh 详解",
       "description": "",
       "date": null,
@@ -91,7 +91,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "webassembly-与云原生",
+      "slug": "WebAssembly-与云原生",
       "title": "WebAssembly 与云原生",
       "description": "",
       "date": null,
@@ -199,7 +199,7 @@
       "categoryId": "cloud"
     },
     {
-      "slug": "网络架构与vpc",
+      "slug": "网络架构与VPC",
       "title": "网络架构与VPC",
       "description": "",
       "date": null,
