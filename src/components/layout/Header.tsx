@@ -2,10 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Github, Menu, X, Sparkles } from "lucide-react";
 import { useState } from "react";
-import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
   { href: "/", label: "首页" },
@@ -26,7 +25,7 @@ export function Header() {
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass dark:glass border border-white/10 dark:border-white/5 shadow-2xl shadow-purple-500/5"
+          className="relative max-w-5xl mx-auto px-6 py-3 rounded-full glass border border-white/10 shadow-2xl shadow-purple-500/5"
         >
           <div className="flex items-center justify-between">
             {/* Logo */}
@@ -37,7 +36,7 @@ export function Header() {
                 </div>
                 <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 blur-lg opacity-50 group-hover:opacity-75 transition-opacity" />
               </div>
-              <span className="font-bold text-lg tracking-tight hidden sm:block">
+              <span className="font-bold text-lg tracking-tight hidden sm:block text-foreground">
                 Jerry
               </span>
             </Link>
@@ -50,18 +49,13 @@ export function Header() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="relative px-4 py-2 text-sm font-medium transition-colors"
+                    className={`relative px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
+                      isActive
+                        ? "bg-white/10 text-foreground"
+                        : "text-muted-foreground hover:text-foreground hover:bg-white/5"
+                    }`}
                   >
-                    {isActive && (
-                      <motion.div
-                        layoutId="activeNav"
-                        className="absolute inset-0 bg-white/10 dark:bg-white/5 rounded-full"
-                        transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-                      />
-                    )}
-                    <span className={isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground transition-colors"}>
-                      {item.label}
-                    </span>
+                    {item.label}
                   </Link>
                 );
               })}
@@ -73,16 +67,15 @@ export function Header() {
                 href="https://github.com/Jrx2003"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 dark:hover:bg-white/5 transition-colors"
+                className="hidden md:flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"
               >
                 <Github className="w-4 h-4" />
               </a>
-              <ThemeToggle />
 
               {/* Mobile Menu Button */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 dark:hover:bg-white/5 transition-colors"
+                className="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/10 transition-colors text-foreground"
               >
                 {mobileMenuOpen ? (
                   <X className="w-5 h-5" />
@@ -96,49 +89,41 @@ export function Header() {
       </div>
 
       {/* Mobile Navigation */}
-      <AnimatePresence>
-        {mobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20, scale: 0.95 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: -20, scale: 0.95 }}
-            transition={{ duration: 0.2 }}
-            className="md:hidden mx-4 mt-2"
-          >
-            <div className="glass dark:glass rounded-2xl border border-white/10 dark:border-white/5 shadow-2xl p-4">
-              <nav className="flex flex-col gap-1">
-                {navItems.map((item) => {
-                  const isActive = pathname === item.href;
-                  return (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      onClick={() => setMobileMenuOpen(false)}
-                      className={`px-4 py-3 rounded-xl text-sm font-medium transition-colors ${
-                        isActive
-                          ? "bg-white/10 dark:bg-white/5 text-foreground"
-                          : "text-muted-foreground hover:text-foreground hover:bg-white/5 dark:hover:bg-white/5"
-                      }`}
-                    >
-                      {item.label}
-                    </Link>
-                  );
-                })}
-                <div className="h-px bg-border my-2" />
-                <a
-                  href="https://github.com/Jrx2003"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-white/5 dark:hover:bg-white/5 transition-colors"
-                >
-                  <Github className="w-4 h-4" />
-                  GitHub
-                </a>
-              </nav>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {mobileMenuOpen && (
+        <div className="md:hidden mx-4 mt-2">
+          <div className="glass rounded-2xl border border-white/10 shadow-2xl p-4">
+            <nav className="flex flex-col gap-1">
+              {navItems.map((item) => {
+                const isActive = pathname === item.href;
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className={`px-4 py-3 rounded-xl text-sm font-medium transition-colors ${
+                      isActive
+                        ? "bg-white/10 text-foreground"
+                        : "text-muted-foreground hover:text-foreground hover:bg-white/5"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
+              <div className="h-px bg-white/10 my-2" />
+              <a
+                href="https://github.com/Jrx2003"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-white/5 transition-colors"
+              >
+                <Github className="w-4 h-4" />
+                GitHub
+              </a>
+            </nav>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

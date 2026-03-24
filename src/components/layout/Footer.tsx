@@ -64,10 +64,30 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">
               联系方式
             </h4>
-            <ul className="space-y-3 text-sm text-muted-foreground">
-              <li>上海交通大学</li>
-              <li>即将前往香港中文大学</li>
-              <li className="text-xs pt-2">
+            <ul className="space-y-3 text-sm">
+              <li>
+                <a
+                  href="https://www.sjtu.edu.cn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group"
+                >
+                  上海交通大学
+                  <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.cuhk.edu.hk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group"
+                >
+                  即将前往香港中文大学
+                  <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </a>
+              </li>
+              <li className="text-xs pt-2 text-muted-foreground">
                 通过 GitHub 联系
               </li>
             </ul>
