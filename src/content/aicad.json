@@ -1,0 +1,247 @@
+{
+  "category": {
+    "id": "aicad",
+    "name": "AICAD",
+    "description": "CAD Agent 系统设计与实现",
+    "icon": "Cpu",
+    "color": "text-blue-400",
+    "bgColor": "from-blue-500/20 to-cyan-500/20",
+    "borderColor": "border-blue-500/20"
+  },
+  "documents": [
+    {
+      "slug": "aci-会话管理",
+      "title": "ACI 会话管理",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "aci-四大支柱",
+      "title": "ACI 四大支柱",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "aci-实现细节",
+      "title": "ACI 实现细节",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "aci-概念与迁移",
+      "title": "ACI 概念与迁移",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "aci-测试指南",
+      "title": "ACI 测试指南",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "agent-基础概念",
+      "title": "Agent 基础概念",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "cad-agent-迭代式演进方案",
+      "title": "CAD Agent 迭代式演进方案",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "cad-sandbox-mcp-设计详解",
+      "title": "CAD Sandbox MCP 设计详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "cad-动作集设计",
+      "title": "CAD 动作集设计",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "cadquery-基础知识",
+      "title": "CadQuery 基础知识",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "deepeval-与-openai-evals-对照",
+      "title": "DeepEval 与 OpenAI Evals 对照",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "ground-truth-评估",
+      "title": "Ground Truth 评估",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "llm-as-a-judge-评估系统",
+      "title": "LLM-as-a-Judge 评估系统",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "opencode_nanobot_nanoclaw-系统设计",
+      "title": "OpenCode_NanoBot_NanoClaw 系统设计",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "prompt-设计",
+      "title": "Prompt 设计",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "sandbox-mcp-改造",
+      "title": "Sandbox MCP 改造",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "借助-llm-的评价系统设计",
+      "title": "借助 LLM 的评价系统设计",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "多模态评估流程",
+      "title": "多模态评估流程",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "技术知识库总览",
+      "title": "技术知识库总览",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "数据集测试流程",
+      "title": "数据集测试流程",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "核心术语表",
+      "title": "核心术语表",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "测试产物目录结构",
+      "title": "测试产物目录结构",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "渲染与-preview-模块设计",
+      "title": "渲染与 Preview 模块设计",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "知识库索引",
+      "title": "知识库索引",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "终端测试手册",
+      "title": "终端测试手册",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    },
+    {
+      "slug": "面向-llm-的-cad-cli-工具设计",
+      "title": "面向 LLM 的 CAD CLI 工具设计",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "AICAD",
+      "categoryId": "aicad"
+    }
+  ]
+}

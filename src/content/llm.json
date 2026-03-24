@@ -1,0 +1,337 @@
+{
+  "category": {
+    "id": "llm",
+    "name": "LLM",
+    "description": "大语言模型技术",
+    "icon": "Brain",
+    "color": "text-purple-400",
+    "bgColor": "from-purple-500/20 to-pink-500/20",
+    "borderColor": "border-purple-500/20"
+  },
+  "documents": [
+    {
+      "slug": "2024-2025-llm前沿趋势",
+      "title": "2024-2025 LLM前沿趋势",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "agent-规划能力",
+      "title": "Agent 规划能力",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "ai-agent在广告推荐中的多智能体架构",
+      "title": "AI Agent在广告推荐中的多智能体架构",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "bert-与编码器模型",
+      "title": "BERT 与编码器模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "bert与编码器模型",
+      "title": "BERT与编码器模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "clip-与视觉编码",
+      "title": "CLIP 与视觉编码",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "dpo直接偏好优化",
+      "title": "DPO直接偏好优化",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "gpt-系列模型演进",
+      "title": "GPT 系列模型演进",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "gpt系列模型演进",
+      "title": "GPT系列模型演进",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "kv-cache优化",
+      "title": "KV Cache优化",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "llm高频面试题",
+      "title": "LLM高频面试题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "moe混合专家模型",
+      "title": "MoE混合专家模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "o1类推理模型",
+      "title": "o1类推理模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "react推理框架",
+      "title": "ReAct推理框架",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "rlhf深度解析",
+      "title": "RLHF深度解析",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "transformer-详解",
+      "title": "Transformer 详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "transformer详解",
+      "title": "Transformer详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "vllm与pagedattention",
+      "title": "vLLM与PagedAttention",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "上下文压缩技术",
+      "title": "上下文压缩技术",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "位置外推与插值",
+      "title": "位置外推与插值",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "位置编码技术演进",
+      "title": "位置编码技术演进",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "多模态基础架构",
+      "title": "多模态基础架构",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "对齐技术对比",
+      "title": "对齐技术对比",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "工具学习与使用",
+      "title": "工具学习与使用",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "手撕代码题",
+      "title": "手撕代码题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "投机解码",
+      "title": "投机解码",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "指令微调与-sft",
+      "title": "指令微调与 SFT",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "数据工程与清洗",
+      "title": "数据工程与清洗",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "模型合并与编辑",
+      "title": "模型合并与编辑",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "模型量化技术",
+      "title": "模型量化技术",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "注意力机制深入理解",
+      "title": "注意力机制深入理解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "视觉语言模型-vlm",
+      "title": "视觉语言模型 VLM",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "系统设计题",
+      "title": "系统设计题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "长上下文技术概览",
+      "title": "长上下文技术概览",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "预训练策略与技巧",
+      "title": "预训练策略与技巧",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    },
+    {
+      "slug": "高效微调技术",
+      "title": "高效微调技术",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "categoryId": "llm"
+    }
+  ]
+}

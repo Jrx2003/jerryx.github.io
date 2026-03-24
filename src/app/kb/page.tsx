@@ -8,80 +8,27 @@ import {
   Brain,
   Search,
   ArrowRight,
-  FileText,
-  Clock,
-  ChevronRight,
-  ExternalLink,
+  BookOpen,
+  FolderOpen,
+  Calendar,
+  Tag,
 } from "lucide-react";
+import { KB_CATEGORIES } from "@/lib/content";
 
-const knowledgeBases = [
-  {
-    id: "aicad",
-    title: "AICAD",
-    description: "CAD Agent 系统技术文档，包含 ACI 设计、迭代式建模、评估系统等核心技术",
-    icon: Cpu,
-    color: "text-blue-400",
-    bgColor: "from-blue-500/20 to-cyan-500/20",
-    borderColor: "border-blue-500/20",
-    stats: "50+ 文档",
-    path: "/kb/aicad/",
-    articles: [
-      { title: "ACI 四大支柱", path: "/kb/aicad/aci-four-pillars/", date: "2026-03-12" },
-      { title: "CAD Agent 迭代式演进方案", path: "/kb/aicad/iteration-design/", date: "2026-03-11" },
-      { title: "MCP 协议实现详解", path: "/kb/aicad/mcp-protocol/", date: "2026-03-10" },
-    ],
-  },
-  {
-    id: "cloud",
-    title: "Cloud Computing",
-    description: "云计算与云原生技术知识库，涵盖 Kubernetes、微服务、Serverless 等",
-    icon: Cloud,
-    color: "text-green-400",
-    bgColor: "from-green-500/20 to-emerald-500/20",
-    borderColor: "border-green-500/20",
-    stats: "30+ 文档",
-    path: "/kb/cloud/",
-    articles: [
-      { title: "Kubernetes 架构详解", path: "/kb/cloud/kubernetes/", date: "2026-03-08" },
-      { title: "微服务设计模式", path: "/kb/cloud/microservices/", date: "2026-03-05" },
-      { title: "Serverless 最佳实践", path: "/kb/cloud/serverless/", date: "2026-03-01" },
-    ],
-  },
-  {
-    id: "llm",
-    title: "LLM",
-    description: "大语言模型算法与技术，包括 Transformer、RLHF、推理优化等",
-    icon: Brain,
-    color: "text-purple-400",
-    bgColor: "from-purple-500/20 to-pink-500/20",
-    borderColor: "border-purple-500/20",
-    stats: "40+ 文档",
-    path: "/kb/llm/",
-    articles: [
-      { title: "Transformer 详解", path: "/kb/llm/transformer/", date: "2026-03-10" },
-      { title: "RLHF 深度解析", path: "/kb/llm/rlhf/", date: "2026-03-07" },
-      { title: "推理优化技术", path: "/kb/llm/inference-optimization/", date: "2026-03-03" },
-    ],
-  },
-  {
-    id: "searchrec",
-    title: "SearchRec",
-    description: "搜索与推荐系统，从经典算法到深度学习推荐",
-    icon: Search,
-    color: "text-amber-400",
-    bgColor: "from-amber-500/20 to-orange-500/20",
-    borderColor: "border-amber-500/20",
-    stats: "35+ 文档",
-    path: "/kb/searchrec/",
-    articles: [
-      { title: "推荐系统概述", path: "/kb/searchrec/recommendation-overview/", date: "2026-03-09" },
-      { title: "Learning to Rank", path: "/kb/searchrec/learning-to-rank/", date: "2026-03-06" },
-      { title: "GNN 在搜推中的应用", path: "/kb/searchrec/gnn-for-search/", date: "2026-02-28" },
-    ],
-  },
-];
+// Icon mapping
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  Cpu,
+  Cloud,
+  Brain,
+  Search,
+};
 
-export default function KnowledgeBasePage() {
+const categories = KB_CATEGORIES.map(cat => ({
+  ...cat,
+  Icon: iconMap[cat.icon] || BookOpen,
+}));
+
+export default function KBPage() {
   return (
     <div className="relative min-h-screen">
       {/* Background */}
@@ -97,101 +44,121 @@ export default function KnowledgeBasePage() {
             className="text-center mb-16"
           >
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm font-medium mb-6">
-              <FileText className="w-4 h-4" />
+              <BookOpen className="w-4 h-4" />
               知识库
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-6">
-              <span className="gradient-text">技术笔记</span>
+              <span className="gradient-text">技术知识库</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              我的技术知识库，涵盖 AI、云计算、推荐系统等领域
+              基于 Obsidian 笔记系统的技术知识管理，涵盖 AI Agent、云计算、大语言模型、搜索推荐等领域
             </p>
           </motion.div>
 
-          {/* Knowledge Base Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
-            {knowledgeBases.map((kb, index) => (
-              <motion.div
-                key={kb.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-              >
-                <div className={`glass rounded-2xl p-6 h-full border ${kb.borderColor}`}>
-                  {/* Header */}
-                  <div className="flex items-start justify-between mb-6">
-                    <div className="flex items-center gap-4">
-                      <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${kb.bgColor} flex items-center justify-center`}>
-                        <kb.icon className={`w-6 h-6 ${kb.color}`} />
-                      </div>
-                      <div>
-                        <h2 className="text-xl font-bold">{kb.title}</h2>
-                        <span className="text-sm text-muted-foreground">{kb.stats}</span>
-                      </div>
-                    </div>
-                    <Link
-                      href={kb.path}
-                      className="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                    >
-                      查看全部
-                      <ChevronRight className="w-4 h-4" />
-                    </Link>
-                  </div>
-
-                  {/* Description */}
-                  <p className="text-muted-foreground mb-6">{kb.description}</p>
-
-                  {/* Recent Articles */}
-                  <div className="space-y-3">
-                    <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-                      最近更新
-                    </h3>
-                    {kb.articles.map((article) => (
-                      <Link
-                        key={article.path}
-                        href={article.path}
-                        className="flex items-center justify-between p-3 rounded-xl hover:bg-white/5 transition-colors group"
-                      >
-                        <div className="flex items-center gap-3">
-                          <FileText className="w-4 h-4 text-muted-foreground" />
-                          <span className="text-sm font-medium group-hover:text-foreground transition-colors">
-                            {article.title}
-                          </span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-xs text-muted-foreground">{article.date}</span>
-                          <ArrowRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                        </div>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          {/* Sync Info */}
+          {/* Categories */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="glass rounded-2xl p-8 text-center"
+            className="mb-16"
           >
-            <Clock className="w-8 h-8 mx-auto mb-4 text-muted-foreground" />
-            <h3 className="text-lg font-semibold mb-2">内容同步说明</h3>
-            <p className="text-muted-foreground text-sm max-w-2xl mx-auto mb-4">
-              知识库内容与 Obsidian 笔记系统同步。
-              如需查看完整内容，请访问 GitHub 上的 note 仓库。
-            </p>
+            <h2 className="text-2xl font-bold mb-8 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-blue-500" />
+              知识领域
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {categories.map((category, index) => (
+                <motion.div
+                  key={category.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <Link href={`/kb/${category.id}/`}>
+                    <div className={`glass rounded-2xl p-6 h-full border ${category.borderColor} hover:bg-white/5 transition-colors group`}>
+                      <div className="flex items-start gap-4">
+                        <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${category.bgColor} flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform`}>
+                          <category.Icon className={`w-7 h-7 ${category.color}`} />
+                        </div>
+                        <div className="flex-1">
+                          <div className="flex items-center justify-between mb-2">
+                            <h3 className="text-xl font-bold">{category.name}</h3>
+                            <ArrowRight className="w-5 h-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                          </div>
+                          <p className="text-muted-foreground text-sm mb-3">
+                            {category.description}
+                          </p>
+                          <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
+                            <FolderOpen className="w-3 h-3" />
+                            浏览全部文档
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* How it works */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="glass rounded-2xl p-8"
+          >
+            <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-purple-500" />
+              知识库说明
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="space-y-2">
+                <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center">
+                  <BookOpen className="w-5 h-5 text-blue-400" />
+                </div>
+                <h3 className="font-semibold">Obsidian 同步</h3>
+                <p className="text-sm text-muted-foreground">
+                  知识库内容直接与 Obsidian 笔记系统同步，保持最新状态
+                </p>
+              </div>
+              <div className="space-y-2">
+                <div className="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center">
+                  <Tag className="w-5 h-5 text-purple-400" />
+                </div>
+                <h3 className="font-semibold">标签分类</h3>
+                <p className="text-sm text-muted-foreground">
+                  使用标签系统组织内容，支持多维度检索与导航
+                </p>
+              </div>
+              <div className="space-y-2">
+                <div className="w-10 h-10 rounded-lg bg-emerald-500/20 flex items-center justify-center">
+                  <Calendar className="w-5 h-5 text-emerald-400" />
+                </div>
+                <h3 className="font-semibold">持续更新</h3>
+                <p className="text-sm text-muted-foreground">
+                  定期更新学习笔记、项目文档和技术总结
+                </p>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* GitHub Link */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-12 text-center"
+          >
             <a
               href="https://github.com/Jrx2003/note"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass hover:bg-white/10 transition-colors text-sm"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 transition-colors"
             >
-              查看完整笔记
-              <ExternalLink className="w-4 h-4" />
+              在 GitHub 上查看完整笔记仓库
+              <ArrowRight className="w-4 h-4" />
             </a>
           </motion.div>
         </div>

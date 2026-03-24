@@ -1,0 +1,11 @@
+{
+  "slug": "评估指标体系",
+  "title": "评估指标体系",
+  "description": "",
+  "date": null,
+  "tags": [],
+  "category": "SearchRec",
+  "categoryId": "searchrec",
+  "content": "# 评估指标体系\n\n> 更新日期：2026-03-13\n> 相关文档：[推荐系统概述](/kb/searchrec/推荐系统概述) | [协同过滤算法](/kb/searchrec/协同过滤算法)\n\n---\n\n## 一、离线评估指标\n\n### 准确率指标\n\n| 指标 | 公式 | 说明 |\n|------|------|------|\n| **RMSE** | $\\sqrt{\\frac{1}{N}\\sum_{i=1}^N (y_i - \\hat{y}_i)^2}$ | 评分预测准确度 |\n| **MAE** | $\\frac{1}{N}\\sum_{i=1}^N \\|y_i - \\hat{y}_i\\|$ | 平均绝对误差 |\n| **LogLoss** | $-\\frac{1}{N}\\sum[y_i\\log(\\hat{y}_i) + (1-y_i)\\log(1-\\hat{y}_i)]$ | 对数损失 |\n\n### 排序指标\n\n| 指标 | 公式 | 说明 |\n|------|------|------|\n| **AUC** | ROC 曲线下面积 | 分类/排序能力 |\n| **GAUC** | 分组 AUC 平均 | 用户级排序能力 |\n| **NDCG@K** | 归一化折损累计增益 | 考虑位置和相关度 |\n| **MAP** | 平均精度均值 | 检索效果 |\n| **MRR** | 平均倒数排名 | 首 relevant 位置 |\n\n---\n\n## 二、在线评估指标\n\n### 点击率与转化\n\n| 指标 | 公式 | 说明 |\n|------|------|------|\n| **CTR** | $\\frac{\\text{点击数}}{\\text{曝光数}}$ | 点击率 |\n| **CVR** | $\\frac{\\text{转化数}}{\\text{点击数}}$ | 转化率 |\n| **CTCVR** | $\\frac{\\text{转化数}}{\\text{曝光数}}$ | 点击-转化率 |\n\n### 用户满意度\n\n| 指标 | 说明 |\n|------|------|\n| **人均点击数** | 平均每个用户的点击次数 |\n| **人均浏览时长** | 平均每个用户的浏览时长 |\n| **留存率** | 次日/7日/30日留存 |\n| **NPS** | 净推荐值 |\n\n---\n\n## 三、代码实现\n\n```python\nimport numpy as np\nfrom sklearn.metrics import roc_auc_score, ndcg_score\n\ndef compute_auc(y_true, y_pred):\n    \"\"\"计算 AUC\"\"\"\n    return roc_auc_score(y_true, y_pred)\n\ndef compute_gauc(y_true, y_pred, user_ids):\n    \"\"\"计算 GAUC\"\"\"\n    user_aucs = []\n    for user in np.unique(user_ids):\n        mask = user_ids == user\n        if len(np.unique(y_true[mask])) > 1:\n            user_auc = compute_auc(y_true[mask], y_pred[mask])\n            user_aucs.append(user_auc)\n    return np.mean(user_aucs)\n\ndef compute_ndcg(y_true, y_pred, k=10):\n    \"\"\"计算 NDCG@K\"\"\"\n    return ndcg_score([y_true], [y_pred], k=k)\n```\n\n---\n\n## 四、指标选择\n\n| 场景 | 推荐指标 |\n|------|----------|\n| 评分预测 | RMSE, MAE |\n| CTR 预估 | AUC, GAUC, LogLoss |\n| 排序任务 | NDCG, MAP, MRR |\n| 多样性 | Coverage, Intra-list Diversity |\n| 业务效果 | CTR, CVR, GMV, 留存 |\n",
+  "filePath": "推荐系统基础/评估指标体系.md"
+}

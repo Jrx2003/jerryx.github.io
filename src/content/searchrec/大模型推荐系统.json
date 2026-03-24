@@ -1,0 +1,11 @@
+{
+  "slug": "大模型推荐系统",
+  "title": "大模型推荐系统",
+  "description": "",
+  "date": null,
+  "tags": [],
+  "category": "SearchRec",
+  "categoryId": "searchrec",
+  "content": "# 大模型推荐系统\n\n> **更新日期**: 2026-03-13\n> **版本**: v1.0\n> **难度**: 前沿\n> **预计阅读时间**: 45 分钟\n\n---\n\n## 目录\n\n1. [LLM4Rec 概述](#llm4rec-概述)\n2. [应用范式](#应用范式)\n3. [Prompt 设计](#prompt-设计)\n4. [面试要点](#面试要点)\n\n---\n\n## LLM4Rec 概述\n\n### 为什么用 LLM 做推荐\n\n```\n传统推荐:\n- 专用架构\n- 领域特定训练\n- 难以迁移\n\nLLM 推荐:\n- 统一语言建模框架\n- 丰富的预训练知识\n- 强大的泛化能力\n- 自然语言接口\n```\n\n### 应用层次\n\n```\nLevel 1: 特征工程\nLevel 2: 序列建模\nLevel 3: 特征增强\nLevel 4: 统一推荐系统\n```\n\n---\n\n## 应用范式\n\n### 1. Prompt-based\n\n```python\nprompt = f\"\"\"\n用户历史: {user_history}\n候选物品: {candidates}\n\n推荐最可能感兴趣的物品:\n\"\"\"\nresponse = llm.generate(prompt)\n```\n\n### 2. Embedding 增强\n\n```python\n# 使用 LLM 生成物品嵌入\nitem_text = f\"{title} {description}\"\nitem_embedding = llm.encode(item_text)\n```\n\n---\n\n## Prompt 设计\n\n### 推荐任务模板\n\n```python\nSEQUENTIAL_REC_PROMPT = \"\"\"\n用户历史交互序列 (按时间):\n{history}\n\n候选物品:\n{candidates}\n\n预测用户下一个最可能交互的物品 (只输出ID):\n\"\"\"\n```\n\n---\n\n## 面试要点\n\n**Q1: LLM 做推荐的优势和挑战？**\n\nA:\n- 优势: 统一框架、知识丰富、可解释\n- 挑战: 推理慢、成本高、冷启动\n\n**Q2: 如何降低 LLM 推荐成本？**\n\nA:\n- 蒸馏到小模型\n- 缓存 embedding\n- 两阶段架构\n",
+  "filePath": "前沿研究/大模型推荐系统.md"
+}

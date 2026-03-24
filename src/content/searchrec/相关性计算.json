@@ -1,0 +1,11 @@
+{
+  "slug": "相关性计算",
+  "title": "相关性计算",
+  "description": "",
+  "date": null,
+  "tags": [],
+  "category": "SearchRec",
+  "categoryId": "searchrec",
+  "content": "# 相关性计算\n\n> **更新日期**: 2026-03-13\n> **版本**: v1.0\n> **难度**: 中级\n> **预计阅读时间**: 40 分钟\n\n---\n\n## 目录\n\n1. [文本相关性概述](#文本相关性概述)\n2. [TF-IDF](#tf-idf)\n3. [BM25](#bm25)\n4. [语义相关性](#语义相关性)\n5. [面试要点](#面试要点)\n\n---\n\n## 文本相关性概述\n\n### 什么相关性计算\n\n相关性计算衡量查询(Query)和文档(Doc)的匹配程度。\n\n```\n类型:\n- 字面匹配: TF-IDF、BM25\n- 语义匹配: 向量相似度\n- 混合方法: 传统+深度学习\n```\n\n---\n\n## TF-IDF\n\n### 原理\n\n```\nTF (词频): 词语在文档中出现频率\nIDF (逆文档频率): 词语的区分能力\n\nTF-IDF = TF × IDF\n```\n\n### 实现\n\n```python\nfrom sklearn.feature_extraction.text import TfidfVectorizer\n\nvectorizer = TfidfVectorizer()\ndoc_vectors = vectorizer.fit_transform(documents)\n\n# 计算相似度\nfrom sklearn.metrics.pairwise import cosine_similarity\nsimilarity = cosine_similarity(query_vector, doc_vectors)\n```\n\n---\n\n## BM25\n\n### 原理\n\nBM25 是 TF-IDF 的改进版本，考虑了文档长度和词频饱和。\n\n```\nscore(Q, D) = Σ IDF(q_i) × [f(q_i, D) × (k1 + 1)] / [f(q_i, D) + k1 × (1 - b + b × |D| / avgdl)]\n\n参数:\n- k1: 控制词频饱和度 (通常 1.2-2.0)\n- b: 控制文档长度影响 (通常 0.75)\n```\n\n### 实现\n\n```python\nfrom rank_bm25 import BM25Okapi\n\ncorpus = [doc.split() for doc in documents]\nbm25 = BM25Okapi(corpus)\n\n# 查询\ntokenized_query = query.split()\ndoc_scores = bm25.get_scores(tokenized_query)\n```\n\n---\n\n## 语义相关性\n\n### 向量表示\n\n```python\n# 使用预训练模型\nfrom sentence_transformers import SentenceTransformer\n\nmodel = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')\n\ndoc_embeddings = model.encode(documents)\nquery_embedding = model.encode(query)\n\n# 相似度\nsimilarities = cosine_similarity([query_embedding], doc_embeddings)\n```\n\n---\n\n## 面试要点\n\n**Q1: BM25 和 TF-IDF 的区别？**\n\nA:\n- BM25 考虑词频饱和\n- BM25 考虑文档长度\n- BM25 效果通常更好\n\n**Q2: 字面匹配和语义匹配的区别？**\n\nA:\n- 字面匹配: 关键词匹配\n- 语义匹配: 理解含义\n- 通常两者结合使用\n",
+  "filePath": "搜索算法/相关性计算.md"
+}

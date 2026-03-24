@@ -1,0 +1,247 @@
+{
+  "category": {
+    "id": "cloud",
+    "name": "Cloud Computing",
+    "description": "云计算与云原生技术",
+    "icon": "Cloud",
+    "color": "text-sky-400",
+    "bgColor": "from-sky-500/20 to-blue-500/20",
+    "borderColor": "border-sky-500/20"
+  },
+  "documents": [
+    {
+      "slug": "2024-2025云计算前沿趋势",
+      "title": "2024-2025云计算前沿趋势",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "ai-基础设施与-maas",
+      "title": "AI 基础设施与 MaaS",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "docker-容器基础",
+      "title": "Docker 容器基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "faas-函数计算",
+      "title": "FaaS 函数计算",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "finops-云成本优化",
+      "title": "FinOps 云成本优化",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "kubernetes-核心概念",
+      "title": "Kubernetes 核心概念",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "kubernetes架构详解",
+      "title": "Kubernetes架构详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "serverless-架构演进",
+      "title": "Serverless 架构演进",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "service-mesh-详解",
+      "title": "Service Mesh 详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "webassembly-与云原生",
+      "title": "WebAssembly 与云原生",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "云平台对比分析",
+      "title": "云平台对比分析",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "云计算入门指南",
+      "title": "云计算入门指南",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "云计算核心概念",
+      "title": "云计算核心概念",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "云计算高频面试题",
+      "title": "云计算高频面试题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "冷启动优化技术",
+      "title": "冷启动优化技术",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "场景设计题精讲",
+      "title": "场景设计题精讲",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "存储服务对比",
+      "title": "存储服务对比",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "容器服务选型指南",
+      "title": "容器服务选型指南",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "微服务架构设计",
+      "title": "微服务架构设计",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "服务模式详解",
+      "title": "服务模式详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "机密计算与零信任",
+      "title": "机密计算与零信任",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "网络架构与vpc",
+      "title": "网络架构与VPC",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "虚拟化技术详解",
+      "title": "虚拟化技术详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "计算服务概览",
+      "title": "计算服务概览",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "边缘计算与分布式云",
+      "title": "边缘计算与分布式云",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    },
+    {
+      "slug": "部署模式对比",
+      "title": "部署模式对比",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "categoryId": "cloud"
+    }
+  ]
+}
