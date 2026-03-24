@@ -139,6 +139,14 @@ function processDocument(filePath, categoryId, categoryName) {
 }
 
 function generateContent() {
+  // Check if --if-exists flag is set and source doesn't exist
+  const ifExists = process.argv.includes('--if-exists');
+  if (ifExists && !fs.existsSync(NOTE_REPO_PATH)) {
+    console.log('Note repo path does not exist, skipping content generation (using pre-generated files)');
+    console.log(`Expected path: ${NOTE_REPO_PATH}`);
+    return;
+  }
+
   console.log('Generating content from Obsidian notes...');
   console.log(`Note repo path: ${NOTE_REPO_PATH}`);
 

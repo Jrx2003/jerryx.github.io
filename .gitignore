@@ -33,9 +33,11 @@ yarn-error.log*
 # Vercel
 .vercel
 
-# Content (synced from obsidian, will be regenerated)
-content/*
-!content/.gitkeep
+# Content - now committed to repo for GitHub Pages deployment
+# Content is pre-generated locally and committed to ensure GitHub Actions can build
+# To regenerate: npm run generate-content
+# content/*
+# !content/.gitkeep
 
 # Obsidian repo (cloned during sync)
 note-repo/
