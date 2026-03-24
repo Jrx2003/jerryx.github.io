@@ -1,0 +1,770 @@
+3:I[9275,[],""]
+6:I[1343,[],""]
+7:I[2782,["2015","static/chunks/2015-2bbe6641d936cf40.js","7138","static/chunks/7138-020cfb5c95939b37.js","3185","static/chunks/app/layout-a85509bdebe18d05.js"],"Header"]
+8:I[2446,["2015","static/chunks/2015-2bbe6641d936cf40.js","7138","static/chunks/7138-020cfb5c95939b37.js","9160","static/chunks/app/not-found-4a9c13cee0bdb55f.js"],"default"]
+9:I[231,["2015","static/chunks/2015-2bbe6641d936cf40.js","7138","static/chunks/7138-020cfb5c95939b37.js","3185","static/chunks/app/layout-a85509bdebe18d05.js"],""]
+4:["category","searchrec","d"]
+5:["slug","learning-to-rank","d"]
+0:["Wf97_5kF2cgFrWussfyrr",[[["",{"children":["kb",{"children":[["category","searchrec","d"],{"children":[["slug","learning-to-rank","d"],{"children":["__PAGE__?{\"category\":\"searchrec\",\"slug\":\"learning-to-rank\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["kb",{"children":[["category","searchrec","d"],{"children":[["slug","learning-to-rank","d"],{"children":["__PAGE__",{},[["$L1","$L2"],null],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","kb","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"zh-CN","className":"dark scroll-smooth","children":["$","body",null,{"className":"font-sans antialiased min-h-screen flex flex-col bg-background text-foreground","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L8",null,{}],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"relative border-t border-white/5","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-purple-500/5 to-transparent pointer-events-none"}],["$","div",null,{"className":"container relative py-16","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-12","children":[["$","div",null,{"className":"md:col-span-2 space-y-4","children":[["$","$L9",null,{"href":"/","className":"inline-block","children":["$","span",null,{"className":"text-2xl font-bold gradient-text","children":"Jerry Xu"}]}],["$","p",null,{"className":"text-muted-foreground max-w-sm","children":"热爱技术与生活的开发者。专注于 AI Agent 系统开发，同时享受音乐剧、F1 和游戏带来的乐趣。"}],["$","div",null,{"className":"flex items-center gap-4","children":["$","a",null,{"href":"https://github.com/Jrx2003","target":"_blank","rel":"noopener noreferrer","className":"flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors group","children":[["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-github w-4 h-4","children":[["$","path","tonef",{"d":"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"}],["$","path","9comsn",{"d":"M9 18c-4.51 2-5-2-7-2"}],"$undefined"]}],["$","span",null,{"children":"GitHub"}],["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"导航"}],["$","ul",null,{"className":"space-y-3","children":[["$","li","/about/",{"children":["$","$L9",null,{"href":"/about/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"关于"}]}],["$","li","/projects/",{"children":["$","$L9",null,{"href":"/projects/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"项目"}]}],["$","li","/kb/",{"children":["$","$L9",null,{"href":"/kb/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"知识库"}]}],["$","li","/blog/",{"children":["$","$L9",null,{"href":"/blog/","className":"text-muted-foreground hover:text-foreground transition-colors text-sm","children":"博客"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground","children":"联系方式"}],["$","ul",null,{"className":"space-y-3 text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://www.sjtu.edu.cn","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["上海交通大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.cuhk.edu.hk","target":"_blank","rel":"noopener noreferrer","className":"text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1 group","children":["即将前往香港中文大学",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-up-right w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity","children":[["$","path","1tivn9",{"d":"M7 7h10v10"}],["$","path","1vkiza",{"d":"M7 17 17 7"}],"$undefined"]}]]}]}],["$","li",null,{"className":"text-xs pt-2 text-muted-foreground","children":"通过 GitHub 联系"}]]}]]}]]}],["$","div",null,{"className":"mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4","children":[["$","p",null,{"className":"text-sm text-muted-foreground","children":["© ",2026," Jerry Xu. Built with"," ",["$","svg",null,{"xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-heart inline w-3 h-3 text-red-500 fill-red-500","children":[["$","path","c3ymky",{"d":"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"}],"$undefined"]}]," and Next.js"]}],["$","p",null,{"className":"text-xs text-muted-foreground/60","children":"Designed & Developed by Jerry"}]]}]]}]]}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/85ed2b6284775456.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"]]]]
+b:I[6006,["2015","static/chunks/2015-2bbe6641d936cf40.js","7138","static/chunks/7138-020cfb5c95939b37.js","8373","static/chunks/8373-455198824392360e.js","7438","static/chunks/app/kb/%5Bcategory%5D/%5Bslug%5D/page-c9cc548ea1b11a97.js"],"default"]
+c:T244b,# Learning to Rank
+
+> 更新日期：2026-03-13
+> 相关文档：[搜索系统架构](/kb/searchrec/搜索系统架构) | [语义搜索与向量检索](/kb/searchrec/语义搜索与向量检索)
+
+---
+
+## 一、LTR 概述
+
+### 什么是 Learning to Rank
+
+将排序问题转化为机器学习问题，直接优化排序指标。
+
+```
+传统方法:
+Query → 人工规则 → 排序
+
+LTR:
+Query + 特征 → 模型 → 排序分数
+```
+
+### 三类方法
+
+| 方法 | 粒度 | 损失函数 | 代表算法 |
+|------|------|----------|----------|
+| **Pointwise** | 单文档 | 回归/分类 | PRank, OC SVM |
+| **Pairwise** | 文档对 | 比较损失 | RankSVM, RankNet, LambdaRank |
+| **Listwise** | 文档列表 | 列表损失 | ListNet, LambdaMART, SoftRank |
+
+---
+
+## 二、Pointwise 方法
+
+### 核心思想
+
+将排序问题转化为**回归**或**分类**问题。
+
+```
+输入: (Query, Doc_i) → 输出: 相关性分数
+直接预测每个文档的绝对相关度
+```
+
+### 方法
+
+| 方法 | 类型 | 说明 |
+|------|------|------|
+| **McRank** | 分类 | 将相关性分桶预测 |
+| **PRank** | 在线学习 | 感知机的排序版本 |
+| **OC SVM** | 分类 | 单类 SVM |
+
+### 缺点
+
+- 忽略文档间的相对顺序
+- 损失函数与排序指标不一致
+
+---
+
+## 三、Pairwise 方法
+
+### 核心思想
+
+学习文档对的**相对顺序**。
+
+```
+输入: (Query, Doc_i, Doc_j) → 输出: Doc_i > Doc_j ?
+```
+
+### RankNet
+
+**神经网络排序模型**。
+
+```python
+class RankNet(nn.Module):
+    """RankNet 实现"""
+
+    def __init__(self, input_dim, hidden_dims=[128, 64]):
+        super().__init__()
+        layers = []
+        prev_dim = input_dim
+        for dim in hidden_dims:
+            layers.extend([
+                nn.Linear(prev_dim, dim),
+                nn.ReLU(),
+                nn.Dropout(0.2)
+            ])
+            prev_dim = dim
+        layers.append(nn.Linear(prev_dim, 1))
+        self.model = nn.Sequential(*layers)
+
+    def forward(self, x):
+        return self.model(x)
+
+    def rank_loss(self, s_i, s_j, S_ij):
+        """
+        s_i, s_j: 文档 i,j 的预测分数
+        S_ij: 真实偏好 (1: i>j, -1: i<j, 0: 相等)
+        """
+        # 概率 P(i > j) = sigmoid(s_i - s_j)
+        pred_prob = torch.sigmoid(s_i - s_j)
+
+        # 真实概率
+        true_prob = (S_ij + 1) / 2  # 转换到 [0, 1]
+
+        # 交叉熵损失
+        loss = -true_prob * torch.log(pred_prob + 1e-8) - \
+               (1 - true_prob) * torch.log(1 - pred_prob + 1e-8)
+
+        return loss.mean()
+```
+
+### LambdaRank
+
+**直接优化 NDCG**。
+
+核心创新：在 RankNet 基础上，根据 NDCG 变化调整梯度权重。
+
+```python
+class LambdaRank(nn.Module):
+    """LambdaRank 实现"""
+
+    def compute_lambda(self, scores, labels, doc_i, doc_j):
+        """
+        计算 Lambda (排序梯度)
+
+        Lambda_ij = (1/2) * (1 - S_ij) * sigma * (1 - P_ij) * |ΔNDCG|
+        """
+        s_i, s_j = scores[doc_i], scores[doc_j]
+        label_i, label_j = labels[doc_i], labels[doc_j]
+
+        # 交换 i,j 后的 NDCG 变化
+        delta_ndcg = self.compute_delta_ndcg(labels, doc_i, doc_j)
+
+        # Lambda
+        lambda_ij = -sigma / (1 + torch.exp(sigma * (s_i - s_j)))
+        lambda_ij *= abs(delta_ndcg)
+
+        # 根据真实标签调整方向
+        if label_i > label_j:
+            lambda_ij = abs(lambda_ij)
+        elif label_i < label_j:
+            lambda_ij = -abs(lambda_ij)
+        else:
+            lambda_ij = 0
+
+        return lambda_ij
+
+    def compute_delta_ndcg(self, labels, i, j):
+        """计算交换位置后的 NDCG 变化"""
+        # 原始 NDCG
+        original_ndcg = self.compute_ndcg(labels)
+
+        # 交换 i,j
+        swapped_labels = labels.copy()
+        swapped_labels[i], swapped_labels[j] = swapped_labels[j], swapped_labels[i]
+        swapped_ndcg = self.compute_ndcg(swapped_labels)
+
+        return original_ndcg - swapped_ndcg
+```
+
+---
+
+## 四、Listwise 方法
+
+### 核心思想
+
+直接优化整个列表的**排序质量**。
+
+### LambdaMART
+
+**最常用的高效 LTR 算法**。
+
+```
+基础: MART (Multiple Additive Regression Trees)
+      = Gradient Boosting Decision Tree
+
+改进: 使用 Lambda 作为梯度
+```
+
+```python
+class LambdaMART:
+    """LambdaMART 简化实现"""
+
+    def __init__(self, n_trees=100, learning_rate=0.1, max_depth=6):
+        self.n_trees = n_trees
+        self.learning_rate = learning_rate
+        self.max_depth = max_depth
+        self.trees = []
+
+    def fit(self, X, queries, labels):
+        """
+        X: 特征矩阵 [N_docs, N_features]
+        queries: 查询分组 [N_docs]
+        labels: 相关性标签 [N_docs]
+        """
+        # 初始分数
+        scores = np.zeros(len(X))
+
+        for iteration in range(self.n_trees):
+            # 计算 Lambda (梯度)
+            lambdas = self.compute_lambdas(scores, queries, labels)
+
+            # 拟合回归树
+            tree = DecisionTreeRegressor(max_depth=self.max_depth)
+            tree.fit(X, lambdas)
+
+            # 更新分数
+            scores += self.learning_rate * tree.predict(X)
+            self.trees.append(tree)
+
+    def predict(self, X):
+        """预测"""
+        scores = np.zeros(len(X))
+        for tree in self.trees:
+            scores += self.learning_rate * tree.predict(X)
+        return scores
+```
+
+### ListNet
+
+**基于概率的列表方法**。
+
+```python
+class ListNet(nn.Module):
+    """ListNet 实现"""
+
+    def __init__(self, input_dim):
+        super().__init__()
+        self.fc = nn.Sequential(
+            nn.Linear(input_dim, 128),
+            nn.ReLU(),
+            nn.Linear(128, 1)
+        )
+
+    def forward(self, x):
+        return self.fc(x).squeeze(-1)
+
+    def listnet_loss(self, pred_scores, true_scores):
+        """
+        基于 Top-K 概率的列表损失
+
+        使用 softmax 归一化分数，最小化 KL 散度
+        """
+        # Top-1 概率
+        pred_prob = F.softmax(pred_scores, dim=0)
+        true_prob = F.softmax(true_scores, dim=0)
+
+        # 交叉熵 (等价于 KL 散度)
+        loss = -(true_prob * torch.log(pred_prob + 1e-8)).sum()
+
+        return loss
+```
+
+---
+
+## 五、特征工程
+
+### 常用特征
+
+| 类型 | 特征 | 说明 |
+|------|------|------|
+| **Query** | 长度、词数、热度 | 查询特征 |
+| **Doc** | 长度、质量分、时间 | 文档特征 |
+| **匹配** | TF-IDF、BM25 | 文本匹配 |
+| **Click** | 历史 CTR | 点击反馈 |
+| **Semantic** | Embedding 相似度 | 语义匹配 |
+
+### 特征计算
+
+```python
+def extract_features(query, doc, user):
+    """特征提取"""
+    features = {}
+
+    # Query 特征
+    features['query_len'] = len(query)
+    features['query_word_count'] = len(query.split())
+
+    # 文档特征
+    features['doc_len'] = len(doc['content'])
+    features['doc_quality'] = doc['quality_score']
+    features['doc_age_days'] = (now - doc['publish_time']).days
+
+    # 匹配特征
+    features['tfidf_score'] = compute_tfidf(query, doc['content'])
+    features['bm25_score'] = compute_bm25(query, doc['content'])
+
+    # 语义特征
+    query_emb = text_encoder.encode(query)
+    doc_emb = text_encoder.encode(doc['content'])
+    features['semantic_sim'] = cosine_similarity(query_emb, doc_emb)
+
+    # 点击特征
+    features['doc_historical_ctr'] = doc['clicks'] / doc['impressions']
+    features['user_doc_ctr'] = get_user_doc_ctr(user['id'], doc['id'])
+
+    return features
+```
+
+---
+
+## 六、评估指标
+
+### NDCG
+
+```python
+def compute_dcg(relevances, k=10):
+    """计算 DCG"""
+    dcg = 0
+    for i, rel in enumerate(relevances[:k], 1):
+        dcg += (2 ** rel - 1) / np.log2(i + 1)
+    return dcg
+
+def compute_ndcg(relevances, k=10):
+    """计算 NDCG"""
+    ideal_relevances = sorted(relevances, reverse=True)
+    dcg = compute_dcg(relevances, k)
+    idcg = compute_dcg(ideal_relevances, k)
+    return dcg / idcg if idcg > 0 else 0
+```
+
+### MAP
+
+```python
+def compute_ap(relevances):
+    """计算 Average Precision"""
+    precisions = []
+    n_relevant = 0
+
+    for i, rel in enumerate(relevances, 1):
+        if rel > 0:
+            n_relevant += 1
+            precisions.append(n_relevant / i)
+
+    return np.mean(precisions) if precisions else 0
+```
+
+---
+
+## 七、面试要点
+
+### 高频问题
+
+**Q1: Pointwise、Pairwise、Listwise 的优缺点？**
+
+A:
+| 方法 | 优点 | 缺点 |
+|------|------|------|
+| Pointwise | 简单，可用现有工具 | 忽略文档关系 |
+| Pairwise | 关注相对顺序 | 噪声敏感，复杂度 O(n²) |
+| Listwise | 直接优化排序指标 | 复杂，计算量大 |
+
+**Q2: LambdaRank 为什么效果好？**
+
+A:
+1. 基于 RankNet，理论扎实
+2. Lambda 考虑 NDCG 变化，关注重要位置的排序
+3. 梯度加权，优化目标明确
+
+**Q3: LambdaMART 中的 MART 是什么？**
+
+A:
+- MART = Multiple Additive Regression Trees
+- 就是 Gradient Boosting Decision Tree
+- LambdaMART = 用 Lambda 作为梯度的 GBDT
+
+**Q4: 为什么搜索场景常用 LambdaMART？**
+
+A:
+1. 效果好，在 LTR 比赛中常获胜
+2. 可解释性强 (特征重要性)
+3. 训练速度快
+4. 对特征工程要求相对低
+
+---
+
+## 相关文档
+
+- [搜索系统架构](/kb/searchrec/搜索系统架构) - 搜索系统设计
+- [语义搜索与向量检索](/kb/searchrec/语义搜索与向量检索) - 向量召回
+d:T244b,# Learning to Rank
+
+> 更新日期：2026-03-13
+> 相关文档：[搜索系统架构](/kb/searchrec/搜索系统架构) | [语义搜索与向量检索](/kb/searchrec/语义搜索与向量检索)
+
+---
+
+## 一、LTR 概述
+
+### 什么是 Learning to Rank
+
+将排序问题转化为机器学习问题，直接优化排序指标。
+
+```
+传统方法:
+Query → 人工规则 → 排序
+
+LTR:
+Query + 特征 → 模型 → 排序分数
+```
+
+### 三类方法
+
+| 方法 | 粒度 | 损失函数 | 代表算法 |
+|------|------|----------|----------|
+| **Pointwise** | 单文档 | 回归/分类 | PRank, OC SVM |
+| **Pairwise** | 文档对 | 比较损失 | RankSVM, RankNet, LambdaRank |
+| **Listwise** | 文档列表 | 列表损失 | ListNet, LambdaMART, SoftRank |
+
+---
+
+## 二、Pointwise 方法
+
+### 核心思想
+
+将排序问题转化为**回归**或**分类**问题。
+
+```
+输入: (Query, Doc_i) → 输出: 相关性分数
+直接预测每个文档的绝对相关度
+```
+
+### 方法
+
+| 方法 | 类型 | 说明 |
+|------|------|------|
+| **McRank** | 分类 | 将相关性分桶预测 |
+| **PRank** | 在线学习 | 感知机的排序版本 |
+| **OC SVM** | 分类 | 单类 SVM |
+
+### 缺点
+
+- 忽略文档间的相对顺序
+- 损失函数与排序指标不一致
+
+---
+
+## 三、Pairwise 方法
+
+### 核心思想
+
+学习文档对的**相对顺序**。
+
+```
+输入: (Query, Doc_i, Doc_j) → 输出: Doc_i > Doc_j ?
+```
+
+### RankNet
+
+**神经网络排序模型**。
+
+```python
+class RankNet(nn.Module):
+    """RankNet 实现"""
+
+    def __init__(self, input_dim, hidden_dims=[128, 64]):
+        super().__init__()
+        layers = []
+        prev_dim = input_dim
+        for dim in hidden_dims:
+            layers.extend([
+                nn.Linear(prev_dim, dim),
+                nn.ReLU(),
+                nn.Dropout(0.2)
+            ])
+            prev_dim = dim
+        layers.append(nn.Linear(prev_dim, 1))
+        self.model = nn.Sequential(*layers)
+
+    def forward(self, x):
+        return self.model(x)
+
+    def rank_loss(self, s_i, s_j, S_ij):
+        """
+        s_i, s_j: 文档 i,j 的预测分数
+        S_ij: 真实偏好 (1: i>j, -1: i<j, 0: 相等)
+        """
+        # 概率 P(i > j) = sigmoid(s_i - s_j)
+        pred_prob = torch.sigmoid(s_i - s_j)
+
+        # 真实概率
+        true_prob = (S_ij + 1) / 2  # 转换到 [0, 1]
+
+        # 交叉熵损失
+        loss = -true_prob * torch.log(pred_prob + 1e-8) - \
+               (1 - true_prob) * torch.log(1 - pred_prob + 1e-8)
+
+        return loss.mean()
+```
+
+### LambdaRank
+
+**直接优化 NDCG**。
+
+核心创新：在 RankNet 基础上，根据 NDCG 变化调整梯度权重。
+
+```python
+class LambdaRank(nn.Module):
+    """LambdaRank 实现"""
+
+    def compute_lambda(self, scores, labels, doc_i, doc_j):
+        """
+        计算 Lambda (排序梯度)
+
+        Lambda_ij = (1/2) * (1 - S_ij) * sigma * (1 - P_ij) * |ΔNDCG|
+        """
+        s_i, s_j = scores[doc_i], scores[doc_j]
+        label_i, label_j = labels[doc_i], labels[doc_j]
+
+        # 交换 i,j 后的 NDCG 变化
+        delta_ndcg = self.compute_delta_ndcg(labels, doc_i, doc_j)
+
+        # Lambda
+        lambda_ij = -sigma / (1 + torch.exp(sigma * (s_i - s_j)))
+        lambda_ij *= abs(delta_ndcg)
+
+        # 根据真实标签调整方向
+        if label_i > label_j:
+            lambda_ij = abs(lambda_ij)
+        elif label_i < label_j:
+            lambda_ij = -abs(lambda_ij)
+        else:
+            lambda_ij = 0
+
+        return lambda_ij
+
+    def compute_delta_ndcg(self, labels, i, j):
+        """计算交换位置后的 NDCG 变化"""
+        # 原始 NDCG
+        original_ndcg = self.compute_ndcg(labels)
+
+        # 交换 i,j
+        swapped_labels = labels.copy()
+        swapped_labels[i], swapped_labels[j] = swapped_labels[j], swapped_labels[i]
+        swapped_ndcg = self.compute_ndcg(swapped_labels)
+
+        return original_ndcg - swapped_ndcg
+```
+
+---
+
+## 四、Listwise 方法
+
+### 核心思想
+
+直接优化整个列表的**排序质量**。
+
+### LambdaMART
+
+**最常用的高效 LTR 算法**。
+
+```
+基础: MART (Multiple Additive Regression Trees)
+      = Gradient Boosting Decision Tree
+
+改进: 使用 Lambda 作为梯度
+```
+
+```python
+class LambdaMART:
+    """LambdaMART 简化实现"""
+
+    def __init__(self, n_trees=100, learning_rate=0.1, max_depth=6):
+        self.n_trees = n_trees
+        self.learning_rate = learning_rate
+        self.max_depth = max_depth
+        self.trees = []
+
+    def fit(self, X, queries, labels):
+        """
+        X: 特征矩阵 [N_docs, N_features]
+        queries: 查询分组 [N_docs]
+        labels: 相关性标签 [N_docs]
+        """
+        # 初始分数
+        scores = np.zeros(len(X))
+
+        for iteration in range(self.n_trees):
+            # 计算 Lambda (梯度)
+            lambdas = self.compute_lambdas(scores, queries, labels)
+
+            # 拟合回归树
+            tree = DecisionTreeRegressor(max_depth=self.max_depth)
+            tree.fit(X, lambdas)
+
+            # 更新分数
+            scores += self.learning_rate * tree.predict(X)
+            self.trees.append(tree)
+
+    def predict(self, X):
+        """预测"""
+        scores = np.zeros(len(X))
+        for tree in self.trees:
+            scores += self.learning_rate * tree.predict(X)
+        return scores
+```
+
+### ListNet
+
+**基于概率的列表方法**。
+
+```python
+class ListNet(nn.Module):
+    """ListNet 实现"""
+
+    def __init__(self, input_dim):
+        super().__init__()
+        self.fc = nn.Sequential(
+            nn.Linear(input_dim, 128),
+            nn.ReLU(),
+            nn.Linear(128, 1)
+        )
+
+    def forward(self, x):
+        return self.fc(x).squeeze(-1)
+
+    def listnet_loss(self, pred_scores, true_scores):
+        """
+        基于 Top-K 概率的列表损失
+
+        使用 softmax 归一化分数，最小化 KL 散度
+        """
+        # Top-1 概率
+        pred_prob = F.softmax(pred_scores, dim=0)
+        true_prob = F.softmax(true_scores, dim=0)
+
+        # 交叉熵 (等价于 KL 散度)
+        loss = -(true_prob * torch.log(pred_prob + 1e-8)).sum()
+
+        return loss
+```
+
+---
+
+## 五、特征工程
+
+### 常用特征
+
+| 类型 | 特征 | 说明 |
+|------|------|------|
+| **Query** | 长度、词数、热度 | 查询特征 |
+| **Doc** | 长度、质量分、时间 | 文档特征 |
+| **匹配** | TF-IDF、BM25 | 文本匹配 |
+| **Click** | 历史 CTR | 点击反馈 |
+| **Semantic** | Embedding 相似度 | 语义匹配 |
+
+### 特征计算
+
+```python
+def extract_features(query, doc, user):
+    """特征提取"""
+    features = {}
+
+    # Query 特征
+    features['query_len'] = len(query)
+    features['query_word_count'] = len(query.split())
+
+    # 文档特征
+    features['doc_len'] = len(doc['content'])
+    features['doc_quality'] = doc['quality_score']
+    features['doc_age_days'] = (now - doc['publish_time']).days
+
+    # 匹配特征
+    features['tfidf_score'] = compute_tfidf(query, doc['content'])
+    features['bm25_score'] = compute_bm25(query, doc['content'])
+
+    # 语义特征
+    query_emb = text_encoder.encode(query)
+    doc_emb = text_encoder.encode(doc['content'])
+    features['semantic_sim'] = cosine_similarity(query_emb, doc_emb)
+
+    # 点击特征
+    features['doc_historical_ctr'] = doc['clicks'] / doc['impressions']
+    features['user_doc_ctr'] = get_user_doc_ctr(user['id'], doc['id'])
+
+    return features
+```
+
+---
+
+## 六、评估指标
+
+### NDCG
+
+```python
+def compute_dcg(relevances, k=10):
+    """计算 DCG"""
+    dcg = 0
+    for i, rel in enumerate(relevances[:k], 1):
+        dcg += (2 ** rel - 1) / np.log2(i + 1)
+    return dcg
+
+def compute_ndcg(relevances, k=10):
+    """计算 NDCG"""
+    ideal_relevances = sorted(relevances, reverse=True)
+    dcg = compute_dcg(relevances, k)
+    idcg = compute_dcg(ideal_relevances, k)
+    return dcg / idcg if idcg > 0 else 0
+```
+
+### MAP
+
+```python
+def compute_ap(relevances):
+    """计算 Average Precision"""
+    precisions = []
+    n_relevant = 0
+
+    for i, rel in enumerate(relevances, 1):
+        if rel > 0:
+            n_relevant += 1
+            precisions.append(n_relevant / i)
+
+    return np.mean(precisions) if precisions else 0
+```
+
+---
+
+## 七、面试要点
+
+### 高频问题
+
+**Q1: Pointwise、Pairwise、Listwise 的优缺点？**
+
+A:
+| 方法 | 优点 | 缺点 |
+|------|------|------|
+| Pointwise | 简单，可用现有工具 | 忽略文档关系 |
+| Pairwise | 关注相对顺序 | 噪声敏感，复杂度 O(n²) |
+| Listwise | 直接优化排序指标 | 复杂，计算量大 |
+
+**Q2: LambdaRank 为什么效果好？**
+
+A:
+1. 基于 RankNet，理论扎实
+2. Lambda 考虑 NDCG 变化，关注重要位置的排序
+3. 梯度加权，优化目标明确
+
+**Q3: LambdaMART 中的 MART 是什么？**
+
+A:
+- MART = Multiple Additive Regression Trees
+- 就是 Gradient Boosting Decision Tree
+- LambdaMART = 用 Lambda 作为梯度的 GBDT
+
+**Q4: 为什么搜索场景常用 LambdaMART？**
+
+A:
+1. 效果好，在 LTR 比赛中常获胜
+2. 可解释性强 (特征重要性)
+3. 训练速度快
+4. 对特征工程要求相对低
+
+---
+
+## 相关文档
+
+- [搜索系统架构](/kb/searchrec/搜索系统架构) - 搜索系统设计
+- [语义搜索与向量检索](/kb/searchrec/语义搜索与向量检索) - 向量召回
+2:["$","$Lb",null,{"document":{"slug":"learning-to-rank","title":"Learning to Rank","description":"","date":null,"tags":[],"category":"SearchRec","categoryId":"searchrec","content":"$c","filePath":"搜索算法/Learning to Rank.md","default":{"slug":"learning-to-rank","title":"Learning to Rank","description":"","date":null,"tags":[],"category":"SearchRec","categoryId":"searchrec","content":"$d","filePath":"搜索算法/Learning to Rank.md"}}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Learning to Rank - SearchRec | Jerry Xu"}],["$","meta","3",{"name":"description","content":"Learning to Rank"}],["$","meta","4",{"name":"author","content":"Jerry Xu"}],["$","meta","5",{"name":"keywords","content":"Jerry Xu,徐劼瑞,上海交通大学,AICAD,CAD Agent,AI,个人网站,Next.js,TypeScript"}],["$","meta","6",{"property":"og:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","7",{"property":"og:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}],["$","meta","8",{"property":"og:site_name","content":"Jerry Xu"}],["$","meta","9",{"property":"og:locale","content":"zh_CN"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Jerry Xu - 徐劼瑞"}],["$","meta","13",{"name":"twitter:description","content":"上海交通大学本科生，AICAD远程实习生，专注于CAD Agent系统开发"}]]
+1:null
