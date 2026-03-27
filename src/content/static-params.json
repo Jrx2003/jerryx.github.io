@@ -1,107 +1,79 @@
 [
   {
-    "category": "aicad",
-    "slug": "aci-9rbb4v"
+    "category": "quant",
+    "slug": "python-1olybt"
   },
   {
-    "category": "aicad",
-    "slug": "aci-8zn4bd"
+    "category": "quant",
+    "slug": "readme-v4aa8i"
   },
   {
-    "category": "aicad",
-    "slug": "aci-8a0c9l"
+    "category": "quant",
+    "slug": "doc-b19nau"
   },
   {
-    "category": "aicad",
-    "slug": "aci-83mtzw"
+    "category": "quant",
+    "slug": "doc-4m5zmb"
   },
   {
-    "category": "aicad",
-    "slug": "aci-5ycojx"
+    "category": "quant",
+    "slug": "doc-wdqzsd"
   },
   {
-    "category": "aicad",
-    "slug": "agent-nzn0gk"
+    "category": "quant",
+    "slug": "doc-yuwtrc"
   },
   {
-    "category": "aicad",
-    "slug": "cad-op3zuu"
+    "category": "quant",
+    "slug": "doc-cr06t6"
   },
   {
-    "category": "aicad",
-    "slug": "cad-1sc89z"
+    "category": "quant",
+    "slug": "doc-gho9r6"
   },
   {
-    "category": "aicad",
-    "slug": "cad-a9bzjv"
+    "category": "quant",
+    "slug": "doc-7tsv06"
   },
   {
-    "category": "aicad",
-    "slug": "cadquery-58h9np"
+    "category": "quant",
+    "slug": "doc-rvrk5d"
   },
   {
-    "category": "aicad",
-    "slug": "deepeval-4gyeij"
-  },
-  {
-    "category": "aicad",
-    "slug": "ground-ct5cjq"
-  },
-  {
-    "category": "aicad",
-    "slug": "llm-1my3q8"
-  },
-  {
-    "category": "aicad",
-    "slug": "opencode-87w4rk"
-  },
-  {
-    "category": "aicad",
-    "slug": "prompt-jygudb"
-  },
-  {
-    "category": "aicad",
-    "slug": "sandbox-kn08hm"
-  },
-  {
-    "category": "aicad",
-    "slug": "doc-caoj8r"
-  },
-  {
-    "category": "aicad",
-    "slug": "doc-3rx4s0"
-  },
-  {
-    "category": "aicad",
-    "slug": "doc-yhzsmo"
-  },
-  {
-    "category": "aicad",
-    "slug": "doc-ajypjw"
-  },
-  {
-    "category": "aicad",
-    "slug": "doc-66ben5"
-  },
-  {
-    "category": "aicad",
-    "slug": "doc-4bc5tw"
-  },
-  {
-    "category": "aicad",
-    "slug": "doc-k0qhp8"
-  },
-  {
-    "category": "aicad",
+    "category": "quant",
     "slug": "doc-aeeza3"
   },
   {
-    "category": "aicad",
-    "slug": "doc-m7ie9e"
+    "category": "quant",
+    "slug": "doc-jq7v5x"
   },
   {
-    "category": "aicad",
-    "slug": "doc-5dd1gx"
+    "category": "quant",
+    "slug": "doc-68t7hi"
+  },
+  {
+    "category": "quant",
+    "slug": "doc-k6nwrv"
+  },
+  {
+    "category": "quant",
+    "slug": "doc-8e2n0k"
+  },
+  {
+    "category": "quant",
+    "slug": "doc-bzsxue"
+  },
+  {
+    "category": "quant",
+    "slug": "doc-o2wn4f"
+  },
+  {
+    "category": "quant",
+    "slug": "doc-wm9zwi"
+  },
+  {
+    "category": "quant",
+    "slug": "doc-9rqsej"
   },
   {
     "category": "cloud",

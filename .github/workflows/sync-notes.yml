@@ -6,6 +6,9 @@ on:
     - cron: '0 4 * * *'
   workflow_dispatch:
 
+# 注意：要访问 Jrx2003/note 仓库，需要在仓库 Settings > Secrets and variables > Actions 中
+# 添加一个名为 NOTE_REPO_TOKEN 的 secret，值为具有 repo 权限的 Personal Access Token
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -21,7 +24,7 @@ jobs:
         with:
           repository: Jrx2003/note
           path: note-repo
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.NOTE_REPO_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

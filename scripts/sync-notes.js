@@ -20,8 +20,8 @@ const CONTENT_OUTPUT_PATH = path.join(__dirname, '../content');
 
 // Knowledge base mapping
 const KB_MAPPING = [
-  { source: 'AICAD/Knowledge Base', target: 'kb/aicad', category: 'AICAD' },
-  { source: 'AICAD/Work Logs', target: 'logs/aicad', category: 'AICAD Work Log' },
+  { source: 'Quant/Knowledge Base', target: 'kb/quant', category: 'Quant' },
+  { source: 'Quant/Research', target: 'research/quant', category: 'Quant Research' },
   { source: 'Cloud Computing/Knowledge Base', target: 'kb/cloud', category: 'Cloud Computing' },
   { source: 'LLM/Knowledge Base', target: 'kb/llm', category: 'LLM' },
   { source: 'SearchRec/Knowledge Base', target: 'kb/searchrec', category: 'SearchRec' },

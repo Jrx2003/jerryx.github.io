@@ -16,14 +16,14 @@ const CONTENT_OUTPUT_PATH = path.join(__dirname, '../src/content');
 // Knowledge base configuration
 const KB_CATEGORIES = [
   {
-    id: 'aicad',
-    name: 'AICAD',
-    description: 'CAD Agent 系统设计与实现',
-    sourcePath: 'AICAD/Knowledge Base',
-    icon: 'Cpu',
-    color: 'text-blue-400',
-    bgColor: 'from-blue-500/20 to-cyan-500/20',
-    borderColor: 'border-blue-500/20',
+    id: 'quant',
+    name: 'Quant',
+    description: '量化金融与投资',
+    sourcePath: 'Quant/Knowledge Base',
+    icon: 'TrendingUp',
+    color: 'text-amber-400',
+    bgColor: 'from-amber-500/20 to-orange-500/20',
+    borderColor: 'border-amber-500/20',
   },
   {
     id: 'cloud',

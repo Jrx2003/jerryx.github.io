@@ -1,0 +1,247 @@
+{
+  "category": {
+    "id": "quant",
+    "name": "Quant",
+    "description": "量化金融与投资",
+    "icon": "TrendingUp",
+    "color": "text-amber-400",
+    "bgColor": "from-amber-500/20 to-orange-500/20",
+    "borderColor": "border-amber-500/20"
+  },
+  "documents": [
+    {
+      "slug": "python-1olybt",
+      "title": "Python编程基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "readme-v4aa8i",
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "readme-v4aa8i",
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "readme-v4aa8i",
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "readme-v4aa8i",
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "readme-v4aa8i",
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "readme-v4aa8i",
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "readme-v4aa8i",
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "readme-v4aa8i",
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-b19nau",
+      "title": "动量策略",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-4m5zmb",
+      "title": "双均线策略实战",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-wdqzsd",
+      "title": "因子投资概述",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-yuwtrc",
+      "title": "均值回归策略",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-cr06t6",
+      "title": "多因子选股模型实战",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-gho9r6",
+      "title": "数值计算方法",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-7tsv06",
+      "title": "时间序列分析基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-rvrk5d",
+      "title": "概率论与统计基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-aeeza3",
+      "title": "知识库索引",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-jq7v5x",
+      "title": "线性代数基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-68t7hi",
+      "title": "股票与股票市场",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-k6nwrv",
+      "title": "衍生品基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-8e2n0k",
+      "title": "配对交易策略实战",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-bzsxue",
+      "title": "量化金融入门指南",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-o2wn4f",
+      "title": "量化金融学习路线图",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-wm9zwi",
+      "title": "金融市场概述",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    },
+    {
+      "slug": "doc-9rqsej",
+      "title": "随机过程基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "categoryId": "quant"
+    }
+  ]
+}
