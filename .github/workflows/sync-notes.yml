@@ -12,12 +12,15 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout website repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Checkout note repository
         uses: actions/checkout@v4
@@ -25,6 +28,16 @@ jobs:
           repository: Jrx2003/note
           path: note-repo
           token: ${{ secrets.NOTE_REPO_TOKEN || secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Debug - Check directories
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Contents:"
+          ls -la
+          echo ""
+          echo "Note-repo directory:"
+          ls -la note-repo/ || echo "note-repo not found"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -37,20 +50,29 @@ jobs:
       - name: Sync notes
         run: node scripts/sync-notes.js
 
+      - name: Debug - Check sync result
+        run: |
+          echo "After sync - Current directory: $(pwd)"
+          echo "Content directory:"
+          ls -la content/ || echo "content directory not found"
+
       - name: Check for changes
         id: check_changes
         run: |
+          git status
           if [ -n "$(git status --porcelain)" ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
           fi
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
           git add content/
           git commit -m "Sync notes from obsidian vault - $(date +%Y-%m-%d)"
           git push
