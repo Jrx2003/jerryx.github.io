@@ -1,0 +1,659 @@
+---
+title: Docker 容器基础
+description: ''
+date: null
+tags: []
+category: Cloud Computing
+---
+# Docker 容器基础
+
+> 更新日期：2026-03-13 | 版本：v1.0 | 难度：L1-L2（初级-中级）
+
+---
+
+## 什么是 Docker
+
+Docker 是一个开源的应用容器引擎，让开发者可以打包应用及其依赖到一个可移植的容器中，然后发布到任何流行的 Linux 或 Windows 机器上。
+
+### 容器 vs 虚拟机
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        虚拟机架构                                │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
+│  │   App A     │  │   App B     │  │   App C     │             │
+│  │   Bin/Lib   │  │   Bin/Lib   │  │   Bin/Lib   │             │
+│  ├─────────────┤  ├─────────────┤  ├─────────────┤             │
+│  │  Guest OS   │  │  Guest OS   │  │  Guest OS   │             │
+│  │  (CentOS)   │  │  (Ubuntu)   │  │  (Debian)   │             │
+│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘             │
+│         └─────────────────┼─────────────────┘                   │
+│                           ▼                                     │
+│                    ┌─────────────┐                              │
+│                    │  Hypervisor │                              │
+│                    │ (VMware/KVM)│                              │
+│                    └──────┬──────┘                              │
+│                           ▼                                     │
+│                    ┌─────────────┐                              │
+│                    │   Host OS   │                              │
+│                    │   (Linux)   │                              │
+│                    └──────┬──────┘                              │
+│                           ▼                                     │
+│                    ┌─────────────┐                              │
+│                    │   Hardware  │                              │
+│                    └─────────────┘                              │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│                        Docker 容器架构                           │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
+│  │   App A     │  │   App B     │  │   App C     │             │
+│  │   Bin/Lib   │  │   Bin/Lib   │  │   Bin/Lib   │             │
+│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘             │
+│         └─────────────────┼─────────────────┘                   │
+│                           ▼                                     │
+│                    ┌─────────────┐                              │
+│                    │Docker Engine│                              │
+│                    └──────┬──────┘                              │
+│                           ▼                                     │
+│                    ┌─────────────┐                              │
+│                    │   Host OS   │                              │
+│                    │   (Linux)   │                              │
+│                    └──────┬──────┘                              │
+│                           ▼                                     │
+│                    ┌─────────────┐                              │
+│                    │   Hardware  │                              │
+│                    └─────────────┘                              │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 容器 vs 虚拟机对比
+
+| 特性 | Docker 容器 | 虚拟机 |
+|------|-------------|--------|
+| 启动速度 | 秒级 | 分钟级 |
+| 资源占用 | 轻量（MB） | 重量级（GB） |
+| 性能 | 接近原生 | 有虚拟化开销 |
+| 隔离性 | 进程级隔离 | 系统级隔离 |
+| 镜像大小 | 小（MB 级） | 大（GB 级） |
+| 部署密度 | 单机可部署数百个 | 单机通常 10-20 个 |
+| 移植性 | 优秀 | 一般 |
+
+---
+
+## Docker 核心概念
+
+### 镜像（Image）
+
+镜像是只读的模板，包含运行应用所需的代码、运行时、库、环境变量和配置文件。
+
+```
+镜像分层结构：
+
+┌─────────────────────────────────────┐
+│  Layer N: 应用代码层 (Your App)     │  ← 可读写层（容器层）
+├─────────────────────────────────────┤
+│  Layer 3: 应用依赖 (Python/Node)    │
+├─────────────────────────────────────┤
+│  Layer 2: 系统工具 (curl/vim)       │
+├─────────────────────────────────────┤
+│  Layer 1: 基础镜像 (Ubuntu/Alpine)  │
+├─────────────────────────────────────┤
+│  Layer 0: 基础系统 (bootfs)         │
+└─────────────────────────────────────┘
+
+特点：
+- 每一层都是只读的
+- 层可以共享，节省存储
+- 修改会创建新层
+```
+
+### 容器（Container）
+
+容器是镜像的运行实例，可以被创建、启动、停止、删除。
+
+```
+容器 = 镜像 + 可写层
+
+┌─────────────────────────────────────┐
+│  Container Layer (可写层)           │  ← 容器运行时修改
+├─────────────────────────────────────┤
+│  Image Layers (只读层)              │  ← 共享镜像层
+└─────────────────────────────────────┘
+```
+
+### 仓库（Repository）
+
+仓库用于存储和分发镜像，类似代码仓库。
+
+| 仓库类型 | 地址 | 说明 |
+|----------|------|------|
+| Docker Hub | docker.io | 官方公共仓库 |
+| 阿里云镜像 | registry.cn-*.aliyuncs.com | 国内加速 |
+| 私有仓库 | Harbor/Nexus | 企业内部使用 |
+
+---
+
+## Docker 安装
+
+### Linux 安装
+
+```bash
+# 卸载旧版本
+sudo apt-get remove docker docker-engine docker.io containerd runc
+
+# 安装依赖
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg lsb-release
+
+# 添加 Docker 官方 GPG 密钥
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+# 设置仓库
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# 安装 Docker
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+# 验证安装
+sudo docker --version
+sudo docker run hello-world
+```
+
+### macOS 安装
+
+```bash
+# 使用 Homebrew 安装
+brew install --cask docker
+
+# 或者下载 Docker Desktop
+# https://www.docker.com/products/docker-desktop
+```
+
+### 配置镜像加速（国内）
+
+```bash
+# 创建/编辑配置文件
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": [
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ]
+}
+EOF
+
+# 重启 Docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
+
+---
+
+## Docker 基础命令
+
+### 镜像管理
+
+```bash
+# 搜索镜像
+docker search nginx
+
+# 拉取镜像
+docker pull nginx:latest
+docker pull nginx:1.21
+
+# 查看本地镜像
+docker images
+docker image ls
+
+# 删除镜像
+docker rmi nginx:latest
+docker image rm nginx
+
+# 构建镜像
+docker build -t myapp:1.0 .
+
+# 查看镜像历史
+docker history nginx
+
+# 给镜像打标签
+docker tag nginx:latest myregistry/nginx:v1.0
+
+# 推送镜像到仓库
+docker push myregistry/nginx:v1.0
+```
+
+### 容器生命周期
+
+```bash
+# 运行容器
+docker run -d --name mynginx -p 80:80 nginx
+
+# 常用 run 参数
+# -d: 后台运行
+# --name: 指定容器名
+# -p: 端口映射（主机端口:容器端口）
+# -v: 挂载卷（主机目录:容器目录）
+# -e: 设置环境变量
+# --network: 指定网络
+# --restart: 重启策略
+
+# 查看运行中的容器
+docker ps
+docker container ls
+
+# 查看所有容器（包括停止的）
+docker ps -a
+
+# 启动/停止/重启容器
+docker start mynginx
+docker stop mynginx
+docker restart mynginx
+
+# 进入容器内部
+docker exec -it mynginx /bin/bash
+docker exec -it mynginx sh
+
+# 查看容器日志
+docker logs mynginx
+docker logs -f mynginx  # 实时跟踪
+
+# 删除容器
+docker rm mynginx
+docker rm -f mynginx  # 强制删除运行中的容器
+
+# 清理已停止的容器
+docker container prune
+```
+
+### 数据管理
+
+```bash
+# 创建数据卷
+docker volume create mydata
+
+# 查看数据卷
+docker volume ls
+
+# 使用数据卷运行容器
+docker run -d -v mydata:/data nginx
+
+# 绑定挂载（主机目录挂载到容器）
+docker run -d -v /host/path:/container/path nginx
+
+# 查看数据卷详情
+docker volume inspect mydata
+
+# 删除数据卷
+docker volume rm mydata
+```
+
+---
+
+## Dockerfile 详解
+
+### 基础语法
+
+```dockerfile
+# 基础镜像
+FROM ubuntu:22.04
+
+# 维护者信息
+LABEL maintainer="developer@example.com"
+
+# 环境变量
+ENV NODE_VERSION=18
+ENV APP_HOME=/app
+
+# 工作目录
+WORKDIR $APP_HOME
+
+# 安装依赖
+RUN apt-get update && apt-get install -y \
+    curl \
+    vim \
+    && rm -rf /var/lib/apt/lists/*
+
+# 复制文件
+COPY package*.json ./
+COPY . .
+
+# 安装 Node 依赖
+RUN npm install
+
+# 暴露端口
+EXPOSE 3000
+
+# 健康检查
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:3000/health || exit 1
+
+# 启动命令
+CMD ["node", "server.js"]
+```
+
+### Dockerfile 指令大全
+
+| 指令 | 说明 | 示例 |
+|------|------|------|
+| FROM | 指定基础镜像 | `FROM node:18-alpine` |
+| RUN | 执行命令 | `RUN npm install` |
+| CMD | 容器启动默认命令 | `CMD ["node", "app.js"]` |
+| ENTRYPOINT | 容器启动入口 | `ENTRYPOINT ["python"]` |
+| COPY | 复制文件到镜像 | `COPY . /app` |
+| ADD | 复制文件（支持 URL/压缩包） | `ADD https://... /tmp/` |
+| WORKDIR | 设置工作目录 | `WORKDIR /app` |
+| ENV | 设置环境变量 | `ENV PORT=8080` |
+| ARG | 构建参数 | `ARG VERSION=1.0` |
+| EXPOSE | 暴露端口 | `EXPOSE 8080` |
+| VOLUME | 挂载点 | `VOLUME ["/data"]` |
+| USER | 指定用户 | `USER appuser` |
+| LABEL | 元数据标签 | `LABEL version="1.0"` |
+| HEALTHCHECK | 健康检查 | `HEALTHCHECK CMD curl...` |
+
+### 多阶段构建
+
+```dockerfile
+# 构建阶段
+FROM node:18-alpine AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+RUN npm run build
+
+# 生产阶段
+FROM nginx:alpine
+COPY --from=builder /app/dist /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+
+优势：
+- 减小最终镜像体积
+- 分离构建依赖和运行依赖
+- 提高安全性（不包含构建工具）
+
+---
+
+## Docker 网络
+
+### 网络模式
+
+| 模式 | 说明 | 使用场景 |
+|------|------|----------|
+| bridge | 默认模式，容器间通过网桥通信 | 单机多容器 |
+| host | 共享主机网络栈 | 高性能网络 |
+| none | 无网络 | 完全隔离 |
+| container | 共享另一个容器的网络 | Sidecar 模式 |
+| overlay | 跨主机网络 | Swarm/K8s |
+
+### 网络命令
+
+```bash
+# 查看网络列表
+docker network ls
+
+# 创建网络
+docker network create mynetwork
+docker network create --driver bridge mybridge
+
+# 查看网络详情
+docker network inspect mynetwork
+
+# 运行容器并指定网络
+docker run -d --name web --network mynetwork nginx
+docker run -d --name db --network mynetwork mysql
+
+# 容器间可以通过容器名通信
+docker exec web ping db
+
+# 连接容器到网络
+docker network connect mynetwork container_name
+
+# 断开容器网络
+docker network disconnect mynetwork container_name
+
+# 删除网络
+docker network rm mynetwork
+```
+
+### 网络架构图
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                         Docker 网络架构                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   ┌─────────────────────────────────────────────────────────┐  │
+│   │                    docker0 (网桥)                        │  │
+│   │                   172.17.0.1/16                         │  │
+│   └──────┬─────────────────┬─────────────────┬──────────────┘  │
+│          │                 │                 │                 │
+│          ▼                 ▼                 ▼                 │
+│   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐        │
+│   │  Container A│   │  Container B│   │  Container C│        │
+│   │  172.17.0.2 │   │  172.17.0.3 │   │  172.17.0.4 │        │
+│   │             │◄─►│             │◄─►│             │        │
+│   │   nginx     │   │    app      │   │    db       │        │
+│   └─────────────┘   └─────────────┘   └─────────────┘        │
+│                                                                 │
+│   容器间通过 docker0 网桥通信，默认可以互相访问                   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Docker Compose
+
+### 什么是 Docker Compose
+
+Docker Compose 是用于定义和运行多容器 Docker 应用的工具，使用 YAML 文件配置应用服务。
+
+### docker-compose.yml 示例
+
+```yaml
+version: '3.8'
+
+services:
+  web:
+    build: ./web
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    networks:
+      - frontend
+    restart: unless-stopped
+
+  api:
+    build: ./api
+    environment:
+      - DB_HOST=db
+      - DB_PORT=3306
+      - REDIS_HOST=redis
+    depends_on:
+      - db
+      - redis
+    networks:
+      - frontend
+      - backend
+    restart: unless-stopped
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: myapp
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - backend
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis_data:/data
+    networks:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  db_data:
+  redis_data:
+
+networks:
+  frontend:
+  backend:
+```
+
+### Compose 常用命令
+
+```bash
+# 启动所有服务
+docker-compose up -d
+
+# 停止所有服务
+docker-compose down
+
+# 停止并删除卷
+docker-compose down -v
+
+# 查看服务状态
+docker-compose ps
+
+# 查看日志
+docker-compose logs
+docker-compose logs -f web
+
+# 构建镜像
+docker-compose build
+
+# 重启服务
+docker-compose restart
+
+# 扩展服务实例数
+docker-compose up -d --scale web=3
+```
+
+---
+
+## Docker 最佳实践
+
+### 镜像优化
+
+```dockerfile
+# 1. 使用精简基础镜像
+FROM node:18-alpine  # 推荐
+# 避免: FROM ubuntu:latest + apt-get install nodejs
+
+# 2. 合并 RUN 指令，减少层数
+RUN apt-get update && apt-get install -y \
+    package1 \
+    package2 \
+    && rm -rf /var/lib/apt/lists/*
+
+# 3. 使用 .dockerignore
+# .dockerignore 内容：
+# node_modules
+# .git
+# .env
+# *.log
+
+# 4. 多阶段构建减小体积
+FROM node:18 AS builder
+WORKDIR /app
+COPY . .
+RUN npm ci && npm run build
+
+FROM nginx:alpine
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# 5. 指定具体版本标签
+FROM nginx:1.21.6-alpine
+# 避免: FROM nginx:latest
+```
+
+### 安全实践
+
+```dockerfile
+# 1. 使用非 root 用户运行
+RUN groupadd -r appgroup && useradd -r -g appgroup appuser
+USER appuser
+
+# 2. 最小权限原则
+# 只安装必要的包
+# 只暴露必要的端口
+
+# 3. 定期更新基础镜像
+# 使用镜像扫描工具: docker scan, Trivy
+
+# 4. 使用只读文件系统
+ docker run --read-only nginx
+
+# 5. 限制容器资源
+ docker run -m 512m --cpus=1.5 nginx
+```
+
+### 容器编排演进
+
+```
+单容器 → 多容器 → Docker Compose → Docker Swarm → Kubernetes
+
+单容器:     docker run
+           适合简单应用
+
+多容器:     手动管理多个 docker run
+           容器间通信困难
+
+Compose:    docker-compose up
+           单机多容器编排
+           适合开发/测试环境
+
+Swarm:      docker swarm init
+           原生集群编排
+           简单易用，功能有限
+
+Kubernetes: kubectl apply
+           企业级容器编排
+           功能丰富，生态完善
+```
+
+---
+
+## 面试常见问题
+
+### Q1: Docker 和虚拟机有什么区别？
+
+**答**：主要区别：1）架构不同：容器共享宿主机内核，虚拟机有独立内核；2）启动速度：容器秒级，虚拟机分钟级；3）资源占用：容器轻量（MB），虚拟机重量级（GB）；4）隔离性：虚拟机系统级隔离更强，容器进程级隔离。
+
+### Q2: 什么是 Docker 镜像分层？
+
+**答**：Docker 镜像采用联合文件系统（UnionFS），由多个只读层组成。每一层代表 Dockerfile 中的一个指令。分层的好处：1）共享层减少存储；2）加速镜像构建和传输；3）便于镜像复用。
+
+### Q3: 如何减小 Docker 镜像体积？
+
+**答**：1）使用精简基础镜像（Alpine）；2）多阶段构建；3）合并 RUN 指令；4）清理缓存和临时文件；5）使用 .dockerignore 排除不必要文件。
+
+### Q4: 容器数据如何持久化？
+
+**答**：三种方式：1）数据卷（Volume）：Docker 管理，推荐；2）绑定挂载（Bind Mount）：主机目录挂载；3）tmpfs 挂载：内存存储，临时数据。
+
+---
+
+## 下一步学习
+
+- [Kubernetes 核心概念](/kb/kubernetes) - 学习容器编排
+- [微服务架构设计](/kb/) - 了解微服务设计原则
+- [Serverless/FaaS 函数计算](/kb/serverlessfaas) - 了解 Serverless 容器

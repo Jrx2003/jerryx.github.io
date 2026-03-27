@@ -1,0 +1,1560 @@
+{
+  "generatedAt": "2026-03-27T16:16:07.111Z",
+  "totalFiles": 154,
+  "categories": {
+    "Quant": [
+      "",
+      "readme",
+      "readme",
+      "readme",
+      "",
+      "",
+      "",
+      "readme",
+      "python",
+      "readme",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "readme",
+      "",
+      "",
+      "",
+      "readme",
+      "",
+      "",
+      "",
+      "readme"
+    ],
+    "Quant Research": [
+      "",
+      "readme",
+      "readme",
+      "2025-04-borri-forward-selection-fama-macbeth",
+      "readme",
+      "2025-01-kelly-artificial-intelligence-asset-pricing",
+      "readme",
+      "readme",
+      "readme",
+      "2025-04-kelly-universal-portfolio-shrinkage",
+      "readme",
+      "readme",
+      "2025-07-dou-ai-powered-trading-algorithmic-collusion",
+      "readme"
+    ],
+    "Cloud Computing": [
+      "docker",
+      "faas",
+      "kubernetes",
+      "kubernetes",
+      "serverless",
+      "service-mesh",
+      "webassembly",
+      "",
+      "",
+      "",
+      "2024-2025",
+      "ai-maas",
+      "finops",
+      "",
+      "",
+      "",
+      "",
+      "vpc",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "LLM": [
+      "ai-agent",
+      "agent",
+      "",
+      "react",
+      "2024-2025-llm",
+      "moe",
+      "o1",
+      "",
+      "",
+      "transformer",
+      "transformer",
+      "",
+      "",
+      "clip",
+      "",
+      "vlm",
+      "dpo",
+      "rlhf",
+      "",
+      "sft",
+      "kv-cache",
+      "vllmpagedattention",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "llm",
+      "",
+      "",
+      "bert",
+      "bert",
+      "gpt",
+      "gpt",
+      "",
+      ""
+    ],
+    "SearchRec": [
+      "",
+      "",
+      "",
+      "2024-2025",
+      "llm4rec",
+      "",
+      "",
+      "",
+      "",
+      "gnn",
+      "gnn",
+      "gnn",
+      "graphsage-gat",
+      "esmm-essm",
+      "ple",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "bert4rec",
+      "gru4rec-narm",
+      "gru4recsasrec",
+      "sasrec-bert4rec",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "learning-to-rank",
+      "",
+      "",
+      "",
+      "dindien",
+      "deepfm-xdeepfm",
+      "deepfm",
+      "mmoe",
+      "wide-deep",
+      "widedeep",
+      "ab",
+      "",
+      ""
+    ],
+    "News": [
+      "index",
+      "readme",
+      "13",
+      "14",
+      "16",
+      "17",
+      "19",
+      "27"
+    ]
+  },
+  "files": [
+    {
+      "title": "知识库索引",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "readme",
+      "path": "kb/quant/readme.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "readme",
+      "path": "kb/quant/readme.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "readme",
+      "path": "kb/quant/readme.md"
+    },
+    {
+      "title": "双均线策略实战",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "多因子选股模型实战",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "配对交易策略实战",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "readme",
+      "path": "kb/quant/readme.md"
+    },
+    {
+      "title": "Python编程基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "python",
+      "path": "kb/quant/python.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "readme",
+      "path": "kb/quant/readme.md"
+    },
+    {
+      "title": "数值计算方法",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "时间序列分析基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "概率论与统计基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "线性代数基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "量化金融入门指南",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "量化金融学习路线图",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "随机过程基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "readme",
+      "path": "kb/quant/readme.md"
+    },
+    {
+      "title": "动量策略",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "因子投资概述",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "均值回归策略",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "readme",
+      "path": "kb/quant/readme.md"
+    },
+    {
+      "title": "股票与股票市场",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "衍生品基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "金融市场概述",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "",
+      "path": "kb/quant/.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant",
+      "slug": "readme",
+      "path": "kb/quant/readme.md"
+    },
+    {
+      "title": "索引",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "",
+      "path": "research/quant/.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "2025-04-Borri-Forward-Selection-Fama-MacBeth",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "2025-04-borri-forward-selection-fama-macbeth",
+      "path": "research/quant/2025-04-borri-forward-selection-fama-macbeth.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "2025-01-Kelly-Artificial-Intelligence-Asset-Pricing",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "2025-01-kelly-artificial-intelligence-asset-pricing",
+      "path": "research/quant/2025-01-kelly-artificial-intelligence-asset-pricing.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "2025-04-Kelly-Universal-Portfolio-Shrinkage",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "2025-04-kelly-universal-portfolio-shrinkage",
+      "path": "research/quant/2025-04-kelly-universal-portfolio-shrinkage.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "2025-07-Dou-AI-Powered-Trading-Algorithmic-Collusion",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "2025-07-dou-ai-powered-trading-algorithmic-collusion",
+      "path": "research/quant/2025-07-dou-ai-powered-trading-algorithmic-collusion.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Quant Research",
+      "slug": "readme",
+      "path": "research/quant/readme.md"
+    },
+    {
+      "title": "Docker 容器基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "docker",
+      "path": "kb/cloud/docker.md"
+    },
+    {
+      "title": "FaaS 函数计算",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "faas",
+      "path": "kb/cloud/faas.md"
+    },
+    {
+      "title": "Kubernetes 核心概念",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "kubernetes",
+      "path": "kb/cloud/kubernetes.md"
+    },
+    {
+      "title": "Kubernetes架构详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "kubernetes",
+      "path": "kb/cloud/kubernetes.md"
+    },
+    {
+      "title": "Serverless 架构演进",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "serverless",
+      "path": "kb/cloud/serverless.md"
+    },
+    {
+      "title": "Service Mesh 详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "service-mesh",
+      "path": "kb/cloud/service-mesh.md"
+    },
+    {
+      "title": "WebAssembly 与云原生",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "webassembly",
+      "path": "kb/cloud/webassembly.md"
+    },
+    {
+      "title": "冷启动优化技术",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "微服务架构设计",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "边缘计算与分布式云",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "2024-2025云计算前沿趋势",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "2024-2025",
+      "path": "kb/cloud/2024-2025.md"
+    },
+    {
+      "title": "AI 基础设施与 MaaS",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "ai-maas",
+      "path": "kb/cloud/ai-maas.md"
+    },
+    {
+      "title": "FinOps 云成本优化",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "finops",
+      "path": "kb/cloud/finops.md"
+    },
+    {
+      "title": "机密计算与零信任",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "云计算入门指南",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "云计算核心概念",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "服务模式详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "网络架构与VPC",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "vpc",
+      "path": "kb/cloud/vpc.md"
+    },
+    {
+      "title": "虚拟化技术详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "部署模式对比",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "存储服务对比",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "计算服务概览",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "云平台对比分析",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "云计算高频面试题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "场景设计题精讲",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "容器服务选型指南",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "Cloud Computing",
+      "slug": "",
+      "path": "kb/cloud/.md"
+    },
+    {
+      "title": "AI Agent在广告推荐中的多智能体架构",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "ai-agent",
+      "path": "kb/llm/ai-agent.md"
+    },
+    {
+      "title": "Agent 规划能力",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "agent",
+      "path": "kb/llm/agent.md"
+    },
+    {
+      "title": "工具学习与使用",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "ReAct推理框架",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "react",
+      "path": "kb/llm/react.md"
+    },
+    {
+      "title": "2024-2025 LLM前沿趋势",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "2024-2025-llm",
+      "path": "kb/llm/2024-2025-llm.md"
+    },
+    {
+      "title": "MoE混合专家模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "moe",
+      "path": "kb/llm/moe.md"
+    },
+    {
+      "title": "o1类推理模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "o1",
+      "path": "kb/llm/o1.md"
+    },
+    {
+      "title": "模型合并与编辑",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "高效微调技术",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "Transformer 详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "transformer",
+      "path": "kb/llm/transformer.md"
+    },
+    {
+      "title": "Transformer详解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "transformer",
+      "path": "kb/llm/transformer.md"
+    },
+    {
+      "title": "位置编码技术演进",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "注意力机制深入理解",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "CLIP 与视觉编码",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "clip",
+      "path": "kb/llm/clip.md"
+    },
+    {
+      "title": "多模态基础架构",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "视觉语言模型 VLM",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "vlm",
+      "path": "kb/llm/vlm.md"
+    },
+    {
+      "title": "DPO直接偏好优化",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "dpo",
+      "path": "kb/llm/dpo.md"
+    },
+    {
+      "title": "RLHF深度解析",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "rlhf",
+      "path": "kb/llm/rlhf.md"
+    },
+    {
+      "title": "对齐技术对比",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "指令微调与 SFT",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "sft",
+      "path": "kb/llm/sft.md"
+    },
+    {
+      "title": "KV Cache优化",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "kv-cache",
+      "path": "kb/llm/kv-cache.md"
+    },
+    {
+      "title": "vLLM与PagedAttention",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "vllmpagedattention",
+      "path": "kb/llm/vllmpagedattention.md"
+    },
+    {
+      "title": "投机解码",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "模型量化技术",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "上下文压缩技术",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "位置外推与插值",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "长上下文技术概览",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "LLM高频面试题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "llm",
+      "path": "kb/llm/llm.md"
+    },
+    {
+      "title": "手撕代码题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "系统设计题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "BERT 与编码器模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "bert",
+      "path": "kb/llm/bert.md"
+    },
+    {
+      "title": "BERT与编码器模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "bert",
+      "path": "kb/llm/bert.md"
+    },
+    {
+      "title": "GPT 系列模型演进",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "gpt",
+      "path": "kb/llm/gpt.md"
+    },
+    {
+      "title": "GPT系列模型演进",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "gpt",
+      "path": "kb/llm/gpt.md"
+    },
+    {
+      "title": "数据工程与清洗",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "预训练策略与技巧",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "LLM",
+      "slug": "",
+      "path": "kb/llm/.md"
+    },
+    {
+      "title": "冷启动问题与策略",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "多样性与新颖性",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "探索与利用",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "2024-2025搜推前沿趋势",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "2024-2025",
+      "path": "kb/searchrec/2024-2025.md"
+    },
+    {
+      "title": "LLM4Rec大模型推荐",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "llm4rec",
+      "path": "kb/searchrec/llm4rec.md"
+    },
+    {
+      "title": "因果推荐",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "大模型推荐系统",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "生成式推荐",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "跨域推荐",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "GNN 在搜推中的应用",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "gnn",
+      "path": "kb/searchrec/gnn.md"
+    },
+    {
+      "title": "GNN 基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "gnn",
+      "path": "kb/searchrec/gnn.md"
+    },
+    {
+      "title": "GNN基础与应用",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "gnn",
+      "path": "kb/searchrec/gnn.md"
+    },
+    {
+      "title": "GraphSAGE 与 GAT",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "graphsage-gat",
+      "path": "kb/searchrec/graphsage-gat.md"
+    },
+    {
+      "title": "ESMM 与 ESSM",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "esmm-essm",
+      "path": "kb/searchrec/esmm-essm.md"
+    },
+    {
+      "title": "PLE 与递归冷启动",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "ple",
+      "path": "kb/searchrec/ple.md"
+    },
+    {
+      "title": "多目标优化",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "在线学习",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "在线学习系统",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "流式计算基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "特征实时化",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "BERT4Rec",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "bert4rec",
+      "path": "kb/searchrec/bert4rec.md"
+    },
+    {
+      "title": "GRU4Rec 与 NARM",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "gru4rec-narm",
+      "path": "kb/searchrec/gru4rec-narm.md"
+    },
+    {
+      "title": "GRU4Rec与SASRec",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "gru4recsasrec",
+      "path": "kb/searchrec/gru4recsasrec.md"
+    },
+    {
+      "title": "SASRec 与 BERT4Rec",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "sasrec-bert4rec",
+      "path": "kb/searchrec/sasrec-bert4rec.md"
+    },
+    {
+      "title": "序列建模基础",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "长序列建模",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "协同过滤算法",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "召回与排序框架",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "推荐系统概述",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "矩阵分解与因子分解机",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "评估指标体系",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "Learning to Rank",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "learning-to-rank",
+      "path": "kb/searchrec/learning-to-rank.md"
+    },
+    {
+      "title": "搜索系统架构",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "相关性计算",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "语义搜索与向量检索",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "DIN与DIEN",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "dindien",
+      "path": "kb/searchrec/dindien.md"
+    },
+    {
+      "title": "DeepFM 与 xDeepFM",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "deepfm-xdeepfm",
+      "path": "kb/searchrec/deepfm-xdeepfm.md"
+    },
+    {
+      "title": "DeepFM家族",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "deepfm",
+      "path": "kb/searchrec/deepfm.md"
+    },
+    {
+      "title": "MMoE与多任务学习",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "mmoe",
+      "path": "kb/searchrec/mmoe.md"
+    },
+    {
+      "title": "Wide & Deep 模型",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "wide-deep",
+      "path": "kb/searchrec/wide-deep.md"
+    },
+    {
+      "title": "Wide&Deep架构",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "widedeep",
+      "path": "kb/searchrec/widedeep.md"
+    },
+    {
+      "title": "AB 实验与评估",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "ab",
+      "path": "kb/searchrec/ab.md"
+    },
+    {
+      "title": "搜推高频面试题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "系统设计题",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "SearchRec",
+      "slug": "",
+      "path": "kb/searchrec/.md"
+    },
+    {
+      "title": "INDEX",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "News",
+      "slug": "index",
+      "path": "news/index.md"
+    },
+    {
+      "title": "README",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "News",
+      "slug": "readme",
+      "path": "news/readme.md"
+    },
+    {
+      "title": "13热点",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "News",
+      "slug": "13",
+      "path": "news/13.md"
+    },
+    {
+      "title": "14热点",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "News",
+      "slug": "14",
+      "path": "news/14.md"
+    },
+    {
+      "title": "16热点",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "News",
+      "slug": "16",
+      "path": "news/16.md"
+    },
+    {
+      "title": "17热点",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "News",
+      "slug": "17",
+      "path": "news/17.md"
+    },
+    {
+      "title": "19热点",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "News",
+      "slug": "19",
+      "path": "news/19.md"
+    },
+    {
+      "title": "27热点",
+      "description": "",
+      "date": null,
+      "tags": [],
+      "category": "News",
+      "slug": "27",
+      "path": "news/27.md"
+    }
+  ]
+}
